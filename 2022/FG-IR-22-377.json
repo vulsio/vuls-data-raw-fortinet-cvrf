@@ -1,0 +1,286 @@
+{
+	"document_title": "FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-377"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-10-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-10-10T00:00:00",
+		"current_release_date": "2022-10-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An authentication bypass using an alternate path or channel vulnerability [CWE-288] in FortiOS, FortiProxy and FortiSwitchManager may allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.   Exploitation Status: Fortinet is aware of an instance where this vulnerability was exploited, and recommends immediately validating your systems against the following indicator of compromise in the device's logs: user=\"Local_Process_Access\"  Please contact customer support for assistance.   UPDATE: Fortinet is aware of instances where this vulnerability was exploited to download the config file from the targeted devices, and to add a malicious super_admin account called  \"fortigate-tech-support\": # show system admin edit \"fortigate-tech-support\" set accprofile \"super_admin\" set vdom \"root\" set password ENC [...] next Please contact customer support for assistance.   Workaround: FortiOS: Disable HTTP/HTTPS administrative interface OR Limit IP addresses that can reach the administrative interface: config firewall address edit \"my_allowed_addresses\" set subnet <MY IP> <MY SUBNET> end Then create an Address Group: config firewall addrgrp edit \"MGMT_IPs\" set member \"my_allowed_addresses\" end Create the Local in Policy to restrict access only to the predefined group on management interface (here: port1): config firewall local-in-policy edit 1 set intf port1 set srcaddr \"MGMT_IPs\" set dstaddr \"all\" set action accept set service HTTPS HTTP set schedule \"always\" set status enable next edit 2 set intf \"any\" set srcaddr \"all\" set dstaddr \"all\" set action deny set service HTTPS HTTP set schedule \"always\" set status enable end If using non default ports, create appropriate service object for GUI administrative access: config firewall service custom edit GUI_HTTPS set tcp-portrange <admin-sport> next edit GUI_HTTP set tcp-portrange <admin-port> end Use these objects instead of \"HTTPS HTTP \"in the local-in policy 1 and 2 below. UPDATE: When using an HA reserved management interface, the local in policy needs to be configured slightly differently - please see: https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-configure-a-local-in-policy-on-a-HA/ta-p/222005 Please contact customer support for assistance.   FortiProxy: Disable HTTP/HTTPS administrative interface OR For FortiProxy VM all versions or FortiProxy appliance 7.0.6: Limit IP addresses that can reach the administrative interface (here: port1): config system interface edit port1 set dedicated-to management set trust-ip-1 <MY IP> <MY SUBNET> end Please contact customer support for assistance.   FortiSwitchManager: DIsable HTTP/HTTPS administrative interface Please contact customer support for assistance.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiOS versions 5.x, 6.x are NOT impacted. FortiOS version 7.2.0 through 7.2.1 FortiOS version 7.0.0 through 7.0.6 FortiProxy version 7.2.0 FortiProxy version 7.0.0 through 7.0.6 FortiSwitchManager version 7.2.0 FortiSwitchManager version 7.0.0\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiOS version 7.2.2 or above Please upgrade to FortiOS version 7.0.7 or above Please upgrade to FortiProxy version 7.2.1 or above Please upgrade to FortiProxy version 7.0.7 or above Please upgrade to FortiSwitchManager version 7.2.1 or above Please upgrade to FortiSwitchManager version 7.0.1 or above Please upgrade to FortiOS version 7.0.5 B8001 or above for FG6000F and 7000E/F series platforms\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-377",
+					"description": "FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-40684"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.6",
+					"FortiProxy-7.0.5",
+					"FortiProxy-7.0.4",
+					"FortiProxy-7.0.3",
+					"FortiProxy-7.0.2",
+					"FortiProxy-7.0.1",
+					"FortiProxy-7.0.0",
+					"FortiSwitchManager-7.2.0",
+					"FortiSwitchManager-7.0.0",
+					"FortiOS-7.2.1",
+					"FortiOS-7.2.0",
+					"FortiOS-7.0.6",
+					"FortiOS-7.0.5",
+					"FortiOS-7.0.4",
+					"FortiOS-7.0.3",
+					"FortiOS-7.0.2",
+					"FortiOS-7.0.1",
+					"FortiOS-7.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.2.0",
+								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.6",
+								"product_id": "FortiProxy-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.5",
+								"product_id": "FortiProxy-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.4",
+								"product_id": "FortiProxy-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.3",
+								"product_id": "FortiProxy-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.2",
+								"product_id": "FortiProxy-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.1",
+								"product_id": "FortiProxy-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.0",
+								"product_id": "FortiProxy-7.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSwitchManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitchManager 7.2.0",
+								"product_id": "FortiSwitchManager-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitchManager 7.0.0",
+								"product_id": "FortiSwitchManager-7.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.1",
+								"product_id": "FortiOS-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.0",
+								"product_id": "FortiOS-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.6",
+								"product_id": "FortiOS-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.5",
+								"product_id": "FortiOS-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.4",
+								"product_id": "FortiOS-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.3",
+								"product_id": "FortiOS-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.2",
+								"product_id": "FortiOS-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.1",
+								"product_id": "FortiOS-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.0",
+								"product_id": "FortiOS-7.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

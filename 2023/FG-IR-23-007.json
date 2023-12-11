@@ -1,0 +1,121 @@
+{
+	"document_title": "FortiEDR Central Manager - Session API token does not expires after a renewal",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-007"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-10-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-10-10T00:00:00",
+		"current_release_date": "2023-10-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An insufficient session expiration vulnerability [CWE-613] in FortiEDR Central Manager may allow an attacker to reuse the unexpired user API access token to gain privileges, should the attacker be able to obtain that API access token (via other, hypothetical attacks).\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiEDR version 5.2.0.2501 or above Please upgrade to FortiEDR version 5.0.3.873 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank security researcher Kevin Carli for discovering and reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiEDR Central Manager - Session API token does not expires after a renewal",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-007",
+					"description": "FortiEDR Central Manager - Session API token does not expires after a renewal"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-33303"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiEDR-5.0.1",
+					"FortiEDR-5.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.7",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiEDR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.1",
+								"product_id": "FortiEDR-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.0",
+								"product_id": "FortiEDR-5.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

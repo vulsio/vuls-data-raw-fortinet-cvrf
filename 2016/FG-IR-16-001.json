@@ -1,0 +1,79 @@
+{
+	"document_title": "Multiple Products SSH Undocumented Login Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-001"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-01-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-01-12T00:00:00",
+		"current_release_date": "2016-01-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An undocumented account used for communication with authorized FortiManager devices exists on some versions of FortiOS, FortiAnalyzer, FortiSwitch and FortiCache. On vulnerable versions, and provided \"Administrative Access\" is enabled for SSH, this account can be used to log in via SSH in Interactive-Keyboard mode, using a password shared across all devices. It gives access to a CLI console with administrative rights.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Remote console access to vulnerable devices with \"Administrative Access\" enabled for SSH\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            * FortiAnalyzer: 5.0.5 to 5.0.11 and 5.2.0 to 5.2.4 (branch 4.3 is not affected) * FortiSwitch: 3.3.0 to 3.3.2 * FortiCache: 3.0.0 to 3.0.7 (branch 3.1 is not affected) * FortiOS 4.1.0 to 4.1.10 * FortiOS 4.2.0 to 4.2.15 * FortiOS 4.3.0 to 4.3.16 * FortiOS 5.0.0 to 5.0.7 Note that later branches of FortiOS (FortiOS 5.2 and 5.4) are not affected, nor are older legacy branches (FortiOS 4.0 and below).\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiAnalyzer: Upgrade to 5.0.12 or 5.2.5 FortiSwitch: Upgrade to 3.3.3 FortiCache: Upgrade to 3.0.8 or to branch 3.1 FortiOS: Upgrade to any of the currently available versions below: 4.1.11 4.2.16 4.3.17 or later in branch 4.3 5.0.8 or later in branch 5.0 5.2.0 or later in branch 5.2 5.4.0 Note: For Customers that have no formal support contract and require access to updated firmware, please contact Customer Services at cs@fortinet.com in the first instance. Workarounds: FortiAnalyzer: One can restrict access to the administration interfaces (including SSH access) to a minimal set of authorized IP addresses, via the trusthost commands. FortiSwitch: Disable admin access via SSH on all interfaces, and use the Web GUI instead, or the console applet of the GUI for CLI access. FortiCache: Disable admin access via SSH on all interfaces, and use the Web GUI instead, or the console applet of the GUI for CLI access. If management by a FortiManager device is not needed, the following CLI commands disable access with the undocumented account: config system central-management set type fortiguard end FortiOS: Disable admin access via SSH on all interfaces, and use the Web GUI instead, or the console applet of the GUI for CLI access. On 5.0 and 4.3, if SSH access is mandatory, one can restrict access to SSH to a minimal set of authorized IP addresses, via the Local In policies. On 4.2 and 4.1, if SSH access is mandatory, one can restrict access to the administration interfaces (including SSH access) to a minimal set of authorized IP addresses, via the trusthost commands. If management by a FortiManager device is not needed, the following CLI commands disable access with the undocumented account: config system central-management set type fortiguard end\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple Products SSH Undocumented Login Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-001",
+					"description": "Multiple Products SSH Undocumented Login Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-1909"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

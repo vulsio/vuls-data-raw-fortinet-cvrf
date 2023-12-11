@@ -1,0 +1,273 @@
+{
+	"document_title": "FortiWeb SNMPv3 user password viewable in HTML source code",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-162"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-08-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-08-11T00:00:00",
+		"current_release_date": "2017-08-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The HTML source code of the FortiWeb SNMPv3 user edit webui page includes the user's password in cleartext.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb 5.8.2 and below until 5.4.1.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb version 5.8.3\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Florian NIVETTE of Sysdream for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb SNMPv3 user password viewable in HTML source code",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-162",
+					"description": "FortiWeb SNMPv3 user password viewable in HTML source code"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-7737"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-5.8.2",
+					"FortiWeb-5.8.1",
+					"FortiWeb-5.8.0",
+					"FortiWeb-5.7.3",
+					"FortiWeb-5.7.2",
+					"FortiWeb-5.7.1",
+					"FortiWeb-5.7.0",
+					"FortiWeb-5.6.2",
+					"FortiWeb-5.6.1",
+					"FortiWeb-5.6.0",
+					"FortiWeb-5.5.7",
+					"FortiWeb-5.5.6",
+					"FortiWeb-5.5.5",
+					"FortiWeb-5.5.4",
+					"FortiWeb-5.5.3",
+					"FortiWeb-5.5.2",
+					"FortiWeb-5.5.1",
+					"FortiWeb-5.5.0",
+					"FortiWeb-5.4.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.8.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.8.2",
+								"product_id": "FortiWeb-5.8.2"
+							}
+						},
+						{
+							"name": "5.8.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.8.1",
+								"product_id": "FortiWeb-5.8.1"
+							}
+						},
+						{
+							"name": "5.8.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.8.0",
+								"product_id": "FortiWeb-5.8.0"
+							}
+						},
+						{
+							"name": "5.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.3",
+								"product_id": "FortiWeb-5.7.3"
+							}
+						},
+						{
+							"name": "5.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.2",
+								"product_id": "FortiWeb-5.7.2"
+							}
+						},
+						{
+							"name": "5.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.1",
+								"product_id": "FortiWeb-5.7.1"
+							}
+						},
+						{
+							"name": "5.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.0",
+								"product_id": "FortiWeb-5.7.0"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.2",
+								"product_id": "FortiWeb-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.1",
+								"product_id": "FortiWeb-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.0",
+								"product_id": "FortiWeb-5.6.0"
+							}
+						},
+						{
+							"name": "5.5.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.7",
+								"product_id": "FortiWeb-5.5.7"
+							}
+						},
+						{
+							"name": "5.5.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.6",
+								"product_id": "FortiWeb-5.5.6"
+							}
+						},
+						{
+							"name": "5.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.5",
+								"product_id": "FortiWeb-5.5.5"
+							}
+						},
+						{
+							"name": "5.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.4",
+								"product_id": "FortiWeb-5.5.4"
+							}
+						},
+						{
+							"name": "5.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.3",
+								"product_id": "FortiWeb-5.5.3"
+							}
+						},
+						{
+							"name": "5.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.2",
+								"product_id": "FortiWeb-5.5.2"
+							}
+						},
+						{
+							"name": "5.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.1",
+								"product_id": "FortiWeb-5.5.1"
+							}
+						},
+						{
+							"name": "5.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.0",
+								"product_id": "FortiWeb-5.5.0"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.4.1",
+								"product_id": "FortiWeb-5.4.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

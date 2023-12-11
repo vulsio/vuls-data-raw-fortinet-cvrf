@@ -1,0 +1,385 @@
+{
+	"document_title": "FortiSandbox - Improper password storage mechanism",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-220"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-02-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-02-16T00:00:00",
+		"current_release_date": "2023-02-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A use of password hash with insufficient computational effort vulnerability [CWE-916] in FortiSandbox may allow an attacker with access to the password database to efficiently mount bulk guessing attacks to recover the passwords.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiDeceptor version 5.0.0FortiDeceptor 4.3 all versionsFortiDeceptor 4.2 all versionsFortiDeceptor 4.1 all versionsFortiDeceptor 4.0 all versionsFortiDeceptor 3.3 all versionsFortiDeceptor 3.2 all versionsFortiDeceptor 3.1 all versionsFortiDeceptor 3.0 all versionsFortiSandbox 4.0 all versionsFortiSandbox 3.2 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiSandbox version 4.2.0 and above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered by Giuseppe Cocomazzi."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSandbox - Improper password storage mechanism",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-220",
+					"description": "FortiSandbox - Improper password storage mechanism"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-26115"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSandbox-4.0.4",
+					"FortiSandbox-4.0.3",
+					"FortiSandbox-4.0.2",
+					"FortiSandbox-4.0.1",
+					"FortiSandbox-4.0.0",
+					"FortiSandbox-3.2.4",
+					"FortiSandbox-3.2.3",
+					"FortiSandbox-3.2.2",
+					"FortiSandbox-3.2.1",
+					"FortiSandbox-3.2.0",
+					"FortiDeceptor-5.0.0",
+					"FortiDeceptor-4.3.0",
+					"FortiDeceptor-4.2.0",
+					"FortiDeceptor-4.1.1",
+					"FortiDeceptor-4.1.0",
+					"FortiDeceptor-4.0.2",
+					"FortiDeceptor-4.0.1",
+					"FortiDeceptor-4.0.0",
+					"FortiDeceptor-3.3.3",
+					"FortiDeceptor-3.3.2",
+					"FortiDeceptor-3.3.1",
+					"FortiDeceptor-3.3.0",
+					"FortiDeceptor-3.2.2",
+					"FortiDeceptor-3.2.1",
+					"FortiDeceptor-3.2.0",
+					"FortiDeceptor-3.1.1",
+					"FortiDeceptor-3.1.0",
+					"FortiDeceptor-3.0.2",
+					"FortiDeceptor-3.0.1",
+					"FortiDeceptor-3.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.4",
+								"product_id": "FortiSandbox-4.0.4"
+							}
+						},
+						{
+							"name": "4.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.3",
+								"product_id": "FortiSandbox-4.0.3"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.2",
+								"product_id": "FortiSandbox-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.1",
+								"product_id": "FortiSandbox-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.0",
+								"product_id": "FortiSandbox-4.0.0"
+							}
+						},
+						{
+							"name": "3.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.4",
+								"product_id": "FortiSandbox-3.2.4"
+							}
+						},
+						{
+							"name": "3.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.3",
+								"product_id": "FortiSandbox-3.2.3"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.2",
+								"product_id": "FortiSandbox-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.1",
+								"product_id": "FortiSandbox-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.0",
+								"product_id": "FortiSandbox-3.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiDeceptor",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 5.0.0",
+								"product_id": "FortiDeceptor-5.0.0"
+							}
+						},
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.3.0",
+								"product_id": "FortiDeceptor-4.3.0"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.2.0",
+								"product_id": "FortiDeceptor-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.1.1",
+								"product_id": "FortiDeceptor-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.1.0",
+								"product_id": "FortiDeceptor-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.0.2",
+								"product_id": "FortiDeceptor-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.0.1",
+								"product_id": "FortiDeceptor-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.0.0",
+								"product_id": "FortiDeceptor-4.0.0"
+							}
+						},
+						{
+							"name": "3.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.3.3",
+								"product_id": "FortiDeceptor-3.3.3"
+							}
+						},
+						{
+							"name": "3.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.3.2",
+								"product_id": "FortiDeceptor-3.3.2"
+							}
+						},
+						{
+							"name": "3.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.3.1",
+								"product_id": "FortiDeceptor-3.3.1"
+							}
+						},
+						{
+							"name": "3.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.3.0",
+								"product_id": "FortiDeceptor-3.3.0"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.2.2",
+								"product_id": "FortiDeceptor-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.2.1",
+								"product_id": "FortiDeceptor-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.2.0",
+								"product_id": "FortiDeceptor-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.1.1",
+								"product_id": "FortiDeceptor-3.1.1"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.1.0",
+								"product_id": "FortiDeceptor-3.1.0"
+							}
+						},
+						{
+							"name": "3.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.0.2",
+								"product_id": "FortiDeceptor-3.0.2"
+							}
+						},
+						{
+							"name": "3.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.0.1",
+								"product_id": "FortiDeceptor-3.0.1"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 3.0.0",
+								"product_id": "FortiDeceptor-3.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

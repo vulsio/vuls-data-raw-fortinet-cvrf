@@ -1,0 +1,355 @@
+{
+	"document_title": "FortiOS local privilege escalation via malicious use of USB storage devices",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-245"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-05-18T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-05-18T00:00:00",
+		"current_release_date": "2018-05-18T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An admin user with super_admin privileges can execute an arbitrary binary contained on an USB drive plugged to a FortiGate, via linking the aforementioned binary to a command that is allowed to be run by the fnsysctl CLI command.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Local Privilege Escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS 5.6.0 to 5.6.2 FortiOS 5.4.0 to 5.4.8 FortiOS 5.2 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to 5.6.3 or 5.4.9 or newer versions Workarounds: * Switching to FIPS mode will ban the fnsysctl CLI command hence preventing the attack. * Only the super_admin profile has the privileges required to perform the attack, so avoid assigning it to administrators.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Shaanan Cohney of University of Pennsylvania for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS local privilege escalation via malicious use of USB storage devices",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-245",
+					"description": "FortiOS local privilege escalation via malicious use of USB storage devices"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-14187"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-5.6.2",
+					"FortiOS-5.6.1",
+					"FortiOS-5.6.0",
+					"FortiOS-5.4.8",
+					"FortiOS-5.4.7",
+					"FortiOS-5.4.6",
+					"FortiOS-5.4.5",
+					"FortiOS-5.4.4",
+					"FortiOS-5.4.3",
+					"FortiOS-5.4.2",
+					"FortiOS-5.4.1",
+					"FortiOS-5.4.0",
+					"FortiOS-5.2.15",
+					"FortiOS-5.2.14",
+					"FortiOS-5.2.13",
+					"FortiOS-5.2.12",
+					"FortiOS-5.2.11",
+					"FortiOS-5.2.10",
+					"FortiOS-5.2.9",
+					"FortiOS-5.2.8",
+					"FortiOS-5.2.7",
+					"FortiOS-5.2.6",
+					"FortiOS-5.2.5",
+					"FortiOS-5.2.4",
+					"FortiOS-5.2.3",
+					"FortiOS-5.2.2",
+					"FortiOS-5.2.1",
+					"FortiOS-5.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.1",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.2",
+								"product_id": "FortiOS-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.1",
+								"product_id": "FortiOS-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.0",
+								"product_id": "FortiOS-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.8",
+								"product_id": "FortiOS-5.4.8"
+							}
+						},
+						{
+							"name": "5.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.7",
+								"product_id": "FortiOS-5.4.7"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.6",
+								"product_id": "FortiOS-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.5",
+								"product_id": "FortiOS-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.4",
+								"product_id": "FortiOS-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.3",
+								"product_id": "FortiOS-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.2",
+								"product_id": "FortiOS-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.1",
+								"product_id": "FortiOS-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.0",
+								"product_id": "FortiOS-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.15",
+								"product_id": "FortiOS-5.2.15"
+							}
+						},
+						{
+							"name": "5.2.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.14",
+								"product_id": "FortiOS-5.2.14"
+							}
+						},
+						{
+							"name": "5.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.13",
+								"product_id": "FortiOS-5.2.13"
+							}
+						},
+						{
+							"name": "5.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.12",
+								"product_id": "FortiOS-5.2.12"
+							}
+						},
+						{
+							"name": "5.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.11",
+								"product_id": "FortiOS-5.2.11"
+							}
+						},
+						{
+							"name": "5.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.10",
+								"product_id": "FortiOS-5.2.10"
+							}
+						},
+						{
+							"name": "5.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.9",
+								"product_id": "FortiOS-5.2.9"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.8",
+								"product_id": "FortiOS-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.7",
+								"product_id": "FortiOS-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.6",
+								"product_id": "FortiOS-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.5",
+								"product_id": "FortiOS-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.4",
+								"product_id": "FortiOS-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.3",
+								"product_id": "FortiOS-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.2",
+								"product_id": "FortiOS-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.1",
+								"product_id": "FortiOS-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.0",
+								"product_id": "FortiOS-5.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,298 @@
+{
+	"document_title": "FortiClient Windows Service or Process Tampering",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-148"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-10-18T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-10-18T00:00:00",
+		"current_release_date": "2019-10-18T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiClient for Windows could be subject to the following shut down or tampering attempts:a) User Interface or Command Line shut downBy default a privileged user can close the FortiClient for Windows programÂ Â b) Service or Process shut downMalicious privileged programs can stop the FortiClient for Windows process via the taskkill commandÂ c) UninstallÂ By default a privileged user can unintall the FortiClient for Windows programÂ Â d) Code InjectionA component of FortiClient for Windows will search a specific un-existing Windows Dynamic Link library when starting related to the programming framework used in FortiClient. A malicious and privileged program can forge that DLL, leading to arbitrary code execution.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            a) User Interface or Command Line shut downFortiClient for Windows all versions under default configurations. b) Service or Process shut downFortiClient for Windows 6.2.1 and below versions. c) Uninstall FortiClient for Windows all versions under default configurations. d) Code Injection FortiClient for Windows 6.2.0 and below versions.All of the above require the malicious program or attacker to have the same or higher level of privilege as FortiClient.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            a) User Interface or Command Line Tampering FortiClient for Windows supports disabling program-closing under both managed mode and standalone mode: o Managed mode: Enable the \"Disable Unregister\" setting in FortiClient EMS o Standalone mode: Enablethe \"Lock Settings\" setting in FortiClient console b) Service or Process shut down Upgrade to FortiClient for Windows 6.2.2 c) Uninstall FortiClient for Windows supports disabling program uninstall under both managed mode and standalone mode: o Managed mode: Enable the \"Disable Unregister\" setting in FortiClient EMS o Standalone mode: Enable the \"Lock Settings\" setting in FortiClient console d) Code Injection Upgrade to FortiClient for Windows 6.2.1 Revision History: 2019-07-25 Initial release 2019-10-17 FortiClient for Windows 6.2.2 released to address issue b)\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-148",
+				"description": "FortiClient Windows Service or Process Tampering"
+			},
+			{
+				"url": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself",
+				"description": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Edsel Valle - security researcher from NSS Labs for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient Windows Service or Process Tampering",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-148",
+					"description": "FortiClient Windows Service or Process Tampering"
+				},
+				{
+					"url": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself",
+					"description": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-6692"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientWindows-6.2.1",
+					"FortiClientWindows-6.2.0",
+					"FortiClientWindows-6.0.10",
+					"FortiClientWindows-6.0.9",
+					"FortiClientWindows-6.0.8",
+					"FortiClientWindows-6.0.7",
+					"FortiClientWindows-6.0.6",
+					"FortiClientWindows-6.0.5",
+					"FortiClientWindows-6.0.4",
+					"FortiClientWindows-6.0.3",
+					"FortiClientWindows-6.0.2",
+					"FortiClientWindows-6.0.1",
+					"FortiClientWindows-6.0.0",
+					"FortiClientWindows-5.6.6",
+					"FortiClientWindows-5.6.5",
+					"FortiClientWindows-5.6.4",
+					"FortiClientWindows-5.6.3",
+					"FortiClientWindows-5.6.2",
+					"FortiClientWindows-5.6.1",
+					"FortiClientWindows-5.6.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.2",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.1",
+								"product_id": "FortiClientWindows-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.0",
+								"product_id": "FortiClientWindows-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.10",
+								"product_id": "FortiClientWindows-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.9",
+								"product_id": "FortiClientWindows-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.8",
+								"product_id": "FortiClientWindows-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.7",
+								"product_id": "FortiClientWindows-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.6",
+								"product_id": "FortiClientWindows-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.5",
+								"product_id": "FortiClientWindows-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.4",
+								"product_id": "FortiClientWindows-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.3",
+								"product_id": "FortiClientWindows-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.2",
+								"product_id": "FortiClientWindows-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.1",
+								"product_id": "FortiClientWindows-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.0",
+								"product_id": "FortiClientWindows-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.6",
+								"product_id": "FortiClientWindows-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.5",
+								"product_id": "FortiClientWindows-5.6.5"
+							}
+						},
+						{
+							"name": "5.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.4",
+								"product_id": "FortiClientWindows-5.6.4"
+							}
+						},
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.3",
+								"product_id": "FortiClientWindows-5.6.3"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.2",
+								"product_id": "FortiClientWindows-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.1",
+								"product_id": "FortiClientWindows-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.0",
+								"product_id": "FortiClientWindows-5.6.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

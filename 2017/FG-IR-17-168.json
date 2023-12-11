@@ -1,0 +1,274 @@
+{
+	"document_title": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-168"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-11-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-11-03T00:00:00",
+		"current_release_date": "2017-11-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A reflected XSS vulnerability exists in FortiOS web proxy disclaimer response web pages, potentiallyÂ exploitable by an unauthenticated attacker, via sending a maliciously crafted URL to the victim. The victim visiting the malicious URL would then have arbitrary javascript code executed in the security context of her/his browser.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS 5.6.0FortiOS 5.4.0 to 5.4.5FortiOS 5.2.0 to 5.2.11\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 5.2.12, 5.4.6 or 5.6.1\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank \"usd AG\" and \"Serge Ivanov of Payvision BV\" for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-168",
+					"description": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-7739"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-5.6.0",
+					"FortiOS-5.4.5",
+					"FortiOS-5.4.4",
+					"FortiOS-5.4.3",
+					"FortiOS-5.4.2",
+					"FortiOS-5.4.1",
+					"FortiOS-5.4.0",
+					"FortiOS-5.2.11",
+					"FortiOS-5.2.10",
+					"FortiOS-5.2.9",
+					"FortiOS-5.2.8",
+					"FortiOS-5.2.7",
+					"FortiOS-5.2.6",
+					"FortiOS-5.2.5",
+					"FortiOS-5.2.4",
+					"FortiOS-5.2.3",
+					"FortiOS-5.2.2",
+					"FortiOS-5.2.1",
+					"FortiOS-5.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.0",
+								"product_id": "FortiOS-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.5",
+								"product_id": "FortiOS-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.4",
+								"product_id": "FortiOS-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.3",
+								"product_id": "FortiOS-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.2",
+								"product_id": "FortiOS-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.1",
+								"product_id": "FortiOS-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.0",
+								"product_id": "FortiOS-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.11",
+								"product_id": "FortiOS-5.2.11"
+							}
+						},
+						{
+							"name": "5.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.10",
+								"product_id": "FortiOS-5.2.10"
+							}
+						},
+						{
+							"name": "5.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.9",
+								"product_id": "FortiOS-5.2.9"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.8",
+								"product_id": "FortiOS-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.7",
+								"product_id": "FortiOS-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.6",
+								"product_id": "FortiOS-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.5",
+								"product_id": "FortiOS-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.4",
+								"product_id": "FortiOS-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.3",
+								"product_id": "FortiOS-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.2",
+								"product_id": "FortiOS-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.1",
+								"product_id": "FortiOS-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.2.0",
+								"product_id": "FortiOS-5.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

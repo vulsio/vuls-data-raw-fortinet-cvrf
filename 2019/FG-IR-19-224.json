@@ -1,0 +1,193 @@
+{
+	"document_title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-224"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-04-23T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-04-23T00:00:00",
+		"current_release_date": "2020-04-23T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Bluetooth BR/EDR specification up to and including version 5.1 permits sufficiently low encryption key length and does not prevent an attacker from influencing the key length negotiation. This allows practical brute-force attacks (aka \"KNOB\") that can decrypt traffic and inject arbitrary ciphertext without the victim noticing.This vulnerability only affects Bluetooth BR/EDR mode (aka. Classic mode), and does not impact Bluetooth LE mode (aka. BLE, Smart mode)\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS is not impactedFortiAP is not impactedFortiAnalyzer is not impactedFortiManager is not impactedFortiSwitch below 6.4.0 is impacted (*)* only FortiSwitch 424E, 426E and 448E series models under 6.0.x and 6.2.x and when their bluetooth feature been enabled and used then impacted.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiSwitch 6.4.0Starting from FortiSwitch 6.4.0, a new CLI option \"min-key-length\" was added:config system bluetoothsetÂ min-key-length [length] /* default length value is 7, allow 1 to 16 */endsystem will check the \"pin\" length based on min-key-length setting.Workaround:For FortiSwitch below 6.4.0, ensure the Bluetooth pair pin lengthÂ is at least 7 characters:config system bluetoothset pin xxxxxxx /* ensure pin length >= 7 characters */endRevision History:2020-04-17 Initial Version2020-04-23 Detail the FortiSwitch impact models and condition.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-224",
+				"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability"
+			},
+			{
+				"url": "https://www.kb.cert.org/vuls/id/918987/",
+				"description": "https://www.kb.cert.org/vuls/id/918987/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-224",
+					"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability"
+				},
+				{
+					"url": "https://www.kb.cert.org/vuls/id/918987/",
+					"description": "https://www.kb.cert.org/vuls/id/918987/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-9506"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSwitch-6.2.7",
+					"FortiSwitch-6.2.6",
+					"FortiSwitch-6.2.5",
+					"FortiSwitch-6.2.4",
+					"FortiSwitch-6.2.3",
+					"FortiSwitch-6.2.2",
+					"FortiSwitch-6.0.7",
+					"FortiSwitch-6.0.6",
+					"FortiSwitch-6.0.5"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.1",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSwitch",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.7",
+								"product_id": "FortiSwitch-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.6",
+								"product_id": "FortiSwitch-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.5",
+								"product_id": "FortiSwitch-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.4",
+								"product_id": "FortiSwitch-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.3",
+								"product_id": "FortiSwitch-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.2.2",
+								"product_id": "FortiSwitch-6.2.2"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.0.7",
+								"product_id": "FortiSwitch-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.0.6",
+								"product_id": "FortiSwitch-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.0.5",
+								"product_id": "FortiSwitch-6.0.5"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

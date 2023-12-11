@@ -1,0 +1,139 @@
+{
+	"document_title": "FortiClient Mac is vulnerable to a local denial of service",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-003"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-04-02T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-04-02T00:00:00",
+		"current_release_date": "2019-04-02T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability in FortiClientMac may allow an attacker to affect the application's performance via modifying the content of a file used by several FortiClientMac processes.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClientMAC 6.0.1, 6.0.2, 6.0.3 and 6.0.4\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to 6.0.5 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet thanks Antonio Zeki for reporting this vulnerability."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient Mac is vulnerable to a local denial of service",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-003",
+					"description": "FortiClient Mac is vulnerable to a local denial of service"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-5585"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientMac-6.0.4",
+					"FortiClientMac-6.0.3",
+					"FortiClientMac-6.0.2",
+					"FortiClientMac-6.0.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.7",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.4",
+								"product_id": "FortiClientMac-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.3",
+								"product_id": "FortiClientMac-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.2",
+								"product_id": "FortiClientMac-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.1",
+								"product_id": "FortiClientMac-6.0.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,274 @@
+{
+	"document_title": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-006"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-06-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-06-01T00:00:00",
+		"current_release_date": "2021-06-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A stack-based buffer overflow vulnerability in FortiProxy physical appliance CLI may allow an authenticated, remote attacker to perform a Denial of Service attack by running the `diagnose sys cpuset` with a large cpuset mask value. Fortinet is not aware of any successful exploitation of this vulnerability that would lead to code execution.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            denial of service, Remote Code Execution\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiProxy versions 1.2.9 and below. FortiProxy versions 2.0.1 and below. FortiProxy versions 1.1.x FortiProxy versions 1.0.x\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to Fortiproxy version 1.2.10 or above. Please upgrade to Fortiproxy version 2.0.2 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-006",
+					"description": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-22130"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiProxy-2.0.1",
+					"FortiProxy-2.0.0",
+					"FortiProxy-1.2.9",
+					"FortiProxy-1.2.8",
+					"FortiProxy-1.2.7",
+					"FortiProxy-1.2.6",
+					"FortiProxy-1.2.5",
+					"FortiProxy-1.2.4",
+					"FortiProxy-1.2.3",
+					"FortiProxy-1.2.2",
+					"FortiProxy-1.2.1",
+					"FortiProxy-1.2.0",
+					"FortiProxy-1.1.6",
+					"FortiProxy-1.1.5",
+					"FortiProxy-1.1.4",
+					"FortiProxy-1.1.3",
+					"FortiProxy-1.1.2",
+					"FortiProxy-1.1.1",
+					"FortiProxy-1.1.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.1",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "2.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.1",
+								"product_id": "FortiProxy-2.0.1"
+							}
+						},
+						{
+							"name": "2.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.0",
+								"product_id": "FortiProxy-2.0.0"
+							}
+						},
+						{
+							"name": "1.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.9",
+								"product_id": "FortiProxy-1.2.9"
+							}
+						},
+						{
+							"name": "1.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.8",
+								"product_id": "FortiProxy-1.2.8"
+							}
+						},
+						{
+							"name": "1.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.7",
+								"product_id": "FortiProxy-1.2.7"
+							}
+						},
+						{
+							"name": "1.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.6",
+								"product_id": "FortiProxy-1.2.6"
+							}
+						},
+						{
+							"name": "1.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.5",
+								"product_id": "FortiProxy-1.2.5"
+							}
+						},
+						{
+							"name": "1.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.4",
+								"product_id": "FortiProxy-1.2.4"
+							}
+						},
+						{
+							"name": "1.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.3",
+								"product_id": "FortiProxy-1.2.3"
+							}
+						},
+						{
+							"name": "1.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.2",
+								"product_id": "FortiProxy-1.2.2"
+							}
+						},
+						{
+							"name": "1.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.1",
+								"product_id": "FortiProxy-1.2.1"
+							}
+						},
+						{
+							"name": "1.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.0",
+								"product_id": "FortiProxy-1.2.0"
+							}
+						},
+						{
+							"name": "1.1.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.6",
+								"product_id": "FortiProxy-1.1.6"
+							}
+						},
+						{
+							"name": "1.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.5",
+								"product_id": "FortiProxy-1.1.5"
+							}
+						},
+						{
+							"name": "1.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.4",
+								"product_id": "FortiProxy-1.1.4"
+							}
+						},
+						{
+							"name": "1.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.3",
+								"product_id": "FortiProxy-1.1.3"
+							}
+						},
+						{
+							"name": "1.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.2",
+								"product_id": "FortiProxy-1.1.2"
+							}
+						},
+						{
+							"name": "1.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.1",
+								"product_id": "FortiProxy-1.1.1"
+							}
+						},
+						{
+							"name": "1.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.0",
+								"product_id": "FortiProxy-1.1.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

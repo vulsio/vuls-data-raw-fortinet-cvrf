@@ -1,0 +1,94 @@
+{
+	"document_title": "Linux Kernel Dirty Cow Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-063"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-11-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-11-09T00:00:00",
+		"current_release_date": "2016-11-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Linux Kernel Dirty Cow Vulnerability Announcement.Â\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            The following products are confirmed to be not affected:FortiGate FortiAnalyzerFortiSwitchFortiAP For questions about other Fortinet products, please contact Fortinet's Technical Assistance Center (TAC).\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Privilege escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            The following products are confirmed to be not affected:FortiGateÂ FortiAnalyzerFortiSwitchFortiAP\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-063",
+				"description": "Linux Kernel Dirty Cow Vulnerability"
+			},
+			{
+				"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195",
+				"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Linux Kernel Dirty Cow Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-063",
+					"description": "Linux Kernel Dirty Cow Vulnerability"
+				},
+				{
+					"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195",
+					"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-5195"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

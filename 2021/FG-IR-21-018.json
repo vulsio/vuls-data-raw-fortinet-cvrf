@@ -1,0 +1,130 @@
+{
+	"document_title": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-018"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-06-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-06-01T00:00:00",
+		"current_release_date": "2021-06-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper following of a certificate's chain of trust vulnerability in FortiGate SSL-VPN may allow an LDAP user to connect to VPN with any certificate that is signed by a trusted Certificate Authority.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Impersonation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiGate version 6.4.2Â to 6.4.4.Â Â FortiGate versions 5.6.x, 6.0.x and 6.2.x, 6.4.0 and 6.4.1 are NOT impacted by this vulnerability.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiGate Version 6.4.5 or above. Please upgrade to FortiGate Version 7.0.0.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank MarÃ­a Teresa MuÃ±oz Blanco from Vectoritcgroup for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-018",
+					"description": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-24012"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-6.4.4",
+					"FortiOS-6.4.3",
+					"FortiOS-6.4.2"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L/E:F/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.4.4",
+								"product_id": "FortiOS-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.4.3",
+								"product_id": "FortiOS-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.4.2",
+								"product_id": "FortiOS-6.4.2"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

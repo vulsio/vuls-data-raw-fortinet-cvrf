@@ -1,0 +1,112 @@
+{
+	"document_title": "FortiSIEM is vulnerable to a CSRF attack",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-240"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-03-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-03-12T00:00:00",
+		"current_release_date": "2020-03-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A Cross-Site Request Forgery (CSRF) vulnerability in the user interface of FortiSIEM could allow a remote, unauthenticated attacker to perform arbitrary actions using an authenticated user's session by persuading the victim to follow a malicious link.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute Unauthorized Code or Commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiSIEM version 5.2.5 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSIEM version 5.2.6 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank the researcher Ganoush for bringing this issue to our attention under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSIEM is vulnerable to a CSRF attack",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-240",
+					"description": "FortiSIEM is vulnerable to a CSRF attack"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-17653"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSIEM-5.2.5"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.2.5",
+								"product_id": "FortiSIEM-5.2.5"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

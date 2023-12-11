@@ -1,0 +1,184 @@
+{
+	"document_title": "FortiSandbox - Multiple path traversals",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-202"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-08-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-08-03T00:00:00",
+		"current_release_date": "2021-08-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Improper limitation of a pathname to a restricted directory (CWE-22) vulnerabilities in FortiSandbox may allow an authenticated user to obtain unauthorized access to files and data via specifially crafted web requests.c\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Unauthorized access to files\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiSandbox 3.2.2 and below. FortiSandbox 3.1.4 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSandbox version 4.0.0 or above Please upgrade to FortiSandbox version 3.2.3 or above Please upgrade to FortiSandbox version 3.1.5 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Giuseppe Cocomazzi of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSandbox - Multiple path traversals",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-202",
+					"description": "FortiSandbox - Multiple path traversals"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-24010"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSandbox-3.2.2",
+					"FortiSandbox-3.2.1",
+					"FortiSandbox-3.2.0",
+					"FortiSandbox-3.1.5",
+					"FortiSandbox-3.1.4",
+					"FortiSandbox-3.1.3",
+					"FortiSandbox-3.1.2",
+					"FortiSandbox-3.1.1",
+					"FortiSandbox-3.1.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.2",
+								"product_id": "FortiSandbox-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.1",
+								"product_id": "FortiSandbox-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.0",
+								"product_id": "FortiSandbox-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.5",
+								"product_id": "FortiSandbox-3.1.5"
+							}
+						},
+						{
+							"name": "3.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.4",
+								"product_id": "FortiSandbox-3.1.4"
+							}
+						},
+						{
+							"name": "3.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.3",
+								"product_id": "FortiSandbox-3.1.3"
+							}
+						},
+						{
+							"name": "3.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.2",
+								"product_id": "FortiSandbox-3.1.2"
+							}
+						},
+						{
+							"name": "3.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.1",
+								"product_id": "FortiSandbox-3.1.1"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.0",
+								"product_id": "FortiSandbox-3.1.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"document_title": "CVE-2015-0235 \"GHOST\" vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-001"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-01-28T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-01-28T00:00:00",
+		"current_release_date": "2015-01-28T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Remote Code Execution\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            FortiOS, FortiCache, FortiWeb, FortiADC E series, FortiExtender - All versions embed a vulnerable version of glibc, however the vulnerable functions are not called by Fortinet code (nor are they called by third-party code). Therefore, these products are not vulnerable.All versions of the following products embed a vulnerable version of glibc, however no real-life exploitation scenario has been found to be possible so far:FortiManager versions FortiAnalyzer FortiMail versions FortiVoiceEnterprise versions FortiRecorder versions AscenLink versions FortiSandbox all versions FortiAuthenticator versions FortiSwitch versions FortiWAN versions FortiDDoS versions FortiDB all versionsFortiADC D series versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Regardless the exploitability (or lack thereof), all products embedding a vulnerable version of glibc will be updated.In the meantime, to reduce further the theoretical attack surface, Fortinet PSIRT recommends the following:Make sure IPS signature Glibc.Gethostbyname.Buffer.Overflow is enabled. It is available in IPS update 5.604Make sure the administration interfaces of your Fortinet products are not accessible from outside of your network\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-001",
+				"description": "CVE-2015-0235 \"GHOST\" vulnerability"
+			},
+			{
+				"url": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt",
+				"description": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "CVE-2015-0235 \"GHOST\" vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-001",
+					"description": "CVE-2015-0235 \"GHOST\" vulnerability"
+				},
+				{
+					"url": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt",
+					"description": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-0235"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

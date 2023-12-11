@@ -1,0 +1,81 @@
+{
+	"document_title": "FortiClient Android and iOS multiple vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-004"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-02-25T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-02-25T00:00:00",
+		"current_release_date": "2015-02-25T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiClient Android and iOS are affected by two vulnerabilities: Android and iOS FortiClient do not check the validity of server certificates. An attacker may perform a man-in-the-middle attack between the FortiClient and the following services: A remote FortiGate with SSL VPN service running by default on port 443 A remote FortiGate with Endpoint control running by default on port 8010 Android only FortiClient uses a hardcoded encryption key for the following profile preferences settings: Client certificate pkcs12 Client certificate password IPSec pre-shared-key IPSec password SSLpassword The key having been disclosed, these settings could be decrypted by an attacker upon retrieving a FortiClient Android configuration profile from the device.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            MitM condition and potential credential harvesting\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient Android, FortiClient iOS\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClient iOS version 5.2.1 for iPhone and iPad are available as of March 21 from Apple's App Store.FortiClient Android 5.2.6 is available as of July 17 from Google play store.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient Android and iOS multiple vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-004",
+					"description": "FortiClient Android and iOS multiple vulnerabilities"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-1453",
+			"CVE-2015-1569",
+			"CVE-2015-1570"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

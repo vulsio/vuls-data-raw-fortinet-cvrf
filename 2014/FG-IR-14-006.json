@@ -1,0 +1,86 @@
+{
+	"document_title": "FortiGate Vulnerabilities in FortiManager Service",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-006"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-08-19T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-08-19T00:00:00",
+		"current_release_date": "2014-08-19T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A temporary denial of service condition can be created using a specially crafted request sent to the FortiManager protocol service in FortiOS version 5.0.0 to 5.0.7 and FortiOS version 4.3.15 and lower. Code execution has not been demonstrated, but may be possible under certain conditions. (CVE-2014-0352) In addition, an attacker in a privileged network position may be able to perform a man-in-the-middle attack on FortiManager protocol communications through the use of an anonymous cipher suite. (CVE-2014-0351) 2014-08-19, Version 1: Initial Advisory for CVE-2014-2216. 2014-09-08, Version 2: Added CVE-2014-0351. CVE-2014-2216 has been renumbered to CVE-2014-0352 to match CERT-CC advisory.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of Service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS 5.0.0 to 5.0.7, FortiOS 4.3.15 and lower.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 4.3.16, 5.0.8, or 5.2.0.These vulnerabilities can also be mitigated by disabling FGFM-Access on the interface, or blocking traffic for TCP port 541 with a local-in policy.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Gregor Kopf (Recurity Labs)"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiGate Vulnerabilities in FortiManager Service",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-006",
+					"description": "FortiGate Vulnerabilities in FortiManager Service"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-0351",
+			"CVE-2014-0352"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

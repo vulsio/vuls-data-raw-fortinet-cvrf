@@ -1,0 +1,89 @@
+{
+	"document_title": "Authorizations Bypass in the FortiPresence portal parameters",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-258"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-03-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-03-09T00:00:00",
+		"current_release_date": "2020-03-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Two authorization bypass through user-controlled key vulnerabilities in the FortiPresence administration interface may allow an attacker to gain access to some user data via portal manager or portal users parameters.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Improper Access Control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiPresence 2.1.0 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiPresence 20.1 or above.Starting in 2020, FortiPresence will employ a new version syntax.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank SI9INT for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Authorizations Bypass in the FortiPresence portal parameters",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-258",
+					"description": "Authorizations Bypass in the FortiPresence portal parameters"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2020-6641",
+			"CVE-2020-6642"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

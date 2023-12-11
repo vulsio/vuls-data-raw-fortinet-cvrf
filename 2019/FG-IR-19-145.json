@@ -1,0 +1,82 @@
+{
+	"document_title": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-145"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-02-25T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-02-25T00:00:00",
+		"current_release_date": "2020-02-25T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple padding Oracle vulnerabilities (Zombie POODLE, GOLDENDOODLE, OpenSSL 0-length) in the CBC padding implementation of FortiOS when configured with SSL Deep Inspection policies and with the IPS sensor enabled may allow an attacker to decipher TLS connections going through the FortiGate by monitoring the traffic (should he/she be able to).\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS when using the following IPS Engine versions: IPS Engine version 5.00000 to 5.00006 IPS Engine version 4.00000 to 4.00036 IPS Engine version 4.00200 to 4.00219 IPS Engine version 3.00547 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Update to IPS engine 3.00548, 4.00037, 5.00007 or above. Specifically: IPS Engine 3.00548 (or above) for the FortiOS 5.6 branch and branches below IPS Engine 4.00037 (or above) for the ForitOS 6.0 branch IPS Engine 5.00007 (or above) for the FortiOS 6.2 branch An IPS Engine that includes the fix is built-in FortiOS 5.6.11, 6.0.9 and 6.2.1, and versions above in those respective branches. To check for the FortiOS IPS engine version: * From the admin CLI console: run command \"diag autoupdate versions\" IPS Attack Engine Version: x.xxxxx * From the admin webUI: System->FortiGuard->IPS Engine->Version x.xxxxx For the IPS engine and FortiOS version compatibility chart, please refer the following link: https://pub.kb.fortinet.com/ksmcontent/Fortinet-Public/current/FortiGate_6_0/fortios-fortiaps-ips-av-compatibility.pdf Revision History: 07-23-2019 Initial version 02-25-2020 Added FortiOS versions with built-in IPS Engines.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-145",
+					"description": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-5592"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

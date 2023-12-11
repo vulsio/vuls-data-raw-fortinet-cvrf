@@ -1,0 +1,85 @@
+{
+	"document_title": "FortiManager and FortiAnalyzer Persistent XSS vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-014"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-07-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-07-14T00:00:00",
+		"current_release_date": "2016-07-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            When a low privileged user uploads images in the report section, the filenames are notÂ properly sanitized; this potentially enables stored XSS attacks.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Persistent XSS\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiManager/FortiAnalyzer: 5.0.0 - 5.0.11, 5.2.0 - 5.2.5\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to:FortiManager/FortiAnalyzerÂ 5.4.0 and above5.2.6 and above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Â"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiManager and FortiAnalyzer Persistent XSS vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-014",
+					"description": "FortiManager and FortiAnalyzer Persistent XSS vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-3196"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

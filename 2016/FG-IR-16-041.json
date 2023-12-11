@@ -1,0 +1,363 @@
+{
+	"document_title": "FortiClient SSLVPN Linux - Root privilege escalation with subproc",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-041"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-04-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-04-05T00:00:00",
+		"current_release_date": "2017-04-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The first run of the FortiClient SSLVPN script results in the subproc file becomingÂ suid & root owned binary. The issue lays in the lack of any check if this is the right file that the ownership and suid flag should be granted to. Replacement of this file with another appropriate file could result in its execution with root privilege.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient SSLVPN for Linux available with FortiOS before versions 5.4.3 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiClient SSLVPN Linux available with FortiOS version 5.4.4 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Grzegorz Wrobel of STMSolutions for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient SSLVPN Linux - Root privilege escalation with subproc",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-041",
+					"description": "FortiClient SSLVPN Linux - Root privilege escalation with subproc"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-8497"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"SSL_VPN-5.2.9",
+					"SSL_VPN-5.2.8",
+					"SSL_VPN-5.2.7",
+					"SSL_VPN-5.2.5",
+					"SSL_VPN-5.2.4",
+					"SSL_VPN-5.2.3",
+					"SSL_VPN-5.2.2",
+					"SSL_VPN-5.2.1",
+					"SSL_VPN-5.0.9",
+					"SSL_VPN-5.0.5",
+					"SSL_VPN-5.0.4",
+					"SSL_VPN-5.0.3",
+					"SSL_VPN-5.0.2",
+					"SSL_VPN-5.0.1",
+					"SSL_VPN-5.0.0",
+					"SSL_VPN-4.3.12",
+					"SSL_VPN-4.3.11",
+					"SSL_VPN-4.3.10",
+					"SSL_VPN-4.3.8",
+					"SSL_VPN-4.3.3",
+					"SSL_VPN-4.3.0",
+					"SSL_VPN-4.2.9",
+					"SSL_VPN-4.2.2",
+					"SSL_VPN-4.2.0",
+					"SSL_VPN-4.1.1",
+					"SSL_VPN-4.1.0",
+					"SSL_VPN-4.0.2",
+					"SSL_VPN-4.0.0",
+					"SSL_VPN-3.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "SSL_VPN",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.9",
+								"product_id": "SSL_VPN-5.2.9"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.8",
+								"product_id": "SSL_VPN-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.7",
+								"product_id": "SSL_VPN-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.5",
+								"product_id": "SSL_VPN-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.4",
+								"product_id": "SSL_VPN-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.3",
+								"product_id": "SSL_VPN-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.2",
+								"product_id": "SSL_VPN-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.2.1",
+								"product_id": "SSL_VPN-5.2.1"
+							}
+						},
+						{
+							"name": "5.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.9",
+								"product_id": "SSL_VPN-5.0.9"
+							}
+						},
+						{
+							"name": "5.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.5",
+								"product_id": "SSL_VPN-5.0.5"
+							}
+						},
+						{
+							"name": "5.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.4",
+								"product_id": "SSL_VPN-5.0.4"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.3",
+								"product_id": "SSL_VPN-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.2",
+								"product_id": "SSL_VPN-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.1",
+								"product_id": "SSL_VPN-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 5.0.0",
+								"product_id": "SSL_VPN-5.0.0"
+							}
+						},
+						{
+							"name": "4.3.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.12",
+								"product_id": "SSL_VPN-4.3.12"
+							}
+						},
+						{
+							"name": "4.3.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.11",
+								"product_id": "SSL_VPN-4.3.11"
+							}
+						},
+						{
+							"name": "4.3.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.10",
+								"product_id": "SSL_VPN-4.3.10"
+							}
+						},
+						{
+							"name": "4.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.8",
+								"product_id": "SSL_VPN-4.3.8"
+							}
+						},
+						{
+							"name": "4.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.3",
+								"product_id": "SSL_VPN-4.3.3"
+							}
+						},
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.3.0",
+								"product_id": "SSL_VPN-4.3.0"
+							}
+						},
+						{
+							"name": "4.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.2.9",
+								"product_id": "SSL_VPN-4.2.9"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.2.2",
+								"product_id": "SSL_VPN-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.2.0",
+								"product_id": "SSL_VPN-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.1.1",
+								"product_id": "SSL_VPN-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.1.0",
+								"product_id": "SSL_VPN-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.0.2",
+								"product_id": "SSL_VPN-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 4.0.0",
+								"product_id": "SSL_VPN-4.0.0"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "SSL_VPN 3.0.0",
+								"product_id": "SSL_VPN-3.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

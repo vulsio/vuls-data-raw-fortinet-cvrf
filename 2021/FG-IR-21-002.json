@@ -1,0 +1,355 @@
+{
+	"document_title": "FortiWLC - Access of Uninitialized Pointer vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-002"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-04-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-04-05T00:00:00",
+		"current_release_date": "2022-04-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An access of uninitialized pointer (CWE-824) vulnerability in FortiWLC may allow a local and authenticated attacker to crash the access point being managed by the controller by executing a crafted CLI command.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            At least FortiWLC version 8.0.6 FortiWLC version 8.1.2 through 8.1.3 FortiWLC version 8.2.4 through 8.2.7 FortiWLC version 8.3.0 through 8.3.3 FortiWLC version 8.4.0 through 8.4.8 FortiWLC version 8.5.0 through 8.5.5 FortiWLC version 8.6.0 through 8.6.2\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiWLC version 8.6.3 or above.  \n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank a FortiWLC customer for bringing this issue to our attention."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWLC - Access of Uninitialized Pointer vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-002",
+					"description": "FortiWLC - Access of Uninitialized Pointer vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-26093"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWLC-8.6.2",
+					"FortiWLC-8.6.1",
+					"FortiWLC-8.6.0",
+					"FortiWLC-8.5.5",
+					"FortiWLC-8.5.4",
+					"FortiWLC-8.5.3",
+					"FortiWLC-8.5.2",
+					"FortiWLC-8.5.1",
+					"FortiWLC-8.5.0",
+					"FortiWLC-8.4.8",
+					"FortiWLC-8.4.7",
+					"FortiWLC-8.4.6",
+					"FortiWLC-8.4.5",
+					"FortiWLC-8.4.4",
+					"FortiWLC-8.4.2",
+					"FortiWLC-8.4.1",
+					"FortiWLC-8.4.0",
+					"FortiWLC-8.3.3",
+					"FortiWLC-8.3.2",
+					"FortiWLC-8.3.1",
+					"FortiWLC-8.3.0",
+					"FortiWLC-8.2.7",
+					"FortiWLC-8.2.6",
+					"FortiWLC-8.2.5",
+					"FortiWLC-8.2.4",
+					"FortiWLC-8.1.3",
+					"FortiWLC-8.1.2",
+					"FortiWLC-8.0.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.6",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:H/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWLC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.2",
+								"product_id": "FortiWLC-8.6.2"
+							}
+						},
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.1",
+								"product_id": "FortiWLC-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.0",
+								"product_id": "FortiWLC-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.5",
+								"product_id": "FortiWLC-8.5.5"
+							}
+						},
+						{
+							"name": "8.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.4",
+								"product_id": "FortiWLC-8.5.4"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.3",
+								"product_id": "FortiWLC-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.2",
+								"product_id": "FortiWLC-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.1",
+								"product_id": "FortiWLC-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.5.0",
+								"product_id": "FortiWLC-8.5.0"
+							}
+						},
+						{
+							"name": "8.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.8",
+								"product_id": "FortiWLC-8.4.8"
+							}
+						},
+						{
+							"name": "8.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.7",
+								"product_id": "FortiWLC-8.4.7"
+							}
+						},
+						{
+							"name": "8.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.6",
+								"product_id": "FortiWLC-8.4.6"
+							}
+						},
+						{
+							"name": "8.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.5",
+								"product_id": "FortiWLC-8.4.5"
+							}
+						},
+						{
+							"name": "8.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.4",
+								"product_id": "FortiWLC-8.4.4"
+							}
+						},
+						{
+							"name": "8.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.2",
+								"product_id": "FortiWLC-8.4.2"
+							}
+						},
+						{
+							"name": "8.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.1",
+								"product_id": "FortiWLC-8.4.1"
+							}
+						},
+						{
+							"name": "8.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.0",
+								"product_id": "FortiWLC-8.4.0"
+							}
+						},
+						{
+							"name": "8.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.3.3",
+								"product_id": "FortiWLC-8.3.3"
+							}
+						},
+						{
+							"name": "8.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.3.2",
+								"product_id": "FortiWLC-8.3.2"
+							}
+						},
+						{
+							"name": "8.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.3.1",
+								"product_id": "FortiWLC-8.3.1"
+							}
+						},
+						{
+							"name": "8.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.3.0",
+								"product_id": "FortiWLC-8.3.0"
+							}
+						},
+						{
+							"name": "8.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.2.7",
+								"product_id": "FortiWLC-8.2.7"
+							}
+						},
+						{
+							"name": "8.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.2.6",
+								"product_id": "FortiWLC-8.2.6"
+							}
+						},
+						{
+							"name": "8.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.2.5",
+								"product_id": "FortiWLC-8.2.5"
+							}
+						},
+						{
+							"name": "8.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.2.4",
+								"product_id": "FortiWLC-8.2.4"
+							}
+						},
+						{
+							"name": "8.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.1.3",
+								"product_id": "FortiWLC-8.1.3"
+							}
+						},
+						{
+							"name": "8.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.1.2",
+								"product_id": "FortiWLC-8.1.2"
+							}
+						},
+						{
+							"name": "8.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.0.6",
+								"product_id": "FortiWLC-8.0.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

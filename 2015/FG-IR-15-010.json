@@ -1,0 +1,76 @@
+{
+	"document_title": "FortiWeb multiple vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-010"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-04-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-04-16T00:00:00",
+		"current_release_date": "2015-04-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Older versions of FortiWeb are subject to three vulnerabilities: 1. OS command injection: A WebUI administrator user may run system commands when executing a report 2. Reflected XSS: A WebUI administrator user may perform a reflected XSS attack via an improperly sanitized parameter in the FortiWeb auto update service page 3. Password field with autocomplete enabled: The WebUI FTP backup page contains a password field with HTML form autocomplete enabled\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            XSS, OS command injection, autocomplete in html form\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The Reflected XSS impacts FortiWeb versions between 5.0.0 and 5.3.4 included.The OS command injection and the password field with autocomplete enabled impact all supported FortiWeb versions lower than 5.3.5.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb 5.3.5 or higher.Workaround:Associate administrators to a limited access profile with none or read-only privileges for the following pages:- Maintenance- System Configuration- Log & report\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb multiple vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-010",
+					"description": "FortiWeb multiple vulnerabilities"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

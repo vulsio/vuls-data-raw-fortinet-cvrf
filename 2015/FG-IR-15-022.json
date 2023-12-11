@@ -1,0 +1,86 @@
+{
+	"document_title": "Multiple XSS vulnerabilities in FortiManager GUI",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-022"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-09-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-09-24T00:00:00",
+		"current_release_date": "2015-09-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Graphical User Interface (GUI) of FortiManager v5.2.2 is vulnerable to two reflected Cross-Site Scripting (XSS) vulnerabilities. 2 potential XSS vectors were identified: * XSS vulnerability in SOMVpnSSLPortalDialog. * XSS vulnerability in FGDMngUpdHistory. The Graphical User Interface (GUI) of FortiManager v5.2.3 is vulnerable to one reflected XSS vulnerability and one stored XSS vulnerability. 2 potential XSS vectors were identified: * XSS vulnerability in sharedjobmanager. * XSS vulnerability in SOMServiceObjDialog.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            XSS\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            XSS items 1-2: FortiManager v5.2.2 or earlier. XSS items 3-4: FortiManager v5.2.3 or earlier.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Update to FortiManager v5.2.4. No workarounds are currently available.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet PSIRT wishes to thank John Page for his commitment to Responsible Disclosure by responsibly disclosing these issues to Fortinet."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple XSS vulnerabilities in FortiManager GUI",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-022",
+					"description": "Multiple XSS vulnerabilities in FortiManager GUI"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-8037",
+			"CVE-2015-8038"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

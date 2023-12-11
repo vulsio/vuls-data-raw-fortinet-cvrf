@@ -1,0 +1,151 @@
+{
+	"document_title": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-112"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-10-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-10-05T00:00:00",
+		"current_release_date": "2021-10-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An information disclosure vulnerability [CWE-200] in FortiAnalyzer and FortiManager VM may allow an authenticated attacker to read the FortiCloud credentials which were used to activate the trial license in cleartext.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager version 7.0.0. FortiManager versions 6.4.6 and below.   FortiAnalyzer version 7.0.0. FortiAnalyzer versions 6.4.6 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiManager version 6.4.7 or above. Please upgrade to FortiManager version 7.0.1 or above.   Please upgrade to FortiAnalyzer version 6.4.7 or above. Please upgrade to FortiAnalyzer version 7.0.1 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Evgenii Erinskii from the Technical Support Team for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-112",
+					"description": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-36170"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiManager-7.0.0",
+					"FortiManager-6.4.6",
+					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "3",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N/E:F/RL:O/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.0",
+								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.6",
+								"product_id": "FortiManager-6.4.6"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.0",
+								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.6",
+								"product_id": "FortiAnalyzer-6.4.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

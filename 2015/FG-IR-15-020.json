@@ -1,0 +1,91 @@
+{
+	"document_title": "ZebOS routing remote shell service enabled",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-020"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-07-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-07-24T00:00:00",
+		"current_release_date": "2015-07-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            None\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            A remote attacker may access the internal ZebOS shell of FortiOS 5.2.3 without authentication on the HA (\"High Availability\") dedicated management interface only. Only FortiGates configured with HA *and* with an enabled HA dedicated management interface are vulnerable. Note: when a FortiGate is configured to use HA, the dedicated management interface is disabled by default .\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Remote shell access\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiGate v5.2.3 only.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            FortiOS 5.2.3 must be upgraded to FortiOS 5.2.4.FortiOS 5.2.2 and lower are not affected.FortiOS 5.0.12 and lower are not affected.As a workaround the LAN access to the HA interface may be filtered by a transit firewall or not routed.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Thanks to Burda Digital Systems."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "ZebOS routing remote shell service enabled",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-020",
+					"description": "ZebOS routing remote shell service enabled"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-7361"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

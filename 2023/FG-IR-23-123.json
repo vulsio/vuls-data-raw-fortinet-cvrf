@@ -1,0 +1,262 @@
+{
+	"document_title": "FortiAP-U - Arbitrary file listing and deletion through the  CLI",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-123"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-09-13T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-09-13T00:00:00",
+		"current_release_date": "2023-09-13T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An incomplete filtering of one or more instances of special elements vulnerability [CWE-792] in the command line interpreter of FortiAP-U may allow an authenticated attacker to list and delete arbitrary files and directory via specially crafted command arguments.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiAP-U version 7.0.0FortiAP-U version 6.2.0 through 6.2.5FortiAP-U 6.0 all versionsFortiAP-U 5.4 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiAP-U version 7.0.1 or above Please upgrade to FortiAP-U version 6.2.6 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAP-U - Arbitrary file listing and deletion through the  CLI",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-123",
+					"description": "FortiAP-U - Arbitrary file listing and deletion through the  CLI"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-36634"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAP-U-7.0.0",
+					"FortiAP-U-6.2.5",
+					"FortiAP-U-6.2.4",
+					"FortiAP-U-6.2.3",
+					"FortiAP-U-6.2.2",
+					"FortiAP-U-6.2.1",
+					"FortiAP-U-6.2.0",
+					"FortiAP-U-6.0.4",
+					"FortiAP-U-6.0.3",
+					"FortiAP-U-6.0.2",
+					"FortiAP-U-6.0.1",
+					"FortiAP-U-6.0.0",
+					"FortiAP-U-5.4.6",
+					"FortiAP-U-5.4.5",
+					"FortiAP-U-5.4.4",
+					"FortiAP-U-5.4.3",
+					"FortiAP-U-5.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.5",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAP-U",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 7.0.0",
+								"product_id": "FortiAP-U-7.0.0"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.5",
+								"product_id": "FortiAP-U-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.4",
+								"product_id": "FortiAP-U-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.3",
+								"product_id": "FortiAP-U-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.2",
+								"product_id": "FortiAP-U-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.1",
+								"product_id": "FortiAP-U-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.2.0",
+								"product_id": "FortiAP-U-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.4",
+								"product_id": "FortiAP-U-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.3",
+								"product_id": "FortiAP-U-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.2",
+								"product_id": "FortiAP-U-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.1",
+								"product_id": "FortiAP-U-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.0",
+								"product_id": "FortiAP-U-6.0.0"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.6",
+								"product_id": "FortiAP-U-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.5",
+								"product_id": "FortiAP-U-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.4",
+								"product_id": "FortiAP-U-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.3",
+								"product_id": "FortiAP-U-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.0",
+								"product_id": "FortiAP-U-5.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

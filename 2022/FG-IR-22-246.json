@@ -1,0 +1,178 @@
+{
+	"document_title": "FortiClient (MAC) - FortiTray stores the SSLVPN password in cleartext",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-246"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-11-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-11-01T00:00:00",
+		"current_release_date": "2022-11-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerabiltiy [CWE-200] in FortiClient for Mac may allow a local authenticated attacker to obtain the SSL-VPN password in cleartext via running a logstream for the FortiTray process in the terminal.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClientMac version 7.0.0 through 7.0.5\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiClientMac version 7.0.6 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-246",
+				"description": "FortiClient (MAC) - FortiTray stores the SSLVPN password in cleartext"
+			},
+			{
+				"url": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC",
+				"description": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Pavel Bondarenko for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient (MAC) - FortiTray stores the SSLVPN password in cleartext",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-246",
+					"description": "FortiClient (MAC) - FortiTray stores the SSLVPN password in cleartext"
+				},
+				{
+					"url": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC",
+					"description": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-33878"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientMac-7.0.5",
+					"FortiClientMac-7.0.4",
+					"FortiClientMac-7.0.3",
+					"FortiClientMac-7.0.2",
+					"FortiClientMac-7.0.1",
+					"FortiClientMac-7.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "2.2",
+				"vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.5",
+								"product_id": "FortiClientMac-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.4",
+								"product_id": "FortiClientMac-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.3",
+								"product_id": "FortiClientMac-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.2",
+								"product_id": "FortiClientMac-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.1",
+								"product_id": "FortiClientMac-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.0",
+								"product_id": "FortiClientMac-7.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

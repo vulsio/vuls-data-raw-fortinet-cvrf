@@ -1,0 +1,748 @@
+{
+	"document_title": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-481"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-04-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-04-11T00:00:00",
+		"current_release_date": "2023-04-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A download of code without Integrity check vulnerability [CWE-494] in FortiClientMac may allow a local attacker to escalate their privileges via modifying the installer upon upgrade.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClientMac version 7.0.0 through 7.0.7 FortiClientMac version 6.4 all versions FortiClientMac version 6.2 all versions FortiClientMac version 6.0 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to  FortiClientMac version 7.0.8 or above. Please upgrade to  FortiClientMac version 7.2.0 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Eric Hu of Fortinet Software Development team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-481",
+					"description": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-22635"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientMac-7.0.7",
+					"FortiClientMac-7.0.6",
+					"FortiClientMac-7.0.5",
+					"FortiClientMac-7.0.4",
+					"FortiClientMac-7.0.3",
+					"FortiClientMac-7.0.2",
+					"FortiClientMac-7.0.1",
+					"FortiClientMac-7.0.0",
+					"FortiClientMac-6.4.10",
+					"FortiClientMac-6.4.9",
+					"FortiClientMac-6.4.8",
+					"FortiClientMac-6.4.7",
+					"FortiClientMac-6.4.6",
+					"FortiClientMac-6.4.5",
+					"FortiClientMac-6.4.4",
+					"FortiClientMac-6.4.3",
+					"FortiClientMac-6.4.2",
+					"FortiClientMac-6.4.1",
+					"FortiClientMac-6.4.0",
+					"FortiClientMac-6.2.9",
+					"FortiClientMac-6.2.8",
+					"FortiClientMac-6.2.7",
+					"FortiClientMac-6.2.6",
+					"FortiClientMac-6.2.5",
+					"FortiClientMac-6.2.4",
+					"FortiClientMac-6.2.3",
+					"FortiClientMac-6.2.2",
+					"FortiClientMac-6.2.1",
+					"FortiClientMac-6.2.0",
+					"FortiClientMac-6.0.10",
+					"FortiClientMac-6.0.9",
+					"FortiClientMac-6.0.8",
+					"FortiClientMac-6.0.7",
+					"FortiClientMac-6.0.6",
+					"FortiClientMac-6.0.5",
+					"FortiClientMac-6.0.4",
+					"FortiClientMac-6.0.3",
+					"FortiClientMac-6.0.2",
+					"FortiClientMac-6.0.1",
+					"FortiClientMac-5.6.6",
+					"FortiClientMac-5.6.5",
+					"FortiClientMac-5.6.3",
+					"FortiClientMac-5.6.1",
+					"FortiClientMac-5.6.0",
+					"FortiClientMac-5.4.4",
+					"FortiClientMac-5.4.3",
+					"FortiClientMac-5.4.2",
+					"FortiClientMac-5.4.1",
+					"FortiClientMac-5.4.0",
+					"FortiClientMac-5.2.6",
+					"FortiClientMac-5.2.5",
+					"FortiClientMac-5.2.4",
+					"FortiClientMac-5.2.3",
+					"FortiClientMac-5.2.2",
+					"FortiClientMac-5.2.1",
+					"FortiClientMac-5.2.0",
+					"FortiClientMac-5.0.10",
+					"FortiClientMac-5.0.9",
+					"FortiClientMac-5.0.8",
+					"FortiClientMac-5.0.7",
+					"FortiClientMac-5.0.6",
+					"FortiClientMac-5.0.5",
+					"FortiClientMac-5.0.4",
+					"FortiClientMac-5.0.3",
+					"FortiClientMac-5.0.2",
+					"FortiClientMac-5.0.1",
+					"FortiClientMac-5.0.0",
+					"FortiClientMac-4.0.3",
+					"FortiClientMac-4.0.2",
+					"FortiClientMac-4.0.1",
+					"FortiClientMac-4.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.9",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L/E:P/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.7",
+								"product_id": "FortiClientMac-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.6",
+								"product_id": "FortiClientMac-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.5",
+								"product_id": "FortiClientMac-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.4",
+								"product_id": "FortiClientMac-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.3",
+								"product_id": "FortiClientMac-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.2",
+								"product_id": "FortiClientMac-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.1",
+								"product_id": "FortiClientMac-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.0",
+								"product_id": "FortiClientMac-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.10",
+								"product_id": "FortiClientMac-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.9",
+								"product_id": "FortiClientMac-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.8",
+								"product_id": "FortiClientMac-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.7",
+								"product_id": "FortiClientMac-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.6",
+								"product_id": "FortiClientMac-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.5",
+								"product_id": "FortiClientMac-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.4",
+								"product_id": "FortiClientMac-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.3",
+								"product_id": "FortiClientMac-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.2",
+								"product_id": "FortiClientMac-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.1",
+								"product_id": "FortiClientMac-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.0",
+								"product_id": "FortiClientMac-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.9",
+								"product_id": "FortiClientMac-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.8",
+								"product_id": "FortiClientMac-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.7",
+								"product_id": "FortiClientMac-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.6",
+								"product_id": "FortiClientMac-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.5",
+								"product_id": "FortiClientMac-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.4",
+								"product_id": "FortiClientMac-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.3",
+								"product_id": "FortiClientMac-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.2",
+								"product_id": "FortiClientMac-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.1",
+								"product_id": "FortiClientMac-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.2.0",
+								"product_id": "FortiClientMac-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.10",
+								"product_id": "FortiClientMac-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.9",
+								"product_id": "FortiClientMac-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.8",
+								"product_id": "FortiClientMac-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.7",
+								"product_id": "FortiClientMac-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.6",
+								"product_id": "FortiClientMac-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.5",
+								"product_id": "FortiClientMac-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.4",
+								"product_id": "FortiClientMac-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.3",
+								"product_id": "FortiClientMac-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.2",
+								"product_id": "FortiClientMac-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.0.1",
+								"product_id": "FortiClientMac-6.0.1"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.6",
+								"product_id": "FortiClientMac-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.5",
+								"product_id": "FortiClientMac-5.6.5"
+							}
+						},
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.3",
+								"product_id": "FortiClientMac-5.6.3"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.1",
+								"product_id": "FortiClientMac-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.0",
+								"product_id": "FortiClientMac-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.4",
+								"product_id": "FortiClientMac-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.3",
+								"product_id": "FortiClientMac-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.2",
+								"product_id": "FortiClientMac-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.1",
+								"product_id": "FortiClientMac-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.0",
+								"product_id": "FortiClientMac-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.6",
+								"product_id": "FortiClientMac-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.5",
+								"product_id": "FortiClientMac-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.4",
+								"product_id": "FortiClientMac-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.3",
+								"product_id": "FortiClientMac-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.2",
+								"product_id": "FortiClientMac-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.1",
+								"product_id": "FortiClientMac-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.0",
+								"product_id": "FortiClientMac-5.2.0"
+							}
+						},
+						{
+							"name": "5.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.10",
+								"product_id": "FortiClientMac-5.0.10"
+							}
+						},
+						{
+							"name": "5.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.9",
+								"product_id": "FortiClientMac-5.0.9"
+							}
+						},
+						{
+							"name": "5.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.8",
+								"product_id": "FortiClientMac-5.0.8"
+							}
+						},
+						{
+							"name": "5.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.7",
+								"product_id": "FortiClientMac-5.0.7"
+							}
+						},
+						{
+							"name": "5.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.6",
+								"product_id": "FortiClientMac-5.0.6"
+							}
+						},
+						{
+							"name": "5.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.5",
+								"product_id": "FortiClientMac-5.0.5"
+							}
+						},
+						{
+							"name": "5.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.4",
+								"product_id": "FortiClientMac-5.0.4"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.3",
+								"product_id": "FortiClientMac-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.2",
+								"product_id": "FortiClientMac-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.1",
+								"product_id": "FortiClientMac-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.0",
+								"product_id": "FortiClientMac-5.0.0"
+							}
+						},
+						{
+							"name": "4.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 4.0.3",
+								"product_id": "FortiClientMac-4.0.3"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 4.0.2",
+								"product_id": "FortiClientMac-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 4.0.1",
+								"product_id": "FortiClientMac-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 4.0.0",
+								"product_id": "FortiClientMac-4.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

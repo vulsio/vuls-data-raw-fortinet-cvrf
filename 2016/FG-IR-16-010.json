@@ -1,0 +1,91 @@
+{
+	"document_title": "FortiWeb CSRF Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-010"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-06-23T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-06-23T00:00:00",
+		"current_release_date": "2016-06-23T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A CSRF vulnerability could allow attackers to change admin password with crafted forms.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            There is a CSRF vulnerability with FortiWEB console on dashboard. Attackers may submit local forms to change admin password illegally.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Illegal change of admin password.\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiWEB\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortWeb 5.5.3\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thanks Ewoud Vlasselaer from Dimension Data Belgium for reporting a FortiWeb vulnerability under responsible disclosure. Â"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb CSRF Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-010",
+					"description": "FortiWeb CSRF Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-4066"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"document_title": "Cross Site Scripting Vulnerability in FortiWeb",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Email: psirt@fortinet.com\n            Website: fortiguard.com/psirt-pgpkey\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-012-006"
+		},
+		"revisionhistory": {
+			"revision": {}
+		},
+		"current_release_date": "2012-10-25T00:00:00-07:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiWeb fails to sanitize user input.  The vulnerability allows an attacker to inject script code. \n        ",
+				"title": "Summary",
+				"type": "Summary"
+			},
+			{
+				"text": "\n            FortiWeb fails to sanitize user input.  The vulnerability allows an attacker to inject script code.\n\n        ",
+				"title": "Description",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Cross Site Scripting \n        ",
+				"title": "Impact",
+				"type": "Description"
+			},
+			{
+				"text": "\n            FortiWeb 4000C, 3000C/3000CFsx, 1000C, 400C & Virtual Appliance.\n        ",
+				"title": "Affected Products",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Sanitize user input\n        ",
+				"title": "Solutions",
+				"type": "Description"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"references": {},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

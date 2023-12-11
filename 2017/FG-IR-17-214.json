@@ -1,0 +1,403 @@
+{
+	"document_title": "FortiClient insecure VPN credential storage and encryption",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-214"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-04-20T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-04-20T00:00:00",
+		"current_release_date": "2018-04-20T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            In certain conditions, FortiClient users' VPN credentials are stored in improperly secured locations and unsafely encrypted.[CVE-2017-14184]When the FortiClient \"Save Password\" feature is enabled (disabled by default), and when users make use of it, FortiClient for Linux, Mac OSX and Windows stores encrypted VPN authentication credentials in improperly secured locations; users sharingÂ the same workstation may therefore be able to see each other's encrypted credentials.[CVE-2017-17543]Users' VPN authentication credentials are unsafely encrypted in multiple FortiClient distributions, due to the use of a static encryption key and weak encryption algorithms.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient for Windows:[CVE-2017-14184] 5.6.0 and below versions.[CVE-2017-17543] 5.6.0 and below versions.FortiClient for Mac OSX:[CVE-2017-14184] 5.6.0 and below versions.[CVE-2017-17543] 5.6.0 and below versions.FortiClient SSLVPN Client for Linux:[CVE-2017-14184] 4.4.2334 and below versions.[CVE-2017-17543] 4.4.2335 and below versions.FortiClient Android:Not Impacted.FortiClient EMS:Not Impacted.FortiClient IOSNot Impacted.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClient for Windows: [CVE-2017-14184] Upgrade to 5.6.1 [CVE-2017-17543] Upgrade to 5.6.1 FortiClient for Mac OSX: [CVE-2017-14184] Upgrade to 5.6.1 [CVE-2017-17543] Upgrade to 5.6.1 FortiClient SSLVPN Client for Linux: [CVE-2017-14184] Upgrade to 4.4.2335 released together with FortiOS 5.4.7 [CVE-2017-17543] Upgrade to 4.4.2336 released together with FortiOS 6.0.0 Workarounds A scheduled upgrading to the resolved versions is strongly recommended to maximum the security protection. When a FortiClient upgrade is not feasible temporarily, it is suggested to disable the FortiClient \"Save Password\" feature from FortiOS, end users need stop using this option on FotiClient and change their passwords right after that. To ensure remove any cached credentials in operation systems, perform a FortiClient uninstall then reinstall is also recommended. To disable the \"Save Password\" feature, on FortiOS, run the following CLI command: For SSL VPN: config vpn ssl web portal edit [portal-name] set save-password disable next end For IPSec: config vpn ipsec phase1 edit [vpn-name] set save-password disable next end config vpn ipsec phase1-interface edit [vpn-name] set save-password disable next end Update History: 12-07-2017 Initial version 04-10-2018 FortiClient SSLVPN Client for Linux fixed CVE-2017-17543 in 4.0.2336\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-214",
+				"description": "FortiClient insecure VPN credential storage and encryption"
+			},
+			{
+				"url": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html",
+				"description": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank \"M. Li of SEC Consult Vulnerability Lab\" and \"Ci&T Software S/A Brazil\" reporting these vulnerabilities separately under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient insecure VPN credential storage and encryption",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-214",
+					"description": "FortiClient insecure VPN credential storage and encryption"
+				},
+				{
+					"url": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html",
+					"description": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-14184",
+			"CVE-2017-17543"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientMac-5.6.0",
+					"FortiClientMac-5.4.4",
+					"FortiClientMac-5.4.3",
+					"FortiClientMac-5.4.2",
+					"FortiClientMac-5.4.1",
+					"FortiClientMac-5.4.0",
+					"FortiClientMac-5.2.6",
+					"FortiClientMac-5.2.5",
+					"FortiClientMac-5.2.4",
+					"FortiClientMac-5.2.3",
+					"FortiClientMac-5.2.2",
+					"FortiClientMac-5.2.1",
+					"FortiClientMac-5.2.0",
+					"FortiClientMac-5.0.10",
+					"FortiClientMac-5.0.9",
+					"FortiClientMac-5.0.8",
+					"FortiClientMac-5.0.7",
+					"FortiClientMac-5.0.6",
+					"FortiClientMac-5.0.5",
+					"FortiClientMac-5.0.4",
+					"FortiClientMac-5.0.3",
+					"FortiClientMac-5.0.2",
+					"FortiClientMac-5.0.1",
+					"FortiClientMac-5.0.0",
+					"FortiClientWindows-5.6.0",
+					"FortiClientWindows-5.4.5",
+					"FortiClientWindows-5.4.4",
+					"FortiClientWindows-5.4.3",
+					"FortiClientWindows-5.4.2",
+					"FortiClientWindows-5.4.1",
+					"FortiClientWindows-5.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.6.0",
+								"product_id": "FortiClientMac-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.4",
+								"product_id": "FortiClientMac-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.3",
+								"product_id": "FortiClientMac-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.2",
+								"product_id": "FortiClientMac-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.1",
+								"product_id": "FortiClientMac-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.4.0",
+								"product_id": "FortiClientMac-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.6",
+								"product_id": "FortiClientMac-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.5",
+								"product_id": "FortiClientMac-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.4",
+								"product_id": "FortiClientMac-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.3",
+								"product_id": "FortiClientMac-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.2",
+								"product_id": "FortiClientMac-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.1",
+								"product_id": "FortiClientMac-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.2.0",
+								"product_id": "FortiClientMac-5.2.0"
+							}
+						},
+						{
+							"name": "5.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.10",
+								"product_id": "FortiClientMac-5.0.10"
+							}
+						},
+						{
+							"name": "5.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.9",
+								"product_id": "FortiClientMac-5.0.9"
+							}
+						},
+						{
+							"name": "5.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.8",
+								"product_id": "FortiClientMac-5.0.8"
+							}
+						},
+						{
+							"name": "5.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.7",
+								"product_id": "FortiClientMac-5.0.7"
+							}
+						},
+						{
+							"name": "5.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.6",
+								"product_id": "FortiClientMac-5.0.6"
+							}
+						},
+						{
+							"name": "5.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.5",
+								"product_id": "FortiClientMac-5.0.5"
+							}
+						},
+						{
+							"name": "5.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.4",
+								"product_id": "FortiClientMac-5.0.4"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.3",
+								"product_id": "FortiClientMac-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.2",
+								"product_id": "FortiClientMac-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.1",
+								"product_id": "FortiClientMac-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 5.0.0",
+								"product_id": "FortiClientMac-5.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.0",
+								"product_id": "FortiClientWindows-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.5",
+								"product_id": "FortiClientWindows-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.4",
+								"product_id": "FortiClientWindows-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.3",
+								"product_id": "FortiClientWindows-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.2",
+								"product_id": "FortiClientWindows-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.1",
+								"product_id": "FortiClientWindows-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.0",
+								"product_id": "FortiClientWindows-5.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

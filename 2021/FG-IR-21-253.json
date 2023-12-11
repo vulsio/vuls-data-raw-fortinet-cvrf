@@ -1,0 +1,92 @@
+{
+	"document_title": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-253"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-12-28T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-12-28T00:00:00",
+		"current_release_date": "2021-12-28T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Apache project released an advisory, describing the following vulnerabilities: 1) CVE-2021-44790 A carefully crafted request body can cause a buffer overflow in the mod_lua  multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not  aware of an exploit for the vulnerabilty though it might be possible to craft one. This  issue affects Apache HTTP Server 2.4.51 and earlier. 2) CVE-2021-44224 A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash  (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations,  can allow for requests to be directed to a declared Unix Domain Socket endpoint  (Server Side Request Forgery). This issue affects Apache HTTP Server 2.4.7 up to 2.4.51 (included).  \n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following products are NOT impacted: FortiOS FortiManager FortiAnalyzer FortiAuthenticator FortiIsolator FortiProxy FortiSandbox FortiWLM FortiMail  FortiAP FortiDeceptor FortiRecorder FortiWeb FortiWLC FortiPortal  FortiSIEM FortiSwitch FortiClientEMS FortiVoiceEnterprise FortiPentest FortiNDR FortiNAC FortiAnalyzer-BD\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-253",
+				"description": "Multiple Apache Vulnerabilities fixed in 2.4.52"
+			},
+			{
+				"url": "https://httpd.apache.org/security/vulnerabilities_24.html",
+				"description": "https://httpd.apache.org/security/vulnerabilities_24.html"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-253",
+					"description": "Multiple Apache Vulnerabilities fixed in 2.4.52"
+				},
+				{
+					"url": "https://httpd.apache.org/security/vulnerabilities_24.html",
+					"description": "https://httpd.apache.org/security/vulnerabilities_24.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-44790",
+			"CVE-2021-44224"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

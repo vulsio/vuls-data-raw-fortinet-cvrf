@@ -1,0 +1,93 @@
+{
+	"document_title": "Intel-SA-00086 Security Review Cumulative Update",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-271"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-01-04T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-01-04T00:00:00",
+		"current_release_date": "2018-01-04T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Intel recently released a security update (Intel-SA-00086), regarding Intel ME 11.x, SPS 4.0, and TXE 3.0 intel products.The following Firmware are impacted:IntelÂ® Management Engine (ME) Firmware versions 11.0/11.5/11.6/11.7/11.10/11.20IntelÂ® Server Platform Services (SPS) Firmware version 4.0IntelÂ® Trusted Execution Engine (TXE) version 3.0And the following Intel products are affected:6th, 7th & 8th Generation IntelÂ® Coreâ„¢ Processor FamilyIntelÂ® XeonÂ® Processor E3-1200 v5 & v6 Product FamilyIntelÂ® XeonÂ® Processor Scalable FamilyIntelÂ® XeonÂ® Processor W FamilyIntelÂ® AtomÂ® C3000 Processor FamilyApollo Lake IntelÂ® Atom Processor E3900 seriesApollo Lake IntelÂ® Pentiumâ„¢Celeronâ„¢ N and J series ProcessorsAn attacker could gain unauthorized access to the platform, the IntelÂ® ME feature, and 3rd party secrets protected by the IntelÂ® Management Engine (ME), the IntelÂ® Server Platform Service (SPS), or the IntelÂ® Trusted Execution Engine (TXE).This includes scenarios where a successful attacker could Impersonate the ME/SPS/TXE, thereby impacting local security feature attestation validity.Â Concrete impact may be \"load and execute arbitrary code outside the visibility of the user and operating system\", or \"system crash or system instability\".The assigned CVEs are:CVEs:IntelÂ® Manageability Engine Firmware 11.0.x.x/11.5.x.x/11.6.x.x/11.7.x.x/11.10.x.x/11.20.x.xCVE-2017-5705CVE-2017-5708CVE-2017-5711CVE-2017-5712Intel Manageability Engine Firmware 8.x/9.x/10.xCVE-2017-5711CVE-2017-5712Server Platform Service 4.0.x.xCVE-2017-5706CVE-2017-5709IntelTrusted Execution Engine 3.0.x.xCVE-2017-5707CVE-2017-5710\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Privilege Escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiGate model FGT-500E, FGT-501E, affected, but not exploitable under regular functioning conditions (see Solutions below).FortiWeb model FWB-1000E has a processor running a firmware affected by the issue, but the vulnerable functions were never enabled.The following products are NOT impacted:FortiAP FortiSwitchFortiAnalyzerFortiMailFortiManager\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Note that all related CVEs are \"Privilege Escalation\" type vulnerabilities. Arbitrary code execution is therefore only possible on the aforementioned products if the attack is combined with a local or remote code execution vulnerability (unrelated to intel issues) in the affected products. The Intel CVEs only aggravate the situation, if such vulnerabilities exist. Based on the above, the impact to Fortinet products is low to \"nonexistent\". * For FortiWeb 1000E, the affected firmware has undergone a precaution patching, in system BIOS PN P21583-02: New units will run a non-affected firmware. There is no firmware upgrade needed for existing units, however (see above: vulnerable functions not enabled). * For FortiGate 500E and 501E, the affected firmware has been patched under FortiBIOS version 05000003: new units will run a non-affected firmware. For existing units, the exploitation risk is low, as an attack may only be possible if combined with an additional local or remote code execution vulnerability, unrelated to this issue - if such vulnerabilities exist and are successfully exploited. To lower your attack risk and reduce the possibility of an \"already existing local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is highly recommended. Please contact your local TAC for more information or request for BIOS update. Update History: 01-04-2018 Initial version 01-18-2018 Assessment and Solution updated\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-271",
+				"description": "Intel-SA-00086 Security Review Cumulative Update"
+			},
+			{
+				"url": "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr",
+				"description": "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Intel-SA-00086 Security Review Cumulative Update",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-271",
+					"description": "Intel-SA-00086 Security Review Cumulative Update"
+				},
+				{
+					"url": "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr",
+					"description": "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

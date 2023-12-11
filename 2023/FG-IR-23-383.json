@@ -1,0 +1,133 @@
+{
+	"document_title": "TunnelCrack VPN vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-383"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-11-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-11-14T00:00:00",
+		"current_release_date": "2023-11-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Fortinet is aware of a research article named TunnelCrack, published at Usenix [1], which describe the LocalNet and ServerIP attacks. These attacks aim to leak VPN client traffic outside of the protected VPN tunnel when clients connect via untrusted networks, such as rogue Wi-Fi access points. The LocalNet attack allows an attacker to force the usage of local network access features of the VPN to access unencrypted traffic. The ServerIP attack allows an attacker to intercept traffic sent to a spoofed VPN gateway via DNS spoofing attacks. These attacks do not enable the attacker to decrypt the encrypted traffic but rather will try to redirect the traffic through attacker controlled channels before the traffic is encrypted by the VPN.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            None if properly configured: When connecting via an untrusted network, a VPN client should be configured according to recommendations for safety, and/or use secure communication protocols such as SSH/HTTPS that will prevent any spoofing attack. See solutions below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            LocalNet attack With default configuration, the VPN client allows reaching the local network without going through the VPN tunnel. If the attacker does control the DNS (or is able to perform DNS spoofing attacks), he may attempt to redirect the remote traffic to a local IP. The usage of HTTPS and certificate validation will raise alerts and prevent connections to malicious spoofed hosts. SSLVPN: To prevent it on non-https websites, users can enable \"exclusive-routing\" to make an SSL VPN Full Tunnel. https://community.fortinet.com/t5/FortiGate/Technical-Tip-Enabling-SSL-VPN-Full-Tunnel/ta-p/191848 IPsec: The configuration where all the traffic goes inside the tunnel is not being affected by the LocalNet attack. https://community.fortinet.com/t5/FortiGate/Technical-Tip-IPSec-dial-up-full-tunnel-with-FortiClient/ta-p/189452 https://community.fortinet.com/t5/FortiGate/Technical-Tip-Impossible-to-access-local-area-network-of-the/ta-p/244482 ServerIP attack SSL VPN: By default, HTTPS certificate check is done by FortiClient. It will detect DNS spoofing attempts and display a \"Security Alert\" pop up. Only if \"Do not alert when the certificate is invalid\" is checked in the FortiClient parameters, the VPN user is at risk of the ServerIP attack. IPsec: The IPsec protocol performs mutual authentication to avoid spoofing of the gateway IP. (with the use of pre-shared key or certificate X.509)\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-383",
+				"description": "TunnelCrack VPN vulnerabilities"
+			},
+			{
+				"url": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables\n",
+				"description": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables\n"
+			},
+			{
+				"url": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf\n",
+				"description": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf\n"
+			},
+			{
+				"url": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi\n",
+				"description": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi\n"
+			},
+			{
+				"url": "https://tunnelcrack.mathyvanhoef.com/",
+				"description": "https://tunnelcrack.mathyvanhoef.com/"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thanks Mathy Vanhoef from imec-DistriNet, KU Leuven, Nian Xue from New York University and Yashaswi Malla, Zihang Xia and Christina Popper from New York University Abu Dhabi for their research."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "TunnelCrack VPN vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-383",
+					"description": "TunnelCrack VPN vulnerabilities"
+				},
+				{
+					"url": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables\n",
+					"description": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables\n"
+				},
+				{
+					"url": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf\n",
+					"description": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf\n"
+				},
+				{
+					"url": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi\n",
+					"description": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi\n"
+				},
+				{
+					"url": "https://tunnelcrack.mathyvanhoef.com/",
+					"description": "https://tunnelcrack.mathyvanhoef.com/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-36671"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6",
+				"vector_v3": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,181 @@
+{
+	"document_title": "FortiAnalyzer - XSS vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-092"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-11-02T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-11-02T00:00:00",
+		"current_release_date": "2021-11-02T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input during web page generation [CWE-79] in FortiAnalyzer may allow an attacker to perform a stored Cross Site Scripting (XSS) attack via specifically crafted requests to the web GUI.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiAnalyzer versions 6.0.6 and below. FortiAnalyzer version 6.4.4.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiAnalyzer version 6.0.7 or above. Please upgrade to FortiAnalyzer version 6.2.0 or above. Please upgrade to FortiAnalyzer version 6.4.0 to 6.4.3, 6.4.5 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank independent researchers Nicolas Fiset and SÃ©rgio LourenÃ§o Ribeiro for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAnalyzer - XSS vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-092",
+					"description": "FortiAnalyzer - XSS vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2020-12814"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-6.4.4",
+					"FortiAnalyzer-6.0.6",
+					"FortiAnalyzer-6.0.5",
+					"FortiAnalyzer-6.0.4",
+					"FortiAnalyzer-6.0.3",
+					"FortiAnalyzer-6.0.2",
+					"FortiAnalyzer-6.0.1",
+					"FortiAnalyzer-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.4",
+								"product_id": "FortiAnalyzer-6.4.4"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.6",
+								"product_id": "FortiAnalyzer-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.5",
+								"product_id": "FortiAnalyzer-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.4",
+								"product_id": "FortiAnalyzer-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.3",
+								"product_id": "FortiAnalyzer-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.2",
+								"product_id": "FortiAnalyzer-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.1",
+								"product_id": "FortiAnalyzer-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.0",
+								"product_id": "FortiAnalyzer-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

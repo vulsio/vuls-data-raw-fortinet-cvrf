@@ -1,0 +1,226 @@
+{
+	"document_title": "FortiExtender - Arbitrary command execution because of missing CLI input sanitization",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-148"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-02-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-02-01T00:00:00",
+		"current_release_date": "2022-02-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in a command vulnerability ('Command Injection') [CWE-77] in FortiExtender may allow an authenticated user to raise its privileges to admin user via crafted arguments of the `execute` CLI command.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiExtender version 7.0.1 and below. FortiExtender version 4.2.3 and below. FortiExtender version 4.1.7 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiExtender version 7.0.2 or above. Upgrade to FortiExtender version 4.2.4 or above. Upgrade to FortiExtender version 4.1.8 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Mattia Fecit of Fortinet PSIRT team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiExtender - Arbitrary command execution because of missing CLI input sanitization",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-148",
+					"description": "FortiExtender - Arbitrary command execution because of missing CLI input sanitization"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-41016"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiExtender-7.0.1",
+					"FortiExtender-7.0.0",
+					"FortiExtender-4.2.3",
+					"FortiExtender-4.2.2",
+					"FortiExtender-4.2.1",
+					"FortiExtender-4.2.0",
+					"FortiExtender-4.1.7",
+					"FortiExtender-4.1.6",
+					"FortiExtender-4.1.5",
+					"FortiExtender-4.1.4",
+					"FortiExtender-4.1.3",
+					"FortiExtender-4.1.2",
+					"FortiExtender-4.1.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.4",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiExtender",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.1",
+								"product_id": "FortiExtender-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.0",
+								"product_id": "FortiExtender-7.0.0"
+							}
+						},
+						{
+							"name": "4.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.2.3",
+								"product_id": "FortiExtender-4.2.3"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.2.2",
+								"product_id": "FortiExtender-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.2.1",
+								"product_id": "FortiExtender-4.2.1"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.2.0",
+								"product_id": "FortiExtender-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.7",
+								"product_id": "FortiExtender-4.1.7"
+							}
+						},
+						{
+							"name": "4.1.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.6",
+								"product_id": "FortiExtender-4.1.6"
+							}
+						},
+						{
+							"name": "4.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.5",
+								"product_id": "FortiExtender-4.1.5"
+							}
+						},
+						{
+							"name": "4.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.4",
+								"product_id": "FortiExtender-4.1.4"
+							}
+						},
+						{
+							"name": "4.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.3",
+								"product_id": "FortiExtender-4.1.3"
+							}
+						},
+						{
+							"name": "4.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.2",
+								"product_id": "FortiExtender-4.1.2"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 4.1.1",
+								"product_id": "FortiExtender-4.1.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

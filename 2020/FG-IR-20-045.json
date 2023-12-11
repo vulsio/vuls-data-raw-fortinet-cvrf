@@ -1,0 +1,271 @@
+{
+	"document_title": "Authentication bypass in FortiMail and FortiVoiceEntreprise",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-045"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-04-27T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-04-27T00:00:00",
+		"current_release_date": "2020-04-27T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Improper Access Control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiMail versions 5.4.10 and below. FortiMail versions 6.0.7 and below. FortiMail versions 6.2.2 and below. FortiVoiceEntreprise versions 6.0.1 and below. FortiVoiceEntreprise 5.4 all versions.   FortiMail versions 5.3 and lower are not impacted by this vulnerability. FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability. FortiMail Cloud has been upgraded to non-impacted versions.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiMail version 5.4.11 or above. Please upgrade to FortiMail version 6.0.8 or above. Please upgrade to FortiMail version 6.2.3 or above. Please upgrade to FortiVoiceEntreprise version 6.0.2 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Mike Connor for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Authentication bypass in FortiMail and FortiVoiceEntreprise",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-045",
+					"description": "Authentication bypass in FortiMail and FortiVoiceEntreprise"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2020-9294"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiMail-6.2.2",
+					"FortiMail-6.2.1",
+					"FortiMail-6.2.0",
+					"FortiMail-6.0.7",
+					"FortiMail-6.0.6",
+					"FortiMail-6.0.5",
+					"FortiMail-6.0.4",
+					"FortiMail-6.0.3",
+					"FortiMail-6.0.2",
+					"FortiMail-6.0.1",
+					"FortiMail-6.0.0",
+					"FortiMail-5.4.10",
+					"FortiMail-5.4.9",
+					"FortiMail-5.4.8",
+					"FortiMail-5.4.7",
+					"FortiMail-5.4.6",
+					"FortiVoice-6.0.1",
+					"FortiVoice-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.2",
+								"product_id": "FortiMail-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.1",
+								"product_id": "FortiMail-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.0",
+								"product_id": "FortiMail-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.7",
+								"product_id": "FortiMail-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.6",
+								"product_id": "FortiMail-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.5",
+								"product_id": "FortiMail-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.4",
+								"product_id": "FortiMail-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.3",
+								"product_id": "FortiMail-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.2",
+								"product_id": "FortiMail-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.1",
+								"product_id": "FortiMail-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.0",
+								"product_id": "FortiMail-6.0.0"
+							}
+						},
+						{
+							"name": "5.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.10",
+								"product_id": "FortiMail-5.4.10"
+							}
+						},
+						{
+							"name": "5.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.9",
+								"product_id": "FortiMail-5.4.9"
+							}
+						},
+						{
+							"name": "5.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.8",
+								"product_id": "FortiMail-5.4.8"
+							}
+						},
+						{
+							"name": "5.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.7",
+								"product_id": "FortiMail-5.4.7"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.6",
+								"product_id": "FortiMail-5.4.6"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiVoice",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.1",
+								"product_id": "FortiVoice-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.0",
+								"product_id": "FortiVoice-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

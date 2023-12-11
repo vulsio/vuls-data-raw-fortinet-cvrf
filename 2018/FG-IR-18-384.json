@@ -1,0 +1,271 @@
+{
+	"document_title": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-384"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-05-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-05-24T00:00:00",
+		"current_release_date": "2019-05-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A path traversal vulnerability in the FortiOS SSL VPN web portal may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.Fortinet is aware that a malicious actor has disclosed SSL-VPN access information to 87,000 FortiGate SSL-VPN devices. These credentials were obtained from systems which were unpatched against FG-IR-18-384 / CVE-2018-13379 at the time of the actors scan, but may since have been patched but the passwords not reset.Â Please note that a password reset following upgrade is critical to protecting against this vulnerability, in case credentials have already been compromised.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS 6.0 - 6.0.0 to 6.0.4FortiOS 5.6 - 5.6.3 to 5.6.7FortiOS 5.4 - 5.4.6 to 5.4.12(other branches and versions than above are not impacted)ONLY if the SSL VPN service (web-mode or tunnel-mode) is enabled.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 5.4.13, 5.6.8, 6.0.5 or 6.2.0 and above. Workarounds: As a temporary solution, the only workaround is to totally disable the SSL-VPN service (both web-mode and tunnel-mode) by applying the following CLI commands: config vpn ssl settings unset source-interface end Note that firewall policies tied to SSL VPN will need to be unset first for the above sequence to execute successfully. As an example, when source-interface is \"port1\" and SSL VPN interface is \"ssl.root\", the following CLI commands would be needed to ensure \"unset source-interface\" executes successfully: config vpn ssl settings config authentication-rule purge (purge all authentication-rules) end end config firewall policy delete [policy-id] (SSL VPN policy ID(s) that srcintf is \"ssl.root\" and dstintf is \"port1\") end Note that code to exploit this vulnerability in order to obtain the credentials of logged in SSL VPN users was disclosed. In absence of upgrading to the versions listed above, mitigating the impact of this exploit can be done by enabling two-factor authentication for SSL VPN users. An attacker would then not be able to use stolen credentials to impersonate SSL VPN users. 2019-05-24 Initial version 2019-06-04 Clarified the impacted versions and workarounds. 2019-08-30 FortiOS 5.4 branch (starts from 5.4.6) also affected and fix scheduled.. 2019-08-30 two-factor authentication mitigation added for the disclosed exploit. 2019-08-30 Add public disclosure reference link. 2019-11-26 New fix on 5.4.13 released.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-384",
+				"description": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests"
+			},
+			{
+				"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",
+				"description": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Meh Chang and Orange Tsai from DEVCORE Security Research Team for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-384",
+					"description": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests"
+				},
+				{
+					"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",
+					"description": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2018-13379"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-6.0.4",
+					"FortiOS-6.0.3",
+					"FortiOS-6.0.2",
+					"FortiOS-6.0.1",
+					"FortiOS-6.0.0",
+					"FortiOS-5.6.7",
+					"FortiOS-5.6.6",
+					"FortiOS-5.6.5",
+					"FortiOS-5.6.4",
+					"FortiOS-5.6.3",
+					"FortiOS-5.4.12",
+					"FortiOS-5.4.11",
+					"FortiOS-5.4.10",
+					"FortiOS-5.4.9",
+					"FortiOS-5.4.8",
+					"FortiOS-5.4.7",
+					"FortiOS-5.4.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.4",
+								"product_id": "FortiOS-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.3",
+								"product_id": "FortiOS-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.2",
+								"product_id": "FortiOS-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.1",
+								"product_id": "FortiOS-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.0",
+								"product_id": "FortiOS-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.7",
+								"product_id": "FortiOS-5.6.7"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.6",
+								"product_id": "FortiOS-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.5",
+								"product_id": "FortiOS-5.6.5"
+							}
+						},
+						{
+							"name": "5.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.4",
+								"product_id": "FortiOS-5.6.4"
+							}
+						},
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.3",
+								"product_id": "FortiOS-5.6.3"
+							}
+						},
+						{
+							"name": "5.4.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.12",
+								"product_id": "FortiOS-5.4.12"
+							}
+						},
+						{
+							"name": "5.4.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.11",
+								"product_id": "FortiOS-5.4.11"
+							}
+						},
+						{
+							"name": "5.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.10",
+								"product_id": "FortiOS-5.4.10"
+							}
+						},
+						{
+							"name": "5.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.9",
+								"product_id": "FortiOS-5.4.9"
+							}
+						},
+						{
+							"name": "5.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.8",
+								"product_id": "FortiOS-5.4.8"
+							}
+						},
+						{
+							"name": "5.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.7",
+								"product_id": "FortiOS-5.4.7"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.6",
+								"product_id": "FortiOS-5.4.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

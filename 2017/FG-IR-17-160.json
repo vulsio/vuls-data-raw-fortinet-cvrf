@@ -1,0 +1,147 @@
+{
+	"document_title": "FortiOS SSL Deep-Inspection Proxy Mode badssl.com Compliance",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-160"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-05-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-05-16T00:00:00",
+		"current_release_date": "2018-05-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            US-Cert published a document at https://www.us-cert.gov/ncas/alerts/TA17-075A which outlines some security flaws that may be introduced by the use of SSL Deep-Inspection.Â FortiOS was flagged as \"potentially vulnerable\" to some of these vulnerabilities by badssl.com under SSL Deep-Inspection Proxy Mode.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Improper Access Control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            * https://sha1-intermediate.badssl.comFortiOS 5.6.0, FortiOS 5.4.8 and below.* https://revoked.badssl.comFortiOS 5.6.0 and below.* https://invalid-expected-sct.badssl.comFortiOS 5.6.0 and below.* https://pinning-test.badssl.comFortiOS all versions.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            * https://sha1-intermediate.badssl.com Branch 5.6: Upgrade to FortiOS 5.6.1 or above Branch 5.4: Upgrade to FortiOS 5.4.9 * https://revoked.badssl.com Upgrade to FortiOS 5.6.1 or above, and adjust the configuration via the following CLI commands, to enable the auto-checking of revoked certificates through OCSP: config vpn certificate setting set ocsp-status enable set ssl-ocsp-status enable set ssl-ocsp-option certificate end * https://invalid-expected-sct.badssl.com Upgrade to FortiOS 5.6.1 or above. * https://pinning-test.badssl.com Currently there is no plan to support Public-Key-Pins verification during SSL Deep-Inspection. FortiGate administrators can manually block such websites using a webfilter profile if needed.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-160",
+				"description": "FortiOS SSL Deep-Inspection Proxy Mode badssl.com Compliance"
+			},
+			{
+				"url": "https://www.us-cert.gov/ncas/alerts/TA17-075A",
+				"description": "https://www.us-cert.gov/ncas/alerts/TA17-075A"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS SSL Deep-Inspection Proxy Mode badssl.com Compliance",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-160",
+					"description": "FortiOS SSL Deep-Inspection Proxy Mode badssl.com Compliance"
+				},
+				{
+					"url": "https://www.us-cert.gov/ncas/alerts/TA17-075A",
+					"description": "https://www.us-cert.gov/ncas/alerts/TA17-075A"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2005-4900"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-5.6.0",
+					"FortiOS-5.4.8",
+					"FortiOS-5.4.5",
+					"FortiOS-5.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.0",
+								"product_id": "FortiOS-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.8",
+								"product_id": "FortiOS-5.4.8"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.5",
+								"product_id": "FortiOS-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.0",
+								"product_id": "FortiOS-5.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

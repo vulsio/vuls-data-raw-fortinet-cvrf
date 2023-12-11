@@ -1,0 +1,426 @@
+{
+	"document_title": "FortiOS / FortiMail / FortiAuthenticator by default disables SMBv1 support",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-103"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-06-04T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-06-04T00:00:00",
+		"current_release_date": "2019-06-04T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Server Message Block (SMB) 1.0 - a legacy file and print sharing protocol - has been deprecated by Microsoft due to multiple weaknesses (remote code execution, downgrade, man-in-the-middle, collision and pre-image attack). While it is only used as a client in FortiOS, as a measure of precaution SMBv1 support in FortiOS SSL-VPN and DLP is now disabled by default starting from 6.0.1 [1][2] and 5.6.6 [3] for High-End models (FortiGate 1000 series and higher models) and Virtual Machine models and can be re-enabled by applying the following CLI commands (not recommended): [1] FortiOS 6.2 branch (6.2.0 and above): conf vpn ssl web portal     edit {portal-name}         set smb-min-version smbv1 # (note: default value is \"smbv2\")         set smb-max-version smbv1 # (note: default value is \"smbv3\")      next end [2] FortiOS 6.0 branch (6.0.1 and above): conf vpn ssl web portal     edit {portal-name}         set smbv1 enable # (note: default value is “disable”)     next end [3] FortiOS 5.6 branch (5.6.6 and above): config vpn ssl web portal     edit {portal-name}         set smb-ntlmv1-auth enable # (note: default value is “disable”)     next end (For FortiOS 5.6.5 and below versions, the smb-ntlmv1-auth CLI command can not disable SMBv1 protocol support). SMBv1 support is also disabled by default in the FortiOS FSSO fsso-polling feature starting from 6.2.0 [4] for High-End models and Virtual Machine models and can be enabled by applying the following CLI commands: [4] FortiOS 6.2.0 branch: config user fsso-polling     set smbv1 {enable|*disable} # (default value is \"disable\") end For Entry-Levels and Mid-Range models, SMBv1 remains the only supported SMB protocol.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Insecure Protocol Support\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS High-End models and Virtual Machine models: FortiOS 6.0.0, 5.6.5 and below. FortiOS Entry-Levels and Mid-Range models: FortiOS all versions. At least FortiMail version 5.3.13 At least FortiAuthenticator 5.0 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiOS: For High-End models and Virtual Machine models, upgrade to FortiOS 6.0.1, 5.6.6 or newer versions. For Entry-Levels and Mid-Range models, starting from FortiOS 5.6.11, 6.0.7 and 6.2.1, when SMBv1 is used under the SSL VPN web portal, a warning bar will be shown to the user under login page and later pages, alerting about using a deprecated and unsafe SMBv1 protocol. Details of FortiOS model specifications: https://www.fortinet.com/products/next-generation-firewall/models-specs.html FortiMail: Upgrade to FortiMal 5.4.0 or newer versions   FortiAuthenticator: Upgrade to FortiAuthenticator 5.1.0 or newer versions Revision History: 08-08-2017 Initial version 06-04-2019 New CLI commands and security warning bar introduced 08-22-2019 Update warning bar introduced branch versions. 04-20-2023 Reformatted, added missing platforms in SA body to match info table\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-103",
+				"description": "FortiOS / FortiMail / FortiAuthenticator by default disables SMBv1 support"
+			},
+			{
+				"url": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n",
+				"description": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n"
+			},
+			{
+				"url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010",
+				"description": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS / FortiMail / FortiAuthenticator by default disables SMBv1 support",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-103",
+					"description": "FortiOS / FortiMail / FortiAuthenticator by default disables SMBv1 support"
+				},
+				{
+					"url": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n",
+					"description": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n"
+				},
+				{
+					"url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010",
+					"description": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-6.2.0",
+					"FortiOS-6.0.17",
+					"FortiOS-6.0.16",
+					"FortiOS-6.0.15",
+					"FortiOS-6.0.14",
+					"FortiOS-6.0.13",
+					"FortiOS-6.0.12",
+					"FortiOS-6.0.11",
+					"FortiOS-6.0.10",
+					"FortiOS-6.0.9",
+					"FortiOS-6.0.8",
+					"FortiOS-6.0.7",
+					"FortiOS-6.0.6",
+					"FortiOS-6.0.5",
+					"FortiOS-6.0.4",
+					"FortiOS-6.0.3",
+					"FortiOS-6.0.1",
+					"FortiOS-5.6.14",
+					"FortiOS-5.6.13",
+					"FortiOS-5.6.12",
+					"FortiOS-5.6.11",
+					"FortiOS-5.6.10",
+					"FortiOS-5.6.9",
+					"FortiOS-5.6.8",
+					"FortiOS-5.6.7",
+					"FortiOS-5.6.6",
+					"FortiOS-5.6.5",
+					"FortiOS-5.4.13",
+					"FortiOS-5.4.12",
+					"FortiOS-5.4.11",
+					"FortiOS-5.4.10",
+					"FortiAuthenticator-5.0.0",
+					"FortiMail-5.3.13"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.0",
+								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.17",
+								"product_id": "FortiOS-6.0.17"
+							}
+						},
+						{
+							"name": "6.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.16",
+								"product_id": "FortiOS-6.0.16"
+							}
+						},
+						{
+							"name": "6.0.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.15",
+								"product_id": "FortiOS-6.0.15"
+							}
+						},
+						{
+							"name": "6.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.14",
+								"product_id": "FortiOS-6.0.14"
+							}
+						},
+						{
+							"name": "6.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.13",
+								"product_id": "FortiOS-6.0.13"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.12",
+								"product_id": "FortiOS-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.11",
+								"product_id": "FortiOS-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.10",
+								"product_id": "FortiOS-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.9",
+								"product_id": "FortiOS-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.8",
+								"product_id": "FortiOS-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.7",
+								"product_id": "FortiOS-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.6",
+								"product_id": "FortiOS-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.5",
+								"product_id": "FortiOS-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.4",
+								"product_id": "FortiOS-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.3",
+								"product_id": "FortiOS-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.1",
+								"product_id": "FortiOS-6.0.1"
+							}
+						},
+						{
+							"name": "5.6.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.14",
+								"product_id": "FortiOS-5.6.14"
+							}
+						},
+						{
+							"name": "5.6.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.13",
+								"product_id": "FortiOS-5.6.13"
+							}
+						},
+						{
+							"name": "5.6.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.12",
+								"product_id": "FortiOS-5.6.12"
+							}
+						},
+						{
+							"name": "5.6.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.11",
+								"product_id": "FortiOS-5.6.11"
+							}
+						},
+						{
+							"name": "5.6.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.10",
+								"product_id": "FortiOS-5.6.10"
+							}
+						},
+						{
+							"name": "5.6.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.9",
+								"product_id": "FortiOS-5.6.9"
+							}
+						},
+						{
+							"name": "5.6.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.8",
+								"product_id": "FortiOS-5.6.8"
+							}
+						},
+						{
+							"name": "5.6.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.7",
+								"product_id": "FortiOS-5.6.7"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.6",
+								"product_id": "FortiOS-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.5",
+								"product_id": "FortiOS-5.6.5"
+							}
+						},
+						{
+							"name": "5.4.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.13",
+								"product_id": "FortiOS-5.4.13"
+							}
+						},
+						{
+							"name": "5.4.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.12",
+								"product_id": "FortiOS-5.4.12"
+							}
+						},
+						{
+							"name": "5.4.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.11",
+								"product_id": "FortiOS-5.4.11"
+							}
+						},
+						{
+							"name": "5.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.10",
+								"product_id": "FortiOS-5.4.10"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 5.0.0",
+								"product_id": "FortiAuthenticator-5.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.3.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.3.13",
+								"product_id": "FortiMail-5.3.13"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"document_title": "CVE-2015-1793 OpenSSL \"Alternative  Chains Certificate Forgery\"",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-015"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-07-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-07-09T00:00:00",
+		"current_release_date": "2015-07-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            OpenSSL released a security advisory in July 2015 to announce a high severity vulnerability affecting any application that verifies certificates with OpenSSL. In certain conditions, an attacker owning a valid certificate (eg: a certificate for her personal website, signed by legitimate Certification Authorities) could leverage this vulnerability to act as a CA and \"issue\" certificates (in other words: sign forged certificates that would then appear legitimate to a vulnerable peer). OpenSSL notes that this concerns SSL clients (when verifying a server's certificates) but also SSL servers when verifying a client's certificate, in the rarer occurrence of client authentication in the SSL handshake.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Certificate Forgery\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Fortinet products themselves are not impacted.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Do not connect to any SSL server (even nonimpacted) from a vulnerable client.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-015",
+				"description": "CVE-2015-1793 OpenSSL \"Alternative  Chains Certificate Forgery\""
+			},
+			{
+				"url": "https://openssl.org/news/secadv_20150611.txt",
+				"description": "https://openssl.org/news/secadv_20150611.txt"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "CVE-2015-1793 OpenSSL \"Alternative  Chains Certificate Forgery\"",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-015",
+					"description": "CVE-2015-1793 OpenSSL \"Alternative  Chains Certificate Forgery\""
+				},
+				{
+					"url": "https://openssl.org/news/secadv_20150611.txt",
+					"description": "https://openssl.org/news/secadv_20150611.txt"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-1793"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

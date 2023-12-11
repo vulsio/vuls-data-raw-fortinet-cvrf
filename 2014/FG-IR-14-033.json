@@ -1,0 +1,87 @@
+{
+	"document_title": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-033"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-10-30T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-10-30T00:00:00",
+		"current_release_date": "2014-10-30T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Prior to version 5.0.7, the Web User Interface of FortiManager and FortiAnalyzer is vulnerable to multiple reflected Cross-Site Scripting vulnerabilities.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Cross-Site Scripting (reflected)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiManager and FortiAnalyzer < version 5.0.7\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to 5.0.7 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Oded Vanunu & Adi Volkovitz, Check Point Security Research Team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-033",
+					"description": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-2334",
+			"CVE-2014-2335",
+			"CVE-2014-2336"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

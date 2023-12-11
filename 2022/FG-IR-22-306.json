@@ -1,0 +1,184 @@
+{
+	"document_title": "FortiSOAR - Server-Side Template Injection in Playbook component",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-306"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-09-06T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-09-06T00:00:00",
+		"current_release_date": "2022-09-06T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in a template engine vulnerability [CWE-1336] in FortiSOAR management interface may allow a remote and authenticated attacker to execute arbitrary code via a crafted payload.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiSOAR version 7.2.0FortiSOAR version 7.0.0 through 7.0.3FortiSOAR version 6.4.0 through 6.4.4\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSOAR version 7.2.1 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSOAR - Server-Side Template Injection in Playbook component",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-306",
+					"description": "FortiSOAR - Server-Side Template Injection in Playbook component"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-35847"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSOAR-7.2.0",
+					"FortiSOAR-7.0.3",
+					"FortiSOAR-7.0.2",
+					"FortiSOAR-7.0.1",
+					"FortiSOAR-7.0.0",
+					"FortiSOAR-6.4.4",
+					"FortiSOAR-6.4.3",
+					"FortiSOAR-6.4.1",
+					"FortiSOAR-6.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:F/RL:U/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSOAR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.2.0",
+								"product_id": "FortiSOAR-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.3",
+								"product_id": "FortiSOAR-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.2",
+								"product_id": "FortiSOAR-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.1",
+								"product_id": "FortiSOAR-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.0",
+								"product_id": "FortiSOAR-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.4",
+								"product_id": "FortiSOAR-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.3",
+								"product_id": "FortiSOAR-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.1",
+								"product_id": "FortiSOAR-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.0",
+								"product_id": "FortiSOAR-6.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

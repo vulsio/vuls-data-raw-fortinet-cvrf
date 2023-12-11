@@ -1,0 +1,105 @@
+{
+	"document_title": "OpenSSL Advisory - May 2016",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-026"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-09-22T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-09-22T00:00:00",
+		"current_release_date": "2016-09-22T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            OpenSSL released an update in May 2016 to address two high and four low severity vulnerabilities.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            OpenSSL released an update in May 2016 to address two high and four low severity vulnerabilities.CVE-2016-2108; CVE-2016-2107; CVE-2016-2105; CVE-2016-2106; CVE-2016-2109; CVE-2016-2176\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Memory corruption and padding oracle\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiOS:5.4.05.2.7 and below 5.0.13 and belowFortiSwitch 3.4.1 and belowFortiAnalyzer:5.4.05.2.7 and belowFortiAP 5.4.0CVE-2016-2108:FortiOS 5.2.3 and below; 5.0.12 and belowFortiSwitch 3.3.3 and belowFortiAnalyzer 5.2.2 and belowFortiAP is not affectedShould you require further information then please contact Fortinet'sÂ Technical Assistance Center (TAC) via your usual support channel.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            FortiOS upgrade to: 5.4.1 and above; 5.2.8 and above; 5.0.14 and aboveFortiSwitch upgrade to: 3.4.2 and aboveFortiAnalyzer upgrade to: 5.4.1 and above; 5.2.8 and aboveFortiAP upgrade to: 5.4.1 and aboveCVE-2016-2108:FortiOS upgrade to: 5.4.0 and above; 5.2.4 and above; 5.0.13 and aboveFortiSwitch upgrade to: 3.4.0 and aboveFortiAnalyzer upgrade to: 5.4.0 and above; 5.2.3 and above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-026",
+				"description": "OpenSSL Advisory - May 2016"
+			},
+			{
+				"url": "https://www.openssl.org/news/secadv/20160503.txt",
+				"description": "https://www.openssl.org/news/secadv/20160503.txt"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "OpenSSL Advisory - May 2016",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-026",
+					"description": "OpenSSL Advisory - May 2016"
+				},
+				{
+					"url": "https://www.openssl.org/news/secadv/20160503.txt",
+					"description": "https://www.openssl.org/news/secadv/20160503.txt"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-2108",
+			"CVE-2016-2107",
+			"CVE-2016-2105",
+			"CVE-2016-2106",
+			"CVE-2016-2109",
+			"CVE-2016-2176"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

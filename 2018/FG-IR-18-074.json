@@ -1,0 +1,154 @@
+{
+	"document_title": "Forgot password link doesn't expire after use",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-074"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-08-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-08-24T00:00:00",
+		"current_release_date": "2018-08-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiCloud password reset link requested by the user takes one hour to expire even after password was changed successfully, thus allowing attackers to take over user's account if they somehow gain access to the reset link for the user's password.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Improper Access Control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiCloud 3.2.1 and below (before August, 2018)\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiCloud 3.3.0 (online since August, 2018)\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Nikhil Kumar: https://www.linkedin.com/in/nikhil73 from Adayptus Security Team: https://adayptus.com for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Forgot password link doesn't expire after use",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-074",
+					"description": "Forgot password link doesn't expire after use"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiCloud-3.2.2",
+					"FortiCloud-3.2.1",
+					"FortiCloud-3.2.0",
+					"FortiCloud-3.1.2",
+					"FortiCloud-3.1.0",
+					"FortiCloud-3.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiCloud",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.2.2",
+								"product_id": "FortiCloud-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.2.1",
+								"product_id": "FortiCloud-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.2.0",
+								"product_id": "FortiCloud-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.1.2",
+								"product_id": "FortiCloud-3.1.2"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.1.0",
+								"product_id": "FortiCloud-3.1.0"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCloud 3.0.0",
+								"product_id": "FortiCloud-3.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

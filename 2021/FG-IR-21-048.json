@@ -1,0 +1,397 @@
+{
+	"document_title": "Authentication bypass in FortiWAN",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-048"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-04-27T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-04-27T00:00:00",
+		"current_release_date": "2021-04-27T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A relative path traversal vulnerability (CWE-23) in FortiWAN may allow a remote non-authenticated attacker to delete files on the system by sending a crafted POST request. In particular, deleting specific configuration files will reset the Admin password to its default value.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Authentication bypass\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWAN versions 4.5.7 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiWAN upcoming version 4.5.8 or above. Please upgrade to FortiWAN version 5.1.1 or above. Workaround: Instead of allowing administrative access from any source, restrict it to trusted internal hosts.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank a customer who brought this issue to our attention."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Authentication bypass in FortiWAN",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-048",
+					"description": "Authentication bypass in FortiWAN"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-26102"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"AscenLink-7.2.23",
+					"AscenLink-7.2.22",
+					"AscenLink-7.2.21",
+					"AscenLink-7.2.20",
+					"AscenLink-7.2.19",
+					"AscenLink-7.2.18",
+					"AscenLink-7.2.17",
+					"AscenLink-7.2.16",
+					"AscenLink-7.2.15",
+					"AscenLink-7.2.14",
+					"AscenLink-7.2.13",
+					"AscenLink-7.2.12",
+					"AscenLink-7.2.11",
+					"AscenLink-7.2.10",
+					"AscenLink-7.2.9",
+					"AscenLink-7.2.8",
+					"AscenLink-7.2.7",
+					"AscenLink-7.2.6",
+					"AscenLink-7.2.5",
+					"AscenLink-7.2.4",
+					"AscenLink-7.2.3",
+					"AscenLink-7.2.2",
+					"FortiWAN-4.5.7",
+					"FortiWAN-4.5.6",
+					"FortiWAN-4.5.5",
+					"FortiWAN-4.5.4",
+					"FortiWAN-4.5.3",
+					"FortiWAN-4.5.2",
+					"FortiWAN-4.5.1",
+					"FortiWAN-4.5.0",
+					"FortiWAN-4.4.1",
+					"FortiWAN-4.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "AscenLink",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.23",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.23",
+								"product_id": "AscenLink-7.2.23"
+							}
+						},
+						{
+							"name": "7.2.22",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.22",
+								"product_id": "AscenLink-7.2.22"
+							}
+						},
+						{
+							"name": "7.2.21",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.21",
+								"product_id": "AscenLink-7.2.21"
+							}
+						},
+						{
+							"name": "7.2.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.20",
+								"product_id": "AscenLink-7.2.20"
+							}
+						},
+						{
+							"name": "7.2.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.19",
+								"product_id": "AscenLink-7.2.19"
+							}
+						},
+						{
+							"name": "7.2.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.18",
+								"product_id": "AscenLink-7.2.18"
+							}
+						},
+						{
+							"name": "7.2.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.17",
+								"product_id": "AscenLink-7.2.17"
+							}
+						},
+						{
+							"name": "7.2.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.16",
+								"product_id": "AscenLink-7.2.16"
+							}
+						},
+						{
+							"name": "7.2.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.15",
+								"product_id": "AscenLink-7.2.15"
+							}
+						},
+						{
+							"name": "7.2.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.14",
+								"product_id": "AscenLink-7.2.14"
+							}
+						},
+						{
+							"name": "7.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.13",
+								"product_id": "AscenLink-7.2.13"
+							}
+						},
+						{
+							"name": "7.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.12",
+								"product_id": "AscenLink-7.2.12"
+							}
+						},
+						{
+							"name": "7.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.11",
+								"product_id": "AscenLink-7.2.11"
+							}
+						},
+						{
+							"name": "7.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.10",
+								"product_id": "AscenLink-7.2.10"
+							}
+						},
+						{
+							"name": "7.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.9",
+								"product_id": "AscenLink-7.2.9"
+							}
+						},
+						{
+							"name": "7.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.8",
+								"product_id": "AscenLink-7.2.8"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.7",
+								"product_id": "AscenLink-7.2.7"
+							}
+						},
+						{
+							"name": "7.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.6",
+								"product_id": "AscenLink-7.2.6"
+							}
+						},
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.5",
+								"product_id": "AscenLink-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.4",
+								"product_id": "AscenLink-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.3",
+								"product_id": "AscenLink-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.2",
+								"product_id": "AscenLink-7.2.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWAN",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.5.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.7",
+								"product_id": "FortiWAN-4.5.7"
+							}
+						},
+						{
+							"name": "4.5.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.6",
+								"product_id": "FortiWAN-4.5.6"
+							}
+						},
+						{
+							"name": "4.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.5",
+								"product_id": "FortiWAN-4.5.5"
+							}
+						},
+						{
+							"name": "4.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.4",
+								"product_id": "FortiWAN-4.5.4"
+							}
+						},
+						{
+							"name": "4.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.3",
+								"product_id": "FortiWAN-4.5.3"
+							}
+						},
+						{
+							"name": "4.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.2",
+								"product_id": "FortiWAN-4.5.2"
+							}
+						},
+						{
+							"name": "4.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.1",
+								"product_id": "FortiWAN-4.5.1"
+							}
+						},
+						{
+							"name": "4.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.0",
+								"product_id": "FortiWAN-4.5.0"
+							}
+						},
+						{
+							"name": "4.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.4.1",
+								"product_id": "FortiWAN-4.4.1"
+							}
+						},
+						{
+							"name": "4.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.4.0",
+								"product_id": "FortiWAN-4.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

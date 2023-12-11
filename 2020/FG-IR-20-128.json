@@ -1,0 +1,78 @@
+{
+	"document_title": "Multiple Apache Vulnerabilties fixed in 2.4.46",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-128"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-10-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-10-05T00:00:00",
+		"current_release_date": "2020-10-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Apache project released an advisory on August 7th 2020, which describes the following vulnerabilities:1) CVE-2020-9490Â Apache HTTP Server versions 2.4.20 to 2.4.43. A specially crafted value for the 'Cache-Digest' header in a HTTP/2 request would result in a crash when the server actually tries to HTTP/2 PUSH a resource afterwards. Configuring the HTTP/2 feature via \"H2Push off\" will mitigate this vulnerability for unpatched servers.Â Â 2) CVE-2020-11984Â Apache HTTP server 2.4.32 to 2.4.44 mod_proxy_uwsgi info disclosure and possible RCE.Â Â 3) CVE-2020-11993Â Apache HTTP Server versions 2.4.20 to 2.4.43 When trace/debug was enabled for the HTTP/2 module and on certain traffic edge patterns, logging statements were made on the wrong connection, causing concurrent use of memory pools. Configuring the LogLevel of mod_http2 above \"info\" will mitigate this vulnerability for unpatched servers.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of Service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Products FortiGate, FortiManager, FortiAnalyzer, FortiSwitch, FortiAP are not impacted by the concerned CVE's.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple Apache Vulnerabilties fixed in 2.4.46",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-128",
+					"description": "Multiple Apache Vulnerabilties fixed in 2.4.46"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2020-9490",
+			"CVE-2020-11984",
+			"CVE-2020-11993"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

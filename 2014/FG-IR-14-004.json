@@ -1,0 +1,85 @@
+{
+	"document_title": "FortiADC Cross-Site Scripting Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-004"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-04-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-04-03T00:00:00",
+		"current_release_date": "2014-04-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The web administration interface on FortiADC D-series versions 3.2.0 and lower have a reflective cross-site scripting vulnerability in the locale parameter.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Cross Site Scripting\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiADC D-series 3.2.0 and lower. This does not affect FortiADC E-series products.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiADC D-series version 3.2.1 or higher.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "William Costa"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiADC Cross-Site Scripting Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-004",
+					"description": "FortiADC Cross-Site Scripting Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-0331"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

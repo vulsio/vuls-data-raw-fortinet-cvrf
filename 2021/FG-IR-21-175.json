@@ -1,0 +1,256 @@
+{
+	"document_title": "FortiSIEM - plaintext storage of sensitive data in Windows Agent",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-175"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-11-02T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-11-02T00:00:00",
+		"current_release_date": "2021-11-02T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A plaintext storage of a password vulnerability [CWE-256] in the FortiSIEM Windows Agent may allow an authenticated user to impersonate the agent registered to the Supervisor via reading specific log files.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiSIEM Windows Agent version 4.1.4 and below. FortiSIEM Windows Agent version 4.0.0. FortiSIEM Windows Agent version 3.3.0. FortiSIEM Windows Agent version 3.2.2 and below. FortiSIEM Windows Agent version 3.1.2 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiSIEM Windows Agent version 4.1.5Â or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "<span style=\"font-size:11.0pt;font-family:\"Arial\",sans-serif;"
+			},
+			{
+				"description": "mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-GB;mso-fareast-language:"
+			},
+			{
+				"description": "EN-GB;mso-bidi-language:AR-SA\">Internally discovered and reported by Oleksii"
+			},
+			{
+				"description": "Mandrychenko and Damnjan Nikolic of Fortinet TAC team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSIEM - plaintext storage of sensitive data in Windows Agent",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-175",
+					"description": "FortiSIEM - plaintext storage of sensitive data in Windows Agent"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-41023"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSIEMWindowsAgent-4.1.4",
+					"FortiSIEMWindowsAgent-4.1.3",
+					"FortiSIEMWindowsAgent-4.1.2",
+					"FortiSIEMWindowsAgent-4.1.1",
+					"FortiSIEMWindowsAgent-4.1.0",
+					"FortiSIEMWindowsAgent-4.0.1",
+					"FortiSIEMWindowsAgent-4.0.0",
+					"FortiSIEMWindowsAgent-3.3.1",
+					"FortiSIEMWindowsAgent-3.3.0",
+					"FortiSIEMWindowsAgent-3.2.3",
+					"FortiSIEMWindowsAgent-3.2.2",
+					"FortiSIEMWindowsAgent-3.2.1",
+					"FortiSIEMWindowsAgent-3.2.0",
+					"FortiSIEMWindowsAgent-3.1.3",
+					"FortiSIEMWindowsAgent-3.1.2",
+					"FortiSIEMWindowsAgent-3.1.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:X/RL:O/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSIEMWindowsAgent",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.1.4",
+								"product_id": "FortiSIEMWindowsAgent-4.1.4"
+							}
+						},
+						{
+							"name": "4.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.1.3",
+								"product_id": "FortiSIEMWindowsAgent-4.1.3"
+							}
+						},
+						{
+							"name": "4.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.1.2",
+								"product_id": "FortiSIEMWindowsAgent-4.1.2"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.1.1",
+								"product_id": "FortiSIEMWindowsAgent-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.1.0",
+								"product_id": "FortiSIEMWindowsAgent-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.0.1",
+								"product_id": "FortiSIEMWindowsAgent-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 4.0.0",
+								"product_id": "FortiSIEMWindowsAgent-4.0.0"
+							}
+						},
+						{
+							"name": "3.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.3.1",
+								"product_id": "FortiSIEMWindowsAgent-3.3.1"
+							}
+						},
+						{
+							"name": "3.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.3.0",
+								"product_id": "FortiSIEMWindowsAgent-3.3.0"
+							}
+						},
+						{
+							"name": "3.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.2.3",
+								"product_id": "FortiSIEMWindowsAgent-3.2.3"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.2.2",
+								"product_id": "FortiSIEMWindowsAgent-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.2.1",
+								"product_id": "FortiSIEMWindowsAgent-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.2.0",
+								"product_id": "FortiSIEMWindowsAgent-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.1.3",
+								"product_id": "FortiSIEMWindowsAgent-3.1.3"
+							}
+						},
+						{
+							"name": "3.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.1.2",
+								"product_id": "FortiSIEMWindowsAgent-3.1.2"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEMWindowsAgent 3.1.0",
+								"product_id": "FortiSIEMWindowsAgent-3.1.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

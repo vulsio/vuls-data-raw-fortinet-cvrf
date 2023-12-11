@@ -1,0 +1,79 @@
+{
+	"document_title": "Http debug commands in FortiMail exposes users credentials to admins",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-009"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-04-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-04-10T00:00:00",
+		"current_release_date": "2015-04-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiMail's \"diag debug application httpd\" set of commands can be used to capture the credentials entered in the admin WebGui and the webmail login page forms. The debug commands can be executed by super_admin users and admin users.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Credentials Exposure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiMail 5.0.3 to 5.2.3. Previous versions are not affected.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to 5.2.4.There is currently no workaround to disable the debug command in 5.1 and 5.0.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Http debug commands in FortiMail exposes users credentials to admins",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-009",
+					"description": "Http debug commands in FortiMail exposes users credentials to admins"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-3293"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,123 @@
+{
+	"document_title": "FortiWeb Recursive URL Decoding is not enabled by default",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-058"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-08-23T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-08-23T00:00:00",
+		"current_release_date": "2018-08-23T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiWeb's \"Recursive URL Decoding\" feature can detect URL-based attacks (among which XSS and SQL injection attempts) even when the malicious URL is recursively encoded. However, this feature is not enabled by default in FortiWeb's system settings for FortiWeb version 6.0.0 and below.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            WAF bypass (URL based attack)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb 6.0.0 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb 6.0.1 or newer versions or use workaround. Workaround For FortiWeb 6.0.0 and below, manually enabling this feature is recommended. From the FortiWeb GUI, it can be enabled under ystem > Config > Advanced in the \"Recursive URL Decoding\" (refer to: http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm for more info). From the FortiWeb CLI, it can be enabled with the following commands: config system advanced set circulate-url-decode enable end Update History 05-16-2018 Initial version. 08-23-2018 Default secure setting supported in 6.0.1\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058",
+				"description": "FortiWeb Recursive URL Decoding is not enabled by default"
+			},
+			{
+				"url": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",
+				"description": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank independent security researcher SecuNinja (http://twitter.com/secuninja) for reporting this FortiWeb operational risk under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb Recursive URL Decoding is not enabled by default",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058",
+					"description": "FortiWeb Recursive URL Decoding is not enabled by default"
+				},
+				{
+					"url": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",
+					"description": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.0",
+								"product_id": "FortiWeb-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

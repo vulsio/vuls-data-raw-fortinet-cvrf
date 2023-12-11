@@ -1,0 +1,112 @@
+{
+	"document_title": "XSS vulnerability in FortiAuthenticator OWA Agent",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-104"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-01-06T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-01-06T00:00:00",
+		"current_release_date": "2020-01-06T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input during web page generation in FortiAuthenticator Agent for Outlook Web Access may allow an unauthenticated user to perform a cross-site scripting attack (XSS) via a parameter of the logon page.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiAuthenticator Agent for Outlook Web Access v1.5 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade the FortiAuthenticator Agent for Outlook Web Access on your Microsoft Exchange servers to v1.6. The installer is available for download from within the administrative web interface of FortiAuthenticator 6.0.1 or greater; however it is not necessary to upgrade your FortiAuthenticator to resolve this issue.Customers who do not want to upgrade their FortiAuthenticator appliance or who do not have a spare lab unit are advised to contact their Fortinet support engineer in order to obtain the FortiAuthenticator Agent for Outlook Web Access v1.6 installer.To contact Fortinet support team please follow this link:https://www.fortinet.com/support/contact.html\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Konstantinos Kanavidis from DEVOQ Technology for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "XSS vulnerability in FortiAuthenticator OWA Agent",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-104",
+					"description": "XSS vulnerability in FortiAuthenticator OWA Agent"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-16154"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAuthenticator-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:L/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.0",
+								"product_id": "FortiAuthenticator-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

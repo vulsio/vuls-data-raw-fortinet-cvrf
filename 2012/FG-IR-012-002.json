@@ -1,0 +1,71 @@
+{
+	"document_title": "Potential Policy Bypass in FortiWeb Web Application Firewall",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Email: psirt@fortinet.com\n            Website: fortiguard.com/psirt-pgpkey\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-012-002"
+		},
+		"revisionhistory": {
+			"revision": {}
+		},
+		"current_release_date": "2012-05-04T00:00:00-07:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            On May 2, 2012 a policy bypass vulnerability was publicly disclosed against Fortinet's FortiWeb Web Application Firewall. This vulnerability may exist if the unit is not configured to inspect and drop malformed / oversized requests. FortiWeb units have been protected against this vulnerability if the proper configuration is in place (see workaround).  \n        ",
+				"title": "Summary",
+				"type": "Summary"
+			},
+			{
+				"text": "\n            On May 2, 2012 a policy bypass vulnerability was publicly disclosed against Fortinet's FortiWeb Web Application Firewall. This vulnerability may exist if the unit is not configured to inspect and drop malformed / oversized requests. FortiWeb units have been protected against this vulnerability if the proper configuration is in place (see workaround).  \n        ",
+				"title": "Description",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Policy Bypass\n        ",
+				"title": "Impact",
+				"type": "Description"
+			},
+			{
+				"text": "\n            FortiWeb - All Versions Prior to and Including v4.3 Patch 6.\n        ",
+				"title": "Affected Products",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Fortinet recommends to enable \"Block Malformed Request\" violation in \"Protocol Constraints\". In current versions of FortiWeb, this may be found under the Web Protection -> Protocol form.  Fortinet is working to a flexible solution for v4.3 Patch 7 which will further address this issue.\n        ",
+				"title": "Solutions",
+				"type": "Description"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "Bugtraq: <a href=\"http://seclists.org/bugtraq/2012/May/14\">http://seclists.org/bugtraq/2012/May/14</a>",
+				"description": "Bugtraq: <a href=\"http://seclists.org/bugtraq/2012/May/14\">http://seclists.org/bugtraq/2012/May/14</a>"
+			},
+			{
+				"url": "Discovered By: Geffrey Velasquez at BINAR10 S.A.C.",
+				"description": "Discovered By: Geffrey Velasquez at BINAR10 S.A.C."
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"references": {},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

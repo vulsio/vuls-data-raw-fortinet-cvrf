@@ -1,0 +1,1309 @@
+{
+	"document_title": "Multiple products - Lack of certificate verification when establishing secure connections",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-292"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-06-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-06-07T00:00:00",
+		"current_release_date": "2022-06-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiOS, FortiAnalyzer, FortiManager, and FortiSandbox may allow a network adjacent and unauthenticated attacker toÂ man-in-the-middle the communication between the listed products and some external peers.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager version 7.0.1 and below. FortiManager version 6.4.6 and below. FortiAnalyzer version 7.0.2 and below. FortiAnalyzer version 6.4.7 and below. FortiSandbox versions 4.0.x. FortiSandbox versions 3.2.x. FortiSandbox versions 3.1.5 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiManager version 7.0.2 or above. Please upgrade to FortiManager version 6.4.7 or above. Please upgrade to FortiAnalyzer version 7.0.3 or above. Please upgrade to FortiAnalyzer version 6.4.8 or above. Please upgrade to FortiSandbox version 4.2.0 or above   \n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple products - Lack of certificate verification when establishing secure connections",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-292",
+					"description": "Multiple products - Lack of certificate verification when establishing secure connections"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-22305"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-7.0.2",
+					"FortiAnalyzer-7.0.1",
+					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.7",
+					"FortiAnalyzer-6.4.6",
+					"FortiAnalyzer-6.4.5",
+					"FortiAnalyzer-6.4.4",
+					"FortiAnalyzer-6.4.3",
+					"FortiAnalyzer-6.4.2",
+					"FortiAnalyzer-6.4.1",
+					"FortiAnalyzer-6.4.0",
+					"FortiAnalyzer-6.2.12",
+					"FortiAnalyzer-6.2.11",
+					"FortiAnalyzer-6.2.10",
+					"FortiAnalyzer-6.2.9",
+					"FortiAnalyzer-6.2.8",
+					"FortiAnalyzer-6.2.7",
+					"FortiAnalyzer-6.2.6",
+					"FortiAnalyzer-6.2.5",
+					"FortiAnalyzer-6.2.4",
+					"FortiAnalyzer-6.2.3",
+					"FortiAnalyzer-6.2.2",
+					"FortiAnalyzer-6.2.1",
+					"FortiAnalyzer-6.2.0",
+					"FortiAnalyzer-6.0.12",
+					"FortiAnalyzer-6.0.11",
+					"FortiAnalyzer-6.0.10",
+					"FortiAnalyzer-6.0.9",
+					"FortiAnalyzer-6.0.8",
+					"FortiAnalyzer-6.0.7",
+					"FortiAnalyzer-6.0.6",
+					"FortiAnalyzer-6.0.5",
+					"FortiAnalyzer-6.0.4",
+					"FortiAnalyzer-6.0.3",
+					"FortiAnalyzer-6.0.2",
+					"FortiAnalyzer-6.0.1",
+					"FortiAnalyzer-6.0.0",
+					"FortiSandbox-4.0.2",
+					"FortiSandbox-4.0.1",
+					"FortiSandbox-4.0.0",
+					"FortiSandbox-3.2.4",
+					"FortiSandbox-3.2.3",
+					"FortiSandbox-3.2.2",
+					"FortiSandbox-3.2.1",
+					"FortiSandbox-3.2.0",
+					"FortiSandbox-3.1.5",
+					"FortiSandbox-3.1.4",
+					"FortiSandbox-3.1.3",
+					"FortiSandbox-3.1.2",
+					"FortiSandbox-3.1.1",
+					"FortiSandbox-3.1.0",
+					"FortiSandbox-3.0.7",
+					"FortiSandbox-3.0.6",
+					"FortiSandbox-3.0.5",
+					"FortiSandbox-3.0.4",
+					"FortiSandbox-3.0.3",
+					"FortiSandbox-3.0.2",
+					"FortiSandbox-3.0.1",
+					"FortiSandbox-3.0.0",
+					"FortiOS-6.2.15",
+					"FortiOS-6.2.14",
+					"FortiOS-6.2.13",
+					"FortiOS-6.2.12",
+					"FortiOS-6.2.11",
+					"FortiOS-6.2.10",
+					"FortiOS-6.2.9",
+					"FortiOS-6.2.8",
+					"FortiOS-6.2.7",
+					"FortiOS-6.2.6",
+					"FortiOS-6.2.5",
+					"FortiOS-6.2.4",
+					"FortiOS-6.2.3",
+					"FortiOS-6.2.2",
+					"FortiOS-6.2.1",
+					"FortiOS-6.2.0",
+					"FortiOS-6.0.17",
+					"FortiOS-6.0.16",
+					"FortiOS-6.0.15",
+					"FortiOS-6.0.14",
+					"FortiOS-6.0.13",
+					"FortiOS-6.0.12",
+					"FortiOS-6.0.11",
+					"FortiOS-6.0.10",
+					"FortiOS-6.0.9",
+					"FortiOS-6.0.8",
+					"FortiOS-6.0.7",
+					"FortiOS-6.0.6",
+					"FortiOS-6.0.5",
+					"FortiOS-6.0.4",
+					"FortiOS-6.0.3",
+					"FortiOS-6.0.2",
+					"FortiOS-6.0.1",
+					"FortiOS-6.0.0",
+					"FortiOS-5.6.14",
+					"FortiOS-5.6.13",
+					"FortiOS-5.6.12",
+					"FortiOS-5.6.11",
+					"FortiOS-5.6.10",
+					"FortiManager-7.0.1",
+					"FortiManager-7.0.0",
+					"FortiManager-6.4.6",
+					"FortiManager-6.4.5",
+					"FortiManager-6.4.4",
+					"FortiManager-6.4.3",
+					"FortiManager-6.4.2",
+					"FortiManager-6.4.1",
+					"FortiManager-6.4.0",
+					"FortiManager-6.2.11",
+					"FortiManager-6.2.10",
+					"FortiManager-6.2.9",
+					"FortiManager-6.2.8",
+					"FortiManager-6.2.7",
+					"FortiManager-6.2.6",
+					"FortiManager-6.2.5",
+					"FortiManager-6.2.4",
+					"FortiManager-6.2.3",
+					"FortiManager-6.2.2",
+					"FortiManager-6.2.1",
+					"FortiManager-6.2.0",
+					"FortiManager-6.0.12",
+					"FortiManager-6.0.11",
+					"FortiManager-6.0.10",
+					"FortiManager-6.0.9",
+					"FortiManager-6.0.8",
+					"FortiManager-6.0.7",
+					"FortiManager-6.0.6",
+					"FortiManager-6.0.5",
+					"FortiManager-6.0.4",
+					"FortiManager-6.0.3",
+					"FortiManager-6.0.2",
+					"FortiManager-6.0.1",
+					"FortiManager-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.2",
+								"product_id": "FortiAnalyzer-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.1",
+								"product_id": "FortiAnalyzer-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.0",
+								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.7",
+								"product_id": "FortiAnalyzer-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.6",
+								"product_id": "FortiAnalyzer-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.5",
+								"product_id": "FortiAnalyzer-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.4",
+								"product_id": "FortiAnalyzer-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.3",
+								"product_id": "FortiAnalyzer-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.2",
+								"product_id": "FortiAnalyzer-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.1",
+								"product_id": "FortiAnalyzer-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.0",
+								"product_id": "FortiAnalyzer-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.12",
+								"product_id": "FortiAnalyzer-6.2.12"
+							}
+						},
+						{
+							"name": "6.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.11",
+								"product_id": "FortiAnalyzer-6.2.11"
+							}
+						},
+						{
+							"name": "6.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.10",
+								"product_id": "FortiAnalyzer-6.2.10"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.9",
+								"product_id": "FortiAnalyzer-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.8",
+								"product_id": "FortiAnalyzer-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.7",
+								"product_id": "FortiAnalyzer-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.6",
+								"product_id": "FortiAnalyzer-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.5",
+								"product_id": "FortiAnalyzer-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.4",
+								"product_id": "FortiAnalyzer-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.3",
+								"product_id": "FortiAnalyzer-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.2",
+								"product_id": "FortiAnalyzer-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.1",
+								"product_id": "FortiAnalyzer-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.0",
+								"product_id": "FortiAnalyzer-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.12",
+								"product_id": "FortiAnalyzer-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.11",
+								"product_id": "FortiAnalyzer-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.10",
+								"product_id": "FortiAnalyzer-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.9",
+								"product_id": "FortiAnalyzer-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.8",
+								"product_id": "FortiAnalyzer-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.7",
+								"product_id": "FortiAnalyzer-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.6",
+								"product_id": "FortiAnalyzer-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.5",
+								"product_id": "FortiAnalyzer-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.4",
+								"product_id": "FortiAnalyzer-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.3",
+								"product_id": "FortiAnalyzer-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.2",
+								"product_id": "FortiAnalyzer-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.1",
+								"product_id": "FortiAnalyzer-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.0",
+								"product_id": "FortiAnalyzer-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.2",
+								"product_id": "FortiSandbox-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.1",
+								"product_id": "FortiSandbox-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.0",
+								"product_id": "FortiSandbox-4.0.0"
+							}
+						},
+						{
+							"name": "3.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.4",
+								"product_id": "FortiSandbox-3.2.4"
+							}
+						},
+						{
+							"name": "3.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.3",
+								"product_id": "FortiSandbox-3.2.3"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.2",
+								"product_id": "FortiSandbox-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.1",
+								"product_id": "FortiSandbox-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.0",
+								"product_id": "FortiSandbox-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.5",
+								"product_id": "FortiSandbox-3.1.5"
+							}
+						},
+						{
+							"name": "3.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.4",
+								"product_id": "FortiSandbox-3.1.4"
+							}
+						},
+						{
+							"name": "3.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.3",
+								"product_id": "FortiSandbox-3.1.3"
+							}
+						},
+						{
+							"name": "3.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.2",
+								"product_id": "FortiSandbox-3.1.2"
+							}
+						},
+						{
+							"name": "3.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.1",
+								"product_id": "FortiSandbox-3.1.1"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.0",
+								"product_id": "FortiSandbox-3.1.0"
+							}
+						},
+						{
+							"name": "3.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.7",
+								"product_id": "FortiSandbox-3.0.7"
+							}
+						},
+						{
+							"name": "3.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.6",
+								"product_id": "FortiSandbox-3.0.6"
+							}
+						},
+						{
+							"name": "3.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.5",
+								"product_id": "FortiSandbox-3.0.5"
+							}
+						},
+						{
+							"name": "3.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.4",
+								"product_id": "FortiSandbox-3.0.4"
+							}
+						},
+						{
+							"name": "3.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.3",
+								"product_id": "FortiSandbox-3.0.3"
+							}
+						},
+						{
+							"name": "3.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.2",
+								"product_id": "FortiSandbox-3.0.2"
+							}
+						},
+						{
+							"name": "3.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.1",
+								"product_id": "FortiSandbox-3.0.1"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.0",
+								"product_id": "FortiSandbox-3.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.15",
+								"product_id": "FortiOS-6.2.15"
+							}
+						},
+						{
+							"name": "6.2.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.14",
+								"product_id": "FortiOS-6.2.14"
+							}
+						},
+						{
+							"name": "6.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.13",
+								"product_id": "FortiOS-6.2.13"
+							}
+						},
+						{
+							"name": "6.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.12",
+								"product_id": "FortiOS-6.2.12"
+							}
+						},
+						{
+							"name": "6.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.11",
+								"product_id": "FortiOS-6.2.11"
+							}
+						},
+						{
+							"name": "6.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.10",
+								"product_id": "FortiOS-6.2.10"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.9",
+								"product_id": "FortiOS-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.8",
+								"product_id": "FortiOS-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.7",
+								"product_id": "FortiOS-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.6",
+								"product_id": "FortiOS-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.5",
+								"product_id": "FortiOS-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.4",
+								"product_id": "FortiOS-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.3",
+								"product_id": "FortiOS-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.2",
+								"product_id": "FortiOS-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.1",
+								"product_id": "FortiOS-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.0",
+								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.17",
+								"product_id": "FortiOS-6.0.17"
+							}
+						},
+						{
+							"name": "6.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.16",
+								"product_id": "FortiOS-6.0.16"
+							}
+						},
+						{
+							"name": "6.0.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.15",
+								"product_id": "FortiOS-6.0.15"
+							}
+						},
+						{
+							"name": "6.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.14",
+								"product_id": "FortiOS-6.0.14"
+							}
+						},
+						{
+							"name": "6.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.13",
+								"product_id": "FortiOS-6.0.13"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.12",
+								"product_id": "FortiOS-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.11",
+								"product_id": "FortiOS-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.10",
+								"product_id": "FortiOS-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.9",
+								"product_id": "FortiOS-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.8",
+								"product_id": "FortiOS-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.7",
+								"product_id": "FortiOS-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.6",
+								"product_id": "FortiOS-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.5",
+								"product_id": "FortiOS-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.4",
+								"product_id": "FortiOS-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.3",
+								"product_id": "FortiOS-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.2",
+								"product_id": "FortiOS-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.1",
+								"product_id": "FortiOS-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.0",
+								"product_id": "FortiOS-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.14",
+								"product_id": "FortiOS-5.6.14"
+							}
+						},
+						{
+							"name": "5.6.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.13",
+								"product_id": "FortiOS-5.6.13"
+							}
+						},
+						{
+							"name": "5.6.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.12",
+								"product_id": "FortiOS-5.6.12"
+							}
+						},
+						{
+							"name": "5.6.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.11",
+								"product_id": "FortiOS-5.6.11"
+							}
+						},
+						{
+							"name": "5.6.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.10",
+								"product_id": "FortiOS-5.6.10"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.1",
+								"product_id": "FortiManager-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.0",
+								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.6",
+								"product_id": "FortiManager-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.5",
+								"product_id": "FortiManager-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.4",
+								"product_id": "FortiManager-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.3",
+								"product_id": "FortiManager-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.2",
+								"product_id": "FortiManager-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.1",
+								"product_id": "FortiManager-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.0",
+								"product_id": "FortiManager-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.11",
+								"product_id": "FortiManager-6.2.11"
+							}
+						},
+						{
+							"name": "6.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.10",
+								"product_id": "FortiManager-6.2.10"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.9",
+								"product_id": "FortiManager-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.8",
+								"product_id": "FortiManager-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.7",
+								"product_id": "FortiManager-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.6",
+								"product_id": "FortiManager-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.5",
+								"product_id": "FortiManager-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.4",
+								"product_id": "FortiManager-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.3",
+								"product_id": "FortiManager-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.2",
+								"product_id": "FortiManager-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.1",
+								"product_id": "FortiManager-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.0",
+								"product_id": "FortiManager-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.12",
+								"product_id": "FortiManager-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.11",
+								"product_id": "FortiManager-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.10",
+								"product_id": "FortiManager-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.9",
+								"product_id": "FortiManager-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.8",
+								"product_id": "FortiManager-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.7",
+								"product_id": "FortiManager-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.6",
+								"product_id": "FortiManager-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.5",
+								"product_id": "FortiManager-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.4",
+								"product_id": "FortiManager-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.3",
+								"product_id": "FortiManager-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.2",
+								"product_id": "FortiManager-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.1",
+								"product_id": "FortiManager-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.0",
+								"product_id": "FortiManager-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

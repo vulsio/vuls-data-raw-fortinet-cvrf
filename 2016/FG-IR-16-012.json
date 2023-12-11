@@ -1,0 +1,95 @@
+{
+	"document_title": "OpenSSL Advisory - January 2016",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-012"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-07-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-07-12T00:00:00",
+		"current_release_date": "2016-07-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            OpenSSL released an update in January 2016 to address one high and one low severity vulnerabilities.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following products are confirmed to be not vulnerable: Â * FortiAnalyzer * FortiAP * FortiGate * FortiSwitch Â Please contact Fortinet's Technical Assistance Center (TAC) for others products impact.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Fortinet is not aware of any public exploit of the vulnerabilities that are described in this advisory. For more information please contact Fortinet's Technical Assistance Center (TAC).\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-012",
+				"description": "OpenSSL Advisory - January 2016"
+			},
+			{
+				"url": "https://www.openssl.org/news/secadv/20160128.txt",
+				"description": "https://www.openssl.org/news/secadv/20160128.txt"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "OpenSSL Advisory - January 2016",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-012",
+					"description": "OpenSSL Advisory - January 2016"
+				},
+				{
+					"url": "https://www.openssl.org/news/secadv/20160128.txt",
+					"description": "https://www.openssl.org/news/secadv/20160128.txt"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-0701",
+			"CVE-2015-3197"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

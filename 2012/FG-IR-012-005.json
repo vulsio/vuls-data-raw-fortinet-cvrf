@@ -1,0 +1,65 @@
+{
+	"document_title": "Script Code Injection Vulnerability in FortiMail",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Email: vulnwatch@fortinet.com\n            Website: fortiguard.com/psirt-pgpkey\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-012-005"
+		},
+		"revisionhistory": {
+			"revision": {}
+		},
+		"current_release_date": "2012-10-25T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiMail fails to sanitize user input. The vulnerability allows an attacker to bypass its input filtering routine, which could result in the execution of the injected script code.\n        ",
+				"title": "Summary",
+				"type": "Summary"
+			},
+			{
+				"text": "\n            FortiMail fails to sanitize user input. The vulnerability allows an attacker to bypass its input filtering routine, which could result in the execution of the injected script code.\n        ",
+				"title": "Description",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Arbitrary Script Code Injection\n        ",
+				"title": "Impact",
+				"type": "Description"
+			},
+			{
+				"text": "\n            FortiMail 200D, 400C, VM2K, 2000B and 5002B.\n        ",
+				"title": "Affected Products",
+				"type": "Description"
+			},
+			{
+				"text": "\n            Restrict the user input to allowed characters.\n        ",
+				"title": "Solutions",
+				"type": "Description"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Acknowledgement",
+				"type": "Description"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"references": {},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

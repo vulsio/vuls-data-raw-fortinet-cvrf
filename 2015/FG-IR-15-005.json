@@ -1,0 +1,96 @@
+{
+	"document_title": "Multiple products cross-site scripting vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-005"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-02-25T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-02-25T00:00:00",
+		"current_release_date": "2015-02-25T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Web User Interface of FortiGate, FortiManager, FortiAnalyzer, FortiMail and FortiADC D models are vulnerable to reflected cross-site scripting vulnerabilities.Starting from FortiOS 5.2.0, three XSS are present in the sslvpn login page (CVE-2015-1880), user group (CVE-2014-8616) and the vpn template menus (CVE-2014-8616).Starting from FortiManager 5.0.3, there is a XSS located in the advanced dataset reports page when the FortiAnalyzer feature is activated (CVE-2015-3620).Starting from FortiAnalyzer 5.0.0 to 5.0.10 and 5.2.0 and 5.2.1, there is a XSS located in the advanced dataset reports page (CVE-2015-3620).All fortimail versions contains one XSS in web action quarantine release feature (CVE-2014-8617).Between versions 5.1.2 and 5.3.4 included, FortiWeb contains two XSS in the autolearn configuration page (CVE-2014-8619).Prior to version 4.2, FortiADC D models contains one XSS in the theme login page (CVE-2014-8618).\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            The Web User Interface of FortiGate, FortiManager, FortiAnalyzer, FortiMail and FortiADC D models are vulnerable to reflected cross-site scripting vulnerabilities. Starting from FortiOS 5.2.0, three XSS are present in the sslvpn login page (CVE-2015-1880), user group (CVE-2014-8616) and the vpn template menus (CVE-2014-8616). Starting from FortiManager 5.0.3, there is a XSS located in the advanced dataset reports page when the FortiAnalyzer feature is activated (CVE-2015-3620). Starting from FortiAnalyzer 5.0.0 to 5.0.10 and 5.2.0 and 5.2.1, there is a XSS located in the advanced dataset reports page (CVE-2015-3620). All fortimail versions contains one XSS in web action quarantine release feature (CVE-2014-8617). Between versions 5.1.2 and 5.3.4 included, FortiWeb contains two XSS in the autolearn configuration page (CVE-2014-8619). Prior to version 4.2, FortiADC D models contains one XSS in the theme login page (CVE-2014-8618).\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Cross-Site Scripting (reflected)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiGate, FortiManager, FortiAnalyzer, FortiMail, FortiWeb, FortiADC D models only.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 5.2.3 or aboveFortiManager 5.0.3 through v5.0.10: A fix will be included in upcoming version v5.0.11. Alternatively, one may upgrade to v5.2.2, which is already available.FortiManager 5.2 through 5.2.1: Upgrade FortiManager to 5.2.2FortiAnalyzer 5.0.0 through 5.0.10: A fix will be included in upcoming version v5.0.11. Alternatively, one may upgrade to v5.2.2, which is already available.FortiAnalyzer 5.2 through 5.2.1: Upgrade FortiAnalyzer to 5.2.2Upgrade to FortiMail 4.3.9 / 5.0.8 / 5.1.5 / 5.2.3 or aboveUpgrade to FortiWeb 5.3.5 or aboveUpgrade to FortiADC 4.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Jared HaightWilliam CostaBenjamin Kunz Mejri (Vulnerability Laboratory, Evolution Security GmbH)"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple products cross-site scripting vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-005",
+					"description": "Multiple products cross-site scripting vulnerabilities"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-8616",
+			"CVE-2014-8617",
+			"CVE-2014-8618",
+			"CVE-2014-8619",
+			"CVE-2015-1880",
+			"CVE-2015-3620"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

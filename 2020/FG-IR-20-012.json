@@ -1,0 +1,121 @@
+{
+	"document_title": "XSS vulnerability in the Dashboard name parameter of FortiADC",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-012"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-04-06T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-04-06T00:00:00",
+		"current_release_date": "2020-04-06T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute Unauthorized Code or Commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiADC version 5.3.4 and belowFortiADC version 5.4.0 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiADC version 5.3.5 or above.Please upgrade to FortiADC version 5.4.1 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Danilo Costa from PBI for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "XSS vulnerability in the Dashboard name parameter of FortiADC",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-012",
+					"description": "XSS vulnerability in the Dashboard name parameter of FortiADC"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2020-6647"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiADC-5.4.0",
+					"FortiADC-5.3.4"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiADC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 5.4.0",
+								"product_id": "FortiADC-5.4.0"
+							}
+						},
+						{
+							"name": "5.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 5.3.4",
+								"product_id": "FortiADC-5.3.4"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

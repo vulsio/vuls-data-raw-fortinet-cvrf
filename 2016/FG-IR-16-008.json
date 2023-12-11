@@ -1,0 +1,94 @@
+{
+	"document_title": "RSA-CRT key leak under certain conditions",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-008"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-05-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-05-16T00:00:00",
+		"current_release_date": "2016-05-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiOS now includes for all SSL libraries a countermeasure against Lenstra's fault attack on RSA-CRT optimization when a RSA signature is corrupted.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Man in the middle\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiGate with the SSLVPN web portal feature configured.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 5.0.13 / 5.2.6 / 5.4.0 Â As a workaround the SSLVPN web portal can be disabled\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-008",
+				"description": "RSA-CRT key leak under certain conditions"
+			},
+			{
+				"url": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf",
+				"description": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "RSA-CRT key leak under certain conditions",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-008",
+					"description": "RSA-CRT key leak under certain conditions"
+				},
+				{
+					"url": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf",
+					"description": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-5738"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

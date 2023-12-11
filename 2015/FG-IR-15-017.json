@@ -1,0 +1,91 @@
+{
+	"document_title": "FortiClient SSLVPN Linux client  local privilege escalation vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-017"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-07-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-07-24T00:00:00",
+		"current_release_date": "2015-07-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            None\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Installing Forticlient SSLVPN Linux client build 2312 and lower in a home directory that is world readable-executable yields a privilege escalation vulnerability: Any local user can then exploit the helper/subroc setuid binary to run arbitrary code with root privileges.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Privilege Escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Standalone Forticlient SSLVPN Linux client build 2312 and lower.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiClient Linux SSLVPN version 2313 or above.Actual Exploitability varies with host systems: Ubuntu and Debian are known to set world readable-executable epermissions on home directories by default, while Fedora (and most other Linux distribution) do not.In the following example, user notvulnerable is not affected, while user iamvuln could be affected:ls -l /hometotal 28drwx------. 3 notvulnerable notvulnerable 4096 Jul 21 14:26 notvulnerabledrwx---r-x. 6 iamvuln iamvuln 4096 Jul 21 14:26 iamvulnA workaround is to apply chmod 700 to the user's home directory who installed the Linux FortiClient SSLVPN.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Thanks to Brian Vincent."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient SSLVPN Linux client  local privilege escalation vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-017",
+					"description": "FortiClient SSLVPN Linux client  local privilege escalation vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-7362"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,139 @@
+{
+	"document_title": "FortiEDR - Hardcoded AES key enable disabling local Collector",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-018"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-04-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-04-05T00:00:00",
+		"current_release_date": "2022-04-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A use of hard-coded cryptographic key vulnerability [CWE-321] in the registration mechanism of FortiEDR collectors may allow a local attacker to disable and uninstall the collectors from the end-points within the same deployment.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiEDR version 4.0.0FortiEDR version 5.0.0 through 5.0.2\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiEDR version 5.0.3\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Giuseppe Cocomazzi of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiEDR - Hardcoded AES key enable disabling local Collector",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-018",
+					"description": "FortiEDR - Hardcoded AES key enable disabling local Collector"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-23440"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiEDR-5.0.2",
+					"FortiEDR-5.0.1",
+					"FortiEDR-5.0.0",
+					"FortiEDR-4.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.6",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiEDR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.2",
+								"product_id": "FortiEDR-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.1",
+								"product_id": "FortiEDR-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.0",
+								"product_id": "FortiEDR-5.0.0"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 4.0.0",
+								"product_id": "FortiEDR-4.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

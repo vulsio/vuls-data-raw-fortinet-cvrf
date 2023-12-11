@@ -1,0 +1,85 @@
+{
+	"document_title": "FortiWeb Cross-Site Request Forgery Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-013"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-05-02T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-05-02T00:00:00",
+		"current_release_date": "2014-05-02T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple CSRF vulnerabilities exist in the FortiWeb web administration console due to lack of CSRF token protection. This could allow remote attackers to perform administrative actions under specific conditions.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Authorization Bypass\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb 5.1.x and lower.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb 5.2.0 or higher.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "This vulnerability was separately reported by both William Costa and Enrique Nissim."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb Cross-Site Request Forgery Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-013",
+					"description": "FortiWeb Cross-Site Request Forgery Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-3115"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

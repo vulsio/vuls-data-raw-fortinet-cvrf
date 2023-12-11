@@ -1,0 +1,69 @@
+{
+	"document_title": "Potential Web Vulnerabilities in FortiMail",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Email: psirt@fortinet.com\n            Website: fortiguard.com/psirt-pgpkey\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-013-001"
+		},
+		"revisionhistory": {
+			"revision": {}
+		},
+		"current_release_date": "2013-01-29T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n                    Input filter bypass and exception handling vulnerabilities can be used by an attacker to hijack administrator or customer sessions within certain conditions.\n        ",
+				"title": "Summary",
+				"type": "Summary"
+			},
+			{
+				"text": "\n                    Input filter bypass and exception handling vulnerabilities can be used by an attacker to hijack administrator or customer sessions within certain conditions.\n        ",
+				"title": "Description",
+				"type": "Description"
+			},
+			{
+				"text": "\n                Exception Handling and Input Filter Bypass\n        ",
+				"title": "Impact",
+				"type": "Description"
+			},
+			{
+				"text": "\n            FortiMail IBE Appliances 200D, 400C, VM2000, 2000B and 5002B. \n        ",
+				"title": "Affected Products",
+				"type": "Description"
+			},
+			{
+				"text": "\n                This was fixed and released with FortiMail 4.3.4 on December 12th, 2012 as well as FortiMail 5.0.0. Though this is rated as high and requires a sophisticated attack for session hijacking or targeted information disclosure, it is recommended to upgrade to close the potential attack vectors.\n        ",
+				"title": "Solutions",
+				"type": "Description"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Benjamin Kunz Mejri of Vulnerability Laboratory Research Team"
+			}
+		]
+	},
+	"vulnerability": {
+		"references": {},
+		"cve": [
+			"CVE-2013-1471"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

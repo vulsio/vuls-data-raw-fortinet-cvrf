@@ -1,0 +1,322 @@
+{
+	"document_title": "FortiManager - Excel formula injection in P&O IPv4 Policy names Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-190"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-09-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-09-07T00:00:00",
+		"current_release_date": "2021-09-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of formula elements vulnerability (CWE 1236) in FortiManager may allow a local authenticated privileged attacker to execute arbitrary shell code on the end-user's host via inserting CSV formula in the policy names. This is achieved once the user downloads and opens the configuration csv/xls* file.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Arbitrary Code Execution\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiManager v6.4.3 and below. FortiManager v6.2.7 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiManager v6.4.4 or above. Upgrade to FortiManager v6.2.8 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiManager - Excel formula injection in P&O IPv4 Policy names Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-190",
+					"description": "FortiManager - Excel formula injection in P&O IPv4 Policy names Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-24016"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiManager-6.4.3",
+					"FortiManager-6.4.2",
+					"FortiManager-6.4.1",
+					"FortiManager-6.4.0",
+					"FortiManager-6.2.7",
+					"FortiManager-6.2.6",
+					"FortiManager-6.2.5",
+					"FortiManager-6.2.4",
+					"FortiManager-6.2.3",
+					"FortiManager-6.2.2",
+					"FortiManager-6.2.1",
+					"FortiManager-6.2.0",
+					"FortiManager-6.0.12",
+					"FortiManager-6.0.11",
+					"FortiManager-6.0.10",
+					"FortiManager-6.0.9",
+					"FortiManager-6.0.8",
+					"FortiManager-6.0.7",
+					"FortiManager-6.0.6",
+					"FortiManager-6.0.5",
+					"FortiManager-6.0.4",
+					"FortiManager-6.0.3",
+					"FortiManager-6.0.2",
+					"FortiManager-6.0.1",
+					"FortiManager-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "3.5",
+				"vector_v3": "CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:P/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.3",
+								"product_id": "FortiManager-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.2",
+								"product_id": "FortiManager-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.1",
+								"product_id": "FortiManager-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.0",
+								"product_id": "FortiManager-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.7",
+								"product_id": "FortiManager-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.6",
+								"product_id": "FortiManager-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.5",
+								"product_id": "FortiManager-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.4",
+								"product_id": "FortiManager-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.3",
+								"product_id": "FortiManager-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.2",
+								"product_id": "FortiManager-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.1",
+								"product_id": "FortiManager-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.0",
+								"product_id": "FortiManager-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.12",
+								"product_id": "FortiManager-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.11",
+								"product_id": "FortiManager-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.10",
+								"product_id": "FortiManager-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.9",
+								"product_id": "FortiManager-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.8",
+								"product_id": "FortiManager-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.7",
+								"product_id": "FortiManager-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.6",
+								"product_id": "FortiManager-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.5",
+								"product_id": "FortiManager-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.4",
+								"product_id": "FortiManager-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.3",
+								"product_id": "FortiManager-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.2",
+								"product_id": "FortiManager-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.1",
+								"product_id": "FortiManager-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.0",
+								"product_id": "FortiManager-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

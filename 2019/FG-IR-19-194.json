@@ -1,0 +1,139 @@
+{
+	"document_title": "FortiClient Use of Hard-coded Cryptographic Key",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-194"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-06-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-06-01T00:00:00",
+		"current_release_date": "2020-06-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Use of a hard-coded cryptographic key to encrypt security sensitive data in configuration in FortiClient for Windows may allow an attacker with access to the configuration or the backup file to decrypt the sensitive data via knowledge of the hard-coded key.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient for Windows below 6.4.0\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiClient for Windows 6.4.0\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Independent security researcher Gregory Draperi for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient Use of Hard-coded Cryptographic Key",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-194",
+					"description": "FortiClient Use of Hard-coded Cryptographic Key"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-16150"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientWindows-6.2.9",
+					"FortiClientWindows-6.2.8",
+					"FortiClientWindows-6.2.7",
+					"FortiClientWindows-6.2.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "3.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.9",
+								"product_id": "FortiClientWindows-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.8",
+								"product_id": "FortiClientWindows-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.7",
+								"product_id": "FortiClientWindows-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.6",
+								"product_id": "FortiClientWindows-6.2.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

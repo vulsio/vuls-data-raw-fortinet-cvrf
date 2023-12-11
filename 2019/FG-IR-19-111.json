@@ -1,0 +1,109 @@
+{
+	"document_title": "FortiOS malformed HTTP or SSL/TLS traffic control",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-111"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-07-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-07-24T00:00:00",
+		"current_release_date": "2019-07-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiOS Explicit Web Proxy by default allows non-standard HTTP traffic.Â FortiOS SSL/SSH Inspection Profile by default allows non-standard SSL/TLS traffic.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Operational Risk, Traffic Bypass\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            By default, this possible operational risk is applicable to all FortiOS versions.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Non standard HTTP traffic can be disallowed with the following CLI commands: config web-proxy global set tunnel-non-http disable (default value \"enable\") end Non standard SSL/TLS traffic can be disallowed with the following CLI commands: config firewall ssl-ssh-profile edit [profile-name] config [protocols] set ports [port] set unsupported-ssl block (default value \"bypass\") end end Starting from 6.2.1, FortiOS allows administrators to disallow both via the admin WebUI as well: For Explicit Web Proxy: Network -> Explicit Proxy -> Protocol Enforcement (default is off) For SSL/SSH Inspection: Security Profiles -> SSL/SSH Inspection ->Enforce SSL Protocol Compliance (default is off)\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet thank security research company Praetorian bringing this attention to us with certain proofs."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS malformed HTTP or SSL/TLS traffic control",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-111",
+					"description": "FortiOS malformed HTTP or SSL/TLS traffic control"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-6.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.0",
+								"product_id": "FortiOS-6.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

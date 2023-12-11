@@ -1,0 +1,113 @@
+{
+	"document_title": "Bleichenbacher and Dictionary Attacks on IPsec IKE",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-214"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-08-27T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-08-27T00:00:00",
+		"current_release_date": "2018-08-27T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Two new attacks on IPsec IKE (Internet Key Exchange) were recently disclosed [1], involving multiple ways to perform attacks against IKE signature based and PSK (Pre-Shared Key) authentications. The end goal is to crack IPsec VPN encrypted communications.The relevant CVEs are:CVE-2018-5389: Practical Dictionary Attacks on IPsec IKECVE-2018-0131: Bleichenbacher Attacks on IPsec IKE\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS is affected by CVE-2018-5389 when using a Pre-Shared Key as the IKE authentication method in IPsec VPN.FortiOS is not impacted by CVE-2018-0131, since the related IPsec IKE authentication features (PKE/RPKE) are not supported.The following products are not affected by any of the CVEs above: FortiAPFortiAnalyzerFortiSwitch\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Since CVE-2018-5389 is a protocol level attack enabling dictionary-based brute force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility:1. Choose digital signature authentication (RSA authentication with Certificates) instead of Pre-Shared Key in IKE authentication. This effectively prevents the attack completely.2. If the above is not acceptable given the environment, and Pre-Shared Key has to be chosen, a minimum of 12 high-entropy random ASCII characters should be used as the key (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-214",
+				"description": "Bleichenbacher and Dictionary Attacks on IPsec IKE"
+			},
+			{
+				"url": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n",
+				"description": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n"
+			},
+			{
+				"url": "[2] https://web-in-security.blogspot.com/2018/08/practical-bleichenbacher-attacks-on-ipsec-ike.html\n",
+				"description": "[2] https://web-in-security.blogspot.com/2018/08/practical-bleichenbacher-attacks-on-ipsec-ike.html\n"
+			},
+			{
+				"url": "[3] https://web-in-security.blogspot.com/2018/08/practical-dictionary-attack-on-ipsec-ike.html",
+				"description": "[3] https://web-in-security.blogspot.com/2018/08/practical-dictionary-attack-on-ipsec-ike.html"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Bleichenbacher and Dictionary Attacks on IPsec IKE",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-214",
+					"description": "Bleichenbacher and Dictionary Attacks on IPsec IKE"
+				},
+				{
+					"url": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n",
+					"description": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n"
+				},
+				{
+					"url": "[2] https://web-in-security.blogspot.com/2018/08/practical-bleichenbacher-attacks-on-ipsec-ike.html\n",
+					"description": "[2] https://web-in-security.blogspot.com/2018/08/practical-bleichenbacher-attacks-on-ipsec-ike.html\n"
+				},
+				{
+					"url": "[3] https://web-in-security.blogspot.com/2018/08/practical-dictionary-attack-on-ipsec-ike.html",
+					"description": "[3] https://web-in-security.blogspot.com/2018/08/practical-dictionary-attack-on-ipsec-ike.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2018-5389",
+			"CVE-2018-0131"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,172 @@
+{
+	"document_title": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-035"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-12-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-12-01T00:00:00",
+		"current_release_date": "2020-12-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            During the RSA conference of February 26th 2020, researchers Štefan Svorencík and Robert Lipovsky disclosed a vulnerability in the implementation of the wireless egress packet processing of certain Broadcom Wi-Fi chipsets. This vulnerability is referenced as CVE-2019-15126 and could allow an unauthenticated, adjacent attacker to decrypt Wi-Fi frames without the knowledge of the wireless security key. Fortinet Product Security Incident Response Team (PSIRT) is not aware of any public announcements or malicious use of this vulnerability. Only products listed in the Affected Products section of this advisory are potentially impacted by this vulnerability.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiAP-U version 6.0.2 and below. Meru AP version 8.5.1 and below. Meru AP version 8.4.6 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiAP-U version 6.0.3 or above. Please upgrade to Meru AP version 8.5.2 or above. Please upgrade to Meru AP version 8.4.7 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-035",
+				"description": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips"
+			},
+			{
+				"url": "https://www.eset.com/int/kr00k/",
+				"description": "https://www.eset.com/int/kr00k/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-035",
+					"description": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips"
+				},
+				{
+					"url": "https://www.eset.com/int/kr00k/",
+					"description": "https://www.eset.com/int/kr00k/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-15126"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAP-U-6.0.2",
+					"FortiAP-U-6.0.1",
+					"FortiAP-U-6.0.0",
+					"FortiAP-U-5.4.6",
+					"Meru AP-8.5.1",
+					"Meru AP-8.4.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAP-U",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.2",
+								"product_id": "FortiAP-U-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.1",
+								"product_id": "FortiAP-U-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.0",
+								"product_id": "FortiAP-U-6.0.0"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.6",
+								"product_id": "FortiAP-U-5.4.6"
+							}
+						}
+					]
+				},
+				{
+					"name": "Meru AP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.1",
+								"product_id": "Meru AP-8.5.1"
+							}
+						},
+						{
+							"name": "8.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.6",
+								"product_id": "Meru AP-8.4.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

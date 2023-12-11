@@ -1,0 +1,105 @@
+{
+	"document_title": "FortiSwitch rest_admin account exposed under specific conditions",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-011"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-07-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-07-11T00:00:00",
+		"current_release_date": "2016-07-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            During an upgrade to version 3.4.1, a FortiSwitch device may let an attacker log in the rest_admin account without a password, if all the conditions below are met: Â * The FortiSwitch device is in FortiLink managed mode (not the default mode) * The FortiSwitch device does not have a management FortiGate, or is not authorized on its management FortiGate, or cannot reach its management FortiGate (network connectivity issue) * The FortiSwicth device was updated to 3.4.1 * The FortiSwitch device was rebooted at least a second time after having been upgradedÂ Note that as soon as a connection between the FortiSwitch and its management FortiGate is established/authorized, the issue is not present. Â Note that the issue persists if the device is downgraded after having been upgraded to 3.4.1 (under the conditions above).\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Remote administrative access\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following FortiSwitch models may be affected, after an upgrade to 3.4.1: Â FSW-108D-POE,FSW-124D,FSW-124D-POE FSW-224D-POE,FSW-224D-FPOE,FSW-248D-POE,FSW-248D-FPOE FSW-424D,FSW-424D-POE,FSW-424D-FPOE,FSW-448D,FSW-448D-POE,FSW-448D-FPOE FSW-524D,FSW-524D-FPOE,FSW-548D,FSW-548D-FPOE FSW-1024D,FSW-1048D FSW-3032D FSW-R-112D-POE\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            * FortiSwitch 3.4.1 must be upgraded to 3.4.2. Â Note: For Customers that have no formal support contract and require access to updated firmware, please contact Customer Services at cs@fortinet.com in the first instance.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-011",
+				"description": "FortiSwitch rest_admin account exposed under specific conditions"
+			},
+			{
+				"url": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573",
+				"description": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thanks Emma Ferguson of The Missing Link Security for reporting a FortiSwitch vulnerability under"
+			},
+			{
+				"description": "responsible disclosure."
+			},
+			{},
+			{}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSwitch rest_admin account exposed under specific conditions",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-011",
+					"description": "FortiSwitch rest_admin account exposed under specific conditions"
+				},
+				{
+					"url": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573",
+					"description": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-4573"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

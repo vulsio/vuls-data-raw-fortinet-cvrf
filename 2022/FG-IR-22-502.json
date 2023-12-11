@@ -1,0 +1,313 @@
+{
+	"document_title": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-502"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-04-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-04-11T00:00:00",
+		"current_release_date": "2023-04-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiAnalyzer and FortiManager may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the device and the remote FortiGuard server hosting outbreakalert ressources.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager version 7.2.0 through 7.2.1 FortiManager version 7.0.0 through 7.0.5 FortiManager version 6.4.8 through 6.4.10 FortiAnalyzer version 7.2.0 through 7.2.1 FortiAnalyzer version 7.0.0 through 7.0.5 FortiAnalyzer version 6.4.8 through 6.4.10\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiManager version 7.2.2 or above Please upgrade to FortiManager version 7.0.6 or above Please upgrade to FortiManager version 6.4.11 or above Please upgrade to FortiAnalyzer version 7.2.2 or above Please upgrade to FortiAnalyzer version 7.0.6 or above Please upgrade to FortiAnalyzer version 6.4.11 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-502",
+					"description": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-22642"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-7.2.1",
+					"FortiAnalyzer-7.2.0",
+					"FortiAnalyzer-7.0.5",
+					"FortiAnalyzer-7.0.4",
+					"FortiAnalyzer-7.0.3",
+					"FortiAnalyzer-7.0.2",
+					"FortiAnalyzer-7.0.1",
+					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.10",
+					"FortiAnalyzer-6.4.9",
+					"FortiAnalyzer-6.4.8",
+					"FortiManager-7.2.1",
+					"FortiManager-7.2.0",
+					"FortiManager-7.0.5",
+					"FortiManager-7.0.4",
+					"FortiManager-7.0.3",
+					"FortiManager-7.0.2",
+					"FortiManager-7.0.1",
+					"FortiManager-7.0.0",
+					"FortiManager-6.4.10",
+					"FortiManager-6.4.9",
+					"FortiManager-6.4.8"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.2.1",
+								"product_id": "FortiAnalyzer-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.2.0",
+								"product_id": "FortiAnalyzer-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.5",
+								"product_id": "FortiAnalyzer-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.4",
+								"product_id": "FortiAnalyzer-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.3",
+								"product_id": "FortiAnalyzer-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.2",
+								"product_id": "FortiAnalyzer-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.1",
+								"product_id": "FortiAnalyzer-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.0",
+								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.10",
+								"product_id": "FortiAnalyzer-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.9",
+								"product_id": "FortiAnalyzer-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.8",
+								"product_id": "FortiAnalyzer-6.4.8"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.1",
+								"product_id": "FortiManager-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.0",
+								"product_id": "FortiManager-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.5",
+								"product_id": "FortiManager-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.4",
+								"product_id": "FortiManager-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.3",
+								"product_id": "FortiManager-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.2",
+								"product_id": "FortiManager-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.1",
+								"product_id": "FortiManager-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.0",
+								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.10",
+								"product_id": "FortiManager-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.9",
+								"product_id": "FortiManager-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.8",
+								"product_id": "FortiManager-6.4.8"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

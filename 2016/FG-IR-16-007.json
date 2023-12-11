@@ -1,0 +1,97 @@
+{
+	"document_title": "SAM and LSAD remote protocols man in the middle vulnerability (Badlock)",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-007"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-04-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-04-14T00:00:00",
+		"current_release_date": "2016-04-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Security Account Manager Remote Protocol [MS-SAMR] and theÂ Local Security Authority (Domain Policy) Remote Protocol [MS-LSAD]Â are both vulnerable to man in the middle attacks. These protocols areÂ typically available on all Windows installationsÂ as well as every Samba server.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user.\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            All the Fortinet products are confirmed to be not affected.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-007",
+				"description": "SAM and LSAD remote protocols man in the middle vulnerability (Badlock)"
+			},
+			{
+				"url": "https://technet.microsoft.com/library/security/ms16-047\n",
+				"description": "https://technet.microsoft.com/library/security/ms16-047\n"
+			},
+			{
+				"url": "https://www.samba.org/samba/security/CVE-2016-2118.html",
+				"description": "https://www.samba.org/samba/security/CVE-2016-2118.html"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "SAM and LSAD remote protocols man in the middle vulnerability (Badlock)",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-007",
+					"description": "SAM and LSAD remote protocols man in the middle vulnerability (Badlock)"
+				},
+				{
+					"url": "https://technet.microsoft.com/library/security/ms16-047\n",
+					"description": "https://technet.microsoft.com/library/security/ms16-047\n"
+				},
+				{
+					"url": "https://www.samba.org/samba/security/CVE-2016-2118.html",
+					"description": "https://www.samba.org/samba/security/CVE-2016-2118.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-2118",
+			"CVE-2016-0128"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

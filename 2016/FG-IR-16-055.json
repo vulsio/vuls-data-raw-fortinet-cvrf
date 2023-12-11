@@ -1,0 +1,261 @@
+{
+	"document_title": "FortiManager TLS certificate validation failure",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-055"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-02-08T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-02-08T00:00:00",
+		"current_release_date": "2017-02-08T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiManager does not properly validate TLS certificates when probing for devices to administer. This leads to potential pre-shared secret exposure.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            FortiManager does not properly validate TLS certificates when probing for devices to administer. This leads to potential pre-shared secret exposure.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Credentials exposure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager 5.0.6 to 5.2.7 and 5.4.0 to 5.4.1.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FMG 5.2.8 and 5.4.2\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank the AirBus security team for reporting this vulnerability under responsible disclosure"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiManager TLS certificate validation failure",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-055",
+					"description": "FortiManager TLS certificate validation failure"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-8495"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiManager-5.4.1",
+					"FortiManager-5.4.0",
+					"FortiManager-5.2.7",
+					"FortiManager-5.2.6",
+					"FortiManager-5.2.5",
+					"FortiManager-5.2.4",
+					"FortiManager-5.2.3",
+					"FortiManager-5.2.2",
+					"FortiManager-5.2.1",
+					"FortiManager-5.2.0",
+					"FortiManager-5.0.12",
+					"FortiManager-5.0.11",
+					"FortiManager-5.0.10",
+					"FortiManager-5.0.9",
+					"FortiManager-5.0.8",
+					"FortiManager-5.0.7",
+					"FortiManager-5.0.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.1",
+								"product_id": "FortiManager-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.0",
+								"product_id": "FortiManager-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.7",
+								"product_id": "FortiManager-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.6",
+								"product_id": "FortiManager-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.5",
+								"product_id": "FortiManager-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.4",
+								"product_id": "FortiManager-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.3",
+								"product_id": "FortiManager-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.2",
+								"product_id": "FortiManager-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.1",
+								"product_id": "FortiManager-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.0",
+								"product_id": "FortiManager-5.2.0"
+							}
+						},
+						{
+							"name": "5.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.12",
+								"product_id": "FortiManager-5.0.12"
+							}
+						},
+						{
+							"name": "5.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.11",
+								"product_id": "FortiManager-5.0.11"
+							}
+						},
+						{
+							"name": "5.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.10",
+								"product_id": "FortiManager-5.0.10"
+							}
+						},
+						{
+							"name": "5.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.9",
+								"product_id": "FortiManager-5.0.9"
+							}
+						},
+						{
+							"name": "5.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.8",
+								"product_id": "FortiManager-5.0.8"
+							}
+						},
+						{
+							"name": "5.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.7",
+								"product_id": "FortiManager-5.0.7"
+							}
+						},
+						{
+							"name": "5.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.0.6",
+								"product_id": "FortiManager-5.0.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

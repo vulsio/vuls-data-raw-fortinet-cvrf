@@ -1,0 +1,92 @@
+{
+	"document_title": "Apache Struts RCE Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-205"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-09-29T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-09-29T00:00:00",
+		"current_release_date": "2017-09-29T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple Remote Code Execution vulnerabilities (CVE-2017-9805, CVE-2017-9804, CVE-2017-9793) are affecting Apache Struts.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Remote Code Execution (RCE)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following Fortinet products are NOT affected:FortiOS FortiAPFortiSwitchFortiAnalyzerCurrently all above products not using Apache Struts, so all current and future Apache Struts CVEs will not impact these products.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205",
+				"description": "Apache Struts RCE Vulnerability"
+			},
+			{
+				"url": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
+				"description": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Apache Struts RCE Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205",
+					"description": "Apache Struts RCE Vulnerability"
+				},
+				{
+					"url": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
+					"description": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-9805",
+			"CVE-2017-9804",
+			"CVE-2017-9793"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

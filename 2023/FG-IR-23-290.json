@@ -1,0 +1,172 @@
+{
+	"document_title": "FortiSIEM - Windows agent password is visible in the logs",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-290"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-11-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-11-14T00:00:00",
+		"current_release_date": "2023-11-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An exposure of sensitive information to an unauthorized actor [CWE-200] in FortiSIEM may allow an attacker with access to windows agent logs to obtain the windows agent password via searching through the logs.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiSIEM version 7.0.0 FortiSIEM version 6.7.0 through 6.7.5\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSIEM version 7.1.0 or above Please upgrade to FortiSIEM version 7.0.1 or above Please upgrade to FortiSIEM version 6.7.6 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Darren Hart from FortiSIEMCloud developpement team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSIEM - Windows agent password is visible in the logs",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-290",
+					"description": "FortiSIEM - Windows agent password is visible in the logs"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-41676"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSIEM-7.0.0",
+					"FortiSIEM-6.7.5",
+					"FortiSIEM-6.7.4",
+					"FortiSIEM-6.7.3",
+					"FortiSIEM-6.7.2",
+					"FortiSIEM-6.7.1",
+					"FortiSIEM-6.7.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.0.0",
+								"product_id": "FortiSIEM-7.0.0"
+							}
+						},
+						{
+							"name": "6.7.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.5",
+								"product_id": "FortiSIEM-6.7.5"
+							}
+						},
+						{
+							"name": "6.7.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.4",
+								"product_id": "FortiSIEM-6.7.4"
+							}
+						},
+						{
+							"name": "6.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.3",
+								"product_id": "FortiSIEM-6.7.3"
+							}
+						},
+						{
+							"name": "6.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.2",
+								"product_id": "FortiSIEM-6.7.2"
+							}
+						},
+						{
+							"name": "6.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.1",
+								"product_id": "FortiSIEM-6.7.1"
+							}
+						},
+						{
+							"name": "6.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.0",
+								"product_id": "FortiSIEM-6.7.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

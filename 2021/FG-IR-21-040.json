@@ -1,0 +1,136 @@
+{
+	"document_title": "FortiIsolator -- Unauthorized user able to regenerate CA certificate",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-040"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-05-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-05-03T00:00:00",
+		"current_release_date": "2022-05-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiIsolator may allow an authenticated, non privileged attacker to regenerate the CA certificate via the regeneration URL.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiIsolator versions 2.3.2 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiIsolator version 2.3.3 or above. Please upgrade to FortiIsolator version 2.4.0 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Danilo Costa from Conviso Application Security for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiIsolator -- Unauthorized user able to regenerate CA certificate",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-040",
+					"description": "FortiIsolator -- Unauthorized user able to regenerate CA certificate"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-41020"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiIsolator-2.3.2",
+					"FortiIsolator-2.3.1",
+					"FortiIsolator-2.3.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiIsolator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "2.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiIsolator 2.3.2",
+								"product_id": "FortiIsolator-2.3.2"
+							}
+						},
+						{
+							"name": "2.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiIsolator 2.3.1",
+								"product_id": "FortiIsolator-2.3.1"
+							}
+						},
+						{
+							"name": "2.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiIsolator 2.3.0",
+								"product_id": "FortiIsolator-2.3.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

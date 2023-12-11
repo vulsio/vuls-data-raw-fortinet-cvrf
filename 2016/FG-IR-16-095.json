@@ -1,0 +1,127 @@
+{
+	"document_title": "FortiClient privilege escalation vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-095"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-10-31T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-10-31T00:00:00",
+		"current_release_date": "2017-10-31T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A low privileged user may be able to execute arbitrary code by exploiting a FortiClientNamedPipe vulnerability.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            A low privileged user may be able to execute arbitrary code by exploiting a FortiClientNamedPipe vulnerability.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Privilege escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClientWindows 5.4.1, 5.4.2.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiClient Windows: 5.4.3 or 5.6.0\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Zhipeng Huo from Tencent Technology Company Limited for reporting thisÂ vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient privilege escalation vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-095",
+					"description": "FortiClient privilege escalation vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-8493"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientWindows-5.4.2",
+					"FortiClientWindows-5.4.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.2",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.2",
+								"product_id": "FortiClientWindows-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.4.1",
+								"product_id": "FortiClientWindows-5.4.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"document_title": "FortiWeb Stored Cross-Site Scripting Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-001"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-01-17T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-01-17T00:00:00",
+		"current_release_date": "2014-01-17T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Authenticated administrative users can store injected Javascript content into a specific field on the web management interface. This Javascript may be evaluated in the context of another administrative user browsing to the affected web page.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Privilege Elevation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb 5.0.3 and lower.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb 5.0.4 or higher.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Enrique E. Nissim from the ZConsulting team (http://www.zconsulting.com.ar)"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb Stored Cross-Site Scripting Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-001",
+					"description": "FortiWeb Stored Cross-Site Scripting Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-1458"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

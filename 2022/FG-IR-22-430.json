@@ -1,0 +1,130 @@
+{
+	"document_title": "FortiPortal - Device password exposure in audit log",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-430"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-02-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-02-16T00:00:00",
+		"current_release_date": "2023-02-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An insertion of sensitive information into log file vulnerability [CWE-532] in the FortiPortal management interface may allow a remote authenticated attacker to read other devices' passwords in the audit log page.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiPortal version 7.0.0 through 7.0.2\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiPortal version 7.0.3 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiPortal - Device password exposure in audit log",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-430",
+					"description": "FortiPortal - Device password exposure in audit log"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-43954"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiPortal-7.0.2",
+					"FortiPortal-7.0.1",
+					"FortiPortal-7.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.2",
+								"product_id": "FortiPortal-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.1",
+								"product_id": "FortiPortal-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.0",
+								"product_id": "FortiPortal-7.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

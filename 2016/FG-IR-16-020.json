@@ -1,0 +1,88 @@
+{
+	"document_title": "FortiVoice 5.0 Filter Bypass & Persistent Web Vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-020"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-08-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-08-09T00:00:00",
+		"current_release_date": "2016-08-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A vulnerablity in FortiVoice 5.0 web-application could allow malicious script being injected in the affected module; this potentially enables XSS attacks.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            A vulnerablity in FortiVoice 5.0 web-application could allow malicious script being injected in the affected module; this potentially enables XSS attacks.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            XSS attacks\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiVoice 5.0.4 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to:5.0.5 and above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiVoice 5.0 Filter Bypass & Persistent Web Vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-020",
+					"description": "FortiVoice 5.0 Filter Bypass & Persistent Web Vulnerabilities"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

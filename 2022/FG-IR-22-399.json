@@ -1,0 +1,140 @@
+{
+	"document_title": "Apache commons_text(CVE-2022-42889) and commons_configuration (CVE-2022-33980) vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-399"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-10-28T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-10-28T00:00:00",
+		"current_release_date": "2022-10-28T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            CVE-2022-42889: Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is \"${prefix:name}\", where \"prefix\" is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - \"script\" - execute expressions using the JVM script execution engine (javax.script) - \"dns\" - resolve dns records - \"url\" - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default. CVE-2022-33980: Apache Commons Configuration performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is \"${prefix:name}\", where \"prefix\" is used to locate an instance of org.apache.commons.configuration2.interpol.Lookup that performs the interpolation. Starting with version 2.4 and continuing through 2.7, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - \"script\" - execute expressions using the JVM script execution engine (javax.script) - \"dns\" - resolve dns records - \"url\" - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Configuration 2.8.0, which disables the problematic interpolators by default.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Vulnerable Products None   Products Confirmed Not Vulnerable FortiOS (includes FortiGate & FortiWiFi) FortiAnalyzer FortiManager FortiAuthenticator FortiDeceptor FortiMail FortiVoice(includes FortiPhone) FortiRecorder FortiSwitch & FortiSwitchManager FortiAP FortiAP-W2 FortiAP-S FortiAP-U FortiAP-C FortiADC FortiADCManager FortiClientEMS FortiClient (All versions) FortiSandbox FortiProxy FortiWeb FortiWLM FortiWLC FortiToken & FortiToken Mobile FortiNDR FortiDDoS FortiDDoS-F FortiConnect FortiExtender FortiConverter FortiLANCloud FortiToken Cloud FortiPolicy FortiEDR FortiSASE FortiPortal FortiWebCloud FortiSIEM FortiCASB FortiAnalyzer Cloud FortiManager Cloud FortiSwitch Cloud FortiExtender Cloud FortiCWP FortiClient Cloud FortiPhish FortiIsolator FortiAIOps FortiPentest FortiSOAR FortiSandbox Cloud Products still under investigation FortiCloud FortiInsight Product potentialy impacted FortiAnalyzer-BigData version 7.0.1 through 7.0.4\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            For full details of protections and detections for the IoCs related to this vulnerability, please see our outbreak alert at https://www.fortiguard.com/outbreak-alert IPS Signature protection (FortiOS) https://www.fortiguard.com/encyclopedia/ips/52245 Please upgrade to FortiAnalyzer-BigData version 7.2.0 or above Please upgrade to FortiAnalyzer-BigData version 7.0.5 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Apache commons_text(CVE-2022-42889) and commons_configuration (CVE-2022-33980) vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-399",
+					"description": "Apache commons_text(CVE-2022-42889) and commons_configuration (CVE-2022-33980) vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-42889",
+			"CVE-2022-33980"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-BigData-7.0.4",
+					"FortiAnalyzer-BigData-7.0.3",
+					"FortiAnalyzer-BigData-7.0.2",
+					"FortiAnalyzer-BigData-7.0.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer-BigData",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.0.4",
+								"product_id": "FortiAnalyzer-BigData-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.0.3",
+								"product_id": "FortiAnalyzer-BigData-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.0.2",
+								"product_id": "FortiAnalyzer-BigData-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.0.1",
+								"product_id": "FortiAnalyzer-BigData-7.0.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

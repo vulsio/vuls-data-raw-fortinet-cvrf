@@ -1,0 +1,127 @@
+{
+	"document_title": "FortiSOAR - Server-side Template Injection in playbook execution",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-051"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-04-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-04-11T00:00:00",
+		"current_release_date": "2023-04-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in a template engine vulnerability [CWE-1336] in FortiSOAR management interface may allow a remote and authenticated attacker to execute arbitrary code via a crafted payload.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiSOAR version 7.3.0 through 7.3.1\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSOAR version 7.4.0 or above Please upgrade to FortiSOAR version 7.3.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Boumediene Kaddour from System and Sales Team"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSOAR - Server-side Template Injection in playbook execution",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-051",
+					"description": "FortiSOAR - Server-side Template Injection in playbook execution"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-27995"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSOAR-7.3.1",
+					"FortiSOAR-7.3.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSOAR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.1",
+								"product_id": "FortiSOAR-7.3.1"
+							}
+						},
+						{
+							"name": "7.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.0",
+								"product_id": "FortiSOAR-7.3.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

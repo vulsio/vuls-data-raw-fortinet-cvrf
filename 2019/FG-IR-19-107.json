@@ -1,0 +1,222 @@
+{
+	"document_title": "Dragonblood vulnerabilities in WiFi WPA3 standard implementation",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-107"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-01-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-01-03T00:00:00",
+		"current_release_date": "2020-01-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation .Dragonblood vulnerabilities impacting WiFi WPA3 standard implementations can cause password leak, denial of service or authorization bypass. They consist it:CVE-2019-9494: SAE cache attack against ECC groups (SAE side-channel attacks)CVE-2019-9495: EAP-PWD cache attack against ECC groups (EAP-PWD side-channel attack)CVE-2019-9496: SAE confirm missing state validationCVE-2019-9497: EAP-PWD reflection attack (EAP-PWD missing commit validation)CVE-2019-9498: EAP-PWD server missing commit validation for scalar/elementCVE-2019-9499: EAP-PWD peer missing commit validation for scalar/element\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Side-channel attack, Denial of service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS and FortiAP-S/W2 are only impacted by:CVE-2019-9494CVE-2019-9495CVE-2019-9496Meru AP and Meru Controller are only impacted by:CVE-2019-9496\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiOS:CVE-2019-9494 upgrade to FortiOS 6.2.2CVE-2019-9495 upgrade to FortiOS 6.2.2CVE-2019-9496 upgrade to FortiOS 6.2.3FortiAP-S/W2:CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2Meru AP:CVE-2019-9496 upgrade to Meru AP 8.5.1Meru Controller:CVE-2019-9496 upgrade to Meru Controller 8.5.1\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-107",
+				"description": "Dragonblood vulnerabilities in WiFi WPA3 standard implementation"
+			},
+			{
+				"url": "https://kb.cert.org/vuls/id/871675/",
+				"description": "https://kb.cert.org/vuls/id/871675/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Dragonblood vulnerabilities in WiFi WPA3 standard implementation",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-107",
+					"description": "Dragonblood vulnerabilities in WiFi WPA3 standard implementation"
+				},
+				{
+					"url": "https://kb.cert.org/vuls/id/871675/",
+					"description": "https://kb.cert.org/vuls/id/871675/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-9494",
+			"CVE-2019-9495",
+			"CVE-2019-9496",
+			"CVE-2019-9497",
+			"CVE-2019-9498",
+			"CVE-2019-9499"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-6.2.2",
+					"FortiOS-6.2.1",
+					"FortiOS-6.2.0",
+					"Meru AP-8.5.0",
+					"FortiAP-S-6.2.1",
+					"FortiAP-S-6.2.0",
+					"FortiAP-W2-6.2.1",
+					"FortiAP-W2-6.2.0",
+					"Meru Controller-8.5.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.2",
+								"product_id": "FortiOS-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.1",
+								"product_id": "FortiOS-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.0",
+								"product_id": "FortiOS-6.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Meru AP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.0",
+								"product_id": "Meru AP-8.5.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-S",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.2.1",
+								"product_id": "FortiAP-S-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.2.0",
+								"product_id": "FortiAP-S-6.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-W2",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.1",
+								"product_id": "FortiAP-W2-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.0",
+								"product_id": "FortiAP-W2-6.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Meru Controller",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru Controller 8.5.0",
+								"product_id": "Meru Controller-8.5.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,162 @@
+{
+	"document_title": "FortiAnalyzer, FortiManager Open Redirect Vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-014"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-04-26T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-04-26T00:00:00",
+		"current_release_date": "2017-04-26T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The FortiAnalyzer and FortiManager WebUI accept a user-controlled input that specifies a link to an external site, and uses that link in a redirect.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Open redirect\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiAnalyzer versions 5.4.0 to 5.4.2, FortiManager versions 5.4.0 to 5.4.2.Preceding versions of FortiAnalyzer and FortiManager are not impacted\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            For FortiAnalyzer: Upgrade to version 5.4.3 or 5.6.0 For FortiManager: Upgrade to version 5.4.3 or 5.6.0\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Ronan Dunne of Biocompatibles UK Ltd, and Babar Khan Akhunzada of SecurityWall.co & Khyber Pakhtunkhwa Govt Data Center for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAnalyzer, FortiManager Open Redirect Vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-014",
+					"description": "FortiAnalyzer, FortiManager Open Redirect Vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-3126"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-5.4.2",
+					"FortiAnalyzer-5.4.1",
+					"FortiAnalyzer-5.4.0",
+					"FortiManager-5.4.2",
+					"FortiManager-5.4.1",
+					"FortiManager-5.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.2",
+								"product_id": "FortiAnalyzer-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.1",
+								"product_id": "FortiAnalyzer-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.0",
+								"product_id": "FortiAnalyzer-5.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.2",
+								"product_id": "FortiManager-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.1",
+								"product_id": "FortiManager-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.0",
+								"product_id": "FortiManager-5.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

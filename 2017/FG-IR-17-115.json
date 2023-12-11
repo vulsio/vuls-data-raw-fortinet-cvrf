@@ -1,0 +1,120 @@
+{
+	"document_title": "FortiWLM upgrade user account hard-coded credentials",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-115"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-06-30T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-06-30T00:00:00",
+		"current_release_date": "2017-06-30T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiWLM has a hard-coded password for its \"upgrade\" user account, which it uses to transfer files to and from the FortiWLC controller. Having the upgrade account credentials would allow an attacker to transfer files to any attached or previously attached controllers as an admin user, thus raising potential further security issues.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Hardcoded credentials\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWLM version 8.3.0 and lower.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWLM version 8.3.1\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Adam Piekarzewski, University of Toronto for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWLM upgrade user account hard-coded credentials",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-115",
+					"description": "FortiWLM upgrade user account hard-coded credentials"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-7336"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWLM-8.3.0",
+					"FortiWLM-8.2.2"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWLM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.0",
+								"product_id": "FortiWLM-8.3.0"
+							}
+						},
+						{
+							"name": "8.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.2.2",
+								"product_id": "FortiWLM-8.2.2"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

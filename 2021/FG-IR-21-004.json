@@ -1,0 +1,181 @@
+{
+	"document_title": "Meru AP - Unrestricted execution of OS commands as root",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-004"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-12-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-12-07T00:00:00",
+		"current_release_date": "2021-12-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper sanitization of commands elements (OS Command Injection) vulnerability [CWE-78] in Meru AP may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted commands in Meru AP's CLI.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Meru AP version 8.6.1 and below Meru AP version 8.5.5 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to Meru AP version 8.6.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank the customer who reported this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Meru AP - Unrestricted execution of OS commands as root",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-004",
+					"description": "Meru AP - Unrestricted execution of OS commands as root"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-42759"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"Meru AP-8.6.1",
+					"Meru AP-8.6.0",
+					"Meru AP-8.5.5",
+					"Meru AP-8.5.4",
+					"Meru AP-8.5.3",
+					"Meru AP-8.5.2",
+					"Meru AP-8.5.1",
+					"Meru AP-8.5.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.3",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "Meru AP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.6.1",
+								"product_id": "Meru AP-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.6.0",
+								"product_id": "Meru AP-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.5",
+								"product_id": "Meru AP-8.5.5"
+							}
+						},
+						{
+							"name": "8.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.4",
+								"product_id": "Meru AP-8.5.4"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.3",
+								"product_id": "Meru AP-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.2",
+								"product_id": "Meru AP-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.1",
+								"product_id": "Meru AP-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.0",
+								"product_id": "Meru AP-8.5.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,139 @@
+{
+	"document_title": "FortiDeceptor - Reflected XSS vulnerability on Lure Resources page",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-331"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-11-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-11-01T00:00:00",
+		"current_release_date": "2022-11-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiDeceptor management interface may allow an authenticated user to perform a cross site scripting (XSS) attack via sending requests with specially crafted lure resource ID.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiDeceptor version 4.2.0FortiDeceptor version 4.1.0 through 4.1.1FortiDeceptor version 4.0.2\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiDeceptor version 4.3.0 or above Please upgrade to FortiDeceptor version 4.2.1 or above Please upgrade to FortiDeceptor version 4.1.2 or above Please upgrade to FortiDeceptor version 4.0.3 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiDeceptor - Reflected XSS vulnerability on Lure Resources page",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-331",
+					"description": "FortiDeceptor - Reflected XSS vulnerability on Lure Resources page"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-38373"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiDeceptor-4.2.0",
+					"FortiDeceptor-4.1.1",
+					"FortiDeceptor-4.1.0",
+					"FortiDeceptor-4.0.2"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiDeceptor",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.2.0",
+								"product_id": "FortiDeceptor-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.1.1",
+								"product_id": "FortiDeceptor-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.1.0",
+								"product_id": "FortiDeceptor-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 4.0.2",
+								"product_id": "FortiDeceptor-4.0.2"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,148 @@
+{
+	"document_title": "FortiEDR - Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-077"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-07-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-07-05T00:00:00",
+		"current_release_date": "2022-07-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiEDR Central Manager may allow a remote authenticated attacker to perform a reflected cross site scripting attack (XSS) via injecting a malicious payload into the Management Console through various endpoints.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            At least FortiEDR Central Manager version 4.0.0 FortiEDR Central Manager version 5.0.0 through 5.0.3 Patch 6 FortiEDR Central Manager version 5.1.0\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade FortiEDR Central Manager to version 5.2.0 and above, Please upgrade FortiEDR Central Manager to version 5.0.3 Patch 7 and above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiEDR - Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-077",
+					"description": "FortiEDR - Cross Site Scripting (XSS) vulnerabilities over the Management Console"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-29057"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiEDR-5.1.0",
+					"FortiEDR-5.0.3",
+					"FortiEDR-5.0.1",
+					"FortiEDR-5.0.0",
+					"FortiEDR-4.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:P/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiEDR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.1.0",
+								"product_id": "FortiEDR-5.1.0"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.3",
+								"product_id": "FortiEDR-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.1",
+								"product_id": "FortiEDR-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 5.0.0",
+								"product_id": "FortiEDR-5.0.0"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiEDR 4.0.0",
+								"product_id": "FortiEDR-4.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

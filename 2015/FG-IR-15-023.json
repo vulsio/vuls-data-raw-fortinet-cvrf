@@ -1,0 +1,98 @@
+{
+	"document_title": "OpenSSL Advisory - December 2015",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-023"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-12-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-12-10T00:00:00",
+		"current_release_date": "2015-12-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            None\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            OpenSSL released an update in December 2015 to address a small number of vulnerability issues.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Denial of Service, Information Disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            In regards to the recent OpenSSL updates to address CVE-2015-3193, CVE-2015-3194, CVE-2015-3195, CVE-2015-3196 and CVE-2015-1794. Fortinet will update OpenSSL in the following releases: FortiOS 5.2.6 and 5.4.0 FortiManager 5.2.5 and 5.4.1 FortiMail 5.3.1 (already fixed in 5.0.9, 5.1.6 and 5.2.7) FortiAuthenticator 4.1 FortiAnalyzer 5.2.5 and 5.4.1 FortiWAN 4.1.2 FortiADC 4.4.0 FortiClient Mac 5.4.1 FortiClient Android 5.2.8 FortiClient iOS 5.2.3 FortiClient 5.4.1 FortiAP 5.4 FortiExtender 2.0.3 and 3.0.0 FortiSwitch-EFX 3.4.0 FortiSwitch 3.4.0 FortiCache 5.2.6 FortiDDoS 4.1.11 and 4.2 FortiRecorder 2.3 FortiDB 5.2 FortiExplorer 2.7.0 FortiSandbox 2.2 FortiWeb 5.5.2 FortiVoice 5.2.1.82 Other products not listed are as of this writing determined to not be vulnerable. Fortinet believes the exploitability and risk in these vulnerability issues are low or non-existent. For more information please contact Fortinet's Technical Assistance Center (TAC).\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-023",
+				"description": "OpenSSL Advisory - December 2015"
+			},
+			{
+				"url": "https://www.openssl.org/news/secadv/20151203.txt",
+				"description": "https://www.openssl.org/news/secadv/20151203.txt"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "OpenSSL Advisory - December 2015",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-023",
+					"description": "OpenSSL Advisory - December 2015"
+				},
+				{
+					"url": "https://www.openssl.org/news/secadv/20151203.txt",
+					"description": "https://www.openssl.org/news/secadv/20151203.txt"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-3193",
+			"CVE-2015-3194",
+			"CVE-2015-3195",
+			"CVE-2015-3196",
+			"CVE-2015-1794"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,112 @@
+{
+	"document_title": "Format String Vulnerability in SSH username",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-018"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-01-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-01-11T00:00:00",
+		"current_release_date": "2019-01-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            There is a format string vulnerability in the SSH username handling when connecting to FortiOS 5.6.0, that may lead to memory corruption.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS version 5.6.0 The following Fortinet products are NOT affected: FortiOS 5.4 all versions FortiOS 5.2 all versions FortiAnalyzer FortiManager\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiOS version 5.6.1 or above. Workaround: Configure the trusthost feature to only allow trusted administrators to use SSH and deny others.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet thanks Simone Cardona for reporting this vulnerability."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Format String Vulnerability in SSH username",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-018",
+					"description": "Format String Vulnerability in SSH username"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2018-1352"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-5.6.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.0",
+								"product_id": "FortiOS-5.6.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

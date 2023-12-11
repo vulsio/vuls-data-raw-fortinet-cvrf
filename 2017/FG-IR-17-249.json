@@ -1,0 +1,98 @@
+{
+	"document_title": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-249"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-11-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-11-03T00:00:00",
+		"current_release_date": "2017-11-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An old Infineon RSA library does not properly generate RSA key pairs, therefore enabling an attacker to potentially infer a private key from a public key.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Breaking RSA encryption\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following Fortinet products are NOT affected:FortiOSFortiSwitchFortiAPFortiAnalyzerFortiMailfortiManagerFortiWebFortiTokenFortiAuthenticatorNone of the products above are using the affected Infineon RSA library or TPM chips.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249",
+				"description": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)"
+			},
+			{
+				"url": "https://www.kb.cert.org/vuls/id/307015\n",
+				"description": "https://www.kb.cert.org/vuls/id/307015\n"
+			},
+			{
+				"url": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17",
+				"description": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249",
+					"description": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)"
+				},
+				{
+					"url": "https://www.kb.cert.org/vuls/id/307015\n",
+					"description": "https://www.kb.cert.org/vuls/id/307015\n"
+				},
+				{
+					"url": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17",
+					"description": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-15361"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

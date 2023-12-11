@@ -1,0 +1,424 @@
+{
+	"document_title": "FortiSIEM - Plaintext credentials storage in DB",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-141"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-06-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-06-12T00:00:00",
+		"current_release_date": "2023-06-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A plaintext storage of a password vulnerability [CWE-256] in FortiSIEM may allow an attacker able to access user DB content to impersonate any admin user on the device GUI.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiSIEM 6.7 all versionsFortiSIEM 6.6 all versionsFortiSIEM 6.5 all versionsFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSIEM version 7.0.0 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Martijn van Hoof from Simac IT NL B.V. for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiSIEM - Plaintext credentials storage in DB",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-141",
+					"description": "FortiSIEM - Plaintext credentials storage in DB"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-26204"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSIEM-6.7.8",
+					"FortiSIEM-6.7.7",
+					"FortiSIEM-6.7.6",
+					"FortiSIEM-6.7.5",
+					"FortiSIEM-6.7.4",
+					"FortiSIEM-6.7.3",
+					"FortiSIEM-6.7.2",
+					"FortiSIEM-6.7.1",
+					"FortiSIEM-6.7.0",
+					"FortiSIEM-6.6.4",
+					"FortiSIEM-6.6.3",
+					"FortiSIEM-6.6.2",
+					"FortiSIEM-6.6.1",
+					"FortiSIEM-6.6.0",
+					"FortiSIEM-6.5.2",
+					"FortiSIEM-6.5.1",
+					"FortiSIEM-6.5.0",
+					"FortiSIEM-6.4.3",
+					"FortiSIEM-6.4.2",
+					"FortiSIEM-6.4.1",
+					"FortiSIEM-6.4.0",
+					"FortiSIEM-6.3.3",
+					"FortiSIEM-6.3.2",
+					"FortiSIEM-6.3.1",
+					"FortiSIEM-6.3.0",
+					"FortiSIEM-6.2.1",
+					"FortiSIEM-6.2.0",
+					"FortiSIEM-6.1.2",
+					"FortiSIEM-6.1.1",
+					"FortiSIEM-6.1.0",
+					"FortiSIEM-5.4.0",
+					"FortiSIEM-5.3.3",
+					"FortiSIEM-5.3.2",
+					"FortiSIEM-5.3.1",
+					"FortiSIEM-5.3.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "3.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.7.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.8",
+								"product_id": "FortiSIEM-6.7.8"
+							}
+						},
+						{
+							"name": "6.7.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.7",
+								"product_id": "FortiSIEM-6.7.7"
+							}
+						},
+						{
+							"name": "6.7.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.6",
+								"product_id": "FortiSIEM-6.7.6"
+							}
+						},
+						{
+							"name": "6.7.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.5",
+								"product_id": "FortiSIEM-6.7.5"
+							}
+						},
+						{
+							"name": "6.7.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.4",
+								"product_id": "FortiSIEM-6.7.4"
+							}
+						},
+						{
+							"name": "6.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.3",
+								"product_id": "FortiSIEM-6.7.3"
+							}
+						},
+						{
+							"name": "6.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.2",
+								"product_id": "FortiSIEM-6.7.2"
+							}
+						},
+						{
+							"name": "6.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.1",
+								"product_id": "FortiSIEM-6.7.1"
+							}
+						},
+						{
+							"name": "6.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.0",
+								"product_id": "FortiSIEM-6.7.0"
+							}
+						},
+						{
+							"name": "6.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.4",
+								"product_id": "FortiSIEM-6.6.4"
+							}
+						},
+						{
+							"name": "6.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.3",
+								"product_id": "FortiSIEM-6.6.3"
+							}
+						},
+						{
+							"name": "6.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.2",
+								"product_id": "FortiSIEM-6.6.2"
+							}
+						},
+						{
+							"name": "6.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.1",
+								"product_id": "FortiSIEM-6.6.1"
+							}
+						},
+						{
+							"name": "6.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.0",
+								"product_id": "FortiSIEM-6.6.0"
+							}
+						},
+						{
+							"name": "6.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.2",
+								"product_id": "FortiSIEM-6.5.2"
+							}
+						},
+						{
+							"name": "6.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.1",
+								"product_id": "FortiSIEM-6.5.1"
+							}
+						},
+						{
+							"name": "6.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.0",
+								"product_id": "FortiSIEM-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.3",
+								"product_id": "FortiSIEM-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.2",
+								"product_id": "FortiSIEM-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.1",
+								"product_id": "FortiSIEM-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.0",
+								"product_id": "FortiSIEM-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.3",
+								"product_id": "FortiSIEM-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.2",
+								"product_id": "FortiSIEM-6.3.2"
+							}
+						},
+						{
+							"name": "6.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.1",
+								"product_id": "FortiSIEM-6.3.1"
+							}
+						},
+						{
+							"name": "6.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.0",
+								"product_id": "FortiSIEM-6.3.0"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.2.1",
+								"product_id": "FortiSIEM-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.2.0",
+								"product_id": "FortiSIEM-6.2.0"
+							}
+						},
+						{
+							"name": "6.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.2",
+								"product_id": "FortiSIEM-6.1.2"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.1",
+								"product_id": "FortiSIEM-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.0",
+								"product_id": "FortiSIEM-6.1.0"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.4.0",
+								"product_id": "FortiSIEM-5.4.0"
+							}
+						},
+						{
+							"name": "5.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.3",
+								"product_id": "FortiSIEM-5.3.3"
+							}
+						},
+						{
+							"name": "5.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.2",
+								"product_id": "FortiSIEM-5.3.2"
+							}
+						},
+						{
+							"name": "5.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.1",
+								"product_id": "FortiSIEM-5.3.1"
+							}
+						},
+						{
+							"name": "5.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.0",
+								"product_id": "FortiSIEM-5.3.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

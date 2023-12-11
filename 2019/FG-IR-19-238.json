@@ -1,0 +1,196 @@
+{
+	"document_title": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-238"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-01-27T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-01-27T00:00:00",
+		"current_release_date": "2020-01-27T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A privilege escalation vulnerability in FortiClient for Linux may allow a user with low privilege to run root system commands, overwrite system files or cause FortiClient processes to crash via injecting specially crafted client requests in the IPC socket of the FortiClient process.The following four CVE identifiers were assigned to these vulnerabilities based on different attack vectors:CVE-2019-15711 - System command injection through IPC socket by export logsCVE-2019-16152 - DoS through IPC socket by malformat nanomsgCVE-2019-16155 - Privilege escalation through IPC socket or GUI by backup fileCVE-2019-17652 - DoS through IPC socket by argv through nanomsg\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Privilege Escalation, System Command Injection, Denial of Service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            CVE-2019-15711 - FortiClient for Linux 6.2.1 and belowCVE-2019-16152 - FortiClient for Linux 6.2.1 and belowCVE-2019-16155 - FortiClient for Linux 6.2.1 and below (IPC socket)CVE-2019-16155 - FortiClient for Linux 6.2.2 and below (GUI)CVE-2019-17652 - FortiClient for Linux 6.2.1 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            CVE-2019-15711 - Upgrade to FortiClient for Linux 6.2.2 CVE-2019-16152 - Upgrade to FortiClient for Linux 6.2.2 CVE-2019-16155 - Upgrade to FortiClient for Linux 6.2.2 (IPC socket) CVE-2019-16155 - Upgrade to FortiClient for Linux 6.2.3 (GUI) CVE-2019-17652 - Upgrade to FortiClient for Linux 6.2.2 Fortinet is not aware of any public code attempting to exploit these vulnerabilities. Revision History: 2019-11-05 Initial version 2020-01-27 CVE-2019-16155 through GUI addressed in 6.2.3\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank â€œCees Elzinga from Danish Cyber Defenceâ€ for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-238",
+					"description": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-15711",
+			"CVE-2019-16152",
+			"CVE-2019-16155",
+			"CVE-2019-17652"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientLinux-6.2.1",
+					"FortiClientLinux-6.2.0",
+					"FortiClientLinux-6.0.8",
+					"FortiClientLinux-6.0.6",
+					"FortiClientLinux-6.0.5",
+					"FortiClientLinux-6.0.4",
+					"FortiClientLinux-6.0.3",
+					"FortiClientLinux-6.0.2",
+					"FortiClientLinux-6.0.1",
+					"FortiClientLinux-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientLinux",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.1",
+								"product_id": "FortiClientLinux-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.0",
+								"product_id": "FortiClientLinux-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.8",
+								"product_id": "FortiClientLinux-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.6",
+								"product_id": "FortiClientLinux-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.5",
+								"product_id": "FortiClientLinux-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.4",
+								"product_id": "FortiClientLinux-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.3",
+								"product_id": "FortiClientLinux-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.2",
+								"product_id": "FortiClientLinux-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.1",
+								"product_id": "FortiClientLinux-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.0.0",
+								"product_id": "FortiClientLinux-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

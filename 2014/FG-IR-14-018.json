@@ -1,0 +1,96 @@
+{
+	"document_title": "Multiple Vulnerabilities in OpenSSL",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-14-018"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2014-06-06T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2014-06-06T00:00:00",
+		"current_release_date": "2014-06-06T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The OpenSSL project released an advisory on June 5th, 2014, which describes the following vulnerabilities: SSL/TLS MITM vulnerability (CVE-2014-0224) DTLS recursion flaw (CVE-2014-0221) DTLS invalid fragment vulnerability (CVE-2014-0195) SSL_MODE_RELEASE_BUFFERS session injection or denial of service (CVE-2010-5298) Anonymous ECDH denial of service (CVE-2014-3470) More information on these issues can be found in the original OpenSSL advisory. Many Fortinet products utilize OpenSSL and are affected by this advisory. 2014-06-06, 1200 PST, Version 1: Initial advisory. 2014-06-09, 1700 PST, Version 2: Added FortiClient. 2014-06-12, 1400 PST, Version 3: Added release dates for FortiMail, FortiAuthenticator and FortiVoiceOS. 2014-06-16, 1400 PST, Version 4: Added tentative timelines and/or release dates for FortiOS, FortiClient, FortiManager/Analyzer, FortiWeb, FortiSandbox and FortiRecorder. 2014-06-19, 1400 PST, Version 5: Fixed IPS signature names. 2014-07-03, 2000 PST, Version 6: Added fixed versions of FortiOS 4.3, FortiAnalyzer, FortiManager and AscenLink. 2014-08-11, 1400 PST, Version 7: Added fixed version of FortiOS 5.0.x.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Loss of Confidentiality, Denial of Service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS, FortiClient, FortiSwitch, FortiAnalyzer, FortiManager, FortiMail, FortiAP, FortiVoiceOS, FortiWeb, FortiAuthenticator, FortiDNS, FortiDDoS, FortiCache, FortiRecorder, FortiSandbox, FortiADC, FortiADC-E, Equalizer LX/GX, AscenLink\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            WorkaroundsFortiGuard labs has released IPS signatures entitled \"OpenSSL.ChangeCipherSpec.Injection\" to protect against CVE-2014-0224, \"OpenSSL.dtls1_reassemble_fragment.Invalid.Fragment.BOF\" to protect against CVE-2014-0195 and \"OpenSSL.DTLS.recursion.Denial.of.Service\" to protect against CVE-2014-0221. These signatures can be used on interface policies and transit policies to protect the FortiGate control plane and devices behind the FortiGate firewall, respectively. For more information on using IPS signatures, refer to the documentation.Note that while many products are vulnerable to CVE-2014-0224, interception of communications requires that both client and server are vulnerable. All mainstream browsers do not utilize OpenSSL and are thus not affected.Firmware UpdatesFortinet is making every effort to produce software fixes for these vulnerabilities. Tentative release dates and updated software versions are shown below.FortiOS/FortiGate/FortiWifi4.3.16 (build 686), Released on 2014-06-305.2.0 (build 589), Released on 2014-06-165.0.8 (build 291), Released on 2014-07-28FortiManager/FortiAnalyzer5.2.0 (Release date TBD)5.0.7 (build 321), Released on 2014-06-27FortiClient5.2.0 (build 591), Released on 2014-06-125.0.10 (Release date TBD)FortiMail5.1.3 (build 281), Released on 2014-06-115.0.6 (build 170), Released on 2014-06-104.3.8 (build 546), Released on 2014-06-10FortiVoiceOS3.0.3 (build 165), Released on 2014-06-11FortiAuthenticator3.1.0 (build 60), Released on 2014-06-16FortiWeb5.3.1 (Tentative release in early August)FortiSandbox1.3.0 (build 86), Released on 2014-06-09FortiRecorder1.5.0 (Release date TBD)1.4.2 (Release date TBD)For information on FortiADC-E series and Coyote Point LX and GX products, please refer to the Coyote Point advisory.AscenLinkAscenLink V7.1 - B5955, Released on 2014-07-03All other product release dates are not yet available.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-018",
+				"description": "Multiple Vulnerabilities in OpenSSL"
+			},
+			{
+				"url": "<a href=\"https://www.openssl.org/news/secadv_20140605.txt\">https://www.openssl.org/news/secadv_20140605.txt</a>",
+				"description": "<a href=\"https://www.openssl.org/news/secadv_20140605.txt\">https://www.openssl.org/news/secadv_20140605.txt</a>"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple Vulnerabilities in OpenSSL",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-14-018",
+					"description": "Multiple Vulnerabilities in OpenSSL"
+				},
+				{
+					"url": "<a href=\"https://www.openssl.org/news/secadv_20140605.txt\">https://www.openssl.org/news/secadv_20140605.txt</a>",
+					"description": "<a href=\"https://www.openssl.org/news/secadv_20140605.txt\">https://www.openssl.org/news/secadv_20140605.txt</a>"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2014-0224",
+			"CVE-2014-0221",
+			"CVE-2014-0195"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

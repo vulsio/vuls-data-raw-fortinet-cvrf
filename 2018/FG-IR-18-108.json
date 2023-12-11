@@ -1,0 +1,168 @@
+{
+	"document_title": "FortiClient local privilege escalation exploit chain",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-18-108"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-12-22T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-12-22T00:00:00",
+		"current_release_date": "2018-12-22T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A researcher has disclosed several vulnerabilities against FortiClient for Windows, the combination of these vulnerabilities can turn into an exploit chain, which allows a user to gain system privileges on Microsoft Windows.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Local privilege escalation\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            All FortiClient for Windows which has Vulnerability scan features enabled.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            It is advised that all customers update their Vulnerability Scan engine to v2.00027 or later to protect against this vulnerability. In FortiClient -> About -> Engines -> Vulnerability, ensure version is 2.00027 or greater. The engine update will be pushed automatically to all FortiClients. Upgrade to FortiClient 6.0.5.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet thanks Kevin Joensen from Secu A/S for reporting this vulnerability."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient local privilege escalation exploit chain",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-108",
+					"description": "FortiClient local privilege escalation exploit chain"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2018-13368",
+			"CVE-2018-9193",
+			"CVE-2018-9191"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientWindows-6.0.5",
+					"FortiClientWindows-6.0.4",
+					"FortiClientWindows-6.0.3",
+					"FortiClientWindows-6.0.2",
+					"FortiClientWindows-6.0.1",
+					"FortiClientWindows-6.0.0",
+					"FortiClientWindows-5.6.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.1",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.5",
+								"product_id": "FortiClientWindows-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.4",
+								"product_id": "FortiClientWindows-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.3",
+								"product_id": "FortiClientWindows-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.2",
+								"product_id": "FortiClientWindows-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.1",
+								"product_id": "FortiClientWindows-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.0",
+								"product_id": "FortiClientWindows-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 5.6.6",
+								"product_id": "FortiClientWindows-5.6.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,156 @@
+{
+	"document_title": "FortiWeb Stored XSS vulnerability on webUI certificate view page",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-131"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-11-17T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-11-17T00:00:00",
+		"current_release_date": "2017-11-17T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            There exists a persistent Cross-site Scripting (XSS) vulnerability on FortiWeb's webUI Certificate View page, which can be triggered via malicious certificate import.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb version 5.8.0, 5.7.1 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb versions 5.8.1, 5.7.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank independent researcher Hassan Kooshkaki for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb Stored XSS vulnerability on webUI certificate view page",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-131",
+					"description": "FortiWeb Stored XSS vulnerability on webUI certificate view page"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-7736"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-5.8.0",
+					"FortiWeb-5.7.1",
+					"FortiWeb-5.7.0",
+					"FortiWeb-5.6.2",
+					"FortiWeb-5.6.1",
+					"FortiWeb-5.6.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.8.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.8.0",
+								"product_id": "FortiWeb-5.8.0"
+							}
+						},
+						{
+							"name": "5.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.1",
+								"product_id": "FortiWeb-5.7.1"
+							}
+						},
+						{
+							"name": "5.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.0",
+								"product_id": "FortiWeb-5.7.0"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.2",
+								"product_id": "FortiWeb-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.1",
+								"product_id": "FortiWeb-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.0",
+								"product_id": "FortiWeb-5.6.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

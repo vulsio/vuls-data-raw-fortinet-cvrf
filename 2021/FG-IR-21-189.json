@@ -1,0 +1,235 @@
+{
+	"document_title": "FortiWLM - SQL Injection in AP report handlers",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-189"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-03-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-03-01T00:00:00",
+		"current_release_date": "2022-03-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] in FortiWLM may allow an authenticated attacker to alter the query logic and execute arbitrary SQL statements via crafted HTTP requests to the AP monitor handlers.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiWLM version 8.6.2 and below. FortiWLM version 8.5.2 and below. FortiWLM version 8.4.2 and below. FortiWLM version 8.3.2 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiWLM version 8.6.3 or above.  \n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Mattia Fecit of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWLM - SQL Injection in AP report handlers",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-189",
+					"description": "FortiWLM - SQL Injection in AP report handlers"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-43077"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWLM-8.6.2",
+					"FortiWLM-8.6.1",
+					"FortiWLM-8.6.0",
+					"FortiWLM-8.5.3",
+					"FortiWLM-8.5.2",
+					"FortiWLM-8.5.1",
+					"FortiWLM-8.5.0",
+					"FortiWLM-8.4.2",
+					"FortiWLM-8.4.1",
+					"FortiWLM-8.4.0",
+					"FortiWLM-8.3.2",
+					"FortiWLM-8.3.1",
+					"FortiWLM-8.3.0",
+					"FortiWLM-8.2.2"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWLM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.2",
+								"product_id": "FortiWLM-8.6.2"
+							}
+						},
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.1",
+								"product_id": "FortiWLM-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.0",
+								"product_id": "FortiWLM-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.3",
+								"product_id": "FortiWLM-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.2",
+								"product_id": "FortiWLM-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.1",
+								"product_id": "FortiWLM-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.0",
+								"product_id": "FortiWLM-8.5.0"
+							}
+						},
+						{
+							"name": "8.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.2",
+								"product_id": "FortiWLM-8.4.2"
+							}
+						},
+						{
+							"name": "8.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.1",
+								"product_id": "FortiWLM-8.4.1"
+							}
+						},
+						{
+							"name": "8.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.0",
+								"product_id": "FortiWLM-8.4.0"
+							}
+						},
+						{
+							"name": "8.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.2",
+								"product_id": "FortiWLM-8.3.2"
+							}
+						},
+						{
+							"name": "8.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.1",
+								"product_id": "FortiWLM-8.3.1"
+							}
+						},
+						{
+							"name": "8.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.0",
+								"product_id": "FortiWLM-8.3.0"
+							}
+						},
+						{
+							"name": "8.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.2.2",
+								"product_id": "FortiWLM-8.2.2"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"document_title": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-051"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-10-05T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-10-05T00:00:00",
+		"current_release_date": "2016-10-05T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A cross-site-scripting vulnerablity in FortiAnalyzer/FortiManager in advanced settings page could allow an administrator to inject scripts in the add filter field.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Access to another privileged administrator user's data\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiManager: 5.0.0 - 5.0.11, 5.2.0 - 5.2.2 FortiAnalyzer: 5.0.0 - 5.0.12, 5.2.0 - 5.2.2\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to: FortiManager 5.0.12 and above 5.2.3 and above 5.4.0 and above Â FortiAnalyzer 5.0.13 and above 5.2.3 and above 5.4.0 and above Â FortiManager hardware models without hard disk are not affected. This feature is disabled by default in all FortiManager versions.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Ismail Saygili for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-051",
+					"description": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-7363"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

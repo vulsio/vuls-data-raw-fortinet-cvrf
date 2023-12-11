@@ -1,0 +1,97 @@
+{
+	"document_title": "Multiple Vulnerabilities in FortiManager",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-011"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-04-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-04-16T00:00:00",
+		"current_release_date": "2015-04-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple vulnerabilities have been discovered in FortiManager.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Certain versions of FortiManager are subject to the following vulnerabilities: 1. Escalation of Privileges: under certain circumstances, there exists the possibility for a user to escalate privileges by modifying specific parameters. 2. Cross-Site Scripting Vulnerability: it may be possible for an attacker to manipulate a specific action to inject potentially malicious JavaScript into other user profiles. This vulnerability requires account access and privilege escalation in order to be successful. 3. SQL Injection: a remote attacker may be able to perform an SQL Injection attack on the FortiManager via an improperly sanitized input. 4. Local Privilege Escalation via CLI: certain commands can be exploited to allow the passing of additional code which can allow an escalation of privileges. 5. Arbitrary File Download: an opportunity exists for an attacker to obtain arbitrary files from the FortiManager which can lead to information disclosure. This vulnerability requires an attacker to exploit another vulnerability to escalate their privileges.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of Privileges, Cross-Site Scripting, SQL Query Execution, SQL Injection, Arbitrary File Download\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager v.5.2.1 and earlierFortiManager v5.0.10 and earlier\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            FortiManager v5.0 through v5.0.10: Upgrade to FortiManager v5.0.11. You may also upgrade to FortiManager to v5.2.2, which is also available.FortiManager v5.2 through v5.2.1: Upgrade FortiManager to v5.2.2.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Thank you to Maksymilian Motyl and the ITN Security Team at Orange Polska for responsibly disclosing these vulnerabilities to Fortinet."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple Vulnerabilities in FortiManager",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-011",
+					"description": "Multiple Vulnerabilities in FortiManager"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-3611",
+			"CVE-2015-3612",
+			"CVE-2015-3613",
+			"CVE-2015-3614",
+			"CVE-2015-3615",
+			"CVE-2015-3616",
+			"CVE-2015-3617"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

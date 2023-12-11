@@ -1,0 +1,91 @@
+{
+	"document_title": "Apache Tomcat vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-251"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-10-24T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-10-24T00:00:00",
+		"current_release_date": "2017-10-24T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple Remote Code Execution (RCE) vulnerabilities (CVE-2017-12615, CVE-2017-12617) are affecting Apache Tomcat.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Remote Code Execution (RCE)\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following Fortinet products are NOT affected:FortiOSFortiAPFortiSwitchFortiAnalyzerFortiMailFortiManagerFortiWebNone of the products above are using Apache Tomcat.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-251",
+				"description": "Apache Tomcat vulnerabilities"
+			},
+			{
+				"url": "http://tomcat.apache.org/security.html",
+				"description": "http://tomcat.apache.org/security.html"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Apache Tomcat vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-251",
+					"description": "Apache Tomcat vulnerabilities"
+				},
+				{
+					"url": "http://tomcat.apache.org/security.html",
+					"description": "http://tomcat.apache.org/security.html"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-12615",
+			"CVE-2017-12617"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

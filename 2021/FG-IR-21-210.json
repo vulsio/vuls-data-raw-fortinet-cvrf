@@ -1,0 +1,208 @@
+{
+	"document_title": "FortiToken Mobile (Android) - Deny request approved from External push notification",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-210"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-03-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-03-01T00:00:00",
+		"current_release_date": "2022-03-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability [CWE-284 ] in FortiToken Mobile (Android) external push notification may allow a remote attacker having already obtained a user's password to access the protected system during the 2FA procedure, even though the deny button is clicked by the legitimate user.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiToken Mobile (Android) version 5.1.0 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to version 5.2.0 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Gerard Gerritsen from Gemeente Ede for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiToken Mobile (Android) - Deny request approved from External push notification",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-210",
+					"description": "FortiToken Mobile (Android) - Deny request approved from External push notification"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-44166"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiTokenAndroid-5.1.0",
+					"FortiTokenAndroid-5.0.3",
+					"FortiTokenAndroid-5.0.2",
+					"FortiTokenAndroid-4.5.0",
+					"FortiTokenAndroid-4.4.0",
+					"FortiTokenAndroid-4.3.0",
+					"FortiTokenAndroid-4.2.2",
+					"FortiTokenAndroid-4.2.1",
+					"FortiTokenAndroid-4.1.1",
+					"FortiTokenAndroid-4.0.1",
+					"FortiTokenAndroid-4.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "3.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:F/RL:U/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiTokenAndroid",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 5.1.0",
+								"product_id": "FortiTokenAndroid-5.1.0"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 5.0.3",
+								"product_id": "FortiTokenAndroid-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 5.0.2",
+								"product_id": "FortiTokenAndroid-5.0.2"
+							}
+						},
+						{
+							"name": "4.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.5.0",
+								"product_id": "FortiTokenAndroid-4.5.0"
+							}
+						},
+						{
+							"name": "4.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.4.0",
+								"product_id": "FortiTokenAndroid-4.4.0"
+							}
+						},
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.3.0",
+								"product_id": "FortiTokenAndroid-4.3.0"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.2.2",
+								"product_id": "FortiTokenAndroid-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.2.1",
+								"product_id": "FortiTokenAndroid-4.2.1"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.1.1",
+								"product_id": "FortiTokenAndroid-4.1.1"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.0.1",
+								"product_id": "FortiTokenAndroid-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.0.0",
+								"product_id": "FortiTokenAndroid-4.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

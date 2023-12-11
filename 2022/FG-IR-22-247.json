@@ -1,0 +1,361 @@
+{
+	"document_title": "FortiTester - Authenticated command injection in certificate import feature",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-247"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-10-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-10-10T00:00:00",
+		"current_release_date": "2022-10-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the management interface of FortiTester may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to commands of the certificate import feature.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiTester version 7.1.0FortiTester version 4.2.0FortiTester version 3.9.0 through 3.9.1FortiTester 7.0 all versionsFortiTester 4.1 all versionsFortiTester 4.0 all versionsFortiTester 3.8 all versionsFortiTester 3.7 all versionsFortiTester 3.5 all versionsFortiTester 3.4 all versionsFortiTester 3.3 all versionsFortiTester 3.2 all versionsFortiTester 3.1 all versionsFortiTester 3.0 all versionsFortiTester 2.9 all versionsFortiTester 2.8 all versionsFortiTester 2.7 all versionsFortiTester 2.6 all versionsFortiTester 2.5 all versionsFortiTester 2.4 all versionsFortiTester 2.3 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiTester version 7.2.0 or above Please upgrade to FortiTester version 7.1.1 or above Please upgrade to FortiTester version 4.2.1 or above Please upgrade to FortiTester version 3.9.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiTester - Authenticated command injection in certificate import feature",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-247",
+					"description": "FortiTester - Authenticated command injection in certificate import feature"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-35844"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiTester-7.1.0",
+					"FortiTester-7.0.0",
+					"FortiTester-4.2.0",
+					"FortiTester-4.1.1",
+					"FortiTester-4.1.0",
+					"FortiTester-4.0.0",
+					"FortiTester-3.9.1",
+					"FortiTester-3.9.0",
+					"FortiTester-3.8.0",
+					"FortiTester-3.7.1",
+					"FortiTester-3.7.0",
+					"FortiTester-3.6.0",
+					"FortiTester-3.5.1",
+					"FortiTester-3.5.0",
+					"FortiTester-3.4.0",
+					"FortiTester-3.3.1",
+					"FortiTester-3.3.0",
+					"FortiTester-3.2.0",
+					"FortiTester-3.1.0",
+					"FortiTester-3.0.0",
+					"FortiTester-2.9.0",
+					"FortiTester-2.8.0",
+					"FortiTester-2.7.0",
+					"FortiTester-2.6.0",
+					"FortiTester-2.5.0",
+					"FortiTester-2.4.1",
+					"FortiTester-2.4.0",
+					"FortiTester-2.3.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.5",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiTester",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.1.0",
+								"product_id": "FortiTester-7.1.0"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.0.0",
+								"product_id": "FortiTester-7.0.0"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 4.2.0",
+								"product_id": "FortiTester-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 4.1.1",
+								"product_id": "FortiTester-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 4.1.0",
+								"product_id": "FortiTester-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 4.0.0",
+								"product_id": "FortiTester-4.0.0"
+							}
+						},
+						{
+							"name": "3.9.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.9.1",
+								"product_id": "FortiTester-3.9.1"
+							}
+						},
+						{
+							"name": "3.9.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.9.0",
+								"product_id": "FortiTester-3.9.0"
+							}
+						},
+						{
+							"name": "3.8.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.8.0",
+								"product_id": "FortiTester-3.8.0"
+							}
+						},
+						{
+							"name": "3.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.7.1",
+								"product_id": "FortiTester-3.7.1"
+							}
+						},
+						{
+							"name": "3.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.7.0",
+								"product_id": "FortiTester-3.7.0"
+							}
+						},
+						{
+							"name": "3.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.6.0",
+								"product_id": "FortiTester-3.6.0"
+							}
+						},
+						{
+							"name": "3.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.5.1",
+								"product_id": "FortiTester-3.5.1"
+							}
+						},
+						{
+							"name": "3.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.5.0",
+								"product_id": "FortiTester-3.5.0"
+							}
+						},
+						{
+							"name": "3.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.4.0",
+								"product_id": "FortiTester-3.4.0"
+							}
+						},
+						{
+							"name": "3.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.3.1",
+								"product_id": "FortiTester-3.3.1"
+							}
+						},
+						{
+							"name": "3.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.3.0",
+								"product_id": "FortiTester-3.3.0"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.2.0",
+								"product_id": "FortiTester-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.1.0",
+								"product_id": "FortiTester-3.1.0"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 3.0.0",
+								"product_id": "FortiTester-3.0.0"
+							}
+						},
+						{
+							"name": "2.9.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.9.0",
+								"product_id": "FortiTester-2.9.0"
+							}
+						},
+						{
+							"name": "2.8.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.8.0",
+								"product_id": "FortiTester-2.8.0"
+							}
+						},
+						{
+							"name": "2.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.7.0",
+								"product_id": "FortiTester-2.7.0"
+							}
+						},
+						{
+							"name": "2.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.6.0",
+								"product_id": "FortiTester-2.6.0"
+							}
+						},
+						{
+							"name": "2.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.5.0",
+								"product_id": "FortiTester-2.5.0"
+							}
+						},
+						{
+							"name": "2.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.4.1",
+								"product_id": "FortiTester-2.4.1"
+							}
+						},
+						{
+							"name": "2.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.4.0",
+								"product_id": "FortiTester-2.4.0"
+							}
+						},
+						{
+							"name": "2.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 2.3.0",
+								"product_id": "FortiTester-2.3.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

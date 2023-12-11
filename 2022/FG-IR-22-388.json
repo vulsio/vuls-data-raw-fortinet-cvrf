@@ -1,0 +1,253 @@
+{
+	"document_title": "FortiRecorder - DoS in login authentication mechanism",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-388"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-03-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-03-07T00:00:00",
+		"current_release_date": "2023-03-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An uncontrolled resource consumption vulnerability [CWE-400] in FortiRecorder login authentication mechanism may allow an unauthenticated attacker to make the device unavailable via crafted GET requests.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Denial of service\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiRecorder 6.4.3 and below, FortiRecorder 6.0.11 to 6.0.0\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiRecorder version 7.0.0 or above Please upgrade to FortiRecorder version 6.4.4 or above Please upgrade to FortiRecorder version 6.0.12 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Mohammed Adel of Safe Decision Cybersecurity Labs for bringing this issue to our attention under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiRecorder - DoS in login authentication mechanism",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-388",
+					"description": "FortiRecorder - DoS in login authentication mechanism"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-41333"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiRecorder-6.4.3",
+					"FortiRecorder-6.4.2",
+					"FortiRecorder-6.4.1",
+					"FortiRecorder-6.4.0",
+					"FortiRecorder-6.0.11",
+					"FortiRecorder-6.0.10",
+					"FortiRecorder-6.0.9",
+					"FortiRecorder-6.0.8",
+					"FortiRecorder-6.0.7",
+					"FortiRecorder-6.0.6",
+					"FortiRecorder-6.0.5",
+					"FortiRecorder-6.0.4",
+					"FortiRecorder-6.0.3",
+					"FortiRecorder-6.0.2",
+					"FortiRecorder-6.0.1",
+					"FortiRecorder-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiRecorder",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.3",
+								"product_id": "FortiRecorder-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.2",
+								"product_id": "FortiRecorder-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.1",
+								"product_id": "FortiRecorder-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.0",
+								"product_id": "FortiRecorder-6.4.0"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.11",
+								"product_id": "FortiRecorder-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.10",
+								"product_id": "FortiRecorder-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.9",
+								"product_id": "FortiRecorder-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.8",
+								"product_id": "FortiRecorder-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.7",
+								"product_id": "FortiRecorder-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.6",
+								"product_id": "FortiRecorder-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.5",
+								"product_id": "FortiRecorder-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.4",
+								"product_id": "FortiRecorder-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.3",
+								"product_id": "FortiRecorder-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.2",
+								"product_id": "FortiRecorder-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.1",
+								"product_id": "FortiRecorder-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.0",
+								"product_id": "FortiRecorder-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"document_title": "CVE-2015-0279: Expression Language Injection in FortiSIEM",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-041"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-06-21T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-06-21T00:00:00",
+		"current_release_date": "2020-06-21T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An expression language injection vulnerability in FortiSIEM JBoss RichFaces library may allow a remote attacker to inject expression language (EL) expressions and execute arbitrary Java code via the do parameter.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Unauthorized code execution\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiSIEM version 5.2.8 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiSIEM version 5.3.0 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Code White GmbH for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "CVE-2015-0279: Expression Language Injection in FortiSIEM",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-041",
+					"description": "CVE-2015-0279: Expression Language Injection in FortiSIEM"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-0279"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiSIEM-5.2.8",
+					"FortiSIEM-5.2.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.2.8",
+								"product_id": "FortiSIEM-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.2.6",
+								"product_id": "FortiSIEM-5.2.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"document_title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-302"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2018-08-27T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2018-08-27T00:00:00",
+		"current_release_date": "2018-08-27T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A plaintext recovery of encrypted messages or a Man-in-the-middle (MiTM) attack on RSA PKCS #1 v1.5 encryption may be possible without knowledge of the server's private key. FortiOS are affected by the following two CVEs: CVE-2018-9192: ROBOT vulnerability reported under SSL Deep Inspection when CPx being used CVE-2018-9194: ROBOT attack under VIP SSL offloading when CPx being used   FortiOS for admin port 443 is NOT vulnerable to the ROBOT attack.  \n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information Exposure Through Discrepancy\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS CVE-2018-9192: 5.2 branch: not vulnerable 5.4 branch: 5.4.6 to 5.4.9 5.6 branch: not vulnerable 6.0 branch: 6.0.0 to 6.0.1 CVE-2018-9194: 5.2 branch: not vulnerable 5.4 branch: 5.4.6 to 5.4.9 5.6 branch: not vulnerable 6.0 branch: 6.0.0 to 6.0.1 The following Fortinet products are NOT affected: FortiSwitch FortiAP FortiAnalyzer FortiMail fortiManager FortiWeb Details: CVE-2018-9192 - only when all of the conditions below are met: 1. The model supports content processor (CPx) and KXP traffic acceleration is enabled (enabled is the default value) 2. SSL Deep Inspection UTM profile is used CVE-2018-9194 - only when all of the conditions below are met: 1. The FortiGate model supports content processor (CPx) and KXP traffic acceleration is enabled (enabled is the default value) 2. VIP SSL offloading is used [1] [1] A typical VIP SSL offloading CLI config (only shows key CLI configs): config firewall vip edit [vip-name] set type server-load-balance set server-type https next end config firewall policy edit [policy-id] set dstaddr [vip-name] set utm-status enable set ssl-ssh-profile [profile-name] next end\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiOS 6.0.2 and above in branch 6.0, or to 5.4.10 and above in branch 5.4 (FortiOS 5.2 and 5.6 branches not impacted). Workarounds: For CVE-2018-9192, only one workaround is available: A working workaround consists in disabling KXP traffic acceleration: config system global set proxy-kxp-hardware-acceleration disable end For CVE-2018-9194, three types of workaround are available: One workaround consists in disabling KXP traffic acceleration: config system global set proxy-kxp-hardware-acceleration disable end Also user can avoid such attack by disabling RSA ciphersuites in TLS protocol, by perform one of the following two CLI settings:  By ensure only using PFS (Perfect Forward Secrecy) ciphers: config firewall vip edit [vip-name] set type server-load-balance set server-type https set ssl-pfs require (only using PFS ciphers) next end  By only specific custom ciphers without using RSA: config firewall vip edit [vip-name] set type server-load-balance set server-type https config ssl-cipher-suites edit set cipher (ciphers not include TLS-RSA-xxx) next end next end   Edited on: 13-10-2022\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302",
+				"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat"
+			},
+			{
+				"url": "https://robotattack.org/\n",
+				"description": "https://robotattack.org/\n"
+			},
+			{
+				"url": "https://www.kb.cert.org/vuls/id/144389",
+				"description": "https://www.kb.cert.org/vuls/id/144389"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank \"Adam Kavan of Professional Research Consultants\" report CVE-2018-9192 under responsible disclosure."
+			},
+			{},
+			{
+				"description": "Fortinet is pleased to thank \"Lars MÃ¼ller of BTC AG\" report CVE-2018-9194 under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302",
+					"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat"
+				},
+				{
+					"url": "https://robotattack.org/\n",
+					"description": "https://robotattack.org/\n"
+				},
+				{
+					"url": "https://www.kb.cert.org/vuls/id/144389",
+					"description": "https://www.kb.cert.org/vuls/id/144389"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2018-9192",
+			"CVE-2018-9194"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

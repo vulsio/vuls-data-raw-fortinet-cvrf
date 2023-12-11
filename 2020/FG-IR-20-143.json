@@ -1,0 +1,94 @@
+{
+	"document_title": "FortiManager & FortiAnalyzer - Inter ADOM information leakage",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-143"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-09-06T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-09-06T00:00:00",
+		"current_release_date": "2022-09-06T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiManager and FortiAnalyzer management interface may allow a remote and authenticated admin user assigned to a specific ADOM to access other ADOMs information such as device information and dashboard information.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager version 7.2.0 FortiManager version 7.0.0 through 7.0.3 FortiManager version 6.4.0 through 6.4.7 FortiManager version 6.2.0 through 6.2.9 FortiManager version 6.0.0 through 6.0.11 FortiAnalyzer version 7.2.0 FortiAnalyzer version 7.0.0 through 7.0.3 FortiAnalyzer version 6.4.0 through 6.4.8 FortiAnalyzer version 6.2.0 through 6.2.10 FortiAnalyzer version 6.0.0 through 6.0.12\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiManager version 7.2.1 or above Please upgrade to FortiManager version 7.0.4 or above Please upgrade to FortiManager version 6.4.8 or above Please upgrade to FortiAnalyzer version 7.2.1 or above Please upgrade to FortiAnalyzer version 7.0.4 or above Please upgrade to FortiAnalyzer version 6.4.9 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased thank Abdulmohsen Nasser Alotaibi, from DEEM @ SDAIA for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiManager & FortiAnalyzer - Inter ADOM information leakage",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-143",
+					"description": "FortiManager & FortiAnalyzer - Inter ADOM information leakage"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-38377"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:P/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

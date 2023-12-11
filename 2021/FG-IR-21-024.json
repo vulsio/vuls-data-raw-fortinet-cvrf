@@ -1,0 +1,385 @@
+{
+	"document_title": "FortiTokenMobile - Missing digital certificate validation",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-024"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-06-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-06-07T00:00:00",
+		"current_release_date": "2022-06-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper validation of certificate with host mismatch vulnerability [CWE-297] in FortiTokenMobile may allow an unauthenticated user to spoof the validation server identity and achieve a Man-in-the-Middle attack.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper server authentication\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiTokenAndroid 5.0 all versionsFortiTokenAndroid 4.5 all versionsFortiTokenAndroid 4.4 all versionsFortiTokenAndroid 4.3 all versionsFortiTokenAndroid 4.2 all versionsFortiTokenAndroid 4.1 all versionsFortiTokenAndroid 4.0 all versionsFortiTokenAndroid 3.0 all versionsFortiTokenAndroid 0.4 all versionsFortiTokenIOS 5.2 all versionsFortiTokenIOS 4.3 all versionsFortiTokenIOS 4.2 all versionsFortiTokenIOS 4.1 all versionsFortiTokenIOS 3.0 all versionsFortiTokenMobileWP 4.0 all versionsFortiTokenMobileWP 3.0 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade FortiTokenMobile for Android to version 5.1.0 or above Upgrade FortiTokenMobile for iOS to version 5.3.0 or above Upgrade FortiTokenMobile for Windows to version 4.1.0 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiTokenMobile - Missing digital certificate validation",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-024",
+					"description": "FortiTokenMobile - Missing digital certificate validation"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-22131"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiTokenAndroid-5.0.3",
+					"FortiTokenAndroid-5.0.2",
+					"FortiTokenAndroid-4.5.0",
+					"FortiTokenAndroid-4.4.0",
+					"FortiTokenAndroid-4.3.0",
+					"FortiTokenAndroid-4.2.2",
+					"FortiTokenAndroid-4.2.1",
+					"FortiTokenAndroid-4.1.1",
+					"FortiTokenAndroid-4.0.1",
+					"FortiTokenAndroid-4.0.0",
+					"FortiTokenAndroid-3.0.4",
+					"FortiTokenAndroid-3.0.3",
+					"FortiTokenAndroid-3.0.2",
+					"FortiTokenAndroid-3.0.1",
+					"FortiTokenAndroid-3.0.0",
+					"FortiTokenAndroid-0.4.20",
+					"FortiTokenAndroid-0.4.10",
+					"FortiTokenIOS-5.2.0",
+					"FortiTokenIOS-4.3.0",
+					"FortiTokenIOS-4.2.0",
+					"FortiTokenIOS-4.1.1",
+					"FortiTokenIOS-4.1.0",
+					"FortiTokenIOS-3.0.5",
+					"FortiTokenIOS-3.0.4",
+					"FortiTokenIOS-3.0.3",
+					"FortiTokenIOS-3.0.2",
+					"FortiTokenIOS-3.0.1",
+					"FortiTokenMobileWP-4.0.3",
+					"FortiTokenMobileWP-3.0.1",
+					"FortiTokenMobileWP-3.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.1",
+				"vector_v3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiTokenAndroid",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 5.0.3",
+								"product_id": "FortiTokenAndroid-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 5.0.2",
+								"product_id": "FortiTokenAndroid-5.0.2"
+							}
+						},
+						{
+							"name": "4.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.5.0",
+								"product_id": "FortiTokenAndroid-4.5.0"
+							}
+						},
+						{
+							"name": "4.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.4.0",
+								"product_id": "FortiTokenAndroid-4.4.0"
+							}
+						},
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.3.0",
+								"product_id": "FortiTokenAndroid-4.3.0"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.2.2",
+								"product_id": "FortiTokenAndroid-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.2.1",
+								"product_id": "FortiTokenAndroid-4.2.1"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.1.1",
+								"product_id": "FortiTokenAndroid-4.1.1"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.0.1",
+								"product_id": "FortiTokenAndroid-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 4.0.0",
+								"product_id": "FortiTokenAndroid-4.0.0"
+							}
+						},
+						{
+							"name": "3.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 3.0.4",
+								"product_id": "FortiTokenAndroid-3.0.4"
+							}
+						},
+						{
+							"name": "3.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 3.0.3",
+								"product_id": "FortiTokenAndroid-3.0.3"
+							}
+						},
+						{
+							"name": "3.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 3.0.2",
+								"product_id": "FortiTokenAndroid-3.0.2"
+							}
+						},
+						{
+							"name": "3.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 3.0.1",
+								"product_id": "FortiTokenAndroid-3.0.1"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 3.0.0",
+								"product_id": "FortiTokenAndroid-3.0.0"
+							}
+						},
+						{
+							"name": "0.4.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 0.4.20",
+								"product_id": "FortiTokenAndroid-0.4.20"
+							}
+						},
+						{
+							"name": "0.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenAndroid 0.4.10",
+								"product_id": "FortiTokenAndroid-0.4.10"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiTokenIOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 5.2.0",
+								"product_id": "FortiTokenIOS-5.2.0"
+							}
+						},
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 4.3.0",
+								"product_id": "FortiTokenIOS-4.3.0"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 4.2.0",
+								"product_id": "FortiTokenIOS-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 4.1.1",
+								"product_id": "FortiTokenIOS-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 4.1.0",
+								"product_id": "FortiTokenIOS-4.1.0"
+							}
+						},
+						{
+							"name": "3.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 3.0.5",
+								"product_id": "FortiTokenIOS-3.0.5"
+							}
+						},
+						{
+							"name": "3.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 3.0.4",
+								"product_id": "FortiTokenIOS-3.0.4"
+							}
+						},
+						{
+							"name": "3.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 3.0.3",
+								"product_id": "FortiTokenIOS-3.0.3"
+							}
+						},
+						{
+							"name": "3.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 3.0.2",
+								"product_id": "FortiTokenIOS-3.0.2"
+							}
+						},
+						{
+							"name": "3.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenIOS 3.0.1",
+								"product_id": "FortiTokenIOS-3.0.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiTokenMobileWP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenMobileWP 4.0.3",
+								"product_id": "FortiTokenMobileWP-4.0.3"
+							}
+						},
+						{
+							"name": "3.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenMobileWP 3.0.1",
+								"product_id": "FortiTokenMobileWP-3.0.1"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTokenMobileWP 3.0.0",
+								"product_id": "FortiTokenMobileWP-3.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

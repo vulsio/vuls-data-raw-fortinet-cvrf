@@ -1,0 +1,104 @@
+{
+	"document_title": "FortiWAN Multiple Vulnerabilities",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-045"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-09-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-09-07T00:00:00",
+		"current_release_date": "2016-09-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortWan 4.2.4 and below is exposed to cross site scripting, information leak and escalation of privilege vulnerabilities.CVE-2016-4965: Non-administrative authenticated user having access privileges to the nslookup functionality can perform OS command injection in the root user contextCVE-2016-4966: Non-administrative authenticated userÂ having access privileges to change the HTTP Get param \"UserName\" to \"Administrator\" may access PCAP filesCVE-2016-4967: Non-administrative authenticated user may access configuration information and/or PCAP files via specific URLsCVE-2016-4968: Non-administrative authenticated user may obtain administrator cookie via specific GET requestsCVE-2016-4969: Persistent XSS\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            XSS, information leak, escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWan 4.2.4 and below\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to 4.2.5 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-045",
+				"description": "FortiWAN Multiple Vulnerabilities"
+			},
+			{
+				"url": "http://www.kb.cert.org/vuls/id/724487",
+				"description": "http://www.kb.cert.org/vuls/id/724487"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Reported by CERT/CC"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWAN Multiple Vulnerabilities",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-045",
+					"description": "FortiWAN Multiple Vulnerabilities"
+				},
+				{
+					"url": "http://www.kb.cert.org/vuls/id/724487",
+					"description": "http://www.kb.cert.org/vuls/id/724487"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2016-4965",
+			"CVE-2016-4966",
+			"CVE-2016-4967",
+			"CVE-2016-4968",
+			"CVE-2016-4969"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

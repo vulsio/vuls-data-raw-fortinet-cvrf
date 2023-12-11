@@ -1,0 +1,184 @@
+{
+	"document_title": "XSS vulnerability in the Anomaly Detection Parameter Name",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-265"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2020-03-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2020-03-09T00:00:00",
+		"current_release_date": "2020-03-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of input vulnerability in the Anomaly Detection interface of FortiWeb may allow a remote unauthenticated attacker to perform a cross site scripting attack (XSS) via a parameter of the request.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Unauthorized code execution\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb Versions 6.0.5 and below.FortiWeb Versions 6.1.1 and below.FortiWeb Version 6.2.0\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiWeb versions 6.0.6 or above Please upgrade to FortiWeb versions 6.1.2 or above Please upgrade to FortiWeb versions 6.2.1 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Pablo Arriaga Perez from Government of Navarre and S21sec for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "XSS vulnerability in the Anomaly Detection Parameter Name",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-265",
+					"description": "XSS vulnerability in the Anomaly Detection Parameter Name"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2019-16156"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-6.2.0",
+					"FortiWeb-6.1.1",
+					"FortiWeb-6.1.0",
+					"FortiWeb-6.0.5",
+					"FortiWeb-6.0.4",
+					"FortiWeb-6.0.3",
+					"FortiWeb-6.0.2",
+					"FortiWeb-6.0.1",
+					"FortiWeb-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.0",
+								"product_id": "FortiWeb-6.2.0"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.1",
+								"product_id": "FortiWeb-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.0",
+								"product_id": "FortiWeb-6.1.0"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.5",
+								"product_id": "FortiWeb-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.4",
+								"product_id": "FortiWeb-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.3",
+								"product_id": "FortiWeb-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.2",
+								"product_id": "FortiWeb-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.1",
+								"product_id": "FortiWeb-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.0",
+								"product_id": "FortiWeb-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

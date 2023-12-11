@@ -1,0 +1,274 @@
+{
+	"document_title": "FortiWeb - Command injection in CLI backup functionality",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-131"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-02-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-02-16T00:00:00",
+		"current_release_date": "2023-02-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiWeb may allow a privileged attacker to execute arbitrary bash commands via crafted cli backup parameters.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1 FortiWeb version 6.3.6 through 6.3.18 FortiWeb 6.4 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiWeb version 7.0.2 or above Please upgrade to FortiWeb version 6.3.19 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWeb - Command injection in CLI backup functionality",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-131",
+					"description": "FortiWeb - Command injection in CLI backup functionality"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-23777"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-7.0.1",
+					"FortiWeb-7.0.0",
+					"FortiWeb-6.4.3",
+					"FortiWeb-6.4.2",
+					"FortiWeb-6.4.1",
+					"FortiWeb-6.4.0",
+					"FortiWeb-6.3.18",
+					"FortiWeb-6.3.17",
+					"FortiWeb-6.3.16",
+					"FortiWeb-6.3.15",
+					"FortiWeb-6.3.14",
+					"FortiWeb-6.3.13",
+					"FortiWeb-6.3.12",
+					"FortiWeb-6.3.11",
+					"FortiWeb-6.3.10",
+					"FortiWeb-6.3.9",
+					"FortiWeb-6.3.8",
+					"FortiWeb-6.3.7",
+					"FortiWeb-6.3.6"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.2",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:H/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.1",
+								"product_id": "FortiWeb-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.0",
+								"product_id": "FortiWeb-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.3",
+								"product_id": "FortiWeb-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.2",
+								"product_id": "FortiWeb-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.1",
+								"product_id": "FortiWeb-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.0",
+								"product_id": "FortiWeb-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.18",
+								"product_id": "FortiWeb-6.3.18"
+							}
+						},
+						{
+							"name": "6.3.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.17",
+								"product_id": "FortiWeb-6.3.17"
+							}
+						},
+						{
+							"name": "6.3.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.16",
+								"product_id": "FortiWeb-6.3.16"
+							}
+						},
+						{
+							"name": "6.3.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.15",
+								"product_id": "FortiWeb-6.3.15"
+							}
+						},
+						{
+							"name": "6.3.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.14",
+								"product_id": "FortiWeb-6.3.14"
+							}
+						},
+						{
+							"name": "6.3.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.13",
+								"product_id": "FortiWeb-6.3.13"
+							}
+						},
+						{
+							"name": "6.3.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.12",
+								"product_id": "FortiWeb-6.3.12"
+							}
+						},
+						{
+							"name": "6.3.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.11",
+								"product_id": "FortiWeb-6.3.11"
+							}
+						},
+						{
+							"name": "6.3.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.10",
+								"product_id": "FortiWeb-6.3.10"
+							}
+						},
+						{
+							"name": "6.3.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.9",
+								"product_id": "FortiWeb-6.3.9"
+							}
+						},
+						{
+							"name": "6.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.8",
+								"product_id": "FortiWeb-6.3.8"
+							}
+						},
+						{
+							"name": "6.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.7",
+								"product_id": "FortiWeb-6.3.7"
+							}
+						},
+						{
+							"name": "6.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.6",
+								"product_id": "FortiWeb-6.3.6"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

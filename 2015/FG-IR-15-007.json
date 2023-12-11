@@ -1,0 +1,94 @@
+{
+	"document_title": "TLS FREAK Attack",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-007"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-03-04T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-03-04T00:00:00",
+		"current_release_date": "2015-03-04T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FREAK is an attack on SSL/TLS, which allows \"Man in the Middle\" attackers to decipher and alter HTTPS connections between a server supporting \"export-grade\" cipher suites and a vulnerable client. It consists in downgrading the connection's encryption from \"strong\" RSA to \"export-grade\" RSA, by leveraging a vulnerability (CVE-2015-0204) on the client side.The \"export-grade\" encryption is weak enough to be broken by the attacker, who can then decipher and alter the connection.\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Affected products:FortiOS 5.2.2 and earlier allow SSL connections that pass-through the SSLVPN web-mode feature with export-grade ciphers if remote HTTPS end servers are vulnerable to FREAK.Other FortiOS features are not affected by TLS FREAK.FortiMail all versions, in its default configuration (see solutions below).Products confirmed not affected:AscenLinkFortiADCFortiAnalyzerFortiAuthenticatorFortiCacheFortiClientFortiDBFortiDDoSFortiManagerFortiSandboxFortiVoiceFortiWeb\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiGateUpgrade to FortiOS 5.2.3 / 5.0.11For FortiOS 4.3.x, 5.0.x, 5.2.0 and 5.2.1, a full workaround consists in enabling strong-crypto:config system global set strong-crypto enable end For FortiOS 5.2.2, a workaround for customers using the FortiGate SSL-VPN portal web mode feature should verify the HTTPS websites that are allowed through the bookmarks and connection info widgets.Verification steps:Bookmarks: Go to VPN > SSL > Portal menu and check HTTPS bookmarks in SSLVPN profiles that offer web mode.Connection info: Review the destination addresses included in the firewall policies with an SSL-VPN portal in web mode assigned.If one or more HTTPS websites are not patched against the FREAK vulnerability, Fortinet PSIRT advise customers to disable bookmark or restrict the allowed destination addresses in order to remove access to vulnerable remote web servers.FortiGate IPS signatureFortiGate can protect SSL connections against the downgrade attack.Make sure the IPS signature called SSL.RSA.Temporary.Key.Security.Bypass is enabled. It is available in IPS update 5.619.FortiMailThe following command must be set to prevent weak ciphers to be negotiated on FortiMail with default configuration:config system globalset strong-crypto enableend\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-007",
+				"description": "TLS FREAK Attack"
+			},
+			{
+				"url": "https://freakattack.com/",
+				"description": "https://freakattack.com/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "TLS FREAK Attack",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-007",
+					"description": "TLS FREAK Attack"
+				},
+				{
+					"url": "https://freakattack.com/",
+					"description": "https://freakattack.com/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-0204"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

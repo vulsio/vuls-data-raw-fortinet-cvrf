@@ -1,0 +1,708 @@
+{
+	"document_title": "XSS Vulnerability in FortiWeb Site Publisher",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-076"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-04-19T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-04-19T00:00:00",
+		"current_release_date": "2017-04-19T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Site Publisher functionality of FortiWeb has been found vulnerable to a Cross-Site Scripting vulnerability via an improperly sanitized parameter in a POST request.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWeb versions below 5.7.1\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb version 5.8.0\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "XSS Vulnerability in FortiWeb Site Publisher",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-076",
+					"description": "XSS Vulnerability in FortiWeb Site Publisher"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-3129"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWeb-5.7.3",
+					"FortiWeb-5.7.2",
+					"FortiWeb-5.7.1",
+					"FortiWeb-5.7.0",
+					"FortiWeb-5.6.2",
+					"FortiWeb-5.6.1",
+					"FortiWeb-5.6.0",
+					"FortiWeb-5.5.7",
+					"FortiWeb-5.5.6",
+					"FortiWeb-5.5.5",
+					"FortiWeb-5.5.4",
+					"FortiWeb-5.5.3",
+					"FortiWeb-5.5.2",
+					"FortiWeb-5.5.1",
+					"FortiWeb-5.5.0",
+					"FortiWeb-5.4.1",
+					"FortiWeb-5.4.0",
+					"FortiWeb-5.3.9",
+					"FortiWeb-5.3.8",
+					"FortiWeb-5.3.7",
+					"FortiWeb-5.3.6",
+					"FortiWeb-5.3.5",
+					"FortiWeb-5.3.4",
+					"FortiWeb-5.3.3",
+					"FortiWeb-5.3.2",
+					"FortiWeb-5.3.1",
+					"FortiWeb-5.3.0",
+					"FortiWeb-5.2.4",
+					"FortiWeb-5.2.3",
+					"FortiWeb-5.2.2",
+					"FortiWeb-5.2.1",
+					"FortiWeb-5.2.0",
+					"FortiWeb-5.1.4",
+					"FortiWeb-5.1.3",
+					"FortiWeb-5.1.2",
+					"FortiWeb-5.1.1",
+					"FortiWeb-5.1.0",
+					"FortiWeb-5.0.6",
+					"FortiWeb-5.0.5",
+					"FortiWeb-5.0.4",
+					"FortiWeb-5.0.3",
+					"FortiWeb-5.0.2",
+					"FortiWeb-5.0.1",
+					"FortiWeb-5.0.0",
+					"FortiWeb-4.4.7",
+					"FortiWeb-4.4.6",
+					"FortiWeb-4.4.5",
+					"FortiWeb-4.4.4",
+					"FortiWeb-4.4.3",
+					"FortiWeb-4.4.2",
+					"FortiWeb-4.4.1",
+					"FortiWeb-4.4.0",
+					"FortiWeb-4.3.7",
+					"FortiWeb-4.3.6",
+					"FortiWeb-4.3.5",
+					"FortiWeb-4.3.4",
+					"FortiWeb-4.3.3",
+					"FortiWeb-4.3.2",
+					"FortiWeb-4.3.1",
+					"FortiWeb-4.2.4",
+					"FortiWeb-4.2.3",
+					"FortiWeb-4.2.2",
+					"FortiWeb-4.2.0",
+					"FortiWeb-4.1.2",
+					"FortiWeb-4.1.1",
+					"FortiWeb-4.1.0",
+					"FortiWeb-4.0.2",
+					"FortiWeb-3.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.3",
+								"product_id": "FortiWeb-5.7.3"
+							}
+						},
+						{
+							"name": "5.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.2",
+								"product_id": "FortiWeb-5.7.2"
+							}
+						},
+						{
+							"name": "5.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.1",
+								"product_id": "FortiWeb-5.7.1"
+							}
+						},
+						{
+							"name": "5.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.0",
+								"product_id": "FortiWeb-5.7.0"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.2",
+								"product_id": "FortiWeb-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.1",
+								"product_id": "FortiWeb-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.6.0",
+								"product_id": "FortiWeb-5.6.0"
+							}
+						},
+						{
+							"name": "5.5.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.7",
+								"product_id": "FortiWeb-5.5.7"
+							}
+						},
+						{
+							"name": "5.5.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.6",
+								"product_id": "FortiWeb-5.5.6"
+							}
+						},
+						{
+							"name": "5.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.5",
+								"product_id": "FortiWeb-5.5.5"
+							}
+						},
+						{
+							"name": "5.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.4",
+								"product_id": "FortiWeb-5.5.4"
+							}
+						},
+						{
+							"name": "5.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.3",
+								"product_id": "FortiWeb-5.5.3"
+							}
+						},
+						{
+							"name": "5.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.2",
+								"product_id": "FortiWeb-5.5.2"
+							}
+						},
+						{
+							"name": "5.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.1",
+								"product_id": "FortiWeb-5.5.1"
+							}
+						},
+						{
+							"name": "5.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.5.0",
+								"product_id": "FortiWeb-5.5.0"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.4.1",
+								"product_id": "FortiWeb-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.4.0",
+								"product_id": "FortiWeb-5.4.0"
+							}
+						},
+						{
+							"name": "5.3.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.9",
+								"product_id": "FortiWeb-5.3.9"
+							}
+						},
+						{
+							"name": "5.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.8",
+								"product_id": "FortiWeb-5.3.8"
+							}
+						},
+						{
+							"name": "5.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.7",
+								"product_id": "FortiWeb-5.3.7"
+							}
+						},
+						{
+							"name": "5.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.6",
+								"product_id": "FortiWeb-5.3.6"
+							}
+						},
+						{
+							"name": "5.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.5",
+								"product_id": "FortiWeb-5.3.5"
+							}
+						},
+						{
+							"name": "5.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.4",
+								"product_id": "FortiWeb-5.3.4"
+							}
+						},
+						{
+							"name": "5.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.3",
+								"product_id": "FortiWeb-5.3.3"
+							}
+						},
+						{
+							"name": "5.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.2",
+								"product_id": "FortiWeb-5.3.2"
+							}
+						},
+						{
+							"name": "5.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.1",
+								"product_id": "FortiWeb-5.3.1"
+							}
+						},
+						{
+							"name": "5.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.3.0",
+								"product_id": "FortiWeb-5.3.0"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.2.4",
+								"product_id": "FortiWeb-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.2.3",
+								"product_id": "FortiWeb-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.2.2",
+								"product_id": "FortiWeb-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.2.1",
+								"product_id": "FortiWeb-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.2.0",
+								"product_id": "FortiWeb-5.2.0"
+							}
+						},
+						{
+							"name": "5.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.1.4",
+								"product_id": "FortiWeb-5.1.4"
+							}
+						},
+						{
+							"name": "5.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.1.3",
+								"product_id": "FortiWeb-5.1.3"
+							}
+						},
+						{
+							"name": "5.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.1.2",
+								"product_id": "FortiWeb-5.1.2"
+							}
+						},
+						{
+							"name": "5.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.1.1",
+								"product_id": "FortiWeb-5.1.1"
+							}
+						},
+						{
+							"name": "5.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.1.0",
+								"product_id": "FortiWeb-5.1.0"
+							}
+						},
+						{
+							"name": "5.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.6",
+								"product_id": "FortiWeb-5.0.6"
+							}
+						},
+						{
+							"name": "5.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.5",
+								"product_id": "FortiWeb-5.0.5"
+							}
+						},
+						{
+							"name": "5.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.4",
+								"product_id": "FortiWeb-5.0.4"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.3",
+								"product_id": "FortiWeb-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.2",
+								"product_id": "FortiWeb-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.1",
+								"product_id": "FortiWeb-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.0.0",
+								"product_id": "FortiWeb-5.0.0"
+							}
+						},
+						{
+							"name": "4.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.7",
+								"product_id": "FortiWeb-4.4.7"
+							}
+						},
+						{
+							"name": "4.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.6",
+								"product_id": "FortiWeb-4.4.6"
+							}
+						},
+						{
+							"name": "4.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.5",
+								"product_id": "FortiWeb-4.4.5"
+							}
+						},
+						{
+							"name": "4.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.4",
+								"product_id": "FortiWeb-4.4.4"
+							}
+						},
+						{
+							"name": "4.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.3",
+								"product_id": "FortiWeb-4.4.3"
+							}
+						},
+						{
+							"name": "4.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.2",
+								"product_id": "FortiWeb-4.4.2"
+							}
+						},
+						{
+							"name": "4.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.1",
+								"product_id": "FortiWeb-4.4.1"
+							}
+						},
+						{
+							"name": "4.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.4.0",
+								"product_id": "FortiWeb-4.4.0"
+							}
+						},
+						{
+							"name": "4.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.7",
+								"product_id": "FortiWeb-4.3.7"
+							}
+						},
+						{
+							"name": "4.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.6",
+								"product_id": "FortiWeb-4.3.6"
+							}
+						},
+						{
+							"name": "4.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.5",
+								"product_id": "FortiWeb-4.3.5"
+							}
+						},
+						{
+							"name": "4.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.4",
+								"product_id": "FortiWeb-4.3.4"
+							}
+						},
+						{
+							"name": "4.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.3",
+								"product_id": "FortiWeb-4.3.3"
+							}
+						},
+						{
+							"name": "4.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.2",
+								"product_id": "FortiWeb-4.3.2"
+							}
+						},
+						{
+							"name": "4.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.3.1",
+								"product_id": "FortiWeb-4.3.1"
+							}
+						},
+						{
+							"name": "4.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.2.4",
+								"product_id": "FortiWeb-4.2.4"
+							}
+						},
+						{
+							"name": "4.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.2.3",
+								"product_id": "FortiWeb-4.2.3"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.2.2",
+								"product_id": "FortiWeb-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.2.0",
+								"product_id": "FortiWeb-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.1.2",
+								"product_id": "FortiWeb-4.1.2"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.1.1",
+								"product_id": "FortiWeb-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.1.0",
+								"product_id": "FortiWeb-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 4.0.2",
+								"product_id": "FortiWeb-4.0.2"
+							}
+						},
+						{
+							"name": "3.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 3.0.0",
+								"product_id": "FortiWeb-3.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

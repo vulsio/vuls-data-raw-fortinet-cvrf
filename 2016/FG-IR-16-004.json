@@ -1,0 +1,97 @@
+{
+	"document_title": "FortiOS open redirect vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-16-004"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2016-03-16T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2016-03-16T00:00:00",
+		"current_release_date": "2016-03-16T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The FortiOS webui accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect. The redirect input parameter is also prone to a cross site scripting.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Open redirect\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to one the following FortiOS versions: 5.0 branch: 5.0.13 or above 5.2 branch: 5.2.3 or above 5.4 branch: 5.4.0 or above 4.3 and lower branches are not affected by this vulnerability.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-004",
+				"description": "FortiOS open redirect vulnerability"
+			},
+			{
+				"url": "https://cwe.mitre.org/data/definitions/601.html",
+				"description": "https://cwe.mitre.org/data/definitions/601.html"
+			}
+		]
+	},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thanks to Javier Nieto from www.behindthefirewalls.com for reporting a FortiOS vulnerability under responsible disclosure"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS open redirect vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-004",
+					"description": "FortiOS open redirect vulnerability"
+				},
+				{
+					"url": "https://cwe.mitre.org/data/definitions/601.html",
+					"description": "https://cwe.mitre.org/data/definitions/601.html"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"document_title": "Mulitple Vulnerabilities in FortiClient",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-15-025"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2015-09-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2015-09-01T00:00:00",
+		"current_release_date": "2015-09-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            FortiClient drivers expose IOCTL that may allow an unprivileged user to get system-level privileges.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Escalation of Privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient v5.2.3 and earlier.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiClient v5.2.4.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Thanks to Enrique Nissim and JoaquÃ­n RodrÃ­guez Varela from Core Security for responsibly disclosing these issues to Fortinet."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Mulitple Vulnerabilities in FortiClient",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-15-025",
+					"description": "Mulitple Vulnerabilities in FortiClient"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2015-4077",
+			"CVE-2015-5735",
+			"CVE-2015-5736",
+			"CVE-2015-5737"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

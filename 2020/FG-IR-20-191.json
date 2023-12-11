@@ -1,0 +1,145 @@
+{
+	"document_title": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-20-191"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2021-07-07T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2021-07-07T00:00:00",
+		"current_release_date": "2021-07-07T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper authentication vulnerability [CWE-287] in FSSO Collector may allow an unauthenticated user to bypass any firewall authentication rule and access the protectedÂ network via sending specifically crafted UDP login notification packets.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Unauthorized Access\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Any FSSO DC Agent and Collector released with FOS 7.0.0 or below is impacted. Any FSSO DC Agent and Collector released with FOS 6.4.5 or below is impacted.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade the FSSO DC Agent and Collector with any version released with FOS 7.0.1Â or above. Upgrade the FSSO DC Agent and Collector with any version released with FOS 6.4.6 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank CÃ©dric Moreau, Alexis La Goutte, Titouan Tarridec and Jerome Dupuis for reporting this issue under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-191",
+					"description": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-26088"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FSSO Windows CA-5.0.295",
+					"FSSO Windows CA-5.0.294",
+					"FSSO Windows DC Agent-5.0.295",
+					"FSSO Windows DC Agent-5.0.294"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.7",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L/E:P/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FSSO Windows CA",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.295",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FSSO Windows CA 5.0.295",
+								"product_id": "FSSO Windows CA-5.0.295"
+							}
+						},
+						{
+							"name": "5.0.294",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FSSO Windows CA 5.0.294",
+								"product_id": "FSSO Windows CA-5.0.294"
+							}
+						}
+					]
+				},
+				{
+					"name": "FSSO Windows DC Agent",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.295",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FSSO Windows DC Agent 5.0.295",
+								"product_id": "FSSO Windows DC Agent-5.0.295"
+							}
+						},
+						{
+							"name": "5.0.294",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FSSO Windows DC Agent 5.0.294",
+								"product_id": "FSSO Windows DC Agent-5.0.294"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

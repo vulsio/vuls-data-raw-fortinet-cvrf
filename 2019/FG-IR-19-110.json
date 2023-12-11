@@ -1,0 +1,94 @@
+{
+	"document_title": "Multiple VPN applications insecurely store session cookies",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-19-110"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2019-04-23T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2019-04-23T00:00:00",
+		"current_release_date": "2019-04-23T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            The Missing Encryption Of Sensitive Data vulnerability in FortiClient may allow an attacker to access VPN session cookie from an endpoint device running FortiClient. The attacker can steal the cookies only if endpoint device has been compromised in such a way that the attacker has access to FortiClient's debug logs or memory space. Furthermore,Â practical use of the stolen cookie requires the attacker to spoof the endpoint's IP address.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Exploiting the stolen session cookie may consist in an attacker replaying the cookie and gain access to user's VPN session or loging out the user itself\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiClient for Windows (6.2.0 and earlier)FortiClient for Mac OSX (6.2.0 and earlier)\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Fortigate by default mitigates the session cookie misuse by verifying the source IP of client's request. As a precautionary measure, please upgrade to upcoming:FortiClient for Windows 6.2.1FortiClient for Mac OSX 6.2.1\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-110",
+				"description": "Multiple VPN applications insecurely store session cookies"
+			},
+			{
+				"url": "https://www.kb.cert.org/vuls/id/192371/",
+				"description": "https://www.kb.cert.org/vuls/id/192371/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Multiple VPN applications insecurely store session cookies",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-110",
+					"description": "Multiple VPN applications insecurely store session cookies"
+				},
+				{
+					"url": "https://www.kb.cert.org/vuls/id/192371/",
+					"description": "https://www.kb.cert.org/vuls/id/192371/"
+				}
+			]
+		},
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4",
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

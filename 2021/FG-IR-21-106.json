@@ -1,0 +1,232 @@
+{
+	"document_title": "FortiWLM - Path traversal vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-21-106"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2022-03-01T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2022-03-01T00:00:00",
+		"current_release_date": "2022-03-01T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Multiple relative path traversal vulnerabilities [CWE-23] in FortiWLM management interface may allow an authenticated attacker to retrieve arbitrary files from the underlying filesystem via specially crafted web requests.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiWLM versions 8.6.2 and below. FortiWLM versions 8.5.2 and below. FortiWLM versions 8.4.2 and below. FortiWLM versions 8.3.3 and below.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiWLM 8.6.3Â or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWLM - Path traversal vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-106",
+					"description": "FortiWLM - Path traversal vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2021-43070"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWLM-8.6.2",
+					"FortiWLM-8.6.1",
+					"FortiWLM-8.6.0",
+					"FortiWLM-8.5.4",
+					"FortiWLM-8.5.3",
+					"FortiWLM-8.5.2",
+					"FortiWLM-8.5.1",
+					"FortiWLM-8.5.0",
+					"FortiWLM-8.4.2",
+					"FortiWLM-8.4.1",
+					"FortiWLM-8.4.0",
+					"FortiWLM-8.3.2",
+					"FortiWLM-8.3.1",
+					"FortiWLM-8.3.0",
+					"FortiWLM-8.2.2"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWLM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.2",
+								"product_id": "FortiWLM-8.6.2"
+							}
+						},
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.1",
+								"product_id": "FortiWLM-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.0",
+								"product_id": "FortiWLM-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.4",
+								"product_id": "FortiWLM-8.5.4"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.3",
+								"product_id": "FortiWLM-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.2",
+								"product_id": "FortiWLM-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.1",
+								"product_id": "FortiWLM-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.0",
+								"product_id": "FortiWLM-8.5.0"
+							}
+						},
+						{
+							"name": "8.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.2",
+								"product_id": "FortiWLM-8.4.2"
+							}
+						},
+						{
+							"name": "8.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.1",
+								"product_id": "FortiWLM-8.4.1"
+							}
+						},
+						{
+							"name": "8.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.0",
+								"product_id": "FortiWLM-8.4.0"
+							}
+						},
+						{
+							"name": "8.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.2",
+								"product_id": "FortiWLM-8.3.2"
+							}
+						},
+						{
+							"name": "8.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.1",
+								"product_id": "FortiWLM-8.3.1"
+							}
+						},
+						{
+							"name": "8.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.3.0",
+								"product_id": "FortiWLM-8.3.0"
+							}
+						},
+						{
+							"name": "8.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.2.2",
+								"product_id": "FortiWLM-8.2.2"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

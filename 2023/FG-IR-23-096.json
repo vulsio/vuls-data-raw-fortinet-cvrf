@@ -1,0 +1,163 @@
+{
+	"document_title": "FortiNAC - argument  injection in XML interface on port tcp/5555",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-096"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2023-06-23T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2023-06-23T00:00:00",
+		"current_release_date": "2023-06-23T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper neutralization of special elements used in a command ('command injection') vulnerability [CWE-77] in FortiNAC tcp/5555 service may allow an unauthenticated attacker to copy local files of the device to other local directories of the device via specially crafted input fields. To access the copied data, however, the attacker must have an already existing foothold on the device with sufficient privileges\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiNAC version 9.4.0 through 9.4.3FortiNAC version 7.2.0 through 7.2.1\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiNAC version 9.4.4 or above Please upgrade to FortiNAC version 7.2.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Florian Hauser from CODE WHITE for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiNAC - argument  injection in XML interface on port tcp/5555",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-096",
+					"description": "FortiNAC - argument  injection in XML interface on port tcp/5555"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-33300"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiNAC-9.4.3",
+					"FortiNAC-9.4.2",
+					"FortiNAC-9.4.1",
+					"FortiNAC-9.4.0",
+					"FortiNAC-7.2.1",
+					"FortiNAC-7.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:P/RL:X/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiNAC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "9.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 9.4.3",
+								"product_id": "FortiNAC-9.4.3"
+							}
+						},
+						{
+							"name": "9.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 9.4.2",
+								"product_id": "FortiNAC-9.4.2"
+							}
+						},
+						{
+							"name": "9.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 9.4.1",
+								"product_id": "FortiNAC-9.4.1"
+							}
+						},
+						{
+							"name": "9.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 9.4.0",
+								"product_id": "FortiNAC-9.4.0"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 7.2.1",
+								"product_id": "FortiNAC-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC 7.2.0",
+								"product_id": "FortiNAC-7.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

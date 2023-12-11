@@ -1,0 +1,105 @@
+{
+	"document_title": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-17-212"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2017-11-03T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2017-11-03T00:00:00",
+		"current_release_date": "2017-11-03T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A collection of Bluetooth implementation vulnerabilities known as \"BlueBorne\" has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen, and may in the worst case allow an unauthenticated attacker to perform unauthorized commands on the device.The related CVEs are:1. Linux Kernel Remote Denial of Service in Bluetooth subsystem - CVE-2017-10002512. Linux Bluetooth stack (BlueZ) information Leak vulnerability - CVE-2017-10002503. Android information Leak vulnerability - CVE-2017-07854. Android RCE vulnerability 1 - CVE-2017-07815. Android RCE vulnerability 0000002 - CVE-2017-07826. The Bluetooth Pineapple in Android - Logical Flaw CVE-2017-07837. The Bluetooth Pineapple in Windows - Logical Flaw CVE-2017-86288. Apple Low Energy Audio Protocol RCE vulnerability - CVE-2017-14315\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            Denial of Service (DoS), RCE, Information Leak\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            The following Fortinet products are NOT affected: FortiOSFortiAPFortiSwitchFortiAnalyzerFortiMailFortiManagerFortiWebMeru AP\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212",
+				"description": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
+			},
+			{
+				"url": "http://www.kb.cert.org/vuls/id/240311\n",
+				"description": "http://www.kb.cert.org/vuls/id/240311\n"
+			},
+			{
+				"url": "https://www.armis.com/blueborne/",
+				"description": "https://www.armis.com/blueborne/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212",
+					"description": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
+				},
+				{
+					"url": "http://www.kb.cert.org/vuls/id/240311\n",
+					"description": "http://www.kb.cert.org/vuls/id/240311\n"
+				},
+				{
+					"url": "https://www.armis.com/blueborne/",
+					"description": "https://www.armis.com/blueborne/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2017-1000251",
+			"CVE-2017-1000250",
+			"CVE-2017-0785",
+			"CVE-2017-0781",
+			"CVE-2017-0782",
+			"CVE-2017-0783",
+			"CVE-2017-8628",
+			"CVE-2017-14315"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "0"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}
