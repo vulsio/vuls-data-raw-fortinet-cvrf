@@ -1,0 +1,154 @@
+{
+	"document_title": "FortiOS & FortiProxy - Improper authorization for HA requests",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-315"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-01-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-01-09T00:00:00",
+		"current_release_date": "2024-01-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper privilege management vulnerability [CWE-269] in a FortiOS & FortiProxy HA cluster may allow an authenticated attacker to perform elevated actions via crafted HTTP or HTTPS requests.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiOS version 7.4.0 through 7.4.1 FortiOS version 7.2.5 FortiProxy version 7.4.0 through 7.4.1\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiOS version 7.4.2 or above Please upgrade to FortiOS version 7.2.6 or above Please upgrade to FortiProxy version 7.4.2 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiOS & FortiProxy - Improper authorization for HA requests",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-315",
+					"description": "FortiOS & FortiProxy - Improper authorization for HA requests"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-44250"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiOS-7.4.1",
+					"FortiOS-7.4.0",
+					"FortiOS-7.2.5",
+					"FortiProxy-7.4.1",
+					"FortiProxy-7.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.4.1",
+								"product_id": "FortiOS-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.4.0",
+								"product_id": "FortiOS-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.5",
+								"product_id": "FortiOS-7.2.5"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.4.1",
+								"product_id": "FortiProxy-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.4.0",
+								"product_id": "FortiProxy-7.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

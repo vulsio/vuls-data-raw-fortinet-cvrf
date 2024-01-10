@@ -1,0 +1,76 @@
+{
+	"document_title": "OpenSSH Terrapin attack (CVE-2023-48795)",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-490"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-01-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-01-09T00:00:00",
+		"current_release_date": "2024-01-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            CVE-2023-48795 The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "OpenSSH Terrapin attack (CVE-2023-48795)",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-490",
+					"description": "OpenSSH Terrapin attack (CVE-2023-48795)"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-48795"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N/E:P/RL:O/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

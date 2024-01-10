@@ -1,0 +1,190 @@
+{
+	"document_title": "FortiPortal - Account creation outside initial IdP",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-395"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-01-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-01-09T00:00:00",
+		"current_release_date": "2024-01-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper privilege management vulnerability [CWE-269] in FortiPortal may allow a remote and authenticated attacker to add users outside its initial Idp\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiPortal version 7.2.0 through 7.2.1 FortiPortal version 7.0.0 through 7.0.6\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiPortal version 7.2.2 Please upgrade to FortiPortal version 7.0.7\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Gary Chung of Fortinet Burnaby FortiPortal team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiPortal - Account creation outside initial IdP",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-395",
+					"description": "FortiPortal - Account creation outside initial IdP"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-46712"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiPortal-7.2.1",
+					"FortiPortal-7.2.0",
+					"FortiPortal-7.0.6",
+					"FortiPortal-7.0.5",
+					"FortiPortal-7.0.4",
+					"FortiPortal-7.0.3",
+					"FortiPortal-7.0.2",
+					"FortiPortal-7.0.1",
+					"FortiPortal-7.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6.3",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.1",
+								"product_id": "FortiPortal-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.0",
+								"product_id": "FortiPortal-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.6",
+								"product_id": "FortiPortal-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.5",
+								"product_id": "FortiPortal-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.4",
+								"product_id": "FortiPortal-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.3",
+								"product_id": "FortiPortal-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.2",
+								"product_id": "FortiPortal-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.1",
+								"product_id": "FortiPortal-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.0",
+								"product_id": "FortiPortal-7.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
