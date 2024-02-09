@@ -1,0 +1,379 @@
+{
+	"document_title": "FortiClientEMS - Improper privilege management for site super administrator",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-357"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-02-08T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-02-08T00:00:00",
+		"current_release_date": "2024-02-08T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper privilege management vulnerability [CWE-269] in FortiClientEMS graphical administrative interface may allow an Site administrator with Super Admin privileges to perform global administrative operations affecting other sites via crafted HTTP or HTTPS requests.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiClientEMS version 7.2.0 through 7.2.2FortiClientEMS version 7.0.6 through 7.0.10FortiClientEMS version 7.0.0 through 7.0.4FortiClientEMS 6.4 all versionsFortiClientEMS 6.2 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiClientEMS version 7.2.3 or above Please upgrade to FortiClientEMS version 7.0.11 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClientEMS - Improper privilege management for site super administrator",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-357",
+					"description": "FortiClientEMS - Improper privilege management for site super administrator"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-45581"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientEMS-7.2.2",
+					"FortiClientEMS-7.2.1",
+					"FortiClientEMS-7.2.0",
+					"FortiClientEMS-7.0.10",
+					"FortiClientEMS-7.0.9",
+					"FortiClientEMS-7.0.8",
+					"FortiClientEMS-7.0.7",
+					"FortiClientEMS-7.0.6",
+					"FortiClientEMS-7.0.4",
+					"FortiClientEMS-7.0.3",
+					"FortiClientEMS-7.0.2",
+					"FortiClientEMS-7.0.1",
+					"FortiClientEMS-7.0.0",
+					"FortiClientEMS-6.4.9",
+					"FortiClientEMS-6.4.8",
+					"FortiClientEMS-6.4.7",
+					"FortiClientEMS-6.4.4",
+					"FortiClientEMS-6.4.3",
+					"FortiClientEMS-6.4.2",
+					"FortiClientEMS-6.4.1",
+					"FortiClientEMS-6.4.0",
+					"FortiClientEMS-6.2.9",
+					"FortiClientEMS-6.2.8",
+					"FortiClientEMS-6.2.7",
+					"FortiClientEMS-6.2.6",
+					"FortiClientEMS-6.2.4",
+					"FortiClientEMS-6.2.3",
+					"FortiClientEMS-6.2.2",
+					"FortiClientEMS-6.2.1",
+					"FortiClientEMS-6.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:U"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientEMS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.2.2",
+								"product_id": "FortiClientEMS-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.2.1",
+								"product_id": "FortiClientEMS-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.2.0",
+								"product_id": "FortiClientEMS-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.10",
+								"product_id": "FortiClientEMS-7.0.10"
+							}
+						},
+						{
+							"name": "7.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.9",
+								"product_id": "FortiClientEMS-7.0.9"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.8",
+								"product_id": "FortiClientEMS-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.7",
+								"product_id": "FortiClientEMS-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.6",
+								"product_id": "FortiClientEMS-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.4",
+								"product_id": "FortiClientEMS-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.3",
+								"product_id": "FortiClientEMS-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.2",
+								"product_id": "FortiClientEMS-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.1",
+								"product_id": "FortiClientEMS-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 7.0.0",
+								"product_id": "FortiClientEMS-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.9",
+								"product_id": "FortiClientEMS-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.8",
+								"product_id": "FortiClientEMS-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.7",
+								"product_id": "FortiClientEMS-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.4",
+								"product_id": "FortiClientEMS-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.3",
+								"product_id": "FortiClientEMS-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.2",
+								"product_id": "FortiClientEMS-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.1",
+								"product_id": "FortiClientEMS-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.4.0",
+								"product_id": "FortiClientEMS-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.9",
+								"product_id": "FortiClientEMS-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.8",
+								"product_id": "FortiClientEMS-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.7",
+								"product_id": "FortiClientEMS-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.6",
+								"product_id": "FortiClientEMS-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.4",
+								"product_id": "FortiClientEMS-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.3",
+								"product_id": "FortiClientEMS-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.2",
+								"product_id": "FortiClientEMS-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.1",
+								"product_id": "FortiClientEMS-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientEMS 6.2.0",
+								"product_id": "FortiClientEMS-6.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
