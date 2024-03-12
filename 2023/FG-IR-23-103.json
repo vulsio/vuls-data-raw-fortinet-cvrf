@@ -1,0 +1,496 @@
+{
+	"document_title": "FortiWLM MEA for FortiManager - improper access control in backup and restore features",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-103"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-03-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-03-12T00:00:00",
+		"current_release_date": "2024-03-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability [`CWE-284]` in FortiWLM MEA for FortiManager may allow an unauthenticated remote attacker to execute arbitrary code or commands via specifically crafted requests.Note that FortiWLM MEA is not installed by default on FortiManager and can be disabled as a workaround.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            FortiManager version 7.4.0FortiManager version 7.2.0 through 7.2.3FortiManager version 7.0.0 through 7.0.10FortiManager version 6.4.0 through 6.4.13FortiManager 6.2 all versions\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiManager version 7.4.1 or abovePlease upgrade to FortiManager version 7.2.4 or abovePlease upgrade to FortiManager version 7.0.11 or abovePlease upgrade to FortiManager version 6.4.14 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiWLM MEA for FortiManager - improper access control in backup and restore features",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-103",
+					"description": "FortiWLM MEA for FortiManager - improper access control in backup and restore features"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-36554"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiManager-7.4.0",
+					"FortiManager-7.2.3",
+					"FortiManager-7.2.2",
+					"FortiManager-7.2.1",
+					"FortiManager-7.2.0",
+					"FortiManager-7.0.10",
+					"FortiManager-7.0.9",
+					"FortiManager-7.0.8",
+					"FortiManager-7.0.7",
+					"FortiManager-7.0.6",
+					"FortiManager-7.0.5",
+					"FortiManager-7.0.4",
+					"FortiManager-7.0.3",
+					"FortiManager-7.0.2",
+					"FortiManager-7.0.1",
+					"FortiManager-7.0.0",
+					"FortiManager-6.4.13",
+					"FortiManager-6.4.12",
+					"FortiManager-6.4.11",
+					"FortiManager-6.4.10",
+					"FortiManager-6.4.9",
+					"FortiManager-6.4.8",
+					"FortiManager-6.4.7",
+					"FortiManager-6.4.6",
+					"FortiManager-6.4.5",
+					"FortiManager-6.4.4",
+					"FortiManager-6.4.3",
+					"FortiManager-6.4.2",
+					"FortiManager-6.4.1",
+					"FortiManager-6.4.0",
+					"FortiManager-6.2.12",
+					"FortiManager-6.2.11",
+					"FortiManager-6.2.10",
+					"FortiManager-6.2.9",
+					"FortiManager-6.2.8",
+					"FortiManager-6.2.7",
+					"FortiManager-6.2.6",
+					"FortiManager-6.2.5",
+					"FortiManager-6.2.4",
+					"FortiManager-6.2.3",
+					"FortiManager-6.2.2",
+					"FortiManager-6.2.1",
+					"FortiManager-6.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.7",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.4.0",
+								"product_id": "FortiManager-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.3",
+								"product_id": "FortiManager-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.2",
+								"product_id": "FortiManager-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.1",
+								"product_id": "FortiManager-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.0",
+								"product_id": "FortiManager-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.10",
+								"product_id": "FortiManager-7.0.10"
+							}
+						},
+						{
+							"name": "7.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.9",
+								"product_id": "FortiManager-7.0.9"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.8",
+								"product_id": "FortiManager-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.7",
+								"product_id": "FortiManager-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.6",
+								"product_id": "FortiManager-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.5",
+								"product_id": "FortiManager-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.4",
+								"product_id": "FortiManager-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.3",
+								"product_id": "FortiManager-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.2",
+								"product_id": "FortiManager-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.1",
+								"product_id": "FortiManager-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.0",
+								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.13",
+								"product_id": "FortiManager-6.4.13"
+							}
+						},
+						{
+							"name": "6.4.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.12",
+								"product_id": "FortiManager-6.4.12"
+							}
+						},
+						{
+							"name": "6.4.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.11",
+								"product_id": "FortiManager-6.4.11"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.10",
+								"product_id": "FortiManager-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.9",
+								"product_id": "FortiManager-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.8",
+								"product_id": "FortiManager-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.7",
+								"product_id": "FortiManager-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.6",
+								"product_id": "FortiManager-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.5",
+								"product_id": "FortiManager-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.4",
+								"product_id": "FortiManager-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.3",
+								"product_id": "FortiManager-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.2",
+								"product_id": "FortiManager-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.1",
+								"product_id": "FortiManager-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.0",
+								"product_id": "FortiManager-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.12",
+								"product_id": "FortiManager-6.2.12"
+							}
+						},
+						{
+							"name": "6.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.11",
+								"product_id": "FortiManager-6.2.11"
+							}
+						},
+						{
+							"name": "6.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.10",
+								"product_id": "FortiManager-6.2.10"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.9",
+								"product_id": "FortiManager-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.8",
+								"product_id": "FortiManager-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.7",
+								"product_id": "FortiManager-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.6",
+								"product_id": "FortiManager-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.5",
+								"product_id": "FortiManager-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.4",
+								"product_id": "FortiManager-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.3",
+								"product_id": "FortiManager-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.2",
+								"product_id": "FortiManager-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.1",
+								"product_id": "FortiManager-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.0",
+								"product_id": "FortiManager-6.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
