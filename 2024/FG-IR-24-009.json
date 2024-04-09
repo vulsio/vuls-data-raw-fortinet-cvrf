@@ -1,0 +1,91 @@
+{
+	"document_title": "SMTP Smuggling",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-24-009"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-04-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-04-09T00:00:00",
+		"current_release_date": "2024-04-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            Fortinet is aware of the new SMTP smuggling technique.By exploiting interpretation differences of the SMTP protocol for the end of data sequence, it is possible to send spoofed e-mails, while still passing SPF alignment checks.FortiMail may be susceptible to smuggling attacks if some measures are not put in place. We therefore recommend to adhere to the following indications in order to mitigate the potential risk associated to the smuggling attacks:- Enable DKIM (Domain Keys Identified Mail) to enhance e-mail authentication. Select \"None\" action under DKIM check in AntiSpam profile in order to block by default e-mail without DKIM signature.- Disable \"any-any\" traffic policy to restrict unauthorized access.- Modify the configuration settings in line with the recommended security practices (DMARC/DKIM/SPF, proper ACL policy, avoid open relay MTA).\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-009",
+				"description": "SMTP Smuggling"
+			},
+			{
+				"url": "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/",
+				"description": "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "SMTP Smuggling",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-009",
+					"description": "SMTP Smuggling"
+				},
+				{
+					"url": "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/",
+					"description": "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-26014"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:P/RL:W/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}

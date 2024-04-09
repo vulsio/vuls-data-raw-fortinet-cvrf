@@ -1,0 +1,142 @@
+{
+	"document_title": "FortiNAC-F - Lack of certificate validation",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-288"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-04-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-04-09T00:00:00",
+		"current_release_date": "2024-04-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiNAC-F may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the HTTPS communication channel between the FortiOS device, an inventory, and FortiNAC-F.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Christian Hilgers from indevis for reporting this vulnerability under responsible disclosure"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiNAC-F - Lack of certificate validation",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-288",
+					"description": "FortiNAC-F - Lack of certificate validation"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-48785"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiNAC-F-7.2.4",
+					"FortiNAC-F-7.2.3",
+					"FortiNAC-F-7.2.2",
+					"FortiNAC-F-7.2.1",
+					"FortiNAC-F-7.2.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiNAC-F",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.4",
+								"product_id": "FortiNAC-F-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.3",
+								"product_id": "FortiNAC-F-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.2",
+								"product_id": "FortiNAC-F-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.1",
+								"product_id": "FortiNAC-F-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.0",
+								"product_id": "FortiNAC-F-7.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
