@@ -1,0 +1,232 @@
+{
+	"document_title": "FortiAuthenticator - Open Redirect on /portal/disclaimer",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-465"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-05-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-05-14T00:00:00",
+		"current_release_date": "2024-05-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A URL redirection to untrusted site ('Open Redirect') (CWE-601) vulnerability in FortiAuthenticator may allow an attacker to redirect users to an arbitrary website via a crafted URL.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank MOD from Cheops Cyberdefense for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiAuthenticator - Open Redirect on /portal/disclaimer",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-465",
+					"description": "FortiAuthenticator - Open Redirect on /portal/disclaimer"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-23664"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAuthenticator-6.6.0",
+					"FortiAuthenticator-6.5.3",
+					"FortiAuthenticator-6.5.2",
+					"FortiAuthenticator-6.5.1",
+					"FortiAuthenticator-6.5.0",
+					"FortiAuthenticator-6.4.9",
+					"FortiAuthenticator-6.4.8",
+					"FortiAuthenticator-6.4.7",
+					"FortiAuthenticator-6.4.6",
+					"FortiAuthenticator-6.4.5",
+					"FortiAuthenticator-6.4.4",
+					"FortiAuthenticator-6.4.3",
+					"FortiAuthenticator-6.4.2",
+					"FortiAuthenticator-6.4.1",
+					"FortiAuthenticator-6.4.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:P/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.6.0",
+								"product_id": "FortiAuthenticator-6.6.0"
+							}
+						},
+						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.3",
+								"product_id": "FortiAuthenticator-6.5.3"
+							}
+						},
+						{
+							"name": "6.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.2",
+								"product_id": "FortiAuthenticator-6.5.2"
+							}
+						},
+						{
+							"name": "6.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.1",
+								"product_id": "FortiAuthenticator-6.5.1"
+							}
+						},
+						{
+							"name": "6.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.0",
+								"product_id": "FortiAuthenticator-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.9",
+								"product_id": "FortiAuthenticator-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.8",
+								"product_id": "FortiAuthenticator-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.7",
+								"product_id": "FortiAuthenticator-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.6",
+								"product_id": "FortiAuthenticator-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.5",
+								"product_id": "FortiAuthenticator-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.4",
+								"product_id": "FortiAuthenticator-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.3",
+								"product_id": "FortiAuthenticator-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.2",
+								"product_id": "FortiAuthenticator-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.1",
+								"product_id": "FortiAuthenticator-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.0",
+								"product_id": "FortiAuthenticator-6.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
