@@ -1,0 +1,214 @@
+{
+	"document_title": "Privilege escalation from low privilege administrator",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-459"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-07-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-07-09T00:00:00",
+		"current_release_date": "2024-07-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiExtender authentication component may allow a remote authenticated attacker to create users with elevated privileges via a crafted HTTP request.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Discovered in the frame of internal audit by 3rd party company"
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Privilege escalation from low privilege administrator",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-459",
+					"description": "Privilege escalation from low privilege administrator"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-23663"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiExtender-7.4.2",
+					"FortiExtender-7.4.1",
+					"FortiExtender-7.4.0",
+					"FortiExtender-7.2.4",
+					"FortiExtender-7.2.3",
+					"FortiExtender-7.2.2",
+					"FortiExtender-7.2.1",
+					"FortiExtender-7.2.0",
+					"FortiExtender-7.0.4",
+					"FortiExtender-7.0.3",
+					"FortiExtender-7.0.2",
+					"FortiExtender-7.0.1",
+					"FortiExtender-7.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiExtender",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.4.2",
+								"product_id": "FortiExtender-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.4.1",
+								"product_id": "FortiExtender-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.4.0",
+								"product_id": "FortiExtender-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.2.4",
+								"product_id": "FortiExtender-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.2.3",
+								"product_id": "FortiExtender-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.2.2",
+								"product_id": "FortiExtender-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.2.1",
+								"product_id": "FortiExtender-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.2.0",
+								"product_id": "FortiExtender-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.4",
+								"product_id": "FortiExtender-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.3",
+								"product_id": "FortiExtender-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.2",
+								"product_id": "FortiExtender-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.1",
+								"product_id": "FortiExtender-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiExtender 7.0.0",
+								"product_id": "FortiExtender-7.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

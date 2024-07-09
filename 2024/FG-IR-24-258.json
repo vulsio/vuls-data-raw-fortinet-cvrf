@@ -1,0 +1,107 @@
+{
+	"document_title": "OpenSSH regreSSHion Attack (CVE-2024-6387)",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-24-258"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-07-09T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-07-09T00:00:00",
+		"current_release_date": "2024-07-09T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            CVE-2024-6387A signal handler race condition was found in OpenSSH's server (sshd), where a client does not authenticate within LoginGraceTime seconds (120 by default, 600 in old OpenSSH versions), then sshd's SIGALRM handler is called asynchronously. However, this signal handler calls various functions that are not async-signal-safe, for example, syslog(). This could lead to remote code execution with root privileges.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-258",
+				"description": "OpenSSH regreSSHion Attack (CVE-2024-6387)"
+			},
+			{
+				"url": "https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt ",
+				"description": "https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt "
+			},
+			{
+				"url": "https://www.openssh.com/txt/release-9.8",
+				"description": "https://www.openssh.com/txt/release-9.8"
+			},
+			{
+				"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6387",
+				"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6387"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "OpenSSH regreSSHion Attack (CVE-2024-6387)",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-258",
+					"description": "OpenSSH regreSSHion Attack (CVE-2024-6387)"
+				},
+				{
+					"url": "https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt ",
+					"description": "https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt "
+				},
+				{
+					"url": "https://www.openssh.com/txt/release-9.8",
+					"description": "https://www.openssh.com/txt/release-9.8"
+				},
+				{
+					"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6387",
+					"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6387"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-6387"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "8.1",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}
