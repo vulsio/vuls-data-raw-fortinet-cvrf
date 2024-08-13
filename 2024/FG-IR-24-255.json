@@ -1,0 +1,99 @@
+{
+	"document_title": "RADIUS Protocol CVE-2024-3596",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-24-255"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-08-13T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-08-13T00:00:00",
+		"current_release_date": "2024-08-13T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A fundamental design flaw within the RADIUS protocol has been proven to be exploitable, compromising the integrity in the RADIUS Access-Request process. The attack allows a malicious user to modify packets in a way that would be indistinguishable to a RADIUS client or server. To be successful, the attacker must have the ability to inject themselves between the client and server.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-255",
+				"description": "RADIUS Protocol CVE-2024-3596"
+			},
+			{
+				"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596",
+				"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596"
+			},
+			{
+				"url": "https://www.blastradius.fail/",
+				"description": "https://www.blastradius.fail/"
+			}
+		]
+	},
+	"acknowledgments": {},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "RADIUS Protocol CVE-2024-3596",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-255",
+					"description": "RADIUS Protocol CVE-2024-3596"
+				},
+				{
+					"url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596",
+					"description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596"
+				},
+				{
+					"url": "https://www.blastradius.fail/",
+					"description": "https://www.blastradius.fail/"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-3596"
+		],
+		"product_statuses": {
+			"status": {}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N/E:P/RL:W/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {}
+	}
+}
