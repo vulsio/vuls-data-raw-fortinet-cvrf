@@ -1,0 +1,1309 @@
+{
+	"document_title": "FortiClient(All) - Lack of client-side certificate validation using SAML SSO",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-230"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-09-10T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-09-10T00:00:00",
+		"current_release_date": "2024-09-10T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiClientWindows, FortiClientMac, FortiClientLinux, FortiClientAndroid and FortiClientiOS SAML SSO feature may allow an unauthenticated attacker to man-in-the-middle the communication between the FortiClient and both the service provider and the identity provider.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Ka Lok WU, Man Hong HUE, Ngai Man POON, Sze Yiu CHAU from the department of Information Engineering, the Chinese University of Hong Kong for reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "FortiClient(All) - Lack of client-side certificate validation using SAML SSO",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-230",
+					"description": "FortiClient(All) - Lack of client-side certificate validation using SAML SSO"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2022-45856"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientAndroid-7.2.0",
+					"FortiClientAndroid-7.0.7",
+					"FortiClientAndroid-7.0.6",
+					"FortiClientAndroid-7.0.3",
+					"FortiClientAndroid-7.0.2",
+					"FortiClientAndroid-7.0.0",
+					"FortiClientAndroid-6.4.6",
+					"FortiClientAndroid-6.4.4",
+					"FortiClientAndroid-6.4.1",
+					"FortiClientAndroid-6.0.0",
+					"FortiClientAndroid-5.6.0",
+					"FortiClientAndroid-5.4.2",
+					"FortiClientAndroid-5.4.1",
+					"FortiClientAndroid-5.4.0",
+					"FortiClientAndroid-5.2.8",
+					"FortiClientAndroid-5.2.7",
+					"FortiClientAndroid-5.2.6",
+					"FortiClientAndroid-5.2.5",
+					"FortiClientAndroid-5.2.4",
+					"FortiClientAndroid-5.2.3",
+					"FortiClientAndroid-5.2.2",
+					"FortiClientAndroid-5.2.1",
+					"FortiClientAndroid-5.2.0",
+					"FortiClientAndroid-5.0.3",
+					"FortiClientAndroid-5.0.2",
+					"FortiClientAndroid-5.0.1",
+					"FortiClientAndroid-5.0.0",
+					"FortiClientLinux-7.2.4",
+					"FortiClientLinux-7.2.3",
+					"FortiClientLinux-7.2.2",
+					"FortiClientLinux-7.2.1",
+					"FortiClientLinux-7.2.0",
+					"FortiClientLinux-7.0.13",
+					"FortiClientLinux-7.0.12",
+					"FortiClientLinux-7.0.11",
+					"FortiClientLinux-7.0.10",
+					"FortiClientLinux-7.0.9",
+					"FortiClientLinux-7.0.8",
+					"FortiClientLinux-7.0.7",
+					"FortiClientLinux-7.0.6",
+					"FortiClientLinux-7.0.5",
+					"FortiClientLinux-7.0.4",
+					"FortiClientLinux-7.0.3",
+					"FortiClientLinux-7.0.2",
+					"FortiClientLinux-7.0.1",
+					"FortiClientLinux-7.0.0",
+					"FortiClientLinux-6.4.9",
+					"FortiClientLinux-6.4.8",
+					"FortiClientLinux-6.4.7",
+					"FortiClientLinux-6.4.4",
+					"FortiClientLinux-6.4.3",
+					"FortiClientLinux-6.4.2",
+					"FortiClientLinux-6.4.1",
+					"FortiClientLinux-6.4.0",
+					"FortiClientMac-7.2.4",
+					"FortiClientMac-7.2.3",
+					"FortiClientMac-7.2.2",
+					"FortiClientMac-7.2.1",
+					"FortiClientMac-7.2.0",
+					"FortiClientMac-7.0.13",
+					"FortiClientMac-7.0.12",
+					"FortiClientMac-7.0.11",
+					"FortiClientMac-7.0.10",
+					"FortiClientMac-7.0.9",
+					"FortiClientMac-7.0.8",
+					"FortiClientMac-7.0.7",
+					"FortiClientMac-7.0.6",
+					"FortiClientMac-7.0.5",
+					"FortiClientMac-7.0.4",
+					"FortiClientMac-7.0.3",
+					"FortiClientMac-7.0.2",
+					"FortiClientMac-7.0.1",
+					"FortiClientMac-7.0.0",
+					"FortiClientMac-6.4.10",
+					"FortiClientMac-6.4.9",
+					"FortiClientMac-6.4.8",
+					"FortiClientMac-6.4.7",
+					"FortiClientMac-6.4.6",
+					"FortiClientMac-6.4.5",
+					"FortiClientMac-6.4.4",
+					"FortiClientMac-6.4.3",
+					"FortiClientMac-6.4.2",
+					"FortiClientMac-6.4.1",
+					"FortiClientMac-6.4.0",
+					"FortiClientWindows-7.0.7",
+					"FortiClientWindows-7.0.6",
+					"FortiClientWindows-7.0.5",
+					"FortiClientWindows-7.0.4",
+					"FortiClientWindows-7.0.3",
+					"FortiClientWindows-7.0.2",
+					"FortiClientWindows-7.0.1",
+					"FortiClientWindows-7.0.0",
+					"FortiClientWindows-6.4.10",
+					"FortiClientWindows-6.4.9",
+					"FortiClientWindows-6.4.8",
+					"FortiClientWindows-6.4.7",
+					"FortiClientWindows-6.4.6",
+					"FortiClientWindows-6.4.5",
+					"FortiClientWindows-6.4.4",
+					"FortiClientWindows-6.4.3",
+					"FortiClientWindows-6.4.2",
+					"FortiClientWindows-6.4.1",
+					"FortiClientWindows-6.4.0",
+					"FortiClientiOS-7.0.6",
+					"FortiClientiOS-7.0.5",
+					"FortiClientiOS-7.0.4",
+					"FortiClientiOS-7.0.3",
+					"FortiClientiOS-7.0.1",
+					"FortiClientiOS-7.0.0",
+					"FortiClientiOS-6.0.1",
+					"FortiClientiOS-6.0.0",
+					"FortiClientiOS-5.6.6",
+					"FortiClientiOS-5.6.5",
+					"FortiClientiOS-5.6.1",
+					"FortiClientiOS-5.6.0",
+					"FortiClientiOS-5.4.4",
+					"FortiClientiOS-5.4.3",
+					"FortiClientiOS-5.4.1",
+					"FortiClientiOS-5.4.0",
+					"FortiClientiOS-5.2.3",
+					"FortiClientiOS-5.2.2",
+					"FortiClientiOS-5.2.1",
+					"FortiClientiOS-5.2.0",
+					"FortiClientiOS-5.0.3",
+					"FortiClientiOS-5.0.2",
+					"FortiClientiOS-5.0.1",
+					"FortiClientiOS-5.0.0",
+					"FortiClientiOS-4.0.2",
+					"FortiClientiOS-4.0.1",
+					"FortiClientiOS-4.0.0",
+					"FortiClientiOS-2.0.1",
+					"FortiClientiOS-2.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:P/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientAndroid",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.2.0",
+								"product_id": "FortiClientAndroid-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.0.7",
+								"product_id": "FortiClientAndroid-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.0.6",
+								"product_id": "FortiClientAndroid-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.0.3",
+								"product_id": "FortiClientAndroid-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.0.2",
+								"product_id": "FortiClientAndroid-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 7.0.0",
+								"product_id": "FortiClientAndroid-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 6.4.6",
+								"product_id": "FortiClientAndroid-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 6.4.4",
+								"product_id": "FortiClientAndroid-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 6.4.1",
+								"product_id": "FortiClientAndroid-6.4.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 6.0.0",
+								"product_id": "FortiClientAndroid-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.6.0",
+								"product_id": "FortiClientAndroid-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.4.2",
+								"product_id": "FortiClientAndroid-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.4.1",
+								"product_id": "FortiClientAndroid-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.4.0",
+								"product_id": "FortiClientAndroid-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.8",
+								"product_id": "FortiClientAndroid-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.7",
+								"product_id": "FortiClientAndroid-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.6",
+								"product_id": "FortiClientAndroid-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.5",
+								"product_id": "FortiClientAndroid-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.4",
+								"product_id": "FortiClientAndroid-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.3",
+								"product_id": "FortiClientAndroid-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.2",
+								"product_id": "FortiClientAndroid-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.1",
+								"product_id": "FortiClientAndroid-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.2.0",
+								"product_id": "FortiClientAndroid-5.2.0"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.0.3",
+								"product_id": "FortiClientAndroid-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.0.2",
+								"product_id": "FortiClientAndroid-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.0.1",
+								"product_id": "FortiClientAndroid-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientAndroid 5.0.0",
+								"product_id": "FortiClientAndroid-5.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientLinux",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.2.4",
+								"product_id": "FortiClientLinux-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.2.3",
+								"product_id": "FortiClientLinux-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.2.2",
+								"product_id": "FortiClientLinux-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.2.1",
+								"product_id": "FortiClientLinux-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.2.0",
+								"product_id": "FortiClientLinux-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.13",
+								"product_id": "FortiClientLinux-7.0.13"
+							}
+						},
+						{
+							"name": "7.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.12",
+								"product_id": "FortiClientLinux-7.0.12"
+							}
+						},
+						{
+							"name": "7.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.11",
+								"product_id": "FortiClientLinux-7.0.11"
+							}
+						},
+						{
+							"name": "7.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.10",
+								"product_id": "FortiClientLinux-7.0.10"
+							}
+						},
+						{
+							"name": "7.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.9",
+								"product_id": "FortiClientLinux-7.0.9"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.8",
+								"product_id": "FortiClientLinux-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.7",
+								"product_id": "FortiClientLinux-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.6",
+								"product_id": "FortiClientLinux-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.5",
+								"product_id": "FortiClientLinux-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.4",
+								"product_id": "FortiClientLinux-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.3",
+								"product_id": "FortiClientLinux-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.2",
+								"product_id": "FortiClientLinux-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.1",
+								"product_id": "FortiClientLinux-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.0",
+								"product_id": "FortiClientLinux-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.9",
+								"product_id": "FortiClientLinux-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.8",
+								"product_id": "FortiClientLinux-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.7",
+								"product_id": "FortiClientLinux-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.4",
+								"product_id": "FortiClientLinux-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.3",
+								"product_id": "FortiClientLinux-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.2",
+								"product_id": "FortiClientLinux-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.1",
+								"product_id": "FortiClientLinux-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.0",
+								"product_id": "FortiClientLinux-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.4",
+								"product_id": "FortiClientMac-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.3",
+								"product_id": "FortiClientMac-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.2",
+								"product_id": "FortiClientMac-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.1",
+								"product_id": "FortiClientMac-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.0",
+								"product_id": "FortiClientMac-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.13",
+								"product_id": "FortiClientMac-7.0.13"
+							}
+						},
+						{
+							"name": "7.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.12",
+								"product_id": "FortiClientMac-7.0.12"
+							}
+						},
+						{
+							"name": "7.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.11",
+								"product_id": "FortiClientMac-7.0.11"
+							}
+						},
+						{
+							"name": "7.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.10",
+								"product_id": "FortiClientMac-7.0.10"
+							}
+						},
+						{
+							"name": "7.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.9",
+								"product_id": "FortiClientMac-7.0.9"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.8",
+								"product_id": "FortiClientMac-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.7",
+								"product_id": "FortiClientMac-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.6",
+								"product_id": "FortiClientMac-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.5",
+								"product_id": "FortiClientMac-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.4",
+								"product_id": "FortiClientMac-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.3",
+								"product_id": "FortiClientMac-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.2",
+								"product_id": "FortiClientMac-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.1",
+								"product_id": "FortiClientMac-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.0",
+								"product_id": "FortiClientMac-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.10",
+								"product_id": "FortiClientMac-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.9",
+								"product_id": "FortiClientMac-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.8",
+								"product_id": "FortiClientMac-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.7",
+								"product_id": "FortiClientMac-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.6",
+								"product_id": "FortiClientMac-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.5",
+								"product_id": "FortiClientMac-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.4",
+								"product_id": "FortiClientMac-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.3",
+								"product_id": "FortiClientMac-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.2",
+								"product_id": "FortiClientMac-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.1",
+								"product_id": "FortiClientMac-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 6.4.0",
+								"product_id": "FortiClientMac-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.7",
+								"product_id": "FortiClientWindows-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.6",
+								"product_id": "FortiClientWindows-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.5",
+								"product_id": "FortiClientWindows-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.4",
+								"product_id": "FortiClientWindows-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.3",
+								"product_id": "FortiClientWindows-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.2",
+								"product_id": "FortiClientWindows-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.1",
+								"product_id": "FortiClientWindows-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.0",
+								"product_id": "FortiClientWindows-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.10",
+								"product_id": "FortiClientWindows-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.9",
+								"product_id": "FortiClientWindows-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.8",
+								"product_id": "FortiClientWindows-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.7",
+								"product_id": "FortiClientWindows-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.6",
+								"product_id": "FortiClientWindows-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.5",
+								"product_id": "FortiClientWindows-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.4",
+								"product_id": "FortiClientWindows-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.3",
+								"product_id": "FortiClientWindows-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.2",
+								"product_id": "FortiClientWindows-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.1",
+								"product_id": "FortiClientWindows-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.0",
+								"product_id": "FortiClientWindows-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.6",
+								"product_id": "FortiClientiOS-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.5",
+								"product_id": "FortiClientiOS-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.4",
+								"product_id": "FortiClientiOS-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.3",
+								"product_id": "FortiClientiOS-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.1",
+								"product_id": "FortiClientiOS-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 7.0.0",
+								"product_id": "FortiClientiOS-7.0.0"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 6.0.1",
+								"product_id": "FortiClientiOS-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 6.0.0",
+								"product_id": "FortiClientiOS-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.6.6",
+								"product_id": "FortiClientiOS-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.6.5",
+								"product_id": "FortiClientiOS-5.6.5"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.6.1",
+								"product_id": "FortiClientiOS-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.6.0",
+								"product_id": "FortiClientiOS-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.4.4",
+								"product_id": "FortiClientiOS-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.4.3",
+								"product_id": "FortiClientiOS-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.4.1",
+								"product_id": "FortiClientiOS-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.4.0",
+								"product_id": "FortiClientiOS-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.2.3",
+								"product_id": "FortiClientiOS-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.2.2",
+								"product_id": "FortiClientiOS-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.2.1",
+								"product_id": "FortiClientiOS-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.2.0",
+								"product_id": "FortiClientiOS-5.2.0"
+							}
+						},
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.0.3",
+								"product_id": "FortiClientiOS-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.0.2",
+								"product_id": "FortiClientiOS-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.0.1",
+								"product_id": "FortiClientiOS-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 5.0.0",
+								"product_id": "FortiClientiOS-5.0.0"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 4.0.2",
+								"product_id": "FortiClientiOS-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 4.0.1",
+								"product_id": "FortiClientiOS-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 4.0.0",
+								"product_id": "FortiClientiOS-4.0.0"
+							}
+						},
+						{
+							"name": "2.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 2.0.1",
+								"product_id": "FortiClientiOS-2.0.1"
+							}
+						},
+						{
+							"name": "2.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientiOS 2.0.0",
+								"product_id": "FortiClientiOS-2.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
