@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Unauthenticated command injection vulnerability",
+	"document_title": "Unauthenticated command injection vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWLM version 8.6.0 through 8.6.5FortiWLM version 8.5.0 through 8.5.4\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWLM version 8.6.6 or above Please upgrade to FortiWLM version 8.5.5 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -68,13 +56,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Unauthenticated command injection vulnerability",
+		"title": "Unauthenticated command injection vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-140",
-					"description": "FortiWLM - Unauthenticated command injection vulnerability"
+					"description": "Unauthenticated command injection vulnerability"
 				}
 			]
 		},

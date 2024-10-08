@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Unsafe handling of CGI environment parameters in web server framework",
+	"document_title": "Unsafe handling of CGI environment parameters in FML's web server framework",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper input validation (CWE-20) vulnerability in the web server CGI  facilities of FortiMail may allow an unauthenticated attacker to alter the environment of the underlying script interpreter via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper input validation (CWE-20) vulnerability in the web server CGI facilities of FortiMail may allow an unauthenticated attacker to alter the environment of the underlying script interpreter via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiMail 7.0.0. FortiMail 6.4.5 and below. FortiMail 6.2.7 and below. FortiMail 6.0.11 and below. FortiMail 5.4.12 and below.\n        ",
+				"text": "\n            FortiMail 7.0.0.FortiMail 6.4.5 and below.FortiMail 6.2.7 and below.FortiMail 6.0.11 and below.FortiMail 5.4.12 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiMail 7.0.1 or above. Upgrade to FortiMail 6.4.6 or above. Upgrade to FortiMail 6.2.8 or above. Upgrade to FortiMail 6.0.12 or above.\n        ",
+				"text": "\n            Upgrade to FortiMail 7.0.1 or above.Upgrade to FortiMail 6.4.6 or above.Upgrade to FortiMail 6.2.8 or above.Upgrade to FortiMail 6.0.12 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Unsafe handling of CGI environment parameters in web server framework",
+		"title": "Unsafe handling of CGI environment parameters in FML's web server framework",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-008",
-					"description": "FortiMail - Unsafe handling of CGI environment parameters in web server framework"
+					"description": "Unsafe handling of CGI environment parameters in FML's web server framework"
 				}
 			]
 		},

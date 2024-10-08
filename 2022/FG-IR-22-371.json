@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager - Incorrect user management behavior leads to passwordless admin",
+	"document_title": "Incorrect user management behavior leads to passwordless admin",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An incorrect user management vulnerability [CWE-286] in the FortiManager VDOM creation component may allow an attacker to access a FortiGate without a password via newly created VDOMs after the super_admin profiled admin account is deleted.\n        ",
+				"text": "\n            An incorrect user management vulnerability [CWE-286] in the FortiManager VDOM creation component may allow an attacker to access a FortiGate without a password via newly created VDOMs after the super_admin profiled admin account is deleted.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.0.2 or above Please upgrade to FortiManager version 6.4.8 or above Please upgrade to FortiManager version 6.2.9 or above\n        ",
+				"text": "\n            Please upgrade to FortiManager version 7.0.2 or abovePlease upgrade to FortiManager version 6.4.8 or abovePlease upgrade to FortiManager version 6.2.9 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager - Incorrect user management behavior leads to passwordless admin",
+		"title": "Incorrect user management behavior leads to passwordless admin",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-371",
-					"description": "FortiManager - Incorrect user management behavior leads to passwordless admin"
+					"description": "Incorrect user management behavior leads to passwordless admin"
 				}
 			]
 		},

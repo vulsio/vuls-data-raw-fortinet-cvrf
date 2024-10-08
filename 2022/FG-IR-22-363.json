@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - Cross Site Scripting vulnerabilities in administrative interface",
+	"document_title": "Cross Site Scripting vulnerabilities in administrative interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above Please upgrade to FortiOS version 7.2.4 or above Please upgrade to FortiOS version 7.0.10 or above Please upgrade to FortiOS version 6.4.12 or above Please upgrade to FortiOS version 6.2.13 or above\n        ",
+				"text": "\n            Please upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or abovePlease upgrade to FortiOS version 7.2.4 or abovePlease upgrade to FortiOS version 7.0.10 or abovePlease upgrade to FortiOS version 6.4.12 or abovePlease upgrade to FortiOS version 6.2.13 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - Cross Site Scripting vulnerabilities in administrative interface",
+		"title": "Cross Site Scripting vulnerabilities in administrative interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-363",
-					"description": "FortiOS & FortiProxy - Cross Site Scripting vulnerabilities in administrative interface"
+					"description": "Cross Site Scripting vulnerabilities in administrative interface"
 				}
 			]
 		},

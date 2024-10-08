@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN - Improper cryptographic operations in Dynamic Tunnel Protocol",
+	"document_title": "Improper cryptographic operations in Dynamic Tunnel Protocol",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A use of a broken or risky cryptographic algorithm vulnerability [CWE-327] in the Dynamic Tunnel Protocol of FortiWAN may allow an unauthenticated remote attacker to decrypt and forge protocol communication messages.\n        ",
+				"text": "\n            A use of a broken or risky cryptographic algorithm vulnerability [CWE-327] in the Dynamic Tunnel Protocol of FortiWAN may allow an unauthenticated remote attacker to decrypt and forge protocol communication messages.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWAN 4.5.9.\n        ",
+				"text": "\n            Upgrade to FortiWAN 4.5.9.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN - Improper cryptographic operations in Dynamic Tunnel Protocol",
+		"title": "Improper cryptographic operations in Dynamic Tunnel Protocol",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-070",
-					"description": "FortiWAN - Improper cryptographic operations in Dynamic Tunnel Protocol"
+					"description": "Improper cryptographic operations in Dynamic Tunnel Protocol"
 				}
 			]
 		},

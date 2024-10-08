@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy – Authorization bypass in SSLVPN bookmarks",
+	"document_title": "Authorization bypass in SSLVPN bookmarks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy – Authorization bypass in SSLVPN bookmarks",
+		"title": "Authorization bypass in SSLVPN bookmarks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-013",
-					"description": "FortiOS & FortiProxy – Authorization bypass in SSLVPN bookmarks"
+					"description": "Authorization bypass in SSLVPN bookmarks"
 				}
 			]
 		},

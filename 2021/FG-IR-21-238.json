@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - privilege escalation in online installer due to incorrect working directory",
+	"document_title": "Privilege escalation in online installer due to incorrect working director",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper initialization [CWE-665] vulnerability in FortiClient (Windows) may allow a local attacker to gain administrative privileges via placing a malicious executable inside the FortiClient installer's directory.\n        ",
+				"text": "\n            An improper initialization [CWE-665] vulnerability in FortiClient (Windows) may allow a local attacker to gain administrative privileges via placing a malicious executable inside the FortiClient installer's directory.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClient (Windows) version 6.4.7 and below FortiClient (Windows) version 7.0.2 and below FortiClient (Windows) 6.0 all versions FortiClient (Windows) 6.2 all versions\n        ",
+				"text": "\n            FortiClient (Windows) version 6.4.7 and belowFortiClient (Windows) version 7.0.2 and belowFortiClient (Windows) 6.0 all versionsFortiClient (Windows) 6.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiClient (Windows) 7.0.3 or above Upgrade to FortiClient (Windows) 6.4.8 or above\n        ",
+				"text": "\n            Upgrade to FortiClient (Windows) 7.0.3 or aboveUpgrade to FortiClient (Windows) 6.4.8 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - privilege escalation in online installer due to incorrect working directory",
+		"title": "Privilege escalation in online installer due to incorrect working director",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-238",
-					"description": "FortiClient (Windows) - privilege escalation in online installer due to incorrect working directory"
+					"description": "Privilege escalation in online installer due to incorrect working director"
 				}
 			]
 		},

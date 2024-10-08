@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+	"document_title": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.2.0 through 7.2.1 FortiManager version 7.0.0 through 7.0.5 FortiManager version 6.4.8 through 6.4.10 FortiAnalyzer version 7.2.0 through 7.2.1 FortiAnalyzer version 7.0.0 through 7.0.5 FortiAnalyzer version 6.4.8 through 6.4.10\n        ",
+				"text": "\n            FortiManager version 7.2.0 through 7.2.1FortiManager version 7.0.0 through 7.0.5FortiManager version 6.4.8 through 6.4.10FortiAnalyzer version 7.2.0 through 7.2.1FortiAnalyzer version 7.0.0 through 7.0.5FortiAnalyzer version 6.4.8 through 6.4.10\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.2.2 or above Please upgrade to FortiManager version 7.0.6 or above Please upgrade to FortiManager version 6.4.11 or above Please upgrade to FortiAnalyzer version 7.2.2 or above Please upgrade to FortiAnalyzer version 7.0.6 or above Please upgrade to FortiAnalyzer version 6.4.11 or above\n        ",
+				"text": "\n            Please upgrade to FortiManager version 7.2.2 or abovePlease upgrade to FortiManager version 7.0.6 or abovePlease upgrade to FortiManager version 6.4.11 or abovePlease upgrade to FortiAnalyzer version 7.2.2 or abovePlease upgrade to FortiAnalyzer version 7.0.6 or abovePlease upgrade to FortiAnalyzer version 6.4.11 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+		"title": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-502",
-					"description": "FortiAnalyzer & FortiManager - Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert"
+					"description": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert"
 				}
 			]
 		},

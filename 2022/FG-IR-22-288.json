@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPresence - Traceback on Public Accessible Path",
+	"document_title": "Traceback on Public Accessible Path",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiPresence version 2.0.0 or above  \n        ",
+				"text": "\n            Please upgrade to FortiPresence version 2.0.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPresence - Traceback on Public Accessible Path",
+		"title": "Traceback on Public Accessible Path",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-288",
-					"description": "FortiPresence - Traceback on Public Accessible Path"
+					"description": "Traceback on Public Accessible Path"
 				}
 			]
 		},

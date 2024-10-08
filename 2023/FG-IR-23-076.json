@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC & FortiADC Manager - Command injection vulnerabilities in cli commands",
+	"document_title": "Command injection vulnerabilities in cli commands",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements used in an os command ('OS Command Injection') vulnerabilties [CWE-78] in FortiADC & FortiADC Manager may allow a local authenticated attacker to execute arbitrary shell code as `root` user via crafted CLI requests.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements used in an os command ('OS Command Injection') vulnerabilties [CWE-78] in FortiADC & FortiADC Manager may allow a local authenticated attacker to execute arbitrary shell code as root user via crafted CLI requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.2.0 FortiADC version 7.1.0 through 7.1.2 FortiADC 7.0 all versions FortiADC 6.2 all versions FortiADC 6.1 all versions FortiADC 6.0 all versions FortiADC 5.4 all versions FortiADC 5.3 all versions FortiADC 5.2 all versions At least FortiADCManager version 7.1.0 FortiADCManager version 7.0.0 FortiADCManager 6.2 all versions FortiADCManager 6.1 all versions FortiADCManager 6.0 all versions FortiADCManager 5.4 all versions FortiADCManager 5.3 all versions FortiADCManager 5.2 all versions\n        ",
+				"text": "\n            FortiADC version 7.2.0FortiADC version 7.1.0 through 7.1.2FortiADC 7.0 all versionsFortiADC 6.2 all versionsFortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsAt leastFortiADCManager version 7.1.0FortiADCManager version 7.0.0FortiADCManager 6.2 all versionsFortiADCManager 6.1 all versionsFortiADCManager 6.0 all versionsFortiADCManager 5.4 all versionsFortiADCManager 5.3 all versionsFortiADCManager 5.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 7.2.1 or above Please upgrade to FortiADC version 7.1.3 or above Please upgrade to FortiADCManager version 7.2.0 or above Please upgrade to FortiADCManager version 7.1.1 or above Please upgrade to FortiADCManager version 7.0.1 or above\n        ",
+				"text": "\n            Please upgrade to FortiADC version 7.2.1 or abovePlease upgrade to FortiADC version 7.1.3 or abovePlease upgrade to FortiADCManager version 7.2.0 or abovePlease upgrade to FortiADCManager version 7.1.1 or abovePlease upgrade to FortiADCManager version 7.0.1 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC & FortiADC Manager - Command injection vulnerabilities in cli commands",
+		"title": "Command injection vulnerabilities in cli commands",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-076",
-					"description": "FortiADC & FortiADC Manager - Command injection vulnerabilities in cli commands"
+					"description": "Command injection vulnerabilities in cli commands"
 				}
 			]
 		},
@@ -83,7 +83,6 @@
 				"type": "Known Affected",
 				"product_id": [
 					"FortiADC-7.2.0",
-					"FortiADC-7.1.2",
 					"FortiADC-7.1.1",
 					"FortiADC-7.1.0",
 					"FortiADC-7.0.5",
@@ -150,7 +149,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.8",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:C"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:C"
 			}
 		}
 	},
@@ -169,14 +168,6 @@
 							"full_product_name": {
 								"text": "FortiADC 7.2.0",
 								"product_id": "FortiADC-7.2.0"
-							}
-						},
-						{
-							"name": "7.1.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.1.2",
-								"product_id": "FortiADC-7.1.2"
 							}
 						},
 						{

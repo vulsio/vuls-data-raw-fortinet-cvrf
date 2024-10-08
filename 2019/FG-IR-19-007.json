@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            CVE-2019-6693: FortiOS 6.2.0, 6.0.0 to 6.0.6, 5.6.10 and below (impacts all credential data of type \"ENC\" in FortiOS CLI configuration except the administrator's password) CVE-2020-9289: FortiManager 6.2.4 and below (impacts all credential data of type \"ENC\" in FortiManager CLI configuration) CVE-2020-9289: FortiAnalyzer 6.2.3 and below (impacts all credential data of type \"ENC\" in FortiAnalyzer CLI configuration) If the CLI configuration is exposed (typical example: Willingly posted on a forum for troubleshooting purpose), it is possible to decrypt the encrypted ENC type data to plaintext using this hard-coded cryptographic key. Same goes for the system backup file, if it is not password protected.\n        ",
+				"text": "\n            CVE-2019-6693: FortiOS 6.2.0, 6.0.0 to 6.0.6, 5.6.10 and below.(impacts all credential data of type \"ENC\" in FortiOS CLI configuration except the administrator's password)CVE-2020-9289: FortiManager 6.2.4 and below(impacts all credential data of type \"ENC\" in FortiManager CLI configuration)CVE-2020-9289: FortiAnalyzer 6.2.3 and below(impacts all credential data of type \"ENC\" in FortiAnalyzer CLI configuration)If the CLI configuration is exposed (typical example: Willingly posted on a forum for troubleshooting purpose), it is possible to decrypt the encrypted ENC type data to plaintext using this hard-coded cryptographic key. Same goes for the system backup file, if it is not password protected.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS: In versions 5.6.11 and above, 6.0.7 and above, and 6.2.1 and above, administrators can choose to be prompted for a password, which is then used by FortiOS to encrypt sensitive data in the configuration file. The following steps enable this option:   # config system global # set private-data-encryption enable /* disabled by default */ # end   FortiManager: Upgrade to FortiManager 6.2.5 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:   # configure system global # set private-data-encryption enable /* disabled by default */ # end   FortiAnalyzer: Upgrade to FortiAnalyzer 6.2.4 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:   # configure system global # set private-data-encryption enable /* disabled by default */ # end   Workaround: * Always use a password to protect the system configuration file when performing backups * The impacted ENC type data in CLI configuration, if exposed, should currently be considered \"easy to decrypt\" by potential attackers. Thus, avoid exposure of configuration in unsafe and/or public channels (forums, etc...) Note: Enabling private-data-encryption on FortiGates that are centrally managed by a FortiManager or are in High Availability mode may lead to some bugs including an install errors on the FortiManager side and split-brain. This issue is fixed in FortiManager versions 6.2.7 and above and in FortiGate versions 6.2.6, 6.4.4, 6.6.0 and above. Moreover, we can verify that the user provided key is the same on FortiManager and FortiGate sides by executing the below commands: FortiGate-201E # exec private-encryption-key sample FortiGate-201E # exec private-encryption-key verify Verification passed.   Revision History: 11-19-2019 Initial Version 06-11-2020 Add FortiManager CVE-2020-9289 06-30-2020 Add FortiAnalyzer CVE-2020-9289 11-13-2020 Update Solution section\n        ",
+				"text": "\n            FortiOS: In versions 5.6.11 and above, 6.0.7 and above, and 6.2.1 and above, administrators can choose to be prompted for a password, which is then used by FortiOS to encrypt sensitive data in the configuration file.The following steps enable this option:config system globalset private-data-encryption enable /* disabled by default */endFortiManager: Upgrade to FortiManager 6.2.5 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:configure system globalset private-data-encryption enable /* disabled by default */endFortiAnalyzer: Upgrade to FortiAnalyzer 6.2.4 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:configure system globalset private-data-encryption enable /* disabled by default */endWorkaround: * Always use a password to protect the system configuration file when performing backups *The impacted ENC type data in CLI configuration, if exposed, should currently be considered \"easy to decrypt\" by potential attackers. Thus, avoid exposure of configuration in unsafe and/or public channels (forums, etc...) Note: Enabling private-data-encryption on FortiGates that are centrally managed by a FortiManager or are in High Availability mode may lead to some bugs including an install errors on the FortiManager side and split-brain. This issue is fixed in FortiManager versions 6.2.7 and above and in FortiGate versions 6.2.6, 6.4.4, 6.6.0 and above. Moreover, we can verify that the user provided key is the same on FortiManager and FortiGate sides by executing the below commands: FortiGate-201Eexec private-encryption-key sample FortiGate-201Eexec private-encryption-key verifyVerification passed.Note:FIPS-CC devices are not impacted as the encryption method is overridden.Revision History:11-19-2019 Initial Version06-11-2020 Add FortiManager CVE-2020-9289 06-30-2020 Add FortiAnalyzer CVE-2020-928911-13-2020 Update Solution section02-22-2024 Add FIPS-CC note\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -70,8 +70,8 @@
 			]
 		},
 		"cve": [
-			"CVE-2020-9289",
-			"CVE-2019-6693"
+			"CVE-2019-6693",
+			"CVE-2020-9289"
 		],
 		"product_statuses": {
 			"status": {

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) / FortiConverter (Windows) - Insecure Installation Folder",
+	"document_title": "Insecure Installation Folder",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.6 FortiClientWindows version 6.4.0 through 6.4.8 FortiConverter version 7.0.0 FortiConverter 6.2 all versions FortiConverter 6.0 all versions\n        ",
+				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.6FortiClientWindows version 6.4.0 through 6.4.8FortiConverter version 7.0.0FortiConverter 6.2 all versionsFortiConverter 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientWindows version 7.0.7 or above Please upgrade to FortiClientWindows version 6.4.9 or above Please upgrade to FortiConverter version 7.0.1 or above Please upgrade to FortiConverter version 6.2.2 or above  \n        ",
+				"text": "\n            Please upgrade to FortiClientWindows version 7.0.7 or abovePlease upgrade to FortiClientWindows version 6.4.9 or abovePlease upgrade to FortiConverter version 7.0.1 or abovePlease upgrade to FortiConverter version 6.2.2 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) / FortiConverter (Windows) - Insecure Installation Folder",
+		"title": "Insecure Installation Folder",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-229",
-					"description": "FortiClient (Windows) / FortiConverter (Windows) - Insecure Installation Folder"
+					"description": "Insecure Installation Folder"
 				}
 			]
 		},
@@ -82,13 +82,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiConverter-7.0.0",
-					"FortiConverter-6.2.1",
-					"FortiConverter-6.2.0",
-					"FortiConverter-6.0.3",
-					"FortiConverter-6.0.2",
-					"FortiConverter-6.0.1",
-					"FortiConverter-6.0.0",
 					"FortiClientWindows-7.0.6",
 					"FortiClientWindows-7.0.5",
 					"FortiClientWindows-7.0.4",
@@ -104,7 +97,14 @@
 					"FortiClientWindows-6.4.3",
 					"FortiClientWindows-6.4.2",
 					"FortiClientWindows-6.4.1",
-					"FortiClientWindows-6.4.0"
+					"FortiClientWindows-6.4.0",
+					"FortiConverter-7.0.0",
+					"FortiConverter-6.2.1",
+					"FortiConverter-6.2.0",
+					"FortiConverter-6.0.3",
+					"FortiConverter-6.0.2",
+					"FortiConverter-6.0.1",
+					"FortiConverter-6.0.0"
 				]
 			}
 		},
@@ -120,68 +120,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiConverter",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 7.0.0",
-								"product_id": "FortiConverter-7.0.0"
-							}
-						},
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.2.1",
-								"product_id": "FortiConverter-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.2.0",
-								"product_id": "FortiConverter-6.2.0"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.0.3",
-								"product_id": "FortiConverter-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.0.2",
-								"product_id": "FortiConverter-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.0.1",
-								"product_id": "FortiConverter-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiConverter 6.0.0",
-								"product_id": "FortiConverter-6.0.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiClientWindows",
 					"type": "Product Name",
@@ -312,6 +250,68 @@
 							"full_product_name": {
 								"text": "FortiClientWindows 6.4.0",
 								"product_id": "FortiClientWindows-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiConverter",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 7.0.0",
+								"product_id": "FortiConverter-7.0.0"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.2.1",
+								"product_id": "FortiConverter-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.2.0",
+								"product_id": "FortiConverter-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.0.3",
+								"product_id": "FortiConverter-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.0.2",
+								"product_id": "FortiConverter-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.0.1",
+								"product_id": "FortiConverter-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiConverter 6.0.0",
+								"product_id": "FortiConverter-6.0.0"
 							}
 						}
 					]

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - HTML Injection Vulnerabilities",
+	"document_title": "HTML Injection Vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSOAR version 7.2.0FortiSOAR version 7.0.0 through 7.0.3\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSOAR version 7.2.1 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - HTML Injection Vulnerabilities",
+		"title": "HTML Injection Vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-220",
-					"description": "FortiSOAR - HTML Injection Vulnerabilities"
+					"description": "HTML Injection Vulnerabilities"
 				}
 			]
 		},

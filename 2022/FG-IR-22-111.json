@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Heap based overflow in CLI",
+	"document_title": "Heap based overflow in CLI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1 FortiWeb version 6.3.0 through 6.3.19 FortiWeb 6.4 all versions FortiWeb 6.2 all versions FortiWeb 6.1 all versions FortiWeb 6.0 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.3.0 through 6.3.19FortiWeb 6.4 all versionsFortiWeb 6.2 all versionsFortiWeb 6.1 all versionsFortiWeb 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb 7.0.2 or above, upgrade to FortiWeb 6.3.20 or above.\n        ",
+				"text": "\n            Upgrade to FortiWeb 7.0.2 or above,upgrade to FortiWeb 6.3.20 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security Team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Heap based overflow in CLI",
+		"title": "Heap based overflow in CLI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-111",
-					"description": "FortiWeb - Heap based overflow in CLI"
+					"description": "Heap based overflow in CLI"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Hardcoded SSLVPN cookie encryption key",
+	"document_title": "Hardcoded SSLVPN cookie encryption key",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS 6.4.5 and below. FortiOS 6.2.8 and below. FortiOS 6.0.12 and below. FortiOS 5.6.13 and below.\n        ",
+				"text": "\n            FortiOS 6.4.5 and below.FortiOS 6.2.8 and below.FortiOS 6.0.12 and below.FortiOS 5.6.13 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 7.0.0 or above. Upgrade to FortiOS 6.4.6 or above. Upgrade to FortiOS 6.2.10 or above. Upgrade to FortiOS 6.0.13 or above. Upgrade to FortiOS 5.6.14 or above. For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9  \n        ",
+				"text": "\n            Upgrade to FortiOS 7.0.0 or above.Upgrade to FortiOS 6.4.6 or above.Upgrade to FortiOS 6.2.10 or above.Upgrade to FortiOS 6.0.13 or above.Upgrade to FortiOS 5.6.14 or above.For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Hardcoded SSLVPN cookie encryption key",
+		"title": "Hardcoded SSLVPN cookie encryption key",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-051",
-					"description": "FortiOS - Hardcoded SSLVPN cookie encryption key"
+					"description": "Hardcoded SSLVPN cookie encryption key"
 				}
 			]
 		},

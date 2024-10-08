@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Authenticated command injection vulnerability",
+	"document_title": "Authenticated command injection vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWLM version 8.6.5 and below FortiWLM version 8.5.4 and below\n        ",
+				"text": "\n            FortiWLM version 8.6.5 and belowFortiWLM version 8.5.4 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,22 +65,22 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Authenticated command injection vulnerability",
+		"title": "Authenticated command injection vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-141",
-					"description": "FortiWLM - Authenticated command injection vulnerability"
+					"description": "Authenticated command injection vulnerability"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2023-34989",
-			"CVE-2023-34988",
-			"CVE-2023-34987",
+			"CVE-2023-34985",
 			"CVE-2023-34986",
-			"CVE-2023-34985"
+			"CVE-2023-34987",
+			"CVE-2023-34988",
+			"CVE-2023-34989"
 		],
 		"product_statuses": {
 			"status": {

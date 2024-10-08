@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN  - OS command injection leads to privilege escalation",
+	"document_title": "OS command injection leads to privilege escalation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Privilege escalation\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWAN version 4.5.8 or above.Â Â\n        ",
+				"text": "\n            Please upgrade to FortiWAN version 4.5.8 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN  - OS command injection leads to privilege escalation",
+		"title": "OS command injection leads to privilege escalation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-069",
-					"description": "FortiWAN  - OS command injection leads to privilege escalation"
+					"description": "OS command injection leads to privilege escalation"
 				}
 			]
 		},

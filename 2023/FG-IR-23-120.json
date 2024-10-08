@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Plain-text credentials in GET request via SSL VPN web portal",
+	"document_title": "Plain-text credentials in GET request via SSL VPN web portal",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.4.0 FortiOS version 7.2.0 through 7.2.5 FortiOS version 7.0.0 through 7.0.12\n        ",
+				"text": "\n            FortiOS version 7.4.0FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.1 or above Please upgrade to FortiOS version 7.2.6 or above Please upgrade to upcoming FortiOS version 7.0.13 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.1 or abovePlease upgrade to FortiOS version 7.2.6 or abovePlease upgrade to upcoming FortiOS version 7.0.13 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Plain-text credentials in GET request via SSL VPN web portal",
+		"title": "Plain-text credentials in GET request via SSL VPN web portal",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-120",
-					"description": "FortiOS - Plain-text credentials in GET request via SSL VPN web portal"
+					"description": "Plain-text credentials in GET request via SSL VPN web portal"
 				}
 			]
 		},

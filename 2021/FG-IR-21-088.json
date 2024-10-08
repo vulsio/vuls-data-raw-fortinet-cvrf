@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientWindows & FortiClient EMS  - Privilege escalation via DLL Hijacking",
+	"document_title": "Privilege escalation via DLL Hijacking",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An unsafe search path vulnerability  in FortiClient and FortiClient EMS may allow an attacker to perform a DLL Hijack attack on affected devices via a malicious OpenSSL engine library in the search path.\n        ",
+				"text": "\n            An unsafe search path vulnerability in FortiClient and FortiClient EMS may allow an attacker to perform a DLL Hijack attack on affected devices via a malicious OpenSSL engine library in the search path.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClient 7.0.0 FortiClient 6.4.6 and below. FortiClient 6.2 all versions FortiClient 6.0 all versions FortiClient EMS 7.0.0 FortiClient EMS 6.4.6 and below. FortiClient EMS 6.2 all versions FortiClient EMS 6.0  all versions\n        ",
+				"text": "\n            FortiClient 7.0.0FortiClient 6.4.6 and below.FortiClient 6.2 all versionsFortiClient 6.0 all versionsFortiClient EMS 7.0.0FortiClient EMS 6.4.6 and below.FortiClient EMS 6.2 all versionsFortiClient EMS 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient 7.0.1 or above. Please upgrade to FortiClient 6.4.7 or above.   Please upgrade to FortiClient EMS 7.0.1 or above. Please upgrade to FortiClient EMS 6.4.7 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient 7.0.1 or above.Please upgrade to FortiClient 6.4.7 or above.Please upgrade to FortiClient EMS 7.0.1 or above.Please upgrade to FortiClient EMS 6.4.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientWindows & FortiClient EMS  - Privilege escalation via DLL Hijacking",
+		"title": "Privilege escalation via DLL Hijacking",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-088",
-					"description": "FortiClientWindows & FortiClient EMS  - Privilege escalation via DLL Hijacking"
+					"description": "Privilege escalation via DLL Hijacking"
 				}
 			]
 		},

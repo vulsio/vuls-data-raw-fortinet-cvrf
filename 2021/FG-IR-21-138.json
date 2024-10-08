@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Unauthorized user is granted access to the Reports available in the Log & Report section",
+	"document_title": "Unauthorized user is granted access to the Reports available in the Log & Report section",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 6.4.1 and below. FortiWeb version 6.3.15 and below.\n        ",
+				"text": "\n            FortiWeb version 6.4.1 and below.FortiWeb version 6.3.15 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb version 7.0.0 or above. Please upgrade to FortiWeb version 6.4.2 or above. Please upgrade to FortiWeb version 6.3.16 or above.\n        ",
+				"text": "\n            Please upgrade to FortiWeb version 7.0.0 or above.Please upgrade to FortiWeb version 6.4.2 or above.Please upgrade to FortiWeb version 6.3.16 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -71,13 +71,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Unauthorized user is granted access to the Reports available in the Log & Report section",
+		"title": "Unauthorized user is granted access to the Reports available in the Log & Report section",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-138",
-					"description": "FortiWeb - Unauthorized user is granted access to the Reports available in the Log & Report section"
+					"description": "Unauthorized user is granted access to the Reports available in the Log & Report section"
 				}
 			]
 		},

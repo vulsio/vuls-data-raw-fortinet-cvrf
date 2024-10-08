@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability",
+	"document_title": "Update functionality may lead to privilege escalation vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientMac version 7.0.0 through 7.0.7 FortiClientMac version 6.4 all versions FortiClientMac version 6.2 all versions FortiClientMac version 6.0 all versions\n        ",
+				"text": "\n            FortiClientMac version 7.0.0 through 7.0.7FortiClientMac version 6.4 all versionsFortiClientMac version 6.2 all versionsFortiClientMac version 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to  FortiClientMac version 7.0.8 or above. Please upgrade to  FortiClientMac version 7.2.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClientMac version 7.0.8 or above.Please upgrade to FortiClientMac version 7.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability",
+		"title": "Update functionality may lead to privilege escalation vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-481",
-					"description": "FortiClient (Mac) - update functionality may lead to privilege escalation vulnerability"
+					"description": "Update functionality may lead to privilege escalation vulnerability"
 				}
 			]
 		},

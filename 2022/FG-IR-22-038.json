@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail / FortiNDR / FortiRecorder / FortiSwitch / FortiVoice - Cross-site scripting forgery (CSRF) in HTTPd CLI console",
+	"document_title": "Cross-site scripting forgery (CSRF) in HTTPd CLI console",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            At least FortiVoice version 6.4.0 through 6.4.7 FortiVoice version 6.0.0 through 6.0.11 At least FortiRecorder version 6.4.0 through 6.4.2 FortiRecorder version 6.0.0 through 6.0.11 FortiRecorder 2.7 all versions FortiRecorder 2.6 all versions At least FortiSwitch version 7.0.0 through 7.0.4 FortiSwitch version 6.4.0 through 6.4.10 FortiSwitch 6.2 all versions FortiSwitch 6.0 all versions FortiNDR version 7.1.0 FortiNDR version 7.0.0 through 7.0.4 FortiNDR 1.5 all versions FortiNDR 1.4 all versions FortiNDR 1.3 all versions FortiNDR 1.2 all versions FortiNDR 1.1 all versions At least FortiMail version 7.0.0 through 7.0.3 FortiMail version 6.4.0 through 6.4.6 FortiMail 6.2 all versions FortiMail 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiVoice version 7.0.0 or above Please upgrade to FortiVoice version 6.4.8 or above Please upgrade to FortiVoice version 6.0.12 or above Please upgrade to FortiRecorder version 7.0.0 or above Please upgrade to FortiRecorder version 6.4.3 or above Please upgrade to FortiRecorder version 6.0.12 or above Please upgrade to FortiSwitch version 7.2.0 or above Please upgrade to FortiSwitch version 7.0.5 or above Please upgrade to FortiSwitch version 6.4.11 or above Please upgrade to FortiNDR version 7.2.0 or above Please upgrade to FortiNDR version 7.1.1 or above Please upgrade to FortiNDR version 7.0.5 or above Please upgrade to FortiMail version 7.2.0 or above Please upgrade to FortiMail version 7.0.4 or above Please upgrade to FortiMail version 6.4.7 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail / FortiNDR / FortiRecorder / FortiSwitch / FortiVoice - Cross-site scripting forgery (CSRF) in HTTPd CLI console",
+		"title": "Cross-site scripting forgery (CSRF) in HTTPd CLI console",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-038",
-					"description": "FortiMail / FortiNDR / FortiRecorder / FortiSwitch / FortiVoice - Cross-site scripting forgery (CSRF) in HTTPd CLI console"
+					"description": "Cross-site scripting forgery (CSRF) in HTTPd CLI console"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox -  Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint",
+	"document_title": "Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox may allow an authenticated attacker to perform a cross-site scripting attack via crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox may allow an authenticated attacker to perform a cross-site scripting attack via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSandbox version 4.4.0 through 4.4.1 FortiSandbox version 4.2.0 through 4.2.5 FortiSandbox version 4.0.0 through 4.0.3 FortiSandbox 3.2 all versionsFortiSandbox 3.1 all versionsFortiSandbox 3.0 all versionsFortiSandbox 2.5 all versionsFortiSandbox version 2.4.1\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSandbox version 4.4.2 or above Please upgrade to FortiSandbox version 4.2.6 or above Please upgrade to FortiSandbox version 4.0.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox -  Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint",
+		"title": "Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-273",
-					"description": "FortiSandbox -  Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint"
+					"description": "Reflected Cross Site Scripting (XSS) on the \"file ondemand\" rendering endpoint"
 				}
 			]
 		},

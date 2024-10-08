@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox / FortiDeceptor - Improper profile-based access control over APIs",
+	"document_title": "Improper profile-based access control over APIs",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiDeceptor version 4.1.0 FortiDeceptor version 4.0.0 through 4.0.2 FortiDeceptor version 3.3.0 through 3.3.3 FortiDeceptor 3.2 all versions FortiDeceptor 3.1 all versions FortiDeceptor 3.0 all versions FortiDeceptor 2.1 all versions FortiDeceptor 2.0 all versions FortiDeceptor 1.1 all versions FortiDeceptor 1.0 all versions At least FortiSandbox version 4.2.0 through 4.2.2 FortiSandbox version 4.0.0 through 4.0.2 FortiSandbox version 3.2.0 through 3.2.3 FortiSandbox 3.1 all versions FortiSandbox 3.0 all versions FortiSandbox 2.5 all versions\n        ",
+				"text": "\n            FortiDeceptor version 4.1.0FortiDeceptor version 4.0.0 through 4.0.2FortiDeceptor version 3.3.0 through 3.3.3FortiDeceptor 3.2 all versionsFortiDeceptor 3.1 all versionsFortiDeceptor 3.0 all versionsFortiDeceptor 2.1 all versionsFortiDeceptor 2.0 all versionsFortiDeceptor 1.1 all versionsFortiDeceptor 1.0 all versionsAt leastFortiSandbox version 4.2.0 through 4.2.2FortiSandbox version 4.0.0 through 4.0.2FortiSandbox version 3.2.0 through 3.2.3FortiSandbox 3.1 all versionsFortiSandbox 3.0 all versionsFortiSandbox 2.5 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiDeceptor version 4.2.0 or above Please upgrade to FortiDeceptor version 4.1.1 or above Please upgrade to FortiDeceptor version 4.0.2 or above Please upgrade to FortiDeceptor version 3.3.3 or above Please upgrade to FortiSandbox version 4.2.3 or above Please upgrade to FortiSandbox version 4.0.3 or above Please upgrade to FortiSandbox version 3.2.4 or above\n        ",
+				"text": "\n            Please upgrade to FortiSandbox version 4.2.3 or above Please upgrade to FortiSandbox version 4.0.3 or above Please upgrade to FortiSandbox version 3.2.4 or above Please upgrade to FortiDeceptor version 4.2.0 or above Please upgrade to FortiDeceptor version 4.1.1 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox / FortiDeceptor - Improper profile-based access control over APIs",
+		"title": "Improper profile-based access control over APIs",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-056",
-					"description": "FortiSandbox / FortiDeceptor - Improper profile-based access control over APIs"
+					"description": "Improper profile-based access control over APIs"
 				}
 			]
 		},

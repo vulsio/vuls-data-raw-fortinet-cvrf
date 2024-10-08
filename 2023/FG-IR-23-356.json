@@ -70,6 +70,8 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiOS-7.4.3",
+					"FortiOS-7.4.2",
 					"FortiOS-7.4.1",
 					"FortiOS-7.4.0",
 					"FortiOS-7.2.7",
@@ -136,6 +138,22 @@
 					"name": "FortiOS",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.4.3",
+								"product_id": "FortiOS-7.4.3"
+							}
+						},
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.4.2",
+								"product_id": "FortiOS-7.4.2"
+							}
+						},
 						{
 							"name": "7.4.1",
 							"type": "Product Version",

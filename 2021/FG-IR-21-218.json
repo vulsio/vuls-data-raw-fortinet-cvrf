@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb and FortiRecorder - Arbitrary file read through command line pipe",
+	"document_title": "Arbitrary file read through command line pipe",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 6.4.0 through 6.4.1 FortiWeb version 6.3.0 through 6.3.17 FortiWeb all versions 6.2 FortiWeb all versions 6.1 FortiWeb all versions 6.0 FortiRecorder version 6.4.0 through 6.4.3 FortiRecorder all versions 6.0 FortiRecorder all versions 2.7\n        ",
+				"text": "\n            FortiWeb version 6.4.0 through 6.4.1FortiWeb version 6.3.0 through 6.3.17FortiWeb all versions 6.2FortiWeb all versions 6.1FortiWeb all versions 6.0FortiRecorder version 6.4.0 through 6.4.3FortiRecorder all versions 6.0FortiRecorder all versions 2.7\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb version 7.0.0 or above, Upgrade to FortiWeb version 6.4.2 or above. Upgrade to FortiWeb version 6.3.18 or above. Upgrade to FortiRecorder version 7.0.0 or above Upgrade to FortiRecorder version 6.4.4 or above  \n        ",
+				"text": "\n            Upgrade to FortiWeb version 7.0.0 or above,Upgrade to FortiWeb version 6.4.2 or above.Upgrade to FortiWeb version 6.3.18 or above.Upgrade to FortiRecorder version 7.0.0 or aboveUpgrade to FortiRecorder version 6.4.4 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security Team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb and FortiRecorder - Arbitrary file read through command line pipe",
+		"title": "Arbitrary file read through command line pipe",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-218",
-					"description": "FortiWeb and FortiRecorder - Arbitrary file read through command line pipe"
+					"description": "Arbitrary file read through command line pipe"
 				}
 			]
 		},

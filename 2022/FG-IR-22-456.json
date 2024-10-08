@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - Weak password hashing method in /etc/shadow",
+	"document_title": "Weak password hashing method in /etc/shadow",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiNAC-F version 7.2.0 FortiNAC version 9.4.0 through 9.4.1 FortiNAC version 9.2.0 through 9.2.6 FortiNAC 9.1 all versions FortiNAC 8.8 all versions FortiNAC 8.7 all versions\n        ",
+				"text": "\n            At leastFortiNAC-F version 7.2.0FortiNAC version 9.4.0 through 9.4.1FortiNAC version 9.2.0 through 9.2.6FortiNAC 9.1 all versionsFortiNAC 8.8 all versionsFortiNAC 8.7 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC-F version 7.2.1 or above Please upgrade to FortiNAC version 9.4.2 or above Please upgrade to FortiNAC version 9.2.7 or above After the upgrade, the CLI account password should be changed. To know which accounts require a new password, the following command can be run: grep \":\\$1\" /etc/shadow Then, login to the CLI with that user and type \"passwd\" to change the password and update the hash.\n        ",
+				"text": "\n            Please upgrade to FortiNAC-F version 7.2.1 or abovePlease upgrade to FortiNAC version 9.4.2 or abovePlease upgrade to FortiNAC version 9.2.7 or aboveAfter the upgrade, the CLI account password should be changed.To know which accounts require a new password, the following command can be run:grep \":\\$1\" /etc/shadowThen, login to the CLI with that user and type \"passwd\" to change the password and update the hash.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - Weak password hashing method in /etc/shadow",
+		"title": "Weak password hashing method in /etc/shadow",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-456",
-					"description": "FortiNAC - Weak password hashing method in /etc/shadow"
+					"description": "Weak password hashing method in /etc/shadow"
 				}
 			]
 		},

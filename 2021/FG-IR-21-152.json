@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Stack-based buffer overflows in API controllers",
+	"document_title": "Stack-based buffer overflows in API controllers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple stack-based buffer overflows [CWE-121] in the API controllers of FortiWeb may allow an authenticated attacker to achieve arbitrary code execution via specially crafted requests.\n        ",
+				"text": "\n            Multiple stack-based buffer overflows [CWE-121] in the API controllers of FortiWeb may allow an authenticated attacker to achieve arbitrary code execution via specially crafted requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,16 +36,22 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWeb version 6.4.1 and earlier. FortiWeb version 6.3.15 and earlier.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb version 7.0.0 and later. Upgrade to FortiWeb version 6.4.2 and later. Upgrade to FortiWeb version 6.3.16 and later.\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiWeb version 6.4.1 and earlier.FortiWeb version 6.3.15 and earlier.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiWeb version 7.0.0 and later.Upgrade to FortiWeb version 6.4.2 and later.Upgrade to FortiWeb version 6.3.16 and later.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Stack-based buffer overflows in API controllers",
+		"title": "Stack-based buffer overflows in API controllers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-152",
-					"description": "FortiWeb - Stack-based buffer overflows in API controllers"
+					"description": "Stack-based buffer overflows in API controllers"
 				}
 			]
 		},

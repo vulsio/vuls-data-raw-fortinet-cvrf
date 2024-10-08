@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Path traversal vulnerability",
+	"document_title": "Path traversal vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWLM versions 8.6.2 and below. FortiWLM versions 8.5.2 and below. FortiWLM versions 8.4.2 and below. FortiWLM versions 8.3.3 and below.\n        ",
+				"text": "\n            FortiWLM versions 8.6.2 and below.FortiWLM versions 8.5.2 and below.FortiWLM versions 8.4.2 and below.FortiWLM versions 8.3.3 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWLM 8.6.3Â or above.\n        ",
+				"text": "\n            Upgrade to FortiWLM 8.6.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Path traversal vulnerability",
+		"title": "Path traversal vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-106",
-					"description": "FortiWLM - Path traversal vulnerability"
+					"description": "Path traversal vulnerability"
 				}
 			]
 		},

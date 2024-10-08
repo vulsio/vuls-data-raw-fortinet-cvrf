@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN - Stored Cross-site scripting in log viewer",
+	"document_title": "Stored Cross-site scripting in log viewer",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiWAN may allow an attacker to perform a stored cross-site scripting attack via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiWAN may allow an attacker to perform a stored cross-site scripting attack via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Cross-site scripting\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWAN 4.5.9 or above\n        ",
+				"text": "\n            Upgrade to FortiWAN 4.5.9 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN - Stored Cross-site scripting in log viewer",
+		"title": "Stored Cross-site scripting in log viewer",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-078",
-					"description": "FortiWAN - Stored Cross-site scripting in log viewer"
+					"description": "Stored Cross-site scripting in log viewer"
 				}
 			]
 		},

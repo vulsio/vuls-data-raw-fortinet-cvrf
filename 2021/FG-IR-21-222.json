@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS -- XSS vulnerability observed in External Connectors Of Security Fabric",
+	"document_title": "XSS vulnerability observed in External Connectors Of Security Fabric",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS verion 7.2.0. FortiOS version 6.4.0 through 6.4.9 FortiOS version 7.0.0 through 7.0.5 FortiProxy version 7.0.0 through 7.0.4 FortiProxy version 2.0.0 through 2.0.8  \n        ",
+				"text": "\n            FortiOS verion 7.2.0.FortiOS version 6.4.0 through 6.4.9FortiOS version 7.0.0 through 7.0.5FortiProxy version 7.0.0 through 7.0.4FortiProxy version 2.0.0 through 2.0.8\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 6.4.10 or above. Please upgrade to FortiOS version 7.0.6 or above. Please upgrade to FortiOS version 7.2.1 or above. Please upgrade to FortiProxy version 7.2.0 or above Please upgrade to FortiProxy version 7.0.5 or above    \n        ",
+				"text": "\n            Please upgrade to FortiOS version 6.4.10 or above.Please upgrade to FortiOS version 7.0.6 or above.Please upgrade to FortiOS version 7.2.1 or above.Please upgrade to FortiProxy version 7.2.0 or abovePlease upgrade to FortiProxy version 7.0.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS -- XSS vulnerability observed in External Connectors Of Security Fabric",
+		"title": "XSS vulnerability observed in External Connectors Of Security Fabric",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-222",
-					"description": "FortiOS -- XSS vulnerability observed in External Connectors Of Security Fabric"
+					"description": "XSS vulnerability observed in External Connectors Of Security Fabric"
 				}
 			]
 		},

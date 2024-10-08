@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager - Improper inter ADOM access control",
+	"document_title": "Improper inter ADOM access control",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284] in FortiManager management interface may allow a remote and authenticated attacker with at least \"device management\" permission on his profile and belonging to a specific ADOM to add and delete CLI script on other ADOMs  \n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiManager management interface may allow a remote and authenticated attacker with at least \"device management\" permission on his profile and belonging to a specific ADOM to add and delete CLI script on other ADOMs\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.2.0 through 7.2.2 FortiManager version 7.0.0 through 7.0.7 FortiManager version 6.4.0 through 6.4.11 FortiManager 6.2 all versions FortiManager 6.0 all versions\n        ",
+				"text": "\n            FortiManager version 7.2.0 through 7.2.2FortiManager version 7.0.0 through 7.0.7FortiManager version 6.4.0 through 6.4.11FortiManager 6.2 all versionsFortiManager 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.4.0 or above Please upgrade to FortiManager version 7.2.3 or above Please upgrade to FortiManager version 7.0.8 or above Please upgrade to FortiManager version 6.4.12 or above\n        ",
+				"text": "\n            Please upgrade to FortiManager version 7.4.0 or abovePlease upgrade to FortiManager version 7.2.3 or abovePlease upgrade to FortiManager version 7.0.8 or abovePlease upgrade to FortiManager version 6.4.12 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager - Improper inter ADOM access control",
+		"title": "Improper inter ADOM access control",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-062",
-					"description": "FortiManager - Improper inter ADOM access control"
+					"description": "Improper inter ADOM access control"
 				}
 			]
 		},

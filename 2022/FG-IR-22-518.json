@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC & FortiDDoS-F - CORS: arbitrary origin trusted",
+	"document_title": "CORS: arbitrary origin trusted",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A permissive cross-domain policy with untrusted domains (CWE-942) vulnerability in the API of FortiADC / FortiDDoS-F may allow an unauthorized attacker to carry out privileged actions and retrieve sensitive information via crafted web requests.\n        ",
+				"text": "\n            A permissive cross-domain policy with untrusted domains (CWE-942) vulnerability in the API of FortiADC / FortiDDoS-F may allow an unauthorized attacker to carry out privileged actions and retrieve sensitive information via crafted web requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiADC version 7.1.0 through 7.1.1FortiDDoS-F version 6.4.0 through 6.4.1FortiDDoS-F 6.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.2.0 or above Please upgrade to FortiADC version 7.1.2 or above Please upgrade to FortiDDoS-F version 6.5.0 or above Please upgrade to FortiDDoS-F version 6.4.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC & FortiDDoS-F - CORS: arbitrary origin trusted",
+		"title": "CORS: arbitrary origin trusted",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-518",
-					"description": "FortiADC & FortiDDoS-F - CORS: arbitrary origin trusted"
+					"description": "CORS: arbitrary origin trusted"
 				}
 			]
 		},
@@ -76,15 +64,16 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiADC-7.1.1",
+					"FortiADC-7.1.0",
 					"FortiDDoS-F-6.4.1",
 					"FortiDDoS-F-6.4.0",
+					"FortiDDoS-F-6.3.5",
 					"FortiDDoS-F-6.3.4",
 					"FortiDDoS-F-6.3.3",
 					"FortiDDoS-F-6.3.2",
 					"FortiDDoS-F-6.3.1",
-					"FortiDDoS-F-6.3.0",
-					"FortiADC-7.1.1",
-					"FortiADC-7.1.0"
+					"FortiDDoS-F-6.3.0"
 				]
 			}
 		},
@@ -100,6 +89,28 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiADC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.1.1",
+								"product_id": "FortiADC-7.1.1"
+							}
+						},
+						{
+							"name": "7.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.1.0",
+								"product_id": "FortiADC-7.1.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiDDoS-F",
 					"type": "Product Name",
@@ -118,6 +129,14 @@
 							"full_product_name": {
 								"text": "FortiDDoS-F 6.4.0",
 								"product_id": "FortiDDoS-F-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDDoS-F 6.3.5",
+								"product_id": "FortiDDoS-F-6.3.5"
 							}
 						},
 						{
@@ -158,28 +177,6 @@
 							"full_product_name": {
 								"text": "FortiDDoS-F 6.3.0",
 								"product_id": "FortiDDoS-F-6.3.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiADC",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.1.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.1.1",
-								"product_id": "FortiADC-7.1.1"
-							}
-						},
-						{
-							"name": "7.1.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.1.0",
-								"product_id": "FortiADC-7.1.0"
 							}
 						}
 					]

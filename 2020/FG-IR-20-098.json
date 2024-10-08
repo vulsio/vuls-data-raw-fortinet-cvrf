@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer - XSS vulnerability observed in the Column settings of LogView",
+	"document_title": "XSS vulnerability observed in the Column settings of LogView",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAnalyzer version 6.4.3 and below. FortiAnalyzer version 6.2.7 and below. FortiAnalyzer version 6.0.x.\n        ",
+				"text": "\n            FortiAnalyzer version 6.4.3 and below.FortiAnalyzer version 6.2.7 and below.FortiAnalyzer version 6.0.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 6.4.4 or above. Please upgrade to FortiAnalyzer version 6.2.8 or above.   Workaround: Disable Log View/Fortiview access. config system admin profile edit set log-viewer none next end\n        ",
+				"text": "\n            Please upgrade to FortiAnalyzer version 6.4.4 or above.Please upgrade to FortiAnalyzer version 6.2.8 or above.Workaround:Disable Log View/Fortiview access.config system admin profileedit set log-viewer nonenextend\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer - XSS vulnerability observed in the Column settings of LogView",
+		"title": "XSS vulnerability observed in the Column settings of LogView",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-098",
-					"description": "FortiAnalyzer - XSS vulnerability observed in the Column settings of LogView"
+					"description": "XSS vulnerability observed in the Column settings of LogView"
 				}
 			]
 		},

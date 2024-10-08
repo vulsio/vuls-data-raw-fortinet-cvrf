@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN - Pervasive SQL injection",
+	"document_title": "Pervasive SQL injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements used in an SQL command vulnerabilities in FortiWAN may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements used in an SQL command vulnerabilities in FortiWAN may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWAN 4.5.8 and below.\n        ",
+				"text": "\n            FortiWAN 4.5.8 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWAN 4.5.9 or above.\n        ",
+				"text": "\n            Upgrade to FortiWAN 4.5.9 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN - Pervasive SQL injection",
+		"title": "Pervasive SQL injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-062",
-					"description": "FortiWAN - Pervasive SQL injection"
+					"description": "Pervasive SQL injection"
 				}
 			]
 		},

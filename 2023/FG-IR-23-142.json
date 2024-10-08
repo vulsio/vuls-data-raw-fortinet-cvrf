@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Unauthenticated SQL Injection Vulnerability",
+	"document_title": "Unauthenticated SQL Injection Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,12 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWLM version 8.6.6 or above Please upgrade to FortiWLM version 8.5.5 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},
@@ -62,13 +56,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Unauthenticated SQL Injection Vulnerability",
+		"title": "Unauthenticated SQL Injection Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-142",
-					"description": "FortiWLM - Unauthenticated SQL Injection Vulnerability"
+					"description": "Unauthenticated SQL Injection Vulnerability"
 				}
 			]
 		},

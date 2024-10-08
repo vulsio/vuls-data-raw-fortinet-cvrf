@@ -30,13 +30,13 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information disclosure\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail version 6.4.4 and below. FortiMail version 6.2.6 and below.\n        ",
+				"text": "\n            FortiMail version 6.4.4 and below.FortiMail version 6.2.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"

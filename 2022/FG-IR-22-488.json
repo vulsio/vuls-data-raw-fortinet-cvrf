@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer - CSV injection in macro name",
+	"document_title": "CSV injection in macro name",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiAnalyzer version 7.2.0 through 7.2.1FortiAnalyzer version 7.0.0 through 7.0.6FortiAnalyzer 6.4 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.2.2 or above Please upgrade to FortiAnalyzer version 7.0.7 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer - CSV injection in macro name",
+		"title": "CSV injection in macro name",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-488",
-					"description": "FortiAnalyzer - CSV injection in macro name"
+					"description": "CSV injection in macro name"
 				}
 			]
 		},
@@ -91,6 +79,7 @@
 					"FortiAnalyzer-7.0.2",
 					"FortiAnalyzer-7.0.1",
 					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.14",
 					"FortiAnalyzer-6.4.13",
 					"FortiAnalyzer-6.4.12",
 					"FortiAnalyzer-6.4.11",
@@ -111,7 +100,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -194,6 +183,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.0.0",
 								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.14",
+								"product_id": "FortiAnalyzer-6.4.14"
 							}
 						},
 						{

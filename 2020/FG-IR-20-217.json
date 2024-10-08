@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAuthenticator - Improper access control in HA service",
+	"document_title": "Improper access control in HA service",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,16 +36,22 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAuthenticator 6.3.2 and below. FortiAuthenticator 6.2.x. FortiAuthenticator 6.1.x. FortiAuthenticator 6.0.x.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAuthenticator 6.4.0 or above. Please upgrade to FortiAuthenticator 6.3.3 or above.\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiAuthenticator 6.3.2 and below.FortiAuthenticator 6.2.x.FortiAuthenticator 6.1.x.FortiAuthenticator 6.0.x.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiAuthenticator 6.4.0 or above.Please upgrade to FortiAuthenticator 6.3.3 or above.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAuthenticator - Improper access control in HA service",
+		"title": "Improper access control in HA service",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-217",
-					"description": "FortiAuthenticator - Improper access control in HA service"
+					"description": "Improper access control in HA service"
 				}
 			]
 		},

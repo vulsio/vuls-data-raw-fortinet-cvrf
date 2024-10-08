@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAP-C - Command injection in CLI",
+	"document_title": "Command injection in CLI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerability [CWE-78] in FortiAP-C console may allow an authenticated attacker to execute unauthorized commands by running CLI commands with specifically crafted arguments.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerability [CWE-78] in FortiAP-C console may allow an authenticated attacker to execute unauthorized commands by running CLI commands with specifically crafted arguments.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAP-C version 5.4.0 through 5.4.3  \n        ",
+				"text": "\n            FortiAP-C version 5.4.0 through 5.4.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAP-C 5.4.4 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAP-C 5.4.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -68,13 +68,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAP-C - Command injection in CLI",
+		"title": "Command injection in CLI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-227",
-					"description": "FortiAP-C - Command injection in CLI"
+					"description": "Command injection in CLI"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSDNConnector - Credential leak",
+	"document_title": "Credential leak",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insufficiently protected credentials vulnerability [CWE-522] in FortiSDNConnector may allow an authenticated user to obtain third party device credentials via visiting the configuration page in the WebUI.\n        ",
+				"text": "\n            An insufficiently protected credentials vulnerability [CWE-522] in FortiSDNConnector may allow an authenticated user to obtain third party device credentials via visiting the configuration page in the WebUI.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSDNConnector - Credential leak",
+		"title": "Credential leak",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-183",
-					"description": "FortiSDNConnector - Credential leak"
+					"description": "Credential leak"
 				}
 			]
 		},

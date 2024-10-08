@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - SQL Injection in script handlers",
+	"document_title": "SQL Injection in script handlers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiWLM may allow an unauthenticated user to taint database data and extract sensitive informations via crafted HTTP requests to alarm and device handlers.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiWLM may allow an unauthenticated user to taint database data and extract sensitive informations via crafted HTTP requests to alarm and device handlers.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortlWLM version 8.6.1 and below FortiWLM version 8.5.3 and below FortiWLM 8.2 all versions FortiWLM 8.3 all versions FortiWLM 8.4 all versions  \n        ",
+				"text": "\n            FortlWLM version 8.6.1 and belowFortiWLM version 8.5.3 and belowFortiWLM 8.2 all versionsFortiWLM 8.3 all versionsFortiWLM 8.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWLM version 8.6.2 or above. Upgrade to FortiWLM version 8.5.4 or above.\n        ",
+				"text": "\n            Upgrade to FortiWLM version 8.6.2 or above.Upgrade to FortiWLM version 8.5.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - SQL Injection in script handlers",
+		"title": "SQL Injection in script handlers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-129",
-					"description": "FortiWLM - SQL Injection in script handlers"
+					"description": "SQL Injection in script handlers"
 				}
 			]
 		},

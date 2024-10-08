@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability (CWE-79) in FortiPortal GUI may allow a remote and unauthenticated attacker to perform an XSS attack via sending a crafted request with an invalid lang parameter or with an invalid org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE value.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiPortal GUI may allow a remote and unauthenticated attacker to perform an XSS attack via sending a crafted request with an invalid lang parameter or with an invalid org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE value.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPortal 6.0.4 and below. FortiPortal 5.3.6 and below. FortiPortal 5.2.6 and below. FortiPortal 5.1.2 and below. FortiPortal 5.0.3 and below. FortiPortal 4.2.4 and below. FortiPortal 4.1.2 and below. FortiPortal 4.0.4 and below.\n        ",
+				"text": "\n            FortiPortal 6.0.4 and below.FortiPortal 5.3.6 and below.FortiPortal 5.2.6 and below.FortiPortal 5.1.2 and below.FortiPortal 5.0.3 and below.FortiPortal 4.2.4 and below.FortiPortal 4.1.2 and below.FortiPortal 4.0.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please Upgrade to FortiPortal 6.0.5 or above. Please Upgrade to FortiPortal 5.3.7 or above.\n        ",
+				"text": "\n            Please Upgrade to FortiPortal 6.0.5 or above.Please Upgrade to FortiPortal 5.3.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS - Authenticated Injection vulnerabilities",
+	"document_title": "Authenticated Injection vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input vulnerability [CWE-79] in FortiClientEMS may allow a remote authenticated attacker to inject malicious script/tags via the name parameter of various sections of the server.\n        ",
+				"text": "\n            An improper neutralization of input vulnerability [CWE-79] in FortiClientEMS may allow a remote authenticated attacker to inject malicious script/tags via the name parameter of various sections of the server.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientEMS version 6.4.1 and below.  \n        ",
+				"text": "\n            FortiClientEMS version 6.4.1 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to version 6.4.2 or above. Please upgrade to version 7.0.0 or above.\n        ",
+				"text": "\n            Please upgrade to version 6.4.2 or above.Please upgrade to version 7.0.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS - Authenticated Injection vulnerabilities",
+		"title": "Authenticated Injection vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-067",
-					"description": "FortiClientEMS - Authenticated Injection vulnerabilities"
+					"description": "Authenticated Injection vulnerabilities"
 				}
 			]
 		},

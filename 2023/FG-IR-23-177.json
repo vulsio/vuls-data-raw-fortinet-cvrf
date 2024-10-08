@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - Use of hardcoded credentials in fmgsvrd",
+	"document_title": "Use of hardcoded credentials in fmgsvrd",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiAnalyzer version 7.4.0 FortiAnalyzer version 7.2.0 through 7.2.3 FortiAnalyzer version 7.0.0 through 7.0.8 FortiManager version 7.4.0 FortiManager version 7.2.0 through 7.2.3 FortiManager version 7.0.0 through 7.0.8\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.4.1 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.9 or above Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.9 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - Use of hardcoded credentials in fmgsvrd",
+		"title": "Use of hardcoded credentials in fmgsvrd",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-177",
-					"description": "FortiManager & FortiAnalyzer - Use of hardcoded credentials in fmgsvrd"
+					"description": "Use of hardcoded credentials in fmgsvrd"
 				}
 			]
 		},

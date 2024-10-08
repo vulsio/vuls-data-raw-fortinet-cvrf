@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - XSS vulnerability in HTML generated attack report files",
+	"document_title": "XSS vulnerability in HTML generated attack report files",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.3 FortiWeb 6.4 all versions FortiWeb version 6.3.0 through 6.3.21 FortiWeb version 6.2 all versions FortiWeb version 6.1 all versions FortiWeb version 6.0 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.3FortiWeb 6.4 all versionsFortiWeb version 6.3.0 through 6.3.21FortiWeb version 6.2 all versionsFortiWeb version 6.1 all versionsFortiWeb version 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - XSS vulnerability in HTML generated attack report files",
+		"title": "XSS vulnerability in HTML generated attack report files",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-428",
-					"description": "FortiWeb - XSS vulnerability in HTML generated attack report files"
+					"description": "XSS vulnerability in HTML generated attack report files"
 				}
 			]
 		},

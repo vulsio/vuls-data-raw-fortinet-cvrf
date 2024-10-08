@@ -1,5 +1,5 @@
 {
-	"document_title": "Multiple Products  - Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)",
+	"document_title": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,28 +24,16 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            On May 11th, 2021, Mathy Vanhoef (New York University Abu Dhabi) published a new paper, Fragment and Forge: Breaking Wi-Fi Through Frame Aggregation and Fragmentation, on a number of vulnerabilities in the base 802.11 protocol (802.11 is the standard that Wi-Fi is built on). The paper discloses three design flaws in the 802.11 standard and nine common implementation flaws related to aggregation and fragmentation functionality. These vulnerabilities could allow an attacker to forge encrypted frames, which could in turn enable the exfiltration of sensitive data from a targeted device.\n        ",
+				"text": "\n            On May 11th, 2021, Mathy Vanhoef (New York University Abu Dhabi) published a new paper, Fragment and Forge: Breaking Wi-Fi Through Frame Aggregation and Fragmentation, on a number of vulnerabilities in the base 802.11 protocol (802.11 is the standard that Wi-Fi is built on). The paper discloses three design flaws in the 802.11 standard and nine common implementation flaws related to aggregation and fragmentation functionality.These vulnerabilities could allow an attacker to forge encrypted frames, which could in turn enable the exfiltration of sensitive data from a targeted device.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure or Exposure of Internal Resources\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
-			},
-			{
-				"text": "\n            FortiWiFi versions 6.x, 5.x, 7.0.0 and 7.0.1 FortiAP versions 4.x, 5.x, 6.x before 6.4.6, 7.0.0 and 7.0.1 FortiAP-C versions 5.2.x, 5.4.0 through 5.4.2 FortiAP-S versions 5.x and 6.x before 6.4.6 FortiAP-U versions 5.x and 6.x before 6.2.1 FortiAP-W2 versions 5.x, 6.x before 6.4.6 and 7.0.0 Meru AP versions 6.x, 7.x and 8.x before 8.5.4 and 8.6.1  \n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "3"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWiFi version 7.0.2 or above Please upgrade to FortiAP version 6.4.7 or above Please upgrade to FortiAP version 7.0.2 or above Please upgrade to FortiAP-C version 5.4.3 or above Please upgrade to FortiAP-S version 6.4.7 or above Please upgrade to FortiAP-U version 6.2.2 or above Please upgrade to FortiAP-W2 version 6.4.7 or above Please upgrade to FortiAP-W2 version 7.0.1 or above Please upgrade to MeruAP version 8.5.5 or above Please upgrade to MeruAP version 8.6.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},
@@ -53,102 +41,46 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-071",
-				"description": "Multiple Products  - Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
+				"description": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
 			},
 			{
-				"url": "The FragAttacks paper can be accessed via the following link:\n",
-				"description": "The FragAttacks paper can be accessed via the following link:\n"
+				"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf",
+				"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf"
 			},
 			{
-				"url": "https://papers.mathyvanhoef.com/usenix2021.pdf\n",
-				"description": "https://papers.mathyvanhoef.com/usenix2021.pdf\n"
-			},
-			{
-				"url": "For more information about the vulnerabilities: \n",
-				"description": "For more information about the vulnerabilities: \n"
-			},
-			{
-				"url": "https://www.fragattacks.com/",
-				"description": "https://www.fragattacks.com/"
+				"url": "For more information about the vulnerabilities: https://www.fragattacks.com/",
+				"description": "For more information about the vulnerabilities: https://www.fragattacks.com/"
 			}
 		]
 	},
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Multiple Products  - Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)",
+		"title": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-071",
-					"description": "Multiple Products  - Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
+					"description": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
 				},
 				{
-					"url": "The FragAttacks paper can be accessed via the following link:\n",
-					"description": "The FragAttacks paper can be accessed via the following link:\n"
+					"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf",
+					"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf"
 				},
 				{
-					"url": "https://papers.mathyvanhoef.com/usenix2021.pdf\n",
-					"description": "https://papers.mathyvanhoef.com/usenix2021.pdf\n"
-				},
-				{
-					"url": "For more information about the vulnerabilities: \n",
-					"description": "For more information about the vulnerabilities: \n"
-				},
-				{
-					"url": "https://www.fragattacks.com/",
-					"description": "https://www.fragattacks.com/"
+					"url": "For more information about the vulnerabilities: https://www.fragattacks.com/",
+					"description": "For more information about the vulnerabilities: https://www.fragattacks.com/"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2020-26139",
-			"CVE-2020-26140",
-			"CVE-2020-26141",
-			"CVE-2020-26142",
-			"CVE-2020-26143",
-			"CVE-2020-26144",
-			"CVE-2020-26145",
-			"CVE-2020-26146",
-			"CVE-2020-26147"
+			"CVE-2020-24587"
 		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiAP-W2-7.0.0",
-					"FortiAP-W2-6.4.6",
-					"FortiAP-W2-6.4.5",
-					"FortiAP-W2-6.4.4",
-					"FortiAP-W2-6.4.3",
-					"FortiAP-W2-6.4.2",
-					"FortiAP-W2-6.4.1",
-					"FortiAP-W2-6.4.0",
-					"FortiAP-W2-6.2.6",
-					"FortiAP-W2-6.2.5",
-					"FortiAP-W2-6.2.4",
-					"FortiAP-W2-6.2.3",
-					"FortiAP-W2-6.2.2",
-					"FortiAP-W2-6.2.1",
-					"FortiAP-W2-6.2.0",
-					"FortiAP-W2-6.0.6",
-					"FortiAP-W2-6.0.5",
-					"FortiAP-W2-6.0.4",
-					"FortiAP-W2-6.0.3",
-					"FortiAP-W2-6.0.2",
-					"FortiAP-W2-6.0.1",
-					"FortiAP-W2-6.0.0",
-					"FortiAP-W2-5.6.4",
-					"FortiAP-W2-5.6.3",
-					"FortiAP-W2-5.6.2",
-					"FortiAP-W2-5.6.1",
-					"FortiAP-W2-5.6.0",
-					"FortiAP-W2-5.4.4",
-					"FortiAP-W2-5.4.3",
-					"FortiAP-W2-5.4.2",
-					"FortiAP-W2-5.4.1",
-					"FortiAP-W2-5.4.0",
 					"FortiAP-7.0.1",
 					"FortiAP-7.0.0",
 					"FortiAP-6.4.6",
@@ -205,40 +137,11 @@
 					"FortiAP-4.3.1",
 					"FortiAP-4.3.0",
 					"FortiAP-4.2.1",
-					"Meru AP-8.6.1",
-					"Meru AP-8.6.0",
-					"Meru AP-8.5.4",
-					"Meru AP-8.5.3",
-					"Meru AP-8.5.2",
-					"Meru AP-8.5.1",
-					"Meru AP-8.5.0",
-					"Meru AP-8.4.8",
-					"Meru AP-8.4.7",
-					"Meru AP-8.4.6",
-					"Meru AP-8.4.5",
-					"Meru AP-8.4.4",
-					"Meru AP-8.4.2",
-					"Meru AP-8.4.1",
-					"Meru AP-8.4.0",
-					"Meru AP-8.3.3",
-					"Meru AP-8.3.2",
-					"Meru AP-8.3.0",
-					"Meru AP-8.2.7",
-					"Meru AP-8.2.6",
-					"Meru AP-8.2.4",
-					"Meru AP-8.1.2",
-					"FortiAP-U-6.2.1",
-					"FortiAP-U-6.2.0",
-					"FortiAP-U-6.0.4",
-					"FortiAP-U-6.0.3",
-					"FortiAP-U-6.0.2",
-					"FortiAP-U-6.0.1",
-					"FortiAP-U-6.0.0",
-					"FortiAP-U-5.4.6",
-					"FortiAP-U-5.4.5",
-					"FortiAP-U-5.4.4",
-					"FortiAP-U-5.4.3",
-					"FortiAP-U-5.4.0",
+					"FortiAP-C-5.4.2",
+					"FortiAP-C-5.4.1",
+					"FortiAP-C-5.4.0",
+					"FortiAP-C-5.2.1",
+					"FortiAP-C-5.2.0",
 					"FortiAP-S-6.4.6",
 					"FortiAP-S-6.4.5",
 					"FortiAP-S-6.4.4",
@@ -267,11 +170,50 @@
 					"FortiAP-S-5.6.0",
 					"FortiAP-S-5.4.4",
 					"FortiAP-S-5.4.3",
-					"FortiAP-C-5.4.2",
-					"FortiAP-C-5.4.1",
-					"FortiAP-C-5.4.0",
-					"FortiAP-C-5.2.1",
-					"FortiAP-C-5.2.0",
+					"FortiAP-U-6.2.1",
+					"FortiAP-U-6.2.0",
+					"FortiAP-U-6.0.4",
+					"FortiAP-U-6.0.3",
+					"FortiAP-U-6.0.2",
+					"FortiAP-U-6.0.1",
+					"FortiAP-U-6.0.0",
+					"FortiAP-U-5.4.6",
+					"FortiAP-U-5.4.5",
+					"FortiAP-U-5.4.4",
+					"FortiAP-U-5.4.3",
+					"FortiAP-U-5.4.0",
+					"FortiAP-W2-7.0.0",
+					"FortiAP-W2-6.4.6",
+					"FortiAP-W2-6.4.5",
+					"FortiAP-W2-6.4.4",
+					"FortiAP-W2-6.4.3",
+					"FortiAP-W2-6.4.2",
+					"FortiAP-W2-6.4.1",
+					"FortiAP-W2-6.4.0",
+					"FortiAP-W2-6.2.6",
+					"FortiAP-W2-6.2.5",
+					"FortiAP-W2-6.2.4",
+					"FortiAP-W2-6.2.3",
+					"FortiAP-W2-6.2.2",
+					"FortiAP-W2-6.2.1",
+					"FortiAP-W2-6.2.0",
+					"FortiAP-W2-6.0.6",
+					"FortiAP-W2-6.0.5",
+					"FortiAP-W2-6.0.4",
+					"FortiAP-W2-6.0.3",
+					"FortiAP-W2-6.0.2",
+					"FortiAP-W2-6.0.1",
+					"FortiAP-W2-6.0.0",
+					"FortiAP-W2-5.6.4",
+					"FortiAP-W2-5.6.3",
+					"FortiAP-W2-5.6.2",
+					"FortiAP-W2-5.6.1",
+					"FortiAP-W2-5.6.0",
+					"FortiAP-W2-5.4.4",
+					"FortiAP-W2-5.4.3",
+					"FortiAP-W2-5.4.2",
+					"FortiAP-W2-5.4.1",
+					"FortiAP-W2-5.4.0",
 					"FortiOS-7.0.1",
 					"FortiOS-7.0.0",
 					"FortiOS-6.4.14",
@@ -337,7 +279,29 @@
 					"FortiOS-5.6.3",
 					"FortiOS-5.6.2",
 					"FortiOS-5.6.1",
-					"FortiOS-5.6.0"
+					"FortiOS-5.6.0",
+					"Meru AP-8.6.1",
+					"Meru AP-8.6.0",
+					"Meru AP-8.5.4",
+					"Meru AP-8.5.3",
+					"Meru AP-8.5.2",
+					"Meru AP-8.5.1",
+					"Meru AP-8.5.0",
+					"Meru AP-8.4.8",
+					"Meru AP-8.4.7",
+					"Meru AP-8.4.6",
+					"Meru AP-8.4.5",
+					"Meru AP-8.4.4",
+					"Meru AP-8.4.2",
+					"Meru AP-8.4.1",
+					"Meru AP-8.4.0",
+					"Meru AP-8.3.3",
+					"Meru AP-8.3.2",
+					"Meru AP-8.3.0",
+					"Meru AP-8.2.7",
+					"Meru AP-8.2.6",
+					"Meru AP-8.2.4",
+					"Meru AP-8.1.2"
 				]
 			}
 		},
@@ -353,268 +317,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiAP-W2",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 7.0.0",
-								"product_id": "FortiAP-W2-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.6",
-								"product_id": "FortiAP-W2-6.4.6"
-							}
-						},
-						{
-							"name": "6.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.5",
-								"product_id": "FortiAP-W2-6.4.5"
-							}
-						},
-						{
-							"name": "6.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.4",
-								"product_id": "FortiAP-W2-6.4.4"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.3",
-								"product_id": "FortiAP-W2-6.4.3"
-							}
-						},
-						{
-							"name": "6.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.2",
-								"product_id": "FortiAP-W2-6.4.2"
-							}
-						},
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.1",
-								"product_id": "FortiAP-W2-6.4.1"
-							}
-						},
-						{
-							"name": "6.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.0",
-								"product_id": "FortiAP-W2-6.4.0"
-							}
-						},
-						{
-							"name": "6.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.6",
-								"product_id": "FortiAP-W2-6.2.6"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.5",
-								"product_id": "FortiAP-W2-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.4",
-								"product_id": "FortiAP-W2-6.2.4"
-							}
-						},
-						{
-							"name": "6.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.3",
-								"product_id": "FortiAP-W2-6.2.3"
-							}
-						},
-						{
-							"name": "6.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.2",
-								"product_id": "FortiAP-W2-6.2.2"
-							}
-						},
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.1",
-								"product_id": "FortiAP-W2-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.0",
-								"product_id": "FortiAP-W2-6.2.0"
-							}
-						},
-						{
-							"name": "6.0.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.6",
-								"product_id": "FortiAP-W2-6.0.6"
-							}
-						},
-						{
-							"name": "6.0.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.5",
-								"product_id": "FortiAP-W2-6.0.5"
-							}
-						},
-						{
-							"name": "6.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.4",
-								"product_id": "FortiAP-W2-6.0.4"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.3",
-								"product_id": "FortiAP-W2-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.2",
-								"product_id": "FortiAP-W2-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.1",
-								"product_id": "FortiAP-W2-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.0.0",
-								"product_id": "FortiAP-W2-6.0.0"
-							}
-						},
-						{
-							"name": "5.6.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.6.4",
-								"product_id": "FortiAP-W2-5.6.4"
-							}
-						},
-						{
-							"name": "5.6.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.6.3",
-								"product_id": "FortiAP-W2-5.6.3"
-							}
-						},
-						{
-							"name": "5.6.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.6.2",
-								"product_id": "FortiAP-W2-5.6.2"
-							}
-						},
-						{
-							"name": "5.6.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.6.1",
-								"product_id": "FortiAP-W2-5.6.1"
-							}
-						},
-						{
-							"name": "5.6.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.6.0",
-								"product_id": "FortiAP-W2-5.6.0"
-							}
-						},
-						{
-							"name": "5.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.4.4",
-								"product_id": "FortiAP-W2-5.4.4"
-							}
-						},
-						{
-							"name": "5.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.4.3",
-								"product_id": "FortiAP-W2-5.4.3"
-							}
-						},
-						{
-							"name": "5.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.4.2",
-								"product_id": "FortiAP-W2-5.4.2"
-							}
-						},
-						{
-							"name": "5.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.4.1",
-								"product_id": "FortiAP-W2-5.4.1"
-							}
-						},
-						{
-							"name": "5.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 5.4.0",
-								"product_id": "FortiAP-W2-5.4.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiAP",
 					"type": "Product Name",
@@ -1070,285 +772,47 @@
 					]
 				},
 				{
-					"name": "Meru AP",
+					"name": "FortiAP-C",
 					"type": "Product Name",
 					"branch": [
 						{
-							"name": "8.6.1",
+							"name": "5.4.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "Meru AP 8.6.1",
-								"product_id": "Meru AP-8.6.1"
+								"text": "FortiAP-C 5.4.2",
+								"product_id": "FortiAP-C-5.4.2"
 							}
 						},
 						{
-							"name": "8.6.0",
+							"name": "5.4.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "Meru AP 8.6.0",
-								"product_id": "Meru AP-8.6.0"
-							}
-						},
-						{
-							"name": "8.5.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.4",
-								"product_id": "Meru AP-8.5.4"
-							}
-						},
-						{
-							"name": "8.5.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.3",
-								"product_id": "Meru AP-8.5.3"
-							}
-						},
-						{
-							"name": "8.5.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.2",
-								"product_id": "Meru AP-8.5.2"
-							}
-						},
-						{
-							"name": "8.5.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.1",
-								"product_id": "Meru AP-8.5.1"
-							}
-						},
-						{
-							"name": "8.5.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.0",
-								"product_id": "Meru AP-8.5.0"
-							}
-						},
-						{
-							"name": "8.4.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.8",
-								"product_id": "Meru AP-8.4.8"
-							}
-						},
-						{
-							"name": "8.4.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.7",
-								"product_id": "Meru AP-8.4.7"
-							}
-						},
-						{
-							"name": "8.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.6",
-								"product_id": "Meru AP-8.4.6"
-							}
-						},
-						{
-							"name": "8.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.5",
-								"product_id": "Meru AP-8.4.5"
-							}
-						},
-						{
-							"name": "8.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.4",
-								"product_id": "Meru AP-8.4.4"
-							}
-						},
-						{
-							"name": "8.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.2",
-								"product_id": "Meru AP-8.4.2"
-							}
-						},
-						{
-							"name": "8.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.1",
-								"product_id": "Meru AP-8.4.1"
-							}
-						},
-						{
-							"name": "8.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.4.0",
-								"product_id": "Meru AP-8.4.0"
-							}
-						},
-						{
-							"name": "8.3.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.3.3",
-								"product_id": "Meru AP-8.3.3"
-							}
-						},
-						{
-							"name": "8.3.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.3.2",
-								"product_id": "Meru AP-8.3.2"
-							}
-						},
-						{
-							"name": "8.3.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.3.0",
-								"product_id": "Meru AP-8.3.0"
-							}
-						},
-						{
-							"name": "8.2.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.2.7",
-								"product_id": "Meru AP-8.2.7"
-							}
-						},
-						{
-							"name": "8.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.2.6",
-								"product_id": "Meru AP-8.2.6"
-							}
-						},
-						{
-							"name": "8.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.2.4",
-								"product_id": "Meru AP-8.2.4"
-							}
-						},
-						{
-							"name": "8.1.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.1.2",
-								"product_id": "Meru AP-8.1.2"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAP-U",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.2.1",
-								"product_id": "FortiAP-U-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.2.0",
-								"product_id": "FortiAP-U-6.2.0"
-							}
-						},
-						{
-							"name": "6.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.0.4",
-								"product_id": "FortiAP-U-6.0.4"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.0.3",
-								"product_id": "FortiAP-U-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.0.2",
-								"product_id": "FortiAP-U-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.0.1",
-								"product_id": "FortiAP-U-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 6.0.0",
-								"product_id": "FortiAP-U-6.0.0"
-							}
-						},
-						{
-							"name": "5.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 5.4.6",
-								"product_id": "FortiAP-U-5.4.6"
-							}
-						},
-						{
-							"name": "5.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 5.4.5",
-								"product_id": "FortiAP-U-5.4.5"
-							}
-						},
-						{
-							"name": "5.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 5.4.4",
-								"product_id": "FortiAP-U-5.4.4"
-							}
-						},
-						{
-							"name": "5.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-U 5.4.3",
-								"product_id": "FortiAP-U-5.4.3"
+								"text": "FortiAP-C 5.4.1",
+								"product_id": "FortiAP-C-5.4.1"
 							}
 						},
 						{
 							"name": "5.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-U 5.4.0",
-								"product_id": "FortiAP-U-5.4.0"
+								"text": "FortiAP-C 5.4.0",
+								"product_id": "FortiAP-C-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-C 5.2.1",
+								"product_id": "FortiAP-C-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-C 5.2.0",
+								"product_id": "FortiAP-C-5.2.0"
 							}
 						}
 					]
@@ -1584,47 +1048,365 @@
 					]
 				},
 				{
-					"name": "FortiAP-C",
+					"name": "FortiAP-U",
 					"type": "Product Name",
 					"branch": [
 						{
-							"name": "5.4.2",
+							"name": "6.2.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-C 5.4.2",
-								"product_id": "FortiAP-C-5.4.2"
+								"text": "FortiAP-U 6.2.1",
+								"product_id": "FortiAP-U-6.2.1"
 							}
 						},
 						{
-							"name": "5.4.1",
+							"name": "6.2.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-C 5.4.1",
-								"product_id": "FortiAP-C-5.4.1"
+								"text": "FortiAP-U 6.2.0",
+								"product_id": "FortiAP-U-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.4",
+								"product_id": "FortiAP-U-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.3",
+								"product_id": "FortiAP-U-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.2",
+								"product_id": "FortiAP-U-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.1",
+								"product_id": "FortiAP-U-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 6.0.0",
+								"product_id": "FortiAP-U-6.0.0"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.6",
+								"product_id": "FortiAP-U-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.5",
+								"product_id": "FortiAP-U-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.4",
+								"product_id": "FortiAP-U-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.3",
+								"product_id": "FortiAP-U-5.4.3"
 							}
 						},
 						{
 							"name": "5.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-C 5.4.0",
-								"product_id": "FortiAP-C-5.4.0"
+								"text": "FortiAP-U 5.4.0",
+								"product_id": "FortiAP-U-5.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-W2",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 7.0.0",
+								"product_id": "FortiAP-W2-7.0.0"
 							}
 						},
 						{
-							"name": "5.2.1",
+							"name": "6.4.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-C 5.2.1",
-								"product_id": "FortiAP-C-5.2.1"
+								"text": "FortiAP-W2 6.4.6",
+								"product_id": "FortiAP-W2-6.4.6"
 							}
 						},
 						{
-							"name": "5.2.0",
+							"name": "6.4.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAP-C 5.2.0",
-								"product_id": "FortiAP-C-5.2.0"
+								"text": "FortiAP-W2 6.4.5",
+								"product_id": "FortiAP-W2-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.4",
+								"product_id": "FortiAP-W2-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.3",
+								"product_id": "FortiAP-W2-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.2",
+								"product_id": "FortiAP-W2-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.1",
+								"product_id": "FortiAP-W2-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.0",
+								"product_id": "FortiAP-W2-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.6",
+								"product_id": "FortiAP-W2-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.5",
+								"product_id": "FortiAP-W2-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.4",
+								"product_id": "FortiAP-W2-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.3",
+								"product_id": "FortiAP-W2-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.2",
+								"product_id": "FortiAP-W2-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.1",
+								"product_id": "FortiAP-W2-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.0",
+								"product_id": "FortiAP-W2-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.6",
+								"product_id": "FortiAP-W2-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.5",
+								"product_id": "FortiAP-W2-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.4",
+								"product_id": "FortiAP-W2-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.3",
+								"product_id": "FortiAP-W2-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.2",
+								"product_id": "FortiAP-W2-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.1",
+								"product_id": "FortiAP-W2-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.0",
+								"product_id": "FortiAP-W2-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.4",
+								"product_id": "FortiAP-W2-5.6.4"
+							}
+						},
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.3",
+								"product_id": "FortiAP-W2-5.6.3"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.2",
+								"product_id": "FortiAP-W2-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.1",
+								"product_id": "FortiAP-W2-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.0",
+								"product_id": "FortiAP-W2-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.4.4",
+								"product_id": "FortiAP-W2-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.4.3",
+								"product_id": "FortiAP-W2-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.4.2",
+								"product_id": "FortiAP-W2-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.4.1",
+								"product_id": "FortiAP-W2-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.4.0",
+								"product_id": "FortiAP-W2-5.4.0"
 							}
 						}
 					]
@@ -2159,6 +1941,188 @@
 							"full_product_name": {
 								"text": "FortiOS 5.6.0",
 								"product_id": "FortiOS-5.6.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Meru AP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.6.1",
+								"product_id": "Meru AP-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.6.0",
+								"product_id": "Meru AP-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.4",
+								"product_id": "Meru AP-8.5.4"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.3",
+								"product_id": "Meru AP-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.2",
+								"product_id": "Meru AP-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.1",
+								"product_id": "Meru AP-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.5.0",
+								"product_id": "Meru AP-8.5.0"
+							}
+						},
+						{
+							"name": "8.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.8",
+								"product_id": "Meru AP-8.4.8"
+							}
+						},
+						{
+							"name": "8.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.7",
+								"product_id": "Meru AP-8.4.7"
+							}
+						},
+						{
+							"name": "8.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.6",
+								"product_id": "Meru AP-8.4.6"
+							}
+						},
+						{
+							"name": "8.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.5",
+								"product_id": "Meru AP-8.4.5"
+							}
+						},
+						{
+							"name": "8.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.4",
+								"product_id": "Meru AP-8.4.4"
+							}
+						},
+						{
+							"name": "8.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.2",
+								"product_id": "Meru AP-8.4.2"
+							}
+						},
+						{
+							"name": "8.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.1",
+								"product_id": "Meru AP-8.4.1"
+							}
+						},
+						{
+							"name": "8.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.4.0",
+								"product_id": "Meru AP-8.4.0"
+							}
+						},
+						{
+							"name": "8.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.3.3",
+								"product_id": "Meru AP-8.3.3"
+							}
+						},
+						{
+							"name": "8.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.3.2",
+								"product_id": "Meru AP-8.3.2"
+							}
+						},
+						{
+							"name": "8.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.3.0",
+								"product_id": "Meru AP-8.3.0"
+							}
+						},
+						{
+							"name": "8.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.2.7",
+								"product_id": "Meru AP-8.2.7"
+							}
+						},
+						{
+							"name": "8.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.2.6",
+								"product_id": "Meru AP-8.2.6"
+							}
+						},
+						{
+							"name": "8.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.2.4",
+								"product_id": "Meru AP-8.2.4"
+							}
+						},
+						{
+							"name": "8.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru AP 8.1.2",
+								"product_id": "Meru AP-8.1.2"
 							}
 						}
 					]

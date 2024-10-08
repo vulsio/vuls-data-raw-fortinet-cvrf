@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGuest - Password in clear text in RADIUS log",
+	"document_title": "Password in clear text in RADIUS log",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiGuest 1.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiGuest version 1.1.0 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGuest - Password in clear text in RADIUS log",
+		"title": "Password in clear text in RADIUS log",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-052",
-					"description": "FortiGuest - Password in clear text in RADIUS log"
+					"description": "Password in clear text in RADIUS log"
 				}
 			]
 		},

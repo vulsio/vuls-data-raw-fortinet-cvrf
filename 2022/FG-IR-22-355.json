@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPresence - Unpassworded remotely accessible Redis & MongoDB",
+	"document_title": "Unpassworded remotely accessible Redis & MongoDB",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A missing authentication for critical function vulnerability [CWE-306] in FortiPresence on-prem infrastructure server may allow a remote, unauthenticated attacker to access the Redis and MongoDB instances via crafted authentication requests. Â Note: The amount of deployed on-prem instances is minimal.Â The Cloud instances of FortiPresence are not impacted.\n        ",
+				"text": "\n            A missing authentication for critical function vulnerability [CWE-306] in FortiPresence on-prem infrastructure server may allow a remote, unauthenticated attacker to access the Redis and MongoDB instances via crafted authentication requests. Note: The amount of deployed on-prem instances is minimal. The Cloud instances of FortiPresence are not impacted.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPresence 1.2 all versions FortiPresence 1.1 all versions FortiPresence 1.0 all versions\n        ",
+				"text": "\n            FortiPresence 1.2 all versionsFortiPresence 1.1 all versionsFortiPresence 1.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPresence - Unpassworded remotely accessible Redis & MongoDB",
+		"title": "Unpassworded remotely accessible Redis & MongoDB",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-355",
-					"description": "FortiPresence - Unpassworded remotely accessible Redis & MongoDB"
+					"description": "Unpassworded remotely accessible Redis & MongoDB"
 				}
 			]
 		},

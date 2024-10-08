@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS and FortiProxy - Privilege escalation vulnerability using the automation script feature",
+	"document_title": "Privilege escalation vulnerability using the automation script feature",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284] in FortiOS and FortiProxy autod daemon may allow an authenticated low-privileged attacker to escalate their privileges to super_admin via a specific crafted configuration of fabric automation CLI script and auto-script features.\n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiOS and FortiProxy autod daemon may allow an authenticated low-privileged attacker to escalate their privileges to super_admin via a specific crafted configuration of fabric automation CLI script and auto-script features.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS version 7.0.0 FortiOS versions 6.4.6 and below. FortiOS versions 6.2.9 and below. FortiOS versions 6.0.12 and below. FortiOS 5.6 all versions FortiProxy versions 2.0.1 and below. FortiProxy versions 1.2.9 and below. FortiProxy versions 1.1.x FortiProxy versions 1.0.x\n        ",
+				"text": "\n            FortiOS version 7.0.0FortiOS versions 6.4.6 and below.FortiOS versions 6.2.9 and below.FortiOS versions 6.0.12 and below.FortiOS 5.6 all versionsFortiProxy versions 2.0.1 and below.FortiProxy versions 1.2.9 and below.FortiProxy versions 1.1.xFortiProxy versions 1.0.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.0.1 or above. Please upgrade to FortiOS version 6.4.7 or above. Please upgrade to FortiOS version 6.2.10 or above. Please upgrade to FortiOS version 6.0.13 or above. For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9 Please upgrade to FortiProxy version 2.0.2 or above. Please upgrade to FortiProxy version 1.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.0.1 or above.Please upgrade to FortiOS version 6.4.7 or above.Please upgrade to FortiOS version 6.2.10 or above.Please upgrade to FortiOS version 6.0.13 or above.For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9Please upgrade to FortiProxy version 2.0.2 or above.Please upgrade to FortiProxy version 1.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS and FortiProxy - Privilege escalation vulnerability using the automation script feature",
+		"title": "Privilege escalation vulnerability using the automation script feature",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-131",
-					"description": "FortiOS and FortiProxy - Privilege escalation vulnerability using the automation script feature"
+					"description": "Privilege escalation vulnerability using the automation script feature"
 				}
 			]
 		},

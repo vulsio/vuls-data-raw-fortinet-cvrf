@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - SQL injection vulnerability in configuration backup feature",
+	"document_title": "SQL injection vulnerability in configuration backup feature",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiADC may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiADC may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.1.0 FortiADC version 7.0.0 through 7.0.2 FortiADC version 6.2.0 through 6.2.4 FortiADC version 6.1 all versions FortiADC version 6.0 all versions FortiADC version 5.4 all versions FortiADC version 5.3 all versions FortiADC version 5.2 all versions\n        ",
+				"text": "\n            FortiADC version 7.1.0FortiADC version 7.0.0 through 7.0.2FortiADC version 6.2.0 through 6.2.4FortiADC version 6.1 all versionsFortiADC version 6.0 all versionsFortiADC version 5.4 all versionsFortiADC version 5.3 all versionsFortiADC version 5.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 7.1.1 or above Please upgrade to FortiADC version 7.0.3 or above Please upgrade to FortiADC version 6.2.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiADC version 7.1.1 or above Please upgrade to FortiADC version 6.2.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - SQL injection vulnerability in configuration backup feature",
+		"title": "SQL injection vulnerability in configuration backup feature",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-252",
-					"description": "FortiADC - SQL injection vulnerability in configuration backup feature"
+					"description": "SQL injection vulnerability in configuration backup feature"
 				}
 			]
 		},

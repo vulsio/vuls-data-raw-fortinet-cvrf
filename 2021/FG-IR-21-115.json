@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Heap-based Buffer Overflow in firmware signature verification",
+	"document_title": "Heap-based Buffer Overflow in firmware signature verification",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A heap-based buffer overflow [CWE-122] in the firmware signature verification function of FortiOS may allow an attacker to execute arbitrary code via specially crafted installation images.\n        ",
+				"text": "\n            A heap-based buffer overflow [CWE-122] in the firmware signature verification function of FortiOS may allow an attacker to execute arbitrary code via specially crafted installation images.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiGate E-series and F-series models released in 2019 and later (specifically: 40F, 60F, 200F, 400E, 600E, 1100E, 1800F, 2200E, 2600F, 3300E, 3400E, 3500F, 3600E and 7121F) that are running the following versions of FortiOS: FortiOS version 7.0.1 and below. FortiOS version 6.4.6 and below. FortiOS version 6.2.9 and below. FortiOS version 6.0.13 and below. FortiOS-6K7K version 6.4.5 and below. FortiOS-6K7K version 6.2.8 and below. FortiOS-6K7K version 6.0.10 and below.\n        ",
+				"text": "\n            FortiGate E-series and F-series models released in 2019 and later (specifically: 40F, 60F, 200F, 400E, 600E, 1100E, 1800F, 2200E, 2600F, 3300E, 3400E, 3500F, 3600E and 7121F)that are running the following versions of FortiOS:FortiOS version 7.0.1 and below.FortiOS version 6.4.6 and below.FortiOS version 6.2.9 and below.FortiOS version 6.0.13 and below.FortiOS-6K7K version 6.4.5 and below.FortiOS-6K7K version 6.2.8 and below.FortiOS-6K7K version 6.0.10 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS version 7.0.2 and above. Upgrade to FortiOS version 6.4.7 and above. Upgrade to FortiOS version 6.2.10 and above. Upgrade to FortiOS version 6.0.14 and above. Upgrade to FortiOS-6K7K version 6.4.6 and above. Upgrade to FortiOS-6K7K version 6.2.9 and above.\n        ",
+				"text": "\n            Upgrade to FortiOS version 7.0.2 and above.Upgrade to FortiOS version 6.4.7 and above.Upgrade to FortiOS version 6.2.10 and above.Upgrade to FortiOS version 6.0.14 and above.Upgrade to FortiOS-6K7K version 6.4.6 and above.Upgrade to FortiOS-6K7K version 6.2.9 and above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Heap-based Buffer Overflow in firmware signature verification",
+		"title": "Heap-based Buffer Overflow in firmware signature verification",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-115",
-					"description": "FortiOS - Heap-based Buffer Overflow in firmware signature verification"
+					"description": "Heap-based Buffer Overflow in firmware signature verification"
 				}
 			]
 		},

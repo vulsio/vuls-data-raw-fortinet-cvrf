@@ -70,11 +70,13 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiSOAR-7.4.5",
 					"FortiSOAR-7.4.4",
 					"FortiSOAR-7.4.3",
 					"FortiSOAR-7.4.2",
 					"FortiSOAR-7.4.1",
 					"FortiSOAR-7.4.0",
+					"FortiSOAR-7.3.3",
 					"FortiSOAR-7.3.2",
 					"FortiSOAR-7.3.1",
 					"FortiSOAR-7.3.0",
@@ -108,6 +110,14 @@
 					"name": "FortiSOAR",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "7.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.4.5",
+								"product_id": "FortiSOAR-7.4.5"
+							}
+						},
 						{
 							"name": "7.4.4",
 							"type": "Product Version",
@@ -146,6 +156,14 @@
 							"full_product_name": {
 								"text": "FortiSOAR 7.4.0",
 								"product_id": "FortiSOAR-7.4.0"
+							}
+						},
+						{
+							"name": "7.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.3",
+								"product_id": "FortiSOAR-7.3.3"
 							}
 						},
 						{

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - Improper authorization for HA requests",
+	"document_title": "Improper authorization for HA requests",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper privilege management vulnerability [CWE-269] in a FortiOS & FortiProxy HA cluster may allow an authenticated attacker to perform elevated actions via crafted HTTP or HTTPS requests.\n        ",
+				"text": "\n            An improper privilege management vulnerability [CWE-269] in a FortiOS & FortiProxy HA cluster may allow an authenticated attacker to perform elevated actions over the web administrative interface via crafted HTTP or HTTPS requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,32 +40,26 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS version 7.4.0 through 7.4.1 FortiOS version 7.2.5 FortiProxy version 7.4.0 through 7.4.1\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.2 or above Please upgrade to FortiOS version 7.2.6 or above Please upgrade to FortiProxy version 7.4.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
 	"document_references": {},
-	"acknowledgments": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Discovered by Justin Lum of Fortinet Web Development Team"
+			}
+		]
+	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - Improper authorization for HA requests",
+		"title": "Improper authorization for HA requests",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-315",
-					"description": "FortiOS & FortiProxy - Improper authorization for HA requests"
+					"description": "Improper authorization for HA requests"
 				}
 			]
 		},

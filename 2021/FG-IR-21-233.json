@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiIsolator - OS command injection in CLI commands",
+	"document_title": "OS command injection in CLI commands",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an os command ('OS Command Injection') vulnerability [CWE-78] in FortiIsolator may allow a privileged attacker to execute arbitrary OS commands in the underlying shell via specially crafted input parameters.  \n        ",
+				"text": "\n            An improper neutralization of special elements used in an os command ('OS Command Injection') vulnerability [CWE-78] in FortiIsolator may allow a privileged attacker to execute arbitrary OS commands in the underlying shell via specially crafted input parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiIsolator version 1.0.0 FortiIsolator version 1.1.0 FortiIsolator version 1.2.0 through 1.2.2 FortiIsolator version 2.0.0 through 2.0.1 FortiIsolator version 2.1.0 through 2.1.2 FortiIsolator version 2.2.0 FortiIsolator version 2.3.0 through 2.3.4\n        ",
+				"text": "\n            FortiIsolator version 1.0.0FortiIsolator version 1.1.0FortiIsolator version 1.2.0 through 1.2.2FortiIsolator version 2.0.0 through 2.0.1FortiIsolator version 2.1.0 through 2.1.2FortiIsolator version 2.2.0FortiIsolator version 2.3.0 through 2.3.4\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiIsolator version 2.4.0 or above.\n        ",
+				"text": "\n            Upgrade to FortiIsolator version 2.4.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiIsolator - OS command injection in CLI commands",
+		"title": "OS command injection in CLI commands",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-233",
-					"description": "FortiIsolator - OS command injection in CLI commands"
+					"description": "OS command injection in CLI commands"
 				}
 			]
 		},

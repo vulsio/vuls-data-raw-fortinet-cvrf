@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Stack-based buffer overflow due to type mismatch",
+	"document_title": "Stack-based buffer overflow due to type mismatch",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to the upcoming FortiWeb version 7.0.0 or above. Upgrade to FortiWeb version 6.4.2 or above.\n        ",
+				"text": "\n            Upgrade to the upcoming FortiWeb version 7.0.0 or above.Upgrade to FortiWeb version 6.4.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Stack-based buffer overflow due to type mismatch",
+		"title": "Stack-based buffer overflow due to type mismatch",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-134",
-					"description": "FortiWeb - Stack-based buffer overflow due to type mismatch"
+					"description": "Stack-based buffer overflow due to type mismatch"
 				}
 			]
 		},

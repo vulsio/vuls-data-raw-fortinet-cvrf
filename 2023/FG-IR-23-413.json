@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A use of externally-controlled format string vulnerability [CWE-134] in FortiOS command line interface may allow a local privileged attacker with super-admin profile and CLI access to execute arbitrary code or commands via specially crafted requests.\n        ",
+				"text": "\n            A use of externally-controlled format string vulnerability [CWE-134] in FortiOS command line interface may allow a local privileged attacker with CLI access to execute arbitrary code or commands via specially crafted requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - reflected cross-site scripting vulnerability in cgi_bin handlers",
+	"document_title": "Reflected cross-site scripting vulnerability in cgi_bin handlers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability  [CWE-79] in FortiWLM may allow an authenticated user to perform an XSS attack via crafted HTTP GET requests.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiWLM may allow anauthenticated user to perform an XSS attack via crafted HTTP GET requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWLM version 8.6.2 and below FortiWLM 8.2 all versions FortiWLM 8.3 all versions FortiWLM 8.4 all versions FortiWLM 8.5 all versions\n        ",
+				"text": "\n            FortiWLM version 8.6.2 and belowFortiWLM 8.2 all versionsFortiWLM 8.3 all versionsFortiWLM 8.4 all versionsFortiWLM 8.5 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWLM version 8.6.3 or above.\n        ",
+				"text": "\n            Upgrade to FortiWLM version 8.6.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - reflected cross-site scripting vulnerability in cgi_bin handlers",
+		"title": "Reflected cross-site scripting vulnerability in cgi_bin handlers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-111",
-					"description": "FortiWLM - reflected cross-site scripting vulnerability in cgi_bin handlers"
+					"description": "Reflected cross-site scripting vulnerability in cgi_bin handlers"
 				}
 			]
 		},

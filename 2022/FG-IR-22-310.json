@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Command injection in Automation/Webhook module",
+	"document_title": "Command injection in Automation/Webhook module",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the management interface of FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the management interface of FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.1.0 through 7.1.1 FortiADC version 7.0.0 through 7.0.3 FortiADC version 6.2.0 through 6.2.5 FortiADC version 6.1.0 all versions\n        ",
+				"text": "\n            FortiADC version 7.1.0 through 7.1.1FortiADC version 7.0.0 through 7.0.3FortiADC version 6.2.0 through 6.2.5FortiADC version 6.1.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 7.1.2 or above Please upgrade to FortiADC version 7.0.4 or above Please upgrade to FortiADC version 6.2.6 or above\n        ",
+				"text": "\n            Please upgrade to FortiADC version 7.1.2 or abovePlease upgrade to FortiADC version 7.0.4 or abovePlease upgrade to FortiADC version 6.2.6 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Command injection in Automation/Webhook module",
+		"title": "Command injection in Automation/Webhook module",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-310",
-					"description": "FortiADC - Command injection in Automation/Webhook module"
+					"description": "Command injection in Automation/Webhook module"
 				}
 			]
 		},

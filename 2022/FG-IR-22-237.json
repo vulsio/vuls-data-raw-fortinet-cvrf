@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiTester - Unauthenticated command injection",
+	"document_title": "Unauthenticated command injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiTester version 7.1.0FortiTester version 7.0.0FortiTester version 4.2.0FortiTester version 4.1.0 through 4.1.1FortiTester version 4.0.0FortiTester version 3.9.0 through 3.9.1FortiTester version 3.8.0FortiTester version 3.7.0 through 3.7.1FortiTester version 3.6.0FortiTester version 3.5.0 through 3.5.1FortiTester version 3.4.0FortiTester version 3.3.0 through 3.3.1FortiTester version 3.2.0FortiTester version 3.1.0FortiTester version 3.0.0FortiTester version 2.9.0FortiTester version 2.8.0FortiTester version 2.7.0FortiTester version 2.6.0FortiTester version 2.5.0FortiTester version 2.4.0 through 2.4.1FortiTester version 2.3.0\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiTester version 7.2.0 or above Please upgrade to FortiTester version 7.1.1 or above Please upgrade to FortiTester version 4.2.1 or above Please upgrade to FortiTester version 3.9.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,19 +53,19 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiTester - Unauthenticated command injection",
+		"title": "Unauthenticated command injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-237",
-					"description": "FortiTester - Unauthenticated command injection"
+					"description": "Unauthenticated command injection"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2022-33873",
 			"CVE-2022-33872",
+			"CVE-2022-33873",
 			"CVE-2022-33874"
 		],
 		"product_statuses": {

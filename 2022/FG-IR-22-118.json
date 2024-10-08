@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Multiple Stack based buffer overflow in web interface",
+	"document_title": "Multiple Stack based buffer overflow in web interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple buffer overflow [CWE-121] vulnerabilities in the web server of FortiWeb may allow an authenticated attacker to achieve arbitrary code execution via specifically crafted HTTP requests.\n        ",
+				"text": "\n            Multiple buffer overflow [CWE-121] vulnerabilities in the web server of FortiWeb may allow an authenticated attacker to achieve arbitrary code execution via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.3.6 through 6.3.19FortiWeb 6.4 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb 6.4 all versionsFortiWeb version 6.3.6 through 6.3.19\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb version 7.0.2 or above Please upgrade to FortiWeb version 6.3.20 or above\n        ",
+				"text": "\n            Please upgrade to FortiWeb version 7.0.2 or abovePlease upgrade to FortiWeb version 6.3.20 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security Team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Multiple Stack based buffer overflow in web interface",
+		"title": "Multiple Stack based buffer overflow in web interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-118",
-					"description": "FortiWeb - Multiple Stack based buffer overflow in web interface"
+					"description": "Multiple Stack based buffer overflow in web interface"
 				}
 			]
 		},

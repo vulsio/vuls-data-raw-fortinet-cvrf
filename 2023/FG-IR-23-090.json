@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - IPS Engine evasion using custom TCP flags",
+	"document_title": "IPS Engine evasion using custom TCP flags",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            IPS Engine version 6.158 and below (FortiOS 6.4) IPS Engine version 7.165 and below (FortiOS 7.0) IPS Engine version 7.312 and below (FortiOS 7.2)\n        ",
+				"text": "\n            IPS Engine version 6.158 and below (FortiOS 6.4)IPS Engine version 7.165 and below (FortiOS 7.0)IPS Engine version 7.312 and below (FortiOS 7.2)\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            IPS Engine manual download is not needed unless device is offline and cannot download IPS Engine update automatically. Fixed in IPS Engine version 6.0159 and later. FortiOS 6.4.13 and later contains IPS engine 6.0160 as the default IPS Engine. IPS Engine 6.0162 is downloadable from FortiGuard by FortiGate units with a valid subscription running FortiOS 6.4.x. Fixed in IPS Engine version 7.0166 and later. FortiOS 7.0.12 and later contains IPS engine 7.0167 as the default IPS Engine. Fixed in IPS Engine version 7.0313 and later. FortiOS 7.2.5 and later contains IPS engine 7.0314 as the default IPS Engine. IPS Engine 7.0322 is downloadable from FortiGuard by FortiGate units with a valid subscription running FortiOS 7.2.x. FortiOS 7.4.0 and later contains IPS engine 7.0493 as the default IPS Engine.\n        ",
+				"text": "\n            IPS Engine manual download is not needed unless device is offline and cannot download IPS Engine update automatically.## Fixed in IPS Engine version 6.0159 and later.FortiOS 6.4.13 and later contains IPS engine 6.0160 as the default IPS Engine.IPS Engine 6.0162 is downloadable from FortiGuard by FortiGate units with a valid subscription running FortiOS 6.4.x.## Fixed in IPS Engine version 7.0166 and later.FortiOS 7.0.12 and later contains IPS engine 7.0167 as the default IPS Engine.## Fixed in IPS Engine version 7.0313 and later.FortiOS 7.2.5 and later contains IPS engine 7.0314 as the default IPS Engine.IPS Engine 7.0322 is downloadable from FortiGuard by FortiGate units with a valid subscription running FortiOS 7.2.x.## FortiOS 7.4.0 and later contains IPS engine 7.0493 as the default IPS Engine.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - IPS Engine evasion using custom TCP flags",
+		"title": "IPS Engine evasion using custom TCP flags",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-090",
-					"description": "FortiOS - IPS Engine evasion using custom TCP flags"
+					"description": "IPS Engine evasion using custom TCP flags"
 				}
 			]
 		},

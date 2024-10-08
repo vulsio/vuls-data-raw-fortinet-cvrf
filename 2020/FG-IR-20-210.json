@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAP - OS command Injection through kdbg CLI command",
+	"document_title": "OS command Injection through kdbg CLI command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Callum Ford from CyberCX for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Martin Meredith from kiwibank for reporting this vulnerability under responsible disclosure"
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAP - OS command Injection through kdbg CLI command",
+		"title": "OS command Injection through kdbg CLI command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-210",
-					"description": "FortiAP - OS command Injection through kdbg CLI command"
+					"description": "OS command Injection through kdbg CLI command"
 				}
 			]
 		},
@@ -76,20 +76,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiAP-W2-6.4.5",
-					"FortiAP-W2-6.4.4",
-					"FortiAP-W2-6.4.3",
-					"FortiAP-W2-6.4.2",
-					"FortiAP-W2-6.4.1",
-					"FortiAP-W2-6.2.5",
-					"FortiAP-W2-6.2.4",
-					"FortiAP-S-6.4.5",
-					"FortiAP-S-6.4.4",
-					"FortiAP-S-6.4.3",
-					"FortiAP-S-6.4.2",
-					"FortiAP-S-6.4.1",
-					"FortiAP-S-6.2.5",
-					"FortiAP-S-6.2.4",
 					"FortiAP-6.4.5",
 					"FortiAP-6.4.4",
 					"FortiAP-6.4.3",
@@ -99,7 +85,21 @@
 					"FortiAP-6.0.3",
 					"FortiAP-6.0.2",
 					"FortiAP-6.0.1",
-					"FortiAP-6.0.0"
+					"FortiAP-6.0.0",
+					"FortiAP-S-6.4.5",
+					"FortiAP-S-6.4.4",
+					"FortiAP-S-6.4.3",
+					"FortiAP-S-6.4.2",
+					"FortiAP-S-6.4.1",
+					"FortiAP-S-6.2.5",
+					"FortiAP-S-6.2.4",
+					"FortiAP-W2-6.4.5",
+					"FortiAP-W2-6.4.4",
+					"FortiAP-W2-6.4.3",
+					"FortiAP-W2-6.4.2",
+					"FortiAP-W2-6.4.1",
+					"FortiAP-W2-6.2.5",
+					"FortiAP-W2-6.2.4"
 				]
 			}
 		},
@@ -115,130 +115,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiAP-W2",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.5",
-								"product_id": "FortiAP-W2-6.4.5"
-							}
-						},
-						{
-							"name": "6.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.4",
-								"product_id": "FortiAP-W2-6.4.4"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.3",
-								"product_id": "FortiAP-W2-6.4.3"
-							}
-						},
-						{
-							"name": "6.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.2",
-								"product_id": "FortiAP-W2-6.4.2"
-							}
-						},
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.4.1",
-								"product_id": "FortiAP-W2-6.4.1"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.5",
-								"product_id": "FortiAP-W2-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-W2 6.2.4",
-								"product_id": "FortiAP-W2-6.2.4"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAP-S",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.4.5",
-								"product_id": "FortiAP-S-6.4.5"
-							}
-						},
-						{
-							"name": "6.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.4.4",
-								"product_id": "FortiAP-S-6.4.4"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.4.3",
-								"product_id": "FortiAP-S-6.4.3"
-							}
-						},
-						{
-							"name": "6.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.4.2",
-								"product_id": "FortiAP-S-6.4.2"
-							}
-						},
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.4.1",
-								"product_id": "FortiAP-S-6.4.1"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.2.5",
-								"product_id": "FortiAP-S-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP-S 6.2.4",
-								"product_id": "FortiAP-S-6.2.4"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiAP",
 					"type": "Product Name",
@@ -321,6 +197,130 @@
 							"full_product_name": {
 								"text": "FortiAP 6.0.0",
 								"product_id": "FortiAP-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-S",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.4.5",
+								"product_id": "FortiAP-S-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.4.4",
+								"product_id": "FortiAP-S-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.4.3",
+								"product_id": "FortiAP-S-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.4.2",
+								"product_id": "FortiAP-S-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.4.1",
+								"product_id": "FortiAP-S-6.4.1"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.2.5",
+								"product_id": "FortiAP-S-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 6.2.4",
+								"product_id": "FortiAP-S-6.2.4"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-W2",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.5",
+								"product_id": "FortiAP-W2-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.4",
+								"product_id": "FortiAP-W2-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.3",
+								"product_id": "FortiAP-W2-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.2",
+								"product_id": "FortiAP-W2-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.4.1",
+								"product_id": "FortiAP-W2-6.4.1"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.5",
+								"product_id": "FortiAP-W2-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.4",
+								"product_id": "FortiAP-W2-6.2.4"
 							}
 						}
 					]

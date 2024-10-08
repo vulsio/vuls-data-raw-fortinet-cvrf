@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Improper thread synchronization for database operations",
+	"document_title": "Improper thread synchronization for database operations",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A concurrent execution using shared resource with improper Synchronization vulnerability ('Race Condition')Â [CWE-362]Â in the customer database interface of FortiPortal may allow an authenticated, low-privilegeÂ user to bring the underlying database data into an inconsistent state viaÂ specific coordination of web requests.\n        ",
+				"text": "\n            A concurrent execution using shared resource with improper Synchronization vulnerability ('Race Condition') [CWE-362] in the customer database interface of FortiPortal may allow an authenticated, low-privilege user to bring the underlying database data into an inconsistent state via specific coordination of web requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiPortal version 6.0.5 and below. FortiPortal version 5.3.6 and below. FortiPortal version 5.2.6 and below. FortiPortal version 5.1.2 and below. FortiPortal version 5.0.3 and below. FortiPortal version 4.2.2 and below. FortiPortal version 4.1.2 and below. FortiPortal version 4.0.2 and below.\n        ",
+				"text": "\n            FortiPortal version 6.0.5 and below.FortiPortal version 5.3.6 and below.FortiPortal version 5.2.6 and below.FortiPortal version 5.1.2 and below.FortiPortal version 5.0.3 and below.FortiPortal version 4.2.2 and below.FortiPortal version 4.1.2 and below.FortiPortal version 4.0.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Improper thread synchronization for database operations",
+		"title": "Improper thread synchronization for database operations",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-102",
-					"description": "FortiPortal - Improper thread synchronization for database operations"
+					"description": "Improper thread synchronization for database operations"
 				}
 			]
 		},

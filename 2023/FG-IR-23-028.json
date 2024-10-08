@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Existing websocket connection persists after deleting API admin",
+	"document_title": "Existing websocket connection persists after deleting API admin",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insufficient session expiration [CWE-613] vulnerability in FortiOS REST API may allow an attacker to keep a secure websocket session active after user deletion.   Workaround: Restrict hosts that can connect to the websocket to trusted ones only, with the trusted host feature.\n        ",
+				"text": "\n            An insufficient session expiration [CWE-613] vulnerability in FortiOS REST API may allow an attacker to keep a secure websocket session active after user deletion. ## Workaround:Restrict hosts that can connect to the websocket to trusted ones only, with the trusted host feature.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.4FortiOS version 7.0.0 through 7.0.12\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.13 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Existing websocket connection persists after deleting API admin",
+		"title": "Existing websocket connection persists after deleting API admin",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-028",
-					"description": "FortiOS - Existing websocket connection persists after deleting API admin"
+					"description": "Existing websocket connection persists after deleting API admin"
 				}
 			]
 		},

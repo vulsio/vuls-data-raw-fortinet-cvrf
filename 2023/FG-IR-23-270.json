@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Read-only administrator can read or backup the system configuration",
+	"document_title": "Read-only administrator can read or backup the system configuration",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiADC version 7.4.0 FortiADC version 7.2.0 through 7.2.2 FortiADC 7.1 all versions FortiADC 7.0 all versions FortiADC 6.2 all versions FortiADC 6.1 all versions FortiADC 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.4.1 or above Please upgrade to FortiADC version 7.2.3 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Read-only administrator can read or backup the system configuration",
+		"title": "Read-only administrator can read or backup the system configuration",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-270",
-					"description": "FortiADC - Read-only administrator can read or backup the system configuration"
+					"description": "Read-only administrator can read or backup the system configuration"
 				}
 			]
 		},
@@ -121,8 +109,8 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "6.9",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N/E:F/RL:X/RC:C"
+				"base_score_v3": "6.7",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N/E:P/RL:X/RC:C"
 			}
 		}
 	},

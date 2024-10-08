@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS -- Telnet on the SSL-VPN interface results in information leak",
+	"document_title": "Telnet on the SSL-VPN interface results in information leak",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.2.1 or above Please upgrade to FortiOS version 7.0.8 or above Please upgrade to FortiOS version 6.4.10 or above Please upgrade to FortiOS version 6.2.13 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.2.1 or abovePlease upgrade to FortiOS version 7.0.8 or abovePlease upgrade to FortiOS version 6.4.10 or abovePlease upgrade to FortiOS version 6.2.13 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,7 +59,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-223",
-				"description": "FortiOS -- Telnet on the SSL-VPN interface results in information leak"
+				"description": "Telnet on the SSL-VPN interface results in information leak"
 			},
 			{
 				"url": "Reboot FortiOS or kill the SSL-VPN process or disable DTLS settings [if enabled]",
@@ -70,13 +70,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS -- Telnet on the SSL-VPN interface results in information leak",
+		"title": "Telnet on the SSL-VPN interface results in information leak",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-223",
-					"description": "FortiOS -- Telnet on the SSL-VPN interface results in information leak"
+					"description": "Telnet on the SSL-VPN interface results in information leak"
 				},
 				{
 					"url": "Reboot FortiOS or kill the SSL-VPN process or disable DTLS settings [if enabled]",
@@ -129,7 +129,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "3.7",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

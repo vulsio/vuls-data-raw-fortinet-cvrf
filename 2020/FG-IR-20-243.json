@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Disclosure of other VDOMs information through CLI commands",
+	"document_title": "Disclosure of other VDOMs information through CLI commands",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive information to an unauthorized actorÂ vulnerability in FortiOS CLI may allow a local and authenticated userÂ assigned to a specific VDOM to retrieve otherÂ VDOMs information such as the admin account list and the network interface list.Â Â\n        ",
+				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability in FortiOS CLI may allow a local and authenticated user assigned to a specific VDOM to retrieve other VDOMs information such as the admin account list and the network interface list.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS 7.0.0 FortiOS 6.4.6 and below FortiOS 6.2.9 and below FortiOS 6.0.x FortiOS 5.6.x\n        ",
+				"text": "\n            FortiOS 7.0.0FortiOS 6.4.6 and belowFortiOS 6.2.9 and belowFortiOS 6.0.xFortiOS 5.6.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please Upgrade to FortiOS 7.0.1 or above Please Upgrade to FortiOS 6.4.7 or above Please Upgrade to FortiOS 6.2.10 or above\n        ",
+				"text": "\n            Please Upgrade to FortiOS 7.0.1 or abovePlease Upgrade to FortiOS 6.4.7 or abovePlease Upgrade to FortiOS 6.2.10 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Disclosure of other VDOMs information through CLI commands",
+		"title": "Disclosure of other VDOMs information through CLI commands",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-243",
-					"description": "FortiOS - Disclosure of other VDOMs information through CLI commands"
+					"description": "Disclosure of other VDOMs information through CLI commands"
 				}
 			]
 		},

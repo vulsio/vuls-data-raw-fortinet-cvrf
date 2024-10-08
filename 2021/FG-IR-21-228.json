@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager/FortiAnalyzer - XSS Vulnerability in Report Templates",
+	"document_title": "XSS Vulnerability in Report Templates",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiManager and FortiAnalyzer report templates may allow a low privilege level attacker to perform an XSS attack via posting a crafted CKeditor \"protected\" comment as described in CVE-2020-9281.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiManager and FortiAnalyzer report templates may allow a low privilege level attacker to perform an XSS attack via posting a crafted CKeditor \"protected\" comment as described in CVE-2020-9281.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAnalyzer version 7.0.0 through 7.0.4 FortiAnalyzer version 6.4.0 through 6.4.8 FortiAnalyzer 6.2 all versions FortiAnalyzer 6.0 all versions FortiManager version 7.0.0 through 7.0.4 FortiManager version 6.4.0 through 6.4.8 FortiManager 6.2 all versions FortiManager 6.0 all versions\n        ",
+				"text": "\n            FortiAnalyzer version 7.0.0 through 7.0.4FortiAnalyzer version 6.4.0 through 6.4.8FortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versionsFortiManager version 7.0.0 through 7.0.4FortiManager version 6.4.0 through 6.4.8FortiManager 6.2 all versionsFortiManager 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager/FortiAnalyzer - XSS Vulnerability in Report Templates",
+		"title": "XSS Vulnerability in Report Templates",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-228",
-					"description": "FortiManager/FortiAnalyzer - XSS Vulnerability in Report Templates"
+					"description": "XSS Vulnerability in Report Templates"
 				}
 			]
 		},

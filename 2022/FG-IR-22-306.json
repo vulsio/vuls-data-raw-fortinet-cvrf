@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - Server-Side Template Injection in Playbook component",
+	"document_title": "Server-Side Template Injection in Playbook component",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSOAR version 7.2.0FortiSOAR version 7.0.0 through 7.0.3FortiSOAR version 6.4.0 through 6.4.4\n        ",
+				"text": "\n            FortiSOAR version 7.2.0FortiSOAR 7.0 all versionsFortiSOAR 6.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - Server-Side Template Injection in Playbook component",
+		"title": "Server-Side Template Injection in Playbook component",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-306",
-					"description": "FortiSOAR - Server-Side Template Injection in Playbook component"
+					"description": "Server-Side Template Injection in Playbook component"
 				}
 			]
 		},

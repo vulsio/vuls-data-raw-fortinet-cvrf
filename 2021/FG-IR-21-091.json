@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - debug commands allow memory manipulation",
+	"document_title": "Debug commands allow memory manipulation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A debug functionality in FortiGate may allow a privileged user to execute unauthorized code or commands via specific chains of `print str` and `cmd mem` cli commands to, respectively, read and write hexadecimal values to any memory address.\n        ",
+				"text": "\n            A debug functionality in FortiGate may allow a privileged user to execute unauthorized code or commands via specificchains of print str and cmd mem cli commands to, respectively, read and write hexadecimal values to any memory address.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiGate version 7.0.0. FortiGate version 6.4.6 and below . FortiGate version 6.2.9 and below. FortiGate 6.0 all versions. FortiGate 5.6 al versions.\n        ",
+				"text": "\n            FortiGate version 7.0.0.FortiGate version 6.4.6 and below .FortiGate version 6.2.9 and below.FortiGate 6.0 all versions.FortiGate 5.6 al versions.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 7.0.1 or above. Please upgrade to FortiGate version 6.4.7 or above. Please upgrade to FortiGate version 6.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 7.0.1 or above.Please upgrade to FortiGate version 6.4.7 or above.Please upgrade to FortiGate version 6.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - debug commands allow memory manipulation",
+		"title": "Debug commands allow memory manipulation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-091",
-					"description": "FortiOS - debug commands allow memory manipulation"
+					"description": "Debug commands allow memory manipulation"
 				}
 			]
 		},

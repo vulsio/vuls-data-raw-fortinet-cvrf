@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Full path disclosure vulnerability",
+	"document_title": "Full path disclosure vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.0.0 or above Please upgrade to FortiSIEM version 6.7.6 or above Please upgrade to FortiSIEM version 6.6.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 7.0.0 or abovePlease upgrade to FortiSIEM version 6.7.6 or abovePlease upgrade to FortiSIEM version 6.6.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Full path disclosure vulnerability",
+		"title": "Full path disclosure vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-126",
-					"description": "FortiSIEM - Full path disclosure vulnerability"
+					"description": "Full path disclosure vulnerability"
 				}
 			]
 		},

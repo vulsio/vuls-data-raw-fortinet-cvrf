@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS & FortiClient - Telemetry protocol is vulnerable to a MitM Vulnerability",
+	"document_title": "Telemetry protocol is vulnerable to a MitM Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A combination of a use of hard-coded cryptographic key vulnerability [CWE-321] in FortiClientEMS and an improper certificate validation vulnerability [CWE-297] in FortiClientWindows, FortiClientLinux and FortiClientMac may allow an unauthenticated and network adjacent attacker to perform a man-in-the-middle attack between the EMS and the FCT via the telemetry protocol.\n        ",
+				"text": "\n            A combination of a use of hard-coded cryptographic key vulnerability [CWE-321] in FortiClientEMS and an improper certificate validation vulnerability [CWE-297] in FortiClientWindows, FortiClientLinux and FortiClientMac may allow an unauthenticated and network adjacent attacker to perform a man-in-the-middle attack between the EMS and the FCT via the telemetry protocol.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Information disclosure, execute unauthorized code or commands\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientEMS version 7.0.1 and below. FortiClientEMS version 6.4.6 and below. FortiClientWindows version 7.0.1 and below. FortiClientWindows version 6.4.6 and below. FortiClientLinux version 7.0.1 and below. FortiClientLinux version 6.4.6 and below. FortiClientMac version 7.0.1 and below. FortiClientMac version 6.4.6 and below.\n        ",
+				"text": "\n            FortiClientEMS version 7.0.1 and below.FortiClientEMS version 6.4.6 and below.FortiClientWindows version 7.0.1 and below.FortiClientWindows version 6.4.6 and below.FortiClientLinux version 7.0.1 and below.FortiClientLinux version 6.4.6 and below.FortiClientMac version 7.0.1 and below.FortiClientMac version 6.4.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please ugrade to FortiClientEMS version 7.0.2 or above. Please ugrade to FortiClientEMS version 6.4.7 or above. Please upgrade to FortiClientWindows 7.0.2 or above. Please upgrade to FortiClientWindows 6.4.7 or above. Please upgrade to FortiClientLinux 7.0.2 or above. Please upgrade to FortiClientLinux 6.4.7 or above. Please upgrade to FortiClientMac 7.0.2 or above. Please upgrade to FortiClientMac 6.4.7 or above.\n        ",
+				"text": "\n            Please ugrade to FortiClientEMS version 7.0.2 or above.Please ugrade to FortiClientEMS version 6.4.7 or above.Please upgrade to FortiClientWindows 7.0.2 or above.Please upgrade to FortiClientWindows 6.4.7 or above.Please upgrade to FortiClientLinux 7.0.2 or above.Please upgrade to FortiClientLinux 6.4.7 or above.Please upgrade to FortiClientMac 7.0.2 or above.Please upgrade to FortiClientMac 6.4.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS & FortiClient - Telemetry protocol is vulnerable to a MitM Vulnerability",
+		"title": "Telemetry protocol is vulnerable to a MitM Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-075",
-					"description": "FortiClientEMS & FortiClient - Telemetry protocol is vulnerable to a MitM Vulnerability"
+					"description": "Telemetry protocol is vulnerable to a MitM Vulnerability"
 				}
 			]
 		},
@@ -82,36 +82,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiClientWindows-7.0.1",
-					"FortiClientWindows-7.0.0",
-					"FortiClientWindows-6.4.6",
-					"FortiClientWindows-6.4.5",
-					"FortiClientWindows-6.4.4",
-					"FortiClientWindows-6.4.3",
-					"FortiClientWindows-6.4.2",
-					"FortiClientWindows-6.4.1",
-					"FortiClientWindows-6.4.0",
-					"FortiClientWindows-6.2.9",
-					"FortiClientWindows-6.2.8",
-					"FortiClientWindows-6.2.7",
-					"FortiClientWindows-6.2.6",
-					"FortiClientWindows-6.2.5",
-					"FortiClientWindows-6.2.4",
-					"FortiClientWindows-6.2.3",
-					"FortiClientWindows-6.2.2",
-					"FortiClientWindows-6.2.1",
-					"FortiClientWindows-6.2.0",
-					"FortiClientWindows-6.0.10",
-					"FortiClientWindows-6.0.9",
-					"FortiClientWindows-6.0.8",
-					"FortiClientWindows-6.0.7",
-					"FortiClientWindows-6.0.6",
-					"FortiClientWindows-6.0.5",
-					"FortiClientWindows-6.0.4",
-					"FortiClientWindows-6.0.3",
-					"FortiClientWindows-6.0.2",
-					"FortiClientWindows-6.0.1",
-					"FortiClientWindows-6.0.0",
 					"FortiClientEMS-7.0.1",
 					"FortiClientEMS-7.0.0",
 					"FortiClientEMS-6.4.4",
@@ -128,6 +98,22 @@
 					"FortiClientEMS-6.2.2",
 					"FortiClientEMS-6.2.1",
 					"FortiClientEMS-6.2.0",
+					"FortiClientLinux-7.0.1",
+					"FortiClientLinux-7.0.0",
+					"FortiClientLinux-6.4.4",
+					"FortiClientLinux-6.4.3",
+					"FortiClientLinux-6.4.2",
+					"FortiClientLinux-6.4.1",
+					"FortiClientLinux-6.4.0",
+					"FortiClientLinux-6.2.9",
+					"FortiClientLinux-6.2.8",
+					"FortiClientLinux-6.2.7",
+					"FortiClientLinux-6.2.6",
+					"FortiClientLinux-6.2.4",
+					"FortiClientLinux-6.2.3",
+					"FortiClientLinux-6.2.2",
+					"FortiClientLinux-6.2.1",
+					"FortiClientLinux-6.2.0",
 					"FortiClientMac-7.0.1",
 					"FortiClientMac-7.0.0",
 					"FortiClientMac-6.4.6",
@@ -157,22 +143,36 @@
 					"FortiClientMac-6.0.3",
 					"FortiClientMac-6.0.2",
 					"FortiClientMac-6.0.1",
-					"FortiClientLinux-7.0.1",
-					"FortiClientLinux-7.0.0",
-					"FortiClientLinux-6.4.4",
-					"FortiClientLinux-6.4.3",
-					"FortiClientLinux-6.4.2",
-					"FortiClientLinux-6.4.1",
-					"FortiClientLinux-6.4.0",
-					"FortiClientLinux-6.2.9",
-					"FortiClientLinux-6.2.8",
-					"FortiClientLinux-6.2.7",
-					"FortiClientLinux-6.2.6",
-					"FortiClientLinux-6.2.4",
-					"FortiClientLinux-6.2.3",
-					"FortiClientLinux-6.2.2",
-					"FortiClientLinux-6.2.1",
-					"FortiClientLinux-6.2.0"
+					"FortiClientWindows-7.0.1",
+					"FortiClientWindows-7.0.0",
+					"FortiClientWindows-6.4.6",
+					"FortiClientWindows-6.4.5",
+					"FortiClientWindows-6.4.4",
+					"FortiClientWindows-6.4.3",
+					"FortiClientWindows-6.4.2",
+					"FortiClientWindows-6.4.1",
+					"FortiClientWindows-6.4.0",
+					"FortiClientWindows-6.2.9",
+					"FortiClientWindows-6.2.8",
+					"FortiClientWindows-6.2.7",
+					"FortiClientWindows-6.2.6",
+					"FortiClientWindows-6.2.5",
+					"FortiClientWindows-6.2.4",
+					"FortiClientWindows-6.2.3",
+					"FortiClientWindows-6.2.2",
+					"FortiClientWindows-6.2.1",
+					"FortiClientWindows-6.2.0",
+					"FortiClientWindows-6.0.10",
+					"FortiClientWindows-6.0.9",
+					"FortiClientWindows-6.0.8",
+					"FortiClientWindows-6.0.7",
+					"FortiClientWindows-6.0.6",
+					"FortiClientWindows-6.0.5",
+					"FortiClientWindows-6.0.4",
+					"FortiClientWindows-6.0.3",
+					"FortiClientWindows-6.0.2",
+					"FortiClientWindows-6.0.1",
+					"FortiClientWindows-6.0.0"
 				]
 			}
 		},
@@ -188,252 +188,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiClientWindows",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 7.0.1",
-								"product_id": "FortiClientWindows-7.0.1"
-							}
-						},
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 7.0.0",
-								"product_id": "FortiClientWindows-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.6",
-								"product_id": "FortiClientWindows-6.4.6"
-							}
-						},
-						{
-							"name": "6.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.5",
-								"product_id": "FortiClientWindows-6.4.5"
-							}
-						},
-						{
-							"name": "6.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.4",
-								"product_id": "FortiClientWindows-6.4.4"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.3",
-								"product_id": "FortiClientWindows-6.4.3"
-							}
-						},
-						{
-							"name": "6.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.2",
-								"product_id": "FortiClientWindows-6.4.2"
-							}
-						},
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.1",
-								"product_id": "FortiClientWindows-6.4.1"
-							}
-						},
-						{
-							"name": "6.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.4.0",
-								"product_id": "FortiClientWindows-6.4.0"
-							}
-						},
-						{
-							"name": "6.2.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.9",
-								"product_id": "FortiClientWindows-6.2.9"
-							}
-						},
-						{
-							"name": "6.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.8",
-								"product_id": "FortiClientWindows-6.2.8"
-							}
-						},
-						{
-							"name": "6.2.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.7",
-								"product_id": "FortiClientWindows-6.2.7"
-							}
-						},
-						{
-							"name": "6.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.6",
-								"product_id": "FortiClientWindows-6.2.6"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.5",
-								"product_id": "FortiClientWindows-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.4",
-								"product_id": "FortiClientWindows-6.2.4"
-							}
-						},
-						{
-							"name": "6.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.3",
-								"product_id": "FortiClientWindows-6.2.3"
-							}
-						},
-						{
-							"name": "6.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.2",
-								"product_id": "FortiClientWindows-6.2.2"
-							}
-						},
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.1",
-								"product_id": "FortiClientWindows-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.2.0",
-								"product_id": "FortiClientWindows-6.2.0"
-							}
-						},
-						{
-							"name": "6.0.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.10",
-								"product_id": "FortiClientWindows-6.0.10"
-							}
-						},
-						{
-							"name": "6.0.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.9",
-								"product_id": "FortiClientWindows-6.0.9"
-							}
-						},
-						{
-							"name": "6.0.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.8",
-								"product_id": "FortiClientWindows-6.0.8"
-							}
-						},
-						{
-							"name": "6.0.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.7",
-								"product_id": "FortiClientWindows-6.0.7"
-							}
-						},
-						{
-							"name": "6.0.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.6",
-								"product_id": "FortiClientWindows-6.0.6"
-							}
-						},
-						{
-							"name": "6.0.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.5",
-								"product_id": "FortiClientWindows-6.0.5"
-							}
-						},
-						{
-							"name": "6.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.4",
-								"product_id": "FortiClientWindows-6.0.4"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.3",
-								"product_id": "FortiClientWindows-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.2",
-								"product_id": "FortiClientWindows-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.1",
-								"product_id": "FortiClientWindows-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiClientWindows 6.0.0",
-								"product_id": "FortiClientWindows-6.0.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiClientEMS",
 					"type": "Product Name",
@@ -564,6 +318,140 @@
 							"full_product_name": {
 								"text": "FortiClientEMS 6.2.0",
 								"product_id": "FortiClientEMS-6.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientLinux",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.1",
+								"product_id": "FortiClientLinux-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 7.0.0",
+								"product_id": "FortiClientLinux-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.4",
+								"product_id": "FortiClientLinux-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.3",
+								"product_id": "FortiClientLinux-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.2",
+								"product_id": "FortiClientLinux-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.1",
+								"product_id": "FortiClientLinux-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.4.0",
+								"product_id": "FortiClientLinux-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.9",
+								"product_id": "FortiClientLinux-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.8",
+								"product_id": "FortiClientLinux-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.7",
+								"product_id": "FortiClientLinux-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.6",
+								"product_id": "FortiClientLinux-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.4",
+								"product_id": "FortiClientLinux-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.3",
+								"product_id": "FortiClientLinux-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.2",
+								"product_id": "FortiClientLinux-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.1",
+								"product_id": "FortiClientLinux-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientLinux 6.2.0",
+								"product_id": "FortiClientLinux-6.2.0"
 							}
 						}
 					]
@@ -807,135 +695,247 @@
 					]
 				},
 				{
-					"name": "FortiClientLinux",
+					"name": "FortiClientWindows",
 					"type": "Product Name",
 					"branch": [
 						{
 							"name": "7.0.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 7.0.1",
-								"product_id": "FortiClientLinux-7.0.1"
+								"text": "FortiClientWindows 7.0.1",
+								"product_id": "FortiClientWindows-7.0.1"
 							}
 						},
 						{
 							"name": "7.0.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 7.0.0",
-								"product_id": "FortiClientLinux-7.0.0"
+								"text": "FortiClientWindows 7.0.0",
+								"product_id": "FortiClientWindows-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.6",
+								"product_id": "FortiClientWindows-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.4.5",
+								"product_id": "FortiClientWindows-6.4.5"
 							}
 						},
 						{
 							"name": "6.4.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.4.4",
-								"product_id": "FortiClientLinux-6.4.4"
+								"text": "FortiClientWindows 6.4.4",
+								"product_id": "FortiClientWindows-6.4.4"
 							}
 						},
 						{
 							"name": "6.4.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.4.3",
-								"product_id": "FortiClientLinux-6.4.3"
+								"text": "FortiClientWindows 6.4.3",
+								"product_id": "FortiClientWindows-6.4.3"
 							}
 						},
 						{
 							"name": "6.4.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.4.2",
-								"product_id": "FortiClientLinux-6.4.2"
+								"text": "FortiClientWindows 6.4.2",
+								"product_id": "FortiClientWindows-6.4.2"
 							}
 						},
 						{
 							"name": "6.4.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.4.1",
-								"product_id": "FortiClientLinux-6.4.1"
+								"text": "FortiClientWindows 6.4.1",
+								"product_id": "FortiClientWindows-6.4.1"
 							}
 						},
 						{
 							"name": "6.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.4.0",
-								"product_id": "FortiClientLinux-6.4.0"
+								"text": "FortiClientWindows 6.4.0",
+								"product_id": "FortiClientWindows-6.4.0"
 							}
 						},
 						{
 							"name": "6.2.9",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.9",
-								"product_id": "FortiClientLinux-6.2.9"
+								"text": "FortiClientWindows 6.2.9",
+								"product_id": "FortiClientWindows-6.2.9"
 							}
 						},
 						{
 							"name": "6.2.8",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.8",
-								"product_id": "FortiClientLinux-6.2.8"
+								"text": "FortiClientWindows 6.2.8",
+								"product_id": "FortiClientWindows-6.2.8"
 							}
 						},
 						{
 							"name": "6.2.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.7",
-								"product_id": "FortiClientLinux-6.2.7"
+								"text": "FortiClientWindows 6.2.7",
+								"product_id": "FortiClientWindows-6.2.7"
 							}
 						},
 						{
 							"name": "6.2.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.6",
-								"product_id": "FortiClientLinux-6.2.6"
+								"text": "FortiClientWindows 6.2.6",
+								"product_id": "FortiClientWindows-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.2.5",
+								"product_id": "FortiClientWindows-6.2.5"
 							}
 						},
 						{
 							"name": "6.2.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.4",
-								"product_id": "FortiClientLinux-6.2.4"
+								"text": "FortiClientWindows 6.2.4",
+								"product_id": "FortiClientWindows-6.2.4"
 							}
 						},
 						{
 							"name": "6.2.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.3",
-								"product_id": "FortiClientLinux-6.2.3"
+								"text": "FortiClientWindows 6.2.3",
+								"product_id": "FortiClientWindows-6.2.3"
 							}
 						},
 						{
 							"name": "6.2.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.2",
-								"product_id": "FortiClientLinux-6.2.2"
+								"text": "FortiClientWindows 6.2.2",
+								"product_id": "FortiClientWindows-6.2.2"
 							}
 						},
 						{
 							"name": "6.2.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.1",
-								"product_id": "FortiClientLinux-6.2.1"
+								"text": "FortiClientWindows 6.2.1",
+								"product_id": "FortiClientWindows-6.2.1"
 							}
 						},
 						{
 							"name": "6.2.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiClientLinux 6.2.0",
-								"product_id": "FortiClientLinux-6.2.0"
+								"text": "FortiClientWindows 6.2.0",
+								"product_id": "FortiClientWindows-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.10",
+								"product_id": "FortiClientWindows-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.9",
+								"product_id": "FortiClientWindows-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.8",
+								"product_id": "FortiClientWindows-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.7",
+								"product_id": "FortiClientWindows-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.6",
+								"product_id": "FortiClientWindows-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.5",
+								"product_id": "FortiClientWindows-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.4",
+								"product_id": "FortiClientWindows-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.3",
+								"product_id": "FortiClientWindows-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.2",
+								"product_id": "FortiClientWindows-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.1",
+								"product_id": "FortiClientWindows-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.0",
+								"product_id": "FortiClientWindows-6.0.0"
 							}
 						}
 					]

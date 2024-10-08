@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - SQL Injection in delete filter component",
+	"document_title": "SQL Injection in delete filter component",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] in FortiWeb delete log filter component may allow a privileged attacker to execute SQL commands over the log database via specifically crafted strings parameters.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] in FortiWeb delete log filter component may allow a privileged attacker to execute SQL commands over the log database via specifically crafted strings parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiWeb version 6.2.3 through 6.2.7 FortiWeb version 6.3.0 through 6.3.18 FortiWeb version 6.4.0 through 6.4.2 FortiWeb version 7.0.0 through 7.0.1\n        ",
+				"text": "\n            At leastFortiWeb version 6.2.3 through 6.2.7FortiWeb version 6.3.0 through 6.3.18FortiWeb version 6.4.0 through 6.4.2FortiWeb version 7.0.0 through 7.0.1\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - SQL Injection in delete filter component",
+		"title": "SQL Injection in delete filter component",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-140",
-					"description": "FortiWeb - SQL Injection in delete filter component"
+					"description": "SQL Injection in delete filter component"
 				}
 			]
 		},

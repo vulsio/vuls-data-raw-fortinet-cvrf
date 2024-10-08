@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager, FortiAnalyzer, FortiAnalyzer-BigData & FortiPortal - Format string vulnerability in administrative interface",
+	"document_title": "Format string vulnerability in administrative interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.4.2 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.10 or above Please upgrade to FortiAnalyzer version 7.4.2 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.10 or above Please upgrade to FortiAnalyzer-BigData version 7.4.0 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiPortal version 7.0.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiPortal version 6.0.15 or above Please upgrade to FortiManager version 7.4.2 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.10 or above Please upgrade to FortiAnalyzer-BigData version 7.4.0 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiAnalyzer version 7.4.2 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.10 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager, FortiAnalyzer, FortiAnalyzer-BigData & FortiPortal - Format string vulnerability in administrative interface",
+		"title": "Format string vulnerability in administrative interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-304",
-					"description": "FortiManager, FortiAnalyzer, FortiAnalyzer-BigData & FortiPortal - Format string vulnerability in administrative interface"
+					"description": "Format string vulnerability in administrative interface"
 				}
 			]
 		},

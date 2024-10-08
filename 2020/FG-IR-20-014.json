@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS, FortiAuthenticator - Disclosure of private keys corresponding to Apple (APNS) and Google (GCM) certificates",
+	"document_title": "Cert private key disclosure",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A clear text storage of sensitive information (CWE-312) vulnerability in both FortiGate and FortiAuthenticator may allow a local unauthorized party to retrieve the Fortinet private keys used to establish secure communication with both Apple Push Notification and Google Cloud Messaging services, via accessing the files on the filesystem. The potentially exposed private keys have been revoked, please upgrade to the versions provided in the solutions to support push proxy.  \n        ",
+				"text": "\n            A clear text storage of sensitive information (CWE-312) vulnerability in both FortiGate and FortiAuthenticator may allow a local unauthorized party to retrieve the Fortinet private keys used to establish secure communication with both Apple Push Notification and Google Cloud Messaging services, via accessing the files on the filesystem.The potentially exposed private keys have been revoked, please upgrade to the versions provided in the solutions to support push proxy.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 6.4.0 through 6.4.1 FortiOS version 6.2.0 through 6.2.9 FortiOS version 6.0.0 through 6.0.13 FortiAuthenticator version 6.1.0 FortiAuthenticator version 6.0.0 through 6.0.4 FortiAuthenticator 5.5 all versions\n        ",
+				"text": "\n            FortiOS version 6.4.0 through 6.4.1FortiOS version 6.2.0 through 6.2.9FortiOS version 6.0.0 through 6.0.13FortiAuthenticator version 6.1.0FortiAuthenticator version 6.0.0 through 6.0.4FortiAuthenticator 5.5 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 6.4.2 or above. Please upgrade to FortiOS version 6.2.10 or above Please upgrade to FortiOS version 6.0.14 or above Please upgrade to FortiAuthenticator version 6.2.0 or above Please upgrade to FortiAuthenticator version 6.1.1 or above Please upgrade to FortiAuthenticator version 6.0.5 or above Workaround in FortiOS: Disable the FTM push service by using the below commands: config system ftm-push set status disable end\n        ",
+				"text": "\n            Please upgrade to FortiGate version 6.4.2 or above.Please upgrade to FortiOS version 6.2.10 or abovePlease upgrade to FortiOS version 6.0.14 or abovePlease upgrade to FortiAuthenticator version 6.2.0 or abovePlease upgrade to FortiAuthenticator version 6.1.1 or abovePlease upgrade to FortiAuthenticator version 6.0.5 or aboveWorkaround in FortiOS:Disable the FTM push service by using the below commands:config system ftm-pushset status disableend\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS, FortiAuthenticator - Disclosure of private keys corresponding to Apple (APNS) and Google (GCM) certificates",
+		"title": "Cert private key disclosure",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-014",
-					"description": "FortiOS, FortiAuthenticator - Disclosure of private keys corresponding to Apple (APNS) and Google (GCM) certificates"
+					"description": "Cert private key disclosure"
 				}
 			]
 		},
@@ -82,6 +82,13 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAuthenticator-6.1.0",
+					"FortiAuthenticator-6.0.4",
+					"FortiAuthenticator-6.0.3",
+					"FortiAuthenticator-6.0.2",
+					"FortiAuthenticator-6.0.1",
+					"FortiAuthenticator-6.0.0",
+					"FortiAuthenticator-5.5.0",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
 					"FortiOS-6.2.9",
@@ -107,21 +114,14 @@
 					"FortiOS-6.0.3",
 					"FortiOS-6.0.2",
 					"FortiOS-6.0.1",
-					"FortiOS-6.0.0",
-					"FortiAuthenticator-6.1.0",
-					"FortiAuthenticator-6.0.4",
-					"FortiAuthenticator-6.0.3",
-					"FortiAuthenticator-6.0.2",
-					"FortiAuthenticator-6.0.1",
-					"FortiAuthenticator-6.0.0",
-					"FortiAuthenticator-5.5.0"
+					"FortiOS-6.0.0"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -130,6 +130,68 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.1.0",
+								"product_id": "FortiAuthenticator-6.1.0"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.4",
+								"product_id": "FortiAuthenticator-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.3",
+								"product_id": "FortiAuthenticator-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.2",
+								"product_id": "FortiAuthenticator-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.1",
+								"product_id": "FortiAuthenticator-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.0",
+								"product_id": "FortiAuthenticator-6.0.0"
+							}
+						},
+						{
+							"name": "5.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 5.5.0",
+								"product_id": "FortiAuthenticator-5.5.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiOS",
 					"type": "Product Name",
@@ -340,68 +402,6 @@
 							"full_product_name": {
 								"text": "FortiOS 6.0.0",
 								"product_id": "FortiOS-6.0.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAuthenticator",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.1.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.1.0",
-								"product_id": "FortiAuthenticator-6.1.0"
-							}
-						},
-						{
-							"name": "6.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.0.4",
-								"product_id": "FortiAuthenticator-6.0.4"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.0.3",
-								"product_id": "FortiAuthenticator-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.0.2",
-								"product_id": "FortiAuthenticator-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.0.1",
-								"product_id": "FortiAuthenticator-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.0.0",
-								"product_id": "FortiAuthenticator-6.0.0"
-							}
-						},
-						{
-							"name": "5.5.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 5.5.0",
-								"product_id": "FortiAuthenticator-5.5.0"
 							}
 						}
 					]

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - Improper privilege management on API requests",
+	"document_title": "Improper privilege management on API requests",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiManager version 7.2.0 through 7.2.2FortiManager version 7.0.0 through 7.0.7FortiManager version 6.4.0 through 6.4.11FortiManager 6.2 all versionsFortiManager 6.0 all versionsFortiAnalyzer version 7.2.0 through 7.2.2FortiAnalyzer version 7.0.0 through 7.0.7FortiAnalyzer version 6.4.0 through 6.4.11FortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiManager version 7.4.0 or above Please upgrade to FortiManager version 7.2.3 or above Please upgrade to FortiManager version 7.0.8 or above Please upgrade to FortiManager version 6.4.12 or above Please upgrade to FortiAnalyzer version 7.4.0 or above Please upgrade to FortiAnalyzer version 7.2.3 or above Please upgrade to FortiAnalyzer version 7.0.8 or above Please upgrade to FortiAnalyzer version 6.4.12 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - Improper privilege management on API requests",
+		"title": "Improper privilege management on API requests",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-522",
-					"description": "FortiManager & FortiAnalyzer - Improper privilege management on API requests"
+					"description": "Improper privilege management on API requests"
 				}
 			]
 		},

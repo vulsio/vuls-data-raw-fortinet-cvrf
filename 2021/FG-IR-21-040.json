@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiIsolator -- Unauthorized user able to regenerate CA certificate",
+	"document_title": "Unauthorized user able to regenerate CA certificate",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284] in FortiIsolator may allow an authenticated, non privileged attacker to regenerate the CA certificate via the regeneration URL.\n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiIsolator may allow an authenticated, non privileged attacker to regenerate the CA certificate via the regeneration URL.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiIsolator version 2.3.3 or above. Please upgrade to FortiIsolator version 2.4.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiIsolator version 2.3.3 or above.Please upgrade to FortiIsolator version 2.4.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiIsolator -- Unauthorized user able to regenerate CA certificate",
+		"title": "Unauthorized user able to regenerate CA certificate",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-040",
-					"description": "FortiIsolator -- Unauthorized user able to regenerate CA certificate"
+					"description": "Unauthorized user able to regenerate CA certificate"
 				}
 			]
 		},

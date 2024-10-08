@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientWindows - Arbitrary file creation by unprivileged users",
+	"document_title": "Arbitrary file creation by unprivileged users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.7 FortiClientWindows 6.4 all versions FortiClientWindows 6.2 all versions FortiClientWindows 6.0 all versions\n        ",
+				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.7FortiClientWindows 6.4 all versionsFortiClientWindows 6.2 all versionsFortiClientWindows 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientWindows - Arbitrary file creation by unprivileged users",
+		"title": "Arbitrary file creation by unprivileged users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-320",
-					"description": "FortiClientWindows - Arbitrary file creation by unprivileged users"
+					"description": "Arbitrary file creation by unprivileged users"
 				}
 			]
 		},

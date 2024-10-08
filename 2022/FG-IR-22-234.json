@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - WAF XSS Injection Bypass",
+	"document_title": "WAF XSS Injection Bypass",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper handling of malformed request vulnerability [CWE-228] in FortiADC may allow a remote attacker without privileges to bypass some Web Application Firewall (WAF) protection such as the SQL Injection and XSS filters via a malformed HTTP request.    \n        ",
+				"text": "\n            An improper handling of malformed request vulnerability [CWE-228] in FortiADC may allow a remote attacker without privileges to bypass some Web Application Firewall (WAF) protection such as the SQL Injection and XSS filters via a malformed HTTP request.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiADC version 7.0.0 through 7.0.2FortiADC version 6.2.0 through 6.2.3FortiADC version 6.1.0 through 6.1.6FortiADC version 6.0.0 through 6.0.4FortiADC version 5.4.0 through 5.4.5FortiADC version 5.3.0 through 5.3.7FortiADC version 5.2.0 through 5.2.8FortiADC version 5.1.0 through 5.1.7FortiADC version 5.0.0 through 5.0.4\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.1.0 or above Please upgrade to FortiADC version 7.0.3 or above Please upgrade to FortiADC version 6.2.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - WAF XSS Injection Bypass",
+		"title": "WAF XSS Injection Bypass",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-234",
-					"description": "FortiADC - WAF XSS Injection Bypass"
+					"description": "WAF XSS Injection Bypass"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - Out-of-bounds Write in captive portal",
+	"document_title": "Out-of-bounds Write in captive portal",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An out-of-bounds write vulnerability [CWE-787] and a Stack-based Buffer Overflow [CWE-121] in FortiOS & FortiProxy captive portal may allow an inside attacker who has access to captive portal to execute arbitrary code or commands via specially crafted HTTP requests.Workaround:Set a non form-based authentication scheme:config authentication schemeedit schemeset method methodnextendWhere <method> can be any of those :ntlm NTLM authentication.basic Basic HTTP authentication.digest Digest HTTP authentication.negotiate Negotiate authentication.fsso Fortinet Single Sign-On (FSSO) authentication.rsso RADIUS Single Sign-On (RSSO) authentication.ssh-publickey Public key based SSH authentication.cert Client certificate authentication.saml SAML authentication\n        ",
+				"text": "\n            An out-of-bounds write vulnerability [CWE-787] and a Stack-based Buffer Overflow [CWE-121] in FortiOS & FortiProxy captive portal may allow an inside attacker who has access to captive portal to execute arbitrary code or commands via specially crafted HTTP requests.## Workaround:Set a non form-based authentication scheme:<br/>config authentication scheme<br/>edit scheme<br/>set method method<br/>next<br/>end<br/>Where <method> can be any of those :ntlm NTLM authentication.basic Basic HTTP authentication.digest Digest HTTP authentication.negotiate Negotiate authentication.fsso Fortinet Single Sign-On (FSSO) authentication.rsso RADIUS Single Sign-On (RSSO) authentication.ssh-publickey Public key based SSH authentication.cert Client certificate authentication.saml SAML authenticationNone of the enabled authentication schemes should be form-based.Please note that only devices with captive portal enabled are affected.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - Out-of-bounds Write in captive portal",
+		"title": "Out-of-bounds Write in captive portal",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-328",
-					"description": "FortiOS & FortiProxy - Out-of-bounds Write in captive portal"
+					"description": "Out-of-bounds Write in captive portal"
 				}
 			]
 		},

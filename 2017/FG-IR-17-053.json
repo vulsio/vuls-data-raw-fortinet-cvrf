@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS 6.0.0 to 6.0.6FortiOS 5.6.0 to 5.6.10FortiOS 5.4 all versions and below.\n        ",
+				"text": "\n            FortiOS 6.0.0 to 6.0.6 FortiOS 5.6.0 to 5.6.10 FortiOS 5.4 all versions and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -124,9 +124,7 @@
 					"FortiOS-5.4.3",
 					"FortiOS-5.4.2",
 					"FortiOS-5.4.1",
-					"FortiOS-5.4.0",
-					"FortiADC-5.2.2",
-					"FortiADC-5.1.4"
+					"FortiOS-5.4.0"
 				]
 			}
 		},
@@ -416,28 +414,6 @@
 							"full_product_name": {
 								"text": "FortiOS 5.4.0",
 								"product_id": "FortiOS-5.4.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiADC",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "5.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 5.2.2",
-								"product_id": "FortiADC-5.2.2"
-							}
-						},
-						{
-							"name": "5.1.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 5.1.4",
-								"product_id": "FortiADC-5.1.4"
 							}
 						}
 					]

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Account creation outside initial IdP",
+	"document_title": "Account creation outside initial IdP",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPortal version 7.2.0 through 7.2.1 FortiPortal version 7.0.0 through 7.0.6\n        ",
+				"text": "\n            FortiPortal version 7.2.0 through 7.2.1FortiPortal version 7.0.0 through 7.0.6\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiPortal version 7.2.2 Please upgrade to FortiPortal version 7.0.7\n        ",
+				"text": "\n            Please upgrade to FortiPortal version 7.2.2Please upgrade to FortiPortal version 7.0.7\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Account creation outside initial IdP",
+		"title": "Account creation outside initial IdP",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-395",
-					"description": "FortiPortal - Account creation outside initial IdP"
+					"description": "Account creation outside initial IdP"
 				}
 			]
 		},

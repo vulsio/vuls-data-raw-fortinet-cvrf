@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiNAC version 9.4.0 through 9.4.2FortiNAC version 9.2.0 through 9.2.7FortiNAC version 9.1.0 through 9.1.9FortiNAC version 7.2.0 through 7.2.1FortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiNAC version 9.4.3 or above Please upgrade to FortiNAC version 9.2.8 or above Please upgrade to FortiNAC version 9.1.10 or above Please upgrade to FortiNAC version 7.2.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

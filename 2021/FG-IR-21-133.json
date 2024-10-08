@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Open redirect due to missing domain whitelisting",
+	"document_title": "Open redirect due to missing domain whitelisting",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A URL redirection to untrusted site ('Open Redirect') [CWE-601] in FortiWeb may allow an authenticated attacker to use the device as proxy to reach any protected host via crafted HTTP requests.\n        ",
+				"text": "\n            A URL redirection to untrusted site ('Open Redirect') [CWE-601] in FortiWeb may allow an authenticated attacker to use the device as proxy to reach any protected host via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 6.0.0 through 6.0.7 FortiWeb version 6.1.0 through 6.1.2 FortiWeb version 6.2.0 through 6.2.7 FortiWeb version 6.3.0 through 6.3.15 FortiWeb version 6.4.0 through 6.4.1  \n        ",
+				"text": "\n            FortiWeb version 6.0.0 through 6.0.7FortiWeb version 6.1.0 through 6.1.2FortiWeb version 6.2.0 through 6.2.7FortiWeb version 6.3.0 through 6.3.15FortiWeb version 6.4.0 through 6.4.1\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb version 7.0.0 and above Upgrade to FortiWeb version 6.4.2 and above Upgrade to FortiWeb version 6.3.16 and above\n        ",
+				"text": "\n            Upgrade to FortiWeb version 7.0.0 and aboveUpgrade to FortiWeb version 6.4.2 and aboveUpgrade to FortiWeb version 6.3.16 and above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Open redirect due to missing domain whitelisting",
+		"title": "Open redirect due to missing domain whitelisting",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-133",
-					"description": "FortiWeb - Open redirect due to missing domain whitelisting"
+					"description": "Open redirect due to missing domain whitelisting"
 				}
 			]
 		},

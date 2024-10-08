@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Windows agent password is visible in the logs",
+	"document_title": "Windows agent password is visible in the logs",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSIEM version 7.0.0 FortiSIEM version 6.7.0 through 6.7.5\n        ",
+				"text": "\n            FortiSIEM version 7.0.0FortiSIEM version 6.7.0 through 6.7.5\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.1.0 or above Please upgrade to FortiSIEM version 7.0.1 or above Please upgrade to FortiSIEM version 6.7.6 or above\n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 7.1.0 or abovePlease upgrade to FortiSIEM version 7.0.1 or abovePlease upgrade to FortiSIEM version 6.7.6 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Darren Hart from FortiSIEMCloud developpement team."
+				"description": "Internally discovered and reported by Darren Hart from FortiSIEMCloud development team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Windows agent password is visible in the logs",
+		"title": "Windows agent password is visible in the logs",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-290",
-					"description": "FortiSIEM - Windows agent password is visible in the logs"
+					"description": "Windows agent password is visible in the logs"
 				}
 			]
 		},

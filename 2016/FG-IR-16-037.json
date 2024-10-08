@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of Privilege\n        ",
+				"text": "\n            Information Leak, Denial of Service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -49,7 +49,18 @@
 			}
 		]
 	},
-	"document_references": {},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037",
+				"description": "FortiDDoS Command Injection Vulnerability Announcement"
+			},
+			{
+				"url": "-",
+				"description": "-"
+			}
+		]
+	},
 	"acknowledgments": {
 		"acknowledgment": [
 			{
@@ -66,22 +77,30 @@
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037",
 					"description": "FortiDDoS Command Injection Vulnerability Announcement"
+				},
+				{
+					"url": "-",
+					"description": "-"
 				}
 			]
 		},
+		"cve": [
+			"CVE--"
+		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
 					"FortiDDoS-4.2.2",
 					"FortiDDoS-4.2.1",
-					"FortiDDoS-0.4.20"
+					"FortiDDoS-4.2.0"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "0"
+				"base_score_v3": "0",
+				"vector_v3": "CVSS:3.1/N\\A"
 			}
 		}
 	},
@@ -111,11 +130,11 @@
 							}
 						},
 						{
-							"name": "0.4.20",
+							"name": "4.2.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiDDoS 0.4.20",
-								"product_id": "FortiDDoS-0.4.20"
+								"text": "FortiDDoS 4.2.0",
+								"product_id": "FortiDDoS-4.2.0"
 							}
 						}
 					]

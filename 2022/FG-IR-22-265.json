@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - Weak password storage",
+	"document_title": "Weak password storage",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or above Please upgrade to FortiNAC version 9.4.1 or above Please upgrade to FortiNAC version 9.2.6 or above Please upgrade to FortiNAC version 9.1.8 or above\n        ",
+				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or abovePlease upgrade to FortiNAC version 9.4.1 or abovePlease upgrade to FortiNAC version 9.2.6 or abovePlease upgrade to FortiNAC version 9.1.8 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered by Gwendal GuÃ©gniaud from Fortinet Product Security Team."
+				"description": "Internally discovered by Gwendal Guégniaud from Fortinet Product Security Team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - Weak password storage",
+		"title": "Weak password storage",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-265",
-					"description": "FortiNAC - Weak password storage"
+					"description": "Weak password storage"
 				}
 			]
 		},

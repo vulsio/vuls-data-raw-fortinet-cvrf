@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability",
+	"document_title": "CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The Fortinet Product Security team has evaluated the impact of the vulnerablity HTTP/2 Rapid Reset Attack, listed below: CVE-2023-44487: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly. https://nvd.nist.gov/vuln/detail/CVE-2023-44487\n        ",
+				"text": "\n            The Fortinet Product Security team has evaluated the impact of the vulnerablity HTTP/2 Rapid Reset Attack, listed below:CVE-2023-44487:The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly.https://nvd.nist.gov/vuln/detail/CVE-2023-44487\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS version 7.4.0 through 7.4.1FortiOS version 7.2.0 through 7.2.6FortiOS version 7.0.0 through 7.0.13FortiProxy version 7.4.0 through 7.4.1FortiProxy version 7.2.0 through 7.2.7FortiProxy 7.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSASE version 22.4 or above Please upgrade to FortiOS version 7.4.2 or above Please upgrade to FortiOS version 7.2.7 or above Please upgrade to FortiOS version 7.0.14 or above Please upgrade to FortiProxy version 7.4.2 or above Please upgrade to FortiProxy version 7.2.8 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability",
+		"title": "CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-397",
-					"description": "FortiOS & FortiProxy - CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability"
+					"description": "CVE-2023-44487 - Rapid Reset HTTP/2 vulnerability"
 				}
 			]
 		},
@@ -78,6 +66,7 @@
 				"product_id": [
 					"FortiOS-7.4.1",
 					"FortiOS-7.4.0",
+					"FortiOS-7.2.7",
 					"FortiOS-7.2.6",
 					"FortiOS-7.2.5",
 					"FortiOS-7.2.4",
@@ -109,6 +98,9 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.18",
+					"FortiProxy-7.0.17",
+					"FortiProxy-7.0.16",
 					"FortiProxy-7.0.15",
 					"FortiProxy-7.0.14",
 					"FortiProxy-7.0.13",
@@ -158,6 +150,14 @@
 							"full_product_name": {
 								"text": "FortiOS 7.4.0",
 								"product_id": "FortiOS-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.7",
+								"product_id": "FortiOS-7.2.7"
 							}
 						},
 						{
@@ -412,6 +412,30 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.18",
+								"product_id": "FortiProxy-7.0.18"
+							}
+						},
+						{
+							"name": "7.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.17",
+								"product_id": "FortiProxy-7.0.17"
+							}
+						},
+						{
+							"name": "7.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.16",
+								"product_id": "FortiProxy-7.0.16"
 							}
 						},
 						{

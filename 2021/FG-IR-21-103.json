@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager - ADOMs script information leaked in FortiGate CLI",
+	"document_title": "ADOMs script information leaked in FortiGate CLI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive information to an unauthorized actor [CWE-200] vulnerability in FortiManager may allow a FortiGate user to see scripts from other ADOMS.\n        ",
+				"text": "\n            An exposure of sensitive information to an unauthorized actor [CWE-200] vulnerability in FortiManager may allow a FortiGate user to see scripts from other ADOMS.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.0.1 and below. FortiManager version 6.4.6 and below. FortiManager version 6.2.x. FortiManager version 6.0.x. FortiManager version 5.6.x.\n        ",
+				"text": "\n            FortiManager version 7.0.1 and below.FortiManager version 6.4.6 and below.FortiManager version 6.2.x.FortiManager version 6.0.x.FortiManager version 5.6.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.0.2 or above. Please upgrade to FortiManager version 6.4.7 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager version 7.0.2 or above.Please upgrade to FortiManager version 6.4.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager - ADOMs script information leaked in FortiGate CLI",
+		"title": "ADOMs script information leaked in FortiGate CLI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-103",
-					"description": "FortiManager - ADOMs script information leaked in FortiGate CLI"
+					"description": "ADOMs script information leaked in FortiGate CLI"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Plaintext credentials storage in DB",
+	"document_title": "Plaintext credentials storage in DB",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A plaintext storage of a password vulnerability [CWE-256] in FortiSIEM may allow an attacker able to access user DB content to impersonate any admin user on the device GUI.\n        ",
+				"text": "\n            A plaintext storage of a password vulnerability [CWE-256] in FortiSIEM may allow an attacker able to access user DB content to impersonate any admin user on the device GUI.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSIEM 6.7 all versionsFortiSIEM 6.6 all versionsFortiSIEM 6.5 all versionsFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.0.0 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Plaintext credentials storage in DB",
+		"title": "Plaintext credentials storage in DB",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-141",
-					"description": "FortiSIEM - Plaintext credentials storage in DB"
+					"description": "Plaintext credentials storage in DB"
 				}
 			]
 		},
@@ -82,6 +70,7 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiSIEM-6.7.9",
 					"FortiSIEM-6.7.8",
 					"FortiSIEM-6.7.7",
 					"FortiSIEM-6.7.6",
@@ -91,14 +80,17 @@
 					"FortiSIEM-6.7.2",
 					"FortiSIEM-6.7.1",
 					"FortiSIEM-6.7.0",
+					"FortiSIEM-6.6.5",
 					"FortiSIEM-6.6.4",
 					"FortiSIEM-6.6.3",
 					"FortiSIEM-6.6.2",
 					"FortiSIEM-6.6.1",
 					"FortiSIEM-6.6.0",
+					"FortiSIEM-6.5.3",
 					"FortiSIEM-6.5.2",
 					"FortiSIEM-6.5.1",
 					"FortiSIEM-6.5.0",
+					"FortiSIEM-6.4.4",
 					"FortiSIEM-6.4.3",
 					"FortiSIEM-6.4.2",
 					"FortiSIEM-6.4.1",
@@ -136,6 +128,14 @@
 					"name": "FortiSIEM",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "6.7.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.9",
+								"product_id": "FortiSIEM-6.7.9"
+							}
+						},
 						{
 							"name": "6.7.8",
 							"type": "Product Version",
@@ -209,6 +209,14 @@
 							}
 						},
 						{
+							"name": "6.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.5",
+								"product_id": "FortiSIEM-6.6.5"
+							}
+						},
+						{
 							"name": "6.6.4",
 							"type": "Product Version",
 							"full_product_name": {
@@ -249,6 +257,14 @@
 							}
 						},
 						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.3",
+								"product_id": "FortiSIEM-6.5.3"
+							}
+						},
+						{
 							"name": "6.5.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -270,6 +286,14 @@
 							"full_product_name": {
 								"text": "FortiSIEM 6.5.0",
 								"product_id": "FortiSIEM-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.4",
+								"product_id": "FortiSIEM-6.4.4"
 							}
 						},
 						{

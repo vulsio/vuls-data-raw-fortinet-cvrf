@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Uncontrolled memory allocation",
+	"document_title": "Uncontrolled memory allocation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A memory allocation with excessive size value vulnerability [CWE-789] in the license verification function of FortiPortal may allow an attacker to perform a denial of service attack via specially crafted license blobs.\n        ",
+				"text": "\n            A memory allocation with excessive size value vulnerability [CWE-789] in the license verification function of FortiPortal may allow an attacker to perform a denial of service attack via specially crafted license blobs.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPortal versions 6.0.5 and below. FortiPortal versions 5.3.6 and below. FortiPortal versions 5.2.6 and below. FortiPortal versions 5.1.2 and below. FortiPortal versions 5.0.3 and below. FortiPortal versions 4.2.2 and below. FortiPortal versions 4.2.2 and below. FortiPortal versions 4.1.2 and below. FortiPortal versions 4.0.4 and below.\n        ",
+				"text": "\n            FortiPortal versions 6.0.5 and below.FortiPortal versions 5.3.6 and below.FortiPortal versions 5.2.6 and below.FortiPortal versions 5.1.2 and below.FortiPortal versions 5.0.3 and below.FortiPortal versions 4.2.2 and below.FortiPortal versions 4.2.2 and below.FortiPortal versions 4.1.2 and below.FortiPortal versions 4.0.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiPortal version 7.0.0 or above. Upgrade to FortiPortal version 6.0.6 or above.\n        ",
+				"text": "\n            Upgrade to FortiPortal version 7.0.0 or above.Upgrade to FortiPortal version 6.0.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Uncontrolled memory allocation",
+		"title": "Uncontrolled memory allocation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-109",
-					"description": "FortiPortal - Uncontrolled memory allocation"
+					"description": "Uncontrolled memory allocation"
 				}
 			]
 		},

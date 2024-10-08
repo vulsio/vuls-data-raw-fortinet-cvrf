@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy --  Path traversal vulnerability",
+	"document_title": "Path traversal vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiGate versions 7.0.1 and 7.0.0. FortiGate versions 6.2.x, 6.4.x are NOT impacted by this vulnerability. FortiProxy version 7.0.0.\n        ",
+				"text": "\n            FortiGate versions 7.0.1 and 7.0.0.FortiGate versions 6.2.x, 6.4.x are NOT impacted by this vulnerability.FortiProxy version 7.0.0.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 7.0.2 or above. Please upgrade to FortiProxy version 7.0.1 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 7.0.2 or above.Please upgrade to FortiProxy version 7.0.1 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy --  Path traversal vulnerability",
+		"title": "Path traversal vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-181",
-					"description": "FortiOS & FortiProxy --  Path traversal vulnerability"
+					"description": "Path traversal vulnerability"
 				}
 			]
 		},
@@ -82,9 +82,9 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiProxy-7.0.0",
 					"FortiOS-7.0.1",
-					"FortiOS-7.0.0"
+					"FortiOS-7.0.0",
+					"FortiProxy-7.0.0"
 				]
 			}
 		},
@@ -100,20 +100,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiProxy",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.0",
-								"product_id": "FortiProxy-7.0.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiOS",
 					"type": "Product Name",
@@ -132,6 +118,20 @@
 							"full_product_name": {
 								"text": "FortiOS 7.0.0",
 								"product_id": "FortiOS-7.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.0",
+								"product_id": "FortiProxy-7.0.0"
 							}
 						}
 					]

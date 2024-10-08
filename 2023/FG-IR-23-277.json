@@ -1,5 +1,5 @@
 {
-	"document_title": "Downfall and Zenbleed vulnerabilities",
+	"document_title": "CPU Downfall and Zenbleed class attacks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Two side channel hardware vulnerabilities named Downfall (CVE-2022-40982) and Zenbleed (CVE-2023-20593) impact Intel and AMD processors. \"Downfall attacks target a critical weakness found in billions of modern processors used in personal and cloud computers. This vulnerability, identified as CVE-2022-40982, enables a user to access and steal data from other users who share the same computer. For instance, a malicious app obtained from an app store could use the Downfall attack to steal sensitive information like passwords, encryption keys, and private data such as banking details, personal emails, and messages.\" [1] \"The vulnerability is caused by memory optimization features in Intel processors that unintentionally reveal internal hardware registers to software. \" [1] \"Zenbleed, affecting AMD CPUs, shows that incorrectly implemented speculative execution of the SIMD Zeroupper instruction leaks stale data from physical hardware registers to software registers. Zeroupper instructions should clear the data in the upper-half of SIMD registers (e.g., 256-bit register YMM) which on Zen2 processors is done by just setting a flag that marks the upper half of the register as zero. However, if on the same cycle as a register to register move the Zeroupper instruction is mis-speculated, the zero flag doesnt get rolled back properly, leading to the upper-half of the YMM register to hold stale data rather than the value of zero. Similar to Downfall, leaking stale data from physical hardware registers expose the data from other users who share the same CPU core and its internal physical registers.\" [2] These vulnerabilities may allow a local attacker to potentially access sensitive information, entire XMM/YMM/ZMM register (Downfall) and upper-half of 256-bit YMM Registers (Zenbleed). Zenbleed is impacting all Zen 2 class processors : AMD Ryzen 3000 Series Processors AMD Ryzen PRO 3000 Series Processors AMD Ryzen Threadripper 3000 Series Processors AMD Ryzen 4000 Series Processors with Radeon Graphics AMD Ryzen PRO 4000 Series Processors AMD Ryzen 5000 Series Processors with Radeon Graphics AMD Ryzen 7020 Series Processors with Radeon Graphics AMD EPYC “Rome” Processors Downfall is impacting Intel processor (6th Skylake to (including) the 11th Tiger Lake generation). [1] https://downfall.page/ [2] https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html\n        ",
+				"text": "\n            Two side channel hardware vulnerabilities named Downfall (CVE-2022-40982) and Zenbleed (CVE-2023-20593) impact Intel and AMD processors.\"Downfall attacks target a critical weakness found in billions of modern processors used in personal and cloud computers. This vulnerability, identified as CVE-2022-40982, enables a user to access and steal data from other users who share the same computer. For instance, a malicious app obtained from an app store could use the Downfall attack to steal sensitive information like passwords, encryption keys, and private data such as banking details, personal emails, and messages.\" [1] \"The vulnerability is caused by memory optimization features in Intel processors that unintentionally reveal internal hardware registers to software. \" [1] \"Zenbleed, affecting AMD CPUs, shows that incorrectly implemented speculative execution of the SIMD Zeroupper instruction leaks stale data from physical hardware registers to software registers. Zeroupper instructions should clear the data in the upper-half of SIMD registers (e.g., 256-bit register YMM) which on Zen2 processors is done by just setting a flag that marks the upper half of the register as zero. However, if on the same cycle as a register to register move the Zeroupper instruction is mis-speculated, the zero flag doesnt get rolled back properly, leading to the upper-half of the YMM register to hold stale data rather than the value of zero. Similar to Downfall, leaking stale data from physical hardware registers expose the data from other users who share the same CPU core and its internal physical registers.\" [2] These vulnerabilities may allow a local attacker to potentially access sensitive information, entire XMM/YMM/ZMM register (Downfall) and upper-half of 256-bit YMM Registers (Zenbleed).Zenbleed is impacting all Zen 2 class processors : - AMD Ryzen 3000 Series Processors- AMD Ryzen PRO 3000 Series Processors- AMD Ryzen Threadripper 3000 Series Processors- AMD Ryzen 4000 Series Processors with Radeon Graphics- AMD Ryzen PRO 4000 Series Processors- AMD Ryzen 5000 Series Processors with Radeon Graphics- AMD Ryzen 7020 Series Processors with Radeon Graphics- AMD EPYC “Rome” ProcessorsDownfall is impacting Intel processor (6th Skylake to (including) the 11th Tiger Lake generation).[1] https://downfall.page/[2] https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Fortinet products are designed to not permit arbitrary code execution in the user space under regular conditions. Thus, even if the ongoing investigation reveals that certain products are affected, Downfall and Zenbleed exploitation would only be possible if the attack is combined with an additional local or remote code execution vulnerability.   At this stage of the investigation, the following products have been confirmed to not embed the affected processors, and are therefore NOT affected:   FortiSIEM FortiOS  FortiWeb  FortiMail  FortiSwitch FortiManager  FortiAnalyzer  FortiADC  FortiAuthenticator   \n        ",
+				"text": "\n            Fortinet products are designed to not permit arbitrary code execution in the user space under regular conditions. Thus, even if the ongoing investigation reveals that certain products are affected, Downfall and Zenbleed exploitation would only be possible if the attack is combined with an additional local or remote code execution vulnerability.At this stage of the investigation, the following products have been confirmed to not embed the affected processors, and are therefore NOT affected:FortiSIEMFortiOSFortiWebFortiMailFortiSwitchFortiManagerFortiAnalyzerFortiADCFortiAuthenticator\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-277",
-				"description": "Downfall and Zenbleed vulnerabilities"
+				"description": "CPU Downfall and Zenbleed class attacks"
 			},
 			{
 				"url": "https://downfall.page/\n",
@@ -76,13 +76,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Downfall and Zenbleed vulnerabilities",
+		"title": "CPU Downfall and Zenbleed class attacks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-277",
-					"description": "Downfall and Zenbleed vulnerabilities"
+					"description": "CPU Downfall and Zenbleed class attacks"
 				},
 				{
 					"url": "https://downfall.page/\n",
@@ -111,8 +111,8 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "1.8",
-				"vector_v3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+				"base_score_v3": "5.1",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

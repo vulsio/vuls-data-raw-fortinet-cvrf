@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - Webproxy process denial of service",
+	"document_title": "Webproxy process denial of service",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.4 FortiOS version 7.0.0 through 7.0.10 FortiProxy version 7.2.0 through 7.2.2 FortiProxy version 7.0.0 through 7.0.8\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.4FortiOS version 7.0.0 through 7.0.10FortiProxy version 7.2.0 through 7.2.2FortiProxy version 7.0.0 through 7.0.8\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.11 or above Please upgrade to FortiProxy version 7.2.3 or above Please upgrade to FortiProxy version 7.0.9 or above FortiSASE is no longer impacted, issue remediated Q2/23\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.5 or abovePlease upgrade to FortiOS version 7.0.11 or abovePlease upgrade to FortiProxy version 7.2.3 or abovePlease upgrade to FortiProxy version 7.0.9 or aboveFortiSASE is no longer impacted, issue remediated Q2/23\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - Webproxy process denial of service",
+		"title": "Webproxy process denial of service",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-184",
-					"description": "FortiOS & FortiProxy - Webproxy process denial of service"
+					"description": "Webproxy process denial of service"
 				}
 			]
 		},

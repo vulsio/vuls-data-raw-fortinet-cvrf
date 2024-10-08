@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWebManager - Injection vulnerabilities",
+	"document_title": "Injection vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input vulnerability [CWE-79] in FortiWebManager may allow a remote authenticated attacker to inject malicious script/tags via the name/description/comments parameter of various sections of the device.\n        ",
+				"text": "\n            An improper neutralization of input vulnerability [CWE-79] in FortiWebManager may allow a remote authenticated attacker to inject malicious script/tags via the name/description/comments parameter of various sections of the device.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWebManager version 6.2.3 and below. FortiWebManager version 6.0.x.\n        ",
+				"text": "\n            FortiWebManager version 6.2.3 and below.FortiWebManager version 6.0.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWebManager version 6.2.4 or above.  \n        ",
+				"text": "\n            Please upgrade to FortiWebManager version 6.2.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWebManager - Injection vulnerabilities",
+		"title": "Injection vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-027",
-					"description": "FortiWebManager - Injection vulnerabilities"
+					"description": "Injection vulnerabilities"
 				}
 			]
 		},

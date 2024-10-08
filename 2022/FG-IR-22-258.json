@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Bruteforce of Exposed Endpoints",
+	"document_title": "Bruteforce of Exposed Endpoints",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSIEM version 6.7.0 FortiSIEM 6.6 all versions FortiSIEM 6.5 all versions FortiSIEM 6.4 all versions FortiSIEM 6.3 all versions FortiSIEM 6.2 all versions FortiSIEM 6.1 all versions FortiSIEM 5.4 all versions FortiSIEM 5.3 all versions FortiSIEM 5.2 all versions FortiSIEM 5.1 all versions\n        ",
+				"text": "\n            FortiSIEM version 6.7.0FortiSIEM 6.6 all versionsFortiSIEM 6.5 all versionsFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versionsFortiSIEM 5.2 all versionsFortiSIEM 5.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Bruteforce of Exposed Endpoints",
+		"title": "Bruteforce of Exposed Endpoints",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-258",
-					"description": "FortiSIEM - Bruteforce of Exposed Endpoints"
+					"description": "Bruteforce of Exposed Endpoints"
 				}
 			]
 		},
@@ -83,14 +83,17 @@
 				"type": "Known Affected",
 				"product_id": [
 					"FortiSIEM-6.7.0",
+					"FortiSIEM-6.6.5",
 					"FortiSIEM-6.6.4",
 					"FortiSIEM-6.6.3",
 					"FortiSIEM-6.6.2",
 					"FortiSIEM-6.6.1",
 					"FortiSIEM-6.6.0",
+					"FortiSIEM-6.5.3",
 					"FortiSIEM-6.5.2",
 					"FortiSIEM-6.5.1",
 					"FortiSIEM-6.5.0",
+					"FortiSIEM-6.4.4",
 					"FortiSIEM-6.4.3",
 					"FortiSIEM-6.4.2",
 					"FortiSIEM-6.4.1",
@@ -125,7 +128,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "8.1",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:U/RC:C"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:C"
 			}
 		}
 	},
@@ -144,6 +147,14 @@
 							"full_product_name": {
 								"text": "FortiSIEM 6.7.0",
 								"product_id": "FortiSIEM-6.7.0"
+							}
+						},
+						{
+							"name": "6.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.5",
+								"product_id": "FortiSIEM-6.6.5"
 							}
 						},
 						{
@@ -187,6 +198,14 @@
 							}
 						},
 						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.3",
+								"product_id": "FortiSIEM-6.5.3"
+							}
+						},
+						{
 							"name": "6.5.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -208,6 +227,14 @@
 							"full_product_name": {
 								"text": "FortiSIEM 6.5.0",
 								"product_id": "FortiSIEM-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.4",
+								"product_id": "FortiSIEM-6.4.4"
 							}
 						},
 						{

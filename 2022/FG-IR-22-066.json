@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Inter-domain information leakage",
+	"document_title": "Inter-domain information leakage",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Inter-domain information leakage",
+		"title": "Inter-domain information leakage",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-066",
-					"description": "FortiMail - Inter-domain information leakage"
+					"description": "Inter-domain information leakage"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiEDRCollector (Windows) - Protection may be disabled by local attacker",
+	"document_title": "Protection may be disabled by local attacker",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerabilty [CWE-284] in FortiEDRCollectorWindows may allow a local attacker to prevent the collector service to start in the next system reboot by tampering with some registry keys of the service. \n        ",
+				"text": "\n            An improper access control vulnerabilty [CWE-284] in FortiEDRCollectorWindows may allow a local attacker to prevent the collector service to start in the next system reboot by tampering with some registry keys of the service.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiEDRCollectorWindows version 5.2.0.4549 and below FortiEDRCollectorWindows  5.0.3.1007 and below FortiEDRCollectorWindows  4.0 all versions\n        ",
+				"text": "\n            FortiEDRCollectorWindows version 5.2.0.4549 and belowFortiEDRCollectorWindows 5.0.3.1007 and belowFortiEDRCollectorWindows 4.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiEDRCollectorWindows version 5.2.0.4581 or above Please upgrade to FortiEDRCollectorWindows version 5.0.3.1016 or above\n        ",
+				"text": "\n            Please upgrade to FortiEDRCollectorWindows version 5.2.0.4581 or abovePlease upgrade to FortiEDRCollectorWindows version 5.0.3.1016 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiEDRCollector (Windows) - Protection may be disabled by local attacker",
+		"title": "Protection may be disabled by local attacker",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-306",
-					"description": "FortiEDRCollector (Windows) - Protection may be disabled by local attacker"
+					"description": "Protection may be disabled by local attacker"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiTester - Password storage in cleartext in DB for external servers",
+	"document_title": "Password storage in cleartext in DB for external servers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A cleartext storage of sensitive information vulnerability [CWE-312] in FortiTester may allow an attacker with access to the DB contents to retrieve the plaintext password of external servers configured in the device.\n        ",
+				"text": "\n            A cleartext storage of sensitive information vulnerability [CWE-312] in FortiTester may allow an attacker with access to the DB contents to retrieve the plaintext password of external servers configured in the device.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiTester 7.2 all versionsFortiTester 7.1 all versionsFortiTester 7.0 all versionsFortiTester 4.2 all versionsFortiTester 4.1 all versionsFortiTester 4.0 all versionsFortiTester 3.9 all versionsFortiTester 3.8 all versionsFortiTester 3.7 all versionsFortiTester 3.6 all versionsFortiTester 3.5 all versionsFortiTester 3.4 all versionsFortiTester 3.3 all versionsFortiTester 3.2 all versionsFortiTester 3.1 all versionsFortiTester 3.0 all versionsFortiTester 2.9 all versionsFortiTester 2.8 all versionsFortiTester 2.7 all versionsFortiTester 2.6 all versionsFortiTester 2.5 all versionsFortiTester 2.4 all versionsFortiTester 2.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiTester version 7.3.0 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiTester - Password storage in cleartext in DB for external servers",
+		"title": "Password storage in cleartext in DB for external servers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-465",
-					"description": "FortiTester - Password storage in cleartext in DB for external servers"
+					"description": "Password storage in cleartext in DB for external servers"
 				}
 			]
 		},

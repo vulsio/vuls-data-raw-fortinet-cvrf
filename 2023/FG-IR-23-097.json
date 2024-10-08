@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - Heap buffer overflow in sslvpn pre-authentication",
+	"document_title": "Heap buffer overflow in sslvpn pre-authentication",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.   Workaround: Disable SSL-VPN.\n        ",
+				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests. ## Workaround:Disable SSL-VPN.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS-6K7K version 7.0.10 FortiOS-6K7K version 7.0.5 FortiOS-6K7K version 6.4.12 FortiOS-6K7K version 6.4.10 FortiOS-6K7K version 6.4.8 FortiOS-6K7K version 6.4.6 FortiOS-6K7K version 6.4.2 FortiOS-6K7K version 6.2.9 through 6.2.13 FortiOS-6K7K version 6.2.6 through 6.2.7 FortiOS-6K7K version 6.2.4 FortiOS-6K7K version 6.0.12 through 6.0.16 FortiOS-6K7K version 6.0.10 FortiProxy version 7.2.0 through 7.2.3 FortiProxy version 7.0.0 through 7.0.9 FortiProxy version 2.0.0 through 2.0.12 FortiProxy 1.2 all versions FortiProxy 1.1 all versions FortiOS version 7.2.0 through 7.2.4 FortiOS version 7.0.0 through 7.0.11 FortiOS version 6.4.0 through 6.4.12 FortiOS version 6.2.0 through 6.2.13 FortiOS version 6.0.0 through 6.0.16 FortiSASE is no longer impacted, issue remediated Q2/23\n        ",
+				"text": "\n            FortiOS-6K7K version 7.0.10FortiOS-6K7K version 7.0.5FortiOS-6K7K version 6.4.12FortiOS-6K7K version 6.4.10FortiOS-6K7K version 6.4.8FortiOS-6K7K version 6.4.6FortiOS-6K7K version 6.4.2FortiOS-6K7K version 6.2.9 through 6.2.13FortiOS-6K7K version 6.2.6 through 6.2.7FortiOS-6K7K version 6.2.4FortiOS-6K7K version 6.0.12 through 6.0.16FortiOS-6K7K version 6.0.10FortiProxy version 7.2.0 through 7.2.3FortiProxy version 7.0.0 through 7.0.9FortiProxy version 2.0.0 through 2.0.12FortiProxy 1.2 all versionsFortiProxy 1.1 all versionsFortiOS version 7.2.0 through 7.2.4FortiOS version 7.0.0 through 7.0.11FortiOS version 6.4.0 through 6.4.12FortiOS version 6.2.0 through 6.2.13FortiOS version 6.0.0 through 6.0.16FortiSASE is no longer impacted, issue remediated Q2/23\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS-6K7K version 7.0.12 or above Please upgrade to FortiOS-6K7K version 6.4.13 or above Please upgrade to FortiOS-6K7K version 6.2.15 or above Please upgrade to FortiOS-6K7K version 6.0.17 or above Please upgrade to FortiProxy version 7.2.4 or above Please upgrade to FortiProxy version 7.0.10 or above Please upgrade to FortiProxy version 2.0.13 or above Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.12 or above Please upgrade to FortiOS version 6.4.13 or above Please upgrade to FortiOS version 6.2.14 or above Please upgrade to FortiOS version 6.0.17 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS-6K7K version 7.0.12 or abovePlease upgrade to FortiOS-6K7K version 6.4.13 or abovePlease upgrade to FortiOS-6K7K version 6.2.15 or abovePlease upgrade to FortiOS-6K7K version 6.0.17 or abovePlease upgrade to FortiProxy version 7.2.4 or abovePlease upgrade to FortiProxy version 7.0.10 or abovePlease upgrade to FortiProxy version 2.0.13 or abovePlease upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.5 or abovePlease upgrade to FortiOS version 7.0.12 or abovePlease upgrade to FortiOS version 6.4.13 or abovePlease upgrade to FortiOS version 6.2.14 or abovePlease upgrade to FortiOS version 6.0.17 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - Heap buffer overflow in sslvpn pre-authentication",
+		"title": "Heap buffer overflow in sslvpn pre-authentication",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-097",
-					"description": "FortiOS & FortiProxy - Heap buffer overflow in sslvpn pre-authentication"
+					"description": "Heap buffer overflow in sslvpn pre-authentication"
 				}
 			]
 		},

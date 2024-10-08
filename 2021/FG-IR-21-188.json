@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - heap-based buffer overflow in API v1.0 controller",
+	"document_title": "Heap-based buffer overflow in API v1.0 controller",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A heap-based buffer overflow [CWE-122] vulnerability in FortiWeb may allow an authenticated attacker to execute arbitrary code or commands via crafted HTTP requests to the LogAccess and LogReport API controller.\n        ",
+				"text": "\n            A heap-based buffer overflow [CWE-122] vulnerability in FortiWeb may allow an authenticated attacker to execute arbitrary code or commands via crafted HTTP requests to the LogAccess and LogReport API controller.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 6.4.1 and below. FortiWeb version 6.3.16 and below. FortiWeb version 6.2.6 and below.\n        ",
+				"text": "\n            FortiWeb version 6.4.1 and below.FortiWeb version 6.3.16 and below.FortiWeb version 6.2.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb version 7.0.0 or above. Upgrade to FortiWeb version 6.4.2 or above. Upgrade to FortiWeb version 6.3.17 or above.   Fix for FortiWeb versions 6.2 to be confirmed.\n        ",
+				"text": "\n            Upgrade to FortiWeb version 7.0.0 or above.Upgrade to FortiWeb version 6.4.2 or above.Upgrade to FortiWeb version 6.3.17 or above.Fix for FortiWeb versions 6.2 to be confirmed.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - heap-based buffer overflow in API v1.0 controller",
+		"title": "Heap-based buffer overflow in API v1.0 controller",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-188",
-					"description": "FortiWeb - heap-based buffer overflow in API v1.0 controller"
+					"description": "Heap-based buffer overflow in API v1.0 controller"
 				}
 			]
 		},

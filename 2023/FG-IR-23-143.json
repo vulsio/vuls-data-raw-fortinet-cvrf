@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Unauthenticated arbitrary file read vulnerability",
+	"document_title": "Unauthenticated arbitrary file read vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWLM version 8.6.0 through 8.6.5 FortiWLM version 8.5.0 through 8.5.4 FortiWLM 8.4 all versions FortiWLM 8.3 all versions FortiWLM 8.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWLM version 8.6.6 or above Please upgrade to FortiWLM version 8.5.5 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -68,13 +56,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Unauthenticated arbitrary file read vulnerability",
+		"title": "Unauthenticated arbitrary file read vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-143",
-					"description": "FortiWLM - Unauthenticated arbitrary file read vulnerability"
+					"description": "Unauthenticated arbitrary file read vulnerability"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities",
+	"document_title": "Curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            CVE-2023-38545: severity HIGH (affects both libcurl and the curl tool) A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to \"let the host resolve the name\" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior. https://curl.se/docs/CVE-2023-38545.html CVE-2023-38546: severity LOW (affects libcurl only, not the tool) A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met. https://curl.se/docs/CVE-2023-38546.html\n        ",
+				"text": "\n            CVE-2023-38545: severity HIGH (affects both libcurl and the curl tool)A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to \"let the host resolve the name\" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.https://curl.se/docs/CVE-2023-38545.html## CVE-2023-38546: severity LOW (affects libcurl only, not the tool)A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.https://curl.se/docs/CVE-2023-38546.html\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiProxy version 7.4.0 through 7.4.1 FortiProxy version 7.2.0 through 7.2.7 FortiProxy 7.0 all versions FortiOS version 7.4.0 through 7.4.1 FortiOS version 7.2.0 through 7.2.6 FortiOS version 7.0.1 through 7.0.13 FortiExtender version 7.4.0 through 7.4.1 FortiExtender version 7.2.0 through 7.2.3\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiProxy version 7.4.2 or above Please upgrade to FortiProxy version 7.2.8 or above Please upgrade to FortiLANCloud version 22.1 or above Please upgrade to FortiSwitch version 7.4.2 or above Please upgrade to FortiSwitch version 7.2.6 or above Please upgrade to FortiOS version 7.4.2 or above Please upgrade to FortiOS version 7.2.7 or above Please upgrade to FortiOS version 7.0.14 or above Please upgrade to FortiAuthenticator version 6.6.0 or above Please upgrade to FortiAuthenticator version 6.5.4 or above Please upgrade to FortiADC version 7.4.1 or above Please upgrade to FortiADC version 7.2.4 or above Please upgrade to FortiClientEMS version 7.2.3 or above Please upgrade to FortiClientEMS version 7.0.5 or above Please upgrade to FortiClientLinux version 7.2.3 or above Please upgrade to FortiClientLinux version 7.0.10 or above Please upgrade to FortiClientMac version 7.2.3 or above Please upgrade to FortiClientMac version 7.0.10 or above Please upgrade to FortiClientWindows version 7.2.3 or above Please upgrade to FortiClientWindows version 7.0.10 or above Please upgrade to FortiWeb version 7.4.1 or above Please upgrade to FortiWeb version 7.2.6 or above Please upgrade to FortiTester version 7.3.2 or above Please upgrade to FortiTester version 7.2.4 or above Please upgrade to FortiDDoS version 5.7.2 or above Please upgrade to FortiDDoS version 5.6.3 or above Please upgrade to FortiExtender version 7.4.2 or above Please upgrade to FortiExtender version 7.2.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities",
+		"title": "Curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-385",
-					"description": "curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities"
+					"description": "Curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities"
 				}
 			]
 		},
@@ -115,6 +103,10 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.18",
+					"FortiProxy-7.0.17",
+					"FortiProxy-7.0.16",
+					"FortiProxy-7.0.15",
 					"FortiProxy-7.0.14",
 					"FortiProxy-7.0.13",
 					"FortiProxy-7.0.12",
@@ -463,6 +455,38 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.18",
+								"product_id": "FortiProxy-7.0.18"
+							}
+						},
+						{
+							"name": "7.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.17",
+								"product_id": "FortiProxy-7.0.17"
+							}
+						},
+						{
+							"name": "7.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.16",
+								"product_id": "FortiProxy-7.0.16"
+							}
+						},
+						{
+							"name": "7.0.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.15",
+								"product_id": "FortiProxy-7.0.15"
 							}
 						},
 						{

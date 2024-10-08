@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC -  Unprotected MySQL root account",
+	"document_title": "Unprotected MySQL root account",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An empty password in configuration file vulnerability [CWE-258] in FortiNAC may allow an authenticated attacker to access theÂ MySQL databases via the CLI.\n        ",
+				"text": "\n            An empty password in configuration file vulnerability [CWE-258] in FortiNAC may allow an authenticated attacker to access the MySQL databases via the CLI.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiNAC version 8.3.7 FortiNAC version 8.5.0 through 8.5.2 FortiNAC version 8.5.4 FortiNAC version 8.6.0 FortiNAC version 8.6.2 through 8.6.5 FortiNAC version 8.7.0 through 8.7.6 FortiNAC version 8.8.0 through 8.8.11 FortiNAC version 9.1.0 through 9.1.5 FortiNAC version 9.2.0 through 9.2.3\n        ",
+				"text": "\n            At leastFortiNAC version 8.3.7FortiNAC version 8.5.0 through 8.5.2FortiNAC version 8.5.4FortiNAC version 8.6.0FortiNAC version 8.6.2 through 8.6.5FortiNAC version 8.7.0 through 8.7.6FortiNAC version 8.8.0 through 8.8.11FortiNAC version 9.1.0 through 9.1.5FortiNAC version 9.2.0 through 9.2.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC version 10.0.0 or above, Please upgrade to FortiNAC version 9.2.4 or above, Please upgrade to FortiNAC version 9.1.6 or above.\n        ",
+				"text": "\n            Please upgrade to FortiNAC version 10.0.0 or above,Please upgrade to FortiNAC version 9.2.4 or above,Please upgrade to FortiNAC version 9.1.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC -  Unprotected MySQL root account",
+		"title": "Unprotected MySQL root account",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-058",
-					"description": "FortiNAC -  Unprotected MySQL root account"
+					"description": "Unprotected MySQL root account"
 				}
 			]
 		},

@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiClientEMS version 7.2.0 through 7.2.2FortiClientEMS version 7.0.6 through 7.0.10FortiClientEMS version 7.0.0 through 7.0.4FortiClientEMS 6.4 all versionsFortiClientEMS 6.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiClientEMS version 7.2.3 or above Please upgrade to FortiClientEMS version 7.0.11 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

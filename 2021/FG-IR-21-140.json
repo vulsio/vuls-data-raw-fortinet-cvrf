@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS - Sensitive information leak",
+	"document_title": "Sensitive information leak",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A missing encryption of sensitive data vulnerability [CWE-311] in FortiClientEMS may allow an authenticated attacker to view sensitive information in clear text via any browser development tools.\n        ",
+				"text": "\n            A missing encryption of sensitive data vulnerability [CWE-311] in FortiClientEMS may allow an authenticated attacker to view sensitive information in clear text via any browser development tool.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientEMS 7.0.1 and earlier. FortiClientEMS 6.4.6 and earlier.\n        ",
+				"text": "\n            FortiClientEMS 7.0.1 and earlier.FortiClientEMS 6.4.6 and earlier.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiClientEMS 7.0.2 and later. Upgrade to FortiClientEMS 6.4.7 and later.\n        ",
+				"text": "\n            Upgrade to FortiClientEMS 7.0.2 and later.Upgrade to FortiClientEMS 6.4.7 and later.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS - Sensitive information leak",
+		"title": "Sensitive information leak",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-140",
-					"description": "FortiClientEMS - Sensitive information leak"
+					"description": "Sensitive information leak"
 				}
 			]
 		},

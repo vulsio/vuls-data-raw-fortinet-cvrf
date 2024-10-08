@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Buffer overflow in execute extender command",
+	"document_title": "Buffer overflow in execute extender command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A stack-based buffer overflow vulnerability [CWE-121] in FortiOS may allow a privileged attacker to execute arbitrary code via specially crafted CLI commands, provided the attacker were able to evade FortiOS stack protections.\n        ",
+				"text": "\n            A stack-based buffer overflow vulnerability [CWE-121] in FortiOS may allow a privileged attacker to execute arbitrary code via specially crafted CLI commands, provided the attacker were able to evade FortiOS stack protections.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.0.0 through 7.0.3 FortiOS 6.4.0 through 6.4.14 FortiOS 6.2 all versions\n        ",
+				"text": "\n            FortiOS version 7.0.0 through 7.0.3FortiOS 6.4.0 through 6.4.14FortiOS 6.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.0 or above Please upgrade to FortiOS version 7.0.4 or above Please upgrade to the FortiOS upcoming version 6.4.15 or above  \n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.0 or abovePlease upgrade to FortiOS version 7.0.4 or abovePlease upgrade to the FortiOS upcoming version 6.4.15 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,7 +59,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-149",
-				"description": "FortiOS - Buffer overflow in execute extender command"
+				"description": "Buffer overflow in execute extender command"
 			},
 			{
 				"url": "[1] https://code610.blogspot.com/2023/04/fuzzing-fortigate-7.html",
@@ -70,13 +70,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Buffer overflow in execute extender command",
+		"title": "Buffer overflow in execute extender command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-149",
-					"description": "FortiOS - Buffer overflow in execute extender command"
+					"description": "Buffer overflow in execute extender command"
 				},
 				{
 					"url": "[1] https://code610.blogspot.com/2023/04/fuzzing-fortigate-7.html",
@@ -95,6 +95,7 @@
 					"FortiOS-7.0.2",
 					"FortiOS-7.0.1",
 					"FortiOS-7.0.0",
+					"FortiOS-6.4.15",
 					"FortiOS-6.4.14",
 					"FortiOS-6.4.13",
 					"FortiOS-6.4.12",
@@ -110,6 +111,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
+					"FortiOS-6.2.16",
 					"FortiOS-6.2.15",
 					"FortiOS-6.2.14",
 					"FortiOS-6.2.13",
@@ -175,6 +177,14 @@
 							"full_product_name": {
 								"text": "FortiOS 7.0.0",
 								"product_id": "FortiOS-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.4.15",
+								"product_id": "FortiOS-6.4.15"
 							}
 						},
 						{
@@ -295,6 +305,14 @@
 							"full_product_name": {
 								"text": "FortiOS 6.4.0",
 								"product_id": "FortiOS-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.16",
+								"product_id": "FortiOS-6.2.16"
 							}
 						},
 						{

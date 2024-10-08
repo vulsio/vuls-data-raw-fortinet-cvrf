@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Authentication bypass and remote code execution as root",
+	"document_title": "Authentication bypass and remote code execution as root",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A use of hard-coded credentials (CWE-798) vulnerability in FortiPortal may allow a remote and unauthenticated attackerÂ to execute unauthorized commands as rootÂ by uploading and deployingÂ malicious web application archive files using theÂ default hard-coded Tomcat ManagerÂ username and password.Â\n        ",
+				"text": "\n            A use of hard-coded credentials (CWE-798) vulnerability in FortiPortal may allow a remote and unauthenticated attacker to execute unauthorized commands as root by uploading and deploying malicious web application archive files using the default hard-coded Tomcat Manager username and password.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Authentication bypass, Improper command execution as root\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiPortal versions 5.2.5Â and below.Â FortiPortal versions 5.3.5Â and below. FortiPortal versions 6.0.4 and below.Â FortiPortal 5.0.xÂ FortiPortal 5.1.x\n        ",
+				"text": "\n            FortiPortal versions 5.2.5 and below. FortiPortal versions 5.3.5 and below.FortiPortal versions 6.0.4 and below. FortiPortal 5.0.x FortiPortal 5.1.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiPortal version 5.2.6Â or above.Â Please upgrade to FortiPortal version 5.3.6Â or above. Please upgrade to FortiPortal version 6.0.5 or above.Â\n        ",
+				"text": "\n            Please upgrade to FortiPortal version 5.2.6 or above. Please upgrade to FortiPortal version 5.3.6 or above.Please upgrade to FortiPortal version 6.0.5 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Authentication bypass and remote code execution as root",
+		"title": "Authentication bypass and remote code execution as root",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-077",
-					"description": "FortiPortal - Authentication bypass and remote code execution as root"
+					"description": "Authentication bypass and remote code execution as root"
 				}
 			]
 		},

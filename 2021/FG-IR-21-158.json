@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - arbitrary file/directory deletion",
+	"document_title": "Arbitrary file/directory deletion",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiWeb management interface may allow an authenticated attacker to perform an arbitrary file and directory deletion in the device filesystem. \n        ",
+				"text": "\n            An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiWeb management interface may allow an authenticated attacker to perform an arbitrary file and directory deletion in the device filesystem.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb 6.4.1 and below. FortiWeb 6.3.15 and below. FortiWeb 6.2.x, 6.1.x, 6.0.x, 5.9.x and 5.8.x.\n        ",
+				"text": "\n            FortiWeb 6.4.1 and below.FortiWeb 6.3.15 and below.FortiWeb 6.2.x, 6.1.x, 6.0.x, 5.9.x and 5.8.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb 6.4.2 or above. Please upgrade to FortiWeb 6.3.16 or above.\n        ",
+				"text": "\n            Please upgrade to FortiWeb 6.4.2 or above.Please upgrade to FortiWeb 6.3.16 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - arbitrary file/directory deletion",
+		"title": "Arbitrary file/directory deletion",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-158",
-					"description": "FortiWeb - arbitrary file/directory deletion"
+					"description": "Arbitrary file/directory deletion"
 				}
 			]
 		},

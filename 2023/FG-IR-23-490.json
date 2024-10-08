@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            CVE-2023-48795 The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms.\n        ",
+				"text": "\n            CVE-2023-48795The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -61,7 +61,240 @@
 			"CVE-2023-48795"
 		],
 		"product_statuses": {
-			"status": {}
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-7.4.2",
+					"FortiAnalyzer-7.0.11",
+					"FortiMail-7.4.1",
+					"FortiMail-7.4.0",
+					"FortiMail-7.2.5",
+					"FortiMail-7.2.4",
+					"FortiMail-7.2.3",
+					"FortiMail-7.2.2",
+					"FortiMail-7.2.1",
+					"FortiMail-7.2.0",
+					"FortiMail-7.0.7",
+					"FortiMail-7.0.6",
+					"FortiMail-7.0.5",
+					"FortiMail-7.0.4",
+					"FortiMail-7.0.3",
+					"FortiMail-7.0.2",
+					"FortiMail-7.0.1",
+					"FortiMail-7.0.0",
+					"FortiMail-6.4.8",
+					"FortiMail-6.4.7",
+					"FortiMail-6.4.6",
+					"FortiMail-6.4.5",
+					"FortiMail-6.4.4",
+					"FortiMail-6.4.3",
+					"FortiMail-6.4.2",
+					"FortiMail-6.4.1",
+					"FortiMail-6.4.0",
+					"FortiMail-6.2.9",
+					"FortiMail-6.2.8",
+					"FortiMail-6.2.7",
+					"FortiMail-6.2.6",
+					"FortiMail-6.2.5",
+					"FortiMail-6.2.4",
+					"FortiMail-6.2.3",
+					"FortiMail-6.2.2",
+					"FortiMail-6.2.1",
+					"FortiMail-6.2.0",
+					"FortiManager-7.4.2",
+					"FortiManager-7.0.11",
+					"FortiNAC-F-7.2.5",
+					"FortiNAC-F-7.2.4",
+					"FortiNAC-F-7.2.3",
+					"FortiNAC-F-7.2.2",
+					"FortiNAC-F-7.2.1",
+					"FortiNAC-F-7.2.0",
+					"FortiNDR-7.4.2",
+					"FortiNDR-7.4.1",
+					"FortiNDR-7.4.0",
+					"FortiNDR-7.2.1",
+					"FortiNDR-7.2.0",
+					"FortiNDR-7.1.1",
+					"FortiNDR-7.1.0",
+					"FortiNDR-7.0.5",
+					"FortiNDR-7.0.4",
+					"FortiNDR-7.0.3",
+					"FortiNDR-7.0.2",
+					"FortiNDR-7.0.1",
+					"FortiNDR-7.0.0",
+					"FortiRecorder-7.0.3",
+					"FortiRecorder-7.0.2",
+					"FortiRecorder-7.0.1",
+					"FortiRecorder-7.0.0",
+					"FortiRecorder-6.4.5",
+					"FortiRecorder-6.4.4",
+					"FortiRecorder-6.4.3",
+					"FortiRecorder-6.4.2",
+					"FortiRecorder-6.4.1",
+					"FortiRecorder-6.4.0",
+					"FortiRecorder-6.0.12",
+					"FortiRecorder-6.0.11",
+					"FortiRecorder-6.0.10",
+					"FortiRecorder-6.0.9",
+					"FortiRecorder-6.0.8",
+					"FortiRecorder-6.0.7",
+					"FortiRecorder-6.0.6",
+					"FortiRecorder-6.0.5",
+					"FortiRecorder-6.0.4",
+					"FortiRecorder-6.0.3",
+					"FortiRecorder-6.0.2",
+					"FortiRecorder-6.0.1",
+					"FortiRecorder-6.0.0",
+					"FortiSIEM-7.1.3",
+					"FortiSIEM-7.1.2",
+					"FortiSIEM-7.1.1",
+					"FortiSIEM-7.1.0",
+					"FortiSIEM-7.0.3",
+					"FortiSIEM-7.0.2",
+					"FortiSIEM-7.0.1",
+					"FortiSIEM-7.0.0",
+					"FortiSIEM-6.7.9",
+					"FortiSIEM-6.7.8",
+					"FortiSIEM-6.7.7",
+					"FortiSIEM-6.7.6",
+					"FortiSIEM-6.7.5",
+					"FortiSIEM-6.7.4",
+					"FortiSIEM-6.7.3",
+					"FortiSIEM-6.7.2",
+					"FortiSIEM-6.7.1",
+					"FortiSIEM-6.7.0",
+					"FortiSIEM-6.6.5",
+					"FortiSIEM-6.6.4",
+					"FortiSIEM-6.6.3",
+					"FortiSIEM-6.6.2",
+					"FortiSIEM-6.6.1",
+					"FortiSIEM-6.6.0",
+					"FortiSIEM-6.5.3",
+					"FortiSIEM-6.5.2",
+					"FortiSIEM-6.5.1",
+					"FortiSIEM-6.5.0",
+					"FortiSIEM-6.4.4",
+					"FortiSIEM-6.4.3",
+					"FortiSIEM-6.4.2",
+					"FortiSIEM-6.4.1",
+					"FortiSIEM-6.4.0",
+					"FortiSIEM-6.3.3",
+					"FortiSIEM-6.3.2",
+					"FortiSIEM-6.3.1",
+					"FortiSIEM-6.3.0",
+					"FortiSIEM-6.2.1",
+					"FortiSIEM-6.2.0",
+					"FortiSIEM-6.1.2",
+					"FortiSIEM-6.1.1",
+					"FortiSIEM-6.1.0",
+					"FortiSIEM-5.4.0",
+					"FortiSIEM-5.3.3",
+					"FortiSIEM-5.3.2",
+					"FortiSIEM-5.3.1",
+					"FortiSIEM-5.3.0",
+					"FortiSOAR-7.4.2",
+					"FortiSOAR-7.4.1",
+					"FortiSOAR-7.4.0",
+					"FortiSOAR-7.3.3",
+					"FortiSOAR-7.3.2",
+					"FortiSOAR-7.3.1",
+					"FortiSOAR-7.3.0",
+					"FortiSOAR-7.2.2",
+					"FortiSOAR-7.2.1",
+					"FortiSOAR-7.2.0",
+					"FortiSOAR-7.0.3",
+					"FortiSOAR-7.0.2",
+					"FortiSOAR-7.0.1",
+					"FortiSOAR-7.0.0",
+					"FortiSOAR-6.4.4",
+					"FortiSOAR-6.4.3",
+					"FortiSOAR-6.4.1",
+					"FortiSOAR-6.4.0",
+					"FortiVoice-7.0.1",
+					"FortiVoice-7.0.0",
+					"FortiVoice-6.4.8",
+					"FortiVoice-6.4.7",
+					"FortiVoice-6.4.6",
+					"FortiVoice-6.4.5",
+					"FortiVoice-6.4.4",
+					"FortiVoice-6.4.3",
+					"FortiVoice-6.4.2",
+					"FortiVoice-6.4.1",
+					"FortiVoice-6.4.0",
+					"FortiVoice-6.0.12",
+					"FortiVoice-6.0.11",
+					"FortiVoice-6.0.10",
+					"FortiVoice-6.0.9",
+					"FortiVoice-6.0.8",
+					"FortiVoice-6.0.7",
+					"FortiVoice-6.0.6",
+					"FortiVoice-6.0.5",
+					"FortiVoice-6.0.4",
+					"FortiVoice-6.0.3",
+					"FortiVoice-6.0.2",
+					"FortiVoice-6.0.1",
+					"FortiVoice-6.0.0",
+					"FortiWeb-7.4.2",
+					"FortiWeb-7.4.1",
+					"FortiWeb-7.4.0",
+					"FortiWeb-7.2.7",
+					"FortiWeb-7.2.6",
+					"FortiWeb-7.2.5",
+					"FortiWeb-7.2.4",
+					"FortiWeb-7.2.3",
+					"FortiWeb-7.2.2",
+					"FortiWeb-7.2.1",
+					"FortiWeb-7.2.0",
+					"FortiWeb-7.0.10",
+					"FortiWeb-7.0.9",
+					"FortiWeb-7.0.8",
+					"FortiWeb-7.0.7",
+					"FortiWeb-7.0.6",
+					"FortiWeb-7.0.5",
+					"FortiWeb-7.0.4",
+					"FortiWeb-7.0.3",
+					"FortiWeb-7.0.2",
+					"FortiWeb-7.0.1",
+					"FortiWeb-7.0.0",
+					"FortiWeb-6.4.3",
+					"FortiWeb-6.4.2",
+					"FortiWeb-6.4.1",
+					"FortiWeb-6.4.0",
+					"FortiWeb-6.3.23",
+					"FortiWeb-6.3.22",
+					"FortiWeb-6.3.21",
+					"FortiWeb-6.3.20",
+					"FortiWeb-6.3.19",
+					"FortiWeb-6.3.18",
+					"FortiWeb-6.3.17",
+					"FortiWeb-6.3.16",
+					"FortiWeb-6.3.15",
+					"FortiWeb-6.3.14",
+					"FortiWeb-6.3.13",
+					"FortiWeb-6.3.12",
+					"FortiWeb-6.3.11",
+					"FortiWeb-6.3.10",
+					"FortiWeb-6.3.9",
+					"FortiWeb-6.3.8",
+					"FortiWeb-6.3.7",
+					"FortiWeb-6.3.6",
+					"FortiWeb-6.3.5",
+					"FortiWeb-6.3.4",
+					"FortiWeb-6.3.3",
+					"FortiWeb-6.3.2",
+					"FortiWeb-6.3.1",
+					"FortiWeb-6.3.0",
+					"FortiWeb-6.2.8",
+					"FortiWeb-6.2.7",
+					"FortiWeb-6.2.6",
+					"FortiWeb-6.2.5",
+					"FortiWeb-6.2.4",
+					"FortiWeb-6.2.3",
+					"FortiWeb-6.2.2",
+					"FortiWeb-6.2.1",
+					"FortiWeb-6.2.0"
+				]
+			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
@@ -71,6 +304,1903 @@
 		}
 	},
 	"product_tree": {
-		"branch": {}
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.4.2",
+								"product_id": "FortiAnalyzer-7.4.2"
+							}
+						},
+						{
+							"name": "7.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.11",
+								"product_id": "FortiAnalyzer-7.0.11"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.4.1",
+								"product_id": "FortiMail-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.4.0",
+								"product_id": "FortiMail-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.5",
+								"product_id": "FortiMail-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.4",
+								"product_id": "FortiMail-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.3",
+								"product_id": "FortiMail-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.2",
+								"product_id": "FortiMail-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.1",
+								"product_id": "FortiMail-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.2.0",
+								"product_id": "FortiMail-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.7",
+								"product_id": "FortiMail-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.6",
+								"product_id": "FortiMail-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.5",
+								"product_id": "FortiMail-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.4",
+								"product_id": "FortiMail-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.3",
+								"product_id": "FortiMail-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.2",
+								"product_id": "FortiMail-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.1",
+								"product_id": "FortiMail-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 7.0.0",
+								"product_id": "FortiMail-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.8",
+								"product_id": "FortiMail-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.7",
+								"product_id": "FortiMail-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.6",
+								"product_id": "FortiMail-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.5",
+								"product_id": "FortiMail-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.4",
+								"product_id": "FortiMail-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.3",
+								"product_id": "FortiMail-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.2",
+								"product_id": "FortiMail-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.1",
+								"product_id": "FortiMail-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.4.0",
+								"product_id": "FortiMail-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.9",
+								"product_id": "FortiMail-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.8",
+								"product_id": "FortiMail-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.7",
+								"product_id": "FortiMail-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.6",
+								"product_id": "FortiMail-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.5",
+								"product_id": "FortiMail-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.4",
+								"product_id": "FortiMail-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.3",
+								"product_id": "FortiMail-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.2",
+								"product_id": "FortiMail-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.1",
+								"product_id": "FortiMail-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.0",
+								"product_id": "FortiMail-6.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.4.2",
+								"product_id": "FortiManager-7.4.2"
+							}
+						},
+						{
+							"name": "7.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.11",
+								"product_id": "FortiManager-7.0.11"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiNAC-F",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.5",
+								"product_id": "FortiNAC-F-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.4",
+								"product_id": "FortiNAC-F-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.3",
+								"product_id": "FortiNAC-F-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.2",
+								"product_id": "FortiNAC-F-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.1",
+								"product_id": "FortiNAC-F-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.0",
+								"product_id": "FortiNAC-F-7.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiNDR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.4.2",
+								"product_id": "FortiNDR-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.4.1",
+								"product_id": "FortiNDR-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.4.0",
+								"product_id": "FortiNDR-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.2.1",
+								"product_id": "FortiNDR-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.2.0",
+								"product_id": "FortiNDR-7.2.0"
+							}
+						},
+						{
+							"name": "7.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.1.1",
+								"product_id": "FortiNDR-7.1.1"
+							}
+						},
+						{
+							"name": "7.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.1.0",
+								"product_id": "FortiNDR-7.1.0"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.5",
+								"product_id": "FortiNDR-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.4",
+								"product_id": "FortiNDR-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.3",
+								"product_id": "FortiNDR-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.2",
+								"product_id": "FortiNDR-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.1",
+								"product_id": "FortiNDR-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.0",
+								"product_id": "FortiNDR-7.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiRecorder",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 7.0.3",
+								"product_id": "FortiRecorder-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 7.0.2",
+								"product_id": "FortiRecorder-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 7.0.1",
+								"product_id": "FortiRecorder-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 7.0.0",
+								"product_id": "FortiRecorder-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.5",
+								"product_id": "FortiRecorder-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.4",
+								"product_id": "FortiRecorder-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.3",
+								"product_id": "FortiRecorder-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.2",
+								"product_id": "FortiRecorder-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.1",
+								"product_id": "FortiRecorder-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.4.0",
+								"product_id": "FortiRecorder-6.4.0"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.12",
+								"product_id": "FortiRecorder-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.11",
+								"product_id": "FortiRecorder-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.10",
+								"product_id": "FortiRecorder-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.9",
+								"product_id": "FortiRecorder-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.8",
+								"product_id": "FortiRecorder-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.7",
+								"product_id": "FortiRecorder-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.6",
+								"product_id": "FortiRecorder-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.5",
+								"product_id": "FortiRecorder-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.4",
+								"product_id": "FortiRecorder-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.3",
+								"product_id": "FortiRecorder-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.2",
+								"product_id": "FortiRecorder-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.1",
+								"product_id": "FortiRecorder-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 6.0.0",
+								"product_id": "FortiRecorder-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.1.3",
+								"product_id": "FortiSIEM-7.1.3"
+							}
+						},
+						{
+							"name": "7.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.1.2",
+								"product_id": "FortiSIEM-7.1.2"
+							}
+						},
+						{
+							"name": "7.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.1.1",
+								"product_id": "FortiSIEM-7.1.1"
+							}
+						},
+						{
+							"name": "7.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.1.0",
+								"product_id": "FortiSIEM-7.1.0"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.0.3",
+								"product_id": "FortiSIEM-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.0.2",
+								"product_id": "FortiSIEM-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.0.1",
+								"product_id": "FortiSIEM-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 7.0.0",
+								"product_id": "FortiSIEM-7.0.0"
+							}
+						},
+						{
+							"name": "6.7.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.9",
+								"product_id": "FortiSIEM-6.7.9"
+							}
+						},
+						{
+							"name": "6.7.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.8",
+								"product_id": "FortiSIEM-6.7.8"
+							}
+						},
+						{
+							"name": "6.7.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.7",
+								"product_id": "FortiSIEM-6.7.7"
+							}
+						},
+						{
+							"name": "6.7.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.6",
+								"product_id": "FortiSIEM-6.7.6"
+							}
+						},
+						{
+							"name": "6.7.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.5",
+								"product_id": "FortiSIEM-6.7.5"
+							}
+						},
+						{
+							"name": "6.7.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.4",
+								"product_id": "FortiSIEM-6.7.4"
+							}
+						},
+						{
+							"name": "6.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.3",
+								"product_id": "FortiSIEM-6.7.3"
+							}
+						},
+						{
+							"name": "6.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.2",
+								"product_id": "FortiSIEM-6.7.2"
+							}
+						},
+						{
+							"name": "6.7.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.1",
+								"product_id": "FortiSIEM-6.7.1"
+							}
+						},
+						{
+							"name": "6.7.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.7.0",
+								"product_id": "FortiSIEM-6.7.0"
+							}
+						},
+						{
+							"name": "6.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.5",
+								"product_id": "FortiSIEM-6.6.5"
+							}
+						},
+						{
+							"name": "6.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.4",
+								"product_id": "FortiSIEM-6.6.4"
+							}
+						},
+						{
+							"name": "6.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.3",
+								"product_id": "FortiSIEM-6.6.3"
+							}
+						},
+						{
+							"name": "6.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.2",
+								"product_id": "FortiSIEM-6.6.2"
+							}
+						},
+						{
+							"name": "6.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.1",
+								"product_id": "FortiSIEM-6.6.1"
+							}
+						},
+						{
+							"name": "6.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.0",
+								"product_id": "FortiSIEM-6.6.0"
+							}
+						},
+						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.3",
+								"product_id": "FortiSIEM-6.5.3"
+							}
+						},
+						{
+							"name": "6.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.2",
+								"product_id": "FortiSIEM-6.5.2"
+							}
+						},
+						{
+							"name": "6.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.1",
+								"product_id": "FortiSIEM-6.5.1"
+							}
+						},
+						{
+							"name": "6.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.0",
+								"product_id": "FortiSIEM-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.4",
+								"product_id": "FortiSIEM-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.3",
+								"product_id": "FortiSIEM-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.2",
+								"product_id": "FortiSIEM-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.1",
+								"product_id": "FortiSIEM-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.0",
+								"product_id": "FortiSIEM-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.3",
+								"product_id": "FortiSIEM-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.2",
+								"product_id": "FortiSIEM-6.3.2"
+							}
+						},
+						{
+							"name": "6.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.1",
+								"product_id": "FortiSIEM-6.3.1"
+							}
+						},
+						{
+							"name": "6.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.3.0",
+								"product_id": "FortiSIEM-6.3.0"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.2.1",
+								"product_id": "FortiSIEM-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.2.0",
+								"product_id": "FortiSIEM-6.2.0"
+							}
+						},
+						{
+							"name": "6.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.2",
+								"product_id": "FortiSIEM-6.1.2"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.1",
+								"product_id": "FortiSIEM-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.1.0",
+								"product_id": "FortiSIEM-6.1.0"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.4.0",
+								"product_id": "FortiSIEM-5.4.0"
+							}
+						},
+						{
+							"name": "5.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.3",
+								"product_id": "FortiSIEM-5.3.3"
+							}
+						},
+						{
+							"name": "5.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.2",
+								"product_id": "FortiSIEM-5.3.2"
+							}
+						},
+						{
+							"name": "5.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.1",
+								"product_id": "FortiSIEM-5.3.1"
+							}
+						},
+						{
+							"name": "5.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.3.0",
+								"product_id": "FortiSIEM-5.3.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSOAR",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.4.2",
+								"product_id": "FortiSOAR-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.4.1",
+								"product_id": "FortiSOAR-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.4.0",
+								"product_id": "FortiSOAR-7.4.0"
+							}
+						},
+						{
+							"name": "7.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.3",
+								"product_id": "FortiSOAR-7.3.3"
+							}
+						},
+						{
+							"name": "7.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.2",
+								"product_id": "FortiSOAR-7.3.2"
+							}
+						},
+						{
+							"name": "7.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.1",
+								"product_id": "FortiSOAR-7.3.1"
+							}
+						},
+						{
+							"name": "7.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.3.0",
+								"product_id": "FortiSOAR-7.3.0"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.2.2",
+								"product_id": "FortiSOAR-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.2.1",
+								"product_id": "FortiSOAR-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.2.0",
+								"product_id": "FortiSOAR-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.3",
+								"product_id": "FortiSOAR-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.2",
+								"product_id": "FortiSOAR-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.1",
+								"product_id": "FortiSOAR-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 7.0.0",
+								"product_id": "FortiSOAR-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.4",
+								"product_id": "FortiSOAR-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.3",
+								"product_id": "FortiSOAR-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.1",
+								"product_id": "FortiSOAR-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSOAR 6.4.0",
+								"product_id": "FortiSOAR-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiVoice",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 7.0.1",
+								"product_id": "FortiVoice-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 7.0.0",
+								"product_id": "FortiVoice-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.8",
+								"product_id": "FortiVoice-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.7",
+								"product_id": "FortiVoice-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.6",
+								"product_id": "FortiVoice-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.5",
+								"product_id": "FortiVoice-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.4",
+								"product_id": "FortiVoice-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.3",
+								"product_id": "FortiVoice-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.2",
+								"product_id": "FortiVoice-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.1",
+								"product_id": "FortiVoice-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.4.0",
+								"product_id": "FortiVoice-6.4.0"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.12",
+								"product_id": "FortiVoice-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.11",
+								"product_id": "FortiVoice-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.10",
+								"product_id": "FortiVoice-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.9",
+								"product_id": "FortiVoice-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.8",
+								"product_id": "FortiVoice-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.7",
+								"product_id": "FortiVoice-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.6",
+								"product_id": "FortiVoice-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.5",
+								"product_id": "FortiVoice-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.4",
+								"product_id": "FortiVoice-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.3",
+								"product_id": "FortiVoice-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.2",
+								"product_id": "FortiVoice-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.1",
+								"product_id": "FortiVoice-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 6.0.0",
+								"product_id": "FortiVoice-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.4.2",
+								"product_id": "FortiWeb-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.4.1",
+								"product_id": "FortiWeb-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.4.0",
+								"product_id": "FortiWeb-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.7",
+								"product_id": "FortiWeb-7.2.7"
+							}
+						},
+						{
+							"name": "7.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.6",
+								"product_id": "FortiWeb-7.2.6"
+							}
+						},
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.5",
+								"product_id": "FortiWeb-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.4",
+								"product_id": "FortiWeb-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.3",
+								"product_id": "FortiWeb-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.2",
+								"product_id": "FortiWeb-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.1",
+								"product_id": "FortiWeb-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.2.0",
+								"product_id": "FortiWeb-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.10",
+								"product_id": "FortiWeb-7.0.10"
+							}
+						},
+						{
+							"name": "7.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.9",
+								"product_id": "FortiWeb-7.0.9"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.8",
+								"product_id": "FortiWeb-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.7",
+								"product_id": "FortiWeb-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.6",
+								"product_id": "FortiWeb-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.5",
+								"product_id": "FortiWeb-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.4",
+								"product_id": "FortiWeb-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.3",
+								"product_id": "FortiWeb-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.2",
+								"product_id": "FortiWeb-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.1",
+								"product_id": "FortiWeb-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.0",
+								"product_id": "FortiWeb-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.3",
+								"product_id": "FortiWeb-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.2",
+								"product_id": "FortiWeb-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.1",
+								"product_id": "FortiWeb-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.4.0",
+								"product_id": "FortiWeb-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.23",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.23",
+								"product_id": "FortiWeb-6.3.23"
+							}
+						},
+						{
+							"name": "6.3.22",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.22",
+								"product_id": "FortiWeb-6.3.22"
+							}
+						},
+						{
+							"name": "6.3.21",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.21",
+								"product_id": "FortiWeb-6.3.21"
+							}
+						},
+						{
+							"name": "6.3.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.20",
+								"product_id": "FortiWeb-6.3.20"
+							}
+						},
+						{
+							"name": "6.3.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.19",
+								"product_id": "FortiWeb-6.3.19"
+							}
+						},
+						{
+							"name": "6.3.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.18",
+								"product_id": "FortiWeb-6.3.18"
+							}
+						},
+						{
+							"name": "6.3.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.17",
+								"product_id": "FortiWeb-6.3.17"
+							}
+						},
+						{
+							"name": "6.3.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.16",
+								"product_id": "FortiWeb-6.3.16"
+							}
+						},
+						{
+							"name": "6.3.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.15",
+								"product_id": "FortiWeb-6.3.15"
+							}
+						},
+						{
+							"name": "6.3.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.14",
+								"product_id": "FortiWeb-6.3.14"
+							}
+						},
+						{
+							"name": "6.3.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.13",
+								"product_id": "FortiWeb-6.3.13"
+							}
+						},
+						{
+							"name": "6.3.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.12",
+								"product_id": "FortiWeb-6.3.12"
+							}
+						},
+						{
+							"name": "6.3.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.11",
+								"product_id": "FortiWeb-6.3.11"
+							}
+						},
+						{
+							"name": "6.3.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.10",
+								"product_id": "FortiWeb-6.3.10"
+							}
+						},
+						{
+							"name": "6.3.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.9",
+								"product_id": "FortiWeb-6.3.9"
+							}
+						},
+						{
+							"name": "6.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.8",
+								"product_id": "FortiWeb-6.3.8"
+							}
+						},
+						{
+							"name": "6.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.7",
+								"product_id": "FortiWeb-6.3.7"
+							}
+						},
+						{
+							"name": "6.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.6",
+								"product_id": "FortiWeb-6.3.6"
+							}
+						},
+						{
+							"name": "6.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.5",
+								"product_id": "FortiWeb-6.3.5"
+							}
+						},
+						{
+							"name": "6.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.4",
+								"product_id": "FortiWeb-6.3.4"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.3",
+								"product_id": "FortiWeb-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.2",
+								"product_id": "FortiWeb-6.3.2"
+							}
+						},
+						{
+							"name": "6.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.1",
+								"product_id": "FortiWeb-6.3.1"
+							}
+						},
+						{
+							"name": "6.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.0",
+								"product_id": "FortiWeb-6.3.0"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.8",
+								"product_id": "FortiWeb-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.7",
+								"product_id": "FortiWeb-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.6",
+								"product_id": "FortiWeb-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.5",
+								"product_id": "FortiWeb-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.4",
+								"product_id": "FortiWeb-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.3",
+								"product_id": "FortiWeb-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.2",
+								"product_id": "FortiWeb-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.1",
+								"product_id": "FortiWeb-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.0",
+								"product_id": "FortiWeb-6.2.0"
+							}
+						}
+					]
+				}
+			]
+		}
 	}
 }

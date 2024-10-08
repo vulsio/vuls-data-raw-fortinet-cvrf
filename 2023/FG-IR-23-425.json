@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiPortal version 7.2.0 FortiPortal version 7.0.0 through 7.0.6\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiPortal version 7.2.1 or above Please upgrade to FortiPortal version 7.0.7 or above Please upgrade to FortiPortal version 6.0.15 or above Please upgrade to FortiPortal version 5.3.9 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

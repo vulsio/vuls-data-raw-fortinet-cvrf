@@ -64,7 +64,7 @@
 			"type": "Self",
 			"reference": [
 				{
-					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-037 ",
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-037",
 					"description": "AV Engine evasion via malformed RAR file"
 				}
 			]

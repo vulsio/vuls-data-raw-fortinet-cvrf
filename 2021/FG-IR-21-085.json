@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Path traversal in controller",
+	"document_title": "Path traversal in controller",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A protection mechanism failure vulnerability (CWE-693) resultingÂ in improperly limiting pathname to a restricted directoryÂ in FortiPortal may allow an authenticated attacker to perform a path traversal attack via maliciously crafted GET parameters.\n        ",
+				"text": "\n            A protection mechanism failure vulnerability (CWE-693) resulting in improperly limiting pathname to a restricted directory in FortiPortal may allow an authenticated attacker to perform a path traversal attack via maliciously crafted GET parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiPortal versions 5.2.5 and below. FortiPortal versions 5.3.5 and below. FortiPortal versions 6.0.4 and below.\n        ",
+				"text": "\n            FortiPortal versions 5.2.5 and below.FortiPortal versions 5.3.5 and below.FortiPortal versions 6.0.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiPortal version 5.2.6 or above. Please upgrade to FortiPortal version 5.3.6 or above. Please upgrade to FortiPortal version 6.0.5 or above.\n        ",
+				"text": "\n            Please upgrade to FortiPortal version 5.2.6 or above.Please upgrade to FortiPortal version 5.3.6 or above.Please upgrade to FortiPortal version 6.0.5 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Path traversal in controller",
+		"title": "Path traversal in controller",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-085",
-					"description": "FortiPortal - Path traversal in controller"
+					"description": "Path traversal in controller"
 				}
 			]
 		},

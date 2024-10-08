@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGate - Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks",
+	"document_title": "Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.3 FortiOS version 7.0.0 through 7.0.9\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.3FortiOS version 7.0.0 through 7.0.9\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGate - Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks",
+		"title": "Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-381",
-					"description": "FortiGate - Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks"
+					"description": "Policy-based NGFW SSL VPN mode doesn't filter accesses via Bookmarks"
 				}
 			]
 		},

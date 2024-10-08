@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (MacOS) - Dylib injection Vulnerability observed in FortiClientMacOS",
+	"document_title": "Dylib injection Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientMac version 7.0.0 and below. FortiClientMac version 6.4.5 and below.\n        ",
+				"text": "\n            FortiClientMac version 7.0.0 and below.FortiClientMac version 6.4.5 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientMac version 7.0.1 or above. Please upgrade to FortiClientMac version 6.4.6 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClientMac version 7.0.1 or above.Please upgrade to FortiClientMac version 6.4.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (MacOS) - Dylib injection Vulnerability observed in FortiClientMacOS",
+		"title": "Dylib injection Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-079",
-					"description": "FortiClient (MacOS) - Dylib injection Vulnerability observed in FortiClientMacOS"
+					"description": "Dylib injection Vulnerability"
 				}
 			]
 		},

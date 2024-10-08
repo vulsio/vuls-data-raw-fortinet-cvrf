@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Lack of certificate verification when establishing secure connections to some  external end-points",
+	"document_title": "Lack of certificate verification when establishing secure connections to external end-points",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiOS may allow a network adjacent and unauthenticated attacker to man-in-the-middle the communication between the FortiGate and some peers such as private SDNs and external cloud platforms.\n        ",
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in FortiOS may allow a network adjacent and unauthenticated attacker to man-in-the-middle the communication between the FortiGate and some peers such as private SDNs and external cloud platforms.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 6.0.0 through 6.0.14 FortiOS version 6.2.0 through 6.2.10 FortiOS version 6.4.0 through 6.4.8 FortiOS version 7.0.0\n        ",
+				"text": "\n            FortiOS version 6.0.0 through 6.0.14FortiOS version 6.2.0 through 6.2.10FortiOS version 6.4.0 through 6.4.8FortiOS version 7.0.0\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.0.1 or above. Please upgrade to FortiOS version 6.4.9 or above.\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.0.1 or above.Please upgrade to FortiOS version 6.4.9 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Lack of certificate verification when establishing secure connections to some  external end-points",
+		"title": "Lack of certificate verification when establishing secure connections to external end-points",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-239",
-					"description": "FortiOS - Lack of certificate verification when establishing secure connections to some  external end-points"
+					"description": "Lack of certificate verification when establishing secure connections to external end-points"
 				}
 			]
 		},
@@ -86,6 +86,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
+					"FortiOS-6.2.16",
 					"FortiOS-6.2.15",
 					"FortiOS-6.2.14",
 					"FortiOS-6.2.13",
@@ -102,6 +103,7 @@
 					"FortiOS-6.2.2",
 					"FortiOS-6.2.1",
 					"FortiOS-6.2.0",
+					"FortiOS-6.0.18",
 					"FortiOS-6.0.17",
 					"FortiOS-6.0.16",
 					"FortiOS-6.0.15",
@@ -217,6 +219,14 @@
 							"full_product_name": {
 								"text": "FortiOS 6.4.0",
 								"product_id": "FortiOS-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.16",
+								"product_id": "FortiOS-6.2.16"
 							}
 						},
 						{
@@ -345,6 +355,14 @@
 							"full_product_name": {
 								"text": "FortiOS 6.2.0",
 								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.18",
+								"product_id": "FortiOS-6.0.18"
 							}
 						},
 						{

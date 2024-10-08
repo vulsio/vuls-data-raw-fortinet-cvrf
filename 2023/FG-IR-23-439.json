@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Potential Remote_wildcard RADIUS login bypass in FotiMail 7.4.0",
+	"document_title": "Potential Remote_wildcard RADIUS login bypass",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiMail version 7.4.0\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiMail version 7.4.1 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Potential Remote_wildcard RADIUS login bypass in FotiMail 7.4.0",
+		"title": "Potential Remote_wildcard RADIUS login bypass",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-439",
-					"description": "FortiMail - Potential Remote_wildcard RADIUS login bypass in FotiMail 7.4.0"
+					"description": "Potential Remote_wildcard RADIUS login bypass"
 				}
 			]
 		},

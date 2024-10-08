@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - Privilege escalation vulnerability",
+	"document_title": "Privilege escalation vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 6.0.0 through 6.0.11 FortiManager version 6.2.0 through 6.2.9 FortiManager version 6.4.0 through 6.4.7 FortiManager version 7.0.0 through 7.0.3 FortiAnalyzer version 6.0.0 through 6.0.11 FortiAnalyzer version 6.2.0 through 6.2.9 FortiAnalyzer version 6.4.0 through 6.4.7 FortiAnalyzer version 7.0.0 through 7.0.3\n        ",
+				"text": "\n            FortiManager version 6.0.0 through 6.0.11FortiManager version 6.2.0 through 6.2.9FortiManager version 6.4.0 through 6.4.7FortiManager version 7.0.0 through 7.0.3FortiAnalyzer version 6.0.0 through 6.0.11FortiAnalyzer version 6.2.0 through 6.2.9FortiAnalyzer version 6.4.0 through 6.4.7FortiAnalyzer version 7.0.0 through 7.0.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 6.4.8 or above. Please upgrade to FortiManager version 7.0.4 or above. Please upgrade to FortiManager version 7.2.0 or above. Please upgrade to FortiAnalyzer version 6.4.8 or above. Please upgrade to FortiAnalyzer version 7.0.4 or above. Please upgrade to FortiAnalyzer version 7.2.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager version 6.4.8 or above.Please upgrade to FortiManager version 7.0.4 or above.Please upgrade to FortiManager version 7.2.0 or above.Please upgrade to FortiAnalyzer version 6.4.8 or above.Please upgrade to FortiAnalyzer version 7.0.4 or above.Please upgrade to FortiAnalyzer version 7.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank ClÃ©ment Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Clément Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - Privilege escalation vulnerability",
+		"title": "Privilege escalation vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-056",
-					"description": "FortiManager & FortiAnalyzer - Privilege escalation vulnerability"
+					"description": "Privilege escalation vulnerability"
 				}
 			]
 		},

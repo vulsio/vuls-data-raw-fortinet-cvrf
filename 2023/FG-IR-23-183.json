@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS/FortiProxy - Proxy mode with deep inspection - Stack-based buffer overflow",
+	"document_title": "Proxy mode with deep inspection - Stack-based buffer overflow",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A stack-based overflow vulnerability [CWE-124] in FortiOS & FortiProxy may allow a remote attacker to execute arbitrary code or command via crafted packets reaching proxy policies or firewall policies with proxy mode alongside SSL deep packet inspection.   Workaround: Disable HTTP/2 support on SSL inspection profiles used by proxy policies or firewall policies with proxy mode. Example with custom-deep-inspection profile: config firewall ssl-ssh-profile    edit \"custom-deep-inspection\"       set supported-alpn http1-1    next end https://docs.fortinet.com/document/fortigate/7.0.0/new-features/710924/http-2-support-in-proxy-mode-ssl-inspection  \n        ",
+				"text": "\n            A stack-based overflow vulnerability [CWE-124] in FortiOS & FortiProxy may allow a remote attacker to execute arbitrary code or command via crafted packets reaching proxy policies or firewall policies with proxy mode alongside SSL deep packet inspection.## Workaround:Disable HTTP/2 support on SSL inspection profiles used by proxy policies or firewall policies with proxy mode.Example with custom-deep-inspection profile:<br/>config firewall ssl-ssh-profile<br/>edit \"custom-deep-inspection\"<br/>set supported-alpn http1-1<br/>next<br/>end<br/>https://docs.fortinet.com/document/fortigate/7.0.0/new-features/710924/http-2-support-in-proxy-mode-ssl-inspection\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.3 FortiOS version 7.0.0 through 7.0.10 FortiProxy version 7.2.0 through 7.2.2 FortiProxy version 7.0.0 through 7.0.9   Products NOT affected: FortiOS 6.4 all versions FortiOS 6.2 all versions FortiOS 6.0 all versions FortiProxy 2.x all versions FortiProxy 1.x all versions\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.3FortiOS version 7.0.0 through 7.0.10FortiProxy version 7.2.0 through 7.2.2FortiProxy version 7.0.0 through 7.0.9## Products NOT affected:FortiOS 6.4 all versionsFortiOS 6.2 all versionsFortiOS 6.0 all versionsFortiProxy 2.x all versionsFortiProxy 1.x all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.4 or above Please upgrade to FortiOS version 7.0.11 or above Please upgrade to FortiProxy version 7.4.0 or above Please upgrade to FortiProxy version 7.2.3 or above Please upgrade to FortiProxy version 7.0.10 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.4 or abovePlease upgrade to FortiOS version 7.0.11 or abovePlease upgrade to FortiProxy version 7.4.0 or abovePlease upgrade to FortiProxy version 7.2.3 or abovePlease upgrade to FortiProxy version 7.0.10 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS/FortiProxy - Proxy mode with deep inspection - Stack-based buffer overflow",
+		"title": "Proxy mode with deep inspection - Stack-based buffer overflow",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-183",
-					"description": "FortiOS/FortiProxy - Proxy mode with deep inspection - Stack-based buffer overflow"
+					"description": "Proxy mode with deep inspection - Stack-based buffer overflow"
 				}
 			]
 		},

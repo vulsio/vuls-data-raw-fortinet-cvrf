@@ -103,6 +103,7 @@
 					"FortiProxy-7.4.2",
 					"FortiProxy-7.4.1",
 					"FortiProxy-7.4.0",
+					"FortiProxy-7.2.11",
 					"FortiProxy-7.2.10",
 					"FortiProxy-7.2.9",
 					"FortiProxy-7.2.8",
@@ -420,6 +421,14 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.4.0",
 								"product_id": "FortiProxy-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.2.11",
+								"product_id": "FortiProxy-7.2.11"
 							}
 						},
 						{

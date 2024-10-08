@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - PostgreSQL DB access to local users",
+	"document_title": "PostgreSQL DB access to local users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSOAR version 7.2.0 through 7.2.2FortiSOAR version 7.0.0 through 7.0.3FortiSOAR version 6.4.0 through 6.4.4\n        ",
+				"text": "\n            FortiSOAR 7.2 all versionsFortiSOAR 7.0 all versionsFortiSOAR 6.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - PostgreSQL DB access to local users",
+		"title": "PostgreSQL DB access to local users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-216",
-					"description": "FortiSOAR - PostgreSQL DB access to local users"
+					"description": "PostgreSQL DB access to local users"
 				}
 			]
 		},

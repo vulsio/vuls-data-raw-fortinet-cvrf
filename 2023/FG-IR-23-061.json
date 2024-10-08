@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN - Guessable static JSON web token secret",
+	"document_title": "Guessable static JSON web token secret",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            *PRODUCT OUT OF SUPPORT* An improper authentication vulnerability [CWE-287] in FortWAN may allow an authenticated attacker to escalate his privileges via HTTP or HTTPs requests with crafted JWT token values.\n        ",
+				"text": "\n            PRODUCT OUT OF SUPPORTAn improper authentication vulnerability [CWE-287] in FortWAN may allow an authenticated attacker to escalate his privileges via HTTP or HTTPs requests with crafted JWT token values.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWAN version 5.2.0 through 5.2.1 FortiWAN version 5.1.1 through 5.1.2\n        ",
+				"text": "\n            FortiWAN version 5.2.0 through 5.2.1FortiWAN version 5.1.1 through 5.1.2\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN - Guessable static JSON web token secret",
+		"title": "Guessable static JSON web token secret",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-061",
-					"description": "FortiWAN - Guessable static JSON web token secret"
+					"description": "Guessable static JSON web token secret"
 				}
 			]
 		},

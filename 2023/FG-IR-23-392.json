@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Encrypted password stored in logs",
+	"document_title": "Encrypted password stored in logs",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insertion of sensitive information into log file vulnerability [CWE-532] in FortiSIEM may allow an authenticated user to view an encrypted ElasticSearch password via debug log files generated when FortiSIEM is configured with ElasticSearch Event Storage.  \n        ",
+				"text": "\n            An insertion of sensitive information into log file vulnerability [CWE-532] in FortiSIEM may allow an authenticated user to view an encrypted ElasticSearch password via debug log files generated when FortiSIEM is configured with ElasticSearch Event Storage.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,12 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSIEM version 7.0.0 FortiSIEM version 6.7.0 through 6.7.6 FortiSIEM version 6.6.0 through 6.6.3 FortiSIEM version 6.5.0 through 6.5.1 FortiSIEM version 6.4.0 through 6.4.2 FortiSIEM 6.3 all versions FortiSIEM 6.2 all versions FortiSIEM 6.1 all versions FortiSIEM 5.4 all versions FortiSIEM 5.3 all versions  \n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},
@@ -59,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Encrypted password stored in logs",
+		"title": "Encrypted password stored in logs",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-392",
-					"description": "FortiSIEM - Encrypted password stored in logs"
+					"description": "Encrypted password stored in logs"
 				}
 			]
 		},

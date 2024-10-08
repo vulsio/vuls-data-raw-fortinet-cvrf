@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiDDoS - Use of hardcoded key for the JWT token",
+	"document_title": "Use of hardcoded key for the JWT token",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A use of hard-coded cryptographic key vulnerability [CWE-321] in FortiDDoS API may allow an attacker who managed to retrieve the key from one device to sign JWT tokens for any device.\n        ",
+				"text": "\n            A use of hard-coded cryptographic key vulnerability [CWE-321] in FortiDDoS API may allow an attacker who managed to retrieve the key from one device to sign JWT tokens for any device.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiDDoS version 5.5.0 through 5.5.1FortiDDoS version 5.4.0 through 5.4.2FortiDDoS version 5.3.0 through 5.3.1FortiDDoS version 5.2.0FortiDDoS version 5.1.0\n        ",
+				"text": "\n            FortiDDoS 5.5 all versionsFortiDDoS version 5.4.0 through 5.4.2FortiDDoS version 5.3.0 through 5.3.1FortiDDoS 5.2 all versionsFortiDDoS 5.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiDDoS - Use of hardcoded key for the JWT token",
+		"title": "Use of hardcoded key for the JWT token",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-071",
-					"description": "FortiDDoS - Use of hardcoded key for the JWT token"
+					"description": "Use of hardcoded key for the JWT token"
 				}
 			]
 		},
@@ -98,7 +98,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.8",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:U/RC:R"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:R"
 			}
 		}
 	},

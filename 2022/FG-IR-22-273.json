@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - Multiple reflected cross-site scripting vulnerabilities in portal UI",
+	"document_title": "Multiple reflected cross-site scripting vulnerabilities in portal UI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of input during web page generation ('Cross-site Scripting') vulnerabilities [CWE-79] in FortiNAC portal UI may allow an attacker to perform an XSS attack via crafted HTTP requests.\n        ",
+				"text": "\n            Multiple improper neutralization of input during web page generation ('Cross-site Scripting') vulnerabilities [CWE-79] in FortiNAC portal UI may allow an attacker to perform an XSS attack via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiNAC version 9.4.0 through 9.4.1 FortiNAC 9.2 all versions FortiNAC 9.1 all versions FortiNAC 8.8 all versions FortiNAC 8.7 all versions FortiNAC 8.6 all versions\n        ",
+				"text": "\n            FortiNAC version 9.4.0 through 9.4.1FortiNAC 9.2 all versionsFortiNAC 9.1 all versionsFortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or above Please upgrade to FortiNAC version 9.4.2 or above\n        ",
+				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or abovePlease upgrade to FortiNAC version 9.4.2 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - Multiple reflected cross-site scripting vulnerabilities in portal UI",
+		"title": "Multiple reflected cross-site scripting vulnerabilities in portal UI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-273",
-					"description": "FortiNAC - Multiple reflected cross-site scripting vulnerabilities in portal UI"
+					"description": "Multiple reflected cross-site scripting vulnerabilities in portal UI"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS,  FortiWeb, FortiProxy and FortiSwitch  - Padding oracle in cookie encryption",
+	"document_title": "Padding oracle in cookie encryption",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS versions 7.0.3 and below. FortiOS versions 6.4.8 and below, FortiOS 6.2 all versions FortiOS 6.0 all versions FortiWeb 6.4 all versions FortiWeb versions 6.3.16 and below, FortiWeb 6.2 all versions FortiWeb 6.1 all versions FortiWeb 6.0 all versions FortiProxy versions 7.0.1 and below, FortiProxy versions 2.0.7 and below, FortiProxy 1.2 all versions FortiProxy 1.1 all versions FortiProxy 1.0 all versions FortiSwitch versions 7.0.3 and below, FortiSwitch versions 6.4.10 and below, FortiSwitch 6.2 all versions FortiSwitch 6.0 all versions\n        ",
+				"text": "\n            FortiOS versions 7.0.3 and below.FortiOS versions 6.4.8 and below,FortiOS 6.2 all versionsFortiOS 6.0 all versionsFortiWeb 6.4 all versionsFortiWeb versions 6.3.16 and below,FortiWeb 6.2 all versionsFortiWeb 6.1 all versionsFortiWeb 6.0 all versionsFortiProxy versions 7.0.1 and below,FortiProxy versions 2.0.7 and below,FortiProxy 1.2 all versionsFortiProxy 1.1 all versionsFortiProxy 1.0 all versionsFortiSwitch versions 7.0.3 and below,FortiSwitch versions 6.4.10 and below,FortiSwitch 6.2 all versionsFortiSwitch 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS version 7.0.4 or above. Upgrade to FortiOS version 6.4.9 or above. Upgrade to FortiWeb version 7.0.0 or above. upgrade to FortiWeb version 6.3.17 or above. Upgrade to FortiProxy version 7.0.2 or above. Upgrade to FortiProxy version 2.0.8 or above. Upgrade to FortiSwitch version 7.2.0 or above. Upgrade to FortiSwitch version 7.0.4 or above. Upgrade to FortiSwitch version 6.4.11 or above.\n        ",
+				"text": "\n            Upgrade to FortiOS version 7.0.4 or above.Upgrade to FortiOS version 6.4.9 or above.Upgrade to FortiWeb version 7.0.0 or above.upgrade to FortiWeb version 6.3.17 or above.Upgrade to FortiProxy version 7.0.2 or above.Upgrade to FortiProxy version 2.0.8 or above.Upgrade to FortiSwitch version 7.2.0 or above.Upgrade to FortiSwitch version 7.0.4 or above.Upgrade to FortiSwitch version 6.4.11 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS,  FortiWeb, FortiProxy and FortiSwitch  - Padding oracle in cookie encryption",
+		"title": "Padding oracle in cookie encryption",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-126",
-					"description": "FortiOS,  FortiWeb, FortiProxy and FortiSwitch  - Padding oracle in cookie encryption"
+					"description": "Padding oracle in cookie encryption"
 				}
 			]
 		},
@@ -95,6 +95,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
+					"FortiOS-6.2.16",
 					"FortiOS-6.2.15",
 					"FortiOS-6.2.14",
 					"FortiOS-6.2.13",
@@ -111,6 +112,7 @@
 					"FortiOS-6.2.2",
 					"FortiOS-6.2.1",
 					"FortiOS-6.2.0",
+					"FortiOS-6.0.18",
 					"FortiOS-6.0.17",
 					"FortiOS-6.0.16",
 					"FortiOS-6.0.15",
@@ -368,6 +370,14 @@
 							}
 						},
 						{
+							"name": "6.2.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.16",
+								"product_id": "FortiOS-6.2.16"
+							}
+						},
+						{
 							"name": "6.2.15",
 							"type": "Product Version",
 							"full_product_name": {
@@ -493,6 +503,14 @@
 							"full_product_name": {
 								"text": "FortiOS 6.2.0",
 								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.18",
+								"product_id": "FortiOS-6.0.18"
 							}
 						},
 						{

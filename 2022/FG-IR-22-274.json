@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiTester - Multiple command injection vulnerabilities in GUI and API",
+	"document_title": "Command injection vulnerabilities in GUI and API",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiTester version 7.1.0 FortiTester version 7.0 all versions FortiTester version 4.0.0 through 4.2.0 FortiTester version 2.3.0 through 3.9.1\n        ",
+				"text": "\n            FortiTester version 7.1.0FortiTester version 7.0 all versionsFortiTester version 4.0.0 through 4.2.0FortiTester version 2.3.0 through 3.9.1\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiTester - Multiple command injection vulnerabilities in GUI and API",
+		"title": "Command injection vulnerabilities in GUI and API",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-274",
-					"description": "FortiTester - Multiple command injection vulnerabilities in GUI and API"
+					"description": "Command injection vulnerabilities in GUI and API"
 				}
 			]
 		},

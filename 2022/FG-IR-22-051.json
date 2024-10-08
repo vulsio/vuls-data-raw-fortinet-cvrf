@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Multiple SQL Injection vulnerabilities in the management interface",
+	"document_title": "Multiple SQL Injection vulnerabilities in the management interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerabilities [CWE-89] in FortiADC management interface may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerabilities [CWE-89] in FortiADC management interface may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.0.0 through 7.0.1FortiADC version 6.2.0 through 6.2.2FortiADC version 6.1.0 through 6.1.6FortiADC version 6.0.0 through 6.0.4FortiADC version 5.4.0 through 5.4.5FortiADC version 5.3.0 through 5.3.7FortiADC version 5.2.0 through 5.2.8FortiADC version 5.1.0 through 5.1.7FortiADC version 5.0.0 through 5.0.4\n        ",
+				"text": "\n            FortiADC version 7.0.0 through 7.0.1FortiADC version 6.2.0 through 6.2.2FortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versionsFortiADC 5.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 7.0.2 or above. Please upgrade to FortiADC version 6.2.3 or above.\n        ",
+				"text": "\n            Please upgrade to FortiADC version 7.0.2 or above.Please upgrade to FortiADC version 6.2.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Multiple SQL Injection vulnerabilities in the management interface",
+		"title": "Multiple SQL Injection vulnerabilities in the management interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-051",
-					"description": "FortiADC - Multiple SQL Injection vulnerabilities in the management interface"
+					"description": "Multiple SQL Injection vulnerabilities in the management interface"
 				}
 			]
 		},

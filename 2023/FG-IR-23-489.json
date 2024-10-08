@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - OS command injection on endpoint",
+	"document_title": "OS command injection on endpoint",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - OS command injection on endpoint",
+		"title": "OS command injection on endpoint",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-489",
-					"description": "FortiSandbox - OS command injection on endpoint"
+					"description": "OS command injection on endpoint"
 				}
 			]
 		},

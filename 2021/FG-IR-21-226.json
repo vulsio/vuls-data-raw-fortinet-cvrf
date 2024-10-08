@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Linux) - external access to confighandler webserver",
+	"document_title": "External access to confighandler webserver",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClient for Linux version 7.0.2 and below FortiClient for Linux version 6.4.7 and below FortiClient for Linux version 6.2.9 to 6.2.0\n        ",
+				"text": "\n            FortiClient for Linux version 7.0.2 and belowFortiClient for Linux version 6.4.7 and belowFortiClient for Linux version 6.2.9 to 6.2.0\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for Linux version 7.0.3 or above. Please upgrade to FortiClient for Linux version 6.4.8 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient for Linux version 7.0.3 or above.Please upgrade to FortiClient for Linux version 6.4.8 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Linux) - external access to confighandler webserver",
+		"title": "External access to confighandler webserver",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-226",
-					"description": "FortiClient (Linux) - external access to confighandler webserver"
+					"description": "External access to confighandler webserver"
 				}
 			]
 		},
@@ -100,7 +100,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.2",
-				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:W/RC:C"
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:W/RC:C"
 			}
 		}
 	},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile",
+	"document_title": "Credentials observed in cleartext in the logfile",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An information disclosure vulnerability [CWE-200] in FortiAnalyzer and FortiManager VM may allow an authenticated attacker to read the FortiCloud credentials which were used to activate the trial license in cleartext.\n        ",
+				"text": "\n            An information disclosure vulnerability [CWE-200] in FortiAnalyzer and FortiManager VM may allow an authenticated attacker to read the FortiCloud credentials which were used to activate the trial license in cleartext.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.0.0. FortiManager versions 6.4.6 and below.   FortiAnalyzer version 7.0.0. FortiAnalyzer versions 6.4.6 and below.\n        ",
+				"text": "\n            FortiManager version 7.0.0.FortiManager versions 6.4.6 and below.FortiAnalyzer version 7.0.0.FortiAnalyzer versions 6.4.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 6.4.7 or above. Please upgrade to FortiManager version 7.0.1 or above.   Please upgrade to FortiAnalyzer version 6.4.7 or above. Please upgrade to FortiAnalyzer version 7.0.1 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager version 6.4.7 or above.Please upgrade to FortiManager version 7.0.1 or above.Please upgrade to FortiAnalyzer version 6.4.7 or above.Please upgrade to FortiAnalyzer version 7.0.1 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile",
+		"title": "Credentials observed in cleartext in the logfile",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-112",
-					"description": "FortiAnalyzer & FortiManager - Forticloud credentials observed in cleartext in the logfile"
+					"description": "Credentials observed in cleartext in the logfile"
 				}
 			]
 		},
@@ -82,10 +82,10 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiManager-7.0.0",
-					"FortiManager-6.4.6",
 					"FortiAnalyzer-7.0.0",
-					"FortiAnalyzer-6.4.6"
+					"FortiAnalyzer-6.4.6",
+					"FortiManager-7.0.0",
+					"FortiManager-6.4.6"
 				]
 			}
 		},
@@ -101,28 +101,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiManager",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiManager 7.0.0",
-								"product_id": "FortiManager-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiManager 6.4.6",
-								"product_id": "FortiManager-6.4.6"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiAnalyzer",
 					"type": "Product Name",
@@ -141,6 +119,28 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 6.4.6",
 								"product_id": "FortiAnalyzer-6.4.6"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.0",
+								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.6",
+								"product_id": "FortiManager-6.4.6"
 							}
 						}
 					]

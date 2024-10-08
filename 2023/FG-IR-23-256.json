@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Log injection",
+	"document_title": "Log injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWeb version 7.4.0 FortiWeb version 7.2.0 through 7.2.5 FortiWeb 7.0 all versions FortiWeb 6.3 all versions FortiWeb 6.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWeb version 7.4.1 or above Please upgrade to FortiWeb version 7.2.6 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Log injection",
+		"title": "Log injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-256",
-					"description": "FortiWeb - Log injection"
+					"description": "Log injection"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiExtender - Path Traversal vulnerability",
+	"document_title": "Path Traversal vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiExtender management interface may allow an unauthenticated and remote attacker to retrieve arbitrary files from the underlying filesystem via specially crafted web requests.\n        ",
+				"text": "\n            An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiExtender management interface may allow an unauthenticated and remote attacker to retrieve arbitrary files from the underlying filesystem via specially crafted web requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiExtender version 7.0.0 through 7.0.3FortiExtender version 4.2.0 through 4.2.4FortiExtender version 4.1.1 through 4.1.8FortiExtender version 4.0.0 through 4.0.2FortiExtender version 3.3.0 through 3.3.2FortiExtender version 3.2.1 through 3.2.3FortiExtender 5.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiExtender version 7.2.0 or above Please upgrade to FortiExtender version 7.0.4 or above Please upgrade to FortiExtender version 4.2.5 or above Please upgrade to FortiExtender version 4.1.9 or above Please upgrade to FortiExtender version 4.0.3 or above Please upgrade to FortiExtender version 3.3.3 or above Please upgrade to FortiExtender version 3.2.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiExtender - Path Traversal vulnerability",
+		"title": "Path Traversal vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-039",
-					"description": "FortiExtender - Path Traversal vulnerability"
+					"description": "Path Traversal vulnerability"
 				}
 			]
 		},

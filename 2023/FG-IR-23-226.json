@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPAM - Lack of rate control to protect against DoS attacks",
+	"document_title": "Lack of rate control to protect against DoS attacks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiPAM 1.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiPAM version 1.1.0 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPAM - Lack of rate control to protect against DoS attacks",
+		"title": "Lack of rate control to protect against DoS attacks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-226",
-					"description": "FortiPAM - Lack of rate control to protect against DoS attacks"
+					"description": "Lack of rate control to protect against DoS attacks"
 				}
 			]
 		},

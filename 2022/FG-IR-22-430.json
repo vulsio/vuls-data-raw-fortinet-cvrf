@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Device password exposure in audit log",
+	"document_title": "Device password exposure in audit log",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insertion of sensitive information into log file vulnerability [CWE-532] in the FortiPortal management interface may allow a remote authenticated attacker to read other devices' passwords in the audit log page.\n        ",
+				"text": "\n            An insertion of sensitive information into log file vulnerability [CWE-532] in the FortiPortal management interface may allow a remote authenticated attacker to read other devices' passwords in the audit log page.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiPortal version 7.0.0 through 7.0.2\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiPortal version 7.0.3 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Device password exposure in audit log",
+		"title": "Device password exposure in audit log",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-430",
-					"description": "FortiPortal - Device password exposure in audit log"
+					"description": "Device password exposure in audit log"
 				}
 			]
 		},

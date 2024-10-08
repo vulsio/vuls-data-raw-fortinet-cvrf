@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer & FortiManager - Improper input validation in custom dataset",
+	"document_title": "Improper input validation in custom dataset",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper input validation vulnerability [CWE-20] in FortiAnalyzer & FortiManager may allow an authenticated attacker to disclose file system information via custom dataset SQL queries. Workaround: If enabled, disabled the FortiAnalyzer features option in FortiManager via: ``` config system global set faz-status disable end ``` FortiManager 100C is not impacted due to the absence of FortiAnalyzer features option.\n        ",
+				"text": "\n            An improper input validation vulnerability [CWE-20] in FortiAnalyzer & FortiManager may allow an authenticated attacker to disclose file system information via custom dataset SQL queries.## Workaround:If enabled, disabled the FortiAnalyzer features option in FortiManager via:<br/><br/>config system global<br/><br/>set faz-status disable<br/><br/>end<br/><br/>FortiManager 100C is not impacted due to the absence of FortiAnalyzer features option.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiAnalyzer version 7.4.0 through 7.4.1 FortiAnalyzer version 7.2.0 through 7.2.3 FortiAnalyzer version 7.0.0 through 7.0.8 FortiAnalyzer version 6.4.0 through 6.4.12 FortiAnalyzer version 6.2.0 through 6.2.11 At least FortiManager version 7.4.0 through 7.4.1 FortiManager version 7.2.0 through 7.2.3 FortiManager version 7.0.0 through 7.0.8 FortiManager version 6.4.0 through 6.4.12 FortiManager version 6.2.0 through 6.2.11\n        ",
+				"text": "\n            At leastFortiAnalyzer version 7.4.0 through 7.4.1FortiAnalyzer version 7.2.0 through 7.2.3FortiAnalyzer version 7.0.0 through 7.0.8FortiAnalyzer version 6.4.0 through 6.4.12FortiAnalyzer version 6.2.0 through 6.2.11At leastFortiManager version 7.4.0 through 7.4.1FortiManager version 7.2.0 through 7.2.3FortiManager version 7.0.0 through 7.0.8FortiManager version 6.4.0 through 6.4.12FortiManager version 6.2.0 through 6.2.11\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to upcoming FortiAnalyzer version 7.4.2 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.9 or above Please upgrade to FortiAnalyzer version 6.4.13 or above Please upgrade to FortiAnalyzer version 6.2.12 or above Please upgrade to upcoming FortiManager version 7.4.2 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.9 or above Please upgrade to FortiManager version 6.4.13 or above Please upgrade to FortiManager version 6.2.12 or above\n        ",
+				"text": "\n            Please upgrade to upcoming FortiAnalyzer version 7.4.2 or abovePlease upgrade to FortiAnalyzer version 7.2.4 or abovePlease upgrade to FortiAnalyzer version 7.0.9 or abovePlease upgrade to FortiAnalyzer version 6.4.13 or abovePlease upgrade to FortiAnalyzer version 6.2.12 or abovePlease upgrade to upcoming FortiManager version 7.4.2 or abovePlease upgrade to FortiManager version 7.2.4 or abovePlease upgrade to FortiManager version 7.0.9 or abovePlease upgrade to FortiManager version 6.4.13 or abovePlease upgrade to FortiManager version 6.2.12 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer & FortiManager - Improper input validation in custom dataset",
+		"title": "Improper input validation in custom dataset",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-432",
-					"description": "FortiAnalyzer & FortiManager - Improper input validation in custom dataset"
+					"description": "Improper input validation in custom dataset"
 				}
 			]
 		},

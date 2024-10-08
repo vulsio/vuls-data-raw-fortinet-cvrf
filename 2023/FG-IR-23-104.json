@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - HTML injection in SAML and Security Fabric components",
+	"document_title": "HTML injection in SAML and Security Fabric components",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.5\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.6 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - HTML injection in SAML and Security Fabric components",
+		"title": "HTML injection in SAML and Security Fabric components",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-104",
-					"description": "FortiOS - HTML injection in SAML and Security Fabric components"
+					"description": "HTML injection in SAML and Security Fabric components"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Uncontrolled resource consumption",
+	"document_title": "Uncontrolled resource consumption",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWeb version 6.4.0 FortiWeb version 6.3.15 and below FortiWeb version 6.2.5 and below\n        ",
+				"text": "\n            FortiWeb version 6.4.0FortiWeb version 6.3.15 and belowFortiWeb version 6.2.5 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb version 6.4.1 or above Upgrade to FortiWeb version 6.3.16 or above Upgrade to FortiWeb version 6.2.6 or above\n        ",
+				"text": "\n            Upgrade to FortiWeb version 6.4.1 or aboveUpgrade to FortiWeb version 6.3.16 or aboveUpgrade to FortiWeb version 6.2.6 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Mattia Fecit of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Mattia Fecit of Fortinet PSIRT team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Uncontrolled resource consumption",
+		"title": "Uncontrolled resource consumption",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-039",
-					"description": "FortiWeb - Uncontrolled resource consumption"
+					"description": "Uncontrolled resource consumption"
 				}
 			]
 		},

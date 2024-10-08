@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The Apache project released an advisory, describing the following vulnerabilities: 1) CVE-2021-44790 A carefully crafted request body can cause a buffer overflow in the mod_lua  multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not  aware of an exploit for the vulnerabilty though it might be possible to craft one. This  issue affects Apache HTTP Server 2.4.51 and earlier. 2) CVE-2021-44224 A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash  (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations,  can allow for requests to be directed to a declared Unix Domain Socket endpoint  (Server Side Request Forgery). This issue affects Apache HTTP Server 2.4.7 up to 2.4.51 (included).  \n        ",
+				"text": "\n            The Apache project released an advisory, describing the following vulnerabilities:1) CVE-2021-44790A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabilty though it might be possible to craft one. This issue affects Apache HTTP Server 2.4.51 and earlier.2) CVE-2021-44224A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations, can allow for requests to be directed to a declared Unix Domain Socket endpoint (Server Side Request Forgery). This issue affects Apache HTTP Server 2.4.7 up to 2.4.51 (included).\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            The following products are NOT impacted: FortiOS FortiManager FortiAnalyzer FortiAuthenticator FortiIsolator FortiProxy FortiSandbox FortiWLM FortiMail  FortiAP FortiDeceptor FortiRecorder FortiWeb FortiWLC FortiPortal  FortiSIEM FortiSwitch FortiClientEMS FortiVoiceEnterprise FortiPentest FortiNDR FortiNAC FortiAnalyzer-BD\n        ",
+				"text": "\n            The following products are NOT impacted:FortiOSFortiManagerFortiAnalyzerFortiAuthenticatorFortiIsolatorFortiProxyFortiSandboxFortiWLMFortiMailFortiAPFortiDeceptorFortiRecorderFortiWebFortiWLCFortiPortalFortiSIEMFortiSwitchFortiClientEMSFortiVoiceEnterpriseFortiPentestFortiNDRFortiNACFortiAnalyzer-BD\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -73,8 +73,7 @@
 			]
 		},
 		"cve": [
-			"CVE-2021-44790",
-			"CVE-2021-44224"
+			"CVE-2021-44790"
 		],
 		"product_statuses": {
 			"status": {}

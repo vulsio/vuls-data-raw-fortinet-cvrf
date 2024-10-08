@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - User can see and modify address book folders title of other users",
+	"document_title": "User can see and modify address book folders title of other users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiMail version 7.2.0 through 7.2.2 FortiMail version 7.0.0 through 7.0.5 FortiMail 6.4 all versions FortiMail 6.2 all versions FortiMail 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiMail version 7.4.0 or above Please upgrade to FortiMail version 7.2.3 or above Please upgrade to FortiMail version 7.0.6 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - User can see and modify address book folders title of other users",
+		"title": "User can see and modify address book folders title of other users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-203",
-					"description": "FortiMail - User can see and modify address book folders title of other users"
+					"description": "User can see and modify address book folders title of other users"
 				}
 			]
 		},

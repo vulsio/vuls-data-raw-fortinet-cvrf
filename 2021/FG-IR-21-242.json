@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Privilege escalation via switch-control CLI command",
+	"document_title": "Privilege escalation via switch-control CLI command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an os command [CWE-78] vulnerability in FortiOS may allow an authenticated attacker to execute privileged commands on a linked FortiSwitch via diagnostic CLI commands.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an os command [CWE-78] vulnerability in FortiOS may allow an authenticated attacker to execute privileged commands on a linked FortiSwitch via diagnostic CLI commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 6.0.0 through 6.0.14 FortiOS version 6.2.0 through 6.2.10 FortiOS version 6.4.0 through 6.4.8 FortiOS version 7.0.0 through 7.0.3\n        ",
+				"text": "\n            FortiOS version 6.0.0 through 6.0.14FortiOS version 6.2.0 through 6.2.10FortiOS version 6.4.0 through 6.4.8FortiOS version 7.0.0 through 7.0.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS version 7.0.7 or above Upgrade to FortiOS version 6.4.9 or above Upgrade to FortiOS version 6.2.11 or above Upgrade to FortiOS version 6.0.15 or above\n        ",
+				"text": "\n            Upgrade to FortiOS version 7.0.7 or aboveUpgrade to FortiOS version 6.4.9 or aboveUpgrade to FortiOS version 6.2.11 or aboveUpgrade to FortiOS version 6.0.15 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -56,16 +56,22 @@
 		]
 	},
 	"document_references": {},
-	"acknowledgments": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by FortiOS GUI development team."
+			}
+		]
+	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Privilege escalation via switch-control CLI command",
+		"title": "Privilege escalation via switch-control CLI command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-242",
-					"description": "FortiOS - Privilege escalation via switch-control CLI command"
+					"description": "Privilege escalation via switch-control CLI command"
 				}
 			]
 		},

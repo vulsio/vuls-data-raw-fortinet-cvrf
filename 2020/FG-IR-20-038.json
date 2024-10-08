@@ -1,5 +1,5 @@
 {
-	"document_title": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges",
+	"document_title": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges.",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of Privilege\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges",
+		"title": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges.",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-038",
-					"description": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges"
+					"description": "Privilege Escalation observed in FortiNAC by exploiting the SUDO privileges."
 				}
 			]
 		},

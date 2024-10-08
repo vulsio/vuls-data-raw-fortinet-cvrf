@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Path traversal via browse report CGI component",
+	"document_title": "Path traversal via browse report CGI component",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Unauthorized access to files\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiWeb version 7.0.0 through 7.0.1 FortiWeb 6.2 all versions FortiWeb 6.4 all versions FortiWeb 6.3 all versions\n        ",
+				"text": "\n            At leastFortiWeb version 7.0.0 through 7.0.1FortiWeb 6.2 all versionsFortiWeb 6.4 all versionsFortiWeb 6.3 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Path traversal via browse report CGI component",
+		"title": "Path traversal via browse report CGI component",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-142",
-					"description": "FortiWeb - Path traversal via browse report CGI component"
+					"description": "Path traversal via browse report CGI component"
 				}
 			]
 		},

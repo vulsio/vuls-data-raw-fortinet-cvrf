@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM - Command injection in script handlers",
+	"document_title": "Command injection in script handlers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM - Command injection in script handlers",
+		"title": "Command injection in script handlers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-110",
-					"description": "FortiWLM - Command injection in script handlers"
+					"description": "Command injection in script handlers"
 				}
 			]
 		},

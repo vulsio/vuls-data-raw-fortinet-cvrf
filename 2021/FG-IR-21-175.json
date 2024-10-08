@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - plaintext storage of sensitive data in Windows Agent",
+	"document_title": "Plaintext storage of sensitive data in Windows Agent",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSIEM Windows Agent version 4.1.4 and below. FortiSIEM Windows Agent version 4.0.0. FortiSIEM Windows Agent version 3.3.0. FortiSIEM Windows Agent version 3.2.2 and below. FortiSIEM Windows Agent version 3.1.2 and below.\n        ",
+				"text": "\n            FortiSIEM Windows Agent version 4.1.4 and below.FortiSIEM Windows Agent version 4.0.0.FortiSIEM Windows Agent version 3.3.0.FortiSIEM Windows Agent version 3.2.2 and below.FortiSIEM Windows Agent version 3.1.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSIEM Windows Agent version 4.1.5Â or above.\n        ",
+				"text": "\n            Upgrade to FortiSIEM Windows Agent version 4.1.5 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,28 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "<span style=\"font-size:11.0pt;font-family:\"Arial\",sans-serif;"
-			},
-			{
-				"description": "mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-GB;mso-fareast-language:"
-			},
-			{
-				"description": "EN-GB;mso-bidi-language:AR-SA\">Internally discovered and reported by Oleksii"
-			},
-			{
-				"description": "Mandrychenko and Damnjan Nikolic of Fortinet TAC team."
+				"description": "Internally discovered and reported by Oleksii Mandrychenko and Damnjan Nikolic of Fortinet TAC team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - plaintext storage of sensitive data in Windows Agent",
+		"title": "Plaintext storage of sensitive data in Windows Agent",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-175",
-					"description": "FortiSIEM - plaintext storage of sensitive data in Windows Agent"
+					"description": "Plaintext storage of sensitive data in Windows Agent"
 				}
 			]
 		},
@@ -107,7 +98,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:X/RL:O/RC:C"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
 			}
 		}
 	},

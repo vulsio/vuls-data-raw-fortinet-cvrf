@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAuthenticator - Reflected XSS in the password reset page",
+	"document_title": "Reflected XSS in the password reset page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAuthenticator version 6.4.0 through 6.4.6 FortiAuthenticator version 6.3.0 through 6.3.3 FortiAuthenticator 6.2 all versions FortiAuthenticator 6.1 all versions\n        ",
+				"text": "\n            FortiAuthenticator version 6.4.0 through 6.4.6FortiAuthenticator version 6.3.0 through 6.3.3FortiAuthenticator 6.2 all versionsFortiAuthenticator 6.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAuthenticator version 6.5.0 or above Please upgrade to FortiAuthenticator version 6.4.7 or above Please upgrade to FortiAuthenticator version 6.3.4 or above\n        ",
+				"text": "\n            Please upgrade to FortiAuthenticator version 6.5.0 or abovePlease upgrade to FortiAuthenticator version 6.4.7 or abovePlease upgrade to FortiAuthenticator version 6.3.4 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAuthenticator - Reflected XSS in the password reset page",
+		"title": "Reflected XSS in the password reset page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-275",
-					"description": "FortiAuthenticator - Reflected XSS in the password reset page"
+					"description": "Reflected XSS in the password reset page"
 				}
 			]
 		},

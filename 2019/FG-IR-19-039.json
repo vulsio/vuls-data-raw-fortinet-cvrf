@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer & FortiManager - Server side request forgery on fortiview top threats report generation feature.",
+	"document_title": "Server side request forgery on fortiview top threats report generation feature.",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            At leastFortiAnalyzer version 7.4.0 FortiAnalyzer version 7.2.0 through 7.2.3 FortiAnalyzer version 7.0.2 through 7.0.8 FortiAnalyzer version 6.4.8 through 6.4.13 FortiManager version 7.4.0 FortiManager version 7.2.0 through 7.2.3 FortiManager version 7.0.0 through 7.0.8\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.4.1 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.9 or above Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.9 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiAnalyzer-BigData version 7.0.7 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-039",
-				"description": "FortiAnalyzer & FortiManager - Server side request forgery on fortiview top threats report generation feature."
+				"description": "Server side request forgery on fortiview top threats report generation feature."
 			},
 			{
 				"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-2hc5-p5mc-8vrh",
@@ -76,13 +64,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer & FortiManager - Server side request forgery on fortiview top threats report generation feature.",
+		"title": "Server side request forgery on fortiview top threats report generation feature.",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-039",
-					"description": "FortiAnalyzer & FortiManager - Server side request forgery on fortiview top threats report generation feature."
+					"description": "Server side request forgery on fortiview top threats report generation feature."
 				},
 				{
 					"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-2hc5-p5mc-8vrh",
@@ -109,6 +97,7 @@
 					"FortiAnalyzer-7.0.4",
 					"FortiAnalyzer-7.0.3",
 					"FortiAnalyzer-7.0.2",
+					"FortiAnalyzer-6.4.14",
 					"FortiAnalyzer-6.4.13",
 					"FortiAnalyzer-6.4.12",
 					"FortiAnalyzer-6.4.11",
@@ -242,6 +231,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.0.2",
 								"product_id": "FortiAnalyzer-7.0.2"
+							}
+						},
+						{
+							"name": "6.4.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.14",
+								"product_id": "FortiAnalyzer-6.4.14"
 							}
 						},
 						{

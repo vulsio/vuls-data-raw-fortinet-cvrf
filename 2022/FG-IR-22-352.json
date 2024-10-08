@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager, FortiAnalyzer, FortiADC - Command injection due to an unsafe usage of function",
+	"document_title": "Command injection due to an unsafe usage of function",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78 ] in FortiManager, FortiAnalyzer and FortiADC  management interface may allow an authenticated attacker with at least READ permissions on system settings to execute arbitrary commands on the underlying shell due to an unsafe usage of the wordexp function.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78 ] in FortiManager, FortiAnalyzer and FortiADC management interface may allow an authenticated attacker with at least READ permissions on system settings to execute arbitrary commands on the underlying shell due to an unsafe usage of the wordexp function.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiAnalyzer version 7.2.0 through 7.2.2FortiAnalyzer version 7.0.0 through 7.0.7FortiAnalyzer version 6.4.0 through 6.4.11FortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versionsFortiManager version 7.2.0 through 7.2.2FortiManager version 7.0.0 through 7.0.7FortiManager version 6.4.0 through 6.4.11FortiManager 6.2 all versionsFortiManager 6.0 all versionsFortiADC version 7.1.0FortiADC version 7.0.0 through 7.0.3FortiADC 6.2 all versionsFortiADC 6.1 all versionsFortiADC 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.4.0 or above Please upgrade to FortiAnalyzer version 7.2.3 or above Please upgrade to FortiAnalyzer version 7.0.8 or above Please upgrade to FortiAnalyzer version 6.4.12 or above Please upgrade to FortiManager version 7.4.0 or above Please upgrade to FortiManager version 7.2.3 or above Please upgrade to FortiManager version 7.0.8 or above Please upgrade to FortiManager version 6.4.12 or above Please upgrade to FortiADC version 7.1.1 or above Please upgrade to FortiADC version 7.0.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager, FortiAnalyzer, FortiADC - Command injection due to an unsafe usage of function",
+		"title": "Command injection due to an unsafe usage of function",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-352",
-					"description": "FortiManager, FortiAnalyzer, FortiADC - Command injection due to an unsafe usage of function"
+					"description": "Command injection due to an unsafe usage of function"
 				}
 			]
 		},
@@ -82,6 +70,30 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiADC-7.1.0",
+					"FortiADC-7.0.3",
+					"FortiADC-7.0.2",
+					"FortiADC-7.0.1",
+					"FortiADC-7.0.0",
+					"FortiADC-6.2.6",
+					"FortiADC-6.2.5",
+					"FortiADC-6.2.4",
+					"FortiADC-6.2.3",
+					"FortiADC-6.2.2",
+					"FortiADC-6.2.1",
+					"FortiADC-6.2.0",
+					"FortiADC-6.1.6",
+					"FortiADC-6.1.5",
+					"FortiADC-6.1.4",
+					"FortiADC-6.1.3",
+					"FortiADC-6.1.2",
+					"FortiADC-6.1.1",
+					"FortiADC-6.1.0",
+					"FortiADC-6.0.4",
+					"FortiADC-6.0.3",
+					"FortiADC-6.0.2",
+					"FortiADC-6.0.1",
+					"FortiADC-6.0.0",
 					"FortiAnalyzer-7.2.2",
 					"FortiAnalyzer-7.2.1",
 					"FortiAnalyzer-7.2.0",
@@ -179,31 +191,7 @@
 					"FortiManager-6.0.3",
 					"FortiManager-6.0.2",
 					"FortiManager-6.0.1",
-					"FortiManager-6.0.0",
-					"FortiADC-7.1.0",
-					"FortiADC-7.0.3",
-					"FortiADC-7.0.2",
-					"FortiADC-7.0.1",
-					"FortiADC-7.0.0",
-					"FortiADC-6.2.6",
-					"FortiADC-6.2.5",
-					"FortiADC-6.2.4",
-					"FortiADC-6.2.3",
-					"FortiADC-6.2.2",
-					"FortiADC-6.2.1",
-					"FortiADC-6.2.0",
-					"FortiADC-6.1.6",
-					"FortiADC-6.1.5",
-					"FortiADC-6.1.4",
-					"FortiADC-6.1.3",
-					"FortiADC-6.1.2",
-					"FortiADC-6.1.1",
-					"FortiADC-6.1.0",
-					"FortiADC-6.0.4",
-					"FortiADC-6.0.3",
-					"FortiADC-6.0.2",
-					"FortiADC-6.0.1",
-					"FortiADC-6.0.0"
+					"FortiManager-6.0.0"
 				]
 			}
 		},
@@ -219,6 +207,204 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiADC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.1.0",
+								"product_id": "FortiADC-7.1.0"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.0.3",
+								"product_id": "FortiADC-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.0.2",
+								"product_id": "FortiADC-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.0.1",
+								"product_id": "FortiADC-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.0.0",
+								"product_id": "FortiADC-7.0.0"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.6",
+								"product_id": "FortiADC-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.5",
+								"product_id": "FortiADC-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.4",
+								"product_id": "FortiADC-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.3",
+								"product_id": "FortiADC-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.2",
+								"product_id": "FortiADC-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.1",
+								"product_id": "FortiADC-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.2.0",
+								"product_id": "FortiADC-6.2.0"
+							}
+						},
+						{
+							"name": "6.1.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.6",
+								"product_id": "FortiADC-6.1.6"
+							}
+						},
+						{
+							"name": "6.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.5",
+								"product_id": "FortiADC-6.1.5"
+							}
+						},
+						{
+							"name": "6.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.4",
+								"product_id": "FortiADC-6.1.4"
+							}
+						},
+						{
+							"name": "6.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.3",
+								"product_id": "FortiADC-6.1.3"
+							}
+						},
+						{
+							"name": "6.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.2",
+								"product_id": "FortiADC-6.1.2"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.1",
+								"product_id": "FortiADC-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.1.0",
+								"product_id": "FortiADC-6.1.0"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.0.4",
+								"product_id": "FortiADC-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.0.3",
+								"product_id": "FortiADC-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.0.2",
+								"product_id": "FortiADC-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.0.1",
+								"product_id": "FortiADC-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 6.0.0",
+								"product_id": "FortiADC-6.0.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiAnalyzer",
 					"type": "Product Name",
@@ -1011,204 +1197,6 @@
 							"full_product_name": {
 								"text": "FortiManager 6.0.0",
 								"product_id": "FortiManager-6.0.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiADC",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.1.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.1.0",
-								"product_id": "FortiADC-7.1.0"
-							}
-						},
-						{
-							"name": "7.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.0.3",
-								"product_id": "FortiADC-7.0.3"
-							}
-						},
-						{
-							"name": "7.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.0.2",
-								"product_id": "FortiADC-7.0.2"
-							}
-						},
-						{
-							"name": "7.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.0.1",
-								"product_id": "FortiADC-7.0.1"
-							}
-						},
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 7.0.0",
-								"product_id": "FortiADC-7.0.0"
-							}
-						},
-						{
-							"name": "6.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.6",
-								"product_id": "FortiADC-6.2.6"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.5",
-								"product_id": "FortiADC-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.4",
-								"product_id": "FortiADC-6.2.4"
-							}
-						},
-						{
-							"name": "6.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.3",
-								"product_id": "FortiADC-6.2.3"
-							}
-						},
-						{
-							"name": "6.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.2",
-								"product_id": "FortiADC-6.2.2"
-							}
-						},
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.1",
-								"product_id": "FortiADC-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.2.0",
-								"product_id": "FortiADC-6.2.0"
-							}
-						},
-						{
-							"name": "6.1.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.6",
-								"product_id": "FortiADC-6.1.6"
-							}
-						},
-						{
-							"name": "6.1.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.5",
-								"product_id": "FortiADC-6.1.5"
-							}
-						},
-						{
-							"name": "6.1.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.4",
-								"product_id": "FortiADC-6.1.4"
-							}
-						},
-						{
-							"name": "6.1.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.3",
-								"product_id": "FortiADC-6.1.3"
-							}
-						},
-						{
-							"name": "6.1.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.2",
-								"product_id": "FortiADC-6.1.2"
-							}
-						},
-						{
-							"name": "6.1.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.1",
-								"product_id": "FortiADC-6.1.1"
-							}
-						},
-						{
-							"name": "6.1.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.1.0",
-								"product_id": "FortiADC-6.1.0"
-							}
-						},
-						{
-							"name": "6.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.0.4",
-								"product_id": "FortiADC-6.0.4"
-							}
-						},
-						{
-							"name": "6.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.0.3",
-								"product_id": "FortiADC-6.0.3"
-							}
-						},
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.0.2",
-								"product_id": "FortiADC-6.0.2"
-							}
-						},
-						{
-							"name": "6.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.0.1",
-								"product_id": "FortiADC-6.0.1"
-							}
-						},
-						{
-							"name": "6.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiADC 6.0.0",
-								"product_id": "FortiADC-6.0.0"
 							}
 						}
 					]

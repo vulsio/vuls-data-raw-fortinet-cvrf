@@ -1,5 +1,5 @@
 {
-	"document_title": "Sweet32 Birthday attack in TLS",
+	"document_title": "CVE-2016-2183 - 3DES Vulnerability - SWEET32",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,22 +30,10 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
-			},
-			{
-				"text": "\n            FortiOS Web adminUI: 5.0.5 and below FortiOS SSL VPN Web Portal: 5.2.9 and below, 5.4.0, 5.4.1 FortiOS VIP, WANOpt, VoIP: 5.4.4 and below FortiOS webfilter override and authentication service: 5.4.8 and below, 5.6.0 to 5.6.3 FortiAP 6.0.0 and below FortiAnalyzer 5.2.9 and below, 5.4.0, 5.4.1, 5.4.6 and above for 5.4 branch, 6.0.2 FortiSwitch 3.6.7 and below, 6.0.0, 6.0.1 FortiClient EMS port 8013 in versions 7.0.8 and below, 7.2.0\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS Web adminUI: Upgrade to 5.0.6 and above and ensure following CLI command set: onfig system global set strong-crypto enable end FortiOS SSL VPN Web Portal: Upgrade to 5.2.10 and above for 5.2 branch, 5.4.2 and above and ensure following CLI command set: config vpn ssl settings set algorithm high end Alternative, start from FortiOS 5.4.1, using following CLI command can disable 3des ciphers: config vpn ssl settings set banned-cipher 3DES end FortiOS VIP, WANOpt, VoIP: pgrade to 5.4.5 and above and ensure following CLI command set: config wanopt settings et tunnel-ssl-algorithm high end config firewall ssl-server set ssl-algorithm high end config voip profile edit [profile-name] config sip set ssl-algorithm high end next end config firewall vip edit [vip-name] set type server-load-balance set server-type ssl set ssl-algorithm high next end config web-proxy explicit set ssl-algorithm high end FortiOS webfilter override and authentication service: Upgrade to 5.4.9 and above for 5.4 branch, 5.6.4 and above and ensure following CLI command set: config system global set strong-crypto enable end FortiAP: Upgrade to 6.0.1 and above FortiAnalyzer: Upgrade to 5.2.10 and above for 5.2 branch, 5.4.2 to 5.4.5*, 5.6.0 and above for 5.6 branch, 6.0.0, 6.0.1, 6.0.3* and above and ensure following CLI commands set: config system global set enc-algorithm high set ssl-low-encryption disable end * FortiAnalyzer 5.4 branch start from 5.4.6 still vulnerable to Sweet32 attack * FortiAnalyzer 6.0.2 still vulnerable to Sweet32 attack. FortiSwitch: Upgrade to 3.6.8 and above for 3.6 branch, 6.0.2 and above and ensure following CLI commands set: config sytem global set strong-crypto enable end FortiClientEMS Upgarde to EMS version 7.2.1 or above, 7.0.9 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},
@@ -53,7 +41,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-173",
-				"description": "Sweet32 Birthday attack in TLS"
+				"description": "CVE-2016-2183 - 3DES Vulnerability - SWEET32"
 			},
 			{
 				"url": "https://sweet32.info/",
@@ -64,13 +52,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Sweet32 Birthday attack in TLS",
+		"title": "CVE-2016-2183 - 3DES Vulnerability - SWEET32",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-173",
-					"description": "Sweet32 Birthday attack in TLS"
+					"description": "CVE-2016-2183 - 3DES Vulnerability - SWEET32"
 				},
 				{
 					"url": "https://sweet32.info/",
@@ -85,6 +73,22 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAnalyzer-6.0.2",
+					"FortiAnalyzer-5.4.7",
+					"FortiAnalyzer-5.4.6",
+					"FortiAnalyzer-5.4.1",
+					"FortiAnalyzer-5.4.0",
+					"FortiAnalyzer-5.2.9",
+					"FortiAnalyzer-5.2.8",
+					"FortiAnalyzer-5.2.7",
+					"FortiAnalyzer-5.2.6",
+					"FortiAnalyzer-5.2.5",
+					"FortiAnalyzer-5.2.4",
+					"FortiAnalyzer-5.2.3",
+					"FortiAnalyzer-5.2.2",
+					"FortiAnalyzer-5.2.1",
+					"FortiAnalyzer-5.2.0",
+					"FortiCache-4.2.8",
 					"FortiCache-4.1.1",
 					"FortiCache-4.0.4",
 					"FortiCache-4.0.3",
@@ -123,7 +127,6 @@
 					"FortiCache-2.0.0",
 					"FortiCache-1.0.0",
 					"FortiCache-0.4.10",
-					"FortiCache-4.2.8",
 					"FortiClientEMS-7.2.0",
 					"FortiClientEMS-7.0.8",
 					"FortiClientEMS-7.0.7",
@@ -138,9 +141,20 @@
 					"FortiClientEMS-1.0.1",
 					"FortiClientEMS-1.0.0",
 					"FortiManager-6.0.2",
-					"FortiManager-5.6.5",
-					"FortiAnalyzer-6.0.2",
-					"FortiAnalyzer-5.6.5",
+					"FortiManager-5.4.7",
+					"FortiManager-5.4.6",
+					"FortiManager-5.4.1",
+					"FortiManager-5.4.0",
+					"FortiManager-5.2.9",
+					"FortiManager-5.2.8",
+					"FortiManager-5.2.7",
+					"FortiManager-5.2.6",
+					"FortiManager-5.2.5",
+					"FortiManager-5.2.4",
+					"FortiManager-5.2.3",
+					"FortiManager-5.2.2",
+					"FortiManager-5.2.1",
+					"FortiManager-5.2.0",
 					"FortiOS-5.4.1",
 					"FortiOS-5.4.0",
 					"FortiOS-5.2.12",
@@ -148,6 +162,7 @@
 					"FortiOS-5.0.14",
 					"FortiPortal-5.0.0",
 					"FortiSwitch-6.0.1",
+					"FortiSwitch-6.0.0",
 					"FortiSwitch-3.6.7"
 				]
 			}
@@ -155,7 +170,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -165,9 +180,143 @@
 			"type": "Vendor",
 			"branch": [
 				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.0.2",
+								"product_id": "FortiAnalyzer-6.0.2"
+							}
+						},
+						{
+							"name": "5.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.7",
+								"product_id": "FortiAnalyzer-5.4.7"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.6",
+								"product_id": "FortiAnalyzer-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.1",
+								"product_id": "FortiAnalyzer-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.4.0",
+								"product_id": "FortiAnalyzer-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.9",
+								"product_id": "FortiAnalyzer-5.2.9"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.8",
+								"product_id": "FortiAnalyzer-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.7",
+								"product_id": "FortiAnalyzer-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.6",
+								"product_id": "FortiAnalyzer-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.5",
+								"product_id": "FortiAnalyzer-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.4",
+								"product_id": "FortiAnalyzer-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.3",
+								"product_id": "FortiAnalyzer-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.2",
+								"product_id": "FortiAnalyzer-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.1",
+								"product_id": "FortiAnalyzer-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 5.2.0",
+								"product_id": "FortiAnalyzer-5.2.0"
+							}
+						}
+					]
+				},
+				{
 					"name": "FortiCache",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "4.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCache 4.2.8",
+								"product_id": "FortiCache-4.2.8"
+							}
+						},
 						{
 							"name": "4.1.1",
 							"type": "Product Version",
@@ -471,14 +620,6 @@
 								"text": "FortiCache 0.4.10",
 								"product_id": "FortiCache-0.4.10"
 							}
-						},
-						{
-							"name": "4.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiCache 4.2.8",
-								"product_id": "FortiCache-4.2.8"
-							}
 						}
 					]
 				},
@@ -605,33 +746,115 @@
 							}
 						},
 						{
-							"name": "5.6.5",
+							"name": "5.4.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiManager 5.6.5",
-								"product_id": "FortiManager-5.6.5"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAnalyzer",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.0.2",
-								"product_id": "FortiAnalyzer-6.0.2"
+								"text": "FortiManager 5.4.7",
+								"product_id": "FortiManager-5.4.7"
 							}
 						},
 						{
-							"name": "5.6.5",
+							"name": "5.4.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiAnalyzer 5.6.5",
-								"product_id": "FortiAnalyzer-5.6.5"
+								"text": "FortiManager 5.4.6",
+								"product_id": "FortiManager-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.1",
+								"product_id": "FortiManager-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.0",
+								"product_id": "FortiManager-5.4.0"
+							}
+						},
+						{
+							"name": "5.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.9",
+								"product_id": "FortiManager-5.2.9"
+							}
+						},
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.8",
+								"product_id": "FortiManager-5.2.8"
+							}
+						},
+						{
+							"name": "5.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.7",
+								"product_id": "FortiManager-5.2.7"
+							}
+						},
+						{
+							"name": "5.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.6",
+								"product_id": "FortiManager-5.2.6"
+							}
+						},
+						{
+							"name": "5.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.5",
+								"product_id": "FortiManager-5.2.5"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.4",
+								"product_id": "FortiManager-5.2.4"
+							}
+						},
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.3",
+								"product_id": "FortiManager-5.2.3"
+							}
+						},
+						{
+							"name": "5.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.2",
+								"product_id": "FortiManager-5.2.2"
+							}
+						},
+						{
+							"name": "5.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.1",
+								"product_id": "FortiManager-5.2.1"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.2.0",
+								"product_id": "FortiManager-5.2.0"
 							}
 						}
 					]
@@ -706,6 +929,14 @@
 							"full_product_name": {
 								"text": "FortiSwitch 6.0.1",
 								"product_id": "FortiSwitch-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.0.0",
+								"product_id": "FortiSwitch-6.0.0"
 							}
 						},
 						{

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAuthenticator -  \"Mandatory password and OTP\" setting not enforcing OTP on unimported remote users",
+	"document_title": "Mandatory password and OTP\" setting not enforcing OTP on unimported remote users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An incorrect implementation of authentication algorithm vulnerabilityÂ [CWE-303]Â in FortiAuthenticator may allow an user whoseÂ LDAP account isÂ unimported to bypass the second factor ofÂ authenticationÂ via a RADIUS login portal.\n        ",
+				"text": "\n            An incorrect implementation of authentication algorithm vulnerability [CWE-303] in FortiAuthenticator may allow an user whose LDAP account is unimported to bypass the second factor of authentication via a RADIUS login portal.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -34,18 +34,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
-			},
-			{
-				"text": "\n            FortiAuthenticator version 6.4.0\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "3"
-			},
-			{
-				"text": "\n            Upgrade to FortiAuthenticator version 6.4.1 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAuthenticator -  \"Mandatory password and OTP\" setting not enforcing OTP on unimported remote users",
+		"title": "Mandatory password and OTP\" setting not enforcing OTP on unimported remote users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-212",
-					"description": "FortiAuthenticator -  \"Mandatory password and OTP\" setting not enforcing OTP on unimported remote users"
+					"description": "Mandatory password and OTP\" setting not enforcing OTP on unimported remote users"
 				}
 			]
 		},

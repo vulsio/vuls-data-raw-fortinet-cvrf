@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Improper input validation in download features",
+	"document_title": "Improper input validation in download features",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.1.0 FortiADC version 7.0.0 through 7.0.2 FortiADC version 6.2.0 through 6.2.4 FortiADC version 6.1 all versions FortiADC version 6.0 all versions FortiADC version 5.4 all versions FortiADC version 5.3 all versions FortiADC version 5.2 all versions FortiADC version 5.1 all versions\n        ",
+				"text": "\n            FortiADC version 7.1.0FortiADC version 7.0.0 through 7.0.2FortiADC version 6.2.0 through 6.2.4FortiADC version 6.1 all versionsFortiADC version 6.0 all versionsFortiADC version 5.4 all versionsFortiADC version 5.3 all versionsFortiADC version 5.2 all versionsFortiADC version 5.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Improper input validation in download features",
+		"title": "Improper input validation in download features",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-253",
-					"description": "FortiADC - Improper input validation in download features"
+					"description": "Improper input validation in download features"
 				}
 			]
 		},

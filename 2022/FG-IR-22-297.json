@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Command injection in external resource module",
+	"document_title": "Command injection in external resource module",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiADC version 7.2.0FortiADC version 7.1.0 through 7.1.1\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.2.1 or above Please upgrade to FortiADC version 7.1.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Command injection in external resource module",
+		"title": "Command injection in external resource module",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-297",
-					"description": "FortiADC - Command injection in external resource module"
+					"description": "Command injection in external resource module"
 				}
 			]
 		},

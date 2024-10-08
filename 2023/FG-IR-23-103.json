@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM MEA for FortiManager - improper access control in backup and restore features",
+	"document_title": "Improper access control in backup and restore features",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM MEA for FortiManager - improper access control in backup and restore features",
+		"title": "Improper access control in backup and restore features",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-103",
-					"description": "FortiWLM MEA for FortiManager - improper access control in backup and restore features"
+					"description": "Improper access control in backup and restore features"
 				}
 			]
 		},

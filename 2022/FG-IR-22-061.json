@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - command injection in web interface",
+	"document_title": "Command injection in web interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerability [CWE-78] in FortiADC may allow an authenticated attacker with access to the web GUI to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerability [CWE-78] in FortiADC may allow an authenticated attacker with access to the web GUI to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiADC version 7.0.0 through 7.0.1 FortiADC version 6.2.0 through 6.2.3 FortiADC version 5.4.0 through 5.4.5 FortiADC all versions 6.1 FortiADC all versions 6.0\n        ",
+				"text": "\n            FortiADC version 7.0.0 through 7.0.1FortiADC version 6.2.0 through 6.2.3FortiADC version 5.4.0 through 5.4.5FortiADC all versions 6.1FortiADC all versions 6.0\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC 7.0.2 or above Please upgrade to FortiADC 6.2.4 or above Please upgrade to upcoming FortiADC 5.4.6 or above\n        ",
+				"text": "\n            Please upgrade to FortiADC 7.0.2 or abovePlease upgrade to FortiADC 6.2.4 or abovePlease upgrade to upcoming FortiADC 5.4.6 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security Team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - command injection in web interface",
+		"title": "Command injection in web interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-061",
-					"description": "FortiADC - command injection in web interface"
+					"description": "Command injection in web interface"
 				}
 			]
 		},

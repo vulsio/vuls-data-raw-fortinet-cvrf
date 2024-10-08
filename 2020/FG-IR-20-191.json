@@ -1,5 +1,5 @@
 {
-	"document_title": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector",
+	"document_title": "Insecure communication between DC agent and Collector",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper authentication vulnerability [CWE-287] in FSSO Collector may allow an unauthenticated user to bypass any firewall authentication rule and access the protectedÂ network via sending specifically crafted UDP login notification packets.\n        ",
+				"text": "\n            An improper authentication vulnerability [CWE-287] in FSSO Collector may allow an unauthenticated user to bypass any firewall authentication rule and access the protected network via sending specifically crafted UDP login notification packets.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized Access\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Any FSSO DC Agent and Collector released with FOS 7.0.0 or below is impacted. Any FSSO DC Agent and Collector released with FOS 6.4.5 or below is impacted.\n        ",
+				"text": "\n            Any FSSO DC Agent and Collector released with FOS 7.0.0 or below is impacted.Any FSSO DC Agent and Collector released with FOS 6.4.5 or below is impacted.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade the FSSO DC Agent and Collector with any version released with FOS 7.0.1Â or above. Upgrade the FSSO DC Agent and Collector with any version released with FOS 6.4.6 or above.\n        ",
+				"text": "\n            Upgrade the FSSO DC Agent and Collector with any version released with FOS 7.0.1 or above.Upgrade the FSSO DC Agent and Collector with any version released with FOS 6.4.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank CÃ©dric Moreau, Alexis La Goutte, Titouan Tarridec and Jerome Dupuis for reporting this issue under responsible disclosure."
+				"description": "Fortinet is pleased to thank Jerome Dupuis for reporting this issue under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector",
+		"title": "Insecure communication between DC agent and Collector",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-191",
-					"description": "FSSO Windows DC Agent [FSSO] Insecure communication between DC agent and Collector"
+					"description": "Insecure communication between DC agent and Collector"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - Arbitrary file creation from unprivileged users due to process impersonation",
+	"document_title": "Arbitrary file creation from unprivileged users due to process impersonation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.7 FortiClientWindows version 6.4.0 through 6.4.9 FortiClientWindows version 6.2.0 through 6.2.9 FortiClientWindows version 6.0.0 through 6.0.10  \n        ",
+				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.7FortiClientWindows version 6.4.0 through 6.4.9FortiClientWindows version 6.2.0 through 6.2.9FortiClientWindows version 6.0.0 through 6.0.10\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - Arbitrary file creation from unprivileged users due to process impersonation",
+		"title": "Arbitrary file creation from unprivileged users due to process impersonation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-336",
-					"description": "FortiClient (Windows) - Arbitrary file creation from unprivileged users due to process impersonation"
+					"description": "Arbitrary file creation from unprivileged users due to process impersonation"
 				}
 			]
 		},

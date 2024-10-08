@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS - CSV injection in log download feature",
+	"document_title": "CSV injection in log download feature",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS - CSV injection in log download feature",
+		"title": "CSV injection in log download feature",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-390",
-					"description": "FortiClientEMS - CSV injection in log download feature"
+					"description": "CSV injection in log download feature"
 				}
 			]
 		},

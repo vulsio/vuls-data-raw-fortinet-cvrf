@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The combination of various cryptographic issues in the session management of FortiMail, includingÂ the encryption construction of the sessionÂ cookie,Â may allow a remote attacker already in possession of a cookie to possibly reveal and alter or forge its content, thereby escalating privileges.\n        ",
+				"text": "\n            The combination of various cryptographic issues in the session management of FortiMail, including the encryption construction of the session cookie, may allow a remote attacker already in possession of a cookie to possibly reveal and alter or forge its content, thereby escalating privileges.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Elevation of privilege\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"

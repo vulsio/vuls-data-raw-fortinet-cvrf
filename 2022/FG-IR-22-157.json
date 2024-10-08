@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWAN - Command injection vulnerability",
+	"document_title": "Command injection vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the management interface of FortiWAN may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the management interface of FortiWAN may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWAN version 4.5.0 through 4.5.9FortiWAN version 4.4.0 through 4.4.1FortiWAN version 4.3.0 through 4.3.1FortiWAN version 4.2.5 through 4.2.7FortiWAN version 4.2.1 through 4.2.2FortiWAN version 4.1.1 through 4.1.3FortiWAN version 4.0.0 through 4.0.6\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWAN version 4.5.10 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWAN - Command injection vulnerability",
+		"title": "Command injection vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-157",
-					"description": "FortiWAN - Command injection vulnerability"
+					"description": "Command injection vulnerability"
 				}
 			]
 		},

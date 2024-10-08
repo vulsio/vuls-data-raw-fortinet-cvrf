@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - Multiple privilege escalation via sudo command",
+	"document_title": "Privilege escalation via sudo command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiNAC version 9.4.0 through 9.4.1 FortiNAC version 9.2.0 through 9.2.6 FortiNAC version 9.1.0 through 9.1.8 FortiNAC all versions 8.8, 8.7, 8.6, 8.5, 8.3\n        ",
+				"text": "\n            FortiNAC version 9.4.0 through 9.4.1FortiNAC version 9.2.0 through 9.2.6FortiNAC version 9.1.0 through 9.1.8FortiNAC all versions 8.8, 8.7, 8.6, 8.5, 8.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - Multiple privilege escalation via sudo command",
+		"title": "Privilege escalation via sudo command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-309",
-					"description": "FortiNAC - Multiple privilege escalation via sudo command"
+					"description": "Privilege escalation via sudo command"
 				}
 			]
 		},

@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiSOAR may allow an authenticated attacker to execute unauthorized code or commands via crafted HTTP GET requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiSOAR may allow an authenticated attacker to execute unauthorized code or commands via crafted HTTP GET requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSOAR version 7.2.0FortiSOAR version 7.0.0 through 7.0.2FortiSOAR version 6.4.1 through 6.4.4\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSOAR version 7.2.1 or above Please upgrade to FortiSOAR version 7.0.3 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

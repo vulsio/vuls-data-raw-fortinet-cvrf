@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS - Directory Traversal vulnerability",
+	"document_title": "Directory Traversal vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientEMS version 6.4.1 and below. FortiClientEMS version 6.2.8 and below.\n        ",
+				"text": "\n            FortiClientEMS version 6.4.1 and below.FortiClientEMS version 6.2.8 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to version 6.2.9 or above. Please upgrade to version 6.4.2 or above.\n        ",
+				"text": "\n            Please upgrade to version 6.2.9 or above.Please upgrade to version 6.4.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS - Directory Traversal vulnerability",
+		"title": "Directory Traversal vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-074",
-					"description": "FortiClientEMS - Directory Traversal vulnerability"
+					"description": "Directory Traversal vulnerability"
 				}
 			]
 		},

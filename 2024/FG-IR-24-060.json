@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Arbitrary file read on endpoint",
+	"document_title": "Arbitrary file read on endpoint",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Arbitrary file read on endpoint",
+		"title": "Arbitrary file read on endpoint",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-060",
-					"description": "FortiSandbox - Arbitrary file read on endpoint"
+					"description": "Arbitrary file read on endpoint"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Path traversal in API controller",
+	"document_title": "Path traversal in API controller",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.2FortiWeb version 6.3.6 through 6.3.20FortiWeb 6.4 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWeb version 7.0.3 or above Please upgrade to FortiWeb version 6.3.21 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,19 +47,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of the Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of the Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Path traversal in API controller",
+		"title": "Path traversal in API controller",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-251",
-					"description": "FortiWeb - Path traversal in API controller"
+					"description": "Path traversal in API controller"
 				}
 			]
 		},

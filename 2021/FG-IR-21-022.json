@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A UNIX symbolic link (Symlink) Following (CWE-61) vulnerability in FortiClient for MacOS may allow a local andÂ unprivileged user toÂ overwrite privileged shell scripts executed during the installation phase via escalatingÂ their privileges to root.\n        ",
+				"text": "\n            A UNIX symbolic link (Symlink) Following (CWE-61) vulnerability in FortiClient for MacOS may allow a local and unprivileged user to overwrite privileged shell scripts executed during the installation phase via escalating their privileges to root.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Arbitrary code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for MacOS versionÂ 6.4.4 or above. Please upgrade to FortiClient for MacOS version 7.0.0 or above.Â\n        ",
+				"text": "\n            Please upgrade to FortiClient for MacOS version 6.4.4 or above. Please upgrade to FortiClient for MacOS version 7.0.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

@@ -71,6 +71,7 @@
 				"type": "Known Affected",
 				"product_id": [
 					"FortiADC-7.4.0",
+					"FortiADC-7.2.7",
 					"FortiADC-7.2.6",
 					"FortiADC-7.2.5",
 					"FortiADC-7.2.4",
@@ -114,6 +115,14 @@
 							"full_product_name": {
 								"text": "FortiADC 7.4.0",
 								"product_id": "FortiADC-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 7.2.7",
+								"product_id": "FortiADC-7.2.7"
 							}
 						},
 						{

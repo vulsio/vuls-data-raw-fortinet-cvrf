@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAP-U - Relative path traversal vulnerability in CLI",
+	"document_title": "Relative path traversal vulnerability in CLI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A path traversal vulnerability [CWE-22] in FortiAP-U CLI may allow an admin user to delete and access unauthorized files and data via specifically crafted CLI commands.\n        ",
+				"text": "\n            A path traversal vulnerability [CWE-22] in FortiAP-U CLI may allow an admin user to delete and access unauthorized files and data via specifically crafted CLI commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAP-U version 6.2.0 through 6.2.3FortiAP-U version 6.0.0 through 6.0.4FortiAP-U version 5.4.0 through 5.4.6\n        ",
+				"text": "\n            FortiAP-U version 6.2.0 through 6.2.3FortiAP-U 6.0 all versionsFortiAP-U 5.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAP-U 6.2.4 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAP-U 6.2.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAP-U - Relative path traversal vulnerability in CLI",
+		"title": "Relative path traversal vulnerability in CLI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-109",
-					"description": "FortiAP-U - Relative path traversal vulnerability in CLI"
+					"description": "Relative path traversal vulnerability in CLI"
 				}
 			]
 		},

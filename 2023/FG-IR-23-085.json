@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - multiple path traversal vulnerabilities",
+	"document_title": "Multiple path traversal vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A relative path traversal vulnerability [CWE-23] in FortiSIEM file upload components may allow an authenticated, low privileged user of the FortiSIEM GUI to escalate their privilege and replace arbitrary files on the underlying filesystem via specifically crafted HTTP requests.\n        ",
+				"text": "\n            A relative path traversal vulnerability [CWE-23] in FortiSIEM file upload components may allow an authenticated, low privileged user of the FortiSIEM GUI to escalate their privilege and replace arbitrary files on the underlying filesystem via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSIEM version 7.0.0 FortiSIEM version 6.7.0 through 6.7.3 FortiSIEM version 6.6.0 through 6.6.3 FortiSIEM version 6.5.0 through 6.5.1 FortiSIEM version 6.4.0 through 6.4.2\n        ",
+				"text": "\n            FortiSIEM version 7.0.0FortiSIEM version 6.7.0 through 6.7.3FortiSIEM version 6.6.0 through 6.6.3FortiSIEM version 6.5.0 through 6.5.1FortiSIEM version 6.4.0 through 6.4.2\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.0.1 or above Please upgrade to FortiSIEM version 6.7.4 or above Please upgrade to FortiSIEM version 6.6.4 or above Please upgrade to FortiSIEM version 6.5.2 or above Please upgrade to FortiSIEM version 6.4.3 or above  \n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 7.0.1 or abovePlease upgrade to FortiSIEM version 6.7.4 or abovePlease upgrade to FortiSIEM version 6.6.4 or abovePlease upgrade to FortiSIEM version 6.5.2 or abovePlease upgrade to FortiSIEM version 6.4.3 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - multiple path traversal vulnerabilities",
+		"title": "Multiple path traversal vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-085",
-					"description": "FortiSIEM - multiple path traversal vulnerabilities"
+					"description": "Multiple path traversal vulnerabilities"
 				}
 			]
 		},
@@ -102,7 +102,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "9.7",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:F/RL:X/RC:C"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:F/RL:X/RC:X"
 			}
 		}
 	},

@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive system information to an unauthorized control sphere vulnerability [CWE-497] in FortiManager may allow a low privileged authenticated user to gain access to the FortiGate users credentials via the config conflict file.\n        ",
+				"text": "\n            An exposure of sensitive system information to an unauthorized control sphere vulnerability [CWE-497] in FortiManager may allow a low privileged authenticated user to gain access to the FortiGate users credentials via the config conflict file.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.0.0 through 7.0.2FortiManager version 6.4.0 through 6.4.7FortiManager version 6.2.0 through 6.2.9\n        ",
+				"text": "\n            FortiManager version 7.0.0 through 7.0.2FortiManager version 6.4.0 through 6.4.7FortiManager version 6.2.0 through 6.2.11\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager verison 7.0.3 or above. Please upgrade to FortiManager version 6.4.8 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager verison 7.0.3 or above.Please upgrade to FortiManager version 6.4.8 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

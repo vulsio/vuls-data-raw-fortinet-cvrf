@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Bypassing FortiGate security profiles via SNI in Client Hello",
+	"document_title": "Bypassing FortiGate security profiles via SNI in Client Hello",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability [CWE-200] in FortiOS may allow a privileged attacker to disclose sensitive information via SNI Client Hello TLS packets.  \n        ",
+				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability [CWE-200] in FortiOS may allow a privileged attacker to disclose sensitive information via SNI Client Hello TLS packets.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Given that there is no systematic way to detect all exfiltration attempts and to exhaustively enumerate all possibilities offered by exfiltration channels, Fortinet has addressed the issue by releasing a set of IPS signatures: Python/SNICat.A!exploit https://www.fortiguard.com/encyclopedia/virus/10069638 SNIcat.Data.Exfiltration.Tool https://www.fortiguard.com/encyclopedia/ips/50952  \n        ",
+				"text": "\n            Given that there is no systematic way to detect all exfiltration attempts and to exhaustively enumerate all possibilities offered by exfiltration channels, Fortinet has addressed the issue by releasing a set of IPS signatures:1. Python/SNICat.A!exploit https://www.fortiguard.com/encyclopedia/virus/100696382. SNIcat.Data.Exfiltration.Tool https://www.fortiguard.com/encyclopedia/ips/50952\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-091",
-				"description": "FortiOS - Bypassing FortiGate security profiles via SNI in Client Hello"
+				"description": "Bypassing FortiGate security profiles via SNI in Client Hello"
 			},
 			{
 				"url": "https://community.fortinet.com/t5/FortiGate/Technical-Tip-Bypassing-FortiGate-web-filter-profile-by-using/ta-p/200212",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Bypassing FortiGate security profiles via SNI in Client Hello",
+		"title": "Bypassing FortiGate security profiles via SNI in Client Hello",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-091",
-					"description": "FortiOS - Bypassing FortiGate security profiles via SNI in Client Hello"
+					"description": "Bypassing FortiGate security profiles via SNI in Client Hello"
 				},
 				{
 					"url": "https://community.fortinet.com/t5/FortiGate/Technical-Tip-Bypassing-FortiGate-web-filter-profile-by-using/ta-p/200212",
@@ -127,7 +127,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "2.6",
-				"vector_v3": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

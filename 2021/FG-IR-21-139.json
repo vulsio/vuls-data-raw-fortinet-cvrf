@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Reflected cross-site scripting in SAML login",
+	"document_title": "Reflected cross-site scripting in SAML login",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerabilityÂ [CWE-79] in FortiWeb may allow an unauthenticated attacker to perform an XSS attackÂ via crafted HTTP GET requests to the SAML login webpage.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiWeb may allow an unauthenticated attacker to perform an XSS attack via crafted HTTP GET requests to the SAML login webpage.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to the upcoming FortiWeb version 7.0.0 or above. Upgrade to FortiWeb version 6.4.2Â or above.\n        ",
+				"text": "\n            Upgrade to the upcoming FortiWeb version 7.0.0 or above.Upgrade to FortiWeb version 6.4.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Mattia Fecit of the Fortinet Product Security team."
+				"description": "Internally discovered and reported by Mattia Fecit of the Fortinet PSIRT team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Reflected cross-site scripting in SAML login",
+		"title": "Reflected cross-site scripting in SAML login",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-139",
-					"description": "FortiWeb - Reflected cross-site scripting in SAML login"
+					"description": "Reflected cross-site scripting in SAML login"
 				}
 			]
 		},

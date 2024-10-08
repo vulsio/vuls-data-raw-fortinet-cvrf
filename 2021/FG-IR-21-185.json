@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - reflected cross-site scripting vulnerability in FortiGuard URI protection",
+	"document_title": "Reflected cross-site scripting vulnerability in FortiGuard URI protection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability ('Cross-site Scripting') [CWE-79] in FortiMail may allow an unauthenticated attacker to perform an XSS attack via crafted HTTP GET requests to the FortiGuard URI protection service.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability ('Cross-site Scripting') [CWE-79] in FortiMail may allow an unauthenticated attacker to perform an XSS attack via crafted HTTP GET requests to the FortiGuard URI protection service.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiMail version 7.0.1 and below FortiMail version 6.4.5 and below FortiMail version 6.2.7 and below\n        ",
+				"text": "\n            FortiMail version 7.0.1 and belowFortiMail version 6.4.5 and belowFortiMail version 6.2.7 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiMail version 7.0.2 or above Upgrade to FortiMail version 6.4.6 or above Upgrade to FortiMail version 6.2.8 or above\n        ",
+				"text": "\n            Upgrade to FortiMail version 7.0.2 or aboveUpgrade to FortiMail version 6.4.6 or aboveUpgrade to FortiMail version 6.2.8 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - reflected cross-site scripting vulnerability in FortiGuard URI protection",
+		"title": "Reflected cross-site scripting vulnerability in FortiGuard URI protection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-185",
-					"description": "FortiMail - reflected cross-site scripting vulnerability in FortiGuard URI protection"
+					"description": "Reflected cross-site scripting vulnerability in FortiGuard URI protection"
 				}
 			]
 		},

@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A wrong use of cryptographic primitives vulnerability (CWE-310) may allow an attacker to compromise FortiNAC's confidentiality and integrity via deciphering some traffic and/or forging specific packets.\n        ",
+				"text": "\n            A wrong use of cryptographic primitives vulnerability (CWE-310) may allow an attacker to compromise FortiNAC&#39;s confidentiality and integrity via deciphering some traffic and/or forging specific packets.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
 			}
 		]
 	},

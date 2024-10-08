@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiToken Mobile (Android) - Deny request approved from External push notification",
+	"document_title": "Deny request approved from External push notification",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284 ] in FortiToken Mobile (Android) external push notification may allow a remote attacker having already obtained a user's password to access the protected system during the 2FA procedure, even though the deny button is clicked by the legitimate user.\n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284 ] in FortiToken Mobile (Android) external push notification may allow a remote attacker having already obtained a user's password to access the protected system during the 2FA procedure, even though the deny button is clicked by the legitimate user.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiToken Mobile (Android) version 5.1.0 and below.\n        ",
+				"text": "\n            FortiTokenAndroid 5.1 all versionsFortiTokenAndroid 5.0 all versionsFortiTokenAndroid 4.5 all versionsFortiTokenAndroid 4.4 all versionsFortiTokenAndroid 4.3 all versionsFortiTokenAndroid 4.2 all versionsFortiTokenAndroid 4.1 all versionsFortiTokenAndroid 4.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiToken Mobile (Android) - Deny request approved from External push notification",
+		"title": "Deny request approved from External push notification",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-210",
-					"description": "FortiToken Mobile (Android) - Deny request approved from External push notification"
+					"description": "Deny request approved from External push notification"
 				}
 			]
 		},

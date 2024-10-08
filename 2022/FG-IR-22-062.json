@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - SQL Injection",
+	"document_title": "SQL Injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements used in SQL commands ('SQL Injection') vulnerability [CWE-89] in FortiNAC may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted strings parameters.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements used in SQL commands ('SQL Injection') vulnerability [CWE-89] in FortiNAC may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted strings parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiNAC version 9.2.0 through 9.2.2FortiNAC version 9.1.0 through 9.1.5FortiNAC version 8.8.0 through 8.8.11FortiNAC version 8.7.0 through 8.7.6FortiNAC version 8.6.2 through 8.6.5FortiNAC version 8.6.0FortiNAC version 8.5.4FortiNAC version 8.5.0 through 8.5.2FortiNAC version 8.3.7\n        ",
+				"text": "\n            FortiNAC version 9.2.0 through 9.2.2FortiNAC version 9.1.0 through 9.1.5FortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiNAC version 10.0.0 or above, Upgrade to FortiNAC version 9.4.0 or above, Upgrade to FortiNAC version 9.2.3 or above, Upgrade to FortiNAC version 9.1.6 or above,\n        ",
+				"text": "\n            Upgrade to FortiNAC version 10.0.0 or above,Upgrade to FortiNAC version 9.4.0 or above,Upgrade to FortiNAC version 9.2.3 or above,Upgrade to FortiNAC version 9.1.6 or above,\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - SQL Injection",
+		"title": "SQL Injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-062",
-					"description": "FortiNAC - SQL Injection"
+					"description": "SQL Injection"
 				}
 			]
 		},

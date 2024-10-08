@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiVoice - Path traversal vulnerability in administrative interface",
+	"document_title": "Path traversal vulnerability in administrative interface",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiVoice version 7.0.0 FortiVoice version 6.4.0 through 6.4.7 FortiVoice 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiVoice version 7.0.1 or above Please upgrade to FortiVoice version 6.4.8 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiVoice - Path traversal vulnerability in administrative interface",
+		"title": "Path traversal vulnerability in administrative interface",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-219",
-					"description": "FortiVoice - Path traversal vulnerability in administrative interface"
+					"description": "Path traversal vulnerability in administrative interface"
 				}
 			]
 		},

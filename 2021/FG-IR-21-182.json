@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - Privilege Escalation via exploiting the SUDO privileges.",
+	"document_title": "Privilege Escalation via exploiting the SUDO privileges.",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiNAC version 8.8.8 and below. FortiNAC version 9.1.2 and below.\n        ",
+				"text": "\n            FortiNAC version 8.8.8 and below.FortiNAC version 9.1.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC version 8.8.9 or above. Please upgrade to FortiNAC version 9.1.3 or above. Please upgrade to FortiNAC version 9.2.0 or above.    \n        ",
+				"text": "\n            Please upgrade to FortiNAC version 8.8.9 or above.Please upgrade to FortiNAC version 9.1.3 or above.Please upgrade to FortiNAC version 9.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - Privilege Escalation via exploiting the SUDO privileges.",
+		"title": "Privilege Escalation via exploiting the SUDO privileges.",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-182",
-					"description": "FortiNAC - Privilege Escalation via exploiting the SUDO privileges."
+					"description": "Privilege Escalation via exploiting the SUDO privileges."
 				}
 			]
 		},

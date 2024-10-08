@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer & FortiManager - improper authorization to template image",
+	"document_title": "Improper authorization to template image",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of resource to wrong sphere vulnerability [CWE-668] in FortiAnalyzer and FortiManager GUI may allow an unauthenticated and remote attacker to access report template images via referencing the name in the URL path.\n        ",
+				"text": "\n            An exposure of resource to wrong sphere vulnerability [CWE-668] in FortiAnalyzer and FortiManager GUI may allow an unauthenticatedand remote attacker to access report template images via referencing the name in the URL path.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.0.0 through 7.0.3 FortiManager 6.4 all versions FortiManager 6.2 all versions FortiManager 6.0 all versions FortiManager 5.6 all versions FortiAnalyzer version 7.0.0 through 7.0.3 FortiAnalyzer 6.4 all versions FortiAnalyzer 6.2 all versions FortiAnalyzer 6.0 all versions FortiAnalyzer 5.6 all versions\n        ",
+				"text": "\n            FortiManager version 7.0.0 through 7.0.3FortiManager 6.4 all versionsFortiManager 6.2 all versionsFortiManager 6.0 all versionsFortiManager 5.6 all versionsFortiAnalyzer version 7.0.0 through 7.0.3FortiAnalyzer 6.4 all versionsFortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versionsFortiAnalyzer 5.6 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.0.4 or above Please upgrade to FortiAnalyzer version 7.2.0 or above Please upgrade to FortiManager version 7.0.4 or above. Please upgrade to FortiManager version 7.2.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAnalyzer version 7.0.4 or abovePlease upgrade to FortiAnalyzer version 7.2.0 or abovePlease upgrade to FortiManager version 7.0.4 or above.Please upgrade to FortiManager version 7.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer & FortiManager - improper authorization to template image",
+		"title": "Improper authorization to template image",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-026",
-					"description": "FortiAnalyzer & FortiManager - improper authorization to template image"
+					"description": "Improper authorization to template image"
 				}
 			]
 		},
@@ -86,6 +86,7 @@
 					"FortiAnalyzer-7.0.2",
 					"FortiAnalyzer-7.0.1",
 					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.14",
 					"FortiAnalyzer-6.4.13",
 					"FortiAnalyzer-6.4.12",
 					"FortiAnalyzer-6.4.11",
@@ -142,6 +143,7 @@
 					"FortiManager-7.0.2",
 					"FortiManager-7.0.1",
 					"FortiManager-7.0.0",
+					"FortiManager-6.4.14",
 					"FortiManager-6.4.13",
 					"FortiManager-6.4.12",
 					"FortiManager-6.4.11",
@@ -243,6 +245,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.0.0",
 								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.14",
+								"product_id": "FortiAnalyzer-6.4.14"
 							}
 						},
 						{
@@ -697,6 +707,14 @@
 							"full_product_name": {
 								"text": "FortiManager 7.0.0",
 								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.14",
+								"product_id": "FortiManager-6.4.14"
 							}
 						},
 						{

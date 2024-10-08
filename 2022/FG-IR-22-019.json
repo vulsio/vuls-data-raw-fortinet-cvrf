@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiEDR - Insecure RSA key transport",
+	"document_title": "Insecure RSA key transport",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiEDR version 4.0.0FortiEDR version 5.0.0 through 5.0.2\n        ",
+				"text": "\n            FortiEDR version 5.0.0 through 5.0.2FortiEDR 4.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiEDR - Insecure RSA key transport",
+		"title": "Insecure RSA key transport",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-019",
-					"description": "FortiEDR - Insecure RSA key transport"
+					"description": "Insecure RSA key transport"
 				}
 			]
 		},

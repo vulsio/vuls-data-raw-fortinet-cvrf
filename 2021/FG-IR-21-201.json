@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Removal of `restore src-vis` command.",
+	"document_title": "Removal of `restore src-vis` command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A download of code without integrity check vulnerability [CWE-494] in the \"execute restore src-vis\" command of FortiOS may allow a local authenticated attacker to download arbitrary files on the device via specially crafted update packages. Exploitation Status: Fortinet is aware of an instance whereÂ this vulnerability was abused and recommends immediately validating your systems for indicators of compromise: Unexpected files on the FortiGate Device (list files with `fnsysctl ls`) /data2/virc.dat /data2/vire /data2/vire.tar.gz /data2/vire.tar /data2/vird /data2/gettd /data2/smartctll /data2/ftar /data2/reportnd /data2/llpdtd /data2/flcfgt /data2/viree/vire/inject /data2/viree/vire/insmod /data2/viree/vire/hack.o /data2/viree/vire/libips.so /bin/lldptd /data/lib/libipsx.so /data2/viree/vire/ld.so.preload /etc/ld.so.preload Unexpected processes running on the FortiGate device The following unexpected processes wereÂ found to be running on the device when running `fnsysctl ps`: 30892 0 0 S ash -c /bin/flcfgt>/data2/44.txt 2>&1 30068 0 0:00 {smartctl} ash -c /data2/smartctl ps>/data2/17.txt 2> Unexpected traffic sourced from the FortiGate device Traffic has been observed to the following C&C servers on port 7443 (Plaintext HTTP): 192.46.213.244 172.105.181.67\n        ",
+				"text": "\n            A download of code without integrity check vulnerability [CWE-494] in the \"execute restore src-vis\" command of FortiOS may allow a local authenticated attacker to download arbitrary files on the device via specially crafted update packages.Exploitation Status:Fortinet is awae of an instance where this vulnerability was abused and recommends immediately validating your systems for indicators of compromise:Unexpected files on the FortiGate Device (list files with fnsysctl ls)/data2/virc.dat/data2/vire/data2/vire.tar.gz/data2/vire.tar/data2/vird/data2/gettd/data2/smartctll/data2/ftar/data2/reportnd/data2/llpdtd/data2/flcfgt/data2/viree/vire/inject/data2/viree/vire/insmod/data2/viree/vire/hack.o/data2/viree/vire/libips.so/bin/lldptd/data/lib/libipsx.so/data2/viree/vire/ld.so.preload/etc/ld.so.preloadUnexpected processes running on the FortiGate device The following unexpected processes were found to be running on the device when running fnsysctl ps: 30892 0 0 S ash -c /bin/flcfgt>/data2/44.txt 2>&1 30068 0 0:00 {smartctl} ash -c /data2/smartctl ps>/data2/17.txt 2>Unexpected traffic sourced from the FortiGate device Traffic has been observed to the following C&C servers on port 7443 (Plaintext HTTP): 192.46.213.244 172.105.181.67\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS versions 6.0.13 and below, FortiOS versions 6.2.9 and below, FortiOS versions 6.4.7 and below, FortiOS versions 7.0.2 and below.\n        ",
+				"text": "\n            FortiOS versions 6.0.13 and below,FortiOS versions 6.2.9 and below,FortiOS versions 6.4.7 and below,FortiOS versions 7.0.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 6.0.14 or above, Upgrade to FortiOS 6.2.10 or above, Upgrade to FortiOS 6.4.8 or above, Upgrade to FortiOS 7.0.3 or above.\n        ",
+				"text": "\n            Upgrade to FortiOS 6.0.14 or above,Upgrade to FortiOS 6.2.10 or above,Upgrade to FortiOS 6.4.8 or above,Upgrade to FortiOS 7.0.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Removal of `restore src-vis` command.",
+		"title": "Removal of `restore src-vis` command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-201",
-					"description": "FortiOS - Removal of `restore src-vis` command."
+					"description": "Removal of `restore src-vis` command"
 				}
 			]
 		},

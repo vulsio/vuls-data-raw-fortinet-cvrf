@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Path traversal in API handler",
+	"document_title": "Path traversal in API handler",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.3.6 through 6.3.18FortiWeb 6.4 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.4.0 through 6.4.2FortiWeb version 6.3.6 through 6.3.18\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade FortiWeb to version 7.0.2 and above. Upgrade FortiWeb to version 6.3.19 and above.\n        ",
+				"text": "\n            Upgrade FortiWeb to version 7.0.2 and above.Upgrade FortiWeb to version 6.3.19 and above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Path traversal in API handler",
+		"title": "Path traversal in API handler",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-136",
-					"description": "FortiWeb - Path traversal in API handler"
+					"description": "Path traversal in API handler"
 				}
 			]
 		},
@@ -84,7 +84,6 @@
 				"product_id": [
 					"FortiWeb-7.0.1",
 					"FortiWeb-7.0.0",
-					"FortiWeb-6.4.3",
 					"FortiWeb-6.4.2",
 					"FortiWeb-6.4.1",
 					"FortiWeb-6.4.0",
@@ -134,14 +133,6 @@
 							"full_product_name": {
 								"text": "FortiWeb 7.0.0",
 								"product_id": "FortiWeb-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWeb 6.4.3",
-								"product_id": "FortiWeb-6.4.3"
 							}
 						},
 						{

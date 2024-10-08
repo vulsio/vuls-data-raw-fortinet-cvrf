@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox & FortiDeceptor - Insufficient logging and lack of limitation of failed authentication attempts",
+	"document_title": "Insufficient logging and lack of limitation of failed authentication attempts",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSandbox version 3.1.0 through 3.1.5 FortiSandbox version 3.2.0 through 3.2.3 FortiSandbox version 4.0.0 through 4.0.2 FortiDeceptor version 4.2.0 FortiDeceptor version 4.1.0 through 4.1.1 FortiDeceptor version 4.0.0 through 4.0.2 FortiDeceptor version 3.3.0 through 3.3.3 FortiDeceptor version 3.2.0 through 3.2.2 FortiDeceptor version 3.1.0 through 3.1.1 FortiDeceptor version 3.0.0 through 3.0.2\n        ",
+				"text": "\n            FortiSandbox version 3.1.0 through 3.1.5FortiSandbox version 3.2.0 through 3.2.3FortiSandbox version 4.0.0 through 4.0.2FortiDeceptor version 4.2.0FortiDeceptor version 4.1.0 through 4.1.1FortiDeceptor version 4.0.0 through 4.0.2FortiDeceptor version 3.3.0 through 3.3.3FortiDeceptor version 3.2.0 through 3.2.2FortiDeceptor version 3.1.0 through 3.1.1FortiDeceptor version 3.0.0 through 3.0.2\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSandbox version 4.2.1 or above Please upgrade to FortiDeceptor version 4.3.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiSandbox version 4.2.1 or abovePlease upgrade to FortiDeceptor version 4.3.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox & FortiDeceptor - Insufficient logging and lack of limitation of failed authentication attempts",
+		"title": "Insufficient logging and lack of limitation of failed authentication attempts",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-170",
-					"description": "FortiSandbox & FortiDeceptor - Insufficient logging and lack of limitation of failed authentication attempts"
+					"description": "Insufficient logging and lack of limitation of failed authentication attempts"
 				}
 			]
 		},
@@ -82,22 +82,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiSandbox-4.0.4",
-					"FortiSandbox-4.0.3",
-					"FortiSandbox-4.0.2",
-					"FortiSandbox-4.0.1",
-					"FortiSandbox-4.0.0",
-					"FortiSandbox-3.2.4",
-					"FortiSandbox-3.2.3",
-					"FortiSandbox-3.2.2",
-					"FortiSandbox-3.2.1",
-					"FortiSandbox-3.2.0",
-					"FortiSandbox-3.1.5",
-					"FortiSandbox-3.1.4",
-					"FortiSandbox-3.1.3",
-					"FortiSandbox-3.1.2",
-					"FortiSandbox-3.1.1",
-					"FortiSandbox-3.1.0",
 					"FortiDeceptor-4.2.0",
 					"FortiDeceptor-4.1.1",
 					"FortiDeceptor-4.1.0",
@@ -115,7 +99,24 @@
 					"FortiDeceptor-3.1.0",
 					"FortiDeceptor-3.0.2",
 					"FortiDeceptor-3.0.1",
-					"FortiDeceptor-3.0.0"
+					"FortiDeceptor-3.0.0",
+					"FortiSandbox-4.0.5",
+					"FortiSandbox-4.0.4",
+					"FortiSandbox-4.0.3",
+					"FortiSandbox-4.0.2",
+					"FortiSandbox-4.0.1",
+					"FortiSandbox-4.0.0",
+					"FortiSandbox-3.2.4",
+					"FortiSandbox-3.2.3",
+					"FortiSandbox-3.2.2",
+					"FortiSandbox-3.2.1",
+					"FortiSandbox-3.2.0",
+					"FortiSandbox-3.1.5",
+					"FortiSandbox-3.1.4",
+					"FortiSandbox-3.1.3",
+					"FortiSandbox-3.1.2",
+					"FortiSandbox-3.1.1",
+					"FortiSandbox-3.1.0"
 				]
 			}
 		},
@@ -131,140 +132,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiSandbox",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "4.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 4.0.4",
-								"product_id": "FortiSandbox-4.0.4"
-							}
-						},
-						{
-							"name": "4.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 4.0.3",
-								"product_id": "FortiSandbox-4.0.3"
-							}
-						},
-						{
-							"name": "4.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 4.0.2",
-								"product_id": "FortiSandbox-4.0.2"
-							}
-						},
-						{
-							"name": "4.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 4.0.1",
-								"product_id": "FortiSandbox-4.0.1"
-							}
-						},
-						{
-							"name": "4.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 4.0.0",
-								"product_id": "FortiSandbox-4.0.0"
-							}
-						},
-						{
-							"name": "3.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.2.4",
-								"product_id": "FortiSandbox-3.2.4"
-							}
-						},
-						{
-							"name": "3.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.2.3",
-								"product_id": "FortiSandbox-3.2.3"
-							}
-						},
-						{
-							"name": "3.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.2.2",
-								"product_id": "FortiSandbox-3.2.2"
-							}
-						},
-						{
-							"name": "3.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.2.1",
-								"product_id": "FortiSandbox-3.2.1"
-							}
-						},
-						{
-							"name": "3.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.2.0",
-								"product_id": "FortiSandbox-3.2.0"
-							}
-						},
-						{
-							"name": "3.1.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.5",
-								"product_id": "FortiSandbox-3.1.5"
-							}
-						},
-						{
-							"name": "3.1.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.4",
-								"product_id": "FortiSandbox-3.1.4"
-							}
-						},
-						{
-							"name": "3.1.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.3",
-								"product_id": "FortiSandbox-3.1.3"
-							}
-						},
-						{
-							"name": "3.1.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.2",
-								"product_id": "FortiSandbox-3.1.2"
-							}
-						},
-						{
-							"name": "3.1.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.1",
-								"product_id": "FortiSandbox-3.1.1"
-							}
-						},
-						{
-							"name": "3.1.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSandbox 3.1.0",
-								"product_id": "FortiSandbox-3.1.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiDeceptor",
 					"type": "Product Name",
@@ -411,6 +278,148 @@
 							"full_product_name": {
 								"text": "FortiDeceptor 3.0.0",
 								"product_id": "FortiDeceptor-3.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.5",
+								"product_id": "FortiSandbox-4.0.5"
+							}
+						},
+						{
+							"name": "4.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.4",
+								"product_id": "FortiSandbox-4.0.4"
+							}
+						},
+						{
+							"name": "4.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.3",
+								"product_id": "FortiSandbox-4.0.3"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.2",
+								"product_id": "FortiSandbox-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.1",
+								"product_id": "FortiSandbox-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.0",
+								"product_id": "FortiSandbox-4.0.0"
+							}
+						},
+						{
+							"name": "3.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.4",
+								"product_id": "FortiSandbox-3.2.4"
+							}
+						},
+						{
+							"name": "3.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.3",
+								"product_id": "FortiSandbox-3.2.3"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.2",
+								"product_id": "FortiSandbox-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.1",
+								"product_id": "FortiSandbox-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.2.0",
+								"product_id": "FortiSandbox-3.2.0"
+							}
+						},
+						{
+							"name": "3.1.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.5",
+								"product_id": "FortiSandbox-3.1.5"
+							}
+						},
+						{
+							"name": "3.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.4",
+								"product_id": "FortiSandbox-3.1.4"
+							}
+						},
+						{
+							"name": "3.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.3",
+								"product_id": "FortiSandbox-3.1.3"
+							}
+						},
+						{
+							"name": "3.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.2",
+								"product_id": "FortiSandbox-3.1.2"
+							}
+						},
+						{
+							"name": "3.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.1",
+								"product_id": "FortiSandbox-3.1.1"
+							}
+						},
+						{
+							"name": "3.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.1.0",
+								"product_id": "FortiSandbox-3.1.0"
 							}
 						}
 					]

@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Improper limitation of a pathname to a restricted directory (CWE-22) vulnerabilities in FortiSandbox may allow an authenticated user to obtain unauthorized access to files and data via specifially crafted web requests.c\n        ",
+				"text": "\n            Improper limitation of a pathname to a restricted directory (CWE-22) vulnerabilities in FortiSandbox may allow an authenticated user to obtain unauthorized access to files and data via specifially crafted web requests.c\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized access to files\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 3.2.2 and below. FortiSandbox 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox 3.2.2 and below.FortiSandbox 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSandbox version 4.0.0 or above Please upgrade to FortiSandbox version 3.2.3 or above Please upgrade to FortiSandbox version 3.1.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiSandbox version 4.0.0 or abovePlease upgrade to FortiSandbox version 3.2.3 or abovePlease upgrade to FortiSandbox version 3.1.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

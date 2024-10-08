@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWLC version 8.6.0.FortiWLC versions 8.5.3 and below.\n        ",
+				"text": "\n            FortiWLC version 8.6.0. FortiWLC versions 8.5.3 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"

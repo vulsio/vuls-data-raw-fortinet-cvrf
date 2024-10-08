@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientMac - Lack of configuration file validation",
+	"document_title": "Lack of configuration file validation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientMac - Lack of configuration file validation",
+		"title": "Lack of configuration file validation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-345",
-					"description": "FortiClientMac - Lack of configuration file validation"
+					"description": "Lack of configuration file validation"
 				}
 			]
 		},

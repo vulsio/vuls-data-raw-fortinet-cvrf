@@ -72,6 +72,7 @@
 				"product_id": [
 					"FortiOS-7.4.1",
 					"FortiOS-7.4.0",
+					"FortiOS-7.2.7",
 					"FortiOS-7.2.6",
 					"FortiOS-7.2.5",
 					"FortiOS-7.2.4",
@@ -111,6 +112,14 @@
 							"full_product_name": {
 								"text": "FortiOS 7.4.0",
 								"product_id": "FortiOS-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.7",
+								"product_id": "FortiOS-7.2.7"
 							}
 						},
 						{

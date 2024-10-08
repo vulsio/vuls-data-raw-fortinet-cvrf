@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - OS Command Injection because of missing input parameter sanitization",
+	"document_title": "OS Command Injection because of missing input parameter sanitization",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements vulnerabilities [CWE-89] used in a command in FortiWeb may allow an authenticated attacker to execute unauthorized code or commands via crafted parameters of HTTP requests.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements vulnerabilities [CWE-89] used in a command in FortiWeb may allow an authenticated attacker to execute unauthorized code or commands via crafted parameters of HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 6.3.13 or below is impacted FortiWeb version 6.2.4 or below is impacted\n        ",
+				"text": "\n            FortiWeb version 6.3.13 or below is impactedFortiWeb version 6.2.4 or below is impacted\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb 6.3.14 or above Upgrade to FortiWeb 6.2.5 or above\n        ",
+				"text": "\n            Upgrade to FortiWeb 6.3.14 or aboveUpgrade to FortiWeb 6.2.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - OS Command Injection because of missing input parameter sanitization",
+		"title": "OS Command Injection because of missing input parameter sanitization",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-047",
-					"description": "FortiWeb - OS Command Injection because of missing input parameter sanitization"
+					"description": "OS Command Injection because of missing input parameter sanitization"
 				}
 			]
 		},

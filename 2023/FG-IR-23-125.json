@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Null pointer dereference in sslvpnd proxy endpoint",
+	"document_title": "Null pointer dereference in sslvpnd proxy endpoint",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.4 FortiOS version 7.0.0 through 7.0.11 FortiOS version 6.4.0 through 6.4.12\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.12 or above Please upgrade to FortiOS version 6.4.13 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Null pointer dereference in sslvpnd proxy endpoint",
+		"title": "Null pointer dereference in sslvpnd proxy endpoint",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-125",
-					"description": "FortiOS - Null pointer dereference in sslvpnd proxy endpoint"
+					"description": "Null pointer dereference in sslvpnd proxy endpoint"
 				}
 			]
 		},

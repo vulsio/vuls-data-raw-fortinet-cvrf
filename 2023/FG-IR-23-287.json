@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Login mechanism without rate limitation",
+	"document_title": "Login mechanism without rate limitation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiMail version 7.4.0 FortiMail version 7.2.0 through 7.2.4 FortiMail version 7.0.0 through 7.0.6 FortiMail version 6.4.0 through 6.4.8 FortiMail 6.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiMail version 7.4.1 or above Please upgrade to FortiMail version 7.2.5 or above Please upgrade to FortiMail version 7.0.7 or above Please upgrade to FortiMail version 6.4.9 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Login mechanism without rate limitation",
+		"title": "Login mechanism without rate limitation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-287",
-					"description": "FortiMail - Login mechanism without rate limitation"
+					"description": "Login mechanism without rate limitation"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - command injection in webserver",
+	"document_title": "Command injection in webserver",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability ('OS Command Injection') [CWE-78] in FortiWeb may allow authenticated users to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability ('OS Command Injection') [CWE-78] in FortiWeb may allow authenticated users to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.2FortiWeb version 6.3.6 through 6.3.20FortiWeb 6.4 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWeb version 7.2.0 or above Please upgrade to FortiWeb version 7.0.3 or above Please upgrade to FortiWeb version 6.3.21 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,19 +47,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security Team"
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team"
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - command injection in webserver",
+		"title": "Command injection in webserver",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-254",
-					"description": "FortiWeb - command injection in webserver"
+					"description": "Command injection in webserver"
 				}
 			]
 		},

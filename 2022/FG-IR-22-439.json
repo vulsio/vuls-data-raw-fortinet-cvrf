@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Cross-Site Scripting in Fabric Connectors",
+	"document_title": "Cross-Site Scripting in Fabric Connectors",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            At leastFortiADC version 7.1.0 through 7.1.1FortiADC version 7.0.0 through 7.0.3FortiADC version 6.2.0 through 6.2.5\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.1.2 or above Please upgrade to FortiADC version 7.0.4 or above Please upgrade to FortiADC version 6.2.6 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Cross-Site Scripting in Fabric Connectors",
+		"title": "Cross-Site Scripting in Fabric Connectors",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-439",
-					"description": "FortiADC - Cross-Site Scripting in Fabric Connectors"
+					"description": "Cross-Site Scripting in Fabric Connectors"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC - Stored XSS vulnerability in external resource page",
+	"document_title": "Stored XSS vulnerability in external resource page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiADC management interface may allow a remote and authenticated attacker to trigger a stored cross site scripting (XSS) attack via configuring a specially crafted IP Address.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiADC management interface may allow a remote and authenticated attacker to trigger a stored cross site scripting (XSS) attack via configuring a specially crafted IP Address.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiADC version 7.1.0\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiADC version 7.1.1 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC - Stored XSS vulnerability in external resource page",
+		"title": "Stored XSS vulnerability in external resource page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-314",
-					"description": "FortiADC - Stored XSS vulnerability in external resource page"
+					"description": "Stored XSS vulnerability in external resource page"
 				}
 			]
 		},

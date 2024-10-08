@@ -1,5 +1,5 @@
 {
-	"document_title": "Meru AP - Unrestricted execution of OS commands as root",
+	"document_title": "Unrestricted execution of OS commands as root",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Meru AP version 8.6.1 and below Meru AP version 8.5.5 and below\n        ",
+				"text": "\n            Meru AP version 8.6.1 and belowMeru AP version 8.5.5 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to Meru AP version 8.6.2 or above\n        ",
+				"text": "\n            Upgrade to Meru AP version 8.6.2 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Meru AP - Unrestricted execution of OS commands as root",
+		"title": "Unrestricted execution of OS commands as root",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-004",
-					"description": "Meru AP - Unrestricted execution of OS commands as root"
+					"description": "Unrestricted execution of OS commands as root"
 				}
 			]
 		},

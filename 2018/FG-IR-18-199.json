@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS supports WPA/WPA2 WiFi and is only affected under special configurations [1]FortiAP supports WPA/WPA2 WiFi and is only affected under special configurations [1][1] When 802.11r/fast-bss-transition is enabled and security is set to wpa2-only-personal.\n        ",
+				"text": "\n            FortiOS supports WPA/WPA2 WiFi and is only affected under special configurations [1] FortiOS supports WPA/WPA2 WiFi and is only affected under special configurations [1] FortiOS supports WPA/WPA2 WiFi and is only affected under special configurations [1] FortiAP supports WPA/WPA2 WiFi and is only affected under special configurations [1] FortiAP supports WPA/WPA2 WiFi and is only affected under special configurations [1] FortiAP supports WPA/WPA2 WiFi and is only affected under special configurations [1] [1] When 802.11r/fast-bss-transition is enabled and security is set to wpa2-only-personal. [1] When 802.11r/fast-bss-transition is enabled and security is set to wpa2-only-personal. [1] When 802.11r/fast-bss-transition is enabled and security is set to wpa2-only-personal.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Since this is a protocol level attack facilitating brute-force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility: 1. When enabling the 801.11r/fast-bss-transition feature on FortiOS/FortiAP, avoid using wpa2-only-personal security, and use wpa2-only-enterprise instead. This effectively prevents the attack completely. 2. If the above is not acceptable given the environment, a minimum of 12 high-entropy random ASCII characters should be used as the password (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking. Starting with FortiOS 6.2.1, the following CLI commands (for pre-shared key for WPA/WPA2-Personal SSID) will ask to input at least 12 bytes in length when editing the [vap-name] if the existing passphrase is shorter than 12 bytes: config wireless-controller vap edit [vap-name] set passphrase [psk] /* minimum 12 bytes psk when wfa-compatibility is disabled [1] */ next end [1] To compatible with WPA3™-SAE Test Plan Version 1.0, a new CLI were introduced at same time to allow minimum 8 bytes pre-shared key which the default value is disabled (enable is not suggested in production environment). config wireless-controller setting set wfa-compatibility enable /* disable is the default value */ end Starting from FortiOS 6.2.3, the minimum psk length reverted back to 8 bytes to restore the usability. The wfa-compatibility CLI command will no longer control that size. Revision History: 09-10-2018 Initial version 06-18-2019 pre-shared key length for WPA/WPA2 personal SSID by default needs at least 12 bytes 01-27-2020 Minimum pre-shared key length reverted back to 8 bytes start from FortiOS 6.2.3\n        ",
+				"text": "\n            Since this is a protocol level attack facilitating brute-force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility: Since this is a protocol level attack facilitating brute-force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility: Since this is a protocol level attack facilitating brute-force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility: 1. When enabling the 801.11r/fast-bss-transition feature on FortiOS/FortiAP, avoid using wpa2-only-personal security, and use wpa2-only-enterprise instead. This effectively prevents the attack completely. 1. When enabling the 801.11r/fast-bss-transition feature on FortiOS/FortiAP, avoid using wpa2-only-personal security, and use wpa2-only-enterprise instead. This effectively prevents the attack completely. 1. When enabling the 801.11r/fast-bss-transition feature on FortiOS/FortiAP, avoid using wpa2-only-personal security, and use wpa2-only-enterprise instead. This effectively prevents the attack completely. 2. If the above is not acceptable given the environment, a minimum of 12 high-entropy random ASCII characters should be used as the password (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking. 2. If the above is not acceptable given the environment, a minimum of 12 high-entropy random ASCII characters should be used as the password (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking. 2. If the above is not acceptable given the environment, a minimum of 12 high-entropy random ASCII characters should be used as the password (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking. Starting with FortiOS 6.2.1, the following CLI commands (for pre-shared key for WPA/WPA2-Personal SSID) will ask to input at least 12 bytes in length when editing the [vap-name] if the existing passphrase is shorter than 12 bytes: Starting with FortiOS 6.2.1, the following CLI commands (for pre-shared key for WPA/WPA2-Personal SSID) will ask to input at least 12 bytes in length when editing the [vap-name] if the existing passphrase is shorter than 12 bytes: Starting with FortiOS 6.2.1, the following CLI commands (for pre-shared key for WPA/WPA2-Personal SSID) will ask to input at least 12 bytes in length when editing the [vap-name] if the existing passphrase is shorter than 12 bytes: config wireless-controller vap config wireless-controller vap config wireless-controller vap edit [vap-name] edit [vap-name] edit [vap-name] set passphrase [psk] /* minimum 12 bytes psk when wfa-compatibility is disabled [1] */ set passphrase [psk] /* minimum 12 bytes psk when wfa-compatibility is disabled [1] */ set passphrase [psk] /* minimum 12 bytes psk when wfa-compatibility is disabled [1] */ next next next end end end [1] To compatible with WPA3™-SAE Test Plan Version 1.0, a new CLI were introduced at same time to allow minimum 8 bytes pre-shared key which the default value is disabled (enable is not suggested in production environment). [1] To compatible with WPA3™-SAE Test Plan Version 1.0, a new CLI were introduced at same time to allow minimum 8 bytes pre-shared key which the default value is disabled (enable is not suggested in production environment). [1] To compatible with WPA3™-SAE Test Plan Version 1.0, a new CLI were introduced at same time to allow minimum 8 bytes pre-shared key which the default value is disabled (enable is not suggested in production environment). config wireless-controller setting config wireless-controller setting config wireless-controller setting set wfa-compatibility enable /* disable is the default value */ set wfa-compatibility enable /* disable is the default value */ set wfa-compatibility enable /* disable is the default value */ end end end Starting from FortiOS 6.2.3, the minimum psk length reverted back to 8 bytes to restore the usability. The wfa-compatibility CLI command will no longer control that size. Starting from FortiOS 6.2.3, the minimum psk length reverted back to 8 bytes to restore the usability. The wfa-compatibility CLI command will no longer control that size. Starting from FortiOS 6.2.3, the minimum psk length reverted back to 8 bytes to restore the usability. The wfa-compatibility CLI command will no longer control that size. Revision History: Revision History: Revision History: 09-10-2018 Initial version 09-10-2018 Initial version 09-10-2018 Initial version 06-18-2019 pre-shared key length for WPA/WPA2 personal SSID by default needs at least 12 bytes 06-18-2019 pre-shared key length for WPA/WPA2 personal SSID by default needs at least 12 bytes 06-18-2019 pre-shared key length for WPA/WPA2 personal SSID by default needs at least 12 bytes 01-27-2020 Minimum pre-shared key length reverted back to 8 bytes start from FortiOS 6.2.3 01-27-2020 Minimum pre-shared key length reverted back to 8 bytes start from FortiOS 6.2.3 01-27-2020 Minimum pre-shared key length reverted back to 8 bytes start from FortiOS 6.2.3\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -82,6 +82,8 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAP-6.0.6",
+					"FortiAP-5.6.5",
 					"FortiOS-6.4.11",
 					"FortiOS-6.4.10",
 					"FortiOS-6.4.9",
@@ -94,24 +96,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
-					"FortiOS-6.2.0",
-					"FortiWLC-8.5.5",
-					"FortiWLC-8.5.4",
-					"FortiWLC-8.5.3",
-					"FortiWLC-8.5.2",
-					"FortiWLC-8.5.1",
-					"Meru AP-8.5.5",
-					"Meru AP-8.5.4",
-					"Meru AP-8.5.3",
-					"Meru AP-8.5.2",
-					"Meru AP-8.5.1",
-					"Meru Controller-8.5.5",
-					"Meru Controller-8.5.4",
-					"Meru Controller-8.5.3",
-					"Meru Controller-8.5.2",
-					"Meru Controller-8.5.1",
-					"FortiAP-6.0.6",
-					"FortiAP-5.6.5"
+					"FortiOS-6.2.0"
 				]
 			}
 		},
@@ -127,6 +112,28 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiAP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP 6.0.6",
+								"product_id": "FortiAP-6.0.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP 5.6.5",
+								"product_id": "FortiAP-5.6.5"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiOS",
 					"type": "Product Name",
@@ -233,166 +240,6 @@
 							"full_product_name": {
 								"text": "FortiOS 6.2.0",
 								"product_id": "FortiOS-6.2.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiWLC",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "8.5.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWLC 8.5.5",
-								"product_id": "FortiWLC-8.5.5"
-							}
-						},
-						{
-							"name": "8.5.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWLC 8.5.4",
-								"product_id": "FortiWLC-8.5.4"
-							}
-						},
-						{
-							"name": "8.5.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWLC 8.5.3",
-								"product_id": "FortiWLC-8.5.3"
-							}
-						},
-						{
-							"name": "8.5.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWLC 8.5.2",
-								"product_id": "FortiWLC-8.5.2"
-							}
-						},
-						{
-							"name": "8.5.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWLC 8.5.1",
-								"product_id": "FortiWLC-8.5.1"
-							}
-						}
-					]
-				},
-				{
-					"name": "Meru AP",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "8.5.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.5",
-								"product_id": "Meru AP-8.5.5"
-							}
-						},
-						{
-							"name": "8.5.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.4",
-								"product_id": "Meru AP-8.5.4"
-							}
-						},
-						{
-							"name": "8.5.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.3",
-								"product_id": "Meru AP-8.5.3"
-							}
-						},
-						{
-							"name": "8.5.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.2",
-								"product_id": "Meru AP-8.5.2"
-							}
-						},
-						{
-							"name": "8.5.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru AP 8.5.1",
-								"product_id": "Meru AP-8.5.1"
-							}
-						}
-					]
-				},
-				{
-					"name": "Meru Controller",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "8.5.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru Controller 8.5.5",
-								"product_id": "Meru Controller-8.5.5"
-							}
-						},
-						{
-							"name": "8.5.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru Controller 8.5.4",
-								"product_id": "Meru Controller-8.5.4"
-							}
-						},
-						{
-							"name": "8.5.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru Controller 8.5.3",
-								"product_id": "Meru Controller-8.5.3"
-							}
-						},
-						{
-							"name": "8.5.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru Controller 8.5.2",
-								"product_id": "Meru Controller-8.5.2"
-							}
-						},
-						{
-							"name": "8.5.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "Meru Controller 8.5.1",
-								"product_id": "Meru Controller-8.5.1"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAP",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.0.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP 6.0.6",
-								"product_id": "FortiAP-6.0.6"
-							}
-						},
-						{
-							"name": "5.6.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAP 5.6.5",
-								"product_id": "FortiAP-5.6.5"
 							}
 						}
 					]

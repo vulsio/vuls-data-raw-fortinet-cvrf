@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - Improper write access over FortiClient pipe object",
+	"document_title": "Improper write access over FortiClient pipe object",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple vulnerabilities including an incorrect permission assignment for critical resource [CWE-732] vulnerability and a time-of-check time-of-use (TOCTOU) race condition [CWE-367] vulnerability in FortiClientWindows may allow an attacker on the same file sharing network to execute commands via writing data into a windows pipe.\n        ",
+				"text": "\n            Multiple vulnerabilities including an incorrect permission assignment for critical resource [CWE-732] vulnerability and a time-of-check time-of-use (TOCTOU) race condition [CWE-367] vulnerability in FortiClientWindows may allow an attacker on the same file sharing network to execute commands via writing data into a windows pipe.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 7.2.0 FortiClientWindows version 7.0.0 through 7.0.8 FortiClientWindows 6.4 all versions FortiClientWindows 6.2 all versions FortiClientWindows 6.0 all versions\n        ",
+				"text": "\n            FortiClientWindows version 7.2.0FortiClientWindows version 7.0.0 through 7.0.8FortiClientWindows 6.4 all versionsFortiClientWindows 6.2 all versionsFortiClientWindows 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientWindows version 7.2.1 or above Please upgrade to FortiClientWindows version 7.0.9 or above\n        ",
+				"text": "\n            Please upgrade to FortiClientWindows version 7.2.1 or abovePlease upgrade to FortiClientWindows version 7.0.9 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - Improper write access over FortiClient pipe object",
+		"title": "Improper write access over FortiClient pipe object",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-429",
-					"description": "FortiClient (Windows) - Improper write access over FortiClient pipe object"
+					"description": "Improper write access over FortiClient pipe object"
 				}
 			]
 		},

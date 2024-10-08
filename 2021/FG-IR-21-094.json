@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Use of a predictable salt and digest-based algorithm for password hashing",
+	"document_title": "Use of a predictable salt and digest-based algorithm for password hashing",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A use of one-way hash with a predictable salt (CWE-760) vulnerabilityÂ in the passwordÂ storing mechanism of FortiPortal may allow an attacker already in possession of the password store to decrypt the passwords by means of precomputed tables.\n        ",
+				"text": "\n            A use of one-way hash with a predictable salt (CWE-760) vulnerability in the password storing mechanism of FortiPortal may allow an attacker already in possession of the password store to decrypt the passwords by means of precomputed tables.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Use of a predictable salt and digest-based algorithm for password hashing",
+		"title": "Use of a predictable salt and digest-based algorithm for password hashing",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-094",
-					"description": "FortiPortal - Use of a predictable salt and digest-based algorithm for password hashing"
+					"description": "Use of a predictable salt and digest-based algorithm for password hashing"
 				}
 			]
 		},

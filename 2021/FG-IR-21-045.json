@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Cross-site scripting (XSS) in Webmail",
+	"document_title": "Cross-site scripting (XSS) in Webmail",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiMail version 7.0.0 through 7.0.3FortiMail version 6.4.0 through 6.4.7FortiMail version 6.2.0 through 6.2.8FortiMail version 6.0.0 through 6.0.12\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiMail version 7.2.0 or above Please upgrade to FortiMail version 7.0.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Cross-site scripting (XSS) in Webmail",
+		"title": "Cross-site scripting (XSS) in Webmail",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-045",
-					"description": "FortiMail - Cross-site scripting (XSS) in Webmail"
+					"description": "Cross-site scripting (XSS) in Webmail"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiADC & FortiDDoS-F -- Read-Only user able to modify system files",
+	"document_title": "Read-Only user able to modify system files",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiADC version 6.2.0 through 6.2.1FortiADC version 6.1.0 through 6.1.5FortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiDDoS-F version 6.3.0\n        ",
+				"text": "\n            FortiDDoS-F version 6.3.0At leastFortiADC version 6.2.0 through 6.2.1FortiADC version 6.1.0 through 6.1.5FortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 6.2.2 or above. Please upgrade to FortiADC version 7.0.0 or above. Please upgrade to FortiDDoS-F version 6.3.1 or above Please upgrade to FortiDDoS-F version 6.2.3 or above Please upgrade to FortiDDoS-F version 6.1.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiADC version 6.2.2 or above.Please upgrade to FortiADC version 7.0.0 or above.Please upgrade to FortiDDoS-F version 6.3.1 or abovePlease upgrade to FortiDDoS-F version 6.2.3 or abovePlease upgrade to FortiDDoS-F version 6.1.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiADC & FortiDDoS-F -- Read-Only user able to modify system files",
+		"title": "Read-Only user able to modify system files",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-215",
-					"description": "FortiADC & FortiDDoS-F -- Read-Only user able to modify system files"
+					"description": "Read-Only user able to modify system files"
 				}
 			]
 		},

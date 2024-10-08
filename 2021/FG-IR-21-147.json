@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Improper Inter-VDOM access control",
+	"document_title": "Improper Inter-VDOM access control",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284] in FortiOS may allow an authenticated attacker with a restricted user profile to gather sensitive information and modify the SSL-VPN tunnel status of other VDOMs using specific CLI commands.\n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiOS may allow an authenticated attacker with a restricted user profile to gather sensitive information and modify the SSL-VPN tunnel status of other VDOMs using specific CLI commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiGate version 7.0.3 and below. FortiGate version 6.4.8 and below. FortiOS version 6.2.0 through 6.2.10\n        ",
+				"text": "\n            FortiGate version 7.0.3 and below.FortiGate version 6.4.8 and below.FortiOS version 6.2.0 through 6.2.10\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 7.0.4 or above. Please upgrade to FortiGate version 6.4.9 or above. Please upgrade to FortiOS version 6.2.11 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 7.0.4 or above.Please upgrade to FortiGate version 6.4.9 or above.Please upgrade to FortiOS version 6.2.11 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Improper Inter-VDOM access control",
+		"title": "Improper Inter-VDOM access control",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-147",
-					"description": "FortiOS - Improper Inter-VDOM access control"
+					"description": "Improper Inter-VDOM access control"
 				}
 			]
 		},

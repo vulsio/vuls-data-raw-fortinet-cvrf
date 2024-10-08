@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Pervasive SQL injections",
+	"document_title": "Pervasive SQL injections",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple improper neutralization of special elements used in an SQL command vulnerabilities (CWE-89) in FortiPortal may allow an attacker with regular user's privileges to execute arbitrary commands on the underlying SQL database via specifically crafted HTTP requests.\n        ",
+				"text": "\n            Multiple improper neutralization of special elements used in an SQL command vulnerabilities (CWE-89) in FortiPortal may allow an attacker with regular user's privileges to execute arbitrary commands on the underlying SQL database via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Arbitrary code execution, information disclosure\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiPortal 6.0.4 and below.  FortiPortal 5.3.5 and below. FortiPortal 5.2.5 and below. FortiPortal 5.1.2 and below. FortiPortal 5.0.3 and below. FortiPortal 4.2.4 and below. FortiPortal 4.1.2 and below. FortiPortal 4.0.4 and below.\n        ",
+				"text": "\n            FortiPortal 6.0.4 and below. FortiPortal 5.3.5 and below.FortiPortal 5.2.5 and below.FortiPortal 5.1.2 and below.FortiPortal 5.0.3 and below.FortiPortal 4.2.4 and below.FortiPortal 4.1.2 and below.FortiPortal 4.0.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiPortal version 6.0.5 or above Please upgrade to FortiPortal version 5.3.6 or above Please upgrade to FortiPortal version 5.2.6 or above\n        ",
+				"text": "\n            Please upgrade to FortiPortal version 6.0.5 or abovePlease upgrade to FortiPortal version 5.3.6 or abovePlease upgrade to FortiPortal version 5.2.6 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Pervasive SQL injections",
+		"title": "Pervasive SQL injections",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-084",
-					"description": "FortiPortal - Pervasive SQL injections"
+					"description": "Pervasive SQL injections"
 				}
 			]
 		},

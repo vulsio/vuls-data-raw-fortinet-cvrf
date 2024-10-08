@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Unauthorized user able to download the device configuration file.",
+	"document_title": "Unauthorized user able to download the device configuration file",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability (CWE-284) in FortiSandbox may allow an authenticated, unprivileged attacker to download the device configuration file via the recovery URL. \n        ",
+				"text": "\n            An improper access control vulnerability (CWE-284) in FortiSandbox may allow an authenticated, unprivileged attacker to download the device configuration file via the recovery URL.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSandbox version 3.2.1 and below. FortiSandbox version 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox version 3.2.1 and below.FortiSandbox version 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSandbox version 4.0.0 or above. Please upgrade to FortiSandbox version 3.2.2 or above Please upgrade to FortiSandbox version 3.1.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiSandbox version 4.0.0 or above.Please upgrade to FortiSandbox version 3.2.2 or abovePlease upgrade to FortiSandbox version 3.1.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Unauthorized user able to download the device configuration file.",
+		"title": "Unauthorized user able to download the device configuration file",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-071",
-					"description": "FortiSandbox - Unauthorized user able to download the device configuration file."
+					"description": "Unauthorized user able to download the device configuration file"
 				}
 			]
 		},

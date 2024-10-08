@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - SSRF in FortiGuard Outbreak feature",
+	"document_title": "SSRF in FortiGuard Outbreak feature",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A server-side request forgery (SSRF) vulnerability [CWE-918] in FortiManager and FortiAnalyzer GUI may allow a remote and authenticated attacker to access unauthorized files and services on the system via specially crafted web requests.\n        ",
+				"text": "\n            A server-side request forgery (SSRF) vulnerability [CWE-918] in FortiManager and FortiAnalyzer GUI may allow a remote and authenticated attacker to access unauthorized files and services on the system via specially crafted web requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiAnalyzer version 7.2.0 through 7.2.1FortiAnalyzer version 7.0.0 through 7.0.6FortiAnalyzer version 6.4.8 through 6.4.11FortiManager version 7.2.0 through 7.2.1FortiManager version 7.0.0 through 7.0.6FortiManager version 6.4.8 through 6.4.11\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.2.2 or above Please upgrade to FortiAnalyzer version 7.0.7 or above Please upgrade to FortiAnalyzer version 6.4.12 or above Please upgrade to FortiManager version 7.2.2 or above Please upgrade to FortiManager version 7.0.7 or above Please upgrade to FortiManager version 6.4.12 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - SSRF in FortiGuard Outbreak feature",
+		"title": "SSRF in FortiGuard Outbreak feature",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-493",
-					"description": "FortiManager & FortiAnalyzer - SSRF in FortiGuard Outbreak feature"
+					"description": "SSRF in FortiGuard Outbreak feature"
 				}
 			]
 		},

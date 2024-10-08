@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientEMS - Session cookie does not expire after logout",
+	"document_title": "Session cookie does not expire after logout",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of Privilege\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiClientEMS version 6.2.8 and below. FortiClientEMS version 6.4.2 and below.\n        ",
+				"text": "\n            FortiClientEMS version 6.2.8 and below.FortiClientEMS version 6.4.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientEMS version 6.2.9Â or above. Please upgrade to FortiClientEMS version 6.4.3 or above. Please upgrade to FortiClientEMS version 7.0.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClientEMS version 6.2.9 or above.Please upgrade to FortiClientEMS version 6.4.3 or above.Please upgrade to FortiClientEMS version 7.0.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientEMS - Session cookie does not expire after logout",
+		"title": "Session cookie does not expire after logout",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-072",
-					"description": "FortiClientEMS - Session cookie does not expire after logout"
+					"description": "Session cookie does not expire after logout"
 				}
 			]
 		},

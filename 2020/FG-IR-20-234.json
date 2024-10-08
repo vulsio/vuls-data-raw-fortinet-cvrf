@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Buffer overflow due to use of size of source buffer in libc safe functions",
+	"document_title": "Buffer overflow due to use of size of source buffer in libc safe functions",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A stack-based buffer overflow vulnerability (CWE-121)Â in the profile parser of FortiSandbox may allow an authenticated attacker to potentially execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            A stack-based buffer overflow vulnerability (CWE-121) in the profile parser of FortiSandbox may allow an authenticated attacker to potentially execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 4.0.0. FortiSandbox 3.2.2 and below. FortiSandbox 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox 4.0.0.FortiSandbox 3.2.2 and below.FortiSandbox 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox 4.0.1 or above. Upgrade to FortiSandbox 3.2.3 or above.\n        ",
+				"text": "\n            Upgrade to FortiSandbox 4.0.1 or above.Upgrade to FortiSandbox 3.2.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Buffer overflow due to use of size of source buffer in libc safe functions",
+		"title": "Buffer overflow due to use of size of source buffer in libc safe functions",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-234",
-					"description": "FortiSandbox - Buffer overflow due to use of size of source buffer in libc safe functions"
+					"description": "Buffer overflow due to use of size of source buffer in libc safe functions"
 				}
 			]
 		},

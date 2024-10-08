@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail 6.4.4 and below. FortiMail 6.2.6 and below. FortiMail 6.0.10 and below. FortiMail 5.4.12 and below. FortiNDR 7.2.1 and below. FortiNDR 7.1.1 and below. FortiNDR 7.0 all versions. FortiNDR 1.5 all versions. FortiNDR 1.4 all versions. FortiNDR 1.3 all versions. FortiNDR 1.2 all versions. FortiNDR 1.1 all versions.  \n        ",
+				"text": "\n            FortiMail 6.4.4 and below.FortiMail 6.2.6 and below.FortiMail 6.0.10 and below.FortiMail 5.4.12 and below.FortiNDR 7.2.1 and below.FortiNDR 7.1.1 and below.FortiNDR 7.0 all versions.FortiNDR 1.5 all versions.FortiNDR 1.4 all versions.FortiNDR 1.3 all versions.FortiNDR 1.2 all versions.FortiNDR 1.1 all versions.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiMail version 7.0.0 or above Please upgrade to FortiMail version 6.4.5 or above Please upgrade to FortiMail version 6.2.7 or above Please upgrade to FortiMail version 6.0.11 or above\n        ",
+				"text": "\n            Please upgrade to FortiMail version 7.0.0 or abovePlease upgrade to FortiMail version 6.4.5 or abovePlease upgrade to FortiMail version 6.2.7 or abovePlease upgrade to FortiMail version 6.0.11 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -166,6 +166,7 @@
 					"FortiMail-5.0.0",
 					"FortiNDR-7.2.0",
 					"FortiNDR-7.1.0",
+					"FortiNDR-7.0.6",
 					"FortiNDR-7.0.5",
 					"FortiNDR-7.0.4",
 					"FortiNDR-7.0.3",
@@ -924,6 +925,14 @@
 							"full_product_name": {
 								"text": "FortiNDR 7.1.0",
 								"product_id": "FortiNDR-7.1.0"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNDR 7.0.6",
+								"product_id": "FortiNDR-7.0.6"
 							}
 						},
 						{

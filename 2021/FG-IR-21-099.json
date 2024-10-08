@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Insecure password generation",
+	"document_title": "Insecure password generation",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Unauthorized access\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPortal version 6.0.5 and below. FortiPortal version 5.3.6 and below. FortiPortal version 5.2.6 and below. FortiPortal version 5.1.2 and below. FortiPortal version 5.0.3 and below. FortiPortal version 4.2.4 and below. FortiPortal version 4.1.2 and below. FortiPortal version 4.0.4 and below.\n        ",
+				"text": "\n            FortiPortal version 6.0.5 and below.FortiPortal version 5.3.6 and below.FortiPortal version 5.2.6 and below.FortiPortal version 5.1.2 and below.FortiPortal version 5.0.3 and below.FortiPortal version 4.2.4 and below.FortiPortal version 4.1.2 and below.FortiPortal version 4.0.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiPortal version 6.0.6 or above. Upgrade to FortiPortal version 5.3.7 or above. Upgrade to FortiPortal version 5.2.7 or above.\n        ",
+				"text": "\n            Upgrade to FortiPortal version 6.0.6 or above.Upgrade to FortiPortal version 5.3.7 or above.Upgrade to FortiPortal version 5.2.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Insecure password generation",
+		"title": "Insecure password generation",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-099",
-					"description": "FortiPortal - Insecure password generation"
+					"description": "Insecure password generation"
 				}
 			]
 		},

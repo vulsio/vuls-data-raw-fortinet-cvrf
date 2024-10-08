@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - Improper access control on the administrators account list",
+	"document_title": "Improper access control on the administrators account list",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability in FortiManager and FortiAnalyzer GUI interface may allow a remote and authenticated attacker with restricted user profile toÂ retrieve the list of administrative users of other ADOMs andÂ their related configuration.\n        ",
+				"text": "\n            An improper access control vulnerability in FortiManager and FortiAnalyzer GUI interface may allow a remote and authenticated attacker with restricted user profile to retrieve the list of administrative users of other ADOMs and their related configuration.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiManager version 7.0.0. FortiManager version 6.4.5 and below. FortiManager version 6.2.8 and below. FortiManager version 6.2.x. FortiManager version 6.0.x. FortiManager version 5.6.x. FortiAnalyzer version 7.0.0. FortiAnalyzer version 6.4.5 and below. FortiAnalyzer version 6.2.8 and below. FortiAnalyzer version 6.0.x. FortiAnalyzer version 5.6.x.\n        ",
+				"text": "\n            FortiManager version 7.0.0.FortiManager version 6.4.5 and below.FortiManager version 6.2.8 and below.FortiManager version 6.2.x.FortiManager version 6.0.x.FortiManager version 5.6.x.FortiAnalyzer version 7.0.0.FortiAnalyzer version 6.4.5 and below.FortiAnalyzer version 6.2.8 and below.FortiAnalyzer version 6.0.x.FortiAnalyzer version 5.6.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager version 7.0.1 or above. Please upgrade to FortiManager version 6.4.6 or above. Please upgrade to FortiManager version 6.2.9 or above. Please upgrade to FortiAnalyzer version 7.0.1 or above. Please upgrade to FortiAnalyzer version 6.4.6 or above. Please upgrade to FortiAnalyzer version 6.2.9 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager version 7.0.1 or above.Please upgrade to FortiManager version 6.4.6 or above.Please upgrade to FortiManager version 6.2.9 or above.Please upgrade to FortiAnalyzer version 7.0.1 or above.Please upgrade to FortiAnalyzer version 6.4.6 or above.Please upgrade to FortiAnalyzer version 6.2.9 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank ClÃ©ment Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Clément Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - Improper access control on the administrators account list",
+		"title": "Improper access control on the administrators account list",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-059",
-					"description": "FortiManager & FortiAnalyzer - Improper access control on the administrators account list"
+					"description": "Improper access control on the administrators account list"
 				}
 			]
 		},

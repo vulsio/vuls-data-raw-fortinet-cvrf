@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiExtender - multiple command injection vulnerabilities in webserver",
+	"document_title": "Multiple command injection vulnerabilities in webserver",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the webserver of FortiExtender may allow a privileged attacker to execute arbitrary OS commands via specially crafted input parameters.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the webserver of FortiExtender may allow a privileged attacker to execute arbitrary OS commands via specially crafted input parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiExtender version 7.0.0 through 7.0.3FortiExtender version 4.2.0 through 4.2.4FortiExtender version 4.1.1 through 4.1.8FortiExtender version 4.0.0 through 4.0.2FortiExtender version 3.3.0 through 3.3.2FortiExtender version 3.2.1 through 3.2.3FortiExtender 5.3 all versionsFortiExtender 3.1 all versionsFortiExtender 3.0 all versions\n        ",
+				"text": "\n            FortiExtender version 7.0.0 through 7.0.3FortiExtender 5.3 all versionsFortiExtender version 4.2.0 through 4.2.4FortiExtender version 4.1.1 through 4.1.8FortiExtender version 4.0.0 through 4.0.2FortiExtender version 3.3.0 through 3.3.2FortiExtender version 3.2.1 through 3.2.3FortiExtender 3.1 all versionsFortiExtender 3.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiExtender version 7.2.0 and above Upgrade to FortiExtender version 7.0.4 and above Upgrade to FortiExtender version 4.2.5 and above Upgrade to FortiExtender upcoming version 4.1.9 and above Upgrade to FortiExtender upcoming version 4.0.3 and above Upgrade to FortiExtender version 3.3.3 and above Upgrade to FortiExtender version 3.2.4 and above\n        ",
+				"text": "\n            Upgrade to FortiExtender version 7.2.0 and aboveUpgrade to FortiExtender version 7.0.4 and aboveUpgrade to FortiExtender version 4.2.5 and aboveUpgrade to FortiExtender upcoming version 4.1.9 and aboveUpgrade to FortiExtender upcoming version 4.0.3 and aboveUpgrade to FortiExtender version 3.3.3 and aboveUpgrade to FortiExtender version 3.2.4 and above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiExtender - multiple command injection vulnerabilities in webserver",
+		"title": "Multiple command injection vulnerabilities in webserver",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-048",
-					"description": "FortiExtender - multiple command injection vulnerabilities in webserver"
+					"description": "Multiple command injection vulnerabilities in webserver"
 				}
 			]
 		},

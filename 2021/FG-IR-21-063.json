@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager & FortiAnalyzer - HTTP response splitting vulnerability",
+	"document_title": "HTTP response splitting vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of CRLF sequences in HTTP headers ('HTTP Response Splitting') vulnerability In FortiManager and FortiAnalyzer GUI may allow an authenticated and remote attackerÂ to perform an HTTP request splitting attack which gives attackers control of the remaining headers and body of the response.\n        ",
+				"text": "\n            An improper neutralization of CRLF sequences in HTTP headers ('HTTP Response Splitting') vulnerability In FortiManager and FortiAnalyzer GUI may allow an authenticated and remote attacker to perform an HTTP request splitting attack which gives attackers control of the remaining headers and body of the response.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiManager 7.0.0 FortiManager 6.4.6 and below. FortiManager 6.2.8 and below. FortiManager 6.0.x FortiManager 5.6.x FortiAnalyzer 7.0.0 FortiAnalyzer 6.4.6 and below. FortiAnalyzer 6.2.8 and below. FortiAnalyzer 6.0.x FortiAnalyzer 5.6.x\n        ",
+				"text": "\n            FortiManager 7.0.0FortiManager 6.4.6 and below.FortiManager 6.2.8 and below.FortiManager 6.0.xFortiManager 5.6.xFortiAnalyzer 7.0.0FortiAnalyzer 6.4.6 and below.FortiAnalyzer 6.2.8 and below.FortiAnalyzer 6.0.xFortiAnalyzer 5.6.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiManager 7.0.1 or above. Please upgrade to FortiManager 6.4.7 or above. Please upgrade to FortiManager 6.2.9 or above.   Please upgrade to FortiAnalyzer 7.0.1 or above. Please upgrade to FortiAnalyzer 6.4.7 or above. Please upgrade to FortiAnalyzer 6.2.9 or above.\n        ",
+				"text": "\n            Please upgrade to FortiManager 7.0.1 or above.Please upgrade to FortiManager 6.4.7 or above.Please upgrade to FortiManager 6.2.9 or above.Please upgrade to FortiAnalyzer 7.0.1 or above.Please upgrade to FortiAnalyzer 6.4.7 or above.Please upgrade to FortiAnalyzer 6.2.9 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank ClÃ©ment Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Clément Amic, Pierre Milioni and Adrien Peter from Synacktiv for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager & FortiAnalyzer - HTTP response splitting vulnerability",
+		"title": "HTTP response splitting vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-063",
-					"description": "FortiManager & FortiAnalyzer - HTTP response splitting vulnerability"
+					"description": "HTTP response splitting vulnerability"
 				}
 			]
 		},

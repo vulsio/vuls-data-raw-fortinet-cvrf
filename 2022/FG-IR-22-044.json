@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - Arbitrary file write as SYSTEM",
+	"document_title": "Arbitrary file write as SYSTEM",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 6.0.0 through 6.0.10 FortiClientWindows version 6.2.0 through 6.2.9 FortiClientWindows version 6.4.0 through 6.4.7 FortiClientWindows version 7.0.0 through 7.0.3\n        ",
+				"text": "\n            FortiClientWindows version 6.0.0 through 6.0.10FortiClientWindows version 6.2.0 through 6.2.9FortiClientWindows version 6.4.0 through 6.4.7FortiClientWindows version 7.0.0 through 7.0.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientWindows 7.0.4 or above. Please upgrade to FortiClientWindows 6.4.8 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClientWindows 7.0.4 or above.Please upgrade to FortiClientWindows 6.4.8 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - Arbitrary file write as SYSTEM",
+		"title": "Arbitrary file write as SYSTEM",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-044",
-					"description": "FortiClient (Windows) - Arbitrary file write as SYSTEM"
+					"description": "Arbitrary file write as SYSTEM"
 				}
 			]
 		},

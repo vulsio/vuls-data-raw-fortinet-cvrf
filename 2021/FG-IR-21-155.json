@@ -1,5 +1,5 @@
 {
-	"document_title": "Multiple products - Integer overflow in dhcpd daemon",
+	"document_title": "Integer overflow in dhcpd daemon",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An integer overflow / wraparound vulnerability [CWE-190] in the FortiOS, FortiProxy, FortiSwitch, FortiRecoder, and FortiVoiceEnterprise dhcpd daemon may allow an unauthenticated and network adjacent attacker to crash the dhcpd deamon, resulting in potential denial of service.\n        ",
+				"text": "\n            An integer overflow / wraparound vulnerability [CWE-190] in the FortiOS, FortiProxy, FortiSwitch, FortiRecoder, and FortiVoiceEnterprisedhcpd daemon may allow an unauthenticated and network adjacent attacker to crash the dhcpd deamon, resulting in potential denial of service.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.0.3 and below. FortiOS version 6.4.8 and below. FortiOS version 6.2.10 and below. FortiOS version 6.0.x.   FortiProxy version 7.0.0. Fortiproxy version 2.0.6 and below. FortiProxy version 1.2.x. FortiProxy version 1.1.x. FortiProxy version 1.0.x. FortiSwitch version 7.0.2 and below. FortiSwitch version 6.4.9 and below. FortiSwitch version 6.2.x. FortiSwitch version 6.0.x. FortiRecorder version 6.4.2 and below. FortiRecorder version 6.0.10 and below. FortiVoiceEnterprise version 6.4.3 and below. FortiVoiceEnterprise version 6.0.10 and below.\n        ",
+				"text": "\n            FortiOS version 7.0.3 and below.FortiOS version 6.4.8 and below.FortiOS version 6.2.10 and below.FortiOS version 6.0.x.FortiProxy version 7.0.0.Fortiproxy version 2.0.6 and below.FortiProxy version 1.2.x.FortiProxy version 1.1.x.FortiProxy version 1.0.x.FortiSwitch version 7.0.2 and below.FortiSwitch version 6.4.9 and below.FortiSwitch version 6.2.x.FortiSwitch version 6.0.x.FortiRecorder version 6.4.2 and below.FortiRecorder version 6.0.10 and below.FortiVoiceEnterprise version 6.4.3 and below.FortiVoiceEnterprise version 6.0.10 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.0.4 or above. Please upgrade to FortiOS version 6.4.9 or above. Please upgrade to FortiOS version 6.2.11 or above. Please upgrade to FortiProxy version 7.0.1 or above. Please upgrade to FortiProxy version 2.0.7 or above. Please upgrade to FortiSwitch version 7.2.0 or above. Please upgrade to FortiSwitch version 7.0.3 or above. Please upgrade to FortiSwitch version 6.4.10 or above. Please upgrade to FortiRecorder version 6.4.3 or above. Please upgrade to FortiRecorder version 6.0.11 or above. Please upgrade to FortiVoiceEnterprise version 6.4.4 or above Please upgrade to FortiVoiceEnterprise version 6.0.11 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.0.4 or above.Please upgrade to FortiOS version 6.4.9 or above.Please upgrade to FortiOS version 6.2.11 or above.Please upgrade to FortiProxy version 7.0.1 or above.Please upgrade to FortiProxy version 2.0.7 or above.Please upgrade to FortiSwitch version 7.2.0 or above.Please upgrade to FortiSwitch version 7.0.3 or above.Please upgrade to FortiSwitch version 6.4.10 or above.Please upgrade to FortiRecorder version 6.4.3 or above.Please upgrade to FortiRecorder version 6.0.11 or above.Please upgrade to FortiVoiceEnterprise version 6.4.4 or abovePlease upgrade to FortiVoiceEnterprise version 6.0.11 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Multiple products - Integer overflow in dhcpd daemon",
+		"title": "Integer overflow in dhcpd daemon",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-155",
-					"description": "Multiple products - Integer overflow in dhcpd daemon"
+					"description": "Integer overflow in dhcpd daemon"
 				}
 			]
 		},
@@ -82,35 +82,76 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiSwitch-7.0.2",
-					"FortiSwitch-7.0.1",
-					"FortiSwitch-7.0.0",
-					"FortiSwitch-6.4.9",
-					"FortiSwitch-6.4.8",
-					"FortiSwitch-6.4.7",
-					"FortiSwitch-6.4.6",
-					"FortiSwitch-6.4.5",
-					"FortiSwitch-6.4.4",
-					"FortiSwitch-6.4.3",
-					"FortiSwitch-6.4.2",
-					"FortiSwitch-6.4.1",
-					"FortiSwitch-6.4.0",
-					"FortiSwitch-6.2.7",
-					"FortiSwitch-6.2.6",
-					"FortiSwitch-6.2.5",
-					"FortiSwitch-6.2.4",
-					"FortiSwitch-6.2.3",
-					"FortiSwitch-6.2.2",
-					"FortiSwitch-6.2.1",
-					"FortiSwitch-6.2.0",
-					"FortiSwitch-6.0.7",
-					"FortiSwitch-6.0.6",
-					"FortiSwitch-6.0.5",
-					"FortiSwitch-6.0.4",
-					"FortiSwitch-6.0.3",
-					"FortiSwitch-6.0.2",
-					"FortiSwitch-6.0.1",
-					"FortiSwitch-6.0.0",
+					"FortiOS-7.0.2",
+					"FortiOS-7.0.1",
+					"FortiOS-7.0.0",
+					"FortiOS-6.4.7",
+					"FortiOS-6.4.6",
+					"FortiOS-6.4.5",
+					"FortiOS-6.4.4",
+					"FortiOS-6.4.3",
+					"FortiOS-6.4.2",
+					"FortiOS-6.4.1",
+					"FortiOS-6.4.0",
+					"FortiOS-6.2.10",
+					"FortiOS-6.2.9",
+					"FortiOS-6.2.8",
+					"FortiOS-6.2.7",
+					"FortiOS-6.2.6",
+					"FortiOS-6.2.5",
+					"FortiOS-6.2.4",
+					"FortiOS-6.2.3",
+					"FortiOS-6.2.2",
+					"FortiOS-6.2.1",
+					"FortiOS-6.2.0",
+					"FortiOS-6.0.18",
+					"FortiOS-6.0.17",
+					"FortiOS-6.0.16",
+					"FortiOS-6.0.15",
+					"FortiOS-6.0.14",
+					"FortiOS-6.0.13",
+					"FortiOS-6.0.12",
+					"FortiOS-6.0.11",
+					"FortiOS-6.0.10",
+					"FortiOS-6.0.9",
+					"FortiOS-6.0.8",
+					"FortiOS-6.0.7",
+					"FortiOS-6.0.6",
+					"FortiOS-6.0.5",
+					"FortiOS-6.0.4",
+					"FortiOS-6.0.3",
+					"FortiOS-6.0.2",
+					"FortiOS-6.0.1",
+					"FortiOS-6.0.0",
+					"FortiOS-5.6.14",
+					"FortiOS-5.6.13",
+					"FortiOS-5.6.12",
+					"FortiOS-5.6.11",
+					"FortiOS-5.6.10",
+					"FortiOS-5.6.9",
+					"FortiOS-5.6.8",
+					"FortiOS-5.6.7",
+					"FortiOS-5.6.6",
+					"FortiOS-5.6.5",
+					"FortiOS-5.6.4",
+					"FortiOS-5.6.3",
+					"FortiOS-5.6.2",
+					"FortiOS-5.6.1",
+					"FortiOS-5.6.0",
+					"FortiOS-5.4.13",
+					"FortiOS-5.4.12",
+					"FortiOS-5.4.11",
+					"FortiOS-5.4.10",
+					"FortiOS-5.4.9",
+					"FortiOS-5.4.8",
+					"FortiOS-5.4.7",
+					"FortiOS-5.4.6",
+					"FortiOS-5.4.5",
+					"FortiOS-5.4.4",
+					"FortiOS-5.4.3",
+					"FortiOS-5.4.2",
+					"FortiOS-5.4.1",
+					"FortiOS-5.4.0",
 					"FortiProxy-7.0.0",
 					"FortiProxy-2.0.6",
 					"FortiProxy-2.0.5",
@@ -162,75 +203,35 @@
 					"FortiRecorder-6.0.2",
 					"FortiRecorder-6.0.1",
 					"FortiRecorder-6.0.0",
-					"FortiOS-7.0.2",
-					"FortiOS-7.0.1",
-					"FortiOS-7.0.0",
-					"FortiOS-6.4.7",
-					"FortiOS-6.4.6",
-					"FortiOS-6.4.5",
-					"FortiOS-6.4.4",
-					"FortiOS-6.4.3",
-					"FortiOS-6.4.2",
-					"FortiOS-6.4.1",
-					"FortiOS-6.4.0",
-					"FortiOS-6.2.10",
-					"FortiOS-6.2.9",
-					"FortiOS-6.2.8",
-					"FortiOS-6.2.7",
-					"FortiOS-6.2.6",
-					"FortiOS-6.2.5",
-					"FortiOS-6.2.4",
-					"FortiOS-6.2.3",
-					"FortiOS-6.2.2",
-					"FortiOS-6.2.1",
-					"FortiOS-6.2.0",
-					"FortiOS-6.0.17",
-					"FortiOS-6.0.16",
-					"FortiOS-6.0.15",
-					"FortiOS-6.0.14",
-					"FortiOS-6.0.13",
-					"FortiOS-6.0.12",
-					"FortiOS-6.0.11",
-					"FortiOS-6.0.10",
-					"FortiOS-6.0.9",
-					"FortiOS-6.0.8",
-					"FortiOS-6.0.7",
-					"FortiOS-6.0.6",
-					"FortiOS-6.0.5",
-					"FortiOS-6.0.4",
-					"FortiOS-6.0.3",
-					"FortiOS-6.0.2",
-					"FortiOS-6.0.1",
-					"FortiOS-6.0.0",
-					"FortiOS-5.6.14",
-					"FortiOS-5.6.13",
-					"FortiOS-5.6.12",
-					"FortiOS-5.6.11",
-					"FortiOS-5.6.10",
-					"FortiOS-5.6.9",
-					"FortiOS-5.6.8",
-					"FortiOS-5.6.7",
-					"FortiOS-5.6.6",
-					"FortiOS-5.6.5",
-					"FortiOS-5.6.4",
-					"FortiOS-5.6.3",
-					"FortiOS-5.6.2",
-					"FortiOS-5.6.1",
-					"FortiOS-5.6.0",
-					"FortiOS-5.4.13",
-					"FortiOS-5.4.12",
-					"FortiOS-5.4.11",
-					"FortiOS-5.4.10",
-					"FortiOS-5.4.9",
-					"FortiOS-5.4.8",
-					"FortiOS-5.4.7",
-					"FortiOS-5.4.6",
-					"FortiOS-5.4.5",
-					"FortiOS-5.4.4",
-					"FortiOS-5.4.3",
-					"FortiOS-5.4.2",
-					"FortiOS-5.4.1",
-					"FortiOS-5.4.0",
+					"FortiSwitch-7.0.2",
+					"FortiSwitch-7.0.1",
+					"FortiSwitch-7.0.0",
+					"FortiSwitch-6.4.9",
+					"FortiSwitch-6.4.8",
+					"FortiSwitch-6.4.7",
+					"FortiSwitch-6.4.6",
+					"FortiSwitch-6.4.5",
+					"FortiSwitch-6.4.4",
+					"FortiSwitch-6.4.3",
+					"FortiSwitch-6.4.2",
+					"FortiSwitch-6.4.1",
+					"FortiSwitch-6.4.0",
+					"FortiSwitch-6.2.7",
+					"FortiSwitch-6.2.6",
+					"FortiSwitch-6.2.5",
+					"FortiSwitch-6.2.4",
+					"FortiSwitch-6.2.3",
+					"FortiSwitch-6.2.2",
+					"FortiSwitch-6.2.1",
+					"FortiSwitch-6.2.0",
+					"FortiSwitch-6.0.7",
+					"FortiSwitch-6.0.6",
+					"FortiSwitch-6.0.5",
+					"FortiSwitch-6.0.4",
+					"FortiSwitch-6.0.3",
+					"FortiSwitch-6.0.2",
+					"FortiSwitch-6.0.1",
+					"FortiSwitch-6.0.0",
 					"FortiVoice-6.4.3",
 					"FortiVoice-6.4.2",
 					"FortiVoice-6.4.1",
@@ -288,239 +289,567 @@
 			"type": "Vendor",
 			"branch": [
 				{
-					"name": "FortiSwitch",
+					"name": "FortiOS",
 					"type": "Product Name",
 					"branch": [
 						{
 							"name": "7.0.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 7.0.2",
-								"product_id": "FortiSwitch-7.0.2"
+								"text": "FortiOS 7.0.2",
+								"product_id": "FortiOS-7.0.2"
 							}
 						},
 						{
 							"name": "7.0.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 7.0.1",
-								"product_id": "FortiSwitch-7.0.1"
+								"text": "FortiOS 7.0.1",
+								"product_id": "FortiOS-7.0.1"
 							}
 						},
 						{
 							"name": "7.0.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 7.0.0",
-								"product_id": "FortiSwitch-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSwitch 6.4.9",
-								"product_id": "FortiSwitch-6.4.9"
-							}
-						},
-						{
-							"name": "6.4.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiSwitch 6.4.8",
-								"product_id": "FortiSwitch-6.4.8"
+								"text": "FortiOS 7.0.0",
+								"product_id": "FortiOS-7.0.0"
 							}
 						},
 						{
 							"name": "6.4.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.7",
-								"product_id": "FortiSwitch-6.4.7"
+								"text": "FortiOS 6.4.7",
+								"product_id": "FortiOS-6.4.7"
 							}
 						},
 						{
 							"name": "6.4.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.6",
-								"product_id": "FortiSwitch-6.4.6"
+								"text": "FortiOS 6.4.6",
+								"product_id": "FortiOS-6.4.6"
 							}
 						},
 						{
 							"name": "6.4.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.5",
-								"product_id": "FortiSwitch-6.4.5"
+								"text": "FortiOS 6.4.5",
+								"product_id": "FortiOS-6.4.5"
 							}
 						},
 						{
 							"name": "6.4.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.4",
-								"product_id": "FortiSwitch-6.4.4"
+								"text": "FortiOS 6.4.4",
+								"product_id": "FortiOS-6.4.4"
 							}
 						},
 						{
 							"name": "6.4.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.3",
-								"product_id": "FortiSwitch-6.4.3"
+								"text": "FortiOS 6.4.3",
+								"product_id": "FortiOS-6.4.3"
 							}
 						},
 						{
 							"name": "6.4.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.2",
-								"product_id": "FortiSwitch-6.4.2"
+								"text": "FortiOS 6.4.2",
+								"product_id": "FortiOS-6.4.2"
 							}
 						},
 						{
 							"name": "6.4.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.1",
-								"product_id": "FortiSwitch-6.4.1"
+								"text": "FortiOS 6.4.1",
+								"product_id": "FortiOS-6.4.1"
 							}
 						},
 						{
 							"name": "6.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.4.0",
-								"product_id": "FortiSwitch-6.4.0"
+								"text": "FortiOS 6.4.0",
+								"product_id": "FortiOS-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.10",
+								"product_id": "FortiOS-6.2.10"
+							}
+						},
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.9",
+								"product_id": "FortiOS-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.2.8",
+								"product_id": "FortiOS-6.2.8"
 							}
 						},
 						{
 							"name": "6.2.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.7",
-								"product_id": "FortiSwitch-6.2.7"
+								"text": "FortiOS 6.2.7",
+								"product_id": "FortiOS-6.2.7"
 							}
 						},
 						{
 							"name": "6.2.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.6",
-								"product_id": "FortiSwitch-6.2.6"
+								"text": "FortiOS 6.2.6",
+								"product_id": "FortiOS-6.2.6"
 							}
 						},
 						{
 							"name": "6.2.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.5",
-								"product_id": "FortiSwitch-6.2.5"
+								"text": "FortiOS 6.2.5",
+								"product_id": "FortiOS-6.2.5"
 							}
 						},
 						{
 							"name": "6.2.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.4",
-								"product_id": "FortiSwitch-6.2.4"
+								"text": "FortiOS 6.2.4",
+								"product_id": "FortiOS-6.2.4"
 							}
 						},
 						{
 							"name": "6.2.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.3",
-								"product_id": "FortiSwitch-6.2.3"
+								"text": "FortiOS 6.2.3",
+								"product_id": "FortiOS-6.2.3"
 							}
 						},
 						{
 							"name": "6.2.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.2",
-								"product_id": "FortiSwitch-6.2.2"
+								"text": "FortiOS 6.2.2",
+								"product_id": "FortiOS-6.2.2"
 							}
 						},
 						{
 							"name": "6.2.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.1",
-								"product_id": "FortiSwitch-6.2.1"
+								"text": "FortiOS 6.2.1",
+								"product_id": "FortiOS-6.2.1"
 							}
 						},
 						{
 							"name": "6.2.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.2.0",
-								"product_id": "FortiSwitch-6.2.0"
+								"text": "FortiOS 6.2.0",
+								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.18",
+								"product_id": "FortiOS-6.0.18"
+							}
+						},
+						{
+							"name": "6.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.17",
+								"product_id": "FortiOS-6.0.17"
+							}
+						},
+						{
+							"name": "6.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.16",
+								"product_id": "FortiOS-6.0.16"
+							}
+						},
+						{
+							"name": "6.0.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.15",
+								"product_id": "FortiOS-6.0.15"
+							}
+						},
+						{
+							"name": "6.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.14",
+								"product_id": "FortiOS-6.0.14"
+							}
+						},
+						{
+							"name": "6.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.13",
+								"product_id": "FortiOS-6.0.13"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.12",
+								"product_id": "FortiOS-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.11",
+								"product_id": "FortiOS-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.10",
+								"product_id": "FortiOS-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.9",
+								"product_id": "FortiOS-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.8",
+								"product_id": "FortiOS-6.0.8"
 							}
 						},
 						{
 							"name": "6.0.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.7",
-								"product_id": "FortiSwitch-6.0.7"
+								"text": "FortiOS 6.0.7",
+								"product_id": "FortiOS-6.0.7"
 							}
 						},
 						{
 							"name": "6.0.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.6",
-								"product_id": "FortiSwitch-6.0.6"
+								"text": "FortiOS 6.0.6",
+								"product_id": "FortiOS-6.0.6"
 							}
 						},
 						{
 							"name": "6.0.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.5",
-								"product_id": "FortiSwitch-6.0.5"
+								"text": "FortiOS 6.0.5",
+								"product_id": "FortiOS-6.0.5"
 							}
 						},
 						{
 							"name": "6.0.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.4",
-								"product_id": "FortiSwitch-6.0.4"
+								"text": "FortiOS 6.0.4",
+								"product_id": "FortiOS-6.0.4"
 							}
 						},
 						{
 							"name": "6.0.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.3",
-								"product_id": "FortiSwitch-6.0.3"
+								"text": "FortiOS 6.0.3",
+								"product_id": "FortiOS-6.0.3"
 							}
 						},
 						{
 							"name": "6.0.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.2",
-								"product_id": "FortiSwitch-6.0.2"
+								"text": "FortiOS 6.0.2",
+								"product_id": "FortiOS-6.0.2"
 							}
 						},
 						{
 							"name": "6.0.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.1",
-								"product_id": "FortiSwitch-6.0.1"
+								"text": "FortiOS 6.0.1",
+								"product_id": "FortiOS-6.0.1"
 							}
 						},
 						{
 							"name": "6.0.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiSwitch 6.0.0",
-								"product_id": "FortiSwitch-6.0.0"
+								"text": "FortiOS 6.0.0",
+								"product_id": "FortiOS-6.0.0"
+							}
+						},
+						{
+							"name": "5.6.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.14",
+								"product_id": "FortiOS-5.6.14"
+							}
+						},
+						{
+							"name": "5.6.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.13",
+								"product_id": "FortiOS-5.6.13"
+							}
+						},
+						{
+							"name": "5.6.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.12",
+								"product_id": "FortiOS-5.6.12"
+							}
+						},
+						{
+							"name": "5.6.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.11",
+								"product_id": "FortiOS-5.6.11"
+							}
+						},
+						{
+							"name": "5.6.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.10",
+								"product_id": "FortiOS-5.6.10"
+							}
+						},
+						{
+							"name": "5.6.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.9",
+								"product_id": "FortiOS-5.6.9"
+							}
+						},
+						{
+							"name": "5.6.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.8",
+								"product_id": "FortiOS-5.6.8"
+							}
+						},
+						{
+							"name": "5.6.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.7",
+								"product_id": "FortiOS-5.6.7"
+							}
+						},
+						{
+							"name": "5.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.6",
+								"product_id": "FortiOS-5.6.6"
+							}
+						},
+						{
+							"name": "5.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.5",
+								"product_id": "FortiOS-5.6.5"
+							}
+						},
+						{
+							"name": "5.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.4",
+								"product_id": "FortiOS-5.6.4"
+							}
+						},
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.3",
+								"product_id": "FortiOS-5.6.3"
+							}
+						},
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.2",
+								"product_id": "FortiOS-5.6.2"
+							}
+						},
+						{
+							"name": "5.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.1",
+								"product_id": "FortiOS-5.6.1"
+							}
+						},
+						{
+							"name": "5.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.6.0",
+								"product_id": "FortiOS-5.6.0"
+							}
+						},
+						{
+							"name": "5.4.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.13",
+								"product_id": "FortiOS-5.4.13"
+							}
+						},
+						{
+							"name": "5.4.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.12",
+								"product_id": "FortiOS-5.4.12"
+							}
+						},
+						{
+							"name": "5.4.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.11",
+								"product_id": "FortiOS-5.4.11"
+							}
+						},
+						{
+							"name": "5.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.10",
+								"product_id": "FortiOS-5.4.10"
+							}
+						},
+						{
+							"name": "5.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.9",
+								"product_id": "FortiOS-5.4.9"
+							}
+						},
+						{
+							"name": "5.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.8",
+								"product_id": "FortiOS-5.4.8"
+							}
+						},
+						{
+							"name": "5.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.7",
+								"product_id": "FortiOS-5.4.7"
+							}
+						},
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.6",
+								"product_id": "FortiOS-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.5",
+								"product_id": "FortiOS-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.4",
+								"product_id": "FortiOS-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.3",
+								"product_id": "FortiOS-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.2",
+								"product_id": "FortiOS-5.4.2"
+							}
+						},
+						{
+							"name": "5.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.1",
+								"product_id": "FortiOS-5.4.1"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 5.4.0",
+								"product_id": "FortiOS-5.4.0"
 							}
 						}
 					]
@@ -946,559 +1275,239 @@
 					]
 				},
 				{
-					"name": "FortiOS",
+					"name": "FortiSwitch",
 					"type": "Product Name",
 					"branch": [
 						{
 							"name": "7.0.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 7.0.2",
-								"product_id": "FortiOS-7.0.2"
+								"text": "FortiSwitch 7.0.2",
+								"product_id": "FortiSwitch-7.0.2"
 							}
 						},
 						{
 							"name": "7.0.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 7.0.1",
-								"product_id": "FortiOS-7.0.1"
+								"text": "FortiSwitch 7.0.1",
+								"product_id": "FortiSwitch-7.0.1"
 							}
 						},
 						{
 							"name": "7.0.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 7.0.0",
-								"product_id": "FortiOS-7.0.0"
+								"text": "FortiSwitch 7.0.0",
+								"product_id": "FortiSwitch-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.4.9",
+								"product_id": "FortiSwitch-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 6.4.8",
+								"product_id": "FortiSwitch-6.4.8"
 							}
 						},
 						{
 							"name": "6.4.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.7",
-								"product_id": "FortiOS-6.4.7"
+								"text": "FortiSwitch 6.4.7",
+								"product_id": "FortiSwitch-6.4.7"
 							}
 						},
 						{
 							"name": "6.4.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.6",
-								"product_id": "FortiOS-6.4.6"
+								"text": "FortiSwitch 6.4.6",
+								"product_id": "FortiSwitch-6.4.6"
 							}
 						},
 						{
 							"name": "6.4.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.5",
-								"product_id": "FortiOS-6.4.5"
+								"text": "FortiSwitch 6.4.5",
+								"product_id": "FortiSwitch-6.4.5"
 							}
 						},
 						{
 							"name": "6.4.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.4",
-								"product_id": "FortiOS-6.4.4"
+								"text": "FortiSwitch 6.4.4",
+								"product_id": "FortiSwitch-6.4.4"
 							}
 						},
 						{
 							"name": "6.4.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.3",
-								"product_id": "FortiOS-6.4.3"
+								"text": "FortiSwitch 6.4.3",
+								"product_id": "FortiSwitch-6.4.3"
 							}
 						},
 						{
 							"name": "6.4.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.2",
-								"product_id": "FortiOS-6.4.2"
+								"text": "FortiSwitch 6.4.2",
+								"product_id": "FortiSwitch-6.4.2"
 							}
 						},
 						{
 							"name": "6.4.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.1",
-								"product_id": "FortiOS-6.4.1"
+								"text": "FortiSwitch 6.4.1",
+								"product_id": "FortiSwitch-6.4.1"
 							}
 						},
 						{
 							"name": "6.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.4.0",
-								"product_id": "FortiOS-6.4.0"
-							}
-						},
-						{
-							"name": "6.2.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.2.10",
-								"product_id": "FortiOS-6.2.10"
-							}
-						},
-						{
-							"name": "6.2.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.2.9",
-								"product_id": "FortiOS-6.2.9"
-							}
-						},
-						{
-							"name": "6.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.2.8",
-								"product_id": "FortiOS-6.2.8"
+								"text": "FortiSwitch 6.4.0",
+								"product_id": "FortiSwitch-6.4.0"
 							}
 						},
 						{
 							"name": "6.2.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.7",
-								"product_id": "FortiOS-6.2.7"
+								"text": "FortiSwitch 6.2.7",
+								"product_id": "FortiSwitch-6.2.7"
 							}
 						},
 						{
 							"name": "6.2.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.6",
-								"product_id": "FortiOS-6.2.6"
+								"text": "FortiSwitch 6.2.6",
+								"product_id": "FortiSwitch-6.2.6"
 							}
 						},
 						{
 							"name": "6.2.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.5",
-								"product_id": "FortiOS-6.2.5"
+								"text": "FortiSwitch 6.2.5",
+								"product_id": "FortiSwitch-6.2.5"
 							}
 						},
 						{
 							"name": "6.2.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.4",
-								"product_id": "FortiOS-6.2.4"
+								"text": "FortiSwitch 6.2.4",
+								"product_id": "FortiSwitch-6.2.4"
 							}
 						},
 						{
 							"name": "6.2.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.3",
-								"product_id": "FortiOS-6.2.3"
+								"text": "FortiSwitch 6.2.3",
+								"product_id": "FortiSwitch-6.2.3"
 							}
 						},
 						{
 							"name": "6.2.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.2",
-								"product_id": "FortiOS-6.2.2"
+								"text": "FortiSwitch 6.2.2",
+								"product_id": "FortiSwitch-6.2.2"
 							}
 						},
 						{
 							"name": "6.2.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.1",
-								"product_id": "FortiOS-6.2.1"
+								"text": "FortiSwitch 6.2.1",
+								"product_id": "FortiSwitch-6.2.1"
 							}
 						},
 						{
 							"name": "6.2.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.2.0",
-								"product_id": "FortiOS-6.2.0"
-							}
-						},
-						{
-							"name": "6.0.17",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.17",
-								"product_id": "FortiOS-6.0.17"
-							}
-						},
-						{
-							"name": "6.0.16",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.16",
-								"product_id": "FortiOS-6.0.16"
-							}
-						},
-						{
-							"name": "6.0.15",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.15",
-								"product_id": "FortiOS-6.0.15"
-							}
-						},
-						{
-							"name": "6.0.14",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.14",
-								"product_id": "FortiOS-6.0.14"
-							}
-						},
-						{
-							"name": "6.0.13",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.13",
-								"product_id": "FortiOS-6.0.13"
-							}
-						},
-						{
-							"name": "6.0.12",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.12",
-								"product_id": "FortiOS-6.0.12"
-							}
-						},
-						{
-							"name": "6.0.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.11",
-								"product_id": "FortiOS-6.0.11"
-							}
-						},
-						{
-							"name": "6.0.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.10",
-								"product_id": "FortiOS-6.0.10"
-							}
-						},
-						{
-							"name": "6.0.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.9",
-								"product_id": "FortiOS-6.0.9"
-							}
-						},
-						{
-							"name": "6.0.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 6.0.8",
-								"product_id": "FortiOS-6.0.8"
+								"text": "FortiSwitch 6.2.0",
+								"product_id": "FortiSwitch-6.2.0"
 							}
 						},
 						{
 							"name": "6.0.7",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.7",
-								"product_id": "FortiOS-6.0.7"
+								"text": "FortiSwitch 6.0.7",
+								"product_id": "FortiSwitch-6.0.7"
 							}
 						},
 						{
 							"name": "6.0.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.6",
-								"product_id": "FortiOS-6.0.6"
+								"text": "FortiSwitch 6.0.6",
+								"product_id": "FortiSwitch-6.0.6"
 							}
 						},
 						{
 							"name": "6.0.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.5",
-								"product_id": "FortiOS-6.0.5"
+								"text": "FortiSwitch 6.0.5",
+								"product_id": "FortiSwitch-6.0.5"
 							}
 						},
 						{
 							"name": "6.0.4",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.4",
-								"product_id": "FortiOS-6.0.4"
+								"text": "FortiSwitch 6.0.4",
+								"product_id": "FortiSwitch-6.0.4"
 							}
 						},
 						{
 							"name": "6.0.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.3",
-								"product_id": "FortiOS-6.0.3"
+								"text": "FortiSwitch 6.0.3",
+								"product_id": "FortiSwitch-6.0.3"
 							}
 						},
 						{
 							"name": "6.0.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.2",
-								"product_id": "FortiOS-6.0.2"
+								"text": "FortiSwitch 6.0.2",
+								"product_id": "FortiSwitch-6.0.2"
 							}
 						},
 						{
 							"name": "6.0.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.1",
-								"product_id": "FortiOS-6.0.1"
+								"text": "FortiSwitch 6.0.1",
+								"product_id": "FortiSwitch-6.0.1"
 							}
 						},
 						{
 							"name": "6.0.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiOS 6.0.0",
-								"product_id": "FortiOS-6.0.0"
-							}
-						},
-						{
-							"name": "5.6.14",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.14",
-								"product_id": "FortiOS-5.6.14"
-							}
-						},
-						{
-							"name": "5.6.13",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.13",
-								"product_id": "FortiOS-5.6.13"
-							}
-						},
-						{
-							"name": "5.6.12",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.12",
-								"product_id": "FortiOS-5.6.12"
-							}
-						},
-						{
-							"name": "5.6.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.11",
-								"product_id": "FortiOS-5.6.11"
-							}
-						},
-						{
-							"name": "5.6.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.10",
-								"product_id": "FortiOS-5.6.10"
-							}
-						},
-						{
-							"name": "5.6.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.9",
-								"product_id": "FortiOS-5.6.9"
-							}
-						},
-						{
-							"name": "5.6.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.8",
-								"product_id": "FortiOS-5.6.8"
-							}
-						},
-						{
-							"name": "5.6.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.7",
-								"product_id": "FortiOS-5.6.7"
-							}
-						},
-						{
-							"name": "5.6.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.6",
-								"product_id": "FortiOS-5.6.6"
-							}
-						},
-						{
-							"name": "5.6.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.5",
-								"product_id": "FortiOS-5.6.5"
-							}
-						},
-						{
-							"name": "5.6.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.4",
-								"product_id": "FortiOS-5.6.4"
-							}
-						},
-						{
-							"name": "5.6.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.3",
-								"product_id": "FortiOS-5.6.3"
-							}
-						},
-						{
-							"name": "5.6.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.2",
-								"product_id": "FortiOS-5.6.2"
-							}
-						},
-						{
-							"name": "5.6.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.1",
-								"product_id": "FortiOS-5.6.1"
-							}
-						},
-						{
-							"name": "5.6.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.6.0",
-								"product_id": "FortiOS-5.6.0"
-							}
-						},
-						{
-							"name": "5.4.13",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.13",
-								"product_id": "FortiOS-5.4.13"
-							}
-						},
-						{
-							"name": "5.4.12",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.12",
-								"product_id": "FortiOS-5.4.12"
-							}
-						},
-						{
-							"name": "5.4.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.11",
-								"product_id": "FortiOS-5.4.11"
-							}
-						},
-						{
-							"name": "5.4.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.10",
-								"product_id": "FortiOS-5.4.10"
-							}
-						},
-						{
-							"name": "5.4.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.9",
-								"product_id": "FortiOS-5.4.9"
-							}
-						},
-						{
-							"name": "5.4.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.8",
-								"product_id": "FortiOS-5.4.8"
-							}
-						},
-						{
-							"name": "5.4.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.7",
-								"product_id": "FortiOS-5.4.7"
-							}
-						},
-						{
-							"name": "5.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.6",
-								"product_id": "FortiOS-5.4.6"
-							}
-						},
-						{
-							"name": "5.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.5",
-								"product_id": "FortiOS-5.4.5"
-							}
-						},
-						{
-							"name": "5.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.4",
-								"product_id": "FortiOS-5.4.4"
-							}
-						},
-						{
-							"name": "5.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.3",
-								"product_id": "FortiOS-5.4.3"
-							}
-						},
-						{
-							"name": "5.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.2",
-								"product_id": "FortiOS-5.4.2"
-							}
-						},
-						{
-							"name": "5.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.1",
-								"product_id": "FortiOS-5.4.1"
-							}
-						},
-						{
-							"name": "5.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 5.4.0",
-								"product_id": "FortiOS-5.4.0"
+								"text": "FortiSwitch 6.0.0",
+								"product_id": "FortiSwitch-6.0.0"
 							}
 						}
 					]

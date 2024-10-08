@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS & FortiProxy - SSL-VPN portal is vulnerable to CSRF",
+	"document_title": "SSL-VPN portal is vulnerable to CSRF",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insufficient verification of data authenticity vulnerability (CWE-345) in the user interface of FortiProxy and FortiGate SSL VPN portal may allow a remote, unauthenticated attacker to conduct a cross-site request forgery (CSRF) attack . Only SSL VPN in web mode or full mode are impacted by this vulnerability.\n        ",
+				"text": "\n            An insufficient verification of data authenticity vulnerability (CWE-345) in the user interface of FortiProxy and FortiGate SSL VPN portal may allow a remote, unauthenticated attacker to conduct a cross-site request forgery (CSRF) attack . Only SSL VPN in web mode or full mode are impacted by this vulnerability.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiProxy versions 2.0.3 and below. FortiProxy version 1.2.11 and below. FortiGate version 7.0.0. FortiGate versions 6.4.6 and below. FortiGate versions 6.2.9 and below. FortiGate versions 5.6.x and 6.0.x are also impacted.\n        ",
+				"text": "\n            FortiProxy versions 2.0.3 and below.FortiProxy version 1.2.11 and below.FortiGate version 7.0.0.FortiGate versions 6.4.6 and below.FortiGate versions 6.2.9 and below.FortiGate versions 5.6.x and 6.0.x are also impacted.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiProxy version 2.0.4 or above. Please upgrade to FortiProxy version 1.2.12 or above. Please upgrade to FortiGate version 7.0.1 or above. Please upgrade to FortiGate version 6.4.7 or above. Please upgrade to FortiGate version 6.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiProxy version 2.0.4 or above.Please upgrade to FortiProxy version 1.2.12 or above.Please upgrade to FortiGate version 7.0.1 or above.Please upgrade to FortiGate version 6.4.7 or above.Please upgrade to FortiGate version 6.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS & FortiProxy - SSL-VPN portal is vulnerable to CSRF",
+		"title": "SSL-VPN portal is vulnerable to CSRF",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-158",
-					"description": "FortiOS & FortiProxy - SSL-VPN portal is vulnerable to CSRF"
+					"description": "SSL-VPN portal is vulnerable to CSRF"
 				}
 			]
 		},
@@ -82,22 +82,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiProxy-2.0.3",
-					"FortiProxy-2.0.2",
-					"FortiProxy-2.0.1",
-					"FortiProxy-2.0.0",
-					"FortiProxy-1.2.11",
-					"FortiProxy-1.2.10",
-					"FortiProxy-1.2.9",
-					"FortiProxy-1.2.8",
-					"FortiProxy-1.2.7",
-					"FortiProxy-1.2.6",
-					"FortiProxy-1.2.5",
-					"FortiProxy-1.2.4",
-					"FortiProxy-1.2.3",
-					"FortiProxy-1.2.2",
-					"FortiProxy-1.2.1",
-					"FortiProxy-1.2.0",
 					"FortiOS-7.0.0",
 					"FortiOS-6.4.5",
 					"FortiOS-6.4.4",
@@ -115,6 +99,7 @@
 					"FortiOS-6.2.2",
 					"FortiOS-6.2.1",
 					"FortiOS-6.2.0",
+					"FortiOS-6.0.18",
 					"FortiOS-6.0.17",
 					"FortiOS-6.0.16",
 					"FortiOS-6.0.15",
@@ -147,7 +132,23 @@
 					"FortiOS-5.6.3",
 					"FortiOS-5.6.2",
 					"FortiOS-5.6.1",
-					"FortiOS-5.6.0"
+					"FortiOS-5.6.0",
+					"FortiProxy-2.0.3",
+					"FortiProxy-2.0.2",
+					"FortiProxy-2.0.1",
+					"FortiProxy-2.0.0",
+					"FortiProxy-1.2.11",
+					"FortiProxy-1.2.10",
+					"FortiProxy-1.2.9",
+					"FortiProxy-1.2.8",
+					"FortiProxy-1.2.7",
+					"FortiProxy-1.2.6",
+					"FortiProxy-1.2.5",
+					"FortiProxy-1.2.4",
+					"FortiProxy-1.2.3",
+					"FortiProxy-1.2.2",
+					"FortiProxy-1.2.1",
+					"FortiProxy-1.2.0"
 				]
 			}
 		},
@@ -163,140 +164,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiProxy",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "2.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 2.0.3",
-								"product_id": "FortiProxy-2.0.3"
-							}
-						},
-						{
-							"name": "2.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 2.0.2",
-								"product_id": "FortiProxy-2.0.2"
-							}
-						},
-						{
-							"name": "2.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 2.0.1",
-								"product_id": "FortiProxy-2.0.1"
-							}
-						},
-						{
-							"name": "2.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 2.0.0",
-								"product_id": "FortiProxy-2.0.0"
-							}
-						},
-						{
-							"name": "1.2.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.11",
-								"product_id": "FortiProxy-1.2.11"
-							}
-						},
-						{
-							"name": "1.2.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.10",
-								"product_id": "FortiProxy-1.2.10"
-							}
-						},
-						{
-							"name": "1.2.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.9",
-								"product_id": "FortiProxy-1.2.9"
-							}
-						},
-						{
-							"name": "1.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.8",
-								"product_id": "FortiProxy-1.2.8"
-							}
-						},
-						{
-							"name": "1.2.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.7",
-								"product_id": "FortiProxy-1.2.7"
-							}
-						},
-						{
-							"name": "1.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.6",
-								"product_id": "FortiProxy-1.2.6"
-							}
-						},
-						{
-							"name": "1.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.5",
-								"product_id": "FortiProxy-1.2.5"
-							}
-						},
-						{
-							"name": "1.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.4",
-								"product_id": "FortiProxy-1.2.4"
-							}
-						},
-						{
-							"name": "1.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.3",
-								"product_id": "FortiProxy-1.2.3"
-							}
-						},
-						{
-							"name": "1.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.2",
-								"product_id": "FortiProxy-1.2.2"
-							}
-						},
-						{
-							"name": "1.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.1",
-								"product_id": "FortiProxy-1.2.1"
-							}
-						},
-						{
-							"name": "1.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 1.2.0",
-								"product_id": "FortiProxy-1.2.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiOS",
 					"type": "Product Name",
@@ -435,6 +302,14 @@
 							"full_product_name": {
 								"text": "FortiOS 6.2.0",
 								"product_id": "FortiOS-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.18",
+								"product_id": "FortiOS-6.0.18"
 							}
 						},
 						{
@@ -699,6 +574,140 @@
 							"full_product_name": {
 								"text": "FortiOS 5.6.0",
 								"product_id": "FortiOS-5.6.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "2.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.3",
+								"product_id": "FortiProxy-2.0.3"
+							}
+						},
+						{
+							"name": "2.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.2",
+								"product_id": "FortiProxy-2.0.2"
+							}
+						},
+						{
+							"name": "2.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.1",
+								"product_id": "FortiProxy-2.0.1"
+							}
+						},
+						{
+							"name": "2.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.0",
+								"product_id": "FortiProxy-2.0.0"
+							}
+						},
+						{
+							"name": "1.2.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.11",
+								"product_id": "FortiProxy-1.2.11"
+							}
+						},
+						{
+							"name": "1.2.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.10",
+								"product_id": "FortiProxy-1.2.10"
+							}
+						},
+						{
+							"name": "1.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.9",
+								"product_id": "FortiProxy-1.2.9"
+							}
+						},
+						{
+							"name": "1.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.8",
+								"product_id": "FortiProxy-1.2.8"
+							}
+						},
+						{
+							"name": "1.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.7",
+								"product_id": "FortiProxy-1.2.7"
+							}
+						},
+						{
+							"name": "1.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.6",
+								"product_id": "FortiProxy-1.2.6"
+							}
+						},
+						{
+							"name": "1.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.5",
+								"product_id": "FortiProxy-1.2.5"
+							}
+						},
+						{
+							"name": "1.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.4",
+								"product_id": "FortiProxy-1.2.4"
+							}
+						},
+						{
+							"name": "1.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.3",
+								"product_id": "FortiProxy-1.2.3"
+							}
+						},
+						{
+							"name": "1.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.2",
+								"product_id": "FortiProxy-1.2.2"
+							}
+						},
+						{
+							"name": "1.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.1",
+								"product_id": "FortiProxy-1.2.1"
+							}
+						},
+						{
+							"name": "1.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.2.0",
+								"product_id": "FortiProxy-1.2.0"
 							}
 						}
 					]

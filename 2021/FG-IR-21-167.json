@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - Denial of service due to folder access permission change",
+	"document_title": "Denial of service due to folder access permission change",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper control of a resource through its lifetime [CWE-664] vulnerability in FortiClient (Windows) may allow a privileged attacker to make the whole application unresponsive via changing its root directory access permission.\n        ",
+				"text": "\n            An improper control of a resource through its lifetime [CWE-664] vulnerability in FortiClient (Windows) may allow a privileged attacker to make the whole application unresponsive via changing its root directory access permission.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClient (Windows) version 6.0.10 and below FortiClient (Windows) version 6.2.9 and below FortiClient (Windows) version 6.4.1 and 6.4.0\n        ",
+				"text": "\n            FortiClient (Windows) version 6.0.10 and belowFortiClient (Windows) version 6.2.9 and belowFortiClient (Windows) version 6.4.1 and 6.4.0\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiClient (Windows) version 6.4.2 or above. Upgrade to FortiClient (Windows) version 7.0.0 or above.\n        ",
+				"text": "\n            Upgrade to FortiClient (Windows) version 6.4.2 or above.Upgrade to FortiClient (Windows) version 7.0.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - Denial of service due to folder access permission change",
+		"title": "Denial of service due to folder access permission change",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-167",
-					"description": "FortiClient (Windows) - Denial of service due to folder access permission change"
+					"description": "Denial of service due to folder access permission change"
 				}
 			]
 		},

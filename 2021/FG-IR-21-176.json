@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - privilege escalation by script executionution in Windows Agent",
+	"document_title": "Privilege escalation by script executionution in Windows Agent",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper privilege management vulnerability [CWE-269] in the FortiSIEM Windows Agent may allow an authenticated user to executeÂ unauthorized code or commandsÂ as a privileged userÂ via script execution. Â\n        ",
+				"text": "\n            An improper privilege management vulnerability [CWE-269] in the FortiSIEM Windows Agent may allow an authenticated user to execute unauthorized code or commands as a privileged user via script execution.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSIEM Windows Agent version 4.1.4 and below. FortiSIEM Windows Agent version 4.0.0. FortiSIEM Windows Agent version 3.3.0. FortiSIEM Windows Agent version 3.2.2 and below. FortiSIEM Windows Agent version 3.1.2 and below.\n        ",
+				"text": "\n            FortiSIEM Windows Agent version 4.1.4 and below.FortiSIEM Windows Agent version 4.0.0.FortiSIEM Windows Agent version 3.3.0.FortiSIEM Windows Agent version 3.2.2 and below.FortiSIEM Windows Agent version 3.1.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSIEM Windows Agent version 4.1.5Â or above .\n        ",
+				"text": "\n            Upgrade to FortiSIEM Windows Agent version 4.1.5 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,28 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "<span style=\"font-size:11.0pt;font-family:\"Arial\",sans-serif;"
-			},
-			{
-				"description": "mso-fareast-font-family:\"Times New Roman\";mso-ansi-language:EN-GB;mso-fareast-language:"
-			},
-			{
-				"description": "EN-GB;mso-bidi-language:AR-SA\">Internally discovered and reported by Oleksii"
-			},
-			{
-				"description": "Mandrychenko and Damnjan Nikolic of Fortinet TAC team."
+				"description": "Internally discovered and reported by OleksiiMandrychenko and Damnjan Nikolic of Fortinet TAC team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - privilege escalation by script executionution in Windows Agent",
+		"title": "Privilege escalation by script executionution in Windows Agent",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-176",
-					"description": "FortiSIEM - privilege escalation by script executionution in Windows Agent"
+					"description": "Privilege escalation by script executionution in Windows Agent"
 				}
 			]
 		},
@@ -107,7 +98,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.5",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:C"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
 			}
 		}
 	},

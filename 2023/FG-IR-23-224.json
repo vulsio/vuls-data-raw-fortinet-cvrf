@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Web server ETag exposure",
+	"document_title": "Web server ETag exposure",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Web server ETag exposure",
+		"title": "Web server ETag exposure",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-224",
-					"description": "FortiOS - Web server ETag exposure"
+					"description": "Web server ETag exposure"
 				}
 			]
 		},

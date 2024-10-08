@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient for Windows - Hardcoded credentials in vcm2.exe",
+	"document_title": "Hardcoded credentials in vcm2.exe",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiClientWindows version 7.2.0 through 7.2.1 FortiClientWindows version 7.0.0 through 7.0.9\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiClientWindows version 7.2.2 or above Please upgrade to FortiClientWindows version 7.0.10 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient for Windows - Hardcoded credentials in vcm2.exe",
+		"title": "Hardcoded credentials in vcm2.exe",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-108",
-					"description": "FortiClient for Windows - Hardcoded credentials in vcm2.exe"
+					"description": "Hardcoded credentials in vcm2.exe"
 				}
 			]
 		},

@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiSandbox may allow a remote and authenticated attacker with read permission to retrieve arbitrary files from the underlying Linux system via a crafted HTTP request.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiSandbox may allow a remote and authenticated attacker with read permission to retrieve arbitrary files from the underlying Linux system via a crafted HTTP request.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiSandbox version 4.2.0FortiSandbox version 4.0.0 through 4.0.2FortiSandbox version 3.2.0 through 3.2.3FortiSandbox version 3.0.1 through 3.0.7FortiSandbox 3.1 all versions\n        ",
+				"text": "\n            At least FortiSandbox version 4.2.0 FortiSandbox version 4.0.0 through 4.0.2 FortiSandbox version 3.2.0 through 3.2.3 FortiSandbox version 3.0.1 through 3.0.7 FortiSandbox 3.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},

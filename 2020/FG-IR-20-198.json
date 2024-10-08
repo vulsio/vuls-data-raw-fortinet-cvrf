@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerabilityÂ in FortiSandbox may allow an authenticated attacker with access to the web GUI to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS Command vulnerability in FortiSandbox may allow an authenticated attacker with access to the web GUI to execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox 4.0.0 or above. Upgrade toÂ FortiSandbox 3.2.3 or above. Upgrade to FortiSandbox 3.1.5 or above. Upgrade to FortiSandbox 3.0.7 or above.\n        ",
+				"text": "\n            Upgrade to FortiSandbox 4.0.0 or above. Upgrade to FortiSandbox 3.2.3 or above. Upgrade to FortiSandbox 3.1.5 or above. Upgrade to FortiSandbox 3.0.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

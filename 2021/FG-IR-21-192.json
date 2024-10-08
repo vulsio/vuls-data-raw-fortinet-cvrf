@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient EMS - SAML SSO replay attack",
+	"document_title": "SAML SSO replay attack",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientEMS version 7.0.1 and below. FortiClientEMS version 6.4.4 and below.  \n        ",
+				"text": "\n            FortiClientEMS version 7.0.1 and below.FortiClientEMS version 6.4.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClientEMS version 6.4.7 or above. Please upgrade to FortiClientEMS version 7.0.2 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClientEMS version 6.4.7 or above.Please upgrade to FortiClientEMS version 7.0.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient EMS - SAML SSO replay attack",
+		"title": "SAML SSO replay attack",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-192",
-					"description": "FortiClient EMS - SAML SSO replay attack"
+					"description": "SAML SSO replay attack"
 				}
 			]
 		},

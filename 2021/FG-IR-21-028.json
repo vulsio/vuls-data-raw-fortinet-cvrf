@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Administrative authentication bypass",
+	"document_title": "Administrative authentication bypass",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper authentication vulnerability [CWE-287] in FortiMail may allow a remote attacker to efficiently guess one administrative account's authentication token by means of the observation of certain system's properties.\n        ",
+				"text": "\n            An improper authentication vulnerability [CWE-287] in FortiMail may allow a remote attacker to efficiently guess one administrative account's authentication token by means of the observation of certain system's properties.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,16 +36,22 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail version 7.0.0 and below. FortiMail version 6.4.5 and below. FortiMail version 6.2.7 and below. FortiMail version 6.0.11 and below. FortiMail version 5.4.12 and below.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiMail version 7.0.1. Upgrade to FortiMail version 6.4.6. Upgrade to FortiMail version 6.2.8. Upgrade to FortiMail version 6.0.12.\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiMail version 7.0.0 and below.FortiMail version 6.4.5 and below.FortiMail version 6.2.7 and below.FortiMail version 6.0.11 and below.FortiMail version 5.4.12 and below.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            Upgrade to FortiMail version 7.0.1.Upgrade to FortiMail version 6.4.6.Upgrade to FortiMail version 6.2.8.Upgrade to FortiMail version 6.0.12.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Administrative authentication bypass",
+		"title": "Administrative authentication bypass",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-028",
-					"description": "FortiMail - Administrative authentication bypass"
+					"description": "Administrative authentication bypass"
 				}
 			]
 		},

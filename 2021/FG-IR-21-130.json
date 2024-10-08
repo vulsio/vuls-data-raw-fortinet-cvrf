@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Multiple vulnerabilities in the authentication mechanism of confd",
+	"document_title": "Multiple vulnerabilities in the authentication mechanism of confd",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple vulnerabilities in the authentication mechanism of FortiWeb's confd, including an instance of concurrent execution using shared resource with improper synchronization [CWE-362] and one of authentication bypass by capture-replay [CWE-294], may allow a remote unauthenticated attacker to circumvent the authentication process and authenticate as a legitimate cluster peer.\n        ",
+				"text": "\n            Multiple vulnerabilities in the authentication mechanism of FortiWeb's confd, including an instance of concurrent execution using shared resource with improper synchronization [CWE-362] and one of authentication bypass by capture-replay [CWE-294], may allow a remote unauthenticated attacker to circumvent the authentication process and authenticate as a legitimate cluster peer.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb versions 6.4.1 and below. FortiWeb versions 6.3.15 and below. FortiWeb versions 6.2.6 and below. FortiWeb versions 6.1.2 and below. FortiWeb versions 6.3.15 and below. FortiWeb versions 6.0.7 and below. FortiADC versions 7.0.2 and below. FortiADC versions 6.2.4 and below. FortiADC 6.1, 6.0, 5.4, 5.3, 5.2,5.1,5.0 all versions\n        ",
+				"text": "\n            FortiWeb versions 6.4.1 and below.FortiWeb versions 6.3.15 and below.FortiWeb versions 6.2.6 and below.FortiWeb versions 6.1.2 and below.FortiWeb versions 6.3.15 and below.FortiWeb versions 6.0.7 and below.FortiADC versions 7.0.2 and below.FortiADC versions 6.2.4 and below.FortiADC 6.1, 6.0, 5.4, 5.3, 5.2,5.1,5.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb 7.0.0 or above. Please upgrade to FortiWeb 6.4.2 or above. Please upgrade to FortiWeb 6.3.16 or above.   Please upgrade to FortiADC version 7.1.0 or above Please upgrade to FortiADC version 7.0.3 or above Please upgrade to FortiADC version 6.2.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiWeb 7.0.0 or above.Please upgrade to FortiWeb 6.4.2 or above.Please upgrade to FortiWeb 6.3.16 or above.Please upgrade to FortiADC version 7.1.0 or abovePlease upgrade to FortiADC version 7.0.3 or abovePlease upgrade to FortiADC version 6.2.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,18 +65,18 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Multiple vulnerabilities in the authentication mechanism of confd",
+		"title": "Multiple vulnerabilities in the authentication mechanism of confd",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-130",
-					"description": "FortiWeb - Multiple vulnerabilities in the authentication mechanism of confd"
+					"description": "Multiple vulnerabilities in the authentication mechanism of confd"
 				}
 			]
 		},
 		"cve": [
-			"CVE-tmp-2021-2684"
+			"CVE-2021-41025"
 		],
 		"product_statuses": {
 			"status": {

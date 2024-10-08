@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager / FortiAnalyzer - Authorization bypass via key value controlled by user",
+	"document_title": "Authorization bypass via key value controlled by user",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An authorization bypass through user-controlled key [CWE-639] vulnerability in FortiManager & FortiAnalyzer may allow a remote attacker with low privileges to read sensitive information via crafted HTTP requests.\n        ",
+				"text": "\n            An authorization bypass through user-controlled key [CWE-639] vulnerability in FortiManager & FortiAnalyzer may allow a remote attacker with low privileges to read sensitive information via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            At leastFortiManager version 7.4.0 FortiManager version 7.2.0 through 7.2.3 FortiManager version 7.0.0 through 7.0.9 FortiManager 6.4 all versionsFortiManager 6.2 all versionsFortiAnalyzer version 7.4.0 FortiAnalyzer version 7.2.0 through 7.2.3 FortiAnalyzer version 7.0.0 through 7.0.9 FortiAnalyzer 6.4 all versionsFortiAnalyzer 6.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.10 or above Please upgrade to FortiAnalyzer version 7.4.1 or above Please upgrade to FortiAnalyzer version 7.2.4 or above Please upgrade to FortiAnalyzer version 7.0.10 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiAnalyzer-BigData version 7.0.7 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-201",
-				"description": "FortiManager / FortiAnalyzer - Authorization bypass via key value controlled by user"
+				"description": "Authorization bypass via key value controlled by user"
 			},
 			{
 				"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-x8rp-jfwc-gqqj",
@@ -76,13 +64,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager / FortiAnalyzer - Authorization bypass via key value controlled by user",
+		"title": "Authorization bypass via key value controlled by user",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-201",
-					"description": "FortiManager / FortiAnalyzer - Authorization bypass via key value controlled by user"
+					"description": "Authorization bypass via key value controlled by user"
 				},
 				{
 					"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-x8rp-jfwc-gqqj",
@@ -112,6 +100,7 @@
 					"FortiManager-7.0.2",
 					"FortiManager-7.0.1",
 					"FortiManager-7.0.0",
+					"FortiManager-6.4.14",
 					"FortiManager-6.4.13",
 					"FortiManager-6.4.12",
 					"FortiManager-6.4.11",
@@ -138,49 +127,7 @@
 					"FortiManager-6.2.3",
 					"FortiManager-6.2.2",
 					"FortiManager-6.2.1",
-					"FortiManager-6.2.0",
-					"FortiAnalyzer-7.4.0",
-					"FortiAnalyzer-7.2.3",
-					"FortiAnalyzer-7.2.2",
-					"FortiAnalyzer-7.2.1",
-					"FortiAnalyzer-7.2.0",
-					"FortiAnalyzer-7.0.9",
-					"FortiAnalyzer-7.0.8",
-					"FortiAnalyzer-7.0.7",
-					"FortiAnalyzer-7.0.6",
-					"FortiAnalyzer-7.0.5",
-					"FortiAnalyzer-7.0.4",
-					"FortiAnalyzer-7.0.3",
-					"FortiAnalyzer-7.0.2",
-					"FortiAnalyzer-7.0.1",
-					"FortiAnalyzer-7.0.0",
-					"FortiAnalyzer-6.4.13",
-					"FortiAnalyzer-6.4.12",
-					"FortiAnalyzer-6.4.11",
-					"FortiAnalyzer-6.4.10",
-					"FortiAnalyzer-6.4.9",
-					"FortiAnalyzer-6.4.8",
-					"FortiAnalyzer-6.4.7",
-					"FortiAnalyzer-6.4.6",
-					"FortiAnalyzer-6.4.5",
-					"FortiAnalyzer-6.4.4",
-					"FortiAnalyzer-6.4.3",
-					"FortiAnalyzer-6.4.2",
-					"FortiAnalyzer-6.4.1",
-					"FortiAnalyzer-6.4.0",
-					"FortiAnalyzer-6.2.12",
-					"FortiAnalyzer-6.2.11",
-					"FortiAnalyzer-6.2.10",
-					"FortiAnalyzer-6.2.9",
-					"FortiAnalyzer-6.2.8",
-					"FortiAnalyzer-6.2.7",
-					"FortiAnalyzer-6.2.6",
-					"FortiAnalyzer-6.2.5",
-					"FortiAnalyzer-6.2.4",
-					"FortiAnalyzer-6.2.3",
-					"FortiAnalyzer-6.2.2",
-					"FortiAnalyzer-6.2.1",
-					"FortiAnalyzer-6.2.0"
+					"FortiManager-6.2.0"
 				]
 			}
 		},
@@ -318,6 +265,14 @@
 							"full_product_name": {
 								"text": "FortiManager 7.0.0",
 								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.14",
+								"product_id": "FortiManager-6.4.14"
 							}
 						},
 						{
@@ -534,348 +489,6 @@
 							"full_product_name": {
 								"text": "FortiManager 6.2.0",
 								"product_id": "FortiManager-6.2.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAnalyzer",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.4.0",
-								"product_id": "FortiAnalyzer-7.4.0"
-							}
-						},
-						{
-							"name": "7.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.3",
-								"product_id": "FortiAnalyzer-7.2.3"
-							}
-						},
-						{
-							"name": "7.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.2",
-								"product_id": "FortiAnalyzer-7.2.2"
-							}
-						},
-						{
-							"name": "7.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.1",
-								"product_id": "FortiAnalyzer-7.2.1"
-							}
-						},
-						{
-							"name": "7.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.0",
-								"product_id": "FortiAnalyzer-7.2.0"
-							}
-						},
-						{
-							"name": "7.0.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.9",
-								"product_id": "FortiAnalyzer-7.0.9"
-							}
-						},
-						{
-							"name": "7.0.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.8",
-								"product_id": "FortiAnalyzer-7.0.8"
-							}
-						},
-						{
-							"name": "7.0.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.7",
-								"product_id": "FortiAnalyzer-7.0.7"
-							}
-						},
-						{
-							"name": "7.0.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.6",
-								"product_id": "FortiAnalyzer-7.0.6"
-							}
-						},
-						{
-							"name": "7.0.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.5",
-								"product_id": "FortiAnalyzer-7.0.5"
-							}
-						},
-						{
-							"name": "7.0.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.4",
-								"product_id": "FortiAnalyzer-7.0.4"
-							}
-						},
-						{
-							"name": "7.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.3",
-								"product_id": "FortiAnalyzer-7.0.3"
-							}
-						},
-						{
-							"name": "7.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.2",
-								"product_id": "FortiAnalyzer-7.0.2"
-							}
-						},
-						{
-							"name": "7.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.1",
-								"product_id": "FortiAnalyzer-7.0.1"
-							}
-						},
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.0.0",
-								"product_id": "FortiAnalyzer-7.0.0"
-							}
-						},
-						{
-							"name": "6.4.13",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.13",
-								"product_id": "FortiAnalyzer-6.4.13"
-							}
-						},
-						{
-							"name": "6.4.12",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.12",
-								"product_id": "FortiAnalyzer-6.4.12"
-							}
-						},
-						{
-							"name": "6.4.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.11",
-								"product_id": "FortiAnalyzer-6.4.11"
-							}
-						},
-						{
-							"name": "6.4.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.10",
-								"product_id": "FortiAnalyzer-6.4.10"
-							}
-						},
-						{
-							"name": "6.4.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.9",
-								"product_id": "FortiAnalyzer-6.4.9"
-							}
-						},
-						{
-							"name": "6.4.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.8",
-								"product_id": "FortiAnalyzer-6.4.8"
-							}
-						},
-						{
-							"name": "6.4.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.7",
-								"product_id": "FortiAnalyzer-6.4.7"
-							}
-						},
-						{
-							"name": "6.4.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.6",
-								"product_id": "FortiAnalyzer-6.4.6"
-							}
-						},
-						{
-							"name": "6.4.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.5",
-								"product_id": "FortiAnalyzer-6.4.5"
-							}
-						},
-						{
-							"name": "6.4.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.4",
-								"product_id": "FortiAnalyzer-6.4.4"
-							}
-						},
-						{
-							"name": "6.4.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.3",
-								"product_id": "FortiAnalyzer-6.4.3"
-							}
-						},
-						{
-							"name": "6.4.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.2",
-								"product_id": "FortiAnalyzer-6.4.2"
-							}
-						},
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.1",
-								"product_id": "FortiAnalyzer-6.4.1"
-							}
-						},
-						{
-							"name": "6.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.4.0",
-								"product_id": "FortiAnalyzer-6.4.0"
-							}
-						},
-						{
-							"name": "6.2.12",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.12",
-								"product_id": "FortiAnalyzer-6.2.12"
-							}
-						},
-						{
-							"name": "6.2.11",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.11",
-								"product_id": "FortiAnalyzer-6.2.11"
-							}
-						},
-						{
-							"name": "6.2.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.10",
-								"product_id": "FortiAnalyzer-6.2.10"
-							}
-						},
-						{
-							"name": "6.2.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.9",
-								"product_id": "FortiAnalyzer-6.2.9"
-							}
-						},
-						{
-							"name": "6.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.8",
-								"product_id": "FortiAnalyzer-6.2.8"
-							}
-						},
-						{
-							"name": "6.2.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.7",
-								"product_id": "FortiAnalyzer-6.2.7"
-							}
-						},
-						{
-							"name": "6.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.6",
-								"product_id": "FortiAnalyzer-6.2.6"
-							}
-						},
-						{
-							"name": "6.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.5",
-								"product_id": "FortiAnalyzer-6.2.5"
-							}
-						},
-						{
-							"name": "6.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.4",
-								"product_id": "FortiAnalyzer-6.2.4"
-							}
-						},
-						{
-							"name": "6.2.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.3",
-								"product_id": "FortiAnalyzer-6.2.3"
-							}
-						},
-						{
-							"name": "6.2.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.2",
-								"product_id": "FortiAnalyzer-6.2.2"
-							}
-						},
-						{
-							"name": "6.2.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.1",
-								"product_id": "FortiAnalyzer-6.2.1"
-							}
-						},
-						{
-							"name": "6.2.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 6.2.0",
-								"product_id": "FortiAnalyzer-6.2.0"
 							}
 						}
 					]

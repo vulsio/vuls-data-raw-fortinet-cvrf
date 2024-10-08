@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSwitch - memory leak issue in lldpmedd daemon",
+	"document_title": "Memory leak issue in lldpmedd daemon",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSwitch versions 6.4.6 and below. FortiSwitch versions 6.2.6 and below. FortiSwitch versions 6.0.x FortiSwitch versions 3.6.x\n        ",
+				"text": "\n            FortiSwitch versions 6.4.6 and below.FortiSwitch versions 6.2.6 and below.FortiSwitch versions 6.0.xFortiSwitch versions 3.6.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSwitch 7.0.0. Please upgrade to FortiSwitch version 6.4.7 or above. Please upgrade to FortiSwitch version 6.2.7 or above.\n        ",
+				"text": "\n            Please upgrade to FortiSwitch 7.0.0.Please upgrade to FortiSwitch version 6.4.7 or above.Please upgrade to FortiSwitch version 6.2.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Qian Chen(@cq674350529) of Qihoo 360 Nirvan Team for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Qian Chen of Qihoo 360 Nirvan Team for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSwitch - memory leak issue in lldpmedd daemon",
+		"title": "Memory leak issue in lldpmedd daemon",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-026",
-					"description": "FortiSwitch - memory leak issue in lldpmedd daemon"
+					"description": "Memory leak issue in lldpmedd daemon"
 				}
 			]
 		},
@@ -104,7 +104,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "6.2",
-				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:O/RC:X"
+				"vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:X"
 			}
 		}
 	},

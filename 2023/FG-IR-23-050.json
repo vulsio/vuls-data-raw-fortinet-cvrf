@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - Improper Authorization in request headers",
+	"document_title": "Improper Authorization in request headers",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSOAR version 7.3.0 through 7.3.1\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSOAR version 7.3.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +47,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - Improper Authorization in request headers",
+		"title": "Improper Authorization in request headers",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-050",
-					"description": "FortiSOAR - Improper Authorization in request headers"
+					"description": "Improper Authorization in request headers"
 				}
 			]
 		},
@@ -84,7 +72,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.5",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

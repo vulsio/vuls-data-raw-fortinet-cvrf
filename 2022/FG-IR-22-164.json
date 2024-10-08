@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - Buffer overflow in execute backup-local command",
+	"document_title": "Buffer overflow in execute backup-local command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A stack-based buffer overflow vulnerability [CWE-121] in FortiWeb may allow a privileged attacker to execute arbitrary code or commands via specifically crafted CLI `execute backup-local rename` and `execute backup-local show` operations.\n        ",
+				"text": "\n            A stack-based buffer overflow vulnerability [CWE-121] in FortiWeb may allow a privileged attacker to execute arbitrary code or commands via specifically crafted CLI execute backup-local rename and execute backup-local show operations.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1 FortiWeb version 6.3.6 through 6.3.19 FortiWeb 6.4 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.3.6 through 6.3.19FortiWeb 6.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb version 7.0.2 or above Please upgrade to FortiWeb version 6.3.20 or above\n        ",
+				"text": "\n            Please upgrade to FortiWeb version 7.0.2 or abovePlease upgrade to FortiWeb version 6.3.20 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - Buffer overflow in execute backup-local command",
+		"title": "Buffer overflow in execute backup-local command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-164",
-					"description": "FortiWeb - Buffer overflow in execute backup-local command"
+					"description": "Buffer overflow in execute backup-local command"
 				}
 			]
 		},

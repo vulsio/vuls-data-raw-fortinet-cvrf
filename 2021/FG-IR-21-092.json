@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - Unrestricted file upload vulnerability",
+	"document_title": "Unrestricted file upload vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,22 +24,28 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An unrestricted file upload vulnerability (CWE-434) in the web interface of FortiPortalÂ may allow a low-privileged user to potentially tamper with the underlyingÂ system's files via the upload of specificallyÂ crafted files.\n        ",
+				"text": "\n            An unrestricted file upload vulnerability (CWE-434) in the web interface of FortiPortal may allow a low-privileged user to potentially tamper with the underlying system's files via the upload of specifically crafted files.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            FortiPortal 6.0.4 and below. FortiPortal 5.3.5 and below. FortiPortal 5.2.5 and below. FortiPortal 5.1.2 and below. FortiPortal 5.0.3 and below. FortiPortal 4.2.4 and below. FortiPortal 4.1.2 and below. FortiPortal 4.0.4 and below.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Upgrade to FortiPortal 6.0.5 or above. Upgrade to FortiPortal 5.3.6 or above. Upgrade to FortiPortal 5.2.6 or above. Fix for versions 5.1, 5.0, 4.2, 4.1, 4.0 and 3.2 to be confirmed.\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiPortal 6.0.4 and below.FortiPortal 5.3.5 and below.FortiPortal 5.2.5 and below.FortiPortal 5.1.2 and below.FortiPortal 5.0.3 and below.FortiPortal 4.2.4 and below.FortiPortal 4.1.2 and below.FortiPortal 4.0.4 and below.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            Upgrade to FortiPortal 6.0.5 or above.Upgrade to FortiPortal 5.3.6 or above.Upgrade to FortiPortal 5.2.6 or above.Fix for versions 5.1, 5.0, 4.2, 4.1, 4.0 and 3.2 to be confirmed.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -53,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - Unrestricted file upload vulnerability",
+		"title": "Unrestricted file upload vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-092",
-					"description": "FortiPortal - Unrestricted file upload vulnerability"
+					"description": "Unrestricted file upload vulnerability"
 				}
 			]
 		},

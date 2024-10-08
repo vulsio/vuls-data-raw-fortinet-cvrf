@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+	"document_title": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Impersonation\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiGate version 6.4.2Â to 6.4.4.Â Â FortiGate versions 5.6.x, 6.0.x and 6.2.x, 6.4.0 and 6.4.1 are NOT impacted by this vulnerability.\n        ",
+				"text": "\n            FortiGate version 6.4.2 to 6.4.4.FortiGate versions 5.6.x, 6.0.x and 6.2.x, 6.4.0 and 6.4.1 are NOT impacted by this vulnerability.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate Version 6.4.5 or above. Please upgrade to FortiGate Version 7.0.0.\n        ",
+				"text": "\n            Please upgrade to FortiGate Version 7.0.0.Please upgrade to FortiGate Version 6.4.5 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank MarÃ­a Teresa MuÃ±oz Blanco from Vectoritcgroup for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank María Teresa Muñoz Blanco from Vectoritcgroup for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+		"title": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-018",
-					"description": "FortiOS - Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN"
+					"description": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN"
 				}
 			]
 		},

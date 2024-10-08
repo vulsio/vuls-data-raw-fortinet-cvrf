@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiPortal - XSS observed on policy column settings",
+	"document_title": "XSS observed on policy column settings",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPortal version 6.0.0 through 6.0.11 FortiPortal 5.3 all versions FortiPortal 5.2 all versions FortiPortal 5.1 all versions FortiPortal 5.0 all versions\n        ",
+				"text": "\n            FortiPortal version 6.0.0 through 6.0.11FortiPortal 5.3 all versionsFortiPortal 5.2 all versionsFortiPortal 5.1 all versionsFortiPortal 5.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiPortal - XSS observed on policy column settings",
+		"title": "XSS observed on policy column settings",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-313",
-					"description": "FortiPortal - XSS observed on policy column settings"
+					"description": "XSS observed on policy column settings"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS -- Read-Only users able to modify the Interface fields using the API",
+	"document_title": "Read-Only users able to add/modify the Interface fields using the API",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 FortiOS version 7.0.0 through 7.0.7 FortiOS 6.4 all versions FortiSwitchManager version 7.2.0 through 7.2.1 FortiSwitchManager version 7.0.0 through 7.0.1\n        ",
+				"text": "\n            FortiOS version 7.2.0FortiOS version 7.0.0 through 7.0.7FortiOS 6.4 all versionsFortiSwitchManager version 7.2.0 through 7.2.1FortiSwitchManager version 7.0.0 through 7.0.1\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.2.1 or above Please upgrade to FortiOS version 7.0.8 or above Please upgrade to FortiSwitchManager version 7.2.2 or above Please upgrade to FortiSwitchManager version 7.0.2 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.2.1 or abovePlease upgrade to FortiOS version 7.0.8 or abovePlease upgrade to FortiSwitchManager version 7.2.2 or abovePlease upgrade to FortiSwitchManager version 7.0.2 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS -- Read-Only users able to modify the Interface fields using the API",
+		"title": "Read-Only users able to add/modify the Interface fields using the API",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-174",
-					"description": "FortiOS -- Read-Only users able to modify the Interface fields using the API"
+					"description": "Read-Only users able to add/modify the Interface fields using the API"
 				}
 			]
 		},
@@ -91,6 +91,7 @@
 					"FortiOS-7.0.2",
 					"FortiOS-7.0.1",
 					"FortiOS-7.0.0",
+					"FortiOS-6.4.15",
 					"FortiOS-6.4.14",
 					"FortiOS-6.4.13",
 					"FortiOS-6.4.12",
@@ -106,6 +107,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
+					"FortiSwitchManager-7.2.4",
 					"FortiSwitchManager-7.2.3",
 					"FortiSwitchManager-7.2.2",
 					"FortiSwitchManager-7.2.1",
@@ -201,6 +203,14 @@
 							"full_product_name": {
 								"text": "FortiOS 7.0.0",
 								"product_id": "FortiOS-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.4.15",
+								"product_id": "FortiOS-6.4.15"
 							}
 						},
 						{
@@ -329,6 +339,14 @@
 					"name": "FortiSwitchManager",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitchManager 7.2.4",
+								"product_id": "FortiSwitchManager-7.2.4"
+							}
+						},
 						{
 							"name": "7.2.3",
 							"type": "Product Version",

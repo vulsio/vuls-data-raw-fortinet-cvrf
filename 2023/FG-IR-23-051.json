@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - Server-side Template Injection in playbook execution",
+	"document_title": "Server-side Template Injection in playbook execution",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,22 +36,10 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Information disclosure\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiSOAR version 7.3.0 through 7.3.1\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSOAR version 7.4.0 or above Please upgrade to FortiSOAR version 7.3.2 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - Server-side Template Injection in playbook execution",
+		"title": "Server-side Template Injection in playbook execution",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-051",
-					"description": "FortiSOAR - Server-side Template Injection in playbook execution"
+					"description": "Server-side Template Injection in playbook execution"
 				}
 			]
 		},
@@ -90,7 +78,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.2",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
 			}
 		}
 	},

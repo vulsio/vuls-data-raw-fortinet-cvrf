@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient (Windows) - Arbitrary file deletion from unprivileged users",
+	"document_title": "Arbitrary file deletion from unprivileged users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiClientWindows version 7.0.0 through 7.0.7 FortiClientWindows version 6.4.0 through 6.4.8 FortiClientWindows 6.2 all versionsFortiClientWindows 6.0 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiClientWindows version 7.2.0 or above Please upgrade to FortiClientWindows version 7.0.8 or above Please upgrade to FortiClientWindows version 6.4.9 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient (Windows) - Arbitrary file deletion from unprivileged users",
+		"title": "Arbitrary file deletion from unprivileged users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-299",
-					"description": "FortiClient (Windows) - Arbitrary file deletion from unprivileged users"
+					"description": "Arbitrary file deletion from unprivileged users"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb & FortiADC - OS command injection in CLI",
+	"document_title": "OS command injection in CLI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the command line interpreter of FortiWeb & FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in the command line interpreter of FortiWeb & FortiADC may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.3FortiADC version 7.1.0 through 7.1.1FortiADC version 7.0.0 through 7.0.3FortiADC 6.2 all versionsFortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWeb version 7.2.0 or above Please upgrade to FortiWeb version 7.0.4 or above Please upgrade to FortiADC version 7.2.0 or above Please upgrade to FortiADC version 7.1.2 or above Please upgrade to FortiADC version 7.0.4 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,19 +47,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb & FortiADC - OS command injection in CLI",
+		"title": "OS command injection in CLI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-186",
-					"description": "FortiWeb & FortiADC - OS command injection in CLI"
+					"description": "OS command injection in CLI"
 				}
 			]
 		},
@@ -82,10 +70,6 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
-					"FortiWeb-7.0.3",
-					"FortiWeb-7.0.2",
-					"FortiWeb-7.0.1",
-					"FortiWeb-7.0.0",
 					"FortiADC-7.1.1",
 					"FortiADC-7.1.0",
 					"FortiADC-7.0.3",
@@ -141,7 +125,11 @@
 					"FortiADC-5.1.3",
 					"FortiADC-5.1.2",
 					"FortiADC-5.1.1",
-					"FortiADC-5.1.0"
+					"FortiADC-5.1.0",
+					"FortiWeb-7.0.3",
+					"FortiWeb-7.0.2",
+					"FortiWeb-7.0.1",
+					"FortiWeb-7.0.0"
 				]
 			}
 		},
@@ -157,44 +145,6 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
-				{
-					"name": "FortiWeb",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWeb 7.0.3",
-								"product_id": "FortiWeb-7.0.3"
-							}
-						},
-						{
-							"name": "7.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWeb 7.0.2",
-								"product_id": "FortiWeb-7.0.2"
-							}
-						},
-						{
-							"name": "7.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWeb 7.0.1",
-								"product_id": "FortiWeb-7.0.1"
-							}
-						},
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiWeb 7.0.0",
-								"product_id": "FortiWeb-7.0.0"
-							}
-						}
-					]
-				},
 				{
 					"name": "FortiADC",
 					"type": "Product Name",
@@ -645,6 +595,44 @@
 							"full_product_name": {
 								"text": "FortiADC 5.1.0",
 								"product_id": "FortiADC-5.1.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.3",
+								"product_id": "FortiWeb-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.2",
+								"product_id": "FortiWeb-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.1",
+								"product_id": "FortiWeb-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 7.0.0",
+								"product_id": "FortiWeb-7.0.0"
 							}
 						}
 					]

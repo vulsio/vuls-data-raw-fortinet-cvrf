@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Two distinct spring project vulnerabilities where released recently with critical CVSS score and classified as zero-Day attacks. The two vulnerabilities are currently known as : CVE-2022-22965 or Spring4Shell: A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it. https://tanzu.vmware.com/security/cve-2022-22965 https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html?fbclid=IwAR2fXxKQjG9vnJiOaXyZ1N_Ypx91TOzO6f48qGZRfKRzinYtD5nUCIptIjg&m=1 CVE-2022-22963: In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in access to local resources. https://tanzu.vmware.com/security/cve-2022-22963\n        ",
+				"text": "\n            Two distinct spring project vulnerabilities where released recently with critical CVSS score and classified as zero-Day attacks.The two vulnerabilities are currently known as :CVE-2022-22965 or Spring4Shell:A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.https://tanzu.vmware.com/security/cve-2022-22965https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html?fbclid=IwAR2fXxKQjG9vnJiOaXyZ1N_Ypx91TOzO6f48qGZRfKRzinYtD5nUCIptIjg&m=1 CVE-2022-22963: In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in access to local resources. https://tanzu.vmware.com/security/cve-2022-22963\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSOAR version 6.4.0 through 6.4.4 FortiSOAR version 7.0.0 through 7.0.2 The following products are NOT impacted. FortiOS FortiManager FortiAnalyzer FortiIsolator FortiMail FortiNDR FortiClientWindows FortiClientLinux FortiClientMac FortiClientEMS FortiClientAndroid FortiADC FortiAuthenticator FortiAP FortiAP-C FortiAP-S FortiAP-U FortiAP-W2 FortiDeceptor FortiDDoS FortiDDoS-F FortiExtender FortiRecorder FortiSandbox FortiSIEM FortiTester FortiSwitch FortiVoiceEnterprise FortiWeb FortiWLC FortiWLM Forticonnect FortiConverter FortiInsight FortiPentest FortiPlanner FortiPresence FortiLANCloud FortiNAC FortiPortal FortiAIOps FortiPolicy FortiAnalyzer-BigData FortiEdge FortiCASB FortiEDR\n        ",
+				"text": "\n            FortiSOAR version 6.4.0 through 6.4.4FortiSOAR version 7.0.0 through 7.0.2The following products are NOT impacted.FortiOSFortiManagerFortiAnalyzerFortiIsolatorFortiMailFortiNDRFortiClientWindowsFortiClientLinuxFortiClientMacFortiClientEMSFortiClientAndroidFortiADCFortiAuthenticatorFortiAPFortiAP-CFortiAP-SFortiAP-UFortiAP-W2FortiDeceptorFortiDDoSFortiDDoS-FFortiExtenderFortiRecorderFortiSandboxFortiSIEMFortiTesterFortiSwitchFortiVoiceEnterpriseFortiWebFortiWLCFortiWLMForticonnectFortiConverterFortiInsightFortiPentestFortiPlannerFortiPresenceFortiLANCloudFortiNACFortiPortalFortiAIOpsFortiPolicyFortiAnalyzer-BigDataFortiEdgeFortiCASBFortiEDR\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade FortiSOAR to version 7.2.0 or above OR Please apply the patch provided at [1] for the FortiSOAR product. [1] https://community.fortinet.com/t5/FortiSOAR/Technical-Tip-FortiSOAR-CVE-2022-22965-and-CVE-2022-22963/ta-p/209240\n        ",
+				"text": "\n            Upgrade FortiSOAR to version 7.2.0 or aboveORPlease apply the patch provided at [1] for the FortiSOAR product.[1] https://community.fortinet.com/t5/FortiSOAR/Technical-Tip-FortiSOAR-CVE-2022-22965-and-CVE-2022-22963/ta-p/209240\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -64,7 +64,8 @@
 			]
 		},
 		"cve": [
-			"CVE-2022-22965 and 2022-22963"
+			"CVE-2022-22963",
+			"CVE-2022-22965"
 		],
 		"product_statuses": {
 			"status": {
@@ -83,8 +84,8 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "8.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:U"
+				"base_score_v3": "9.8",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:X/RC:X"
 			}
 		}
 	},

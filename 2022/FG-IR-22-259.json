@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM - Use of a Broken or Risky Cryptographic Algorithm",
+	"document_title": "Use of a Broken or Risky Cryptographic Algorithm",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSIEM version 6.7.0 through 6.7.1 FortiSIEM 6.6 all versions FortiSIEM 6.5 all versions FortiSIEM 6.4 all versions FortiSIEM 6.3 all versions FortiSIEM 6.2 all versions FortiSIEM 6.1 all versions FortiSIEM 5.4 all versions FortiSIEM 5.3 all versions\n        ",
+				"text": "\n            FortiSIEM version 6.7.0 through 6.7.1FortiSIEM 6.6 all versionsFortiSIEM 6.5 all versionsFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM - Use of a Broken or Risky Cryptographic Algorithm",
+		"title": "Use of a Broken or Risky Cryptographic Algorithm",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-259",
-					"description": "FortiSIEM - Use of a Broken or Risky Cryptographic Algorithm"
+					"description": "Use of a Broken or Risky Cryptographic Algorithm"
 				}
 			]
 		},
@@ -84,14 +84,17 @@
 				"product_id": [
 					"FortiSIEM-6.7.1",
 					"FortiSIEM-6.7.0",
+					"FortiSIEM-6.6.5",
 					"FortiSIEM-6.6.4",
 					"FortiSIEM-6.6.3",
 					"FortiSIEM-6.6.2",
 					"FortiSIEM-6.6.1",
 					"FortiSIEM-6.6.0",
+					"FortiSIEM-6.5.3",
 					"FortiSIEM-6.5.2",
 					"FortiSIEM-6.5.1",
 					"FortiSIEM-6.5.0",
+					"FortiSIEM-6.4.4",
 					"FortiSIEM-6.4.3",
 					"FortiSIEM-6.4.2",
 					"FortiSIEM-6.4.1",
@@ -146,6 +149,14 @@
 							}
 						},
 						{
+							"name": "6.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.6.5",
+								"product_id": "FortiSIEM-6.6.5"
+							}
+						},
+						{
 							"name": "6.6.4",
 							"type": "Product Version",
 							"full_product_name": {
@@ -186,6 +197,14 @@
 							}
 						},
 						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.5.3",
+								"product_id": "FortiSIEM-6.5.3"
+							}
+						},
+						{
 							"name": "6.5.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -207,6 +226,14 @@
 							"full_product_name": {
 								"text": "FortiSIEM 6.5.0",
 								"product_id": "FortiSIEM-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 6.4.4",
+								"product_id": "FortiSIEM-6.4.4"
 							}
 						},
 						{

@@ -157,6 +157,7 @@
 					"FortiPAM-1.0.2",
 					"FortiPAM-1.0.1",
 					"FortiPAM-1.0.0",
+					"FortiProxy-7.4.3",
 					"FortiProxy-7.4.2",
 					"FortiProxy-7.4.1",
 					"FortiProxy-7.4.0",
@@ -170,6 +171,7 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.16",
 					"FortiProxy-7.0.15",
 					"FortiProxy-7.0.14",
 					"FortiProxy-7.0.13",
@@ -186,6 +188,7 @@
 					"FortiProxy-7.0.2",
 					"FortiProxy-7.0.1",
 					"FortiProxy-7.0.0",
+					"FortiProxy-2.0.14",
 					"FortiProxy-2.0.13",
 					"FortiProxy-2.0.12",
 					"FortiProxy-2.0.11",
@@ -964,6 +967,14 @@
 					"type": "Product Name",
 					"branch": [
 						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.4.3",
+								"product_id": "FortiProxy-7.4.3"
+							}
+						},
+						{
 							"name": "7.4.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -1065,6 +1076,14 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.16",
+								"product_id": "FortiProxy-7.0.16"
 							}
 						},
 						{
@@ -1193,6 +1212,14 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.0.0",
 								"product_id": "FortiProxy-7.0.0"
+							}
+						},
+						{
+							"name": "2.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 2.0.14",
+								"product_id": "FortiProxy-2.0.14"
 							}
 						},
 						{

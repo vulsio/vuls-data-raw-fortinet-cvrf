@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A security advisory was released affecting a version of the Linux Kernel used in FortiAuthenticator, FortiProxy & FortiSIEM: CVE-2022-0847: A flaw was found in the way the \"flags\" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.\n        ",
+				"text": "\n            A security advisory was released affecting a version of the Linux Kernel used in FortiAuthenticator, FortiProxy & FortiSIEM:CVE-2022-0847:A flaw was found in the way the \"flags\" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAuthenticator version 6.3.0 through 6.3.3 FortiAuthenticator version 6.4.0 through 6.4.1 FortiProxy version 7.0.0 through 7.0.3 FortiSIEM version 6.1.0 through 6.1.2 FortiSIEM version 6.2.0 through 6.2.1 FortiSIEM version 6.3.0 through 6.3.3 FortiSIEM version 6.4.0\n        ",
+				"text": "\n            FortiAuthenticator version 6.3.0 through 6.3.3FortiAuthenticator version 6.4.0 through 6.4.1FortiProxy version 7.0.0 through 7.0.3FortiSIEM version 6.1.0 through 6.1.2FortiSIEM version 6.2.0 through 6.2.1FortiSIEM version 6.3.0 through 6.3.3FortiSIEM version 6.4.0\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAuthenticator version 6.5.0 or above Please upgrade to FortiAuthenticator version 6.4.2 or above Please upgrade to FortiAuthenticator version 6.3.4 or above Please upgrade to FortiProxy version 7.2.0 or above Please upgrade to FortiProxy version 7.0.4 or above Please upgrade to FortiSIEM version 6.5.0 or above Please upgrade to FortiSIEM version 6.4.1 or above\n        ",
+				"text": "\n            Please upgrade to FortiAuthenticator version 6.5.0 or abovePlease upgrade to FortiAuthenticator version 6.4.2 or abovePlease upgrade to FortiAuthenticator version 6.3.4 or abovePlease upgrade to FortiProxy version 7.2.0 or abovePlease upgrade to FortiProxy version 7.0.4 or abovePlease upgrade to FortiSIEM version 6.5.0 or abovePlease upgrade to FortiSIEM version 6.4.1 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -91,6 +91,16 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAuthenticator-6.4.1",
+					"FortiAuthenticator-6.4.0",
+					"FortiAuthenticator-6.3.3",
+					"FortiAuthenticator-6.3.2",
+					"FortiAuthenticator-6.3.1",
+					"FortiAuthenticator-6.3.0",
+					"FortiProxy-7.0.3",
+					"FortiProxy-7.0.2",
+					"FortiProxy-7.0.1",
+					"FortiProxy-7.0.0",
 					"FortiSIEM-6.4.1",
 					"FortiSIEM-6.4.0",
 					"FortiSIEM-6.3.3",
@@ -101,17 +111,7 @@
 					"FortiSIEM-6.2.0",
 					"FortiSIEM-6.1.2",
 					"FortiSIEM-6.1.1",
-					"FortiSIEM-6.1.0",
-					"FortiProxy-7.0.3",
-					"FortiProxy-7.0.2",
-					"FortiProxy-7.0.1",
-					"FortiProxy-7.0.0",
-					"FortiAuthenticator-6.4.1",
-					"FortiAuthenticator-6.4.0",
-					"FortiAuthenticator-6.3.3",
-					"FortiAuthenticator-6.3.2",
-					"FortiAuthenticator-6.3.1",
-					"FortiAuthenticator-6.3.0"
+					"FortiSIEM-6.1.0"
 				]
 			}
 		},
@@ -127,6 +127,98 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.1",
+								"product_id": "FortiAuthenticator-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.0",
+								"product_id": "FortiAuthenticator-6.4.0"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.3.3",
+								"product_id": "FortiAuthenticator-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.3.2",
+								"product_id": "FortiAuthenticator-6.3.2"
+							}
+						},
+						{
+							"name": "6.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.3.1",
+								"product_id": "FortiAuthenticator-6.3.1"
+							}
+						},
+						{
+							"name": "6.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.3.0",
+								"product_id": "FortiAuthenticator-6.3.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.3",
+								"product_id": "FortiProxy-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.2",
+								"product_id": "FortiProxy-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.1",
+								"product_id": "FortiProxy-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.0",
+								"product_id": "FortiProxy-7.0.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiSIEM",
 					"type": "Product Name",
@@ -217,98 +309,6 @@
 							"full_product_name": {
 								"text": "FortiSIEM 6.1.0",
 								"product_id": "FortiSIEM-6.1.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiProxy",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "7.0.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.3",
-								"product_id": "FortiProxy-7.0.3"
-							}
-						},
-						{
-							"name": "7.0.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.2",
-								"product_id": "FortiProxy-7.0.2"
-							}
-						},
-						{
-							"name": "7.0.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.1",
-								"product_id": "FortiProxy-7.0.1"
-							}
-						},
-						{
-							"name": "7.0.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.0",
-								"product_id": "FortiProxy-7.0.0"
-							}
-						}
-					]
-				},
-				{
-					"name": "FortiAuthenticator",
-					"type": "Product Name",
-					"branch": [
-						{
-							"name": "6.4.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.4.1",
-								"product_id": "FortiAuthenticator-6.4.1"
-							}
-						},
-						{
-							"name": "6.4.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.4.0",
-								"product_id": "FortiAuthenticator-6.4.0"
-							}
-						},
-						{
-							"name": "6.3.3",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.3.3",
-								"product_id": "FortiAuthenticator-6.3.3"
-							}
-						},
-						{
-							"name": "6.3.2",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.3.2",
-								"product_id": "FortiAuthenticator-6.3.2"
-							}
-						},
-						{
-							"name": "6.3.1",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.3.1",
-								"product_id": "FortiAuthenticator-6.3.1"
-							}
-						},
-						{
-							"name": "6.3.0",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAuthenticator 6.3.0",
-								"product_id": "FortiAuthenticator-6.3.0"
 							}
 						}
 					]

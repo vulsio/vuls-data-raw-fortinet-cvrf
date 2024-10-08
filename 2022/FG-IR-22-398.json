@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - heap-based buffer overflow in sslvpnd",
+	"document_title": "Heap-based buffer overflow in sslvpnd",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.   Exploitation status: Fortinet is aware of an instance where this vulnerability was exploited in the wild, and recommends immediately validating your systems against the following indicators of compromise:   Multiple log entries with: Logdesc=\"Application crashed\" and msg=\"[...] application:sslvpnd,[...], Signal 11 received, Backtrace: [...]“   Presence of the following artifacts in the filesystem: /data/lib/libips.bak /data/lib/libgif.so /data/lib/libiptcp.so /data/lib/libipudp.so /data/lib/libjepg.so /var/.sslvpnconfigbk /data/etc/wxd.conf /flash   Connections to suspicious IP addresses from the FortiGate: 188.34.130.40:444 103.131.189.143:30080,30081,30443,20443 193.36.119.61:8443,444 172.247.168.153:8033 139.180.184.197 66.42.91.32 158.247.221.101 107.148.27.117 139.180.128.142 155.138.224.122 185.174.136.20   For more information on how to check for the presence of the indicators of compromise above, please visit this Knowledge Base entry, and contact customer support for assistance.   Workaround: Disable SSL-VPN.   Changelog: 2022-12-12: Added  FOS6k/k  2022-12-22: Added FortiProxy 2022-12-27: Corrected typo in IOCs: 192.36.119.61 => 193.36.119.61\n        ",
+				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.## Exploitation status:Fortinet is aware of an instance where this vulnerability was exploited in the wild, and recommends immediately validating your systems against the following indicators of compromise:Multiple log entries with:Logdesc=Application crashed and msg=[...] application:sslvpnd,[...], Signal 11 received, Backtrace: [...] Presence of the following artifacts in the filesystem:/data/lib/libips.bak/data/lib/libgif.so/data/lib/libiptcp.so/data/lib/libipudp.so/data/lib/libjepg.so/var/.sslvpnconfigbk/data/etc/wxd.conf/flash Connections to suspicious IP addresses from the FortiGate:188.34.130.40:444103.131.189.143:30080,30081,30443,20443193.36.119.61:8443,444172.247.168.153:8033139.180.184.19766.42.91.32158.247.221.101107.148.27.117139.180.128.142155.138.224.122185.174.136.20 For more information on how to check for the presence of the indicators of compromise above, please visit this Knowledge Base entry, and contact customer support for assistance. ## Workaround:Disable SSL-VPN.## Changelog:2022-12-12: Added FOS6k/k 2022-12-22: Added FortiProxy2022-12-27: Corrected typo in IOCs: 192.36.119.61 => 193.36.119.61\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.2 FortiOS version 7.0.0 through 7.0.8 FortiOS version 6.4.0 through 6.4.10 FortiOS version 6.2.0 through 6.2.11 FortiOS version 6.0.0 through 6.0.15 FortiOS version 5.6.0 through 5.6.14 FortiOS version 5.4.0 through 5.4.13 FortiOS version 5.2.0 through 5.2.15 FortiOS version 5.0.0 through 5.0.14 FortiOS-6K7K version 7.0.0 through 7.0.7 FortiOS-6K7K version 6.4.0 through 6.4.9 FortiOS-6K7K version 6.2.0 through 6.2.11 FortiOS-6K7K version 6.0.0 through 6.0.14 FortiProxy version 7.2.0 through 7.2.1 FortiProxy version 7.0.0 through 7.0.7 FortiProxy version 2.0.0 through 2.0.11 FortiProxy version 1.2.0 through 1.2.13 FortiProxy version 1.1.0 through 1.1.6 FortiProxy version 1.0.0 through 1.0.7\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.2FortiOS version 7.0.0 through 7.0.8FortiOS version 6.4.0 through 6.4.10FortiOS version 6.2.0 through 6.2.11FortiOS version 6.0.0 through 6.0.15FortiOS version 5.6.0 through 5.6.14FortiOS version 5.4.0 through 5.4.13FortiOS version 5.2.0 through 5.2.15FortiOS version 5.0.0 through 5.0.14FortiOS-6K7K version 7.0.0 through 7.0.7FortiOS-6K7K version 6.4.0 through 6.4.9FortiOS-6K7K version 6.2.0 through 6.2.11FortiOS-6K7K version 6.0.0 through 6.0.14FortiProxy version 7.2.0 through 7.2.1FortiProxy version 7.0.0 through 7.0.7FortiProxy version 2.0.0 through 2.0.11FortiProxy version 1.2.0 through 1.2.13FortiProxy version 1.1.0 through 1.1.6FortiProxy version 1.0.0 through 1.0.7\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.2.3 or above Please upgrade to FortiOS version 7.0.9 or above Please upgrade to FortiOS version 6.4.11 or above Please upgrade to FortiOS version 6.2.12 or above Please upgrade to FortiOS version 6.0.16 or above Please upgrade to upcoming FortiOS-6K7K version 7.0.8 or above Please upgrade to FortiOS-6K7K version 6.4.10 or above Please upgrade to FortiOS-6K7K version 6.2.12 or above Please upgrade to FortiOS-6K7K version 6.0.15 or above Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above Please upgrade to upcoming FortiProxy version 2.0.12 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.2.3 or abovePlease upgrade to FortiOS version 7.0.9 or abovePlease upgrade to FortiOS version 6.4.11 or abovePlease upgrade to FortiOS version 6.2.12 or abovePlease upgrade to FortiOS version 6.0.16 or abovePlease upgrade to upcoming FortiOS-6K7K version 7.0.8 or abovePlease upgrade to FortiOS-6K7K version 6.4.10 or abovePlease upgrade to FortiOS-6K7K version 6.2.12 or abovePlease upgrade to FortiOS-6K7K version 6.0.15 or abovePlease upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or abovePlease upgrade to upcoming FortiProxy version 2.0.12 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - heap-based buffer overflow in sslvpnd",
+		"title": "Heap-based buffer overflow in sslvpnd",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-398",
-					"description": "FortiOS - heap-based buffer overflow in sslvpnd"
+					"description": "Heap-based buffer overflow in sslvpnd"
 				}
 			]
 		},
@@ -244,7 +244,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "9.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
 			}
 		}
 	},

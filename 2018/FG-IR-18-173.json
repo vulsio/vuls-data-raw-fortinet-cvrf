@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS reveals platform information without authentication",
+	"document_title": "Able to retrieve (fweb_all.js) without authentication",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An information exposure vulnerability in FortiOS WEB UI may allow an unauthenticated attacker to gain platform information such as version, via parsing a JavaScript file.\n        ",
+				"text": "\n            An information exposure vulnerability in FortiOS Web UI may allow an unauthenticated attacker to gain platform information such as version, via parsing a JavaScript file.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 6.2.1, 6.2.2, 6.2.4 or above Revision History: 2019-08-08 Initial Version 2020-06-01 Issue reintroduced on 6.2.3 and addressed in 6.2.4 and 6.4.0\n        ",
+				"text": "\n            Upgrade to FortiOS 6.2.1, 6.2.2, 6.2.4 or aboveRevision History:2019-08-08 Initial Version2020-06-01 Issue reintroduced on 6.2.3 and addressed in 6.2.4 and 6.4.0\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS reveals platform information without authentication",
+		"title": "Able to retrieve (fweb_all.js) without authentication",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-173",
-					"description": "FortiOS reveals platform information without authentication"
+					"description": "Able to retrieve (fweb_all.js) without authentication"
 				}
 			]
 		},

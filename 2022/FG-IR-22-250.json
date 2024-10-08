@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - header injection in FortiWeb API",
+	"document_title": "Header injection in FortiWeb API",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of CRLF sequences in HTTP headers ('HTTP Response Splitting') vulnerability [CWE-113] In FortiWeb API may allow an authenticated and remote attacker to inject arbitrary headers.\n        ",
+				"text": "\n            An improper neutralization of CRLF sequences in HTTP headers ('HTTP Response Splitting') vulnerability [CWE-113] In FortiWeb API may allow an authenticated and remote attacker to inject arbitrary headers.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.2FortiWeb version 6.4.0 through 6.4.2FortiWeb version 6.3.6 through 6.3.21\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiWeb version 7.2.0 or above Please upgrade to FortiWeb version 7.0.3 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -59,22 +47,25 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Gwendal GuÃ©gniaud of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - header injection in FortiWeb API",
+		"title": "Header injection in FortiWeb API",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-250",
-					"description": "FortiWeb - header injection in FortiWeb API"
+					"description": "Header injection in FortiWeb API"
 				}
 			]
 		},
+		"cve": [
+			"CVE-2022-42471"
+		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",

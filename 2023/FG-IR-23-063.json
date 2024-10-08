@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNAC - XSS in Show Audit Log",
+	"document_title": "XSS in Show Audit Log",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -14,12 +14,12 @@
 		"revisionhistory": {
 			"revision": {
 				"number": "1",
-				"date": "2024-02-08T00:00:00",
+				"date": "2024-02-13T00:00:00",
 				"description": "Current version"
 			}
 		},
-		"initial_release_date": "2024-02-08T00:00:00",
-		"current_release_date": "2024-02-08T00:00:00"
+		"initial_release_date": "2024-02-13T00:00:00",
+		"current_release_date": "2024-02-13T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiNAC version 9.4.0 through 9.4.3FortiNAC 9.2 all versionsFortiNAC 9.1 all versionsFortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versionsFortiNAC version 7.2.0 through 7.2.2\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiNAC version 9.4.4 or above Please upgrade to FortiNAC version 7.2.3 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNAC - XSS in Show Audit Log",
+		"title": "XSS in Show Audit Log",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-063",
-					"description": "FortiNAC - XSS in Show Audit Log"
+					"description": "XSS in Show Audit Log"
 				}
 			]
 		},

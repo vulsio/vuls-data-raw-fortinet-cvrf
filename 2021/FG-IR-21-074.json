@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Missing certificate CN/SAN validation leads to information disclosure",
+	"document_title": "Missing certificate CN/SAN validation leads to information disclosure",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Missing certificate CN/SAN validation leads to information disclosure",
+		"title": "Missing certificate CN/SAN validation leads to information disclosure",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-074",
-					"description": "FortiOS - Missing certificate CN/SAN validation leads to information disclosure"
+					"description": "Missing certificate CN/SAN validation leads to information disclosure"
 				}
 			]
 		},

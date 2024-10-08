@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiTester - command injection in \"execute restore/backup\" CLI commands",
+	"document_title": "Command injection in \"execute restore/backup\" CLI commands",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -40,18 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            FortiTester 7.2 all versions FortiTester 7.1 all versions FortiTester 7.0 all versions FortiTester 4.2 all versions FortiTester 4.1 all versions FortiTester 4.0 all versions FortiTester 3.9 all versions FortiTester 3.8 all versions FortiTester 3.7 all versions FortiTester 3.6 all versions FortiTester 3.5 all versions FortiTester 3.4 all versions FortiTester 3.3 all versions FortiTester 3.2 all versions FortiTester 3.1 all versions FortiTester 3.0 all versions FortiTester 2.9 all versions FortiTester 2.8 all versions FortiTester 2.7 all versions FortiTester 2.6 all versions FortiTester 2.5 all versions FortiTester 2.4 all versions FortiTester 2.3 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiTester version 7.3.0 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},
@@ -65,13 +53,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiTester - command injection in \"execute restore/backup\" CLI commands",
+		"title": "Command injection in \"execute restore/backup\" CLI commands",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-345",
-					"description": "FortiTester - command injection in \"execute restore/backup\" CLI commands"
+					"description": "Command injection in \"execute restore/backup\" CLI commands"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSOAR - Improper access control on gateway API",
+	"document_title": "Improper access control on gateway API",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability [CWE-284] in FortiSOAR may allow an unauthenticated attacker to access gateway API data via crafted HTTP GET requests.\n        ",
+				"text": "\n            An improper access control vulnerability [CWE-284] in FortiSOAR may allow an unauthenticated attacker to access gateway API data via crafted HTTP GET requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSOAR versions 7.0.2 and below,  FortiSOAR versions 6.4.4 and below, FortiSOAR versions 6.0.0, FortiSOAR versions 5.x.x\n        ",
+				"text": "\n            FortiSOAR versions 7.0.2 and below, FortiSOAR versions 6.4.4 and below,FortiSOAR versions 6.0.0,FortiSOAR versions 5.x.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSOAR version 7.2.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiSOAR version 7.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSOAR - Improper access control on gateway API",
+		"title": "Improper access control on gateway API",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-041",
-					"description": "FortiSOAR - Improper access control on gateway API"
+					"description": "Improper access control on gateway API"
 				}
 			]
 		},

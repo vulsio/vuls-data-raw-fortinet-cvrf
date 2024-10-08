@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.4 FortiWeb version 6.4.0 through 6.4.2 FortiWeb version 6.3.6 through 6.3.21\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.4FortiWeb version 6.4.0 through 6.4.2FortiWeb version 6.3.6 through 6.3.21\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb version 7.0.5 or above. Please upgrade to FortiWeb version 7.2.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiWeb version 7.0.5 or above.Please upgrade to FortiWeb version 7.2.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

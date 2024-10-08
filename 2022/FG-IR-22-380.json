@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS/FortiProxy - Read Only administrator can intercept sensitive data",
+	"document_title": "Read Only administrator can intercept sensitive data",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.4 FortiOS version 7.0.0 through 7.0.8 FortiProxy version 7.2.0 through 7.2.1 FortiProxy version 7.0.0 through 7.0.7\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.4FortiOS version 7.0.0 through 7.0.8FortiProxy version 7.2.0 through 7.2.1FortiProxy version 7.0.0 through 7.0.7\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.9 or above Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.2.5 or abovePlease upgrade to FortiOS version 7.0.9 or abovePlease upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS/FortiProxy - Read Only administrator can intercept sensitive data",
+		"title": "Read Only administrator can intercept sensitive data",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-380",
-					"description": "FortiOS/FortiProxy - Read Only administrator can intercept sensitive data"
+					"description": "Read Only administrator can intercept sensitive data"
 				}
 			]
 		},

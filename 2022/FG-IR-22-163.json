@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb - OS command injection in Web GUI",
+	"document_title": "OS command injection in Web GUI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of special elements used in an os command ('OS Command Injection') [CWE-78] in FortiWeb may allow an authenticated attacker to execute arbitrary shell code as `root` user via crafted HTTP requests.\n        ",
+				"text": "\n            An improper neutralization of special elements used in an os command ('OS Command Injection') [CWE-78] in FortiWeb may allow an authenticated attacker to execute arbitrary shell code as root user via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.3.0 through 6.3.19FortiWeb 6.4 all versions\n        ",
+				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb 6.4 all versionsFortiWeb version 6.3.0 through 6.3.19\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -59,19 +59,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by ThÃ©o Leleu of Fortinet Product Security team."
+				"description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb - OS command injection in Web GUI",
+		"title": "OS command injection in Web GUI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-163",
-					"description": "FortiWeb - OS command injection in Web GUI"
+					"description": "OS command injection in Web GUI"
 				}
 			]
 		},

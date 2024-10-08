@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS SSL VPN web portal Host Header Redirection",
+	"document_title": "SSL VPN web portal Host Header Redirection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 5.2.15, 6.0.5 or 6.2.0 Workarounds: The risk is low as the attack needs to be combined with other attacks to have an impact. As a measure of precaution, administrators may want to disable the SSL-VPN web portal service by applying the following CLI commands: config vpn ssl settings unset source-interface end Revision History: 2019-05-17 Initial version 2020-01-03 New fix on 5.2.15 released.\n        ",
+				"text": "\n            Upgrade to FortiOS 5.2.15, 6.0.5 or 6.2.0Workarounds:The risk is low as the attack needs to be combined with other attacks to have an impact.As a measure of precaution, administrators may want to disable the SSL-VPN web portal service by applying the following CLI commands:config vpn ssl settingsunset source-interfaceendRevision History:2019-05-17 Initial version2020-01-03 New fix on 5.2.15 released.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS SSL VPN web portal Host Header Redirection",
+		"title": "SSL VPN web portal Host Header Redirection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-002",
-					"description": "FortiOS SSL VPN web portal Host Header Redirection"
+					"description": "SSL VPN web portal Host Header Redirection"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiEDR Central Manager - Session API token does not expires after a renewal",
+	"document_title": "Session API token does not expires after a renewal",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,10 +42,16 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiEDR version 5.2.0.2501 or above Please upgrade to FortiEDR version 5.0.3.873 or above\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiEDR version 5.0.0 through 5.0.1\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            Please upgrade to FortiEDR version 5.2.0.2501 or abovePlease upgrade to FortiEDR version 5.0.3.873 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -59,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiEDR Central Manager - Session API token does not expires after a renewal",
+		"title": "Session API token does not expires after a renewal",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-007",
-					"description": "FortiEDR Central Manager - Session API token does not expires after a renewal"
+					"description": "Session API token does not expires after a renewal"
 				}
 			]
 		},

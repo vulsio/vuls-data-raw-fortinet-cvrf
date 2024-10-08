@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager, FortiAnalyzer, FortiPortal & FortiSwitch - Information disclosure through diagnose debug commands",
+	"document_title": "Information disclosure through diagnose debug commands",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiManager version 6.0.0 through 6.0.4 At least FortiAnalyzer version 6.0.0 through 6.0.4 At least FortiPortal 4.1 all versions FortiPortal 4.2 all versions FortiPortal 5.0 all versions FortiPortal 5.1 all versions FortiPortal 5.2 all versions FortiPortal 5.3 all versions FortiPortal version 6.0.0 through 6.0.9 At least FortiSwitch version 6.0.0 through 6.0.7 FortiSwitch version 6.2.0 through 6.2.7 FortiSwitch version 6.4.0 through 6.4.10 FortiSwitch version 7.0.0 through 7.0.4\n        ",
+				"text": "\n            At leastFortiManager version 6.0.0 through 6.0.4At leastFortiAnalyzer version 6.0.0 through 6.0.4At leastFortiPortal 4.1 all versionsFortiPortal 4.2 all versionsFortiPortal 5.0 all versionsFortiPortal 5.1 all versionsFortiPortal 5.2 all versionsFortiPortal 5.3 all versionsFortiPortal version 6.0.0 through 6.0.9At leastFortiSwitch version 6.0.0 through 6.0.7FortiSwitch version 6.2.0 through 6.2.7FortiSwitch version 6.4.0 through 6.4.10FortiSwitch version 7.0.0 through 7.0.4\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiManager version 6.0.5 and above, Upgrade to FortiManager version 6.2.0 and above. Upgrade to FortiAnalyzer version 6.0.5 and above, Upgrade to FortiAnalyzer version 6.2.0 and above. Upgrade to FortiPortal version 6.0.10 and above. Upgrade to FortiSwitch version 6.4.11 and above, Upgrade to FortiSwitch version 7.0.5 and above.\n        ",
+				"text": "\n            Upgrade to FortiManager version 6.0.5 and above,Upgrade to FortiManager version 6.2.0 and above.Upgrade to FortiAnalyzer version 6.0.5 and above,Upgrade to FortiAnalyzer version 6.2.0 and above.Upgrade to FortiPortal version 6.0.10 and above.Upgrade to FortiSwitch version 6.4.11 and above,Upgrade to FortiSwitch version 7.0.5 and above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,13 +59,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager, FortiAnalyzer, FortiPortal & FortiSwitch - Information disclosure through diagnose debug commands",
+		"title": "Information disclosure through diagnose debug commands",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-232",
-					"description": "FortiManager, FortiAnalyzer, FortiPortal & FortiSwitch - Information disclosure through diagnose debug commands"
+					"description": "Information disclosure through diagnose debug commands"
 				}
 			]
 		},
