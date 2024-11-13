@@ -1,0 +1,382 @@
+{
+	"document_title": "missing digital certificate validation",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-22-155"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-11-12T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-11-12T00:00:00",
+		"current_release_date": "2024-11-12T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An improper certificate validation vulnerability [CWE-295] in Fortiportal when connecting to a FortiManager device, a FortiAnalyzer device, or an SMTP server may allow an unauthenticated attacker in a Man-in-the-Middle position to intercept on and tamper with the encrypted communication channel established between the FortiPortal and those endpoints.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Jonas Mellander from Fortinet."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "missing digital certificate validation",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-155",
+					"description": "missing digital certificate validation"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-40590"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiPortal-7.4.0",
+					"FortiPortal-7.2.4",
+					"FortiPortal-7.2.3",
+					"FortiPortal-7.2.2",
+					"FortiPortal-7.2.1",
+					"FortiPortal-7.2.0",
+					"FortiPortal-7.0.8",
+					"FortiPortal-7.0.7",
+					"FortiPortal-7.0.6",
+					"FortiPortal-7.0.5",
+					"FortiPortal-7.0.4",
+					"FortiPortal-7.0.3",
+					"FortiPortal-7.0.2",
+					"FortiPortal-7.0.1",
+					"FortiPortal-7.0.0",
+					"FortiPortal-6.0.15",
+					"FortiPortal-6.0.14",
+					"FortiPortal-6.0.13",
+					"FortiPortal-6.0.12",
+					"FortiPortal-6.0.11",
+					"FortiPortal-6.0.10",
+					"FortiPortal-6.0.9",
+					"FortiPortal-6.0.8",
+					"FortiPortal-6.0.7",
+					"FortiPortal-6.0.6",
+					"FortiPortal-6.0.5",
+					"FortiPortal-6.0.4",
+					"FortiPortal-6.0.3",
+					"FortiPortal-6.0.2",
+					"FortiPortal-6.0.1",
+					"FortiPortal-6.0.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "4.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:P/RL:U/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.4.0",
+								"product_id": "FortiPortal-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.4",
+								"product_id": "FortiPortal-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.3",
+								"product_id": "FortiPortal-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.2",
+								"product_id": "FortiPortal-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.1",
+								"product_id": "FortiPortal-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.2.0",
+								"product_id": "FortiPortal-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.8",
+								"product_id": "FortiPortal-7.0.8"
+							}
+						},
+						{
+							"name": "7.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.7",
+								"product_id": "FortiPortal-7.0.7"
+							}
+						},
+						{
+							"name": "7.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.6",
+								"product_id": "FortiPortal-7.0.6"
+							}
+						},
+						{
+							"name": "7.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.5",
+								"product_id": "FortiPortal-7.0.5"
+							}
+						},
+						{
+							"name": "7.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.4",
+								"product_id": "FortiPortal-7.0.4"
+							}
+						},
+						{
+							"name": "7.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.3",
+								"product_id": "FortiPortal-7.0.3"
+							}
+						},
+						{
+							"name": "7.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.2",
+								"product_id": "FortiPortal-7.0.2"
+							}
+						},
+						{
+							"name": "7.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.1",
+								"product_id": "FortiPortal-7.0.1"
+							}
+						},
+						{
+							"name": "7.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 7.0.0",
+								"product_id": "FortiPortal-7.0.0"
+							}
+						},
+						{
+							"name": "6.0.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.15",
+								"product_id": "FortiPortal-6.0.15"
+							}
+						},
+						{
+							"name": "6.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.14",
+								"product_id": "FortiPortal-6.0.14"
+							}
+						},
+						{
+							"name": "6.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.13",
+								"product_id": "FortiPortal-6.0.13"
+							}
+						},
+						{
+							"name": "6.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.12",
+								"product_id": "FortiPortal-6.0.12"
+							}
+						},
+						{
+							"name": "6.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.11",
+								"product_id": "FortiPortal-6.0.11"
+							}
+						},
+						{
+							"name": "6.0.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.10",
+								"product_id": "FortiPortal-6.0.10"
+							}
+						},
+						{
+							"name": "6.0.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.9",
+								"product_id": "FortiPortal-6.0.9"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.8",
+								"product_id": "FortiPortal-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.7",
+								"product_id": "FortiPortal-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.6",
+								"product_id": "FortiPortal-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.5",
+								"product_id": "FortiPortal-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.4",
+								"product_id": "FortiPortal-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.3",
+								"product_id": "FortiPortal-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.2",
+								"product_id": "FortiPortal-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.1",
+								"product_id": "FortiPortal-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 6.0.0",
+								"product_id": "FortiPortal-6.0.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
