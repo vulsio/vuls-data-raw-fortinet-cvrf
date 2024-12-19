@@ -1,0 +1,202 @@
+{
+	"document_title": "[FortiWLM] Unauthenticated limited file read vulnerability",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-23-144"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2024-12-18T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2024-12-18T00:00:00",
+		"current_release_date": "2024-12-18T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            A relative path traversal [CWE-23] in FortiWLM may allow a remote unauthenticated attacker to read sensitive files.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank security researcher Zach Hanley (@hacks_zach) of Horizon3.ai for discovering and reporting this vulnerability under responsible disclosure."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "[FortiWLM] Unauthenticated limited file read vulnerability",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-144",
+					"description": "[FortiWLM] Unauthenticated limited file read vulnerability"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2023-34990"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiWLM-8.6.5",
+					"FortiWLM-8.6.4",
+					"FortiWLM-8.6.3",
+					"FortiWLM-8.6.2",
+					"FortiWLM-8.6.1",
+					"FortiWLM-8.6.0",
+					"FortiWLM-8.5.4",
+					"FortiWLM-8.5.3",
+					"FortiWLM-8.5.2",
+					"FortiWLM-8.5.1",
+					"FortiWLM-8.5.0"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "9.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiWLM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.5",
+								"product_id": "FortiWLM-8.6.5"
+							}
+						},
+						{
+							"name": "8.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.4",
+								"product_id": "FortiWLM-8.6.4"
+							}
+						},
+						{
+							"name": "8.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.3",
+								"product_id": "FortiWLM-8.6.3"
+							}
+						},
+						{
+							"name": "8.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.2",
+								"product_id": "FortiWLM-8.6.2"
+							}
+						},
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.1",
+								"product_id": "FortiWLM-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.6.0",
+								"product_id": "FortiWLM-8.6.0"
+							}
+						},
+						{
+							"name": "8.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.4",
+								"product_id": "FortiWLM-8.5.4"
+							}
+						},
+						{
+							"name": "8.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.3",
+								"product_id": "FortiWLM-8.5.3"
+							}
+						},
+						{
+							"name": "8.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.2",
+								"product_id": "FortiWLM-8.5.2"
+							}
+						},
+						{
+							"name": "8.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.1",
+								"product_id": "FortiWLM-8.5.1"
+							}
+						},
+						{
+							"name": "8.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.5.0",
+								"product_id": "FortiWLM-8.5.0"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
