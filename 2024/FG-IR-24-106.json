@@ -1,0 +1,220 @@
+{
+	"document_title": "Out-of-bounds Write in sndproxy",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-24-106"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2025-01-14T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2025-01-14T00:00:00",
+		"current_release_date": "2025-01-14T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An out-of-bounds write vulnerability [CWE-787] in FortiManager and FortiAnalyzer sndproxy daemon may allow an authenticated attacker to execute arbitrary code or commands via specially crafted HTTP requests.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Escalation of privilege\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Out-of-bounds Write in sndproxy",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-106",
+					"description": "Out-of-bounds Write in sndproxy"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-35273"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAnalyzer-7.4.3",
+					"FortiAnalyzer-7.4.2",
+					"FortiAnalyzer-7.4.1",
+					"FortiAnalyzer-7.4.0",
+					"FortiAnalyzer Cloud-7.4.2",
+					"FortiAnalyzer Cloud-7.4.1",
+					"FortiManager-7.4.2",
+					"FortiManager-7.4.1",
+					"FortiManager-7.4.0",
+					"FortiManager Cloud-7.4.2",
+					"FortiManager Cloud-7.4.1"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "7.0",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAnalyzer",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.4.3",
+								"product_id": "FortiAnalyzer-7.4.3"
+							}
+						},
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.4.2",
+								"product_id": "FortiAnalyzer-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.4.1",
+								"product_id": "FortiAnalyzer-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.4.0",
+								"product_id": "FortiAnalyzer-7.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAnalyzer Cloud",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer Cloud 7.4.2",
+								"product_id": "FortiAnalyzer Cloud-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer Cloud 7.4.1",
+								"product_id": "FortiAnalyzer Cloud-7.4.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.4.2",
+								"product_id": "FortiManager-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.4.1",
+								"product_id": "FortiManager-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.4.0",
+								"product_id": "FortiManager-7.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager Cloud",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager Cloud 7.4.2",
+								"product_id": "FortiManager Cloud-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager Cloud 7.4.1",
+								"product_id": "FortiManager Cloud-7.4.1"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
