@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS Vulnerability in Disclaimer Description of a Replacement Message in FortiWeb",
+	"document_title": "XSS Vulnerability observed when editing the Replacement Message",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS Vulnerability in Disclaimer Description of a Replacement Message in FortiWeb",
+		"title": "XSS Vulnerability observed when editing the Replacement Message",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-001",
-					"description": "XSS Vulnerability in Disclaimer Description of a Replacement Message in FortiWeb"
+					"description": "XSS Vulnerability observed when editing the Replacement Message"
 				}
 			]
 		},

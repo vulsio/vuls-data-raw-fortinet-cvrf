@@ -1,5 +1,5 @@
 {
-	"document_title": "SSL VPN buffer overrun when parsing javascript href content",
+	"document_title": "[FortiOS] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of service, Remote Code Execution\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "SSL VPN buffer overrun when parsing javascript href content",
+		"title": "[FortiOS] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-388",
-					"description": "SSL VPN buffer overrun when parsing javascript href content"
+					"description": "[FortiOS] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages"
 				}
 			]
 		},

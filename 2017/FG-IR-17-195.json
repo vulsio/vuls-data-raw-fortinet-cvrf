@@ -1,5 +1,5 @@
 {
-	"document_title": "IPMI network LAN interface failover operational risk",
+	"document_title": "Supermicro will try to use other port if the IPMI is not connected",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Potential Unauthorized Access to the IPMI interface\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "IPMI network LAN interface failover operational risk",
+		"title": "Supermicro will try to use other port if the IPMI is not connected",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-195",
-					"description": "IPMI network LAN interface failover operational risk"
+					"description": "Supermicro will try to use other port if the IPMI is not connected"
 				}
 			]
 		},

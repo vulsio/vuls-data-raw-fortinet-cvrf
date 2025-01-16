@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS SSL VPN webportal user credentials present in plain text in client side javascript file",
+	"document_title": "Password is sent to Client side",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An information disclosure vulnerability exists in the SSL-VPN web portal of FortiOS: when pages bookmarked in the web portal use the Single sign-on (SSO) feature, the user's webportal's login and password are included in a javascript file sent client-side.The leaked credential may potentially be captured by an attacker if additional session handling, access control or cross-site scripting vulnerabilities were to be discovered in the SSL-VPN web portal, or in the applications within (or in case of client-side vulnerabilities, in the user's browser).\n        ",
+				"text": "\n            An information disclosure vulnerability exists in the SSL-VPN webportal of FortiOS: when pages bookmarked in the webportal use the Single sign-on (SSO) feature, the user's webportal's login and password are included in a javascript file sent client-side.The leaked credential may potentially be captured by an attacker if additional session handling, access control or cross-site scripting vulnerabilities were to be discovered in the SSL-VPN webportal, or in the applications within (or in case of client-side vulnerabilities, in the user's browser).\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS SSL VPN webportal user credentials present in plain text in client side javascript file",
+		"title": "Password is sent to Client side",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-027",
-					"description": "FortiOS SSL VPN webportal user credentials present in plain text in client side javascript file"
+					"description": "Password is sent to Client side"
 				}
 			]
 		},
@@ -134,7 +134,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

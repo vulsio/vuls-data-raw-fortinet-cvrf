@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS URL redirection attack via the admin password change page",
+	"document_title": "Invalidated Redirect to a Malicious Site through Admin Password Change Page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS URL redirection attack via the admin password change page",
+		"title": "Invalidated Redirect to a Malicious Site through Admin Password Change Page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-179",
-					"description": "FortiOS URL redirection attack via the admin password change page"
+					"description": "Invalidated Redirect to a Malicious Site through Admin Password Change Page"
 				}
 			]
 		},

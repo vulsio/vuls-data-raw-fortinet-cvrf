@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient Use of Hard-coded Cryptographic Key",
+	"document_title": "FCT Use of Hard-coded Cryptographic Key",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient Use of Hard-coded Cryptographic Key",
+		"title": "FCT Use of Hard-coded Cryptographic Key",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-194",
-					"description": "FortiClient Use of Hard-coded Cryptographic Key"
+					"description": "FCT Use of Hard-coded Cryptographic Key"
 				}
 			]
 		},

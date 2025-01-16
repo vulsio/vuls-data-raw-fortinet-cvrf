@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient SSLVPN Linux - Arbitrary write to log file",
+	"document_title": "FortiClient SSLVPN Linux - Arbitrary Write to forticlientsslvpn.log file",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Potential execution of unauthorized code or commands\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient SSLVPN Linux - Arbitrary write to log file",
+		"title": "FortiClient SSLVPN Linux - Arbitrary Write to forticlientsslvpn.log file",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-069",
-					"description": "FortiClient SSLVPN Linux - Arbitrary write to log file"
+					"description": "FortiClient SSLVPN Linux - Arbitrary Write to forticlientsslvpn.log file"
 				}
 			]
 		},

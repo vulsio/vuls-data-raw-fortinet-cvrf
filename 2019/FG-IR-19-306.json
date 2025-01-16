@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in the URL of the FortiGateCloud Login Page",
+	"document_title": "[FortiCloud] XSS in the URL of the FortiCloud Login Page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Johnatan Camargo fromÂ PBI | Dynamic IT Security for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Johnatan Camargo from PBI | Dynamic IT Security for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in the URL of the FortiGateCloud Login Page",
+		"title": "[FortiCloud] XSS in the URL of the FortiCloud Login Page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-306",
-					"description": "XSS vulnerability in the URL of the FortiGateCloud Login Page"
+					"description": "[FortiCloud] XSS in the URL of the FortiCloud Login Page"
 				}
 			]
 		},

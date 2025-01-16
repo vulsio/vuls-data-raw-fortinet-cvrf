@@ -1,5 +1,5 @@
 {
-	"document_title": "Authentication bypass in FortiWAN",
+	"document_title": "FortiWAN authentication bypass and code execution as root",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -47,13 +47,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Authentication bypass in FortiWAN",
+		"title": "FortiWAN authentication bypass and code execution as root",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-048",
-					"description": "Authentication bypass in FortiWAN"
+					"description": "FortiWAN authentication bypass and code execution as root"
 				}
 			]
 		},

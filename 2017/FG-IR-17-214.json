@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient insecure VPN credential storage and encryption",
+	"document_title": "FortiClient insecure VPN credential storage",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            In certain conditions, FortiClient users' VPN credentials are stored in improperly secured locations and unsafely encrypted.[CVE-2017-14184]When the FortiClient \"Save Password\" feature is enabled (disabled by default), and when users make use of it, FortiClient for Linux, Mac OSX and Windows stores encrypted VPN authentication credentials in improperly secured locations; users sharingÂ the same workstation may therefore be able to see each other's encrypted credentials.[CVE-2017-17543]Users' VPN authentication credentials are unsafely encrypted in multiple FortiClient distributions, due to the use of a static encryption key and weak encryption algorithms.\n        ",
+				"text": "\n            In certain conditions, FortiClient users' VPN credentials are stored in improperly secured locations and unsafely encrypted.[CVE-2017-14184]When the FortiClient \"Save Password\" feature is enabled (disabled by default), and when users make use of it, FortiClient for Linux, Mac OSX and Windows stores encrypted VPN authentication credentials in improperly secured locations; users sharing the same workstation may therefore be able to see each other's encrypted credentials.[CVE-2017-17543]Users' VPN authentication credentials are unsafely encrypted in multiple FortiClient distributions, due to the use of a static encryption key and weak encryption algorithms.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-214",
-				"description": "FortiClient insecure VPN credential storage and encryption"
+				"description": "FortiClient insecure VPN credential storage"
 			},
 			{
 				"url": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient insecure VPN credential storage and encryption",
+		"title": "FortiClient insecure VPN credential storage",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-214",
-					"description": "FortiClient insecure VPN credential storage and encryption"
+					"description": "FortiClient insecure VPN credential storage"
 				},
 				{
 					"url": "https://www.sec-consult.com/en/blog/advisories/vpn-credentials-disclosure-in-fortinet-forticlient/index.html",

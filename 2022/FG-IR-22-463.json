@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.12 or above Please upgrade to FortiOS version 6.4.13 or above Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above\n        ",
+				"text": "\n            Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.5 or above Please upgrade to FortiOS version 7.0.12 or above Please upgrade to FortiOS version 6.4.13 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-07-09T00:00:00",
-		"current_release_date": "2024-07-09T00:00:00"
+		"current_release_date": "2024-09-06T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -83,6 +89,8 @@
 					"FortiOS-7.2.2",
 					"FortiOS-7.2.1",
 					"FortiOS-7.2.0",
+					"FortiOS-7.0.17",
+					"FortiOS-7.0.16",
 					"FortiOS-7.0.15",
 					"FortiOS-7.0.14",
 					"FortiOS-7.0.13",
@@ -103,6 +111,8 @@
 					"FortiProxy-7.4.2",
 					"FortiProxy-7.4.1",
 					"FortiProxy-7.4.0",
+					"FortiProxy-7.2.13",
+					"FortiProxy-7.2.12",
 					"FortiProxy-7.2.11",
 					"FortiProxy-7.2.10",
 					"FortiProxy-7.2.9",
@@ -115,6 +125,8 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.20",
+					"FortiProxy-7.0.19",
 					"FortiProxy-7.0.18",
 					"FortiProxy-7.0.17",
 					"FortiProxy-7.0.16",
@@ -255,6 +267,22 @@
 							"full_product_name": {
 								"text": "FortiOS 7.2.0",
 								"product_id": "FortiOS-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.17",
+								"product_id": "FortiOS-7.0.17"
+							}
+						},
+						{
+							"name": "7.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.16",
+								"product_id": "FortiOS-7.0.16"
 							}
 						},
 						{
@@ -424,6 +452,22 @@
 							}
 						},
 						{
+							"name": "7.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.2.13",
+								"product_id": "FortiProxy-7.2.13"
+							}
+						},
+						{
+							"name": "7.2.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.2.12",
+								"product_id": "FortiProxy-7.2.12"
+							}
+						},
+						{
 							"name": "7.2.11",
 							"type": "Product Version",
 							"full_product_name": {
@@ -517,6 +561,22 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.20",
+								"product_id": "FortiProxy-7.0.20"
+							}
+						},
+						{
+							"name": "7.0.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.19",
+								"product_id": "FortiProxy-7.0.19"
 							}
 						},
 						{

@@ -1,5 +1,5 @@
 {
-	"document_title": "BranchScope: New CPU Side-Channel Attack",
+	"document_title": "BranchScope: A New Side-Channel Attack on Directional Branch Predictor",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,28 +24,34 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A new side-channel attack that takes advantage of the speculative execution feature of modern processors to recover data from targeted users' CPUs has been disclosed (http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf). It targets the \"branch prediction\" operations —which is the same part of a CPU speculative execution process as the one targeted by \"Spectre variant 2\". However, while \"Spectre 2\" exploits the Branch Target Buffer (BTB), BranchScope exploits the Directional Branch Predictor (DBP).\n        ",
+				"text": "\n            A new side-channel attack that takes advantage of the speculative execution feature of modern processors to recover data from targeted users' CPUs has been disclosed (http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf). It targets the \"branch prediction\" operations -which is the same part of a CPU speculative execution process as the one targeted by \"Spectre variant 2\". However, while \"Spectre 2\" exploits the Branch Target Buffer (BTB), BranchScope exploits the Directional Branch Predictor (DBP).\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure, Privilege Escalation\n        ",
-				"title": "Impact",
+				"text": "\n            None\n        ",
+				"title": "Description",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Fortinet is aware of the disclosure of the BranchScope vulnerability and has performed an initial assessment of its relevance to Fortinet products. Fortinet is aware of the disclosure of the BranchScope vulnerability and has performed an initial assessment of its relevance to Fortinet products. Fortinet is aware of the disclosure of the BranchScope vulnerability and has performed an initial assessment of its relevance to Fortinet products. Fortinet is aware of the disclosure of the BranchScope vulnerability and has performed an initial assessment of its relevance to Fortinet products. That initial assessment shows that BranchScope is similar to the Spectre attack variant 2, and the following product may run affected processors: That initial assessment shows that BranchScope is similar to the Spectre attack variant 2, and the following product may run affected processors: That initial assessment shows that BranchScope is similar to the Spectre attack variant 2, and the following product may run affected processors: That initial assessment shows that BranchScope is similar to the Spectre attack variant 2, and the following product may run affected processors: FortiOS FortiOS FortiOS FortiOS FortiAP FortiAP FortiAP FortiAP FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiSwitch FortiSwitch FortiSwitch FortiSwitch In any case, that does not mean, however, that these products are exploitable. See details in \"Solutions\" below. In any case, that does not mean, however, that these products are exploitable. See details in \"Solutions\" below. In any case, that does not mean, however, that these products are exploitable. See details in \"Solutions\" below. In any case, that does not mean, however, that these products are exploitable. See details in \"Solutions\" below.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Information disclosure\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            As the aforementioned products, by design, do not allow arbitrary code to run in user space, another (unrelated to BranchScope) remote or local code execution vulnerability against our products would be needed to leverage this attack; such a code execution vulnerability would actually be more severe than the BranchScope vulnerability itself. We are not aware of such a vulnerability on the aforementioned products. To reduce the possibility of the existence of a \"local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is recommended. Furthermore, the information contained in the initial disclosure document shows that only 3 types of Intel x86_64 processors - Sandy Bridge, Haswell, and Skylake - were proven to be successfully exploitable by BranchScope. FortiOS users can check the CPU model of their unit by running the following CLI command: # get hardware status Model name: FortiGate-XXX CPU: {CPU model info} If the CPU model info is not among the processors mentioned above, then the risk for the FortiGate appliance is even lower. Note also that: * There is no PoC attack code disclosed at the moment. * Intel has not issued any official disclaimer. * Fortinet PSIRT will continue to monitor the possible further developments regarding the BranchScope vulnerability, and update this document if needed. Update History: 04-02-2018 Initial assessment. As the aforementioned products, by design, do not allow arbitrary code to run in user space, another (unrelated to BranchScope) remote or local code execution vulnerability against our products would be needed to leverage this attack; such a code execution vulnerability would actually be more severe than the BranchScope vulnerability itself. We are not aware of such a vulnerability on the aforementioned products. To reduce the possibility of the existence of a \"local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is recommended. Furthermore, the information contained in the initial disclosure document shows that only 3 types of Intel x86_64 processors - Sandy Bridge, Haswell, and Skylake - were proven to be successfully exploitable by BranchScope. FortiOS users can check the CPU model of their unit by running the following CLI command: # get hardware status Model name: FortiGate-XXX CPU: {CPU model info} If the CPU model info is not among the processors mentioned above, then the risk for the FortiGate appliance is even lower. Note also that: * There is no PoC attack code disclosed at the moment. * Intel has not issued any official disclaimer. * Fortinet PSIRT will continue to monitor the possible further developments regarding the BranchScope vulnerability, and update this document if needed. Update History: 04-02-2018 Initial assessment. As the aforementioned products, by design, do not allow arbitrary code to run in user space, another (unrelated to BranchScope) remote or local code execution vulnerability against our products would be needed to leverage this attack; such a code execution vulnerability would actually be more severe than the BranchScope vulnerability itself. We are not aware of such a vulnerability on the aforementioned products. To reduce the possibility of the existence of a \"local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is recommended. Furthermore, the information contained in the initial disclosure document shows that only 3 types of Intel x86_64 processors - Sandy Bridge, Haswell, and Skylake - were proven to be successfully exploitable by BranchScope. FortiOS users can check the CPU model of their unit by running the following CLI command: # get hardware status Model name: FortiGate-XXX CPU: {CPU model info} If the CPU model info is not among the processors mentioned above, then the risk for the FortiGate appliance is even lower. Note also that: * There is no PoC attack code disclosed at the moment. * Intel has not issued any official disclaimer. * Fortinet PSIRT will continue to monitor the possible further developments regarding the BranchScope vulnerability, and update this document if needed. Update History: 04-02-2018 Initial assessment. As the aforementioned products, by design, do not allow arbitrary code to run in user space, another (unrelated to BranchScope) remote or local code execution vulnerability against our products would be needed to leverage this attack; such a code execution vulnerability would actually be more severe than the BranchScope vulnerability itself. We are not aware of such a vulnerability on the aforementioned products. To reduce the possibility of the existence of a \"local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is recommended. Furthermore, the information contained in the initial disclosure document shows that only 3 types of Intel x86_64 processors - Sandy Bridge, Haswell, and Skylake - were proven to be successfully exploitable by BranchScope. FortiOS users can check the CPU model of their unit by running the following CLI command: # get hardware status Model name: FortiGate-XXX CPU: {CPU model info} If the CPU model info is not among the processors mentioned above, then the risk for the FortiGate appliance is even lower. Note also that: * There is no PoC attack code disclosed at the moment. * Intel has not issued any official disclaimer. * Fortinet PSIRT will continue to monitor the possible further developments regarding the BranchScope vulnerability, and update this document if needed. Update History: 04-02-2018 Initial assessment.\n        ",
-				"title": "Solutions",
+				"text": "\n            Fortinet is aware of the disclosure of the BranchScope vulnerability and has performed an initial assessment of its relevance to Fortinet products.That initial assessment shows that BranchScope is similar to the Spectre attack variant 2, and the following product may run affected processors:FortiOSFortiAPFortiAnalyzerFortiSwitchIn any case, that does not mean, however, that these products are exploitable. See details in \"Solutions\" below.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            As the aforementioned products, by design, do not allow arbitrary code to run in user space, another (unrelated to BranchScope) remote or local code execution vulnerability against our products would be needed to leverage this attack; such a code execution vulnerability would actually be more severe than the BranchScope vulnerability itself. We are not aware of such a vulnerability on the aforementioned products. To reduce the possibility of the existence of a \"local or remote code execution vulnerability\" (as referred to above), upgrading to our latest publicly available software version is recommended. Furthermore, the information contained in the initial disclosure document shows that only 3 types of Intel x86_64 processors - Sandy Bridge, Haswell, and Skylake - were proven to be successfully exploitable by BranchScope. FortiOS users can check the CPU model of their unit by running the following CLI command: # get hardware status Model name: FortiGate-XXX CPU: {CPU model info} If the CPU model info is not among the processors mentioned above, then the risk for the FortiGate appliance is even lower. Note also that: * There is no PoC attack code disclosed at the moment. * Intel has not issued any official disclaimer. * Fortinet PSIRT will continue to monitor the possible further developments regarding the BranchScope vulnerability, and update this document if needed. Update History: 04-02-2018 Initial assessment.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -53,28 +59,28 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-067",
-				"description": "BranchScope: New CPU Side-Channel Attack"
+				"description": "BranchScope: A New Side-Channel Attack on Directional Branch Predictor"
 			},
 			{
-				"url": "http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf",
-				"description": "http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf"
+				"url": "<p>http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf</p>",
+				"description": "<p>http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf</p>"
 			}
 		]
 	},
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "BranchScope: New CPU Side-Channel Attack",
+		"title": "BranchScope: A New Side-Channel Attack on Directional Branch Predictor",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-067",
-					"description": "BranchScope: New CPU Side-Channel Attack"
+					"description": "BranchScope: A New Side-Channel Attack on Directional Branch Predictor"
 				},
 				{
-					"url": "http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf",
-					"description": "http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf"
+					"url": "<p>http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf</p>",
+					"description": "<p>http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf</p>"
 				}
 			]
 		},
@@ -94,6 +100,23 @@
 					"FortiAnalyzer-6.4.2",
 					"FortiAnalyzer-6.4.1",
 					"FortiAnalyzer-6.4.0",
+					"FortiMail-6.2.9",
+					"FortiMail-6.2.8",
+					"FortiMail-6.2.7",
+					"FortiMail-6.2.6",
+					"FortiMail-6.2.5",
+					"FortiMail-6.2.4",
+					"FortiManager-6.4.10",
+					"FortiManager-6.4.9",
+					"FortiManager-6.4.8",
+					"FortiManager-6.4.7",
+					"FortiManager-6.4.6",
+					"FortiManager-6.4.5",
+					"FortiManager-6.4.4",
+					"FortiManager-6.4.3",
+					"FortiManager-6.4.2",
+					"FortiManager-6.4.1",
+					"FortiManager-6.4.0",
 					"FortiOS-6.4.11",
 					"FortiOS-6.4.10",
 					"FortiOS-6.4.9",
@@ -117,14 +140,33 @@
 					"FortiSwitch-6.4.4",
 					"FortiSwitch-6.4.3",
 					"FortiSwitch-6.4.2",
-					"FortiSwitch-6.4.1"
+					"FortiSwitch-6.4.1",
+					"FortiWeb-6.3.21",
+					"FortiWeb-6.3.20",
+					"FortiWeb-6.3.19",
+					"FortiWeb-6.3.18",
+					"FortiWeb-6.3.17",
+					"FortiWeb-6.3.16",
+					"FortiWeb-6.3.15",
+					"FortiWeb-6.3.14",
+					"FortiWeb-6.3.13",
+					"FortiWeb-6.3.12",
+					"FortiWeb-6.3.11",
+					"FortiWeb-6.3.10",
+					"FortiWeb-6.3.9",
+					"FortiWeb-6.3.8",
+					"FortiWeb-6.3.7",
+					"FortiWeb-6.3.6",
+					"FortiWeb-6.3.5",
+					"FortiWeb-6.3.4",
+					"FortiWeb-6.3.3",
+					"FortiWeb-6.3.2"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "0",
-				"vector_v3": "CVSS:3.1/N\\A"
+				"base_score_v3": "0"
 			}
 		}
 	},
@@ -237,6 +279,154 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 6.4.0",
 								"product_id": "FortiAnalyzer-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.9",
+								"product_id": "FortiMail-6.2.9"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.8",
+								"product_id": "FortiMail-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.7",
+								"product_id": "FortiMail-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.6",
+								"product_id": "FortiMail-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.5",
+								"product_id": "FortiMail-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.2.4",
+								"product_id": "FortiMail-6.2.4"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.10",
+								"product_id": "FortiManager-6.4.10"
+							}
+						},
+						{
+							"name": "6.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.9",
+								"product_id": "FortiManager-6.4.9"
+							}
+						},
+						{
+							"name": "6.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.8",
+								"product_id": "FortiManager-6.4.8"
+							}
+						},
+						{
+							"name": "6.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.7",
+								"product_id": "FortiManager-6.4.7"
+							}
+						},
+						{
+							"name": "6.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.6",
+								"product_id": "FortiManager-6.4.6"
+							}
+						},
+						{
+							"name": "6.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.5",
+								"product_id": "FortiManager-6.4.5"
+							}
+						},
+						{
+							"name": "6.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.4",
+								"product_id": "FortiManager-6.4.4"
+							}
+						},
+						{
+							"name": "6.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.3",
+								"product_id": "FortiManager-6.4.3"
+							}
+						},
+						{
+							"name": "6.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.2",
+								"product_id": "FortiManager-6.4.2"
+							}
+						},
+						{
+							"name": "6.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.1",
+								"product_id": "FortiManager-6.4.1"
+							}
+						},
+						{
+							"name": "6.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.0",
+								"product_id": "FortiManager-6.4.0"
 							}
 						}
 					]
@@ -441,6 +631,172 @@
 							"full_product_name": {
 								"text": "FortiSwitch 6.4.1",
 								"product_id": "FortiSwitch-6.4.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.3.21",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.21",
+								"product_id": "FortiWeb-6.3.21"
+							}
+						},
+						{
+							"name": "6.3.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.20",
+								"product_id": "FortiWeb-6.3.20"
+							}
+						},
+						{
+							"name": "6.3.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.19",
+								"product_id": "FortiWeb-6.3.19"
+							}
+						},
+						{
+							"name": "6.3.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.18",
+								"product_id": "FortiWeb-6.3.18"
+							}
+						},
+						{
+							"name": "6.3.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.17",
+								"product_id": "FortiWeb-6.3.17"
+							}
+						},
+						{
+							"name": "6.3.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.16",
+								"product_id": "FortiWeb-6.3.16"
+							}
+						},
+						{
+							"name": "6.3.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.15",
+								"product_id": "FortiWeb-6.3.15"
+							}
+						},
+						{
+							"name": "6.3.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.14",
+								"product_id": "FortiWeb-6.3.14"
+							}
+						},
+						{
+							"name": "6.3.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.13",
+								"product_id": "FortiWeb-6.3.13"
+							}
+						},
+						{
+							"name": "6.3.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.12",
+								"product_id": "FortiWeb-6.3.12"
+							}
+						},
+						{
+							"name": "6.3.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.11",
+								"product_id": "FortiWeb-6.3.11"
+							}
+						},
+						{
+							"name": "6.3.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.10",
+								"product_id": "FortiWeb-6.3.10"
+							}
+						},
+						{
+							"name": "6.3.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.9",
+								"product_id": "FortiWeb-6.3.9"
+							}
+						},
+						{
+							"name": "6.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.8",
+								"product_id": "FortiWeb-6.3.8"
+							}
+						},
+						{
+							"name": "6.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.7",
+								"product_id": "FortiWeb-6.3.7"
+							}
+						},
+						{
+							"name": "6.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.6",
+								"product_id": "FortiWeb-6.3.6"
+							}
+						},
+						{
+							"name": "6.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.5",
+								"product_id": "FortiWeb-6.3.5"
+							}
+						},
+						{
+							"name": "6.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.4",
+								"product_id": "FortiWeb-6.3.4"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.3",
+								"product_id": "FortiWeb-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.2",
+								"product_id": "FortiWeb-6.3.2"
 							}
 						}
 					]

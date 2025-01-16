@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -87,6 +93,7 @@
 					"FortiAnalyzer-6.4.2",
 					"FortiAnalyzer-6.4.1",
 					"FortiAnalyzer-6.4.0",
+					"FortiAnalyzer-6.2.13",
 					"FortiAnalyzer-6.2.12",
 					"FortiAnalyzer-6.2.11",
 					"FortiAnalyzer-6.2.10",
@@ -136,6 +143,7 @@
 					"FortiManager-6.4.2",
 					"FortiManager-6.4.1",
 					"FortiManager-6.4.0",
+					"FortiManager-6.2.13",
 					"FortiManager-6.2.12",
 					"FortiManager-6.2.11",
 					"FortiManager-6.2.10",
@@ -363,6 +371,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 6.4.0",
 								"product_id": "FortiAnalyzer-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.13",
+								"product_id": "FortiAnalyzer-6.2.13"
 							}
 						},
 						{
@@ -761,6 +777,14 @@
 							"full_product_name": {
 								"text": "FortiManager 6.4.0",
 								"product_id": "FortiManager-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.13",
+								"product_id": "FortiManager-6.2.13"
 							}
 						},
 						{

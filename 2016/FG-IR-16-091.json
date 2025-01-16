@@ -1,5 +1,5 @@
 {
-	"document_title": "Blacknurse ICMP DoS attack",
+	"document_title": "Blacknurse ICMP 3/3 attack",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Configuring a DoS rate limiter for ICMP in FortiOS with the default rate effectively disables the attack, should the target be the FortiGate itself, or any device it protects. This can for instance be done in CLI mode, with the following commands: config firewall DoS-policy edit 0 set status enable set interface \"wan1\" set srcaddr \"all\" set dstaddr \"all\" set service \"ALL\" config anomaly edit icmp_flood set action block next end next end Or in the GUI, via the menu Policy&Objects -> IPv4 DoS Policy -> Create New. Then choose the interface, src address, dst address, service and set the ICMP_FLOOD button to \"Block\". FortiDDoS will also protect itself or devices sitting behind it, automatically (see https://blog.fortinet.com/2016/11/14/black-nurse-ddos-attack-power-of-granular-packet-inspection-of-fortiddos-with-unpredictable-ddos-attacks for more details).\n        ",
+				"text": "\n            Configuring a DoS rate limiter for ICMP in FortiOS with the default rate effectively disables the attack, should the target be the FortiGate itself, or any device it protects.This can for instance be done in CLI mode, with the following commands:config firewall DoS-policy edit 0 set status enable set interface \"wan1\" set srcaddr \"all\" set dstaddr \"all\" set service \"ALL\" config anomaly edit icmp_flood set action block next end nextendOr in the GUI, via the menu Policy&Objects -> IPv4 DoS Policy -> Create New. Then choose the interface, src address, dst address, service and set the ICMP_FLOOD button to \"Block\".FortiDDoS will also protect itself or devices sitting behind it, automatically (see https://blog.fortinet.com/2016/11/14/black-nurse-ddos-attack-power-of-granular-packet-inspection-of-fortiddos-with-unpredictable-ddos-attacks for more details).\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,7 +59,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-091",
-				"description": "Blacknurse ICMP DoS attack"
+				"description": "Blacknurse ICMP 3/3 attack"
 			},
 			{
 				"url": "http://blacknurse.dk/",
@@ -70,13 +70,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Blacknurse ICMP DoS attack",
+		"title": "Blacknurse ICMP 3/3 attack",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-091",
-					"description": "Blacknurse ICMP DoS attack"
+					"description": "Blacknurse ICMP 3/3 attack"
 				},
 				{
 					"url": "http://blacknurse.dk/",

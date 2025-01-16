@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager TLS certificate validation failure",
+	"document_title": "FMG - FGT tunnel security vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Credentials exposure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager TLS certificate validation failure",
+		"title": "FMG - FGT tunnel security vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-055",
-					"description": "FortiManager TLS certificate validation failure"
+					"description": "FMG - FGT tunnel security vulnerability"
 				}
 			]
 		},

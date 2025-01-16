@@ -1,5 +1,5 @@
 {
-	"document_title": "Clear-text insertion of user's passwords into log files",
+	"document_title": "FortiADCManager - plain text password in a log file when an admin user create a new user",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiADCManager versions 5.3.0 and below. FortiADCManager versions 5.2.1 and below. FortiADC versions 5.3.7 and below.\n        ",
+				"text": "\n            FortiADCManager versions 5.3.0 and below.FortiADCManager versions 5.2.1 and below.FortiADC versions 5.3.7 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADCManager versions 5.4.0 or above.Â Please upgrade to FortiADC versions 5.4.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiADCManager versions 5.4.0 or above.Please upgrade to FortiADC versions 5.4.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Danilo Costa for reporting this vulnerability under responsible disclosure"
+				"description": "Fortinet is pleased to thank Danilo Costa from PBI Dynamic IT Security for reporting this vulnerability under responsible disclosure"
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Clear-text insertion of user's passwords into log files",
+		"title": "FortiADCManager - plain text password in a log file when an admin user create a new user",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-244",
-					"description": "Clear-text insertion of user's passwords into log files"
+					"description": "FortiADCManager - plain text password in a log file when an admin user create a new user"
 				}
 			]
 		},
@@ -85,7 +85,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

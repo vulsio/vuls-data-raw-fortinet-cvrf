@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb is vulnerable to a  Format string vulnerability",
+	"document_title": "[FortiWeb] Format string vulnerability found on multiple paths",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A format string vulnerability in FortiWeb may allow an authenticated, remote attacker to read the content of memory and retrieve sensitive data via the redir parameter.\n        ",
+				"text": "\n            A format string vulnerability in FortiWeb may allow an authenticated, remote attacker to read the content of memory and retrieve sensitive data through the redir parameter.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb is vulnerable to a  Format string vulnerability",
+		"title": "[FortiWeb] Format string vulnerability found on multiple paths",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-123",
-					"description": "FortiWeb is vulnerable to a  Format string vulnerability"
+					"description": "[FortiWeb] Format string vulnerability found on multiple paths"
 				}
 			]
 		},

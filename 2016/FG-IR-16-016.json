@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to:FortiManagerÂ 5.4.1 and above5.2.6 and above5.0.12 and aboveFortiAnalyzerÂ 5.4.1 and above5.2.6 and above5.0.13 and above\n        ",
+				"text": "\n            Upgrade to:FortiManagerÃ‚Â 5.4.1 and above5.2.6 and above5.0.12 and aboveFortiAnalyzerÃ‚Â 5.4.1 and above5.2.6 and above5.0.13 and above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Â"
+				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Ã‚Â"
 			}
 		]
 	},

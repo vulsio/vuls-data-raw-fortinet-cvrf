@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAuthenticator - Hard-coded cryptographic keys used to encrypt sensitive data",
+	"document_title": "[FortiAuthenticator & FortiInsight] Symmetric encryption keys for debug logs, config files and users passwords are the same among all appliances",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAuthenticator - Hard-coded cryptographic keys used to encrypt sensitive data",
+		"title": "[FortiAuthenticator & FortiInsight] Symmetric encryption keys for debug logs, config files and users passwords are the same among all appliances",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-049",
-					"description": "FortiAuthenticator - Hard-coded cryptographic keys used to encrypt sensitive data"
+					"description": "[FortiAuthenticator & FortiInsight] Symmetric encryption keys for debug logs, config files and users passwords are the same among all appliances"
 				}
 			]
 		},

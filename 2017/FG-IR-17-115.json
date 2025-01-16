@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLM upgrade user account hard-coded credentials",
+	"document_title": "CVE-2017-7336 WLM hardcoded account named upgrade",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Hardcoded credentials\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLM upgrade user account hard-coded credentials",
+		"title": "CVE-2017-7336 WLM hardcoded account named upgrade",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-115",
-					"description": "FortiWLM upgrade user account hard-coded credentials"
+					"description": "CVE-2017-7336 WLM hardcoded account named upgrade"
 				}
 			]
 		},

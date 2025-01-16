@@ -1,5 +1,5 @@
 {
-	"document_title": "Improper Authorization vulnerability in FortiADC",
+	"document_title": "FortiADC does not verify user's permissions",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Improper Authorization vulnerability in FortiADC",
+		"title": "FortiADC does not verify user's permissions",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-013",
-					"description": "Improper Authorization vulnerability in FortiADC"
+					"description": "FortiADC does not verify user's permissions"
 				}
 			]
 		},

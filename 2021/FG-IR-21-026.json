@@ -54,7 +54,8 @@
 		"acknowledgment": [
 			{
 				"description": "Fortinet is pleased to thank Qian Chen of Qihoo 360 Nirvan Team for reporting this vulnerability under responsible disclosure."
-			}
+			},
+			{}
 		]
 	},
 	"vulnerability": {

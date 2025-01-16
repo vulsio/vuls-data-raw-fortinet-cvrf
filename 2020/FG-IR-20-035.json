@@ -1,5 +1,5 @@
 {
-	"document_title": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips",
+	"document_title": "Kr00k -- CVE-2019-15126 and CVE-2020-3072",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAP-U version 6.0.2 and below. Meru AP version 8.5.1 and below. Meru AP version 8.4.6 and below.\n        ",
+				"text": "\n            FortiAP-U version 6.0.2 and below.Meru AP version 8.5.1 and below.Meru AP version 8.4.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAP-U version 6.0.3 or above. Please upgrade to Meru AP version 8.5.2 or above. Please upgrade to Meru AP version 8.4.7 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAP-U version 6.0.3 or above.Please upgrade to Meru AP version 8.5.2 or above.Please upgrade to Meru AP version 8.4.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-035",
-				"description": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips"
+				"description": "Kr00k -- CVE-2019-15126 and CVE-2020-3072"
 			},
 			{
 				"url": "https://www.eset.com/int/kr00k/",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips",
+		"title": "Kr00k -- CVE-2019-15126 and CVE-2020-3072",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-035",
-					"description": "Kr00k vulnerability (CVE-2019-15126) in Broadcom and Cypress Wi-Fi chips"
+					"description": "Kr00k -- CVE-2019-15126 and CVE-2020-3072"
 				},
 				{
 					"url": "https://www.eset.com/int/kr00k/",
@@ -97,7 +97,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "9.8",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
 			}
 		}
 	},

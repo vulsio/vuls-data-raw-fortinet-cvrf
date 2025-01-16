@@ -1,5 +1,5 @@
 {
-	"document_title": "Information disclosure through diagnose debug commands in FortiWeb",
+	"document_title": "Information disclosure through diagnose debug commands when user change the password",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Information disclosure through diagnose debug commands in FortiWeb",
+		"title": "Information disclosure through diagnose debug commands when user change the password",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-269",
-					"description": "Information disclosure through diagnose debug commands in FortiWeb"
+					"description": "Information disclosure through diagnose debug commands when user change the password"
 				}
 			]
 		},
@@ -87,7 +87,10 @@
 			}
 		},
 		"cvss_scoresets": {
-			"scoreset_v3": {}
+			"scoreset_v3": {
+				"base_score_v3": "5.4",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:U/RL:X/RC:X"
+			}
 		}
 	},
 	"product_tree": {

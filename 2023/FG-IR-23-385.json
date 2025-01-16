@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2023-11-14T00:00:00",
-		"current_release_date": "2023-11-14T00:00:00"
+		"current_release_date": "2023-11-07T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -103,6 +103,8 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
+					"FortiProxy-7.0.20",
+					"FortiProxy-7.0.19",
 					"FortiProxy-7.0.18",
 					"FortiProxy-7.0.17",
 					"FortiProxy-7.0.16",
@@ -455,6 +457,22 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.20",
+								"product_id": "FortiProxy-7.0.20"
+							}
+						},
+						{
+							"name": "7.0.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.0.19",
+								"product_id": "FortiProxy-7.0.19"
 							}
 						},
 						{

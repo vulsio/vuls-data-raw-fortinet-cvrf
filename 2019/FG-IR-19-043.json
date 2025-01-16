@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS multiple pre-authentication Information Disclosure",
+	"document_title": "I know About your FortiGate",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            * HTTP Server Header Information Disclosure: FortiOS all versions before 6.0.4* Admin web portal builtin certificate Information Disclosure:FortiOS all versions before 6.2.3 when using builtin certificate as admin web portal server certificate * Application Control Violation error message Information Disclosure:FortiOS 6.0.1, 6.0.0, 5.6.6 and below\n        ",
+				"text": "\n            HTTP Server Header Information Disclosure: FortiOS all versions before 6.0.4 Admin web portal builtin certificate Information Disclosure:FortiOS all versions before 6.2.3 when using builtin certificate as admin web portal server certificate Application Control Violation error message Information Disclosure:FortiOS 6.0.1, 6.0.0, 5.6.6 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            * HTTP Server Header Information Disclosure: Upgrade to FortiOS versions 6.0.4 or above. * Admin web portal builtin certificate Information Disclosure Upgrade to FortiOS 6.2.3 or later versions [*] [*] For hardware FortiOS models, When upgrading from older versions to FortiOS 6.2.3 and self-signed certificates are used, admins need to re-apply the self-signed certificates (choose another cert and change back to self-signed) after the upgrade. This upgrading issue does not impact FortiOS VM models and is addressed in FortiOS 6.2.4. To verify the operation succeeded, set self-sign as admin webUI server certificate and read the cert detail through the web browser - the CN should be \"FortiGate\" instead the SN of the FortiGate device. * Application Control Violation error message Information Disclosure: Upgrade to FortiOS 5.6.6, 6.0.2 or later versions Workarounds: * HTTP Server Header Information Disclosure: Limit admin web portal access to local network only. * Admin web portal builtin certificate Information Disclosure: Upload and use a 3rd party signed certificate as admin web portal server certificate or Limit admin web portal access to local network only. * Application Control Violation error message Information Disclosure: Refer to https://fortiguard.com/psirt/FG-IR-18-085 Revision History: 2019-03-29 Initial release 2019-10-17 Fix the admin webUI builtin certificate SN leak issue.\n        ",
+				"text": "\n            HTTP Server Header Information Disclosure:Upgrade to FortiOS versions 6.0.4 or above. Admin web portal builtin certificate Information DisclosureUpgrade to FortiOS 6.2.3 or later versions [][] For hardware FortiOS models, When upgrading from older versions to FortiOS 6.2.3 and self-signed certificates are used, admins need to re-apply the self-signed certificates (choose another cert and change back to self-signed) after the upgrade. This upgrading issue does not impact FortiOS VM models and is addressed in FortiOS 6.2.4.To verify the operation succeeded, set self-sign as admin webUI server certificate and read the cert detail through the web browser - the CN should be \"FortiGate\" instead the SN of the FortiGate device. Application Control Violation error message Information Disclosure:Upgrade to FortiOS 5.6.6, 6.0.2 or later versionsWorkarounds: HTTP Server Header Information Disclosure:Limit admin web portal access to local network only. Admin web portal builtin certificate Information Disclosure:Upload and use a 3rd party signed certificate as admin web portal server certificate orLimit admin web portal access to local network only. * Application Control Violation error message Information Disclosure:Refer to https://fortiguard.com/psirt/FG-IR-18-085Revision History:2019-03-29 Initial release2019-10-17 Fix the admin webUI builtin certificate SN leak issue.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS multiple pre-authentication Information Disclosure",
+		"title": "I know About your FortiGate",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-043",
-					"description": "FortiOS multiple pre-authentication Information Disclosure"
+					"description": "I know About your FortiGate"
 				}
 			]
 		},

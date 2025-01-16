@@ -1,5 +1,5 @@
 {
-	"document_title": "SSL VPN Web Portal user credentials may be leaked to super_admins",
+	"document_title": "[CVE-2017-7738] sslvpn web portal user credentials leaking through fnsysctl CLI cmd",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Jean-Noel Meurisse, Solvay S.A. for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Jean-Noël Meurisse, Solvay S.A. for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "SSL VPN Web Portal user credentials may be leaked to super_admins",
+		"title": "[CVE-2017-7738] sslvpn web portal user credentials leaking through fnsysctl CLI cmd",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-172",
-					"description": "SSL VPN Web Portal user credentials may be leaked to super_admins"
+					"description": "[CVE-2017-7738] sslvpn web portal user credentials leaking through fnsysctl CLI cmd"
 				}
 			]
 		},
@@ -107,7 +107,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

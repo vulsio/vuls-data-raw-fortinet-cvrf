@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGate SSL VPN web portal login redir XSS vulnerability",
+	"document_title": "FortiGate SSL VPN Portal XSS Vulnerability 'redir'@/remote/loginredir",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS), URL Redirection Attack\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-242",
-				"description": "FortiGate SSL VPN web portal login redir XSS vulnerability"
+				"description": "FortiGate SSL VPN Portal XSS Vulnerability 'redir'@/remote/loginredir"
 			},
 			{
 				"url": "https://www.sec-consult.com/en/blog/advisories/fortigate-ssl-vpn-portal-xss-vulnerability/index.html",
@@ -64,19 +64,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Stefan ViehbÃ¶ck from SEC Consult Vulnerability Lab, Dan Taler from Content Security Pty Ltd, Sage Data Security, Julio Sanchez from SecureAuth Corporation and Meh Chang and Orange Tsai from DEVCORE Security Research Team for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Stefan Viehböck from SEC Consult Vulnerability Lab, Dan Taler from Content Security Pty Ltd, Sage Data Security, Julio Sanchez from SecureAuth Corporation and Meh Chang and Orange Tsai from DEVCORE Security Research Team for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGate SSL VPN web portal login redir XSS vulnerability",
+		"title": "FortiGate SSL VPN Portal XSS Vulnerability 'redir'@/remote/loginredir",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-242",
-					"description": "FortiGate SSL VPN web portal login redir XSS vulnerability"
+					"description": "FortiGate SSL VPN Portal XSS Vulnerability 'redir'@/remote/loginredir"
 				},
 				{
 					"url": "https://www.sec-consult.com/en/blog/advisories/fortigate-ssl-vpn-portal-xss-vulnerability/index.html",

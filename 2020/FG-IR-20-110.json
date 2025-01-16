@@ -1,5 +1,5 @@
 {
-	"document_title": "Privilege escalation vulnerability in FortiClient for Linux",
+	"document_title": "Root privilege escalation in FortiClient Linux",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Privilege Escalation\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Privilege escalation vulnerability in FortiClient for Linux",
+		"title": "Root privilege escalation in FortiClient Linux",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-110",
-					"description": "Privilege escalation vulnerability in FortiClient for Linux"
+					"description": "Root privilege escalation in FortiClient Linux"
 				}
 			]
 		},

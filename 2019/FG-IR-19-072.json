@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in FortiClientEMS",
+	"document_title": "XSS vulnerability in EMS User Input, Name",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in FortiClientEMS",
+		"title": "XSS vulnerability in EMS User Input, Name",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-072",
-					"description": "XSS vulnerability in FortiClientEMS"
+					"description": "XSS vulnerability in EMS User Input, Name"
 				}
 			]
 		},

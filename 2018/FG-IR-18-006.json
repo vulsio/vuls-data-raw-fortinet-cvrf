@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager XSS vulnerability when view config under Revision History",
+	"document_title": "FortiManager XSS vuln. when view config under Revision History",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A potential Cross-site Scripting (XSS) vulnerability exists in FortiManager: Displayed data is not sanitized when an administrator views the managed devices configuration, in the installation revision history of the GUI.The risk of successful exploitation is however low, because injection of malicious code needs to happen in the managed deviceâ€™s CLI configurations, which are generally trusted.\n        ",
+				"text": "\n            A potential Cross-site Scripting (XSS) vulnerability exists in FortiManager: Displayed data is not sanitized when an administrator views the managed devices configuration, in the installation revision history of the GUI.The risk of successful exploitation is however low, because injection of malicious code needs to happen in the managed device’s CLI configurations, which are generally trusted.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager XSS vulnerability when view config under Revision History",
+		"title": "FortiManager XSS vuln. when view config under Revision History",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-006",
-					"description": "FortiManager XSS vulnerability when view config under Revision History"
+					"description": "FortiManager XSS vuln. when view config under Revision History"
 				}
 			]
 		},
@@ -98,7 +98,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

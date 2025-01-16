@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy - Unauthenticated SSL VPN users password modification",
+	"document_title": "[FortiProxy] SSL VPN account hijack (unauthorized modification of users passwords)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,13 +30,13 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy version 2.0.0FortiProxy versions 1.2.8 and below. FortiProxy versions 1.1.6 and below. FortiProxy versions 1.0.7 and below.\n        ",
+				"text": "\n            FortiProxy versions 2.0.0FortiProxy versions 1.2.8 and below.FortiProxy versions 1.1.6 and below.FortiProxy versions 1.0.7 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy - Unauthenticated SSL VPN users password modification",
+		"title": "[FortiProxy] SSL VPN account hijack (unauthorized modification of users passwords)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-231",
-					"description": "FortiProxy - Unauthenticated SSL VPN users password modification"
+					"description": "[FortiProxy] SSL VPN account hijack (unauthorized modification of users passwords)"
 				}
 			]
 		},

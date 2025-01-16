@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in the Description Area of the Admin Profile",
+	"document_title": "[FortiAnalyzer] XSS observed in the Description Area of the Admin Profile",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAnalyzer version 6.2.3 and below.\n        ",
+				"text": "\n            FortiAnalyzer version 6.2.3 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 6.2.4 or above.Please upgrade to FortiAnalyzer version 6.4.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAnalyzer version 6.2.4 or abovePlease upgrade to FortiAnalyzer version 6.4.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in the Description Area of the Admin Profile",
+		"title": "[FortiAnalyzer] XSS observed in the Description Area of the Admin Profile",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-003",
-					"description": "XSS vulnerability in the Description Area of the Admin Profile"
+					"description": "[FortiAnalyzer] XSS observed in the Description Area of the Admin Profile"
 				}
 			]
 		},
@@ -83,7 +83,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "4",
+				"base_score_v3": "4.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:F/RL:X/RC:X"
 			}
 		}

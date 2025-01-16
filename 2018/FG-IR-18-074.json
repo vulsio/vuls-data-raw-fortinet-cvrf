@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Nikhil Kumar: https://www.linkedin.com/in/nikhil73 from Adayptus Security Team: https://adayptus.com for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Nikhil Kumar (https://www.linkedin.com/in/nikhil73/) from Adayptus Security Team (https://adayptus.com/) for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
@@ -85,7 +85,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.2",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

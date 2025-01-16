@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLC - Hardcoded root password",
+	"document_title": "[FortiWLC] Shell access as root (undocumented shell command)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWLC versions 8.6.0 or above. Please upgrade to FortiWLC versions 8.5.3 or above.\n        ",
+				"text": "\n            Please upgrade to FortiWLC versions 8.6.0 or above.Please upgrade to FortiWLC versions 8.5.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLC - Hardcoded root password",
+		"title": "[FortiWLC] Shell access as root (undocumented shell command)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-147",
-					"description": "FortiWLC - Hardcoded root password"
+					"description": "[FortiWLC] Shell access as root (undocumented shell command)"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)",
+	"document_title": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Breaking RSA encryption\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -47,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249",
-				"description": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)"
+				"description": "ROCA: Vulnerable RSA generation (CVE-2017-15361)"
 			},
 			{
 				"url": "https://www.kb.cert.org/vuls/id/307015\n",
@@ -62,13 +62,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)",
+		"title": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249",
-					"description": "ROCA: Vulnerable RSA key pairs generation (CVE-2017-15361)"
+					"description": "ROCA: Vulnerable RSA generation (CVE-2017-15361)"
 				},
 				{
 					"url": "https://www.kb.cert.org/vuls/id/307015\n",

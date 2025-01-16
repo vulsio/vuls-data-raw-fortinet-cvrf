@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM is vulnerable to a CSRF attack",
+	"document_title": "[FortiSiem] CSRF vulnerability in FortiSiem",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Execute Unauthorized Code or Commands\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 5.2.6 or above.\n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 5.2.6 and above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM is vulnerable to a CSRF attack",
+		"title": "[FortiSiem] CSRF vulnerability in FortiSiem",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-240",
-					"description": "FortiSIEM is vulnerable to a CSRF attack"
+					"description": "[FortiSiem] CSRF vulnerability in FortiSiem"
 				}
 			]
 		},

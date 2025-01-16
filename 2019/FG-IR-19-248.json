@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability",
+	"document_title": "[FortiOS] httpsd crashes when an authenticated user sends a malformed request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Crash of the HTTPD service.\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability",
+		"title": "[FortiOS] httpsd crashes when an authenticated user sends a malformed request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-248",
-					"description": "FortiOS HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability"
+					"description": "[FortiOS] httpsd crashes when an authenticated user sends a malformed request"
 				}
 			]
 		},

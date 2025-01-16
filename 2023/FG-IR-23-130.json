@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2023-10-10T00:00:00",
-		"current_release_date": "2023-10-10T00:00:00"
+		"current_release_date": "2024-01-31T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.1.2 or above Please upgrade to FortiSIEM version 7.0.3 or abovePlease upgrade to FortiSIEM version 6.7.9 or abovePlease upgrade to FortiSIEM version 6.6.4 or abovePlease upgrade to FortiSIEM version 6.5.3 or abovePlease upgrade to FortiSIEM version 6.4.4 or abovePlease upgrade to upcoming FortiSIEM version 7.2.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 7.1.2 or above Please upgrade to FortiSIEM version 7.0.3 or abovePlease upgrade to FortiSIEM version 6.7.9 or abovePlease upgrade to FortiSIEM version 6.6.4 or above Please upgrade to FortiSIEM version 6.5.3 or above Please upgrade to FortiSIEM version 6.4.4 or above Please upgrade to upcoming FortiSIEM version 7.2.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS web GUI logindisclaimer redir parameter XSS vulnerability",
+	"document_title": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Starhub Singapore and Andrew Ho, Maximus Consulting,Â and Donato Onofri of DXC Technology for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Starhub Singapore and Andrew Ho, Maximus Consulting, and Donato Onofri of DXC Technology for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS web GUI logindisclaimer redir parameter XSS vulnerability",
+		"title": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-113",
-					"description": "FortiOS web GUI logindisclaimer redir parameter XSS vulnerability"
+					"description": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized"
 				}
 			]
 		},
@@ -88,7 +88,8 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "0"
+				"base_score_v3": "5.6",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

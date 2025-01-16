@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLC - Multiple Buffer Overflow vulnerabilities",
+	"document_title": "Buffer overflow vulnerability due to unsafe sprintf use",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple instances of stack-based buffer overflow vulnerability (CWE-121) in the command line interface of FortiWLC may allow a local, authenticated attacker to crash the access point being managed by the controller and potentially execute unauthorized code via a specifically crafted CLI command.\n        ",
+				"text": "\n            Multiple instances of stack-based buffer overflow vulnerability (CWE-121) in the command line interface of FortiWLC may allow a local, authenticated attacker to crash the access point being managed by the controller and potentially execute unauthorized code via a specifically crafted CLI command.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Remote code execution, Denial of Service\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWLC versions 8.6.0 and below. FortiWLC versions 8.5.3 and below.\n        ",
+				"text": "\n            FortiWLC versions 8.6.0 and below.FortiWLC versions 8.5.3 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWLC version 8.6.1 or above. Please upgrade to FortiWLC version 8.5.4 or above. \n        ",
+				"text": "\n            Please upgrade to FortiWLC version 8.6.1 or above.Please upgrade to FortiWLC version 8.5.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLC - Multiple Buffer Overflow vulnerabilities",
+		"title": "Buffer overflow vulnerability due to unsafe sprintf use",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-001",
-					"description": "FortiWLC - Multiple Buffer Overflow vulnerabilities"
+					"description": "Buffer overflow vulnerability due to unsafe sprintf use"
 				}
 			]
 		},

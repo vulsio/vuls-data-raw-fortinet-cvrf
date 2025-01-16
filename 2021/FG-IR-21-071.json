@@ -44,8 +44,8 @@
 				"description": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
 			},
 			{
-				"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf",
-				"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf"
+				"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf\n",
+				"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf\n"
 			},
 			{
 				"url": "For more information about the vulnerabilities: https://www.fragattacks.com/",
@@ -65,8 +65,8 @@
 					"description": "Multiple Vulnerabilities in Frame Aggregation and Fragmentation Implementations of 802.11 Specification (FragAttacks)"
 				},
 				{
-					"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf",
-					"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf"
+					"url": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf\n",
+					"description": "The FragAttacks paper can be accessed via the following link: https://papers.mathyvanhoef.com/usenix2021.pdf\n"
 				},
 				{
 					"url": "For more information about the vulnerabilities: https://www.fragattacks.com/",

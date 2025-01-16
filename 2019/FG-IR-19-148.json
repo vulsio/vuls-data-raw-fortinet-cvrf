@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient Windows Service or Process Tampering",
+	"document_title": "NSS AEP: FortiClient Service or Process Tampering Disclosure",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            FortiClient for Windows could be subject to the following shut down or tampering attempts:a) User Interface or Command Line shut downBy default a privileged user can close the FortiClient for Windows programÂ Â b) Service or Process shut downMalicious privileged programs can stop the FortiClient for Windows process via the taskkill commandÂ c) UninstallÂ By default a privileged user can unintall the FortiClient for Windows programÂ Â d) Code InjectionA component of FortiClient for Windows will search a specific un-existing Windows Dynamic Link library when starting related to the programming framework used in FortiClient. A malicious and privileged program can forge that DLL, leading to arbitrary code execution.\n        ",
+				"text": "\n            FortiClient for Windows could be subject to the following shut down or tampering attempts:a) User Interface or Command Line shut downBy default a privileged user can close the FortiClient for Windows program b) Service or Process shut downMalicious privileged programs can stop the FortiClient for Windows process via the taskkill command c) Uninstall By default a privileged user can unintall the FortiClient for Windows program d) Code InjectionA component of FortiClient for Windows will search for a specific un-existing Windows Dynamic Link library when starting. A malicious and privileged program can forge that DLL, leading to arbitrary code execution.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            a) User Interface or Command Line shut downFortiClient for Windows all versions under default configurations. b) Service or Process shut downFortiClient for Windows 6.2.1 and below versions. c) Uninstall FortiClient for Windows all versions under default configurations. d) Code Injection FortiClient for Windows 6.2.0 and below versions.All of the above require the malicious program or attacker to have the same or higher level of privilege as FortiClient.\n        ",
+				"text": "\n            a) User Interface or Command Line shut downFortiClient for Windows all versions under default configurations.b) Service or Process shut downFortiClient for Windows 6.2.1 and below versions.c) Uninstall FortiClient for Windows all versions under default configurations.d) Code Injection FortiClient for Windows 6.2.0 and below versions.All of the above require the malicious program or attacker to have the same or higher level of privilege as FortiClient.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-148",
-				"description": "FortiClient Windows Service or Process Tampering"
+				"description": "NSS AEP: FortiClient Service or Process Tampering Disclosure"
 			},
 			{
 				"url": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient Windows Service or Process Tampering",
+		"title": "NSS AEP: FortiClient Service or Process Tampering Disclosure",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-148",
-					"description": "FortiClient Windows Service or Process Tampering"
+					"description": "NSS AEP: FortiClient Service or Process Tampering Disclosure"
 				},
 				{
 					"url": "https://www.nsslabs.com/blog-posts/2019/7/24/your-advanced-endpoint-protection-aep-product-protects-your-computer-but-can-it-protect-itself",

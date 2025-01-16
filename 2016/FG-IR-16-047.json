@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS versions 5.2.8 and below 5.4.0 & 5.4.1 FortiAnalyzer versions 5.4.0 & 5.4.1  \n        ",
+				"text": "\n            FortiOS versions<ul> <li>5.2.8 and below</li> <li>5.4.0 & 5.4.1</li></ul>FortiAnalyzer versions 5.4.0 & 5.4.1\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            For FortiOS, upgrade to versions 5.2.9 or 5.4.2 or 5.6.0 5.4.2 or upcoming 5.6.0\n        ",
+				"text": "\n            For FortiOS, upgrade to versions5.2.9 or5.4.2 or5.6.0 or5.4.2 orupcoming 5.6.0\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer could potentially be used in NTP amplification attacks",
+	"document_title": "NTP amplification attacks (mode 6 queries)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            DoS, NTP amplification attacks\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer could potentially be used in NTP amplification attacks",
+		"title": "NTP amplification attacks (mode 6 queries)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-036",
-					"description": "FortiAnalyzer could potentially be used in NTP amplification attacks"
+					"description": "NTP amplification attacks (mode 6 queries)"
 				}
 			]
 		},

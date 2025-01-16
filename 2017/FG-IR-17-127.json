@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS XSS vulnerabilities via User Groups & Config Revision Comments",
+	"document_title": "FortiOS XSS vulns via User Groups & Config Revision Comments",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Two XSS vulnerabilities were reported to us affecting FortiOS that can be exploited to load and run a remote (malicious) Javascript in a logged in browser.The vulnerable input fields areÂ the \"Comments\" input while saving Configuration Revisions (CVE-2017-7734)the \"Groups\" input while creating or editing User Groups (CVE-2017-7735)\n        ",
+				"text": "\n            Two XSS vulnerabilities were reported to us affecting FortiOS that can be exploited to load and run a remote (malicious) Javascript in a logged in browser.The vulnerable input fields are the \"Comments\" input while saving Configuration Revisions (CVE-2017-7734) the \"Groups\" input while creating or editing User Groups (CVE-2017-7735)\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            * CVE-2017-7734: FortiOS versions 5.4.0 to 5.4.4* CVE-2017-7735: FortiOS versions 5.2.0 to 5.4.4\n        ",
+				"text": "\n            CVE-2017-7734: FortiOS versions 5.4.0 to 5.4.4CVE-2017-7735: FortiOS versions 5.2.0 to 5.4.4\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS XSS vulnerabilities via User Groups & Config Revision Comments",
+		"title": "FortiOS XSS vulns via User Groups & Config Revision Comments",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-127",
-					"description": "FortiOS XSS vulnerabilities via User Groups & Config Revision Comments"
+					"description": "FortiOS XSS vulns via User Groups & Config Revision Comments"
 				}
 			]
 		},

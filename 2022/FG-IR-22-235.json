@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -103,6 +109,7 @@
 					"FortiClientLinux-6.2.0",
 					"FortiClientMac-7.2.1",
 					"FortiClientMac-7.2.0",
+					"FortiClientMac-7.0.14",
 					"FortiClientMac-7.0.13",
 					"FortiClientMac-7.0.12",
 					"FortiClientMac-7.0.11",
@@ -139,6 +146,7 @@
 					"FortiClientMac-6.2.1",
 					"FortiClientMac-6.2.0",
 					"FortiClientWindows-7.2.0",
+					"FortiClientWindows-7.0.14",
 					"FortiClientWindows-7.0.13",
 					"FortiClientWindows-7.0.12",
 					"FortiClientWindows-7.0.11",
@@ -179,7 +187,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "3",
+				"base_score_v3": "3.0",
 				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:P/RL:U/RC:R"
 			}
 		}
@@ -461,6 +469,14 @@
 							"full_product_name": {
 								"text": "FortiClientMac 7.2.0",
 								"product_id": "FortiClientMac-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.14",
+								"product_id": "FortiClientMac-7.0.14"
 							}
 						},
 						{
@@ -755,6 +771,14 @@
 							"full_product_name": {
 								"text": "FortiClientWindows 7.2.0",
 								"product_id": "FortiClientWindows-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.14",
+								"product_id": "FortiClientWindows-7.0.14"
 							}
 						},
 						{

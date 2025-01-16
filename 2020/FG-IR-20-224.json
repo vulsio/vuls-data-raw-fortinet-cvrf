@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy SSL VPN user credential plaintext storage",
+	"document_title": "[FortiProxy] Insecure Storage of local SSL VPN session info",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy version 2.0.0 FortiProxy versions 1.2.9 and below. FortiProxy versions 1.1.6 and below. FortiProxy versions 1.0.7 and below.\n        ",
+				"text": "\n            FortiProxy version 2.0.0FortiProxy versions 1.2.9 and below.FortiProxy versions 1.1.6 and below.FortiProxy versions 1.0.7 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiProxy versions 2.0.1 or above. Please upgrade to FortiProxy versions 1.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiProxy versions 2.0.1 or above.Please upgrade to FortiProxy versions 1.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy SSL VPN user credential plaintext storage",
+		"title": "[FortiProxy] Insecure Storage of local SSL VPN session info",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-224",
-					"description": "FortiProxy SSL VPN user credential plaintext storage"
+					"description": "[FortiProxy] Insecure Storage of local SSL VPN session info"
 				}
 			]
 		},

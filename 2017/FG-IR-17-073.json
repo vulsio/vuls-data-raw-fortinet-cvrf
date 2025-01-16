@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS IKE VendorID version information disclosure",
+	"document_title": "CVE-2017-3130 FortiGate IKE VendorID version info disclosure",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS IKE VendorID version information disclosure",
+		"title": "CVE-2017-3130 FortiGate IKE VendorID version info disclosure",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-073",
-					"description": "FortiOS IKE VendorID version information disclosure"
+					"description": "CVE-2017-3130 FortiGate IKE VendorID version info disclosure"
 				}
 			]
 		},

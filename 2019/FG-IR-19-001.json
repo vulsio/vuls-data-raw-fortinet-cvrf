@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiCASB data pattern name XSS vulnerability",
+	"document_title": "data pattern name XSS in FortiCASB",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Failure to sanitize input in the customized data pattern webpage of FortiCASBÂ may allow an authenticated attacker to conduct a stored XSS attack via the name parameter.\n        ",
+				"text": "\n            Failure to sanitize input in the customized data pattern webpage of FortiCASB may allow an authenticated attacker to conduct a stored XSS attack via the name parameter.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiCASB data pattern name XSS vulnerability",
+		"title": "data pattern name XSS in FortiCASB",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-001",
-					"description": "FortiCASB data pattern name XSS vulnerability"
+					"description": "data pattern name XSS in FortiCASB"
 				}
 			]
 		},

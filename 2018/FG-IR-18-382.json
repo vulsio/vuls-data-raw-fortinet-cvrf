@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM LDAP server password reflected in admin portal",
+	"document_title": "FortiSIEM LDAP server password reflected in GUI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Yusuf TOPAL from Beyaz Bilgisayar Danismanlik Hizmetleri Ltd. Sti. for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Yusuf TOPAL from Beyaz Bilgisayar Danmanlk Hizmetleri Ltd. ti. for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM LDAP server password reflected in admin portal",
+		"title": "FortiSIEM LDAP server password reflected in GUI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-382",
-					"description": "FortiSIEM LDAP server password reflected in admin portal"
+					"description": "FortiSIEM LDAP server password reflected in GUI"
 				}
 			]
 		},

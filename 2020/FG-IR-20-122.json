@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in FortiWeb",
+	"document_title": "[FortiWeb] Multiple XSS vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Andrey Medov from ptsecurity and Bohdan Korzhynskyi for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Andrey Medov from ptsecurity for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in FortiWeb",
+		"title": "[FortiWeb] Multiple XSS vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-122",
-					"description": "XSS vulnerability in FortiWeb"
+					"description": "[FortiWeb] Multiple XSS vulnerabilities"
 				}
 			]
 		},

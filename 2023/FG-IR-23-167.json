@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -50,8 +56,8 @@
 				"description": "OS command injection"
 			},
 			{
-				"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p",
-				"description": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p"
+				"url": "<p>https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p</p>",
+				"description": "<p>https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p</p>"
 			}
 		]
 	},
@@ -73,8 +79,8 @@
 					"description": "OS command injection"
 				},
 				{
-					"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p",
-					"description": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p"
+					"url": "<p>https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p</p>",
+					"description": "<p>https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p</p>"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "OS command Injection through kdbg CLI command",
+	"document_title": "[FortiAP] OS command Injection through hidden kdbg CLI command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FAP 6.4.1 through 6.4.5 FAP-S 6.2.4 through 6.2.5 FAP-W2 6.2.4 through 6.2.5\n        ",
+				"text": "\n            FAP 6.4.1 through 6.4.5FAP-S 6.2.4 through 6.2.5FAP-W2 6.2.4 through 6.2.5\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAP 7.0.0 or above. Please upgrade to FortiAP 6.4.6 or above. Please upgrade to FortiAP-S 6.4.6 or above. Please upgrade to FortiAP-S 6.2.6 or above. Please upgrade to FortiAP-W2 7.0.0 or above. Please upgrade to FortiAP-W2 6.4.6 or above. Please upgrade to FortiAP-W2 6.2.6 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAP 7.0.0 or above.Please upgrade to FortiAP 6.4.6 or above.Please upgrade to FortiAP-S 6.4.6 or above.Please upgrade to FortiAP-S 6.2.6 or above.Please upgrade to FortiAP-W2 7.0.0 or above.Please upgrade to FortiAP-W2 6.4.6 or above.Please upgrade to FortiAP-W2 6.2.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "OS command Injection through kdbg CLI command",
+		"title": "[FortiAP] OS command Injection through hidden kdbg CLI command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-210",
-					"description": "OS command Injection through kdbg CLI command"
+					"description": "[FortiAP] OS command Injection through hidden kdbg CLI command"
 				}
 			]
 		},

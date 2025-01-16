@@ -1,5 +1,5 @@
 {
-	"document_title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat",
+	"document_title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Exposure Through Discrepancy\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 6.0.2 and above in branch 6.0, or to 5.4.10 and above in branch 5.4 (FortiOS 5.2 and 5.6 branches not impacted). Workarounds: For CVE-2018-9192, only one workaround is available: A working workaround consists in disabling KXP traffic acceleration: config system global set proxy-kxp-hardware-acceleration disable end For CVE-2018-9194, three types of workaround are available: One workaround consists in disabling KXP traffic acceleration: config system global set proxy-kxp-hardware-acceleration disable end Also user can avoid such attack by disabling RSA ciphersuites in TLS protocol, by perform one of the following two CLI settings:  By ensure only using PFS (Perfect Forward Secrecy) ciphers: config firewall vip edit [vip-name] set type server-load-balance set server-type https set ssl-pfs require (only using PFS ciphers) next end  By only specific custom ciphers without using RSA: config firewall vip edit [vip-name] set type server-load-balance set server-type https config ssl-cipher-suites edit set cipher (ciphers not include TLS-RSA-xxx) next end next end   Edited on: 13-10-2022\n        ",
+				"text": "\n            Upgrade to FortiOS 6.0.2 and above in branch 6.0, or to 5.4.10 and above in branch 5.4 (FortiOS 5.2 and 5.6 branches not impacted).Workarounds:For CVE-2018-9192, only one workaround is available:A working workaround consists in disabling KXP traffic acceleration:config system globalset proxy-kxp-hardware-acceleration disableendFor CVE-2018-9194, three types of workaround are available:One workaround consists in disabling KXP traffic acceleration:config system globalset proxy-kxp-hardware-acceleration disableendAlso user can avoid such attack by disabling RSA ciphersuites in TLS protocol, by perform one of the following two CLI settings: By ensure only using PFS (Perfect Forward Secrecy) ciphers:config firewall vipedit [vip-name]set type server-load-balanceset server-type httpsset ssl-pfs require (only using PFS ciphers)nextend By only specific custom ciphers without using RSA:config firewall vipedit [vip-name]set type server-load-balanceset server-type httpsconfig ssl-cipher-suiteseditset cipher (ciphers not include TLS-RSA-xxx)nextendnextendEdited on: 13-10-2022\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302",
-				"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat"
+				"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)"
 			},
 			{
 				"url": "https://robotattack.org/\n",
@@ -72,19 +72,19 @@
 			},
 			{},
 			{
-				"description": "Fortinet is pleased to thank \"Lars MÃ¼ller of BTC AG\" report CVE-2018-9194 under responsible disclosure."
+				"description": "Fortinet is pleased to thank \"Lars Müller of BTC AG\" report CVE-2018-9194 under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat",
+		"title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302",
-					"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat"
+					"description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)"
 				},
 				{
 					"url": "https://robotattack.org/\n",
@@ -106,7 +106,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

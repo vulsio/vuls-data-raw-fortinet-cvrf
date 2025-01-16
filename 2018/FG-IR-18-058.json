@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb Recursive URL Decoding is not enabled by default",
+	"document_title": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            WAF bypass (URL based attack)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiWeb 6.0.1 or newer versions or use workaround. Workaround For FortiWeb 6.0.0 and below, manually enabling this feature is recommended. From the FortiWeb GUI, it can be enabled under ystem > Config > Advanced in the \"Recursive URL Decoding\" (refer to: http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm for more info). From the FortiWeb CLI, it can be enabled with the following commands: config system advanced set circulate-url-decode enable end Update History 05-16-2018 Initial version. 08-23-2018 Default secure setting supported in 6.0.1\n        ",
+				"text": "\n            Upgrade to FortiWeb 6.0.1 or newer versions or use workaround.WorkaroundFor FortiWeb 6.0.0 and below, manually enabling this feature is recommended.From the FortiWeb GUI, it can be enabled under ystem > Config > Advanced in the \"Recursive URL Decoding\" (refer to: http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm for more info).From the FortiWeb CLI, it can be enabled with the following commands:config system advancedset circulate-url-decode enableendUpdate History05-16-2018 Initial version.08-23-2018 Default secure setting supported in 6.0.1\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058",
-				"description": "FortiWeb Recursive URL Decoding is not enabled by default"
+				"description": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass"
 			},
 			{
 				"url": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb Recursive URL Decoding is not enabled by default",
+		"title": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058",
-					"description": "FortiWeb Recursive URL Decoding is not enabled by default"
+					"description": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass"
 				},
 				{
 					"url": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",

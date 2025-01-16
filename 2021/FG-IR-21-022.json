@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClientMac - Privilege escalation by abusing a Symlink following vulnerability",
+	"document_title": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for MacOS version 6.4.4 or above. Please upgrade to FortiClient for MacOS version 7.0.0 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient for MacOS version 6.4.4 or above.Please upgrade to FortiClient for MacOS version 7.0.0 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClientMac - Privilege escalation by abusing a Symlink following vulnerability",
+		"title": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-022",
-					"description": "FortiClientMac - Privilege escalation by abusing a Symlink following vulnerability"
+					"description": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)"
 				}
 			]
 		},

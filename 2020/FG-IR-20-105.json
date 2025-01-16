@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail software-version detection vulnerability",
+	"document_title": "[FG-IR-20-105] Unauthenticated user can determine software-version information",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability in FortiMail may allow a remote, unauthenticated attacker to obtain potentially sensitive software-version information by reading a JavaScript file.\n        ",
+				"text": "\n            An exposure of sensitive system information to an unauthorized control sphere vulnerability [CWE-497] in FortiMail may allow a remote, unauthenticated attacker to obtain potentially sensitive software-version information by reading a JavaScript file.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information disclosure.\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,19 +59,19 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail software-version detection vulnerability",
+		"title": "[FG-IR-20-105] Unauthenticated user can determine software-version information",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-105",
-					"description": "FortiMail software-version detection vulnerability"
+					"description": "[FG-IR-20-105] Unauthenticated user can determine software-version information"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2021-24008",
-			"CVE-2020-15933"
+			"CVE-2020-15933",
+			"CVE-2021-24008"
 		],
 		"product_statuses": {
 			"status": {

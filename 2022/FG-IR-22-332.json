@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An access control vulnerability [CWE-284] in FortiNAC may allow a remote attacker authenticated on the administrative interface to perform unauthorized jsp calls via crafted HTTP requests.\n        ",
+				"text": "\n            An access control vulnerability [CWE-284] in FortiNAC may allow a remote attacker authenticated on the administrative interface to perform unauthorized jsp calls via crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiNAC version 9.4.0 through 9.4.2 FortiNAC 9.2.0 through 9.2.7 FortiNAC 9.1 all versions FortiNAC 8.8 all versions FortiNAC 8.7 all versions FortiNAC 8.6 all versions FortiNAC 8.5 all versions\n        ",
+				"text": "\n            At leastFortiNAC version 9.4.0 through 9.4.2FortiNAC 9.2.0 through 9.2.7FortiNAC 9.1 all versionsFortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or above Please upgrade to FortiNAC version 9.4.3 or above Please upgrade to FortiNAC version 9.2.8 or above  \n        ",
+				"text": "\n            Please upgrade to FortiNAC-F version 7.2.0 or abovePlease upgrade to FortiNAC version 9.4.3 or abovePlease upgrade to FortiNAC version 9.2.8 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

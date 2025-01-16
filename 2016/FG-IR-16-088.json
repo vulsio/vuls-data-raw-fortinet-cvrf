@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A FortiGate configured to use flow-based protection will stop monitoring network sessions that are active when a scanning engine is reloadedÂ after an update (nearly instantaneous process).This tends to impact long lived network sessions, with chances to be alive during and after an update, such as SMBv3 sessions.\n        ",
+				"text": "\n            A FortiGate configured to use flow-based protection will stop monitoringnetwork sessions that are active when a scanning engine isreloaded after an update (nearly instantaneous process).This tends to impact long lived network sessions, with chances to be aliveduring and after an update, such as SMBv3 sessions.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Protection bypass\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "We are pleased to thank Yves Bieri, Stefan Frei, Christof Jungo of the Swisscom securityÂ group, who discovered the issue while it was in the process of being fixed, and committed to responsible disclosure."
+				"description": "We are pleased to thank Yves Bieri, Stefan Frei, Christof Jungo of the Swisscom security group, who discovered the issue while it was in the process of being fixed, and committed to responsible disclosure."
 			}
 		]
 	},

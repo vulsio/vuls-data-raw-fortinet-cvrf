@@ -1,5 +1,5 @@
 {
-	"document_title": "ISC BIND vulnerabilities",
+	"document_title": "ISC BIND vulnearbilities (GVIM)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service (DoS)\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -47,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-112",
-				"description": "ISC BIND vulnerabilities"
+				"description": "ISC BIND vulnearbilities (GVIM)"
 			},
 			{
 				"url": "https://www.isc.org/downloads/software-support-policy/security-advisory/",
@@ -58,13 +58,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "ISC BIND vulnerabilities",
+		"title": "ISC BIND vulnearbilities (GVIM)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-112",
-					"description": "ISC BIND vulnerabilities"
+					"description": "ISC BIND vulnearbilities (GVIM)"
 				},
 				{
 					"url": "https://www.isc.org/downloads/software-support-policy/security-advisory/",

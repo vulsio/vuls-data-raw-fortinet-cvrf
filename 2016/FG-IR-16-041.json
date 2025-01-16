@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The first run of the FortiClient SSLVPN script results in the subproc file becomingÂ suid & root owned binary. The issue lays in the lack of any check if this is the right file that the ownership and suid flag should be granted to. Replacement of this file with another appropriate file could result in its execution with root privilege.\n        ",
+				"text": "\n            The first run of the FortiClient SSLVPN script results in the subproc file becoming suid & root owned binary. The issue lays in the lack of any check if this is the right file that the ownership and suid flag should be granted to. Replacement of this file with another appropriate file could result in its execution with root privilege.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

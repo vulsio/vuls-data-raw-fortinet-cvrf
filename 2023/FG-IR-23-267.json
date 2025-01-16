@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-11-12T00:00:00",
-		"current_release_date": "2024-11-12T00:00:00"
+		"current_release_date": "2024-11-14T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -49,7 +49,18 @@
 			}
 		]
 	},
-	"document_references": {},
+	"document_references": {
+		"reference": [
+			{
+				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-267",
+				"description": "Lack of capacity to filter logs by administrator access"
+			},
+			{
+				"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-7p8q-7xhh-8gr6",
+				"description": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-7p8q-7xhh-8gr6"
+			}
+		]
+	},
 	"acknowledgments": {
 		"acknowledgment": [
 			{
@@ -69,6 +80,10 @@
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-23-267",
 					"description": "Lack of capacity to filter logs by administrator access"
+				},
+				{
+					"url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-7p8q-7xhh-8gr6",
+					"description": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-7p8q-7xhh-8gr6"
 				}
 			]
 		},
@@ -82,11 +97,6 @@
 					"FortiAnalyzer-7.4.2",
 					"FortiAnalyzer-7.4.1",
 					"FortiAnalyzer-7.4.0",
-					"FortiAnalyzer-7.2.8",
-					"FortiAnalyzer-7.2.7",
-					"FortiAnalyzer-7.2.6",
-					"FortiAnalyzer-7.2.5",
-					"FortiAnalyzer-7.2.4",
 					"FortiAnalyzer-7.2.3",
 					"FortiAnalyzer-7.2.2",
 					"FortiAnalyzer-7.2.1",
@@ -136,6 +146,7 @@
 					"FortiAnalyzer-6.2.1",
 					"FortiAnalyzer-6.2.0",
 					"FortiAnalyzer-BigData-7.4.0",
+					"FortiAnalyzer-BigData-7.2.9",
 					"FortiAnalyzer-BigData-7.2.8",
 					"FortiAnalyzer-BigData-7.2.7",
 					"FortiAnalyzer-BigData-7.2.6",
@@ -158,6 +169,7 @@
 					"FortiManager-7.4.2",
 					"FortiManager-7.4.1",
 					"FortiManager-7.4.0",
+					"FortiManager-7.2.9",
 					"FortiManager-7.2.8",
 					"FortiManager-7.2.7",
 					"FortiManager-7.2.6",
@@ -252,46 +264,6 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.4.0",
 								"product_id": "FortiAnalyzer-7.4.0"
-							}
-						},
-						{
-							"name": "7.2.8",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.8",
-								"product_id": "FortiAnalyzer-7.2.8"
-							}
-						},
-						{
-							"name": "7.2.7",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.7",
-								"product_id": "FortiAnalyzer-7.2.7"
-							}
-						},
-						{
-							"name": "7.2.6",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.6",
-								"product_id": "FortiAnalyzer-7.2.6"
-							}
-						},
-						{
-							"name": "7.2.5",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.5",
-								"product_id": "FortiAnalyzer-7.2.5"
-							}
-						},
-						{
-							"name": "7.2.4",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiAnalyzer 7.2.4",
-								"product_id": "FortiAnalyzer-7.2.4"
 							}
 						},
 						{
@@ -693,6 +665,14 @@
 							}
 						},
 						{
+							"name": "7.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.9",
+								"product_id": "FortiAnalyzer-BigData-7.2.9"
+							}
+						},
+						{
 							"name": "7.2.8",
 							"type": "Product Version",
 							"full_product_name": {
@@ -872,6 +852,14 @@
 							"full_product_name": {
 								"text": "FortiManager 7.4.0",
 								"product_id": "FortiManager-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.2.9",
+								"product_id": "FortiManager-7.2.9"
 							}
 						},
 						{

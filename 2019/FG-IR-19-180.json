@@ -1,5 +1,5 @@
 {
-	"document_title": "TCP SACK panic attack- Linux Kernel Vulnerabilities- CVE-2019-11477, CVE-2019-11478 & CVE-2019-11479",
+	"document_title": "SACK Panic attack: CVE-2019-11477",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: The following products are potentially impacted by CVE-2019-11477: FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSiem FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: The following products are potentially impacted by CVE-2019-11478: FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: The following products are potentially impacted by CVE-2019-11479: FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiGate FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAnalyzer FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiAP FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch FortiSwitch\n        ",
+				"text": "\n            The following products are potentially impacted by CVE-2019-11477:FortiAnalyzerFortiAPFortiSiemFortiSwitchThe following products are potentially impacted by CVE-2019-11478:FortiGateFortiAnalyzerFortiAPFortiSwitchThe following products are potentially impacted by CVE-2019-11479:FortiGateFortiAnalyzerFortiAPFortiSwitch\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above. FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and above FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. FortiSiem: Please upgrade to 5.2.5 and above. Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value: config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global config system global set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48)) end end end end end end end end end end end end end end end Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: Workaround for FortiGate: The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention. The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention.\n        ",
+				"text": "\n            FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above.FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and aboveFortiSiem: Please upgrade to 5.2.5 and above.Workaround:Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value:config system globalset tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48))set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48))endWorkaround for FortiGate:The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-180",
-				"description": "TCP SACK panic attack- Linux Kernel Vulnerabilities- CVE-2019-11477, CVE-2019-11478 & CVE-2019-11479"
+				"description": "SACK Panic attack: CVE-2019-11477"
 			},
 			{
 				"url": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "TCP SACK panic attack- Linux Kernel Vulnerabilities- CVE-2019-11477, CVE-2019-11478 & CVE-2019-11479",
+		"title": "SACK Panic attack: CVE-2019-11477",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-180",
-					"description": "TCP SACK panic attack- Linux Kernel Vulnerabilities- CVE-2019-11477, CVE-2019-11478 & CVE-2019-11479"
+					"description": "SACK Panic attack: CVE-2019-11477"
 				},
 				{
 					"url": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md",
@@ -85,7 +85,19 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"AscenLink-7.2.23",
+					"FortiADC-5.3.1",
+					"FortiADC-5.2.4",
+					"FortiADC-5.1.6",
 					"FortiAP-6.0.5",
+					"FortiAP-U-5.4.6",
+					"FortiAP-U-5.4.5",
+					"FortiAP-U-5.4.4",
+					"FortiAP-U-5.4.3",
+					"FortiAP-U-5.4.0",
+					"FortiAP-W2-6.2.0",
+					"FortiAP-W2-6.0.6",
+					"FortiAP-W2-6.0.5",
 					"FortiAnalyzer-6.2.0",
 					"FortiAnalyzer-6.0.6",
 					"FortiAnalyzer-6.0.5",
@@ -106,12 +118,42 @@
 					"FortiAnalyzer-5.6.2",
 					"FortiAnalyzer-5.6.1",
 					"FortiAnalyzer-5.6.0",
+					"FortiAuthenticator-6.0.1",
+					"FortiMail-6.0.5",
+					"FortiMail-5.4.9",
+					"FortiManager-6.2.0",
+					"FortiManager-6.0.7",
+					"FortiManager-6.0.6",
+					"FortiManager-6.0.5",
+					"FortiPortal-5.2.3",
+					"FortiProxy-1.1.3",
+					"FortiRecorder-2.7.4",
 					"FortiSIEM-5.2.2",
+					"FortiSandbox-3.0.7",
+					"FortiSandbox-3.0.6",
+					"FortiSandbox-3.0.5",
+					"FortiSandbox-3.0.4",
 					"FortiSwitch-6.2.2",
 					"FortiSwitch-6.2.1",
 					"FortiSwitch-6.0.4",
 					"FortiSwitch-3.6.11",
-					"FortiSwitch-3.6.10"
+					"FortiSwitch-3.6.10",
+					"FortiVoice-5.3.26",
+					"FortiVoice-5.3.25",
+					"FortiVoice-5.3.24",
+					"FortiVoice-5.3.23",
+					"FortiVoice-5.3.22",
+					"FortiVoice-5.3.21",
+					"FortiWAN-4.5.7",
+					"FortiWAN-4.5.6",
+					"FortiWAN-4.5.5",
+					"FortiWAN-4.5.4",
+					"FortiWAN-4.5.3",
+					"FortiWAN-4.5.2",
+					"FortiWAN-4.5.1",
+					"FortiWAN-4.5.0",
+					"FortiWAN-4.4.1",
+					"FortiWAN-Manager-4.5.1"
 				]
 			}
 		},
@@ -128,6 +170,50 @@
 			"type": "Vendor",
 			"branch": [
 				{
+					"name": "AscenLink",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.23",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.23",
+								"product_id": "AscenLink-7.2.23"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiADC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 5.3.1",
+								"product_id": "FortiADC-5.3.1"
+							}
+						},
+						{
+							"name": "5.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 5.2.4",
+								"product_id": "FortiADC-5.2.4"
+							}
+						},
+						{
+							"name": "5.1.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 5.1.6",
+								"product_id": "FortiADC-5.1.6"
+							}
+						}
+					]
+				},
+				{
 					"name": "FortiAP",
 					"type": "Product Name",
 					"branch": [
@@ -137,6 +223,82 @@
 							"full_product_name": {
 								"text": "FortiAP 6.0.5",
 								"product_id": "FortiAP-6.0.5"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-U",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.6",
+								"product_id": "FortiAP-U-5.4.6"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.5",
+								"product_id": "FortiAP-U-5.4.5"
+							}
+						},
+						{
+							"name": "5.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.4",
+								"product_id": "FortiAP-U-5.4.4"
+							}
+						},
+						{
+							"name": "5.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.3",
+								"product_id": "FortiAP-U-5.4.3"
+							}
+						},
+						{
+							"name": "5.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-U 5.4.0",
+								"product_id": "FortiAP-U-5.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-W2",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.2.0",
+								"product_id": "FortiAP-W2-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.6",
+								"product_id": "FortiAP-W2-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 6.0.5",
+								"product_id": "FortiAP-W2-6.0.5"
 							}
 						}
 					]
@@ -308,6 +470,122 @@
 					]
 				},
 				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.0.1",
+								"product_id": "FortiAuthenticator-6.0.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.5",
+								"product_id": "FortiMail-6.0.5"
+							}
+						},
+						{
+							"name": "5.4.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.9",
+								"product_id": "FortiMail-5.4.9"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.0",
+								"product_id": "FortiManager-6.2.0"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.7",
+								"product_id": "FortiManager-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.6",
+								"product_id": "FortiManager-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.0.5",
+								"product_id": "FortiManager-6.0.5"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 5.2.3",
+								"product_id": "FortiPortal-5.2.3"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiProxy",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "1.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 1.1.3",
+								"product_id": "FortiProxy-1.1.3"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiRecorder",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "2.7.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiRecorder 2.7.4",
+								"product_id": "FortiRecorder-2.7.4"
+							}
+						}
+					]
+				},
+				{
 					"name": "FortiSIEM",
 					"type": "Product Name",
 					"branch": [
@@ -317,6 +595,44 @@
 							"full_product_name": {
 								"text": "FortiSIEM 5.2.2",
 								"product_id": "FortiSIEM-5.2.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "3.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.7",
+								"product_id": "FortiSandbox-3.0.7"
+							}
+						},
+						{
+							"name": "3.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.6",
+								"product_id": "FortiSandbox-3.0.6"
+							}
+						},
+						{
+							"name": "3.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.5",
+								"product_id": "FortiSandbox-3.0.5"
+							}
+						},
+						{
+							"name": "3.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.4",
+								"product_id": "FortiSandbox-3.0.4"
 							}
 						}
 					]
@@ -363,6 +679,152 @@
 							"full_product_name": {
 								"text": "FortiSwitch 3.6.10",
 								"product_id": "FortiSwitch-3.6.10"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiVoice",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.3.26",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.26",
+								"product_id": "FortiVoice-5.3.26"
+							}
+						},
+						{
+							"name": "5.3.25",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.25",
+								"product_id": "FortiVoice-5.3.25"
+							}
+						},
+						{
+							"name": "5.3.24",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.24",
+								"product_id": "FortiVoice-5.3.24"
+							}
+						},
+						{
+							"name": "5.3.23",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.23",
+								"product_id": "FortiVoice-5.3.23"
+							}
+						},
+						{
+							"name": "5.3.22",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.22",
+								"product_id": "FortiVoice-5.3.22"
+							}
+						},
+						{
+							"name": "5.3.21",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.21",
+								"product_id": "FortiVoice-5.3.21"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWAN",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.5.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.7",
+								"product_id": "FortiWAN-4.5.7"
+							}
+						},
+						{
+							"name": "4.5.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.6",
+								"product_id": "FortiWAN-4.5.6"
+							}
+						},
+						{
+							"name": "4.5.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.5",
+								"product_id": "FortiWAN-4.5.5"
+							}
+						},
+						{
+							"name": "4.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.4",
+								"product_id": "FortiWAN-4.5.4"
+							}
+						},
+						{
+							"name": "4.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.3",
+								"product_id": "FortiWAN-4.5.3"
+							}
+						},
+						{
+							"name": "4.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.2",
+								"product_id": "FortiWAN-4.5.2"
+							}
+						},
+						{
+							"name": "4.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.1",
+								"product_id": "FortiWAN-4.5.1"
+							}
+						},
+						{
+							"name": "4.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.5.0",
+								"product_id": "FortiWAN-4.5.0"
+							}
+						},
+						{
+							"name": "4.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.4.1",
+								"product_id": "FortiWAN-4.4.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWAN-Manager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN-Manager 4.5.1",
+								"product_id": "FortiWAN-Manager-4.5.1"
 							}
 						}
 					]

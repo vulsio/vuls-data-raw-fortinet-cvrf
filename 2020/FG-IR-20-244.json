@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Improper use of cryptographic primitives in IBE KeyStore",
+	"document_title": "Wrong use of cryptographic primitives in FML's IBE KeyStore",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Improper use of cryptographic primitives in IBE KeyStore",
+		"title": "Wrong use of cryptographic primitives in FML's IBE KeyStore",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-244",
-					"description": "FortiMail - Improper use of cryptographic primitives in IBE KeyStore"
+					"description": "Wrong use of cryptographic primitives in FML's IBE KeyStore"
 				}
 			]
 		},

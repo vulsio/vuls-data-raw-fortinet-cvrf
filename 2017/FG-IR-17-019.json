@@ -1,5 +1,5 @@
 {
-	"document_title": "OpenSSL Security Advisory [26 Jan 2017]",
+	"document_title": "3rd party component upgrade required for security reasons: OpenSSL Security Advisory [26 Jan 2017]",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The OpenSSL project released an advisory on Jan 26th, 2017, describing 3 Moderate, 1 Low severity vulnerabilities, as listed below:Â CVE-2017-3731: Truncated packet could crash via OOB readCVE-2017-3730: Bad (EC)DHE parameters cause a client crashCVE-2017-3732: BN_mod_exp may produce incorrect results on x86_64CVE-2016-7055: Montgomery multiplication may produce incorrect results\n        ",
+				"text": "\n            The OpenSSL project released an advisory on Jan 26th, 2017, describing 3 Moderate, 1 Low severity vulnerabilities, as listed below: Truncated packet could crash via OOB read (CVE-2017-3731)Bad (EC)DHE parameters cause a client crash (CVE-2017-3730)BN_mod_exp may produce incorrect results on x86_64 (CVE-2017-3732)Montgomery multiplication may produce incorrect results (CVE-2016-7055)\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-019",
-				"description": "OpenSSL Security Advisory [26 Jan 2017]"
+				"description": "3rd party component upgrade required for security reasons: OpenSSL Security Advisory [26 Jan 2017]"
 			},
 			{
 				"url": "https://www.openssl.org/news/secadv/20170126.txt",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "OpenSSL Security Advisory [26 Jan 2017]",
+		"title": "3rd party component upgrade required for security reasons: OpenSSL Security Advisory [26 Jan 2017]",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-019",
-					"description": "OpenSSL Security Advisory [26 Jan 2017]"
+					"description": "3rd party component upgrade required for security reasons: OpenSSL Security Advisory [26 Jan 2017]"
 				},
 				{
 					"url": "https://www.openssl.org/news/secadv/20170126.txt",
@@ -154,7 +154,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

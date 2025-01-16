@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb is vulnerable to a blind SQL injection",
+	"document_title": "[FortiWeb] Unauthenticated user can read and write file on the system (Blind SQL Injection)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiWeb versions 6.3.8 or above. Please upgrade to FortiWeb versions 6.2.4 or above.\n        ",
+				"text": "\n            Please upgrade to FortiWeb versions 6.3.8 or above.Please upgrade to FortiWeb versions 6.2.4 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb is vulnerable to a blind SQL injection",
+		"title": "[FortiWeb] Unauthenticated user can read and write file on the system (Blind SQL Injection)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-124",
-					"description": "FortiWeb is vulnerable to a blind SQL injection"
+					"description": "[FortiWeb] Unauthenticated user can read and write file on the system (Blind SQL Injection)"
 				}
 			]
 		},

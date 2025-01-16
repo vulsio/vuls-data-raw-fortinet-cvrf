@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail / FortiNDR / FortiWeb - Path traversal vulnerabilities",
+	"document_title": "[FG-IR-21-014] Path traversal vulnerabilities",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized access to files.\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail 6.4.3 and below. FortiMail 6.2.6 and below. FortiMail 6.0.10 and below. FortiMail 5.4.12 and below. At least FortiWeb version 5.9.0 through 5.9.2 FortiWeb version 6.0.0 through 6.0.8 FortiWeb version 6.1.0 through 6.1.3 FortiWeb version 6.2.0 through 6.2.7 FortiWeb version 6.3.0 through 6.3.17 FortiWeb version 6.4.0 through 6.4.2 FortiWeb version 7.0.0 FortiNDR version 1.1.0 FortiNDR version 1.2.0 FortiNDR version 1.3.0 through 1.3.1 FortiNDR version 1.4.0 FortiNDR version 1.5.0 through 1.5.3\n        ",
+				"text": "\n            FortiMail 6.4.3 and below.FortiMail 6.2.6 and below.FortiMail 6.0.10 and below.FortiMail 5.4.12 and below.At leastFortiWeb version 5.9.0 through 5.9.2FortiWeb version 6.0.0 through 6.0.8FortiWeb version 6.1.0 through 6.1.3FortiWeb version 6.2.0 through 6.2.7FortiWeb version 6.3.0 through 6.3.17FortiWeb version 6.4.0 through 6.4.2FortiWeb version 7.0.0FortiNDR version 1.1.0FortiNDR version 1.2.0FortiNDR version 1.3.0 through 1.3.1FortiNDR version 1.4.0FortiNDR version 1.5.0 through 1.5.3\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiMail version 7.0.0 or above, Upgrade to FortiMail version 6.4.4 or above, Upgrade to FortiMail version 6.2.7 or above. Upgrade to FortiMail version 6.0.11 or above. Upgrade to FortiNDR version 7.0.0 or above. Please upgrade to FortiWeb version 7.0.1 or above, Please upgrade to FortiWeb version 6.4.3 or above, Please upgrade to FortiWeb version 6.3.18 or above.\n        ",
+				"text": "\n            Upgrade to FortiMail version 7.0.0 or above,Upgrade to FortiMail version 6.4.4 or above,Upgrade to FortiMail version 6.2.7 or above.Upgrade to FortiMail version 6.0.11 or above.Upgrade to FortiNDR version 7.0.0 or above.Please upgrade to FortiWeb version 7.0.1 or above,Please upgrade to FortiWeb version 6.4.3 or above,Please upgrade to FortiWeb version 6.3.18 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail / FortiNDR / FortiWeb - Path traversal vulnerabilities",
+		"title": "[FG-IR-21-014] Path traversal vulnerabilities",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-014",
-					"description": "FortiMail / FortiNDR / FortiWeb - Path traversal vulnerabilities"
+					"description": "[FG-IR-21-014] Path traversal vulnerabilities"
 				}
 			]
 		},

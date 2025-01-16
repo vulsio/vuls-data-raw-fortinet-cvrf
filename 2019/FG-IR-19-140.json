@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in FortiNAC admin webUI search field",
+	"document_title": "XSS vuln in FortiNAC search field",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in FortiNAC admin webUI search field",
+		"title": "XSS vuln in FortiNAC search field",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-140",
-					"description": "XSS vulnerability in FortiNAC admin webUI search field"
+					"description": "XSS vuln in FortiNAC search field"
 				}
 			]
 		},

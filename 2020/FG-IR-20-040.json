@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient for Windows Insecure Temporary File vulnerability",
+	"document_title": "Insecure Temporary File (CWE-377) vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An Insecure Temporary File (CWE-377) vulnerability in FortiClient for Windows may allow a local user to gain elevated privileges via exhausting the pool of temporary file names combined with a symbolic link attack.\n        ",
+				"text": "\n            An insecure temporary file (CWE-377) vulnerability in FortiClient for Windows may allow a local user to gain elevated privileges via exhausting the pool of temporary file names combined with a symbolic link attack.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control, Privilege Escalation\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for Windows version 6.2.2 or above Please upgrade to FortiClient for Windows version 6.0.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient for Windows version 6.2.2 or abovePlease upgrade to FortiClient for Windows version 6.0.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient for Windows Insecure Temporary File vulnerability",
+		"title": "Insecure Temporary File (CWE-377) vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-040",
-					"description": "FortiClient for Windows Insecure Temporary File vulnerability"
+					"description": "Insecure Temporary File (CWE-377) vulnerability"
 				}
 			]
 		},

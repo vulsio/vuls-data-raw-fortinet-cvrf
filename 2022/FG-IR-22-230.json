@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-09-10T00:00:00",
-		"current_release_date": "2024-09-10T00:00:00"
+		"current_release_date": "2025-01-10T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -47,7 +53,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Ka Lok WU, Man Hong HUE, Ngai Man POON, Sze Yiu CHAU from the department of Information Engineering, the Chinese University of Hong Kong for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Ka Lok WU, Man Hong HUE, Ngai Man POON, Sze Yiu CHAU from the department of Information Engineering, the Chinese University of Hong Kong and Christian Hilgers from indevis for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
@@ -129,6 +135,7 @@
 					"FortiClientMac-7.2.2",
 					"FortiClientMac-7.2.1",
 					"FortiClientMac-7.2.0",
+					"FortiClientMac-7.0.14",
 					"FortiClientMac-7.0.13",
 					"FortiClientMac-7.0.12",
 					"FortiClientMac-7.0.11",
@@ -703,6 +710,14 @@
 							"full_product_name": {
 								"text": "FortiClientMac 7.2.0",
 								"product_id": "FortiClientMac-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.14",
+								"product_id": "FortiClientMac-7.0.14"
 							}
 						},
 						{

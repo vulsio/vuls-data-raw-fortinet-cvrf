@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in the Anomaly Detection Parameter Name",
+	"document_title": "[FortiWeb] XSS in the Parameter Name when clicked on Tree View under Anomaly Detection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in the Anomaly Detection Parameter Name",
+		"title": "[FortiWeb] XSS in the Parameter Name when clicked on Tree View under Anomaly Detection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-265",
-					"description": "XSS vulnerability in the Anomaly Detection Parameter Name"
+					"description": "[FortiWeb] XSS in the Parameter Name when clicked on Tree View under Anomaly Detection"
 				}
 			]
 		},

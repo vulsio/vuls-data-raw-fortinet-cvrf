@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 3.2.1 and below. FortiSandbox 3.1 all versions FortiSandbox 3.0 all versions  \n        ",
+				"text": "\n            FortiSandbox 3.2.1 and below.FortiSandbox 3.1 all versionsFortiSandbox 3.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to version 4.0.0 or above. Upgrade to version 3.2.2 or above. Upgrade to version 3.1.5 or above. Upgrade to version 3.0.7 or above.\n        ",
+				"text": "\n            Upgrade to version 4.0.0 or above.Upgrade to version 3.2.2 or above.Upgrade to version 3.1.5 or above.Upgrade to version 3.0.7 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

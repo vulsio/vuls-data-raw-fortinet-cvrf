@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS/FortiProxy - local certificate private key improper protection in admin CLI console",
+	"document_title": "Fortigate: Exporting a local certificate with private key",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-134",
-				"description": "FortiOS/FortiProxy - local certificate private key improper protection in admin CLI console"
+				"description": "Fortigate: Exporting a local certificate with private key"
 			},
 			{
 				"url": "https://stuff.purdon.ca/?page_id=233",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS/FortiProxy - local certificate private key improper protection in admin CLI console",
+		"title": "Fortigate: Exporting a local certificate with private key",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-134",
-					"description": "FortiOS/FortiProxy - local certificate private key improper protection in admin CLI console"
+					"description": "Fortigate: Exporting a local certificate with private key"
 				},
 				{
 					"url": "https://stuff.purdon.ca/?page_id=233",

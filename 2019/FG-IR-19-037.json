@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGate default configuration does not verify the LDAP server identity.",
+	"document_title": "FG default configuration is not secure/ By default, FG does not verify LDAP server identity",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            For users running versions 6.0.3 to 6.2.0, enabling the CLI option that checks for LDAP server identity entirely prevents the issue. This option can be enabled only if secure and ca-cert of the LDAP server are set. config user ldap edit ldap-server set ca-cert set secure ldaps set server-identity-check enable FortiOS 6.2.1 and above have server-identity-check enabled by default, when installed from scratch. However, for compatibility reasons, the value of server-identity-check is kept unchanged throughout firmware upgrading. In other words, upgrading from 6.0.3 - 6.2.0 to 6.2.1 and above does not suffice to thwart the issue: server-identity-check must be enabled (prior the upgrade of after, indifferently).\n        ",
+				"text": "\n            For users running versions 6.0.3 to 6.2.0, enabling the CLI option that checks for LDAP server identity entirely prevents the issue. This option can be enabled only if secure and ca-cert of the LDAP server are set. config user ldapedit ldap-serverset ca-cert <ldap-server-certificate>set secure ldaps set server-identity-check enableFortiOS 6.2.1 and above have server-identity-check enabled by default, when installed from scratch.However, for compatibility reasons, the value of server-identity-check is kept unchanged throughout firmware upgrading. In other words, upgrading from 6.0.3 - 6.2.0 to 6.2.1 and above does not suffice to thwart the issue: server-identity-check must be enabled (prior the upgrade of after, indifferently).\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGate default configuration does not verify the LDAP server identity.",
+		"title": "FG default configuration is not secure/ By default, FG does not verify LDAP server identity",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-037",
-					"description": "FortiGate default configuration does not verify the LDAP server identity."
+					"description": "FG default configuration is not secure/ By default, FG does not verify LDAP server identity"
 				}
 			]
 		},

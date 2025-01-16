@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Race condition vulnerability in command shell",
+	"document_title": "Race condition vulnerability in FSA's command shell",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Memory corruption\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 3.2.1 and below. FortiSandbox 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox 3.2.1 and below.FortiSandbox 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to version 4.0.0.Â or above. Upgrade to version 3.2.2 or above.\n        ",
+				"text": "\n            Upgrade to version 4.0.0. or above. Upgrade to version 3.2.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Race condition vulnerability in command shell",
+		"title": "Race condition vulnerability in FSA's command shell",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-185",
-					"description": "FortiSandbox - Race condition vulnerability in command shell"
+					"description": "Race condition vulnerability in FSA's command shell"
 				}
 			]
 		},
@@ -84,7 +84,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "6.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

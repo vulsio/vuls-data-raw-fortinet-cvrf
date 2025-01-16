@@ -1,5 +1,5 @@
 {
-	"document_title": "Meltdown and Spectre class vulnerabilities",
+	"document_title": "CPU Meltdown and Spectre class attacks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure, Privilege Escalation\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-002",
-				"description": "Meltdown and Spectre class vulnerabilities"
+				"description": "CPU Meltdown and Spectre class attacks"
 			},
 			{
 				"url": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)\n",
@@ -76,13 +76,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Meltdown and Spectre class vulnerabilities",
+		"title": "CPU Meltdown and Spectre class attacks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-002",
-					"description": "Meltdown and Spectre class vulnerabilities"
+					"description": "CPU Meltdown and Spectre class attacks"
 				},
 				{
 					"url": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)\n",
@@ -103,9 +103,12 @@
 			]
 		},
 		"cve": [
-			"CVE-2017-5753",
 			"CVE-2017-5715",
+			"CVE-2017-5753",
 			"CVE-2017-5754",
+			"CVE-2018-12126",
+			"CVE-2018-12127",
+			"CVE-2018-12130",
 			"CVE-2018-3615",
 			"CVE-2018-3620",
 			"CVE-2018-3639",
@@ -114,9 +117,6 @@
 			"CVE-2018-3665",
 			"CVE-2018-3693",
 			"CVE-2019-11091",
-			"CVE-2018-12130",
-			"CVE-2018-12127",
-			"CVE-2018-12126",
 			"CVE-2019-1125"
 		],
 		"product_statuses": {

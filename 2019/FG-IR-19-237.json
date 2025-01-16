@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail admin privilege escalation through improper user profile control",
+	"document_title": "FortiMail admin privilegie elevation through improper user profile control",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail admin privilege escalation through improper user profile control",
+		"title": "FortiMail admin privilegie elevation through improper user profile control",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-237",
-					"description": "FortiMail admin privilege escalation through improper user profile control"
+					"description": "FortiMail admin privilegie elevation through improper user profile control"
 				}
 			]
 		},

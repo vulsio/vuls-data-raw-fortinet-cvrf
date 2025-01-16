@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            The following products are confirmed to be not vulnerable: Â * FortiAnalyzer * FortiAP * FortiGate * FortiSwitch Â Please contact Fortinet's Technical Assistance Center (TAC) for others products impact.\n        ",
+				"text": "\n            The following products are confirmed to be not vulnerable: Ã‚Â * FortiAnalyzer * FortiAP * FortiGate * FortiSwitch Ã‚Â Please contact Fortinet's Technical Assistance Center (TAC) for others products impact.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"

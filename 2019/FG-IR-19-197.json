@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM -  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+	"document_title": "[FortiSiem][XSS] XSS in the description and title field of a new schedule",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An Improper Neutralization of Input vulnerability in the description and title parameters of a Device Maintenance Schedule in FortiSIEM may allow a remote authenticated attacker to perform a Stored Cross Site Scripting attack (XSS) by injecting malicious JavaScript code into the description field of a Device Maintenance schedule.\n        ",
+				"text": "\n            An Improper Neutralization of Input vulnerability in the description and title parameters of a Device Maintenance Schedule in FortiSiem may allow a remote authenticated attacker to perform a Stored Cross Site Scripting attack (XSS) by injecting malicious JavaScript code into the description field of a Device Maintenance schedule.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is very pleased to thank Luca Sangalli (luca91.sanga@gmail.com ; https://it.linkedin.com/in/luca-sangalli-0a6462105 ) for bringing this issue to our attention under responsible disclosure and for helping us make our products more secure."
+				"description": "Fortinet is very pleased to thank Luca Sangalli (luca91.sanga@gmail.com ; https://it.linkedin.com/in/luca-sangalli-0a6462105) for bringing this issue to our attention under responsible disclosure and for helping us make our products more secure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM -  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+		"title": "[FortiSiem][XSS] XSS in the description and title field of a new schedule",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-197",
-					"description": "FortiSIEM -  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+					"description": "[FortiSiem][XSS] XSS in the description and title field of a new schedule"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS local privilege escalation via malicious use of USB storage devices",
+	"document_title": "usb drive + root credentials + fnsysctl tool can gain arbitrary code execution.",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Local Privilege Escalation\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS local privilege escalation via malicious use of USB storage devices",
+		"title": "usb drive + root credentials + fnsysctl tool can gain arbitrary code execution.",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-245",
-					"description": "FortiOS local privilege escalation via malicious use of USB storage devices"
+					"description": "usb drive + root credentials + fnsysctl tool can gain arbitrary code execution."
 				}
 			]
 		},

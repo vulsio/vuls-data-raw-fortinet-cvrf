@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiNDR - OS command injection due to improper input sanitization",
+	"document_title": "[FortiNDR] OS command injection due to improper input sanitization",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Execution of arbitrary code\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiNDR - OS command injection due to improper input sanitization",
+		"title": "[FortiNDR] OS command injection due to improper input sanitization",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-033",
-					"description": "FortiNDR - OS command injection due to improper input sanitization"
+					"description": "[FortiNDR] OS command injection due to improper input sanitization"
 				}
 			]
 		},

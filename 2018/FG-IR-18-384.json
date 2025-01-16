@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests",
+	"document_title": "[FortiOS] file leaking through SSL VPN language resource request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A path traversal vulnerability in the FortiOS SSL VPN web portal may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.Fortinet is aware that a malicious actor has disclosed SSL-VPN access information to 87,000 FortiGate SSL-VPN devices. These credentials were obtained from systems which were unpatched against FG-IR-18-384 / CVE-2018-13379 at the time of the actors scan, but may since have been patched but the passwords not reset.Â Please note that a password reset following upgrade is critical to protecting against this vulnerability, in case credentials have already been compromised.\n        ",
+				"text": "\n            A path traversal vulnerability in the FortiOS SSL VPN web portal may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-384",
-				"description": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests"
+				"description": "[FortiOS] file leaking through SSL VPN language resource request"
 			},
 			{
 				"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests",
+		"title": "[FortiOS] file leaking through SSL VPN language resource request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-384",
-					"description": "FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests"
+					"description": "[FortiOS] file leaking through SSL VPN language resource request"
 				},
 				{
 					"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",

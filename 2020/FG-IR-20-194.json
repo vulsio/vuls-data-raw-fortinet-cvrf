@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager and FortiAnalyzer - Buffer overflow vulnerability through the diagnose system geoip-city command",
+	"document_title": "[FAZ/FMG] Buffer overflow vulnerability in the  IP parameter of the diagnose system geoip-city ip CLI command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A buffer overflow vulnerability in FortiAnalyzer and FortiManager CLI may allow an authenticated, local attacker to perform a Denial of Service attack by running the `diagnose system geoip-city` command with a large ip value. Fortinet is not aware of any successful exploitation of this vulnerability that would lead to code execution.\n        ",
+				"text": "\n            A buffer overflow vulnerability in FortiAnalyzer and FortiManager CLI may allow an authenticated, local attacker to perform a Denial of Service attack by running the diagnose system geoip-city command with a large ip value. Fortinet is not aware of any successful exploitation of this vulnerability that would lead to code execution.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            denial of service, Remote Code Execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAnalyzer versions 6.4.5 and below. FortiAnalyzer versions 6.2.7 and below. FortiAnalyzer versions 6.0.x FortiManager versions 6.4.5 and below. FortiManager versions 6.2.7 and below. FortiManager versions 6.0.x\n        ",
+				"text": "\n            FortiAnalyzer versions 6.4.5 and below.FortiAnalyzer versions 6.2.7 and below.FortiAnalyzer versions 6.0.xFortiManager versions 6.4.5 and below.FortiManager versions 6.2.7 and below.FortiManager versions 6.0.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiAnalyzer version 7.0.0 or above. Please upgrade to FortiAnalyzer version 6.4.6 or above. Please upgrade to FortiAnalyzer version 6.2.8 or above. Please upgrade to FortiManager version 7.0.0 or above. Please upgrade to FortiManager version 6.4.6 or above. Please upgrade to FortiManager version 6.2.8 or above.\n        ",
+				"text": "\n            Please upgrade to FortiAnalyzer version 7.0.0 or above.Please upgrade to FortiAnalyzer version 6.4.6 or above.Please upgrade to FortiAnalyzer version 6.2.8 or above.Please upgrade to FortiManager version 7.0.0 or above.Please upgrade to FortiManager version 6.4.6 or above.Please upgrade to FortiManager version 6.2.8 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager and FortiAnalyzer - Buffer overflow vulnerability through the diagnose system geoip-city command",
+		"title": "[FAZ/FMG] Buffer overflow vulnerability in the  IP parameter of the diagnose system geoip-city ip CLI command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-194",
-					"description": "FortiManager and FortiAnalyzer - Buffer overflow vulnerability through the diagnose system geoip-city command"
+					"description": "[FAZ/FMG] Buffer overflow vulnerability in the  IP parameter of the diagnose system geoip-city ip CLI command"
 				}
 			]
 		},

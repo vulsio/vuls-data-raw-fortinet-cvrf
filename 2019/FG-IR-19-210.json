@@ -1,5 +1,5 @@
 {
-	"document_title": "Command injection vulnerability in FortiClient for Mac OS",
+	"document_title": "Privilege escalation in FortiClient for Mac",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is very pleased to thank Lasse Trolle Borup of Danish Cyber DefenceÂ for bringing this issue to our attention under responsible disclosure."
+				"description": "Fortinet is very pleased to thank Lasse Trolle Borup of Langkjaer Cyber Defence for bringing this issue to our attention under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Command injection vulnerability in FortiClient for Mac OS",
+		"title": "Privilege escalation in FortiClient for Mac",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-210",
-					"description": "Command injection vulnerability in FortiClient for Mac OS"
+					"description": "Privilege escalation in FortiClient for Mac"
 				}
 			]
 		},

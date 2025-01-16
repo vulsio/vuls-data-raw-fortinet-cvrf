@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The Security Account Manager Remote Protocol [MS-SAMR] and theÂ Local Security Authority (Domain Policy) Remote Protocol [MS-LSAD]Â are both vulnerable to man in the middle attacks. These protocols areÂ typically available on all Windows installationsÂ as well as every Samba server.\n        ",
+				"text": "\n            The Security Account Manager Remote Protocol [MS-SAMR] and theÃ‚Â Local Security Authority (Domain Policy) Remote Protocol [MS-LSAD]Ã‚Â are both vulnerable to man in the middle attacks. These protocols areÃ‚Â typically available on all Windows installationsÃ‚Â as well as every Samba server.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

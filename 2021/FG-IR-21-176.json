@@ -54,7 +54,8 @@
 		"acknowledgment": [
 			{
 				"description": "Internally discovered and reported by OleksiiMandrychenko and Damnjan Nikolic of Fortinet TAC team."
-			}
+			},
+			{}
 		]
 	},
 	"vulnerability": {

@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in the Dashboard name parameter of FortiADC",
+	"document_title": "FortiADC is vulnerable to XSS (New Dashboard name parameter not sanitized)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Execute Unauthorized Code or Commands\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiADC version 5.3.5 or above.Please upgrade to FortiADC version 5.4.1 or above.\n        ",
+				"text": "\n            Please upgrade to FortiADC version 5.3.5 or abovePlease upgrade to FortiADC version 5.4.1 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in the Dashboard name parameter of FortiADC",
+		"title": "FortiADC is vulnerable to XSS (New Dashboard name parameter not sanitized)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-012",
-					"description": "XSS vulnerability in the Dashboard name parameter of FortiADC"
+					"description": "FortiADC is vulnerable to XSS (New Dashboard name parameter not sanitized)"
 				}
 			]
 		},

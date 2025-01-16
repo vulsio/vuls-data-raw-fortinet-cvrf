@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager allows unauthorized viewing of vdoms settings by any adom standard users",
+	"document_title": "FortiManager allows view unauthenticated other vdoms setting",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Yasar Calay, Beyaz Bilgisayar DanÄ±ÅŸmanlÄ±k Hizmetleri Ltd. Åžti. for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Yasar Calay, Beyaz Bilgisayar Danışmanlık Hizmetleri Ltd. Şti. for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager allows unauthorized viewing of vdoms settings by any adom standard users",
+		"title": "FortiManager allows view unauthenticated other vdoms setting",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-016",
-					"description": "FortiManager allows unauthorized viewing of vdoms settings by any adom standard users"
+					"description": "FortiManager allows view unauthenticated other vdoms setting"
 				}
 			]
 		},
@@ -96,7 +96,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

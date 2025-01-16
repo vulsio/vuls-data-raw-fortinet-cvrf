@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer and FortiManager admin user avatar setting improper access control",
+	"document_title": "FortiManager Missing Function Level Control on WebUI Change Picture",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper access control vulnerability exists in FortiAnalyzer and FortiManager, whereby a regular user of the GUI can edit the avatar picture of other users (including with higher privileges) with arbitrary content.Modern browsers would however not interpret code in the context of an image, therefore XSS attacks are only feasible if the target is using a legacy browser (I.E. 6 or below).\n        ",
+				"text": "\n            An improper access control vulnerability exists in FortiAnalyzer and FortiManager, whereby a regular user of the GUI can can edit the avatar picture of other users (including with higher privileges) with arbitrary content.Modern browsers would however not interpret code in the context of an image, therefore XSS attacks are only feasible if the target is using a legacy browser (I.E. 6 or below).\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer and FortiManager admin user avatar setting improper access control",
+		"title": "FortiManager Missing Function Level Control on WebUI Change Picture",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-014",
-					"description": "FortiAnalyzer and FortiManager admin user avatar setting improper access control"
+					"description": "FortiManager Missing Function Level Control on WebUI Change Picture"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWebManager 5.8.0 improperly handles admin login access",
+	"document_title": "FortiWebManager allow any/blank password for admin login though password is configured",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWebManager 5.8.0 improperly handles admin login access",
+		"title": "FortiWebManager allow any/blank password for admin login though password is configured",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-248",
-					"description": "FortiWebManager 5.8.0 improperly handles admin login access"
+					"description": "FortiWebManager allow any/blank password for admin login though password is configured"
 				}
 			]
 		},

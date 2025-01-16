@@ -1,5 +1,5 @@
 {
-	"document_title": "Unprivileged, authenticated  user can change the routing settings",
+	"document_title": "Unpriviledge user can connect to zebos",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet thanks Thomas HochmuthÂ for reporting this vulnerability."
+				"description": "Fortinet thanks Thomas Hochmuth for reporting this vulnerability."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Unprivileged, authenticated  user can change the routing settings",
+		"title": "Unpriviledge user can connect to zebos",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-230",
-					"description": "Unprivileged, authenticated  user can change the routing settings"
+					"description": "Unpriviledge user can connect to zebos"
 				}
 			]
 		},

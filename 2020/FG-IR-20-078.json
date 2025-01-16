@@ -84,6 +84,7 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAuthenticator-6.4.10",
 					"FortiAuthenticator-6.4.9",
 					"FortiAuthenticator-6.4.8",
 					"FortiAuthenticator-6.4.7",
@@ -183,6 +184,14 @@
 					"name": "FortiAuthenticator",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.10",
+								"product_id": "FortiAuthenticator-6.4.10"
+							}
+						},
 						{
 							"name": "6.4.9",
 							"type": "Product Version",

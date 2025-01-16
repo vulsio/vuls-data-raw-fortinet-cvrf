@@ -1,5 +1,5 @@
 {
-	"document_title": "Application control block page leaks private IP and hostname",
+	"document_title": "Application Control Violation page leaks Private IP and Hostname",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The default replacement message in FortiOS' Application control block page reveals the private IP as well as the hostname of the FortiGate.\n        ",
+				"text": "\n            The default replacement message in FortiOS' Application Control block page reveals the private IP as well as the hostname of the FortiGate.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiOS 5.6.6, 6.0.2 or laterWork around:All the replacement messages are configurable by the administrators. The default replacement messages are just templates. An administrator can easily change them to suit their needs. For example, remove the server/client IPs and FortiOS host names.\n        ",
+				"text": "\n            Upgrade to 5.6.6, 6.0.2, 6.2.0 or laterWork around:All the replacement messages are configurable by the administrators. The default replacement messages are just templates. An administrator can easily change them to suit their needs. For example, remove the server/client IPs and FortiOS host names.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Anandraj Amaran Security Researcher,22by7 solutions (22by7.in)Â and Mark Oakton at Infosec Partners for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Anandraj Amaran Security Researcher,22by7 solutions (22by7.in) reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Application control block page leaks private IP and hostname",
+		"title": "Application Control Violation page leaks Private IP and Hostname",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-085",
-					"description": "Application control block page leaks private IP and hostname"
+					"description": "Application Control Violation page leaks Private IP and Hostname"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS/FortiProxy - SSL VPN portal is vulnerable to an XSS",
+	"document_title": "[SSL VPN Portal] Reflected XSS via the error request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Execute unauthorized code or commands.\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiGate versions 5.6.13 and below. FortiGate versions 6.0.12 and below. FortiGate versions 6.2.7 and below. FortiGate versions 6.4.5 and below. FortiProxy version 2.0.0 through 2.0.1 FortiProxy version 1.2.0 through 1.2.9  \n        ",
+				"text": "\n            FortiGate versions 5.6.13 and below.FortiGate versions 6.0.12 and below.FortiGate versions 6.2.7 and below.FortiGate versions 6.4.5 and below.FortiProxy version 2.0.0 through 2.0.1FortiProxy version 1.2.0 through 1.2.9\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 6.0.13 or above. Please upgrade to FortiGate version 6.2.8 or above. Please upgrade to FortiGate version 6.4.6 or above. Please upgrade to FortiGate version 7.0.0 or above. For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9 Please upgrade to FortiProxy version 2.0.2 or above. Please upgrade to FortiProxy version 1.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 6.0.13 or above.Please upgrade to FortiGate version 6.2.8 or above.Please upgrade to FortiGate version 6.4.6 or above.Please upgrade to FortiGate version 7.0.0 or above.For new high-end F-Series Models (FG-1800F, FG-3800F, FG-4200F, FG-4400F) please upgrade to 6.2.9Please upgrade to FortiProxy version 2.0.2 or above.Please upgrade to FortiProxy version 1.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS/FortiProxy - SSL VPN portal is vulnerable to an XSS",
+		"title": "[SSL VPN Portal] Reflected XSS via the error request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-199",
-					"description": "FortiOS/FortiProxy - SSL VPN portal is vulnerable to an XSS"
+					"description": "[SSL VPN Portal] Reflected XSS via the error request"
 				}
 			]
 		},

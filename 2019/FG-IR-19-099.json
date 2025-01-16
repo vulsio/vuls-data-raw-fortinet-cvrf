@@ -1,5 +1,5 @@
 {
-	"document_title": "libssh2 integer overflow and out of bounds read/write vulnerabilities",
+	"document_title": "libssh2 1.8.2 release (Mar 25, 2019)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,28 +24,34 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple integer overflow and out of bounds read/write vulnerabilities in the SSL VPN web-mode SSH client may allow an unauthenticated attacker to cause the SSL VPN user session to break (Denial of service) and possibly to run arbitrary code via specially crafted packets sent from a malicious SSH server. This concerns the following CVEs on a precaution basis: * CVE-2019-3855 integer overflow when reading a specially crafted packet * CVE-2019-3856 integer overflow if the server sent an extremely large number of keyboard prompts * CVE-2019-3857 integer overflow when receiving a specially crafted exit signal message channel packet * CVE-2019-3858 zero byte allocation when reading a specially crafted SFTP packet * CVE-2019-3859 out of bounds reads in _libssh2_packet_require(v) * CVE-2019-3860 out of bounds reads when processing specially crafted SFTP packets * CVE-2019-3861 out of bounds read when processing a specially crafted packet * CVE-2019-3862 out of bounds read when receiving a specially crafted exit status message channel packet * CVE-2019-3863 integer overflow in userauth_keyboard_interactive with a number of extremely long prompt strings\n        ",
+				"text": "\n            Multiple integer overflow and out of bounds read/write vulnerabilities in the SSL VPN web-mode SSH client may allow an unauthenticated attacker to cause the SSL VPN user session to break (Denial of service) and possibly to run arbitrary code via specially crafted packets sent from a malicious SSH server.This concerns the following CVEs on a precaution basis:* CVE-2019-3855 integer overflow when reading a specially crafted packet* CVE-2019-3856 integer overflow if the server sent an extremely large number of keyboard prompts* CVE-2019-3857 integer overflow when receiving a specially crafted exit signal message channel packet* CVE-2019-3858 zero byte allocation when reading a specially crafted SFTP packet* CVE-2019-3859 out of bounds reads in _libssh2_packet_require(v)* CVE-2019-3860 out of bounds reads when processing specially crafted SFTP packets* CVE-2019-3861 out of bounds read when processing a specially crafted packet* CVE-2019-3862 out of bounds read when receiving a specially crafted exit status message channel packet* CVE-2019-3863 integer overflow in userauth_keyboard_interactive with a number of extremely long prompt strings\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Buffer Overflows\n        ",
-				"title": "Impact",
+				"text": "\n            None\n        ",
+				"title": "Description",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS 6.2.0 FortiOS 6.0.0 to 6.0.6 FortiOS 5.6.0 to 5.6.10 other versions are not impacted.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Denial of service\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            There is no known exploit for these vulnerabilities and the affected FortiOS code was patched on 5.6.11, 6.0.7 and 6.2.1, by measure of precaution. Workarounds: Do not access SSH server using SSH client in SSL VPN web-mode if the remote SSH server is operating under an untrusted environment.\n        ",
-				"title": "Solutions",
+				"text": "\n            FortiOS 6.2.0FortiOS 6.0.0 to 6.0.6FortiOS 5.6.0 to 5.6.10other versions are not impacted.\n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
+			},
+			{
+				"text": "\n            There is no known exploit for these vulnerabilities and the affected FortiOS code was patched on 5.6.11, 6.0.7 and 6.2.1, by measure of precaution.Workarounds:Do not access SSH server using SSH client in SSL VPN web-mode if the remote SSH server is operating under an untrusted environment.\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "5"
 			}
 		]
 	},
@@ -53,19 +59,16 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "libssh2 integer overflow and out of bounds read/write vulnerabilities",
+		"title": "libssh2 1.8.2 release (Mar 25, 2019)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-099",
-					"description": "libssh2 integer overflow and out of bounds read/write vulnerabilities"
+					"description": "libssh2 1.8.2 release (Mar 25, 2019)"
 				}
 			]
 		},
-		"cve": [
-			"CVE-tmp-2019-0937"
-		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",
@@ -88,14 +91,61 @@
 					"FortiOS-5.6.3",
 					"FortiOS-5.6.2",
 					"FortiOS-5.6.1",
-					"FortiOS-5.6.0"
+					"FortiOS-5.6.0",
+					"FortiWeb-6.3.23",
+					"FortiWeb-6.3.22",
+					"FortiWeb-6.3.21",
+					"FortiWeb-6.3.20",
+					"FortiWeb-6.3.19",
+					"FortiWeb-6.3.18",
+					"FortiWeb-6.3.17",
+					"FortiWeb-6.3.16",
+					"FortiWeb-6.3.15",
+					"FortiWeb-6.3.14",
+					"FortiWeb-6.3.13",
+					"FortiWeb-6.3.12",
+					"FortiWeb-6.3.11",
+					"FortiWeb-6.3.10",
+					"FortiWeb-6.3.9",
+					"FortiWeb-6.3.8",
+					"FortiWeb-6.3.7",
+					"FortiWeb-6.3.6",
+					"FortiWeb-6.3.5",
+					"FortiWeb-6.3.4",
+					"FortiWeb-6.3.3",
+					"FortiWeb-6.3.2",
+					"FortiWeb-6.3.1",
+					"FortiWeb-6.3.0",
+					"FortiWeb-6.2.8",
+					"FortiWeb-6.2.7",
+					"FortiWeb-6.2.6",
+					"FortiWeb-6.2.5",
+					"FortiWeb-6.2.4",
+					"FortiWeb-6.2.3",
+					"FortiWeb-6.2.2",
+					"FortiWeb-6.2.1",
+					"FortiWeb-6.2.0",
+					"FortiWeb-6.1.4",
+					"FortiWeb-6.1.3",
+					"FortiWeb-6.1.2",
+					"FortiWeb-6.1.1",
+					"FortiWeb-6.1.0",
+					"FortiWeb-6.0.8",
+					"FortiWeb-6.0.7",
+					"FortiWeb-6.0.6",
+					"FortiWeb-6.0.5",
+					"FortiWeb-6.0.4",
+					"FortiWeb-6.0.3",
+					"FortiWeb-6.0.2",
+					"FortiWeb-6.0.1",
+					"FortiWeb-6.0.0"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "9.8",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -258,6 +308,388 @@
 							"full_product_name": {
 								"text": "FortiOS 5.6.0",
 								"product_id": "FortiOS-5.6.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.3.23",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.23",
+								"product_id": "FortiWeb-6.3.23"
+							}
+						},
+						{
+							"name": "6.3.22",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.22",
+								"product_id": "FortiWeb-6.3.22"
+							}
+						},
+						{
+							"name": "6.3.21",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.21",
+								"product_id": "FortiWeb-6.3.21"
+							}
+						},
+						{
+							"name": "6.3.20",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.20",
+								"product_id": "FortiWeb-6.3.20"
+							}
+						},
+						{
+							"name": "6.3.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.19",
+								"product_id": "FortiWeb-6.3.19"
+							}
+						},
+						{
+							"name": "6.3.18",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.18",
+								"product_id": "FortiWeb-6.3.18"
+							}
+						},
+						{
+							"name": "6.3.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.17",
+								"product_id": "FortiWeb-6.3.17"
+							}
+						},
+						{
+							"name": "6.3.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.16",
+								"product_id": "FortiWeb-6.3.16"
+							}
+						},
+						{
+							"name": "6.3.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.15",
+								"product_id": "FortiWeb-6.3.15"
+							}
+						},
+						{
+							"name": "6.3.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.14",
+								"product_id": "FortiWeb-6.3.14"
+							}
+						},
+						{
+							"name": "6.3.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.13",
+								"product_id": "FortiWeb-6.3.13"
+							}
+						},
+						{
+							"name": "6.3.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.12",
+								"product_id": "FortiWeb-6.3.12"
+							}
+						},
+						{
+							"name": "6.3.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.11",
+								"product_id": "FortiWeb-6.3.11"
+							}
+						},
+						{
+							"name": "6.3.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.10",
+								"product_id": "FortiWeb-6.3.10"
+							}
+						},
+						{
+							"name": "6.3.9",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.9",
+								"product_id": "FortiWeb-6.3.9"
+							}
+						},
+						{
+							"name": "6.3.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.8",
+								"product_id": "FortiWeb-6.3.8"
+							}
+						},
+						{
+							"name": "6.3.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.7",
+								"product_id": "FortiWeb-6.3.7"
+							}
+						},
+						{
+							"name": "6.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.6",
+								"product_id": "FortiWeb-6.3.6"
+							}
+						},
+						{
+							"name": "6.3.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.5",
+								"product_id": "FortiWeb-6.3.5"
+							}
+						},
+						{
+							"name": "6.3.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.4",
+								"product_id": "FortiWeb-6.3.4"
+							}
+						},
+						{
+							"name": "6.3.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.3",
+								"product_id": "FortiWeb-6.3.3"
+							}
+						},
+						{
+							"name": "6.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.2",
+								"product_id": "FortiWeb-6.3.2"
+							}
+						},
+						{
+							"name": "6.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.1",
+								"product_id": "FortiWeb-6.3.1"
+							}
+						},
+						{
+							"name": "6.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.3.0",
+								"product_id": "FortiWeb-6.3.0"
+							}
+						},
+						{
+							"name": "6.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.8",
+								"product_id": "FortiWeb-6.2.8"
+							}
+						},
+						{
+							"name": "6.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.7",
+								"product_id": "FortiWeb-6.2.7"
+							}
+						},
+						{
+							"name": "6.2.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.6",
+								"product_id": "FortiWeb-6.2.6"
+							}
+						},
+						{
+							"name": "6.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.5",
+								"product_id": "FortiWeb-6.2.5"
+							}
+						},
+						{
+							"name": "6.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.4",
+								"product_id": "FortiWeb-6.2.4"
+							}
+						},
+						{
+							"name": "6.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.3",
+								"product_id": "FortiWeb-6.2.3"
+							}
+						},
+						{
+							"name": "6.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.2",
+								"product_id": "FortiWeb-6.2.2"
+							}
+						},
+						{
+							"name": "6.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.1",
+								"product_id": "FortiWeb-6.2.1"
+							}
+						},
+						{
+							"name": "6.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.2.0",
+								"product_id": "FortiWeb-6.2.0"
+							}
+						},
+						{
+							"name": "6.1.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.4",
+								"product_id": "FortiWeb-6.1.4"
+							}
+						},
+						{
+							"name": "6.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.3",
+								"product_id": "FortiWeb-6.1.3"
+							}
+						},
+						{
+							"name": "6.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.2",
+								"product_id": "FortiWeb-6.1.2"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.1",
+								"product_id": "FortiWeb-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.1.0",
+								"product_id": "FortiWeb-6.1.0"
+							}
+						},
+						{
+							"name": "6.0.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.8",
+								"product_id": "FortiWeb-6.0.8"
+							}
+						},
+						{
+							"name": "6.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.7",
+								"product_id": "FortiWeb-6.0.7"
+							}
+						},
+						{
+							"name": "6.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.6",
+								"product_id": "FortiWeb-6.0.6"
+							}
+						},
+						{
+							"name": "6.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.5",
+								"product_id": "FortiWeb-6.0.5"
+							}
+						},
+						{
+							"name": "6.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.4",
+								"product_id": "FortiWeb-6.0.4"
+							}
+						},
+						{
+							"name": "6.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.3",
+								"product_id": "FortiWeb-6.0.3"
+							}
+						},
+						{
+							"name": "6.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.2",
+								"product_id": "FortiWeb-6.0.2"
+							}
+						},
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.1",
+								"product_id": "FortiWeb-6.0.1"
+							}
+						},
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.0",
+								"product_id": "FortiWeb-6.0.0"
 							}
 						}
 					]

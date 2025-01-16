@@ -103,6 +103,7 @@
 					"FortiAnalyzer-7.2.2",
 					"FortiAnalyzer-7.2.1",
 					"FortiAnalyzer-7.2.0",
+					"FortiAnalyzer-7.0.13",
 					"FortiAnalyzer-7.0.12",
 					"FortiAnalyzer-7.0.11",
 					"FortiAnalyzer-7.0.10",
@@ -116,6 +117,7 @@
 					"FortiAnalyzer-7.0.2",
 					"FortiAnalyzer-7.0.1",
 					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.15",
 					"FortiAnalyzer-6.4.14",
 					"FortiAnalyzer-6.4.13",
 					"FortiAnalyzer-6.4.12",
@@ -131,6 +133,7 @@
 					"FortiAnalyzer-6.4.2",
 					"FortiAnalyzer-6.4.1",
 					"FortiAnalyzer-6.4.0",
+					"FortiAnalyzer-6.2.13",
 					"FortiAnalyzer-6.2.12",
 					"FortiAnalyzer-6.2.11",
 					"FortiAnalyzer-6.2.10",
@@ -156,6 +159,7 @@
 					"FortiManager-7.2.2",
 					"FortiManager-7.2.1",
 					"FortiManager-7.2.0",
+					"FortiManager-7.0.13",
 					"FortiManager-7.0.12",
 					"FortiManager-7.0.11",
 					"FortiManager-7.0.10",
@@ -169,6 +173,7 @@
 					"FortiManager-7.0.2",
 					"FortiManager-7.0.1",
 					"FortiManager-7.0.0",
+					"FortiManager-6.4.15",
 					"FortiManager-6.4.14",
 					"FortiManager-6.4.13",
 					"FortiManager-6.4.12",
@@ -184,6 +189,7 @@
 					"FortiManager-6.4.2",
 					"FortiManager-6.4.1",
 					"FortiManager-6.4.0",
+					"FortiManager-6.2.13",
 					"FortiManager-6.2.12",
 					"FortiManager-6.2.11",
 					"FortiManager-6.2.10",
@@ -262,6 +268,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.2.0",
 								"product_id": "FortiAnalyzer-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 7.0.13",
+								"product_id": "FortiAnalyzer-7.0.13"
 							}
 						},
 						{
@@ -366,6 +380,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.0.0",
 								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.15",
+								"product_id": "FortiAnalyzer-6.4.15"
 							}
 						},
 						{
@@ -486,6 +508,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 6.4.0",
 								"product_id": "FortiAnalyzer-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.2.13",
+								"product_id": "FortiAnalyzer-6.2.13"
 							}
 						},
 						{
@@ -701,6 +731,14 @@
 							}
 						},
 						{
+							"name": "7.0.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 7.0.13",
+								"product_id": "FortiManager-7.0.13"
+							}
+						},
+						{
 							"name": "7.0.12",
 							"type": "Product Version",
 							"full_product_name": {
@@ -802,6 +840,14 @@
 							"full_product_name": {
 								"text": "FortiManager 7.0.0",
 								"product_id": "FortiManager-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.4.15",
+								"product_id": "FortiManager-6.4.15"
 							}
 						},
 						{
@@ -922,6 +968,14 @@
 							"full_product_name": {
 								"text": "FortiManager 6.4.0",
 								"product_id": "FortiManager-6.4.0"
+							}
+						},
+						{
+							"name": "6.2.13",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 6.2.13",
+								"product_id": "FortiManager-6.2.13"
 							}
 						},
 						{

@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Information leak\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            * Upgrade to 5.4.2 GA * Upgrade to 5.2.10 GA Workarounds: 1. Use two-factor authentication in conjunction with local admins account or a remote authentication method like LDAP or RADIUS. 2. Use a strong password policy to prevent password from being cracked from a hash value.\n        ",
+				"text": "\n            Upgrade to 5.4.2 GA * Upgrade to 5.2.10 GA Workarounds: 1. Use two-factor authentication in conjunction with local admins account or a remote authentication method like LDAP or RADIUS. 2. Use a strong password policy to prevent password from being cracked from a hash value.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

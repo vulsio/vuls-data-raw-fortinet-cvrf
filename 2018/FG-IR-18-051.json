@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiManager Unencrypted Password Vulnerability",
+	"document_title": "FortiManager dvmdb/device REST API JSON password in cleartext",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiManager Unencrypted Password Vulnerability",
+		"title": "FortiManager dvmdb/device REST API JSON password in cleartext",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-051",
-					"description": "FortiManager Unencrypted Password Vulnerability"
+					"description": "FortiManager dvmdb/device REST API JSON password in cleartext"
 				}
 			]
 		},
@@ -92,7 +92,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

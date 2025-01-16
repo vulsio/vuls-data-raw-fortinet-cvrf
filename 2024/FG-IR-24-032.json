@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-11-12T00:00:00",
-		"current_release_date": "2024-11-12T00:00:00"
+		"current_release_date": "2024-11-15T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -42,8 +42,8 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            None\n        ",
-				"title": "Solutions",
+				"text": "\n            \n        ",
+				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			}
@@ -222,6 +222,7 @@
 					"FortiPortal-5.3.2",
 					"FortiPortal-5.3.1",
 					"FortiPortal-5.3.0",
+					"FortiProxy-7.4.3",
 					"FortiProxy-7.4.2",
 					"FortiProxy-7.4.1",
 					"FortiProxy-7.4.0",
@@ -235,9 +236,6 @@
 					"FortiProxy-7.2.2",
 					"FortiProxy-7.2.1",
 					"FortiProxy-7.2.0",
-					"FortiProxy-7.0.19",
-					"FortiProxy-7.0.18",
-					"FortiProxy-7.0.17",
 					"FortiProxy-7.0.16",
 					"FortiProxy-7.0.15",
 					"FortiProxy-7.0.14",
@@ -1519,6 +1517,14 @@
 					"type": "Product Name",
 					"branch": [
 						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiProxy 7.4.3",
+								"product_id": "FortiProxy-7.4.3"
+							}
+						},
+						{
 							"name": "7.4.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -1620,30 +1626,6 @@
 							"full_product_name": {
 								"text": "FortiProxy 7.2.0",
 								"product_id": "FortiProxy-7.2.0"
-							}
-						},
-						{
-							"name": "7.0.19",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.19",
-								"product_id": "FortiProxy-7.0.19"
-							}
-						},
-						{
-							"name": "7.0.18",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.18",
-								"product_id": "FortiProxy-7.0.18"
-							}
-						},
-						{
-							"name": "7.0.17",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiProxy 7.0.17",
-								"product_id": "FortiProxy-7.0.17"
 							}
 						},
 						{

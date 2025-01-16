@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM Database hard-coded Credentials",
+	"document_title": "FortiSIEM PostgreSQL hardcoded Credentials",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM Database hard-coded Credentials",
+		"title": "FortiSIEM PostgreSQL hardcoded Credentials",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-195",
-					"description": "FortiSIEM Database hard-coded Credentials"
+					"description": "FortiSIEM PostgreSQL hardcoded Credentials"
 				}
 			]
 		},

@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Privilege escalation\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Predictable session IDs of JSON API",
+	"document_title": "Predictable session IDs of FSA's JSON API",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox version 3.2.2 and below. FortiSandbox version 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox version 3.2.2 and below.FortiSandbox version 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox version 4.0.0. Upgrade to FortiSandbox version 3.2.3.\n        ",
+				"text": "\n            Upgrade to FortiSandbox version 4.0.0.Upgrade to FortiSandbox version 3.2.3.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Predictable session IDs of JSON API",
+		"title": "Predictable session IDs of FSA's JSON API",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-218",
-					"description": "FortiSandbox - Predictable session IDs of JSON API"
+					"description": "Predictable session IDs of FSA's JSON API"
 				}
 			]
 		},
@@ -84,7 +84,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "5",
+				"base_score_v3": "5.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:P/RL:X/RC:X"
 			}
 		}

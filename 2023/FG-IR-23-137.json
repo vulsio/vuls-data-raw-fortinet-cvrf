@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -78,6 +84,8 @@
 					"FortiOS-7.2.2",
 					"FortiOS-7.2.1",
 					"FortiOS-7.2.0",
+					"FortiOS-7.0.17",
+					"FortiOS-7.0.16",
 					"FortiOS-7.0.15",
 					"FortiOS-7.0.14",
 					"FortiOS-7.0.13",
@@ -223,7 +231,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "6.5",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
 			}
 		}
 	},
@@ -290,6 +298,22 @@
 							"full_product_name": {
 								"text": "FortiOS 7.2.0",
 								"product_id": "FortiOS-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.17",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.17",
+								"product_id": "FortiOS-7.0.17"
+							}
+						},
+						{
+							"name": "7.0.16",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.0.16",
+								"product_id": "FortiOS-7.0.16"
 							}
 						},
 						{

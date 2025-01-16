@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Unauthenticated encryption in IBE leads to email plaintext recovery",
+	"document_title": "Unauthenticated encryption in FML's IBE leads to email plaintext recovery",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Unauthenticated encryption in IBE leads to email plaintext recovery",
+		"title": "Unauthenticated encryption in FML's IBE leads to email plaintext recovery",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-003",
-					"description": "FortiMail - Unauthenticated encryption in IBE leads to email plaintext recovery"
+					"description": "Unauthenticated encryption in FML's IBE leads to email plaintext recovery"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "Unauthenticated SSL VPN users password modification",
+	"document_title": "[FortiOS] SSL VPN account hijack (unauthorized modification of users passwords)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,22 +24,28 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An Improper Authorization vulnerability in the SSL VPN web portal may allow an unauthenticated attacker to change the password of an SSL VPN web portal user via specially crafted HTTP requests.\n        ",
+				"text": "\n            An Improper Authorization vulnerability in the SSL VPN web portal may allow an unauthenticated attacker to change the password of locally authenticated SSL VPN web portal users via specially crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            FortiOS 6.0.0 to 6.0.4 FortiOS 5.6.0 to 5.6.8 FortiOS 5.4.1 to 5.4.10only if the SSL VPN service (web-mode or tunnel-mode) is enabled and users with local authentication are affected (SSL VPN users with remote authentication (LDAP or RADIUS) are not impacted). Versions 5.4.0 and below (including branch 5.2) are not affected.\n        ",
-				"title": "Affected Products",
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
+			},
+			{
+				"text": "\n            FortiOS 6.0.0 to 6.0.4 FortiOS 5.6.0 to 5.6.8 FortiOS 5.4.1 to 5.4.10only if the SSL VPN service (web-mode or tunnel-mode) is enabled and users with local authentication are affected (SSL VPN users with remote authentication (LDAP or RADIUS) are not impacted).Versions 5.4.0 and below (including branch 5.2) are not affected.\n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "3"
 			},
 			{
 				"text": "\n            Upgrade to FortiOS 5.4.11, 5.6.9, 6.0.5, 6.2.0 or above. Mitigation: SSL VPN users with local authentication can mitigate the impact by enabling Two-Factor Authentication (2FA): If their password is changed by an attacker leveraging this vulnerability, the attacker will not be able to log in and use their SSL VPN account. Workaround: The only workaround is to migrate SSL VPN user authentication from local to remote (LDAP or RADIUS), or totally disable the SSL-VPN service (both web-mode and tunnel-mode) by applying the following CLI commands: config vpn ssl settings unset source-interface end Note that firewall policies tied to SSL VPN will need to be unset first for the above sequence to execute successfully. As an example, when source-interface is \"port1\" and SSL VPN interface is \"ssl.root\", the following CLI commands would be needed to ensure \"unset source-interface\" executes successfully: config vpn ssl settings config authentication-rule purge (purge all authentication-rules) end end config firewall policy delete [policy-id] (SSL VPN policy ID(s) that srcintf is \"ssl.root\" and dstintf is \"port1\") end Revision History: 2019-05-24 Initial version 2019-06-04 Clarified the affected versions and workarounds. 2019-08-30 Add two-factor authentication (2FA) mitigation. 2019-08-30 Add public disclosure reference link.\n        ",
 				"title": "Solutions",
 				"type": "General",
-				"ordinal": "3"
+				"ordinal": "4"
 			}
 		]
 	},
@@ -47,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-389",
-				"description": "Unauthenticated SSL VPN users password modification"
+				"description": "[FortiOS] SSL VPN account hijack (unauthorized modification of users passwords)"
 			},
 			{
 				"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",
@@ -64,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Unauthenticated SSL VPN users password modification",
+		"title": "[FortiOS] SSL VPN account hijack (unauthorized modification of users passwords)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-389",
-					"description": "Unauthenticated SSL VPN users password modification"
+					"description": "[FortiOS] SSL VPN account hijack (unauthorized modification of users passwords)"
 				},
 				{
 					"url": "https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html",

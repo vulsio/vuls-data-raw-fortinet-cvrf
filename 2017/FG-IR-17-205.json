@@ -1,5 +1,5 @@
 {
-	"document_title": "Apache Struts RCE Vulnerability",
+	"document_title": "Apache Struts Vulnerability (Tier1/2 Focus)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Remote Code Execution (RCE)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -47,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205",
-				"description": "Apache Struts RCE Vulnerability"
+				"description": "Apache Struts Vulnerability (Tier1/2 Focus)"
 			},
 			{
 				"url": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
@@ -58,13 +58,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Apache Struts RCE Vulnerability",
+		"title": "Apache Struts Vulnerability (Tier1/2 Focus)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205",
-					"description": "Apache Struts RCE Vulnerability"
+					"description": "Apache Struts Vulnerability (Tier1/2 Focus)"
 				},
 				{
 					"url": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
@@ -73,9 +73,9 @@
 			]
 		},
 		"cve": [
-			"CVE-2017-9805",
+			"CVE-2017-9793",
 			"CVE-2017-9804",
-			"CVE-2017-9793"
+			"CVE-2017-9805"
 		],
 		"product_statuses": {
 			"status": {}

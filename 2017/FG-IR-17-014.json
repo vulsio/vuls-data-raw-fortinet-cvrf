@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAnalyzer, FortiManager Open Redirect Vulnerability",
+	"document_title": "FAZ/FMG Open Redirect Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,13 +30,13 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Open redirect\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAnalyzer versions 5.4.0 to 5.4.2, FortiManager versions 5.4.0 to 5.4.2.Preceding versions of FortiAnalyzer and FortiManager are not impacted\n        ",
+				"text": "\n            FortiAnalyzer versions 5.4.0 to 5.4.2,FortiManager versions 5.4.0 to 5.4.2.Preceding versions of FortiAnalyzer and FortiManager are not impacted\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Ronan Dunne of Biocompatibles UK Ltd, and Babar Khan Akhunzada of SecurityWall.co & Khyber Pakhtunkhwa Govt Data Center for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Ronan Dunne of Biocompatibles UK Ltd and Babar Khan Akhunzada of SecurityWall.co for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAnalyzer, FortiManager Open Redirect Vulnerability",
+		"title": "FAZ/FMG Open Redirect Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-014",
-					"description": "FortiAnalyzer, FortiManager Open Redirect Vulnerability"
+					"description": "FAZ/FMG Open Redirect Vulnerability"
 				}
 			]
 		},

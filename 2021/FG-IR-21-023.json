@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Multiple buffer overflows",
+	"document_title": "[FG-IR-21-023] Multiple buffer overflows in FortiMail",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple instances of incorrect calculation of buffer size in FortiMail Webmail and Administrative interface may allow an authenticated attacker with regular webmail access to trigger a buffer overflow and to possibly execute unauthorized code or commands via specifically crafted HTTP requests.  \n        ",
+				"text": "\n            Multiple instances of incorrect calculation of buffer size in FortiMail webmail and administrative interface and FortiNDR administrative interface may allow an authenticated attacker with regular webmail access to trigger a buffer overflow and to possibly execute unauthorized code or commands via specifically crafted HTTP requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Remote code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Multiple buffer overflows",
+		"title": "[FG-IR-21-023] Multiple buffer overflows in FortiMail",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-023",
-					"description": "FortiMail - Multiple buffer overflows"
+					"description": "[FG-IR-21-023] Multiple buffer overflows in FortiMail"
 				}
 			]
 		},

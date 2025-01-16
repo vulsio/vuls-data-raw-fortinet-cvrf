@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command",
+	"document_title": "[FortiProxy] Buffer overflow vulnerability due to unsafe sscanf use",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A stack-based buffer overflow vulnerability in FortiProxy physical appliance CLI may allow an authenticated, remote attacker to perform a Denial of Service attack by running the `diagnose sys cpuset` with a large cpuset mask value. Fortinet is not aware of any successful exploitation of this vulnerability that would lead to code execution.\n        ",
+				"text": "\n            A stack-based buffer overflow vulnerability in FortiProxy physical appliance CLI may allow an authenticated, remote attacker to perform a Denial of Service attack by running the diagnose sys cpuset with a large cpuset mask value. Fortinet is not aware of any successful exploitation of this vulnerability that would lead to code execution.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            denial of service, Remote Code Execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy versions 1.2.9 and below. FortiProxy versions 2.0.1 and below. FortiProxy versions 1.1.x FortiProxy versions 1.0.x\n        ",
+				"text": "\n            FortiProxy versions 1.2.9 and below.FortiProxy versions 2.0.1 and below.FortiProxy versions 1.1.xFortiProxy versions 1.0.x\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to Fortiproxy version 1.2.10 or above. Please upgrade to Fortiproxy version 2.0.2 or above.\n        ",
+				"text": "\n            Please upgrade to Fortiproxy version 1.2.10 or above.Please upgrade to Fortiproxy version 2.0.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command",
+		"title": "[FortiProxy] Buffer overflow vulnerability due to unsafe sscanf use",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-006",
-					"description": "FortiProxy - Stack-based Buffer overflow vulnerability through the diagnose sys cpuset CLI command"
+					"description": "[FortiProxy] Buffer overflow vulnerability due to unsafe sscanf use"
 				}
 			]
 		},

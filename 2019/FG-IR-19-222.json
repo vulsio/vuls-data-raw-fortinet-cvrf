@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            11 zero day vulnerabilities (aka. URGENT/11) were disclosed in VxWorksÂ® TCP/IP stack (IPnet):CVE-2019-12255 - TCP Urgent Pointer = 0 leads to integer underflow.CVE-2019-12256 - Stack overflow in the parsing of IPv4 packetsâ€™ IP options.CVE-2019-12257 - Heap overflow in DHCP Offer/Ack parsing inside ipdhcpc.CVE-2019-12258 - DoS of TCP connection via malformed TCP options.CVE-2019-12259 - DoS via NULL dereference in IGMP parsing.CVE-2019-12260 - TCP Urgent Pointer state confusion caused by malformed TCP AO option.CVE-2019-12261 - TCP Urgent Pointer state confusion during connect() to a remote host.CVE-2019-12262 - Handling of unsolicited Reverse ARP replies (logic flaw).CVE-2019-12263 - TCP Urgent Pointer state confusion due to a race condition.CVE-2019-12264 - Logic flaw in IPv4 assignment by ipdhcpc DHCP client.CVE-2019-12265 - IGMP information leak via IGMPv3 specific membership report.\n        ",
+				"text": "\n            11 zero day vulnerabilities (aka. URGENT/11) were disclosed in VxWorks® TCP/IP stack (IPnet):CVE-2019-12255 - TCP Urgent Pointer = 0 leads to integer underflow.CVE-2019-12256 - Stack overflow in the parsing of IPv4 packets’ IP options.CVE-2019-12257 - Heap overflow in DHCP Offer/Ack parsing inside ipdhcpc.CVE-2019-12258 - DoS of TCP connection via malformed TCP options.CVE-2019-12259 - DoS via NULL dereference in IGMP parsing.CVE-2019-12260 - TCP Urgent Pointer state confusion caused by malformed TCP AO option.CVE-2019-12261 - TCP Urgent Pointer state confusion during connect() to a remote host.CVE-2019-12262 - Handling of unsolicited Reverse ARP replies (logic flaw).CVE-2019-12263 - TCP Urgent Pointer state confusion due to a race condition.CVE-2019-12264 - Logic flaw in IPv4 assignment by ipdhcpc DHCP client.CVE-2019-12265 - IGMP information leak via IGMPv3 specific membership report.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Buffer Overflow, DoS, etc\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"

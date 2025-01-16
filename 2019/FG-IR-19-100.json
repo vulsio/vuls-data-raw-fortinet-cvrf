@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSIEM external authentication password reflected in external authentication profile",
+	"document_title": "FortiSIEM External Authentication (AES) encrypted password reflected in GUI",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Yavuz YUKSEL security researcher for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Yavuz YKSEL security researcher for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSIEM external authentication password reflected in external authentication profile",
+		"title": "FortiSIEM External Authentication (AES) encrypted password reflected in GUI",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-100",
-					"description": "FortiSIEM external authentication password reflected in external authentication profile"
+					"description": "FortiSIEM External Authentication (AES) encrypted password reflected in GUI"
 				}
 			]
 		},

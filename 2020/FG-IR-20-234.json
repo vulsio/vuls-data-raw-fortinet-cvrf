@@ -1,5 +1,5 @@
 {
-	"document_title": "Buffer overflow due to use of size of source buffer in libc safe functions",
+	"document_title": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Buffer overflow due to use of size of source buffer in libc safe functions",
+		"title": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-234",
-					"description": "Buffer overflow due to use of size of source buffer in libc safe functions"
+					"description": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions"
 				}
 			]
 		},

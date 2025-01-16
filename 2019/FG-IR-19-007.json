@@ -1,5 +1,5 @@
 {
-	"document_title": "Use of a hard-coded cryptographic key to cipher sensitive data in CLI configuration",
+	"document_title": "Hardcoded symmetric key in fips.c",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS: In versions 5.6.11 and above, 6.0.7 and above, and 6.2.1 and above, administrators can choose to be prompted for a password, which is then used by FortiOS to encrypt sensitive data in the configuration file.The following steps enable this option:config system globalset private-data-encryption enable /* disabled by default */endFortiManager: Upgrade to FortiManager 6.2.5 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:configure system globalset private-data-encryption enable /* disabled by default */endFortiAnalyzer: Upgrade to FortiAnalyzer 6.2.4 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:configure system globalset private-data-encryption enable /* disabled by default */endWorkaround: * Always use a password to protect the system configuration file when performing backups *The impacted ENC type data in CLI configuration, if exposed, should currently be considered \"easy to decrypt\" by potential attackers. Thus, avoid exposure of configuration in unsafe and/or public channels (forums, etc...) Note: Enabling private-data-encryption on FortiGates that are centrally managed by a FortiManager or are in High Availability mode may lead to some bugs including an install errors on the FortiManager side and split-brain. This issue is fixed in FortiManager versions 6.2.7 and above and in FortiGate versions 6.2.6, 6.4.4, 6.6.0 and above. Moreover, we can verify that the user provided key is the same on FortiManager and FortiGate sides by executing the below commands: FortiGate-201Eexec private-encryption-key sample FortiGate-201Eexec private-encryption-key verifyVerification passed.Note:FIPS-CC devices are not impacted as the encryption method is overridden.Revision History:11-19-2019 Initial Version06-11-2020 Add FortiManager CVE-2020-9289 06-30-2020 Add FortiAnalyzer CVE-2020-928911-13-2020 Update Solution section02-22-2024 Add FIPS-CC note\n        ",
+				"text": "\n            FortiOS: In versions 5.6.11 and above, 6.0.7 and above, and 6.2.1 and above, administrators can choose to be prompted for a password, which is then used by FortiOS to encrypt sensitive data in the configuration file.The following steps enable this option:<br/>config system global<br/>set private-data-encryption enable /* disabled by default */<br/>end<br/>FortiManager: Upgrade to FortiManager 6.2.5 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:<br/>configure system global<br/>set private-data-encryption enable /* disabled by default */<br/>end<br/>FortiAnalyzer: Upgrade to FortiAnalyzer 6.2.4 or above and enable the following newly introduced CLI setting, to prompt for a user-defined cryptographic key; the user-defined key will then be used to cipher ENC type data in the configuration:<br/>configure system global<br/>set private-data-encryption enable /* disabled by default */<br/>end<br/>Workaround: * Always use a password to protect the system configuration file when performing backups *The impacted ENC type data in CLI configuration, if exposed, should currently be considered \"easy to decrypt\" by potential attackers. Thus, avoid exposure of configuration in unsafe and/or public channels (forums, etc...) Note: Enabling private-data-encryption on FortiGates that are centrally managed by a FortiManager or are in High Availability mode may lead to some bugs including an install errors on the FortiManager side and split-brain. This issue is fixed in FortiManager versions 6.2.7 and above and in FortiGate versions 6.2.6, 6.4.4, 6.6.0 and above. Moreover, we can verify that the user provided key is the same on FortiManager and FortiGate sides by executing the below commands: FortiGate-201E<br/>exec private-encryption-key sample FortiGate-201E<br/>exec private-encryption-key verify<br/>Verification passed.Note:FIPS-CC devices are not impacted as the encryption method is overridden.Revision History:11-19-2019 Initial Version06-11-2020 Add FortiManager CVE-2020-9289 06-30-2020 Add FortiAnalyzer CVE-2020-928911-13-2020 Update Solution section02-22-2024 Add FIPS-CC note\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Use of a hard-coded cryptographic key to cipher sensitive data in CLI configuration",
+		"title": "Hardcoded symmetric key in fips.c",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-007",
-					"description": "Use of a hard-coded cryptographic key to cipher sensitive data in CLI configuration"
+					"description": "Hardcoded symmetric key in fips.c"
 				}
 			]
 		},

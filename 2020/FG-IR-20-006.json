@@ -1,5 +1,5 @@
 {
-	"document_title": "Session ID does not expire after logout in FortiDeceptor",
+	"document_title": "[FortiDeceptor] fsuis token does not expire after logout",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Session ID does not expire after logout in FortiDeceptor",
+		"title": "[FortiDeceptor] fsuis token does not expire after logout",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-006",
-					"description": "Session ID does not expire after logout in FortiDeceptor"
+					"description": "[FortiDeceptor] fsuis token does not expire after logout"
 				}
 			]
 		},

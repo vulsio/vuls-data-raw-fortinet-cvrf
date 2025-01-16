@@ -1,5 +1,5 @@
 {
-	"document_title": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+	"document_title": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service (DoS), RCE, Information Leak\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -47,7 +47,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212",
-				"description": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
+				"description": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
 			},
 			{
 				"url": "http://www.kb.cert.org/vuls/id/240311\n",
@@ -62,13 +62,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+		"title": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212",
-					"description": "BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
+					"description": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks"
 				},
 				{
 					"url": "http://www.kb.cert.org/vuls/id/240311\n",
@@ -81,14 +81,14 @@
 			]
 		},
 		"cve": [
-			"CVE-2017-1000251",
-			"CVE-2017-1000250",
-			"CVE-2017-0785",
 			"CVE-2017-0781",
 			"CVE-2017-0782",
 			"CVE-2017-0783",
-			"CVE-2017-8628",
-			"CVE-2017-14315"
+			"CVE-2017-0785",
+			"CVE-2017-1000250",
+			"CVE-2017-1000251",
+			"CVE-2017-14315",
+			"CVE-2017-8628"
 		],
 		"product_statuses": {
 			"status": {}

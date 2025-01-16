@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities",
+	"document_title": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities",
+		"title": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-145",
-					"description": "FortiOS SSL Deep Inspection TLS Padding Oracle Vulnerabilities"
+					"description": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2"
 				}
 			]
 		},

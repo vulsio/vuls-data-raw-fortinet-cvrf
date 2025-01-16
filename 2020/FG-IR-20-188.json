@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Multiple heap corruption vulnerabilities in command shell",
+	"document_title": "Multiple heap corruption vulnerabilities in FSA's command shell",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 3.2.2 and below. FortiSandbox 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox 3.2.2 and below.FortiSandbox 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox 4.0.0. Upgrade to FortiSandbox 3.2.3.\n        ",
+				"text": "\n            Upgrade to FortiSandbox 4.0.0.Upgrade to FortiSandbox 3.2.3.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Multiple heap corruption vulnerabilities in command shell",
+		"title": "Multiple heap corruption vulnerabilities in FSA's command shell",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-188",
-					"description": "FortiSandbox - Multiple heap corruption vulnerabilities in command shell"
+					"description": "Multiple heap corruption vulnerabilities in FSA's command shell"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox reflected XSS in the file scan component",
+	"document_title": "FortiSandbox – Reflected XSS back url in file scan component",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox reflected XSS in the file scan component",
+		"title": "FortiSandbox – Reflected XSS back url in file scan component",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-024",
-					"description": "FortiSandbox reflected XSS in the file scan component"
+					"description": "FortiSandbox – Reflected XSS back url in file scan component"
 				}
 			]
 		},
@@ -98,7 +98,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

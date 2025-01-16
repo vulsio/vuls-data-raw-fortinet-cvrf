@@ -1,5 +1,5 @@
 {
-	"document_title": "Session ID does not expire after logout in FortiIsolator",
+	"document_title": "[FortiIsolator] fsuis token does not expire after logout",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of Privilege\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "\"Fortinet is pleased to thank Danilo Costa for reporting this vulnerability under responsible disclosure.\""
+				"description": "\"Fortinet is pleased to thank Danilo Costa from PBI for reporting this vulnerability under responsible disclosure.\""
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Session ID does not expire after logout in FortiIsolator",
+		"title": "[FortiIsolator] fsuis token does not expire after logout",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-011",
-					"description": "Session ID does not expire after logout in FortiIsolator"
+					"description": "[FortiIsolator] fsuis token does not expire after logout"
 				}
 			]
 		},

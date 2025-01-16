@@ -1,5 +1,5 @@
 {
-	"document_title": "CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability",
+	"document_title": "3rd party component upgrade required for security reasons: CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiAnalyzer - 5.4.2 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiOS - 5.6.0 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below FortiSwitch - 3.6.2 and below\n        ",
+				"text": "\n            FortiAP (including S/W2 series) - 5.6.0, 5.4.3 and belowFortiAnalyzer - 5.4.2 and belowFortiOS - 5.6.0 and belowFortiSwitch - 3.6.2 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: The following products were patched on a precaution basis: FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiAnalyzer - upgrade to 5.4.3 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiOS - upgrade to 5.6.1 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above FortiSwitch - upgrade to 3.6.3 or above\n        ",
+				"text": "\n            The following products were patched on a precaution basis:FortiAP (including S/W2 series) - upgrade to 5.4.4 or 5.6.1 and aboveFortiAnalyzer - upgrade to 5.4.3 or aboveFortiOS - upgrade to 5.6.1 or aboveFortiSwitch - upgrade to 3.6.3 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability",
+		"title": "3rd party component upgrade required for security reasons: CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-118",
-					"description": "CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability"
+					"description": "3rd party component upgrade required for security reasons: CVE-2016-10229 Linux Kernel ipv4/udp.c Remote Code Execution Vulnerability"
 				}
 			]
 		},
@@ -70,9 +70,17 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"AscenLink-7.2.19",
+					"FortiADC-4.8.0",
 					"FortiAP-5.6.0",
 					"FortiAP-5.4.2",
 					"FortiAnalyzer-5.4.2",
+					"FortiAuthenticator-5.0.0",
+					"FortiCache-4.2.2",
+					"FortiCore-2.1.0",
+					"FortiDDoS-4.3.2",
+					"FortiDDoS-4.3.1",
+					"FortiManager-5.4.2",
 					"FortiOS-5.6.0",
 					"FortiOS-5.4.13",
 					"FortiOS-5.4.12",
@@ -87,14 +95,51 @@
 					"FortiOS-5.4.3",
 					"FortiOS-5.4.2",
 					"FortiOS-5.4.1",
-					"FortiOS-5.4.0"
+					"FortiOS-5.4.0",
+					"FortiPortal-5.0.3",
+					"FortiPortal-5.0.2",
+					"FortiPortal-5.0.1",
+					"FortiPortal-5.0.0",
+					"FortiPortal-4.2.2",
+					"FortiPortal-4.2.1",
+					"FortiPortal-4.2.0",
+					"FortiPortal-4.1.2",
+					"FortiPortal-4.1.1",
+					"FortiPortal-4.1.0",
+					"FortiPortal-4.0.4",
+					"FortiPortal-4.0.3",
+					"FortiPortal-4.0.2",
+					"FortiPortal-4.0.1",
+					"FortiPortal-4.0.0",
+					"FortiPortal-3.2.2",
+					"FortiPortal-3.2.1",
+					"FortiPortal-3.2.0",
+					"FortiSandbox-3.0.7",
+					"FortiSandbox-3.0.6",
+					"FortiSandbox-3.0.5",
+					"FortiSandbox-3.0.4",
+					"FortiVoice-5.3.6",
+					"FortiWAN-4.3.1",
+					"FortiWAN-Manager-4.3.0",
+					"FortiWLC-8.4.8",
+					"FortiWLC-8.4.7",
+					"FortiWLC-8.4.6",
+					"FortiWLC-8.4.5",
+					"FortiWLC-8.4.4",
+					"FortiWLC-8.4.2",
+					"FortiWLM-8.4.0",
+					"FortiWeb-5.7.3",
+					"FortiWeb-5.7.2",
+					"FortiWebManager-6.0.0",
+					"Meru Controller-8.4.5",
+					"Meru Controller-8.4.4"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "9.8",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -103,6 +148,34 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "AscenLink",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.19",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "AscenLink 7.2.19",
+								"product_id": "AscenLink-7.2.19"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiADC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.8.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiADC 4.8.0",
+								"product_id": "FortiADC-4.8.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiAP",
 					"type": "Product Name",
@@ -135,6 +208,84 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 5.4.2",
 								"product_id": "FortiAnalyzer-5.4.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 5.0.0",
+								"product_id": "FortiAuthenticator-5.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiCache",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCache 4.2.2",
+								"product_id": "FortiCache-4.2.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiCore",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "2.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiCore 2.1.0",
+								"product_id": "FortiCore-2.1.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiDDoS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDDoS 4.3.2",
+								"product_id": "FortiDDoS-4.3.2"
+							}
+						},
+						{
+							"name": "4.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDDoS 4.3.1",
+								"product_id": "FortiDDoS-4.3.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.4.2",
+								"product_id": "FortiManager-5.4.2"
 							}
 						}
 					]
@@ -261,6 +412,362 @@
 							"full_product_name": {
 								"text": "FortiOS 5.4.0",
 								"product_id": "FortiOS-5.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 5.0.3",
+								"product_id": "FortiPortal-5.0.3"
+							}
+						},
+						{
+							"name": "5.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 5.0.2",
+								"product_id": "FortiPortal-5.0.2"
+							}
+						},
+						{
+							"name": "5.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 5.0.1",
+								"product_id": "FortiPortal-5.0.1"
+							}
+						},
+						{
+							"name": "5.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 5.0.0",
+								"product_id": "FortiPortal-5.0.0"
+							}
+						},
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.2.2",
+								"product_id": "FortiPortal-4.2.2"
+							}
+						},
+						{
+							"name": "4.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.2.1",
+								"product_id": "FortiPortal-4.2.1"
+							}
+						},
+						{
+							"name": "4.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.2.0",
+								"product_id": "FortiPortal-4.2.0"
+							}
+						},
+						{
+							"name": "4.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.1.2",
+								"product_id": "FortiPortal-4.1.2"
+							}
+						},
+						{
+							"name": "4.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.1.1",
+								"product_id": "FortiPortal-4.1.1"
+							}
+						},
+						{
+							"name": "4.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.1.0",
+								"product_id": "FortiPortal-4.1.0"
+							}
+						},
+						{
+							"name": "4.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.0.4",
+								"product_id": "FortiPortal-4.0.4"
+							}
+						},
+						{
+							"name": "4.0.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.0.3",
+								"product_id": "FortiPortal-4.0.3"
+							}
+						},
+						{
+							"name": "4.0.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.0.2",
+								"product_id": "FortiPortal-4.0.2"
+							}
+						},
+						{
+							"name": "4.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.0.1",
+								"product_id": "FortiPortal-4.0.1"
+							}
+						},
+						{
+							"name": "4.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.0.0",
+								"product_id": "FortiPortal-4.0.0"
+							}
+						},
+						{
+							"name": "3.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 3.2.2",
+								"product_id": "FortiPortal-3.2.2"
+							}
+						},
+						{
+							"name": "3.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 3.2.1",
+								"product_id": "FortiPortal-3.2.1"
+							}
+						},
+						{
+							"name": "3.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 3.2.0",
+								"product_id": "FortiPortal-3.2.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "3.0.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.7",
+								"product_id": "FortiSandbox-3.0.7"
+							}
+						},
+						{
+							"name": "3.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.6",
+								"product_id": "FortiSandbox-3.0.6"
+							}
+						},
+						{
+							"name": "3.0.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.5",
+								"product_id": "FortiSandbox-3.0.5"
+							}
+						},
+						{
+							"name": "3.0.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 3.0.4",
+								"product_id": "FortiSandbox-3.0.4"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiVoice",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.3.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiVoice 5.3.6",
+								"product_id": "FortiVoice-5.3.6"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWAN",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN 4.3.1",
+								"product_id": "FortiWAN-4.3.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWAN-Manager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWAN-Manager 4.3.0",
+								"product_id": "FortiWAN-Manager-4.3.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWLC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.4.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.8",
+								"product_id": "FortiWLC-8.4.8"
+							}
+						},
+						{
+							"name": "8.4.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.7",
+								"product_id": "FortiWLC-8.4.7"
+							}
+						},
+						{
+							"name": "8.4.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.6",
+								"product_id": "FortiWLC-8.4.6"
+							}
+						},
+						{
+							"name": "8.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.5",
+								"product_id": "FortiWLC-8.4.5"
+							}
+						},
+						{
+							"name": "8.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.4",
+								"product_id": "FortiWLC-8.4.4"
+							}
+						},
+						{
+							"name": "8.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.4.2",
+								"product_id": "FortiWLC-8.4.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWLM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLM 8.4.0",
+								"product_id": "FortiWLM-8.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.7.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.3",
+								"product_id": "FortiWeb-5.7.3"
+							}
+						},
+						{
+							"name": "5.7.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 5.7.2",
+								"product_id": "FortiWeb-5.7.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWebManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWebManager 6.0.0",
+								"product_id": "FortiWebManager-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Meru Controller",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru Controller 8.4.5",
+								"product_id": "Meru Controller-8.4.5"
+							}
+						},
+						{
+							"name": "8.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "Meru Controller 8.4.4",
+								"product_id": "Meru Controller-8.4.4"
 							}
 						}
 					]

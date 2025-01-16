@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2023-10-10T00:00:00",
-		"current_release_date": "2023-10-10T00:00:00"
+		"current_release_date": "2025-01-15T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            Please upgrade to FortiAnalyzer-BigData version 7.4.0 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.9 or above Please upgrade to FortiManager version 6.4.13 or above Please upgrade to FortiManager version 6.2.12 or above\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -70,6 +76,12 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAnalyzer-BigData-7.2.5",
+					"FortiAnalyzer-BigData-7.2.4",
+					"FortiAnalyzer-BigData-7.2.3",
+					"FortiAnalyzer-BigData-7.2.2",
+					"FortiAnalyzer-BigData-7.2.1",
+					"FortiAnalyzer-BigData-7.2.0",
 					"FortiManager-7.4.0",
 					"FortiManager-7.2.3",
 					"FortiManager-7.2.2",
@@ -124,6 +136,60 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiAnalyzer-BigData",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.5",
+								"product_id": "FortiAnalyzer-BigData-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.4",
+								"product_id": "FortiAnalyzer-BigData-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.3",
+								"product_id": "FortiAnalyzer-BigData-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.2",
+								"product_id": "FortiAnalyzer-BigData-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.1",
+								"product_id": "FortiAnalyzer-BigData-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer-BigData 7.2.0",
+								"product_id": "FortiAnalyzer-BigData-7.2.0"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiManager",
 					"type": "Product Name",

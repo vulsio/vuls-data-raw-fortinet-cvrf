@@ -1,5 +1,5 @@
 {
-	"document_title": "Authorizations Bypass in the FortiPresence portal parameters",
+	"document_title": "Insecure Direct Object Reference vulnerability in the FortiPresence GUI for getting a portal",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Authorizations Bypass in the FortiPresence portal parameters",
+		"title": "Insecure Direct Object Reference vulnerability in the FortiPresence GUI for getting a portal",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-258",
-					"description": "Authorizations Bypass in the FortiPresence portal parameters"
+					"description": "Insecure Direct Object Reference vulnerability in the FortiPresence GUI for getting a portal"
 				}
 			]
 		},
@@ -79,7 +79,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

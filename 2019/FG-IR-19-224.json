@@ -1,5 +1,5 @@
 {
-	"document_title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability",
+	"document_title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to FortiSwitch 6.4.0Starting from FortiSwitch 6.4.0, a new CLI option \"min-key-length\" was added:config system bluetoothsetÂ min-key-length [length] /* default length value is 7, allow 1 to 16 */endsystem will check the \"pin\" length based on min-key-length setting.Workaround:For FortiSwitch below 6.4.0, ensure the Bluetooth pair pin lengthÂ is at least 7 characters:config system bluetoothset pin xxxxxxx /* ensure pin length >= 7 characters */endRevision History:2020-04-17 Initial Version2020-04-23 Detail the FortiSwitch impact models and condition.\n        ",
+				"text": "\n            Upgrade to FortiSwitch 6.4.0Starting from FortiSwitch 6.4.0, a new CLI option \"min-key-length\" was added:config system bluetoothset min-key-length [length] / default length value is 7, allow 1 to 16 /endsystem will check the \"pin\" length based on min-key-length setting.Workaround:For FortiSwitch below 6.4.0, ensure the Bluetooth pair pin length is at least 7 characters:config system bluetoothset pin xxxxxxx / ensure pin length >= 7 characters /endRevision History:2020-04-17 Initial Version2020-04-23 Detail the FortiSwitch impact models and condition.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-224",
-				"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability"
+				"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth Vulnerability"
 			},
 			{
 				"url": "https://www.kb.cert.org/vuls/id/918987/",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability",
+		"title": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-224",
-					"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth (KNOB) Vulnerability"
+					"description": "CVE-2019-9506 Encryption Key Negotiation of Bluetooth Vulnerability"
 				},
 				{
 					"url": "https://www.kb.cert.org/vuls/id/918987/",
@@ -100,7 +100,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.1",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

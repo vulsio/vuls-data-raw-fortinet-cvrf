@@ -1,5 +1,5 @@
 {
-	"document_title": "Bleichenbacher and Dictionary Attacks on IPsec IKE",
+	"document_title": "Bleichenbacher Attacks on IPsec IKE",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-214",
-				"description": "Bleichenbacher and Dictionary Attacks on IPsec IKE"
+				"description": "Bleichenbacher Attacks on IPsec IKE"
 			},
 			{
 				"url": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n",
@@ -72,13 +72,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Bleichenbacher and Dictionary Attacks on IPsec IKE",
+		"title": "Bleichenbacher Attacks on IPsec IKE",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-214",
-					"description": "Bleichenbacher and Dictionary Attacks on IPsec IKE"
+					"description": "Bleichenbacher Attacks on IPsec IKE"
 				},
 				{
 					"url": "[1] https://www.ei.rub.de/media/nds/veroeffentlichungen/2018/08/13/sec18-felsch.pdf\n",
@@ -95,8 +95,8 @@
 			]
 		},
 		"cve": [
-			"CVE-2018-5389",
-			"CVE-2018-0131"
+			"CVE-2018-0131",
+			"CVE-2018-5389"
 		],
 		"product_statuses": {
 			"status": {}

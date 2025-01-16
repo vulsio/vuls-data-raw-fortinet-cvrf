@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to: FortiManager 5.0.12 and above 5.2.3 and above 5.4.0 and above Â FortiAnalyzer 5.0.13 and above 5.2.3 and above 5.4.0 and above Â FortiManager hardware models without hard disk are not affected. This feature is disabled by default in all FortiManager versions.\n        ",
+				"text": "\n            Upgrade to: FortiManager 5.0.12 and above 5.2.3 and above 5.4.0 and above Ã‚Â FortiAnalyzer 5.0.13 and above 5.2.3 and above 5.4.0 and above Ã‚Â FortiManager hardware models without hard disk are not affected. This feature is disabled by default in all FortiManager versions.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLC XSS injection via crafted HTTP POST request",
+	"document_title": "CVE-2017-7335 WLC Management 8-2-4-0 XSS Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The FortiWLC admin webUI is affected by XSS vulnerabilities, potentially exploitable by an authenticated user, via non-sanitized parameters \"refresh\" and \"branchtotable\" present in HTTP POST requests.Â A successful attack would involve getting a targeted victim with an open session on the WebUI to visit a malicious URL crafted by the attacker.\n        ",
+				"text": "\n            The FortiWLC admin webUI is affected by XSS vulnerabilities, potentially exploitable by an authenticated user, via non-sanitized parameters \"refresh\" and \"branchtotable\" present in HTTP POST requests. A successful attack would involve getting a targeted victim with an open session on the WebUI to visit a malicious URL crafted by the attacker.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLC XSS injection via crafted HTTP POST request",
+		"title": "CVE-2017-7335 WLC Management 8-2-4-0 XSS Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-106",
-					"description": "FortiWLC XSS injection via crafted HTTP POST request"
+					"description": "CVE-2017-7335 WLC Management 8-2-4-0 XSS Vulnerability"
 				}
 			]
 		},

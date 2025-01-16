@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -79,6 +85,7 @@
 					"FortiAnalyzer-7.0.2",
 					"FortiAnalyzer-7.0.1",
 					"FortiAnalyzer-7.0.0",
+					"FortiAnalyzer-6.4.15",
 					"FortiAnalyzer-6.4.14",
 					"FortiAnalyzer-6.4.13",
 					"FortiAnalyzer-6.4.12",
@@ -99,7 +106,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "4",
+				"base_score_v3": "4.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
@@ -183,6 +190,14 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 7.0.0",
 								"product_id": "FortiAnalyzer-7.0.0"
+							}
+						},
+						{
+							"name": "6.4.15",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAnalyzer 6.4.15",
+								"product_id": "FortiAnalyzer-6.4.15"
 							}
 						},
 						{

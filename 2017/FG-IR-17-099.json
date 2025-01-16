@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail reflected XSS vulnerability under customized webmail login page",
+	"document_title": "CVE-2017-7732 FortiMail XSS Vulnerability under customized webmail login page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail reflected XSS vulnerability under customized webmail login page",
+		"title": "CVE-2017-7732 FortiMail XSS Vulnerability under customized webmail login page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-099",
-					"description": "FortiMail reflected XSS vulnerability under customized webmail login page"
+					"description": "CVE-2017-7732 FortiMail XSS Vulnerability under customized webmail login page"
 				}
 			]
 		},

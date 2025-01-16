@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient local privilege escalation exploit chain",
+	"document_title": "Local privilege escalation to SYSTEM in FortiClient",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Local privilege escalation\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,20 +59,20 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient local privilege escalation exploit chain",
+		"title": "Local privilege escalation to SYSTEM in FortiClient",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-108",
-					"description": "FortiClient local privilege escalation exploit chain"
+					"description": "Local privilege escalation to SYSTEM in FortiClient"
 				}
 			]
 		},
 		"cve": [
 			"CVE-2018-13368",
-			"CVE-2018-9193",
-			"CVE-2018-9191"
+			"CVE-2018-9191",
+			"CVE-2018-9193"
 		],
 		"product_statuses": {
 			"status": {

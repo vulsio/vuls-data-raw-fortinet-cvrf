@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLC-SD Privilege escalation vulnerability using copy running-config",
+	"document_title": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of Privilege\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Tom Scholten of SolidBE for reporting this vulnerability under responsible disclosure"
+				"description": "Fortinet is pleased to thank Tom Scholten of SolidBE for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLC-SD Privilege escalation vulnerability using copy running-config",
+		"title": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-097",
-					"description": "FortiWLC-SD Privilege escalation vulnerability using copy running-config"
+					"description": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config"
 				}
 			]
 		},

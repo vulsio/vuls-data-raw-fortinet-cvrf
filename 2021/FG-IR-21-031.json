@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiMail - Insecure PRNG in password and token generation scheme of IBE authentication",
+	"document_title": "Insecure PRNG in password and token generation scheme of IBE authentication",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information disclosure\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail 6.4.4 and below. FortiMail 6.2.6 and below.\n        ",
+				"text": "\n            FortiMail 6.4.4 and below.FortiMail 6.2.6 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiMail version 7.0.0 or above Please upgrade to FortiMail version 6.4.5 or above\n        ",
+				"text": "\n            Please upgrade to FortiMail version 7.0.0 or abovePlease upgrade to FortiMail version 6.4.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiMail - Insecure PRNG in password and token generation scheme of IBE authentication",
+		"title": "Insecure PRNG in password and token generation scheme of IBE authentication",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-031",
-					"description": "FortiMail - Insecure PRNG in password and token generation scheme of IBE authentication"
+					"description": "Insecure PRNG in password and token generation scheme of IBE authentication"
 				}
 			]
 		},

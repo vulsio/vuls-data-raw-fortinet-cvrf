@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability observed in Log and Report section of FortiGate",
+	"document_title": "[FortiOS] Injection attacks in the WAF and IPS logs",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 6.4.2 or above. Please upgrade to FortiGate version 6.2.6 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 6.4.2 or above.Please upgrade to FortiGate version 6.2.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Forster Chiu from CYBERGROOT LTD; Mark Chapman of Chapman Technology Group, Inc; Wenceslas Lejeune and the SOC team from Cheops Technology and OÄŸuz DOKUMACI for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Forster Chiu from CYBERGROOT LTD; Mark Chapman of Chapman Technology Group, Inc; Wenceslas Lejeune and the SOC team from Cheops Technology and Oğuz DOKUMACI from Oyuncusundan.com for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability observed in Log and Report section of FortiGate",
+		"title": "[FortiOS] Injection attacks in the WAF and IPS logs",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-068",
-					"description": "XSS vulnerability observed in Log and Report section of FortiGate"
+					"description": "[FortiOS] Injection attacks in the WAF and IPS logs"
 				}
 			]
 		},

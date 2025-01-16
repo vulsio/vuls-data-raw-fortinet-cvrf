@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb  - OS command injection vulnerability",
+	"document_title": "[FortiWeb] Restricted user can execute arbitrary commands with root privileges (OS command Injection).",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWeb versions 6.3.7 and below. FortiWeb versions 6.2.3 and below. FortiWeb versions 6.1.x, 6.0.x, 5.9.x.\n        ",
+				"text": "\n            FortiWeb versions 6.3.7 and below. FortiWeb versions 6.2.3 and below.FortiWeb versions 6.1.x, 6.0.x, 5.9.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb  - OS command injection vulnerability",
+		"title": "[FortiWeb] Restricted user can execute arbitrary commands with root privileges (OS command Injection).",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-120",
-					"description": "FortiWeb  - OS command injection vulnerability"
+					"description": "[FortiWeb] Restricted user can execute arbitrary commands with root privileges (OS command Injection)."
 				}
 			]
 		},

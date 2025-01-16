@@ -1,5 +1,5 @@
 {
-	"document_title": "Potential sensitive information can be displayed in cleartext in FortiOS CLI window",
+	"document_title": "[FortiOS] Sensitive information is displayed in cleartext in the CLI window when using  diagnose sys ha checksum command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS versions 6.2.4 and below. FortiOS versions 6.0.11 and below.\n        ",
+				"text": "\n            FortiOS versions 6.2.4 and below.FortiOS versions 6.0.11 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 6.4.0 or above. Please upgrade to FortiOS version 6.2.5 or above. Please upgrade to FortiOS version 6.0.12 or above.\n        ",
+				"text": "\n            Please upgrade to FortiOS version 6.4.0 or above.Please upgrade to FortiOS version 6.2.5 or above.Please upgrade to FortiOS version 6.0.12 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Potential sensitive information can be displayed in cleartext in FortiOS CLI window",
+		"title": "[FortiOS] Sensitive information is displayed in cleartext in the CLI window when using  diagnose sys ha checksum command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-009",
-					"description": "Potential sensitive information can be displayed in cleartext in FortiOS CLI window"
+					"description": "[FortiOS] Sensitive information is displayed in cleartext in the CLI window when using  diagnose sys ha checksum command"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS SSL VPN buffer overrun through POST message payload",
+	"document_title": "[FortiOS] Buffer overflow in SSL VPN through a crafted POST request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial-of-Service Attack (DoS)\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS SSL VPN buffer overrun through POST message payload",
+		"title": "[FortiOS] Buffer overflow in SSL VPN through a crafted POST request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-387",
-					"description": "FortiOS SSL VPN buffer overrun through POST message payload"
+					"description": "[FortiOS] Buffer overflow in SSL VPN through a crafted POST request"
 				}
 			]
 		},

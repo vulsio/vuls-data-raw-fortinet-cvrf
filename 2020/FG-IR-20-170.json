@@ -1,5 +1,5 @@
 {
-	"document_title": "Uncontrolled Resource Consumption (Unauthenticated Denial of Service) in login module",
+	"document_title": "Uncontrolled Resource Consumption (Denial of Service) in login module",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An uncontrolled resource consumption (denial of service) vulnerability in FortiSandbox and FortiAuthenticator login modules may allow an unauthenticated attacker to bring the device into an unresponsive state via specifically-crafted long request parameters.\n        ",
+				"text": "\n            An uncontrolled resource consumption (denial of service) vulnerability in FortiSandbox and FortiAuthenticator login modules may allow an unauthenticated attacker to bring the device into an unresponsive state via specifically-crafted long request parameters.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,19 +36,19 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Availability, Denial of Service\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSandbox version 3.0.0 through 3.0.6 FortiSandbox version 3.1.0 through 3.1.4 FortiSandbox version 3.2.0 through 3.2.1 FortiAuthenticator version 4.3.0 through 4.3.4 FortiAuthenticator version 5.0.0 FortiAuthenticator version 5.1.0 through 5.1.2 FortiAuthenticator version 5.2.0 through 5.2.2 FortiAuthenticator version 5.3.0 through 5.3.1 FortiAuthenticator version 5.4.0 through 5.4.1 FortiAuthenticator version 5.5.0 FortiAuthenticator version 6.0.0 through 6.0.5\n        ",
+				"text": "\n            FortiSandbox version 3.0.0 through 3.0.6FortiSandbox version 3.1.0 through 3.1.4FortiSandbox version 3.2.0 through 3.2.1FortiAuthenticator version 4.3.0 through 4.3.4FortiAuthenticator version 5.0.0FortiAuthenticator version 5.1.0 through 5.1.2FortiAuthenticator version 5.2.0 through 5.2.2FortiAuthenticator version 5.3.0 through 5.3.1FortiAuthenticator version 5.4.0 through 5.4.1FortiAuthenticator version 5.5.0FortiAuthenticator version 6.0.0 through 6.0.5\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox 4.0.0 or above. Upgrade to FortiSandbox 3.2.2 or above. Upgrade to FortiSandbox 3.1.5 or above. Upgrade to FortiSandbox 3.0.7 or above. Upgrade to FortiAuthenticator version 6.3.0 or above. Upgrade to FortiAuthenticator version 6.2.0 or above. Upgrade to FortiAuthenticator version 6.1.0 or above. Upgrade to FortiAuthenticator version 6.0.6 or above.\n        ",
+				"text": "\n            Upgrade to FortiSandbox 4.0.0 or above.Upgrade to FortiSandbox 3.2.2 or above.Upgrade to FortiSandbox 3.1.5 or above.Upgrade to FortiSandbox 3.0.7 or above.Upgrade to FortiAuthenticator version 6.3.0 or above.Upgrade to FortiAuthenticator version 6.2.0 or above.Upgrade to FortiAuthenticator version 6.1.0 or above.Upgrade to FortiAuthenticator version 6.0.6 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Uncontrolled Resource Consumption (Unauthenticated Denial of Service) in login module",
+		"title": "Uncontrolled Resource Consumption (Denial of Service) in login module",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-170",
-					"description": "Uncontrolled Resource Consumption (Unauthenticated Denial of Service) in login module"
+					"description": "Uncontrolled Resource Consumption (Denial of Service) in login module"
 				}
 			]
 		},

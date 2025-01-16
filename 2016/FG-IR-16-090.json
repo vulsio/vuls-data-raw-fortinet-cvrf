@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS TCP timestamp response",
+	"document_title": "TCP timestamp response - RFC1323",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS TCP timestamp response",
+		"title": "TCP timestamp response - RFC1323",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-090",
-					"description": "FortiOS TCP timestamp response"
+					"description": "TCP timestamp response - RFC1323"
 				}
 			]
 		},

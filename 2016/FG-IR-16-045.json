@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            FortWan 4.2.4 and below is exposed to cross site scripting, information leak and escalation of privilege vulnerabilities.CVE-2016-4965: Non-administrative authenticated user having access privileges to the nslookup functionality can perform OS command injection in the root user contextCVE-2016-4966: Non-administrative authenticated userÂ having access privileges to change the HTTP Get param \"UserName\" to \"Administrator\" may access PCAP filesCVE-2016-4967: Non-administrative authenticated user may access configuration information and/or PCAP files via specific URLsCVE-2016-4968: Non-administrative authenticated user may obtain administrator cookie via specific GET requestsCVE-2016-4969: Persistent XSS\n        ",
+				"text": "\n            FortWan 4.2.4 and below is exposed to cross site scripting, information leak and escalation of privilege vulnerabilities.CVE-2016-4965: Non-administrative authenticated user having access privileges to the nslookup functionality can perform OS command injection in the root user contextCVE-2016-4966: Non-administrative authenticated userÃ‚Â having access privileges to change the HTTP Get param \"UserName\" to \"Administrator\" may access PCAP filesCVE-2016-4967: Non-administrative authenticated user may access configuration information and/or PCAP files via specific URLsCVE-2016-4968: Non-administrative authenticated user may obtain administrator cookie via specific GET requestsCVE-2016-4969: Persistent XSS\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

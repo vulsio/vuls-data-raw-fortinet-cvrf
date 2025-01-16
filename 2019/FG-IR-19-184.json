@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in FortiGate DHCP monitor page",
+	"document_title": "XSS is DHCP monitor page through Hostname option",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Execute Unauthorized Code or Commands\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in FortiGate DHCP monitor page",
+		"title": "XSS is DHCP monitor page through Hostname option",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-184",
-					"description": "XSS vulnerability in FortiGate DHCP monitor page"
+					"description": "XSS is DHCP monitor page through Hostname option"
 				}
 			]
 		},

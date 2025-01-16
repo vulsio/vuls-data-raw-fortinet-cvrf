@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS fails to block malformed HTTP/S traffic when transparent proxy is enabled",
+	"document_title": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Operational Risk, Traffic Bypass\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Issue is observed only when the traffic is redirected to transparent proxy policy. FortiOS versions 6.4.2 and below. FortiOS versions 6.2.5 and below.\n        ",
+				"text": "\n            Issue is observed only when the traffic is redirected to transparent proxy policy.FortiOS versions 6.4.2 and below.FortiOS versions 6.2.5 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 6.4.3 or above. Workaround: To block invalid HTTP traffic on port 80, disable the tunnel-non-http setting: config web-proxy global     set tunnel-non-http disable end   To block invalid HTTPS traffic on port 443, set the unsupported-ssl setting to \"block\": config firewall ssl-ssh-profile    edit [profile-name]       config https set ports 443       set unsupported-ssl block    end end\n        ",
+				"text": "\n            Please upgrade to FortiOS version 6.4.3 or above.Workaround:To block invalid HTTP traffic on port 80, disable the tunnel-non-http setting:'''config web-proxy global set tunnel-non-http disableend '''To block invalid HTTPS traffic on port 443, set the unsupported-ssl setting to \"block\":'''config firewall ssl-ssh-profile edit [profile-name] config https set ports 443 set unsupported-ssl block endend'''\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS fails to block malformed HTTP/S traffic when transparent proxy is enabled",
+		"title": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-172",
-					"description": "FortiOS fails to block malformed HTTP/S traffic when transparent proxy is enabled"
+					"description": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled"
 				}
 			]
 		},
@@ -83,7 +83,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "3.8",
-				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N/E:X/RL:W/RC:R"
+				"vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N/E:U/RL:W/RC:R"
 			}
 		}
 	},

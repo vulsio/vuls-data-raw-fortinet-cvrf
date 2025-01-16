@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS malformed HTTP or SSL/TLS traffic control",
+	"document_title": "FortiOS webfilter does not block malformed http or https traffic",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            FortiOS Explicit Web Proxy by default allows non-standard HTTP traffic.Â FortiOS SSL/SSH Inspection Profile by default allows non-standard SSL/TLS traffic.\n        ",
+				"text": "\n            FortiOS Explicit Web Proxy by default allows non-standard HTTP traffic. FortiOS SSL/SSH Inspection Profile by default allows non-standard SSL/TLS traffic.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Operational Risk, Traffic Bypass\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Non standard HTTP traffic can be disallowed with the following CLI commands: config web-proxy global set tunnel-non-http disable (default value \"enable\") end Non standard SSL/TLS traffic can be disallowed with the following CLI commands: config firewall ssl-ssh-profile edit [profile-name] config [protocols] set ports [port] set unsupported-ssl block (default value \"bypass\") end end Starting from 6.2.1, FortiOS allows administrators to disallow both via the admin WebUI as well: For Explicit Web Proxy: Network -> Explicit Proxy -> Protocol Enforcement (default is off) For SSL/SSH Inspection: Security Profiles -> SSL/SSH Inspection ->Enforce SSL Protocol Compliance (default is off)\n        ",
+				"text": "\n            Non standard HTTP traffic can be disallowed with the following CLI commands:config web-proxy global set tunnel-non-http disable (default value \"enable\")end Non standard SSL/TLS traffic can be disallowed with the following CLI commands:config firewall ssl-ssh-profile edit [profile-name] config [protocols]set ports [port]set unsupported-ssl block (default value \"bypass\")end endStarting from 6.2.1, FortiOS allows administrators to disallow both via the admin WebUI as well:For Explicit Web Proxy: Network -> Explicit Proxy -> Protocol Enforcement (default is off)For SSL/SSH Inspection: Security Profiles -> SSL/SSH Inspection ->Enforce SSL Protocol Compliance (default is off)\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS malformed HTTP or SSL/TLS traffic control",
+		"title": "FortiOS webfilter does not block malformed http or https traffic",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-111",
-					"description": "FortiOS malformed HTTP or SSL/TLS traffic control"
+					"description": "FortiOS webfilter does not block malformed http or https traffic"
 				}
 			]
 		},

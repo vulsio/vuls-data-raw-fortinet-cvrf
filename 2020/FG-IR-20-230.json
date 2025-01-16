@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy  multiple pre-auth XSS vulnerabilities on SSL VPN",
+	"document_title": "[FortiProxy] multiple pre-auth XSS vulnerabilities on SSL VPN",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,13 +30,13 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy version 2.0.0 FortiProxy versions 1.2.8 and below. FortiProxy versions 1.1 all versions FortiProxy versions 1.0 all versions\n        ",
+				"text": "\n            FortiProxy version 2.0.0FortiProxy versions 1.2.8 and below.FortiProxy versions 1.1 all versionsFortiProxy versions 1.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy  multiple pre-auth XSS vulnerabilities on SSL VPN",
+		"title": "[FortiProxy] multiple pre-auth XSS vulnerabilities on SSL VPN",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-230",
-					"description": "FortiProxy  multiple pre-auth XSS vulnerabilities on SSL VPN"
+					"description": "[FortiProxy] multiple pre-auth XSS vulnerabilities on SSL VPN"
 				}
 			]
 		},

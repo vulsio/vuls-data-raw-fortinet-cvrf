@@ -1,5 +1,5 @@
 {
-	"document_title": "CVE-2019-9193 PostgreSQL allows OS level commands via COPY SQL function",
+	"document_title": "CVE-2019-9193 PostgreSQL allow run OS level commands through COPY SQL function",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Escalation of privilege, OS Command Injection\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAnalyzer 6.2.0 to 6.2.3, 6.0.8 and below FortiAnalyzer 6.2.0 to 6.2.3, 6.0.8 and below FortiManager 6.2.0 to 6.2.3, 6.0.8 and below FortiManager 6.2.0 to 6.2.3, 6.0.8 and below\n        ",
+				"text": "\n            FortiAnalyzer 6.2.0 to 6.2.3, 6.0.8 and belowFortiManager 6.2.0 to 6.2.3, 6.0.8 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAnalyzer upgrade to 6.0.9 or 6.2.4 or above FortiManager upgrade to 6.0.9 or 6.2.4 or above FortiAnalyzer upgrade to 6.0.9 or 6.2.4 or above FortiManager upgrade to 6.0.9 or 6.2.4 or above\n        ",
+				"text": "\n            FortiAnalyzer upgrade to 6.0.9 or 6.2.4 or above FortiManager upgrade to 6.0.9 or 6.2.4 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-294",
-				"description": "CVE-2019-9193 PostgreSQL allows OS level commands via COPY SQL function"
+				"description": "CVE-2019-9193 PostgreSQL allow run OS level commands through COPY SQL function"
 			},
 			{
 				"url": "PostgreSQL CVE-2019-9193",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "CVE-2019-9193 PostgreSQL allows OS level commands via COPY SQL function",
+		"title": "CVE-2019-9193 PostgreSQL allow run OS level commands through COPY SQL function",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-294",
-					"description": "CVE-2019-9193 PostgreSQL allows OS level commands via COPY SQL function"
+					"description": "CVE-2019-9193 PostgreSQL allow run OS level commands through COPY SQL function"
 				},
 				{
 					"url": "PostgreSQL CVE-2019-9193",
@@ -116,6 +116,10 @@
 					"FortiAnalyzer-5.6.2",
 					"FortiAnalyzer-5.6.1",
 					"FortiAnalyzer-5.6.0",
+					"FortiAuthenticator-6.1.3",
+					"FortiAuthenticator-6.1.2",
+					"FortiAuthenticator-6.1.1",
+					"FortiAuthenticator-6.1.0",
 					"FortiManager-6.2.3",
 					"FortiManager-6.2.2",
 					"FortiManager-6.2.1",
@@ -358,6 +362,44 @@
 							"full_product_name": {
 								"text": "FortiAnalyzer 5.6.0",
 								"product_id": "FortiAnalyzer-5.6.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.1.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.1.3",
+								"product_id": "FortiAuthenticator-6.1.3"
+							}
+						},
+						{
+							"name": "6.1.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.1.2",
+								"product_id": "FortiAuthenticator-6.1.2"
+							}
+						},
+						{
+							"name": "6.1.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.1.1",
+								"product_id": "FortiAuthenticator-6.1.1"
+							}
+						},
+						{
+							"name": "6.1.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.1.0",
+								"product_id": "FortiAuthenticator-6.1.0"
 							}
 						}
 					]

@@ -1,5 +1,5 @@
 {
-	"document_title": "Use of hardcoded credentials for communication between Meru access points and FortiWLC",
+	"document_title": "FortiWLC core account persists during upgrade",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized read/write remote access\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            * FortiWLC 7.0.11 and lower in the 7.x branch * FortiWLC 8.3.3 and lower in the 8.x branch\n        ",
+				"text": "\n            FortiWLC 7.0.11 and lower in the 7.x branch* FortiWLC 8.3.3 and lower in the 8.x branch\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            * FortiWLC 7.x installations must be upgraded to FortiWLC 7.0.13 or higher * FortiWLC 8.x installations must be upgraded to FortiWLC 8.4.0 or higher\n        ",
+				"text": "\n            FortiWLC 7.x installations must be upgraded to FortiWLC 7.0.13 or higher * FortiWLC 8.x installations must be upgraded to FortiWLC 8.4.0 or higher\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,19 +59,19 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Use of hardcoded credentials for communication between Meru access points and FortiWLC",
+		"title": "FortiWLC core account persists during upgrade",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-274",
-					"description": "Use of hardcoded credentials for communication between Meru access points and FortiWLC"
+					"description": "FortiWLC core account persists during upgrade"
 				}
 			]
 		},
 		"cve": [
 			"CVE-2017-17539",
-			"CVE-2017-17539"
+			"CVE-2017-17540"
 		],
 		"product_statuses": {
 			"status": {

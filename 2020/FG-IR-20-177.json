@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiDeceptor - OS command injection vulnerabilities",
+	"document_title": "[FortiDeceptor] OS command injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple OS command injection vulnerabilities in FortiDeceptor management interface may allow an authenticated user to execute arbitrary commands on the system via specifically crafted web requests.\n        ",
+				"text": "\n            Multiple OS command injection vulnerabilities in FortiDeceptor management interface may allow an authenticated user to execute arbitrary commands on the system via specifically crafted web requests.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiDeceptor version 4.0.0. FortiDeceptor versions 3.3.1 and below. FortiDeceptor versions 3.2.1 and below. FortiDeceptor versions 3.1.x. FortiDeceptor versions 3.0.x FortiDeceptor versions 1.x.  \n        ",
+				"text": "\n            FortiDeceptor version 4.0.0.FortiDeceptor versions 3.3.1 and below.FortiDeceptor versions 3.2.1 and below.FortiDeceptor versions 3.1.x.FortiDeceptor versions 3.0.xFortiDeceptor versions 1.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiDeceptor versions 4.1.0 or above. Please upgrade to FortiDeceptor versions 3.3.2 or above. Please upgrade to FortiDeceptor versions 3.2.2 or above.\n        ",
+				"text": "\n            Please upgrade to FortiDeceptor versions 4.1.0 or above.Please upgrade to FortiDeceptor versions 3.3.2 or above.Please upgrade to FortiDeceptor versions 3.2.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiDeceptor - OS command injection vulnerabilities",
+		"title": "[FortiDeceptor] OS command injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-177",
-					"description": "FortiDeceptor - OS command injection vulnerabilities"
+					"description": "[FortiDeceptor] OS command injection"
 				}
 			]
 		},

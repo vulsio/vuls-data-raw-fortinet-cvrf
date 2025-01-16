@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            One of the processes in FortiClient stores VPN credentials unencrypted in memory.Â A malicious attacker who compromised the workstation could dump theÂ credentials.\n        ",
+				"text": "\n            One of the processes in FortiClient stores VPN credentials unencrypted in memory.Ã‚Â A malicious attacker who compromised the workstation could dump theÃ‚Â credentials.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiClient 5.4.1 Â\n        ",
+				"text": "\n            Upgrade to FortiClient 5.4.1 Ã‚Â\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Alexander Korznikov for reporting this vulnerability under responsible disclosure. Â Â"
+				"description": "Fortinet is pleased to thank Alexander Korznikov for reporting this vulnerability under responsible disclosure. Ã‚Â Ã‚Â"
 			}
 		]
 	},

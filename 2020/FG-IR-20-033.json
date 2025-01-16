@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGate fails to log traffic for Fortinet owned IP address range",
+	"document_title": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Insufficient Logging\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,18 +59,18 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGate fails to log traffic for Fortinet owned IP address range",
+		"title": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-033",
-					"description": "FortiGate fails to log traffic for Fortinet owned IP address range"
+					"description": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2020-12818 (disputed)"
+			"CVE-2020-12818"
 		],
 		"product_statuses": {
 			"status": {

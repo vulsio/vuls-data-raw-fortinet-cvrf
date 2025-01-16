@@ -1,5 +1,5 @@
 {
-	"document_title": "Potential XSS in \"CSRF validation failure\" page due to lack of referer sanitization",
+	"document_title": "XSS against CSRF failure page due referer not been XSS escaped",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Potential XSS in \"CSRF validation failure\" page due to lack of referer sanitization",
+		"title": "XSS against CSRF failure page due referer not been XSS escaped",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-059",
-					"description": "Potential XSS in \"CSRF validation failure\" page due to lack of referer sanitization"
+					"description": "XSS against CSRF failure page due referer not been XSS escaped"
 				}
 			]
 		},

@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Multiple vulnerabilities impacting FortiPortal were disclosed to Fortinet with details as follows:CVE-2017-7337: Improper Access Control allows a user to potentially view firewall policies and objects from a VDOM s/he is not authorized to, enumerate other customer ADOMs and view other customers' dataCVE-2017-7338: Application returns password hashes, and passwords for associated FortiAnalyzer devices via the UICVE-2017-7339: Persistent XSS via the 'Name' and 'Description' fields in the pop-up to add Revision Backups as a customerCVE-2017-7340: Reflected XSS via the 'applicationSearch' parameter in the 'View' tabCVE-2017-7342: Weak password Policy allows a user to bypass the enforced password change post a password recovery requestCVE-2017-7343: Open Redirect via the 'url' parameterCVE-2017-7731: User Enumeration through Forgotten Password due to difference in responses for when an email address exists in the system and when one doesn't\n        ",
+				"text": "\n            Multiple vulnerabilities impacting FortiPortal were disclosed to Fortinet with details as follows:- CVE-2017-7337: Improper Access Control allows a user to potentially view firewall policies and objects from a VDOM s/he is not authorized to, enumerate other customer ADOMs and view other customers' data- CVE-2017-7338: Application returns password hashes, and passwords for associated FortiAnalyzer devices via the UI- CVE-2017-7339: Persistent XSS via the 'Name' and 'Description' fields in the pop-up to add Revision Backups as a customer- CVE-2017-7340: Reflected XSS via the 'applicationSearch' parameter in the 'View' tab- CVE-2017-7342: Weak password Policy allows a user to bypass the enforced password change post a password recovery request- CVE-2017-7343: Open Redirect via the 'url' parameter- CVE-2017-7731: User Enumeration through Forgotten Password due to difference in responses for when an email address exists in the system and when one doesn't\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information disclosure, Execute unauthorized code or commands, Improper Access Control\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -107,7 +107,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "3.4",
-				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy - HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability",
+	"document_title": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Crash of the HTTPD service.\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy versions 2.0.1 and below. FortiProxy versions 1.2.9 and below. FortiProxy versions 1.1.x. FortiProxy versions 1.0.x.\n        ",
+				"text": "\n            FortiProxy versions 2.0.1 and below.FortiProxy versions 1.2.9 and below.FortiProxy versions 1.1.x.FortiProxy versions 1.0.x.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to Fortiproxy version 1.2.10 or above. Please upgrade to Fortiproxy version 2.0.2 or above.\n        ",
+				"text": "\n            Please upgrade to Fortiproxy version 1.2.10 or above.Please upgrade to Fortiproxy version 2.0.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy - HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability",
+		"title": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-21-007",
-					"description": "FortiProxy - HTTPD is vulnerable to a Stack-based Buffer Overflow vulnerability"
+					"description": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request"
 				}
 			]
 		},

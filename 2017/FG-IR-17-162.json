@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb SNMPv3 user password viewable in HTML source code",
+	"document_title": "CVE-2017-7737 SNMPv3 user password reflected on HTML source",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb SNMPv3 user password viewable in HTML source code",
+		"title": "CVE-2017-7737 SNMPv3 user password reflected on HTML source",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-162",
-					"description": "FortiWeb SNMPv3 user password viewable in HTML source code"
+					"description": "CVE-2017-7737 SNMPv3 user password reflected on HTML source"
 				}
 			]
 		},

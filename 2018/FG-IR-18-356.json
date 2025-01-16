@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAP Bleeding Bit Vulnerability",
+	"document_title": "Bleeding Bit Vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade the impacted FortiAP-S/W2 models to 5.6.4 or 6.0.4WorkaroundsWhen the affected FortiAP-S/W2 models are managed by a FortiGate, enter the following CLI commands to disable the BLE scanning feature:config wireless-controller ble-profileedit [profile-name]set ble-scanning disable (*disable is the default value)nextendRevision History2019-04-10 Initial Version2019-04-15 Corrected the FortiAP-W2 affected models.\n        ",
+				"text": "\n            Upgrade the impacted FortiAP-S/W2 models to 5.6.4 or 6.0.4Workarounds:When the affected FortiAP-S/W2 models are managed by a FortiGate, enter the following CLI commands to disable the BLE scanning feature:config wireless-controller ble-profileedit [profile-name]set ble-scanning disable (*disable is the default value)nextendRevision History:2019-04-10 Initial Version2019-04-15 Corrected the FortiAP-W2 affected models.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-356",
-				"description": "FortiAP Bleeding Bit Vulnerability"
+				"description": "Bleeding Bit Vulnerability"
 			},
 			{
 				"url": "https://armis.com/bleedingbit/",
@@ -64,13 +64,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAP Bleeding Bit Vulnerability",
+		"title": "Bleeding Bit Vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-356",
-					"description": "FortiAP Bleeding Bit Vulnerability"
+					"description": "Bleeding Bit Vulnerability"
 				},
 				{
 					"url": "https://armis.com/bleedingbit/",

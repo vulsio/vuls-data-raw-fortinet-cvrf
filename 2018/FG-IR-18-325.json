@@ -1,5 +1,5 @@
 {
-	"document_title": "Uninitialized memory buffer leak in FortiOS explicit web proxy",
+	"document_title": "Vulnerability in FortiGate explicit web proxy",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Uninitialized memory buffer leak in FortiOS explicit web proxy",
+		"title": "Vulnerability in FortiGate explicit web proxy",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-325",
-					"description": "Uninitialized memory buffer leak in FortiOS explicit web proxy"
+					"description": "Vulnerability in FortiGate explicit web proxy"
 				}
 			]
 		},

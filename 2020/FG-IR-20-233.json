@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy - system file leak through SSL VPN special crafted HTTP resource requests",
+	"document_title": "[FortiProxy] file leaking through SSL VPN language resource request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy - system file leak through SSL VPN special crafted HTTP resource requests",
+		"title": "[FortiProxy] file leaking through SSL VPN language resource request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-233",
-					"description": "FortiProxy - system file leak through SSL VPN special crafted HTTP resource requests"
+					"description": "[FortiProxy] file leaking through SSL VPN language resource request"
 				}
 			]
 		},

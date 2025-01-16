@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiDDoS Command Injection Vulnerability Announcement",
+	"document_title": "FortiDDoS Multiple OS command injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,22 +30,28 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Leak, Denial of Service\n        ",
-				"title": "Impact",
+				"text": "\n            None\n        ",
+				"title": "Description",
 				"type": "General",
 				"ordinal": "2"
+			},
+			{
+				"text": "\n            Execute unauthorized code or commands\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
 			},
 			{
 				"text": "\n            FortiDDoS (Series B models only) versions below and including 4.2.2\n        ",
 				"title": "Affected Products",
 				"type": "General",
-				"ordinal": "3"
+				"ordinal": "4"
 			},
 			{
 				"text": "\n            Upgrade to versions 4.2.3\n        ",
 				"title": "Solutions",
 				"type": "General",
-				"ordinal": "4"
+				"ordinal": "5"
 			}
 		]
 	},
@@ -53,11 +59,11 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037",
-				"description": "FortiDDoS Command Injection Vulnerability Announcement"
+				"description": "FortiDDoS Multiple OS command injection"
 			},
 			{
-				"url": "-",
-				"description": "-"
+				"url": "<p>-</p>",
+				"description": "<p>-</p>"
 			}
 		]
 	},
@@ -70,23 +76,20 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiDDoS Command Injection Vulnerability Announcement",
+		"title": "FortiDDoS Multiple OS command injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037",
-					"description": "FortiDDoS Command Injection Vulnerability Announcement"
+					"description": "FortiDDoS Multiple OS command injection"
 				},
 				{
-					"url": "-",
-					"description": "-"
+					"url": "<p>-</p>",
+					"description": "<p>-</p>"
 				}
 			]
 		},
-		"cve": [
-			"CVE--"
-		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",
@@ -99,8 +102,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "0",
-				"vector_v3": "CVSS:3.1/N\\A"
+				"base_score_v3": "0"
 			}
 		}
 	},

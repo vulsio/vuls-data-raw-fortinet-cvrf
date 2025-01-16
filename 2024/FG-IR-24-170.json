@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-06-11T00:00:00",
-		"current_release_date": "2024-06-11T00:00:00"
+		"current_release_date": "2024-06-17T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -50,12 +56,12 @@
 				"description": "TunnelVision - CVE-2024-3661"
 			},
 			{
-				"url": "TunnelVision by Leviathan Security Group",
-				"description": "TunnelVision by Leviathan Security Group"
+				"url": "<p>TunnelVision by Leviathan Security Group [1] https://www.leviathansecurity.com/blog/tunnelvision<\n",
+				"description": "<p>TunnelVision by Leviathan Security Group [1] https://www.leviathansecurity.com/blog/tunnelvision<\n"
 			},
 			{
-				"url": "[1] https://www.leviathansecurity.com/blog/tunnelvision",
-				"description": "[1] https://www.leviathansecurity.com/blog/tunnelvision"
+				"url": "/p>",
+				"description": "/p>"
 			}
 		]
 	},
@@ -71,12 +77,12 @@
 					"description": "TunnelVision - CVE-2024-3661"
 				},
 				{
-					"url": "TunnelVision by Leviathan Security Group",
-					"description": "TunnelVision by Leviathan Security Group"
+					"url": "<p>TunnelVision by Leviathan Security Group [1] https://www.leviathansecurity.com/blog/tunnelvision<\n",
+					"description": "<p>TunnelVision by Leviathan Security Group [1] https://www.leviathansecurity.com/blog/tunnelvision<\n"
 				},
 				{
-					"url": "[1] https://www.leviathansecurity.com/blog/tunnelvision",
-					"description": "[1] https://www.leviathansecurity.com/blog/tunnelvision"
+					"url": "/p>",
+					"description": "/p>"
 				}
 			]
 		},
@@ -121,6 +127,7 @@
 					"FortiClientMac-7.2.2",
 					"FortiClientMac-7.2.1",
 					"FortiClientMac-7.2.0",
+					"FortiClientMac-7.0.14",
 					"FortiClientMac-7.0.13",
 					"FortiClientMac-7.0.12",
 					"FortiClientMac-7.0.11",
@@ -152,6 +159,7 @@
 					"FortiClientWindows-7.2.2",
 					"FortiClientWindows-7.2.1",
 					"FortiClientWindows-7.2.0",
+					"FortiClientWindows-7.0.14",
 					"FortiClientWindows-7.0.13",
 					"FortiClientWindows-7.0.12",
 					"FortiClientWindows-7.0.11",
@@ -475,6 +483,14 @@
 							}
 						},
 						{
+							"name": "7.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.14",
+								"product_id": "FortiClientMac-7.0.14"
+							}
+						},
+						{
 							"name": "7.0.13",
 							"type": "Product Version",
 							"full_product_name": {
@@ -726,6 +742,14 @@
 							"full_product_name": {
 								"text": "FortiClientWindows 7.2.0",
 								"product_id": "FortiClientWindows-7.2.0"
+							}
+						},
+						{
+							"name": "7.0.14",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 7.0.14",
+								"product_id": "FortiClientWindows-7.0.14"
 							}
 						},
 						{

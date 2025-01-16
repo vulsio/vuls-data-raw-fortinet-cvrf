@@ -42,16 +42,10 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSwitch version 7.4.0FortiSwitch version 7.2.0 through 7.2.5FortiSwitch version 7.0.0 through 7.0.7FortiSwitch version 6.4.0 through 6.4.13FortiSwitch version 6.2.0 through 6.2.7FortiSwitch version 6.0.0 through 6.0.7\n        ",
+				"text": "\n            \n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiSwitch version 7.4.1 or abovePlease upgrade to FortiSwitch version 7.2.6 or abovePlease upgrade to FortiSwitch version 7.0.8 or abovePlease upgrade to FortiSwitch version 6.4.14 or abovePlease upgrade to FortiSwitch version 6.2.8 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

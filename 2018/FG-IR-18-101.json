@@ -1,5 +1,5 @@
 {
-	"document_title": "Serial number disclosure in the FortiOS PPTP server hostname protocol field",
+	"document_title": "Using Fortigate PPTP service reveals hostname (default S/N)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Information Disclosure\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Serial number disclosure in the FortiOS PPTP server hostname protocol field",
+		"title": "Using Fortigate PPTP service reveals hostname (default S/N)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-101",
-					"description": "Serial number disclosure in the FortiOS PPTP server hostname protocol field"
+					"description": "Using Fortigate PPTP service reveals hostname (default S/N)"
 				}
 			]
 		},

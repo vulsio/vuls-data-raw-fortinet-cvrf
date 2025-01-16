@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-06-11T00:00:00",
-		"current_release_date": "2024-06-11T00:00:00"
+		"current_release_date": "2024-08-05T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -70,9 +70,11 @@
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiOS-7.4.3",
 					"FortiOS-7.4.2",
 					"FortiOS-7.4.1",
 					"FortiOS-7.4.0",
+					"FortiOS-7.2.7",
 					"FortiOS-7.2.6",
 					"FortiOS-7.2.5",
 					"FortiOS-7.2.4",
@@ -141,6 +143,14 @@
 					"type": "Product Name",
 					"branch": [
 						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.4.3",
+								"product_id": "FortiOS-7.4.3"
+							}
+						},
+						{
 							"name": "7.4.2",
 							"type": "Product Version",
 							"full_product_name": {
@@ -162,6 +172,14 @@
 							"full_product_name": {
 								"text": "FortiOS 7.4.0",
 								"product_id": "FortiOS-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 7.2.7",
+								"product_id": "FortiOS-7.2.7"
 							}
 						},
 						{

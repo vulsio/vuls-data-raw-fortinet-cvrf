@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiAP system files overwrite via the tcpdump CLI command",
+	"document_title": "FortiAP CLI command tcpdump param not been sanitized",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Input Validation\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank â€œNYC Cyber Commandâ€ for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank “NYC Cyber Command” for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiAP system files overwrite via the tcpdump CLI command",
+		"title": "FortiAP CLI command tcpdump param not been sanitized",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-298",
-					"description": "FortiAP system files overwrite via the tcpdump CLI command"
+					"description": "FortiAP CLI command tcpdump param not been sanitized"
 				}
 			]
 		},

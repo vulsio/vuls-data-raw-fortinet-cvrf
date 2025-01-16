@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiRecorder sets credentials of FortiCameras to static values",
+	"document_title": "FortiRecorder sets hardcoded admin password on all FortiCameras",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Authentication Controls Bypass\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 		"reference": [
 			{
 				"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-185",
-				"description": "FortiRecorder sets credentials of FortiCameras to static values"
+				"description": "FortiRecorder sets hardcoded admin password on all FortiCameras"
 			},
 			{
 				"url": "https://xor.cat/2019/08/05/fortinet-fortirecorder-hardcoded-password/",
@@ -70,13 +70,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiRecorder sets credentials of FortiCameras to static values",
+		"title": "FortiRecorder sets hardcoded admin password on all FortiCameras",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-185",
-					"description": "FortiRecorder sets credentials of FortiCameras to static values"
+					"description": "FortiRecorder sets hardcoded admin password on all FortiCameras"
 				},
 				{
 					"url": "https://xor.cat/2019/08/05/fortinet-fortirecorder-hardcoded-password/",

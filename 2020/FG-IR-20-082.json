@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS is potentially vulnerable to a Heap buffer overflow.",
+	"document_title": "[FortiOS] Heap buffer overflow in the processing of Link Control Protocol messages",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS is potentially vulnerable to a Heap buffer overflow.",
+		"title": "[FortiOS] Heap buffer overflow in the processing of Link Control Protocol messages",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-082",
-					"description": "FortiOS is potentially vulnerable to a Heap buffer overflow."
+					"description": "[FortiOS] Heap buffer overflow in the processing of Link Control Protocol messages"
 				}
 			]
 		},
@@ -113,7 +113,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.4",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

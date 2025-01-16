@@ -107,6 +107,7 @@
 					"FortiOS-6.4.2",
 					"FortiOS-6.4.1",
 					"FortiOS-6.4.0",
+					"FortiSwitchManager-7.2.5",
 					"FortiSwitchManager-7.2.4",
 					"FortiSwitchManager-7.2.3",
 					"FortiSwitchManager-7.2.2",
@@ -339,6 +340,14 @@
 					"name": "FortiSwitchManager",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "7.2.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitchManager 7.2.5",
+								"product_id": "FortiSwitchManager-7.2.5"
+							}
+						},
 						{
 							"name": "7.2.4",
 							"type": "Product Version",

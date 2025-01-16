@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS stored XSS vulnerability in the policy global-label parameter",
+	"document_title": "Stored XSS vulnerability in the firewall policy global-label parameter",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS stored XSS vulnerability in the policy global-label parameter",
+		"title": "Stored XSS vulnerability in the firewall policy global-label parameter",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-057",
-					"description": "FortiOS stored XSS vulnerability in the policy global-label parameter"
+					"description": "Stored XSS vulnerability in the firewall policy global-label parameter"
 				}
 			]
 		},
@@ -108,7 +108,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

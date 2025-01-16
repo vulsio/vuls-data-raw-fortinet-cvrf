@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Persistent Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS 5.6 branch: Upgrade to 5.6.3 FortiOS 5.4 branch: Upgrade to 5.4.8 FortiOS 5.2 and lower versions: Upgrade to branch 5.4 or above, or resort to Workarounds below. Workarounds: In System->Replacement Messages->Web-proxy->\"Web-proxy HTTP Error Page\", remove the following default message content: URL: %%PROTOCOL%%://%%URL%%\n        ",
+				"text": "\n            FortiOS 5.6 branch: Upgrade to 5.6.3FortiOS 5.4 branch: Upgrade to 5.4.8FortiOS 5.2 and lower versions: Upgrade to branch 5.4 or above, or resort to Workarounds below.Workarounds:In System->Replacement Messages->Web-proxy->\"Web-proxy HTTP Error Page\", remove the following default message content: URL: %%PROTOCOL%%://%%URL%%\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -109,7 +109,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

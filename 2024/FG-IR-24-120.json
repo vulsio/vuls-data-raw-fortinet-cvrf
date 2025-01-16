@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-05-14T00:00:00",
-		"current_release_date": "2024-05-14T00:00:00"
+		"current_release_date": "2024-12-04T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -73,7 +79,27 @@
 			]
 		},
 		"product_statuses": {
-			"status": {}
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiAuthenticator-6.6.0",
+					"FortiAuthenticator-6.5.4",
+					"FortiAuthenticator-6.5.3",
+					"FortiAuthenticator-6.5.2",
+					"FortiAuthenticator-6.5.1",
+					"FortiAuthenticator-6.5.0",
+					"FortiSandbox-4.4.5",
+					"FortiSandbox-4.4.4",
+					"FortiSandbox-4.4.3",
+					"FortiSandbox-4.4.2",
+					"FortiSandbox-4.4.1",
+					"FortiSandbox-4.4.0",
+					"FortiSwitch-7.4.3",
+					"FortiSwitch-7.4.2",
+					"FortiSwitch-7.4.1",
+					"FortiSwitch-7.4.0"
+				]
+			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
@@ -83,6 +109,157 @@
 		}
 	},
 	"product_tree": {
-		"branch": {}
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiAuthenticator",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.6.0",
+								"product_id": "FortiAuthenticator-6.6.0"
+							}
+						},
+						{
+							"name": "6.5.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.4",
+								"product_id": "FortiAuthenticator-6.5.4"
+							}
+						},
+						{
+							"name": "6.5.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.3",
+								"product_id": "FortiAuthenticator-6.5.3"
+							}
+						},
+						{
+							"name": "6.5.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.2",
+								"product_id": "FortiAuthenticator-6.5.2"
+							}
+						},
+						{
+							"name": "6.5.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.1",
+								"product_id": "FortiAuthenticator-6.5.1"
+							}
+						},
+						{
+							"name": "6.5.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.5.0",
+								"product_id": "FortiAuthenticator-6.5.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSandbox",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.5",
+								"product_id": "FortiSandbox-4.4.5"
+							}
+						},
+						{
+							"name": "4.4.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.4",
+								"product_id": "FortiSandbox-4.4.4"
+							}
+						},
+						{
+							"name": "4.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.3",
+								"product_id": "FortiSandbox-4.4.3"
+							}
+						},
+						{
+							"name": "4.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.2",
+								"product_id": "FortiSandbox-4.4.2"
+							}
+						},
+						{
+							"name": "4.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.1",
+								"product_id": "FortiSandbox-4.4.1"
+							}
+						},
+						{
+							"name": "4.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.4.0",
+								"product_id": "FortiSandbox-4.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSwitch",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 7.4.3",
+								"product_id": "FortiSwitch-7.4.3"
+							}
+						},
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 7.4.2",
+								"product_id": "FortiSwitch-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 7.4.1",
+								"product_id": "FortiSwitch-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSwitch 7.4.0",
+								"product_id": "FortiSwitch-7.4.0"
+							}
+						}
+					]
+				}
+			]
+		}
 	}
 }

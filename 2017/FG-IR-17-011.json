@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An unauthenticated XSS vulnerability could allow an attacker to execute arbitrary scripts in the security context of the browser of a victim logged in FortiMail, assuming the victim is social engineered into clicking an URL crafted by the attacker.\n        ",
+				"text": "\n            An unauthenticated XSS vulnerability could allow an attacker to execute arbitrary scripts in thesecurity context of the browser of a victim logged in FortiMail, assuming the victim is socialengineered into clicking an URL crafted by the attacker.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Information leak\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Ebrahim Hegazy for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Ebrahim Hegazy for reporting this vulnerability under responsible disclosure"
 			}
 		]
 	},
@@ -126,7 +126,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

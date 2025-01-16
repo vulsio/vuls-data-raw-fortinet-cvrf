@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWLC - XSS vulnerability",
+	"document_title": "FortiWLC is vulnerable to an XSS",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiWLC version 8.6.0. FortiWLC versions 8.5.3 and below.\n        ",
+				"text": "\n            FortiWLC version 8.6.0.FortiWLC versions 8.5.3 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWLC - XSS vulnerability",
+		"title": "FortiWLC is vulnerable to an XSS",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-137",
-					"description": "FortiWLC - XSS vulnerability"
+					"description": "FortiWLC is vulnerable to an XSS"
 				}
 			]
 		},

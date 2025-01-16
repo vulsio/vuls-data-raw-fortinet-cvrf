@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiExtender OS command injection through execute date CLI command",
+	"document_title": "FortiExtender os command injection through execute date CLI command",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            OS command injection\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiExtender OS command injection through execute date CLI command",
+		"title": "FortiExtender os command injection through execute date CLI command",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-273",
-					"description": "FortiExtender OS command injection through execute date CLI command"
+					"description": "FortiExtender os command injection through execute date CLI command"
 				}
 			]
 		},

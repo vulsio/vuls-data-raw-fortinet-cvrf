@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            FortiGate firmware (FortiOS) released before Aug 2012 has a cookie parser buffer overflow vulnerability. This vulnerability, when exploited by a crafted HTTP request, can result in execution control being taken over. Â Affected firmware versions are lower versions of 4.x firmware release. Â FortiOS 5.x firmware is NOT affected.Affected FortiSwitch firmware versions are 3.4.2 and below.\n        ",
+				"text": "\n            FortiGate firmware (FortiOS) released before Aug 2012 has a cookie parser buffer overflow vulnerability. This vulnerability, when exploited by a crafted HTTP request, can result in execution control being taken over. Ã‚Â Affected firmware versions are lower versions of 4.x firmware release. Ã‚Â FortiOS 5.x firmware is NOT affected.Affected FortiSwitch firmware versions are 3.4.2 and below.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiGate (FortiOS):Â 4.3.8 and below 4.2.12 and below 4.1.10 and belowFortiSwitch:3.4.2 and below\n        ",
+				"text": "\n            FortiGate (FortiOS):Ã‚Â 4.3.8 and below 4.2.12 and below 4.1.10 and belowFortiSwitch:3.4.2 and below\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"

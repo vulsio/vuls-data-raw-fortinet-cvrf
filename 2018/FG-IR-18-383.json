@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS multiple pre-auth XSS vulnerabilities on SSL VPN",
+	"document_title": "[FortiOS] multiple pre-auth XSS vulnerabilities on SSL VPN",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS multiple pre-auth XSS vulnerabilities on SSL VPN",
+		"title": "[FortiOS] multiple pre-auth XSS vulnerabilities on SSL VPN",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-383",
-					"description": "FortiOS multiple pre-auth XSS vulnerabilities on SSL VPN"
+					"description": "[FortiOS] multiple pre-auth XSS vulnerabilities on SSL VPN"
 				}
 			]
 		},

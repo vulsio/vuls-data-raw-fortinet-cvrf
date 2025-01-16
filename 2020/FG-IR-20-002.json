@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in the UserID of Admin Users in FortiNAC",
+	"document_title": "[FortiNAC] XSS observed in UserID of Admin Users",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Unauthorized code execution\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,7 +53,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Johnatan Camargo from ItaÃº Unibanco for reporting"
+				"description": "Fortinet is pleased to thank Johnatan Camargo from Itaú Unibanco for reporting"
 			},
 			{
 				"description": "this vulnerability under responsible disclosure."
@@ -62,13 +62,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in the UserID of Admin Users in FortiNAC",
+		"title": "[FortiNAC] XSS observed in UserID of Admin Users",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-002",
-					"description": "XSS vulnerability in the UserID of Admin Users in FortiNAC"
+					"description": "[FortiNAC] XSS observed in UserID of Admin Users"
 				}
 			]
 		},
@@ -85,7 +85,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "4",
+				"base_score_v3": "4.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:F/RL:X/RC:X"
 			}
 		}

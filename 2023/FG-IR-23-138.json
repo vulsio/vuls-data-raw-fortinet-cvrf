@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2023-12-12T00:00:00",
-		"current_release_date": "2023-12-12T00:00:00"
+		"current_release_date": "2024-01-10T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -162,7 +162,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "7",
+				"base_score_v3": "7.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
 			}
 		}

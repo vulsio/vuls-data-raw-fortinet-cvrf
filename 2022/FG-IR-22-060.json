@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At least FortiSandbox version 4.2.0 FortiSandbox version 4.0.0 through 4.0.2 FortiSandbox version 3.2.0 through 3.2.3 FortiSandbox version 3.0.1 through 3.0.7 FortiSandbox 3.1 all versions\n        ",
+				"text": "\n            At leastFortiSandbox version 4.2.0FortiSandbox version 4.0.0 through 4.0.2FortiSandbox version 3.2.0 through 3.2.3FortiSandbox version 3.0.1 through 3.0.7FortiSandbox 3.1 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

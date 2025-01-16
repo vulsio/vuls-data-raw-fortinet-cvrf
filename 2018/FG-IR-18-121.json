@@ -1,5 +1,5 @@
 {
-	"document_title": "Cross-site scripting (XSS) vulnerability via DHCP Hostname parameter",
+	"document_title": "DHCP HOSTNAME XSS vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Cross-site scripting (XSS) vulnerability via DHCP Hostname parameter",
+		"title": "DHCP HOSTNAME XSS vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-121",
-					"description": "Cross-site scripting (XSS) vulnerability via DHCP Hostname parameter"
+					"description": "DHCP HOSTNAME XSS vulnerability"
 				}
 			]
 		},

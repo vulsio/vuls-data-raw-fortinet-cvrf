@@ -1,5 +1,5 @@
 {
-	"document_title": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket",
+	"document_title": "Privilege escalation and DoS in FortiClient for Linux through local IPC against fctsched",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Privilege Escalation, System Command Injection, Denial of Service\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank â€œCees Elzinga from Danish Cyber Defenceâ€ for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank “Cees Elzinga from Danish Cyber Defence” for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket",
+		"title": "Privilege escalation and DoS in FortiClient for Linux through local IPC against fctsched",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-238",
-					"description": "Privilege escalation and DoS in FortiClient for Linux through local IPC socket"
+					"description": "Privilege escalation and DoS in FortiClient for Linux through local IPC against fctsched"
 				}
 			]
 		},

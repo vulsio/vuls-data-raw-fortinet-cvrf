@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-03-12T00:00:00",
-		"current_release_date": "2024-03-12T00:00:00"
+		"current_release_date": "2024-02-27T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.4.0 through 7.4.1FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12FortiOS version 6.4.0 through 6.4.14FortiOS version 6.2.0 through 6.2.15FortiProxy version 7.4.0FortiProxy version 7.2.0 through 7.2.6FortiProxy version 7.0.0 through 7.0.12FortiProxy version 2.0.0 through 2.0.13\n        ",
+				"text": "\n            FortiProxy version 7.4.0FortiProxy version 7.2.0 through 7.2.6FortiProxy version 7.0.0 through 7.0.12FortiProxy version 2.0.0 through 2.0.13FortiOS version 7.4.0 through 7.4.1FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12FortiOS version 6.4.0 through 6.4.14FortiOS version 6.2.0 through 6.2.15\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

@@ -1,5 +1,5 @@
 {
-	"document_title": "Authentication bypass in FortiMail and FortiVoiceEntreprise",
+	"document_title": "[FortiMail][FortiVoice] Authentication bypass",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiMail versions 5.4.10 and below. FortiMail versions 6.0.7 and below. FortiMail versions 6.2.2 and below. FortiVoiceEntreprise versions 6.0.1 and below. FortiVoiceEntreprise 5.4 all versions.   FortiMail versions 5.3 and lower are not impacted by this vulnerability. FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability. FortiMail Cloud has been upgraded to non-impacted versions.\n        ",
+				"text": "\n            FortiMail versions 5.4.10 and below.FortiMail versions 6.0.7 and below.FortiMail versions 6.2.2 and below.FortiVoiceEntreprise versions 6.0.1 and below.FortiVoiceEntreprise 5.4 all versions.FortiMail versions 5.3 and lower are not impacted by this vulnerability.FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability.FortiMail Cloud has been upgraded to non-impacted versions.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiMail version 5.4.11 or above. Please upgrade to FortiMail version 6.0.8 or above. Please upgrade to FortiMail version 6.2.3 or above. Please upgrade to FortiVoiceEntreprise version 6.0.2 or above.\n        ",
+				"text": "\n            Please upgrade to FortiMail version 5.4.11 or above.Please upgrade to FortiMail version 6.0.8 or above.Please upgrade to FortiMail version 6.2.3 or above.Please upgrade to FortiVoiceEntreprise version 6.0.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Authentication bypass in FortiMail and FortiVoiceEntreprise",
+		"title": "[FortiMail][FortiVoice] Authentication bypass",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-045",
-					"description": "Authentication bypass in FortiMail and FortiVoiceEntreprise"
+					"description": "[FortiMail][FortiVoice] Authentication bypass"
 				}
 			]
 		},

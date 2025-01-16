@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiWeb's cookie tampering protection can be bypassed by erasing the FortiWeb session cookie",
+	"document_title": "FortiWeb cookie protection by pass and session hijacking vulnerability",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank independent researcher \"Yavuz Ã–zdemir\" from 4S information Technology for reporting this vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank independent researcher \"Yavuz Özdemir\" from PentesterLab for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiWeb's cookie tampering protection can be bypassed by erasing the FortiWeb session cookie",
+		"title": "FortiWeb cookie protection by pass and session hijacking vulnerability",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-279",
-					"description": "FortiWeb's cookie tampering protection can be bypassed by erasing the FortiWeb session cookie"
+					"description": "FortiWeb cookie protection by pass and session hijacking vulnerability"
 				}
 			]
 		},

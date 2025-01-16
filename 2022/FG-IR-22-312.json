@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiNAC version 9.4.2 or above Please upgrade to FortiNAC version 7.2.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiNAC version 9.4.2 or abovePlease upgrade to FortiNAC version 7.2.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -140,7 +140,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "6",
+				"base_score_v3": "6.0",
 				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:U/RC:C"
 			}
 		}

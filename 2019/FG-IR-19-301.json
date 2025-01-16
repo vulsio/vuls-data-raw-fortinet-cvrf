@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS - Host header injection vulnerability",
+	"document_title": "[FortiOS][Web filtering] Host header is vulnerable to an XSS vulnerability and redirection/injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79]Â in FortiOSÂ may allow a remote unauthenticated attacker to either redirect users to malicious websites via a crafted \"Host\" header or to execute JavaScript codeÂ in the victim's browser context.This happens when the FortiGate has web filtering and category override enabled/configured.\n        ",
+				"text": "\n            An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiOS may allow a remote unauthenticated attacker to either redirect users to malicious websites via a crafted \"Host\" header or to execute JavaScript code in the victim's browser context.This happens when the FortiGate has web filtering and category override enabled/configured.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiOS version 6.4.1 and below. FortiOS version 6.2.9 and below.\n        ",
+				"text": "\n            FortiOS version 6.4.1 and below.FortiOS version 6.2.9 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 6.4.2 or above. Please upgrade to FortiOS version 6.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiOS version 6.4.2 or above.Please upgrade to FortiOS version 6.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS - Host header injection vulnerability",
+		"title": "[FortiOS][Web filtering] Host header is vulnerable to an XSS vulnerability and redirection/injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-301",
-					"description": "FortiOS - Host header injection vulnerability"
+					"description": "[FortiOS][Web filtering] Host header is vulnerable to an XSS vulnerability and redirection/injection"
 				}
 			]
 		},
@@ -94,7 +94,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "4.7",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},

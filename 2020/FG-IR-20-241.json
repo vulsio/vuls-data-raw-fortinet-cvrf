@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiClient Linux -  Command injection vulnerability",
+	"document_title": "[FortiClient] command injection in FTC for Linux",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An OS command injection (CWE-78)Â vulnerability in FortiClient for Linux may allow an unauthenticated, network-adjacent attacker to execute privileged and arbitrary commands on the Linux appliance on which FortiClient is running byÂ tricking the user into connecting to a network with a malicious name (SSID). A successful attack requires that the attacker hasÂ control over the access point the host is connected to.Â\n        ",
+				"text": "\n            An OS command injection (CWE-78) vulnerability in FortiClient for Linux may allow an unauthenticated, network-adjacent attacker to execute privileged and arbitrary commands on the Linux appliance on which FortiClient is running by tricking the user into connecting to a network with a malicious name (SSID).A successful attack requires that the attacker has control over the access point the host is connected to.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiClient for Linux versions 6.2.8 and below. FortiClient for Linux versions 6.4.2 and below.\n        ",
+				"text": "\n            FortiClient for Linux versions 6.2.8 and below.FortiClient for Linux versions 6.4.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for Linux version 6.2.9 or above. Please upgrade to FortiClient for Linux version 6.4.3 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient for Linux version 6.2.9 or above.Please upgrade to FortiClient for Linux version 6.4.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Internally discovered and reported by Mattia Fecit of Fortinet PSIRT team."
+				"description": "Internally discovered and reported by visage of Fortinet Product Security team"
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiClient Linux -  Command injection vulnerability",
+		"title": "[FortiClient] command injection in FTC for Linux",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-241",
-					"description": "FortiClient Linux -  Command injection vulnerability"
+					"description": "[FortiClient] command injection in FTC for Linux"
 				}
 			]
 		},

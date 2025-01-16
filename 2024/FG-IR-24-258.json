@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-07-09T00:00:00",
-		"current_release_date": "2024-07-09T00:00:00"
+		"current_release_date": "2024-12-19T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -156,6 +162,9 @@
 					"FortiDDoS-5.7.0",
 					"FortiDDoS-F-7.0.1",
 					"FortiDDoS-F-7.0.0",
+					"FortiDeceptor-5.3.1",
+					"FortiDeceptor-5.3.0",
+					"FortiDeceptor-5.2.0",
 					"FortiExtender-7.4.5",
 					"FortiExtender-7.4.4",
 					"FortiExtender-7.4.3",
@@ -174,6 +183,12 @@
 					"FortiExtender-7.0.2",
 					"FortiExtender-7.0.1",
 					"FortiExtender-7.0.0",
+					"FortiLANCloud-23.4",
+					"FortiLANCloud-23.3",
+					"FortiLANCloud-23.2",
+					"FortiLANCloud-23.1",
+					"FortiLANCloud-22.4",
+					"FortiLANCloud-22.3",
 					"FortiMail-7.4.2",
 					"FortiMail-7.4.1",
 					"FortiMail-7.4.0",
@@ -246,12 +261,14 @@
 					"FortiManager Cloud-7.0.10",
 					"FortiManager Cloud-7.0.7",
 					"FortiManager Cloud-7.0.6",
-					"FortiNDR-7.4.5",
-					"FortiNDR-7.4.4",
-					"FortiNDR-7.4.3",
-					"FortiNDR-7.2.3",
-					"FortiNDR-7.2.2",
-					"FortiNDR-7.0.6",
+					"FortiNAC-F-7.4.0",
+					"FortiNAC-F-7.2.6",
+					"FortiNAC-F-7.2.5",
+					"FortiNAC-F-7.2.4",
+					"FortiNAC-F-7.2.3",
+					"FortiNAC-F-7.2.2",
+					"FortiNAC-F-7.2.1",
+					"FortiNAC-F-7.2.0",
 					"FortiRecorder-7.2.1",
 					"FortiRecorder-7.2.0",
 					"FortiRecorder-7.0.4",
@@ -291,6 +308,16 @@
 					"FortiSwitch-7.2.2",
 					"FortiSwitch-7.2.1",
 					"FortiSwitch-7.2.0",
+					"FortiTester-7.4.2",
+					"FortiTester-7.4.1",
+					"FortiTester-7.4.0",
+					"FortiTester-7.3.2",
+					"FortiTester-7.3.1",
+					"FortiTester-7.3.0",
+					"FortiTester-7.2.3",
+					"FortiTester-7.2.2",
+					"FortiTester-7.2.1",
+					"FortiTester-7.2.0",
 					"FortiVoice-7.0.2",
 					"FortiVoice-7.0.1",
 					"FortiVoice-7.0.0",
@@ -304,6 +331,14 @@
 					"FortiVoice-6.4.2",
 					"FortiVoice-6.4.1",
 					"FortiVoice-6.4.0",
+					"FortiWLC-8.6.7",
+					"FortiWLC-8.6.6",
+					"FortiWLC-8.6.5",
+					"FortiWLC-8.6.4",
+					"FortiWLC-8.6.3",
+					"FortiWLC-8.6.2",
+					"FortiWLC-8.6.1",
+					"FortiWLC-8.6.0",
 					"FortiWeb-7.6.0",
 					"FortiWeb-7.4.4",
 					"FortiWeb-7.4.3",
@@ -866,6 +901,36 @@
 					]
 				},
 				{
+					"name": "FortiDeceptor",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 5.3.1",
+								"product_id": "FortiDeceptor-5.3.1"
+							}
+						},
+						{
+							"name": "5.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 5.3.0",
+								"product_id": "FortiDeceptor-5.3.0"
+							}
+						},
+						{
+							"name": "5.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiDeceptor 5.2.0",
+								"product_id": "FortiDeceptor-5.2.0"
+							}
+						}
+					]
+				},
+				{
 					"name": "FortiExtender",
 					"type": "Product Name",
 					"branch": [
@@ -1011,6 +1076,60 @@
 							"full_product_name": {
 								"text": "FortiExtender 7.0.0",
 								"product_id": "FortiExtender-7.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiLANCloud",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "23.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 23.4",
+								"product_id": "FortiLANCloud-23.4"
+							}
+						},
+						{
+							"name": "23.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 23.3",
+								"product_id": "FortiLANCloud-23.3"
+							}
+						},
+						{
+							"name": "23.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 23.2",
+								"product_id": "FortiLANCloud-23.2"
+							}
+						},
+						{
+							"name": "23.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 23.1",
+								"product_id": "FortiLANCloud-23.1"
+							}
+						},
+						{
+							"name": "22.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 22.4",
+								"product_id": "FortiLANCloud-22.4"
+							}
+						},
+						{
+							"name": "22.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiLANCloud 22.3",
+								"product_id": "FortiLANCloud-22.3"
 							}
 						}
 					]
@@ -1610,55 +1729,71 @@
 					]
 				},
 				{
-					"name": "FortiNDR",
+					"name": "FortiNAC-F",
 					"type": "Product Name",
 					"branch": [
 						{
-							"name": "7.4.5",
+							"name": "7.4.0",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.4.5",
-								"product_id": "FortiNDR-7.4.5"
+								"text": "FortiNAC-F 7.4.0",
+								"product_id": "FortiNAC-F-7.4.0"
 							}
 						},
 						{
-							"name": "7.4.4",
+							"name": "7.2.6",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.4.4",
-								"product_id": "FortiNDR-7.4.4"
+								"text": "FortiNAC-F 7.2.6",
+								"product_id": "FortiNAC-F-7.2.6"
 							}
 						},
 						{
-							"name": "7.4.3",
+							"name": "7.2.5",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.4.3",
-								"product_id": "FortiNDR-7.4.3"
+								"text": "FortiNAC-F 7.2.5",
+								"product_id": "FortiNAC-F-7.2.5"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.4",
+								"product_id": "FortiNAC-F-7.2.4"
 							}
 						},
 						{
 							"name": "7.2.3",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.2.3",
-								"product_id": "FortiNDR-7.2.3"
+								"text": "FortiNAC-F 7.2.3",
+								"product_id": "FortiNAC-F-7.2.3"
 							}
 						},
 						{
 							"name": "7.2.2",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.2.2",
-								"product_id": "FortiNDR-7.2.2"
+								"text": "FortiNAC-F 7.2.2",
+								"product_id": "FortiNAC-F-7.2.2"
 							}
 						},
 						{
-							"name": "7.0.6",
+							"name": "7.2.1",
 							"type": "Product Version",
 							"full_product_name": {
-								"text": "FortiNDR 7.0.6",
-								"product_id": "FortiNDR-7.0.6"
+								"text": "FortiNAC-F 7.2.1",
+								"product_id": "FortiNAC-F-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiNAC-F 7.2.0",
+								"product_id": "FortiNAC-F-7.2.0"
 							}
 						}
 					]
@@ -1988,6 +2123,92 @@
 					]
 				},
 				{
+					"name": "FortiTester",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.4.2",
+								"product_id": "FortiTester-7.4.2"
+							}
+						},
+						{
+							"name": "7.4.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.4.1",
+								"product_id": "FortiTester-7.4.1"
+							}
+						},
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.4.0",
+								"product_id": "FortiTester-7.4.0"
+							}
+						},
+						{
+							"name": "7.3.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.3.2",
+								"product_id": "FortiTester-7.3.2"
+							}
+						},
+						{
+							"name": "7.3.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.3.1",
+								"product_id": "FortiTester-7.3.1"
+							}
+						},
+						{
+							"name": "7.3.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.3.0",
+								"product_id": "FortiTester-7.3.0"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.2.3",
+								"product_id": "FortiTester-7.2.3"
+							}
+						},
+						{
+							"name": "7.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.2.2",
+								"product_id": "FortiTester-7.2.2"
+							}
+						},
+						{
+							"name": "7.2.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.2.1",
+								"product_id": "FortiTester-7.2.1"
+							}
+						},
+						{
+							"name": "7.2.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiTester 7.2.0",
+								"product_id": "FortiTester-7.2.0"
+							}
+						}
+					]
+				},
+				{
 					"name": "FortiVoice",
 					"type": "Product Name",
 					"branch": [
@@ -2093,6 +2314,76 @@
 							"full_product_name": {
 								"text": "FortiVoice 6.4.0",
 								"product_id": "FortiVoice-6.4.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWLC",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "8.6.7",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.7",
+								"product_id": "FortiWLC-8.6.7"
+							}
+						},
+						{
+							"name": "8.6.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.6",
+								"product_id": "FortiWLC-8.6.6"
+							}
+						},
+						{
+							"name": "8.6.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.5",
+								"product_id": "FortiWLC-8.6.5"
+							}
+						},
+						{
+							"name": "8.6.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.4",
+								"product_id": "FortiWLC-8.6.4"
+							}
+						},
+						{
+							"name": "8.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.3",
+								"product_id": "FortiWLC-8.6.3"
+							}
+						},
+						{
+							"name": "8.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.2",
+								"product_id": "FortiWLC-8.6.2"
+							}
+						},
+						{
+							"name": "8.6.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.1",
+								"product_id": "FortiWLC-8.6.1"
+							}
+						},
+						{
+							"name": "8.6.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWLC 8.6.0",
+								"product_id": "FortiWLC-8.6.0"
 							}
 						}
 					]

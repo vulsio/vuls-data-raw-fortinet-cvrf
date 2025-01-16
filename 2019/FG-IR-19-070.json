@@ -1,5 +1,5 @@
 {
-	"document_title": "Cross-Site-Scripting (XSS) vulnerabilty in Fortiweb reports",
+	"document_title": "XSS vulnerabilty in Fortiweb reports",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Cross-Site-Scripting (XSS) vulnerabilty in Fortiweb reports",
+		"title": "XSS vulnerabilty in Fortiweb reports",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-070",
-					"description": "Cross-Site-Scripting (XSS) vulnerabilty in Fortiweb reports"
+					"description": "XSS vulnerabilty in Fortiweb reports"
 				}
 			]
 		},

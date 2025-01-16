@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            The Missing Encryption Of Sensitive Data vulnerability in FortiClient may allow an attacker to access VPN session cookie from an endpoint device running FortiClient. The attacker can steal the cookies only if endpoint device has been compromised in such a way that the attacker has access to FortiClient's debug logs or memory space. Furthermore,Â practical use of the stolen cookie requires the attacker to spoof the endpoint's IP address.\n        ",
+				"text": "\n            The Missing Encryption Of Sensitive Data vulnerability in FortiClient may allow an attacker to access VPN session cookie from an endpoint device running FortiClient. The attacker can steal the cookies only if endpoint device has been compromised in such a way that the attacker has access to FortiClient's debug logs or memory space. Furthermore, practical use of the stolen cookie requires the attacker to spoof the endpoint's IP address.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Exploiting the stolen session cookie may consist in an attacker replaying the cookie and gain access to user's VPN session or loging out the user itself\n        ",
+				"text": "\n            Information disclosure\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Fortigate by default mitigates the session cookie misuse by verifying the source IP of client's request. As a precautionary measure, please upgrade to upcoming:FortiClient for Windows 6.2.1FortiClient for Mac OSX 6.2.1\n        ",
+				"text": "\n            Fortigate by default mitigates the session cookie misuse exploits mentioned above by verifying the source IP of client's request. As a precautionary measure, please upgrade to upcoming:FortiClient for Windows 6.2.2FortiClient for Mac OSX 6.2.2\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"

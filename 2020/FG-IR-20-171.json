@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - SQL Injection vulnerabilities",
+	"document_title": "FortiSandbox - Pervarsive SQL Injection",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSandbox version 3.2.2 and earlier. FortiSandbox version 3.1.4 and earlier.\n        ",
+				"text": "\n            FortiSandbox version 3.2.2 and earlier.FortiSandbox version 3.1.4 and earlier.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Upgrade to FortiSandbox version 3.2.2 or later. Upgrade to FortiSandbox version 3.1.5 or later.\n        ",
+				"text": "\n            Upgrade to FortiSandbox version 3.2.2 or later.Upgrade to FortiSandbox version 3.1.5 or later.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
@@ -65,13 +65,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - SQL Injection vulnerabilities",
+		"title": "FortiSandbox - Pervarsive SQL Injection",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-171",
-					"description": "FortiSandbox - SQL Injection vulnerabilities"
+					"description": "FortiSandbox - Pervarsive SQL Injection"
 				}
 			]
 		},

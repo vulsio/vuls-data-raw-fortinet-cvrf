@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiGate SSL VPN logs may display events of users in a different VDOM",
+	"document_title": "[SSLVPN] get vpn ssl monitor displays users from other vdoms",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability in FortiGate may allow a remote authenticated attacker to read the SSL VPN events log entries of users in other VDOMs byÂ executing \"get vpn ssl monitor\" from the CLI. The sensitive data includes usernames, user groups, and IP addresses.\n        ",
+				"text": "\n            An exposure of sensitive information to an unauthorized actor vulnerability in FortiGate may allow remote authenticated actors to read the SSL VPN events log entries of users in other VDOMs by executing \"get vpn ssl monitor\" from the CLI. The sensitive data includes usernames, user groups, and IP address.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiGate version 6.0.11 or above. Please upgrade to FortiGate version 6.2.5 or above. Please upgrade to FortiGate version 6.4.2 or above.\n        ",
+				"text": "\n            Please upgrade to FortiGate version 6.0.11 or above. Please upgrade to FortiGate version 6.2.5 or above.Please upgrade to FortiGate version 6.4.2 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,13 +53,13 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiGate SSL VPN logs may display events of users in a different VDOM",
+		"title": "[SSLVPN] get vpn ssl monitor displays users from other vdoms",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-103",
-					"description": "FortiGate SSL VPN logs may display events of users in a different VDOM"
+					"description": "[SSLVPN] get vpn ssl monitor displays users from other vdoms"
 				}
 			]
 		},

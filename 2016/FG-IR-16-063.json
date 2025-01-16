@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            Linux Kernel Dirty Cow Vulnerability Announcement.Â\n        ",
+				"text": "\n            Linux Kernel Dirty Cow Vulnerability Announcement.Ã‚Â\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            The following products are confirmed to be not affected:FortiGateÂ FortiAnalyzerFortiSwitchFortiAP\n        ",
+				"text": "\n            The following products are confirmed to be not affected:FortiGateÃ‚Â FortiAnalyzerFortiSwitchFortiAP\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

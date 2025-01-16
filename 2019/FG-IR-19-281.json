@@ -1,5 +1,5 @@
 {
-	"document_title": "Unquoted Service Path exploit in FortiClient",
+	"document_title": "[FortiClient] Unquoted Service Path Exploit in FortiClient",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -36,13 +36,13 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiClient for Windows Versions 6.2.2 and below.FortiClient for Windows Versions 6.0.9 and below.\n        ",
+				"text": "\n            FortiClient for Windows Versions 6.2.2 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiClient for Windows version 6.2.3 or above.Please upgrade to FortiClient for Windows version 6.0.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiClient for Windows version 6.2.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Unquoted Service Path exploit in FortiClient",
+		"title": "[FortiClient] Unquoted Service Path Exploit in FortiClient",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-281",
-					"description": "Unquoted Service Path exploit in FortiClient"
+					"description": "[FortiClient] Unquoted Service Path Exploit in FortiClient"
 				}
 			]
 		},

@@ -1,5 +1,5 @@
 {
-	"document_title": "Stack-based buffer overflow in SSL VPN daemon",
+	"document_title": "[FortiOS] stack buffer overflow in the processing of FortiClient filename names requested by SSL VPN clients from the web portal",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS versions 5.6.13 or above. Please upgrade to FortiOS versions 6.0.11 or above. FortiOS versions 6.2.0 and above are not impacted. FortiOS versions 6.4.0 and above are not impacted. Workaround: Please ensure that Fortiheartbeat and Endpoint-Compliance are not both enabled on the same interface. FortiHeartbeat and Endpoint-Compliance can be disabled on a particular interface by following the below CLI commands: config system interface edit interface set endpoint-compliance disable (<-- Disabled by default) set fortiheartbeat disable next end\n        ",
+				"text": "\n            Please upgrade to FortiOS versions 5.6.13 or above.Please upgrade to FortiOS versions 6.0.11 or above. FortiOS versions 6.2.0 and above are not impacted. FortiOS versions 6.4.0 and above are not impacted. Workaround: Please ensure that Fortiheartbeat and Endpoint-Compliance are not both enabled on the same interface. FortiHeartbeat and Endpoint-Compliance can be disabled on a particular interface by following the below CLI commands:config system interfaceedit interfaceset endpoint-compliance disable (<-- Disabled by default)set fortiheartbeat disablenextend\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Stack-based buffer overflow in SSL VPN daemon",
+		"title": "[FortiOS] stack buffer overflow in the processing of FortiClient filename names requested by SSL VPN clients from the web portal",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-083",
-					"description": "Stack-based buffer overflow in SSL VPN daemon"
+					"description": "[FortiOS] stack buffer overflow in the processing of FortiClient filename names requested by SSL VPN clients from the web portal"
 				}
 			]
 		},
@@ -106,7 +106,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.4",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

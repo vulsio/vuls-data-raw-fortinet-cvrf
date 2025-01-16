@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS DoS on webUI through 'params' JSON parameter",
+	"document_title": "Fortinet 5.4.1 httpsd sigsegv on  'params'@/json",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Denial of Service (DoS)\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Cody ( https://code610.blogspot.com ) for reporting this vulnerability under responsible disclosure"
+				"description": "Fortinet is pleased to thank Cody (https://code610.blogspot.com) for reporting this vulnerability under responsible disclosure"
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS DoS on webUI through 'params' JSON parameter",
+		"title": "Fortinet 5.4.1 httpsd sigsegv on  'params'@/json",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-206",
-					"description": "FortiOS DoS on webUI through 'params' JSON parameter"
+					"description": "Fortinet 5.4.1 httpsd sigsegv on  'params'@/json"
 				}
 			]
 		},
@@ -87,7 +87,8 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "0"
+				"base_score_v3": "6.0",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:X/RC:X"
 			}
 		}
 	},

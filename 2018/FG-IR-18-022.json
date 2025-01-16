@@ -1,5 +1,5 @@
 {
-	"document_title": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer and FortiManager",
+	"document_title": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Open redirection\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer and FortiManager",
+		"title": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-022",
-					"description": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer and FortiManager"
+					"description": "OpenRedirect in Malicious Generated PDF Document on FortiAnalyzer"
 				}
 			]
 		},

@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            Privilege escalation\n        ",
+				"text": "\n            Escalation of privilege\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
@@ -59,7 +59,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Zhipeng Huo from Tencent Technology Company Limited for reporting thisÂ vulnerability under responsible disclosure."
+				"description": "Fortinet is pleased to thank Zhipeng Huo from Tencent Technology Company Limited for reporting this vulnerability under responsible disclosure."
 			}
 		]
 	},

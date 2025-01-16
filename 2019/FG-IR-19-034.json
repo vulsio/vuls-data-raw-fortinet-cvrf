@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS reflected XSS in the SSL VPN web portal error page parameters",
+	"document_title": "Reflect XSS through SSL VPN web portal URL param parameter on error page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -53,19 +53,19 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Aaron Hall from Verizon Media Group (Oath) for reporting CVE-2019-5586Â and Nathan HARDY Cybersecurity Engineer/Consultant at Sogeti Luxembourg for reporting CVE-2019-5588 under responsible disclosures."
+				"description": "Fortinet is pleased to thank Aaron Hall from Verizon Media Group (Oath) for reporting CVE-2019-5586 and Nathan HARDY Cybersecurity Engineer/Consultant at Sogeti Luxembourg for reporting CVE-2019-5588 under responsible disclosures."
 			}
 		]
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS reflected XSS in the SSL VPN web portal error page parameters",
+		"title": "Reflect XSS through SSL VPN web portal URL param parameter on error page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-034",
-					"description": "FortiOS reflected XSS in the SSL VPN web portal error page parameters"
+					"description": "Reflect XSS through SSL VPN web portal URL param parameter on error page"
 				}
 			]
 		},

@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            When a low privileged user uploads images in the report section, the filenames are notÂ properly sanitized; this potentially enables stored XSS attacks.\n        ",
+				"text": "\n            When a low privileged user uploads images in the report section, the filenames are notÃ‚Â properly sanitized; this potentially enables stored XSS attacks.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to:FortiManager/FortiAnalyzerÂ 5.4.0 and above5.2.6 and above\n        ",
+				"text": "\n            Upgrade to:FortiManager/FortiAnalyzerÃ‚Â 5.4.0 and above5.2.6 and above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,7 +53,7 @@
 	"acknowledgments": {
 		"acknowledgment": [
 			{
-				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Â"
+				"description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Ã‚Â"
 			}
 		]
 	},

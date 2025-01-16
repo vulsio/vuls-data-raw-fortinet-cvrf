@@ -92,7 +92,7 @@
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "4",
+				"base_score_v3": "4.0",
 				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:P/RL:U/RC:R"
 			}
 		}

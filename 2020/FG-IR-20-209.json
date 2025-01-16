@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSandbox - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+	"document_title": "Cross-site scripting in FSA due to unsafe use of templating functions",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,19 +30,19 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            XSS\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiSandbox 3.2.2 and below.FortiSandbox 3.1.4 and below.\n        ",
+				"text": "\n            FortiSandbox 3.2.1 and below.FortiSandbox 3.1.4 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to version 4.0.0Â or above. Upgrade to version 3.2.3 or above.\n        ",
+				"text": "\n            Upgrade to version 4.0.0 or above.Upgrade to version 3.2.3 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSandbox - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+		"title": "Cross-site scripting in FSA due to unsafe use of templating functions",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-209",
-					"description": "FortiSandbox - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+					"description": "Cross-site scripting in FSA due to unsafe use of templating functions"
 				}
 			]
 		},

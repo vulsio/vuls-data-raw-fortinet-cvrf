@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiSwitch multiple XSS vulnerabilities in the jQuery library",
+	"document_title": "3rd party component upgrade required for security reasons: jQuery 4 new CVEs disclosed on Jan 18, 2018 (latest release v1.12.4/v2.2.4/v3.3.1)",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,25 +24,25 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            FortiSwitch is vulnerable to multiple Cross-site Scripting (XSS) attacks present in the jQuery javascript libraryCVE-2015-9251:jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.CVE-2012-6708:jQuery before 1.9.0 is vulnerable to Cross-site Scripting (XSS) attacks. The jQuery(strInput) function does not differentiate selectors from HTML in a reliable fashion. In vulnerable versions, jQuery determined whether the input was HTML by looking for the '\n        ",
+				"text": "\n            FortiSwitch is vulnerable to multiple Cross-site Scripting (XSS) attacks present in the jQuery javascript libraryCVE-2015-9251:jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.CVE-2012-6708:jQuery before 1.9.0 is vulnerable to Cross-site Scripting (XSS) attacks. The jQuery(strInput) function does not differentiate selectors from HTML in a reliable fashion. In vulnerable versions, jQuery determined whether the input was HTML by looking for the '<' character anywhere in the string, giving attackers more flexibility when attempting to construct a malicious payload. In fixed versions, jQuery only deems the input to be HTML if it explicitly starts with the '<' character, limiting exploitability only to attackers who can control the beginning of a string, which is far less common.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 CVE-2015-9251 FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below. CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 CVE-2012-6708 FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below. FortiSwitch 3.6.8 and below.\n        ",
+				"text": "\n            CVE-2015-9251FortiSwitch 6.0.0 to 6.0.1, 3.6.8 and below.CVE-2012-6708FortiSwitch 3.6.8 and below.\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9 Upgrade to 6.0.2 or 3.6.9\n        ",
+				"text": "\n            Upgrade to 6.0.2 or 3.6.9\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -53,34 +53,45 @@
 	"acknowledgments": {},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiSwitch multiple XSS vulnerabilities in the jQuery library",
+		"title": "3rd party component upgrade required for security reasons: jQuery 4 new CVEs disclosed on Jan 18, 2018 (latest release v1.12.4/v2.2.4/v3.3.1)",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-013",
-					"description": "FortiSwitch multiple XSS vulnerabilities in the jQuery library"
+					"description": "3rd party component upgrade required for security reasons: jQuery 4 new CVEs disclosed on Jan 18, 2018 (latest release v1.12.4/v2.2.4/v3.3.1)"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2015-9251",
-			"CVE-2012-6708"
+			"CVE-2012-6708",
+			"CVE-2015-9251"
 		],
 		"product_statuses": {
 			"status": {
 				"type": "Known Affected",
 				"product_id": [
+					"FortiAP-5.6.3",
+					"FortiAP-S-5.6.2",
+					"FortiAP-W2-5.6.2",
+					"FortiClientWindows-6.0.0",
+					"FortiMail-6.0.0",
+					"FortiMail-5.4.5",
+					"FortiManager-5.6.3",
+					"FortiOS-6.0.1",
+					"FortiPortal-4.2.2",
+					"FortiSIEM-5.2.8",
 					"FortiSwitch-6.0.2",
 					"FortiSwitch-6.0.1",
-					"FortiSwitch-3.6.8"
+					"FortiSwitch-3.6.8",
+					"FortiWeb-6.0.1"
 				]
 			}
 		},
 		"cvss_scoresets": {
 			"scoreset_v3": {
-				"base_score_v3": "4.7",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"base_score_v3": "4.9",
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},
@@ -89,6 +100,140 @@
 			"name": "Fortinet",
 			"type": "Vendor",
 			"branch": [
+				{
+					"name": "FortiAP",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP 5.6.3",
+								"product_id": "FortiAP-5.6.3"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-S",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-S 5.6.2",
+								"product_id": "FortiAP-S-5.6.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiAP-W2",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAP-W2 5.6.2",
+								"product_id": "FortiAP-W2-5.6.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiClientWindows",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientWindows 6.0.0",
+								"product_id": "FortiClientWindows-6.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiMail",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 6.0.0",
+								"product_id": "FortiMail-6.0.0"
+							}
+						},
+						{
+							"name": "5.4.5",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiMail 5.4.5",
+								"product_id": "FortiMail-5.4.5"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiManager",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.6.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiManager 5.6.3",
+								"product_id": "FortiManager-5.6.3"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiOS",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiOS 6.0.1",
+								"product_id": "FortiOS-6.0.1"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiPortal",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "4.2.2",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiPortal 4.2.2",
+								"product_id": "FortiPortal-4.2.2"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSIEM",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "5.2.8",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSIEM 5.2.8",
+								"product_id": "FortiSIEM-5.2.8"
+							}
+						}
+					]
+				},
 				{
 					"name": "FortiSwitch",
 					"type": "Product Name",
@@ -115,6 +260,20 @@
 							"full_product_name": {
 								"text": "FortiSwitch 3.6.8",
 								"product_id": "FortiSwitch-3.6.8"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiWeb",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "6.0.1",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiWeb 6.0.1",
+								"product_id": "FortiWeb-6.0.1"
 							}
 						}
 					]

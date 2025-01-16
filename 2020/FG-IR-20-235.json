@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiProxy SSL-VPN Improper Access Control vulnerability through the Quick connection functionality",
+	"document_title": "[FortiProxy] SSL-VPN Portal Internal Service Access",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,7 +30,7 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Improper Access Control\n        ",
+				"text": "\n            Improper access control\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Please upgrade to FortiProxy versions 2.0.1 or above. Please upgrade to FortiProxy versions 1.2.10 or above.\n        ",
+				"text": "\n            Please upgrade to FortiProxy versions 2.0.1 or above.Please upgrade to FortiProxy versions 1.2.10 or above.\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "4"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiProxy SSL-VPN Improper Access Control vulnerability through the Quick connection functionality",
+		"title": "[FortiProxy] SSL-VPN Portal Internal Service Access",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-235",
-					"description": "FortiProxy SSL-VPN Improper Access Control vulnerability through the Quick connection functionality"
+					"description": "[FortiProxy] SSL-VPN Portal Internal Service Access"
 				}
 			]
 		},

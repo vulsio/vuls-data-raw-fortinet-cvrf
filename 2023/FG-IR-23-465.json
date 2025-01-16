@@ -40,6 +40,12 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
+			},
+			{
+				"text": "\n            \n        ",
+				"title": "Affected Products",
+				"type": "General",
+				"ordinal": "4"
 			}
 		]
 	},
@@ -75,6 +81,7 @@
 					"FortiAuthenticator-6.5.2",
 					"FortiAuthenticator-6.5.1",
 					"FortiAuthenticator-6.5.0",
+					"FortiAuthenticator-6.4.10",
 					"FortiAuthenticator-6.4.9",
 					"FortiAuthenticator-6.4.8",
 					"FortiAuthenticator-6.4.7",
@@ -142,6 +149,14 @@
 							"full_product_name": {
 								"text": "FortiAuthenticator 6.5.0",
 								"product_id": "FortiAuthenticator-6.5.0"
+							}
+						},
+						{
+							"name": "6.4.10",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiAuthenticator 6.4.10",
+								"product_id": "FortiAuthenticator-6.4.10"
 							}
 						},
 						{

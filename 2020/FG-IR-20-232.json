@@ -1,5 +1,5 @@
 {
-	"document_title": "Buffer overflow vulnerability in FortiProxy SSL VPN through a crafted POST request",
+	"document_title": "[FortiProxy] Buffer overflow in SSL VPN through a crafted POST request",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -30,13 +30,13 @@
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            denial of service\n        ",
+				"text": "\n            Denial of service\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiProxy versions 2.0.0 FortiProxy versions 1.2.8 and below. FortiProxy versions 1.1 all versions FortiProxy versions 1.0 all versions\n        ",
+				"text": "\n            FortiProxy versions 2.0.0FortiProxy versions 1.2.8 and below.FortiProxy versions 1.1 all versionsFortiProxy versions 1.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Buffer overflow vulnerability in FortiProxy SSL VPN through a crafted POST request",
+		"title": "[FortiProxy] Buffer overflow in SSL VPN through a crafted POST request",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-232",
-					"description": "Buffer overflow vulnerability in FortiProxy SSL VPN through a crafted POST request"
+					"description": "[FortiProxy] Buffer overflow in SSL VPN through a crafted POST request"
 				}
 			]
 		},

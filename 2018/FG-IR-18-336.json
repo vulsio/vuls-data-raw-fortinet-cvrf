@@ -36,7 +36,7 @@
 				"ordinal": "2"
 			},
 			{
-				"text": "\n            FortiAP - not affectedFortiAnalyzer - not affectedFortiOSÂ - not affectedFortiSwitch - not affectedFortiMail - not affected FortiManager - not affectedFortiWeb - not affected\n        ",
+				"text": "\n            FortiAP - not affectedFortiAnalyzer - not affectedFortiOS - not affectedFortiSwitch - not affectedFortiMail - not affected FortiManager - not affectedFortiWeb - not affected\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "3"
@@ -50,8 +50,8 @@
 				"description": "CVE-2018-10933 libssh authentication bypass"
 			},
 			{
-				"url": "www.libssh.org/security/advisories/CVE-2018-10933.txt",
-				"description": "www.libssh.org/security/advisories/CVE-2018-10933.txt"
+				"url": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt",
+				"description": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt"
 			}
 		]
 	},
@@ -67,8 +67,8 @@
 					"description": "CVE-2018-10933 libssh authentication bypass"
 				},
 				{
-					"url": "www.libssh.org/security/advisories/CVE-2018-10933.txt",
-					"description": "www.libssh.org/security/advisories/CVE-2018-10933.txt"
+					"url": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt",
+					"description": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt"
 				}
 			]
 		},

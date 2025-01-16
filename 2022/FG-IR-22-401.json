@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.2.0 through 7.2.3 FortiOS version 7.0.0 through 7.0.8 FortiOS version 6.4.0 through 6.4.11 FortiOS version 6.2.0 through 6.2.12 FortiProxy version 7.2.0 through 7.2.1 FortiProxy version 7.0.0 through 7.0.7 FortiProxy version 2.0.0 through 2.0.11 FortiProxy 1.2 all versions FortiProxy 1.1 all versions Note: Impact on FortiProxy 7.0.x, 2.0.x, 1.2.x, 1.1.x is minor as it does not have VDOMs\n        ",
+				"text": "\n            FortiOS version 7.2.0 through 7.2.3FortiOS version 7.0.0 through 7.0.8FortiOS version 6.4.0 through 6.4.11FortiOS version 6.2.0 through 6.2.12FortiProxy version 7.2.0 through 7.2.1FortiProxy version 7.0.0 through 7.0.7FortiProxy version 2.0.0 through 2.0.11FortiProxy 1.2 all versionsFortiProxy 1.1 all versionsNote: Impact on FortiProxy 7.0.x, 2.0.x, 1.2.x, 1.1.x is minor as it does not have VDOMs\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiProxy version 7.2.2 or above Please upgrade to FortiProxy version 7.0.8 or above Please upgrade to FortiProxy version 2.0.12 or above Please upgrade to FortiOS version 7.2.4 or above Please upgrade to FortiOS version 7.0.9 or above Please upgrade to FortiOS version 6.4.12 or above Please upgrade to FortiOS version 6.2.13 or above\n        ",
+				"text": "\n            Please upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or abovePlease upgrade to FortiProxy version 2.0.12 or abovePlease upgrade to FortiOS version 7.2.4 or abovePlease upgrade to FortiOS version 7.0.9 or abovePlease upgrade to FortiOS version 6.4.12 or abovePlease upgrade to FortiOS version 6.2.13 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

@@ -1,5 +1,5 @@
 {
-	"document_title": "Format String Vulnerability in SSH username",
+	"document_title": "FortiOS 5.6.0 - Format String Vulnerability in SSH username",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Format String Vulnerability in SSH username",
+		"title": "FortiOS 5.6.0 - Format String Vulnerability in SSH username",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-18-018",
-					"description": "Format String Vulnerability in SSH username"
+					"description": "FortiOS 5.6.0 - Format String Vulnerability in SSH username"
 				}
 			]
 		},
@@ -83,7 +83,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "7.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
 			}
 		}
 	},

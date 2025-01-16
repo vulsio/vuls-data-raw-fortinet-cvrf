@@ -1,5 +1,5 @@
 {
-	"document_title": "XSS vulnerability in FortiAuthenticator OWA Agent",
+	"document_title": "FAC OWA injection vulnerability on login page",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "XSS vulnerability in FortiAuthenticator OWA Agent",
+		"title": "FAC OWA injection vulnerability on login page",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-19-104",
-					"description": "XSS vulnerability in FortiAuthenticator OWA Agent"
+					"description": "FAC OWA injection vulnerability on login page"
 				}
 			]
 		},

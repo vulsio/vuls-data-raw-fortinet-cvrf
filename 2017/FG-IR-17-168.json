@@ -1,5 +1,5 @@
 {
-	"document_title": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page",
+	"document_title": "Reflected XSS in Web Proxy Disclaimer Response webpage due proxy URL not been sanitized",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -24,13 +24,13 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A reflected XSS vulnerability exists in FortiOS web proxy disclaimer response web pages, potentiallyÂ exploitable by an unauthenticated attacker, via sending a maliciously crafted URL to the victim. The victim visiting the malicious URL would then have arbitrary javascript code executed in the security context of her/his browser.\n        ",
+				"text": "\n            A reflected XSS vulnerability exists in FortiOS web proxy disclaimer response web pages, potentially exploitable by an unauthenticated attacker, via sending a maliciously crafted URL to the victim. The victim visiting the malicious URL would then have arbitrary javascript code executed in the security context of her/his browser.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
 			},
 			{
-				"text": "\n            Cross-site Scripting (XSS)\n        ",
+				"text": "\n            Execute unauthorized code or commands\n        ",
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "2"
@@ -59,13 +59,13 @@
 	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page",
+		"title": "Reflected XSS in Web Proxy Disclaimer Response webpage due proxy URL not been sanitized",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-17-168",
-					"description": "FortiOS Reflected XSS in Web Proxy Disclaimer Response web page"
+					"description": "Reflected XSS in Web Proxy Disclaimer Response webpage due proxy URL not been sanitized"
 				}
 			]
 		},
@@ -101,7 +101,7 @@
 		"cvss_scoresets": {
 			"scoreset_v3": {
 				"base_score_v3": "5.3",
-				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+				"vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
 			}
 		}
 	},
