@@ -1,0 +1,148 @@
+{
+	"document_title": "Improper Authentication in FortiMonitor Agent",
+	"document_type": "Fortinet PSIRT Advisories",
+	"documentpublisher": {
+		"type": "Vendor",
+		"contact_details": "\n            Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact\n        "
+	},
+	"documenttracking": {
+		"identification": {
+			"id": "FG-IR-24-300"
+		},
+		"status": "Final",
+		"version": "1",
+		"revisionhistory": {
+			"revision": {
+				"number": "1",
+				"date": "2025-02-11T00:00:00",
+				"description": "Current version"
+			}
+		},
+		"initial_release_date": "2025-02-11T00:00:00",
+		"current_release_date": "2025-02-11T00:00:00"
+	},
+	"documentnotes": {
+		"note": [
+			{
+				"text": "\n            An Improper Authentication vulnerability [CWE-287] for FortiClientMac may allow an unauthenticated attacker with local access to the MacOS device to login without a password as a standard user.\n        ",
+				"title": "Summary",
+				"type": "Summary",
+				"ordinal": "1"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Description",
+				"type": "General",
+				"ordinal": "2"
+			},
+			{
+				"text": "\n            Improper access control\n        ",
+				"title": "Impact",
+				"type": "General",
+				"ordinal": "3"
+			},
+			{
+				"text": "\n            None\n        ",
+				"title": "Solutions",
+				"type": "General",
+				"ordinal": "4"
+			}
+		]
+	},
+	"document_references": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Internally discovered and reported by Abdul Majid Mohammed of Fortinet QA team."
+			}
+		]
+	},
+	"vulnerability": {
+		"ordinal": "1",
+		"title": "Improper Authentication in FortiMonitor Agent",
+		"references": {
+			"type": "Self",
+			"reference": [
+				{
+					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-300",
+					"description": "Improper Authentication in FortiMonitor Agent"
+				}
+			]
+		},
+		"cve": [
+			"CVE-2024-52968"
+		],
+		"product_statuses": {
+			"status": {
+				"type": "Known Affected",
+				"product_id": [
+					"FortiClientMac-7.4.0",
+					"FortiClientMac-7.2.4",
+					"FortiClientMac-7.2.3",
+					"FortiClientMac-7.0.12",
+					"FortiClientMac-7.0.11"
+				]
+			}
+		},
+		"cvss_scoresets": {
+			"scoreset_v3": {
+				"base_score_v3": "5.8",
+				"vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:R"
+			}
+		}
+	},
+	"product_tree": {
+		"branch": {
+			"name": "Fortinet",
+			"type": "Vendor",
+			"branch": [
+				{
+					"name": "FortiClientMac",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "7.4.0",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.4.0",
+								"product_id": "FortiClientMac-7.4.0"
+							}
+						},
+						{
+							"name": "7.2.4",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.4",
+								"product_id": "FortiClientMac-7.2.4"
+							}
+						},
+						{
+							"name": "7.2.3",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.2.3",
+								"product_id": "FortiClientMac-7.2.3"
+							}
+						},
+						{
+							"name": "7.0.12",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.12",
+								"product_id": "FortiClientMac-7.0.12"
+							}
+						},
+						{
+							"name": "7.0.11",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiClientMac 7.0.11",
+								"product_id": "FortiClientMac-7.0.11"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
