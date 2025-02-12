@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiSIEM version 7.1.0 through 7.1.1FortiSIEM version 7.0.0 through 7.0.2FortiSIEM version 6.7.0 through 6.7.8FortiSIEM version 6.6.0 through 6.6.3FortiSIEM version 6.5.0 through 6.5.2FortiSIEM version 6.4.0 through 6.4.3\n        ",
+				"text": "\n            FortiSIEM 7.3 all versions are not affectedFortiSIEM 7.2 all versions are not affectedFortiSIEM version 7.1.0 through 7.1.1FortiSIEM version 7.0.0 through 7.0.2FortiSIEM version 6.7.0 through 6.7.8FortiSIEM version 6.6.0 through 6.6.3FortiSIEM version 6.5.0 through 6.5.2FortiSIEM version 6.4.0 through 6.4.3FortiSIEM 6.3 all versions are not affectedFortiSIEM 6.2 all versions are not affectedFortiSIEM 6.1 all versions are not affectedFortiSIEM 5.4 all versions are not affected\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiSIEM version 7.1.2 or above Please upgrade to FortiSIEM version 7.0.3 or abovePlease upgrade to FortiSIEM version 6.7.9 or abovePlease upgrade to FortiSIEM version 6.6.4 or above Please upgrade to FortiSIEM version 6.5.3 or above Please upgrade to FortiSIEM version 6.4.4 or above Please upgrade to upcoming FortiSIEM version 7.2.0 or above\n        ",
+				"text": "\n            Please upgrade to FortiSIEM version 7.1.2 or above Please upgrade to FortiSIEM version 7.0.3 or abovePlease upgrade to FortiSIEM version 6.7.9 or abovePlease upgrade to FortiSIEM version 6.6.4 or abovePlease upgrade to FortiSIEM version 6.5.3 or abovePlease upgrade to FortiSIEM version 6.4.4 or abovePlease upgrade to upcoming FortiSIEM version 7.2.0 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

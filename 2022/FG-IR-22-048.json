@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiExtender version 7.0.0 through 7.0.3FortiExtender 5.3 all versionsFortiExtender version 4.2.0 through 4.2.4FortiExtender version 4.1.1 through 4.1.8FortiExtender version 4.0.0 through 4.0.2FortiExtender version 3.3.0 through 3.3.2FortiExtender version 3.2.1 through 3.2.3FortiExtender 3.1 all versionsFortiExtender 3.0 all versions\n        ",
+				"text": "\n            FortiExtender 7.6 all versions are not affectedFortiExtender 7.4 all versions are not affectedFortiExtender 7.2 all versions are not affectedFortiExtender version 7.0.0 through 7.0.3FortiExtender 5.3 all versionsFortiExtender version 4.2.0 through 4.2.4FortiExtender version 4.1.1 through 4.1.8FortiExtender version 4.0.0 through 4.0.2FortiExtender version 3.3.0 through 3.3.2FortiExtender version 3.2.1 through 3.2.3FortiExtender 3.1 all versionsFortiExtender 3.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

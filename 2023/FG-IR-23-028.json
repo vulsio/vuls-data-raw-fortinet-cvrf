@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An insufficient session expiration [CWE-613] vulnerability in FortiOS REST API may allow an attacker to keep a secure websocket session active after user deletion. ## Workaround:Restrict hosts that can connect to the websocket to trusted ones only, with the trusted host feature.\n        ",
+				"text": "\n            An insufficient session expiration [CWE-613] vulnerability in FortiOS REST API may allow an attacker to keep a secure websocket session active after user deletion.Workaround:Restrict hosts that can connect to the websocket to trusted ones only, with the trusted host feature.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

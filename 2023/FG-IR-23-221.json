@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.4.0FortiManager version 7.2.0 through 7.2.3FortiManager version 7.0.0 through 7.0.9FortiManager 6.4 all versionsFortiManager 6.2 all versionsFortiAnalyzer-BigData version 7.2.0 through 7.2.5FortiAnalyzer-BigData 7.0 all versionsFortiAnalyzer-BigData 6.4 all versionsFortiAnalyzer-BigData 6.2 all versionsFortiAnalyzer version 7.4.0FortiAnalyzer version 7.2.0 through 7.2.3FortiAnalyzer version 7.0.0 through 7.0.9FortiAnalyzer 6.4 all versionsFortiAnalyzer 6.2 all versions\n        ",
+				"text": "\n            FortiManager 7.6 all versions are not affectedFortiManager version 7.4.0FortiManager version 7.2.0 through 7.2.3FortiManager version 7.0.0 through 7.0.9FortiManager 6.4 all versionsFortiManager 6.2 all versionsFortiAnalyzer-BigData 7.4 all versions are not affectedFortiAnalyzer-BigData version 7.2.0 through 7.2.5FortiAnalyzer-BigData 7.0 all versionsFortiAnalyzer-BigData 6.4 all versionsFortiAnalyzer-BigData 6.2 all versionsFortiAnalyzer 7.6 all versions are not affectedFortiAnalyzer version 7.4.0FortiAnalyzer version 7.2.0 through 7.2.3FortiAnalyzer version 7.0.0 through 7.0.9FortiAnalyzer 6.4 all versionsFortiAnalyzer 6.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

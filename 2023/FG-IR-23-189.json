@@ -40,12 +40,6 @@
 				"title": "Impact",
 				"type": "General",
 				"ordinal": "3"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer-BigData version 7.4.0 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.9 or above Please upgrade to FortiManager version 6.4.13 or above Please upgrade to FortiManager version 6.2.12 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "4"
 			}
 		]
 	},

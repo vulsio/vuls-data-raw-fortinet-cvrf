@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiDeceptor version 5.0.0FortiDeceptor 4.3 all versionsFortiDeceptor 4.2 all versionsFortiDeceptor 4.1 all versionsFortiDeceptor 4.0 all versionsFortiDeceptor 3.3 all versionsFortiDeceptor 3.2 all versionsFortiDeceptor 3.1 all versionsFortiDeceptor 3.0 all versionsFortiSandbox 4.0 all versionsFortiSandbox 3.2 all versions\n        ",
+				"text": "\n            FortiDeceptor 24 all versions are not affectedFortiDeceptor 6.0 all versions are not affectedFortiDeceptor 5.3 all versions are not affectedFortiDeceptor 5.2 all versions are not affectedFortiDeceptor 5.1 all versions are not affectedFortiDeceptor version 5.0.0FortiDeceptor 4.3 all versionsFortiDeceptor 4.2 all versionsFortiDeceptor 4.1 all versionsFortiDeceptor 4.0 all versionsFortiDeceptor 3.3 all versionsFortiDeceptor 3.2 all versionsFortiDeceptor 3.1 all versionsFortiDeceptor 3.0 all versionsFortiSandbox 5.0 all versions are not affectedFortiSandbox 4.4 all versions are not affectedFortiSandbox 4.2 all versions are not affectedFortiSandbox 4.0 all versionsFortiSandbox 3.2 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
@@ -102,6 +102,7 @@
 					"FortiDeceptor-3.0.2",
 					"FortiDeceptor-3.0.1",
 					"FortiDeceptor-3.0.0",
+					"FortiSandbox-4.0.6",
 					"FortiSandbox-4.0.5",
 					"FortiSandbox-4.0.4",
 					"FortiSandbox-4.0.3",
@@ -298,6 +299,14 @@
 					"name": "FortiSandbox",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "4.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.6",
+								"product_id": "FortiSandbox-4.0.6"
+							}
+						},
 						{
 							"name": "4.0.5",
 							"type": "Product Version",

@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.4.0 through 6.4.2FortiWeb version 6.3.6 through 6.3.18\n        ",
+				"text": "\n            FortiWeb 7.6 all versions are not affectedFortiWeb 7.4 all versions are not affectedFortiWeb 7.2 all versions are not affectedFortiWeb version 7.0.0 through 7.0.1FortiWeb version 6.4.0 through 6.4.2FortiWeb version 6.3.6 through 6.3.18\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

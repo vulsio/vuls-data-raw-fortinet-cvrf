@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests. ## Workaround:Disable SSL-VPN.\n        ",
+				"text": "\n            A heap-based buffer overflow vulnerability [CWE-122] in FortiOS and FortiProxy SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.Workaround:Disable SSL-VPN.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

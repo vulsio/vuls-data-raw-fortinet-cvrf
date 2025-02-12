@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiPresence version 1.2.0 through 1.2.1FortiPresence 1.1 all versionsFortiPresence 1.0 all versions\n        ",
+				"text": "\n            FortiPresence 3.0 all versions are not affectedFortiPresence 2.0 all versions are not affectedFortiPresence version 1.2.0 through 1.2.1FortiPresence 1.1 all versionsFortiPresence 1.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

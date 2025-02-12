@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiADC version 6.2.0 through 6.2.3FortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versionsFortiADC 5.0 all versions\n        ",
+				"text": "\n            At leastFortiADC 7.6 all versions are not affectedFortiADC 7.4 all versions are not affectedFortiADC 7.2 all versions are not affectedFortiADC 7.1 all versions are not affectedFortiADC 7.0 all versions are not affectedFortiADC version 6.2.0 through 6.2.3FortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versionsFortiADC 5.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

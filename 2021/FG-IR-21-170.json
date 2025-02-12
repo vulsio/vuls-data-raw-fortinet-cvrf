@@ -100,6 +100,7 @@
 					"FortiDeceptor-3.0.2",
 					"FortiDeceptor-3.0.1",
 					"FortiDeceptor-3.0.0",
+					"FortiSandbox-4.0.6",
 					"FortiSandbox-4.0.5",
 					"FortiSandbox-4.0.4",
 					"FortiSandbox-4.0.3",
@@ -286,6 +287,14 @@
 					"name": "FortiSandbox",
 					"type": "Product Name",
 					"branch": [
+						{
+							"name": "4.0.6",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSandbox 4.0.6",
+								"product_id": "FortiSandbox-4.0.6"
+							}
+						},
 						{
 							"name": "4.0.5",
 							"type": "Product Version",

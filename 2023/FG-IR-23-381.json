@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiClientWindows version 7.2.0 through 7.2.1FortiClientWindows version 7.0.0 through 7.0.9FortiClientWindows 6.4 all versionsFortiClientLinux 7.2.0 through 7.2.4FortiClientLinux 7.0 all versionsFortiClientLinux 6.4 all versionsFortiClientMac 7.2.0 through 7.2.4FortiClientMac 7.0 all versionsFortiClientMac 6.4 all versionsFortiClientEMS version 7.2.0 through 7.2.1FortiClientEMS version 7.0.0 through 7.0.9FortiClientEMS 6.4 all versionsFortiSOAR version 7.4.0 through 7.4.1 Security Patch 2FortiSOAR version 7.3.0 through 7.3.2 Security Patch 3FortiSOAR version 7.2.0 through 7.2.2 Security Patch 8FortiSOAR 7.0 all versionsFortiSOAR 6.4 all versions\n        ",
+				"text": "\n            FortiClientWindows version 7.2.0 through 7.2.2FortiClientWindows version 7.0.0 through 7.0.9FortiClientWindows 6.4 all versionsFortiClientLinux 7.2.0 through 7.2.4FortiClientLinux 7.0 all versionsFortiClientLinux 6.4 all versionsFortiClientMac 7.2.0 through 7.2.4FortiClientMac 7.0 all versionsFortiClientMac 6.4 all versionsFortiClientEMS version 7.2.0 through 7.2.1FortiClientEMS version 7.0.0 through 7.0.9FortiClientEMS 6.4 all versionsFortiSOAR version 7.4.0 through 7.4.1 Security Patch 2FortiSOAR version 7.3.0 through 7.3.2 Security Patch 3FortiSOAR version 7.2.0 through 7.2.2 Security Patch 8FortiSOAR 7.0 all versionsFortiSOAR 6.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

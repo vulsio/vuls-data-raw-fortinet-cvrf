@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiAnalyzer version 7.0.0 through 7.0.3FortiAnalyzer version 6.4.0 through 6.4.7FortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versionsAt leastFortiManager version 7.0.0 through 7.0.3FortiManager version 6.4.0 through 6.4.7FortiManager 6.2 all versionsFortiManager 6.0 all versions\n        ",
+				"text": "\n            At leastFortiAnalyzer 7.6 all versions are not affectedFortiAnalyzer 7.4 all versions are not affectedFortiAnalyzer 7.2 all versions are not affectedFortiAnalyzer version 7.0.0 through 7.0.3FortiAnalyzer version 6.4.0 through 6.4.7FortiAnalyzer 6.2 all versionsFortiAnalyzer 6.0 all versionsAt leastFortiManager 7.6 all versions are not affectedFortiManager 7.4 all versions are not affectedFortiManager 7.2 all versions are not affectedFortiManager version 7.0.0 through 7.0.3FortiManager version 6.4.0 through 6.4.7FortiManager 6.2 all versionsFortiManager 6.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiManager version 7.0.0 through 7.0.1FortiManager version 6.4.0 through 6.4.7FortiManager version 6.2.0 through 6.2.8\n        ",
+				"text": "\n            At leastFortiManager 7.6 all versions are not affectedFortiManager 7.4 all versions are not affectedFortiManager 7.2 all versions are not affectedFortiManager version 7.0.0 through 7.0.1FortiManager version 6.4.0 through 6.4.7FortiManager version 6.2.0 through 6.2.8\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

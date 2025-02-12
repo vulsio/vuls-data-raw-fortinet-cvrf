@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            At leastFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versionsFortiSIEM 5.2 all versionsFortiSIEM 5.1 all versionsFortiSIEM 5.0 all versions\n        ",
+				"text": "\n            At leastFortiSIEM 7.3 all versions are not affectedFortiSIEM 7.2 all versions are not affectedFortiSIEM 7.1 all versions are not affectedFortiSIEM 7.0 all versions are not affectedFortiSIEM 6.7 all versions are not affectedFortiSIEM 6.6 all versions are not affectedFortiSIEM 6.5 all versions are not affectedFortiSIEM 6.4 all versionsFortiSIEM 6.3 all versionsFortiSIEM 6.2 all versionsFortiSIEM 6.1 all versionsFortiSIEM 5.4 all versionsFortiSIEM 5.3 all versionsFortiSIEM 5.2 all versionsFortiSIEM 5.1 all versionsFortiSIEM 5.0 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

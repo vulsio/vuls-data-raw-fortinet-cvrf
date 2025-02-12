@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An Improper Control of Generation of Code ('Code Injection') vulnerability [CWE-94] in FortiClientLinux may allow## an unauthenticated attacker to execute arbitrary code via tricking a FortiClientLinux user into visiting a malicious website.\n        ",
+				"text": "\n            An Improper Control of Generation of Code ('Code Injection') vulnerability [CWE-94] in FortiClientLinux may allow an unauthenticated attacker to execute arbitrary code via tricking a FortiClientLinux user into visiting a malicious website.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

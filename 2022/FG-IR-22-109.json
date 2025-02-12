@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiAP-U version 6.2.0 through 6.2.3FortiAP-U 6.0 all versionsFortiAP-U 5.4 all versions\n        ",
+				"text": "\n            FortiAP-U 7.0 all versions are not affectedFortiAP-U version 6.2.0 through 6.2.3FortiAP-U 6.0 all versionsFortiAP-U 5.4 all versions\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

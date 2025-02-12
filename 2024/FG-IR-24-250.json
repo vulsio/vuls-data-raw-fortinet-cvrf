@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2025-01-14T00:00:00",
-		"current_release_date": "2025-01-14T00:00:00"
+		"current_release_date": "2025-01-30T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -82,8 +82,6 @@
 					"FortiOS-7.4.2",
 					"FortiOS-7.4.1",
 					"FortiOS-7.4.0",
-					"FortiOS-7.2.10",
-					"FortiOS-7.2.9",
 					"FortiOS-7.2.8",
 					"FortiOS-7.2.7",
 					"FortiOS-7.2.6",
@@ -192,22 +190,6 @@
 							"full_product_name": {
 								"text": "FortiOS 7.4.0",
 								"product_id": "FortiOS-7.4.0"
-							}
-						},
-						{
-							"name": "7.2.10",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 7.2.10",
-								"product_id": "FortiOS-7.2.10"
-							}
-						},
-						{
-							"name": "7.2.9",
-							"type": "Product Version",
-							"full_product_name": {
-								"text": "FortiOS 7.2.9",
-								"product_id": "FortiOS-7.2.9"
 							}
 						},
 						{

@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiNAC version 9.4.0FortiNAC version 9.2.0 through 9.2.5FortiNAC version 9.1.0 through 9.1.7FortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versions\n        ",
+				"text": "\n            FortiNAC version 9.4.0FortiNAC version 9.2.0 through 9.2.5FortiNAC version 9.1.0 through 9.1.7FortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versionsFortiNAC 7.2 all versions are not affected\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

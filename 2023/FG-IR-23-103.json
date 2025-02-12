@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2024-03-12T00:00:00",
-		"current_release_date": "2024-02-22T00:00:00"
+		"current_release_date": "2025-01-27T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -42,16 +42,10 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiManager version 7.4.0FortiManager version 7.2.0 through 7.2.3FortiManager version 7.0.0 through 7.0.10FortiManager version 6.4.0 through 6.4.13FortiManager 6.2 all versions\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiManager version 7.4.1 or abovePlease upgrade to FortiManager version 7.2.4 or abovePlease upgrade to FortiManager version 7.0.11 or abovePlease upgrade to FortiManager version 6.4.14 or above\n        ",
+				"text": "\n            None\n        ",
 				"title": "Solutions",
 				"type": "General",
-				"ordinal": "5"
+				"ordinal": "4"
 			}
 		]
 	},

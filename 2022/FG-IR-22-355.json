@@ -24,7 +24,7 @@
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            A missing authentication for critical function vulnerability [CWE-306] in FortiPresence on-prem infrastructure server may allow a remote, unauthenticated attacker to access the Redis and MongoDB instances via crafted authentication requests. Note: The amount of deployed on-prem instances is minimal. The Cloud instances of FortiPresence are not impacted.\n        ",
+				"text": "\n            A missing authentication for critical function vulnerability [CWE-306] in FortiPresence on-prem infrastructure server may allow a remote, unauthenticated attacker to access the Redis and MongoDB instances via crafted authentication requests.Note: The amount of deployed on-prem instances is minimal. The Cloud instances of FortiPresence are not impacted.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"

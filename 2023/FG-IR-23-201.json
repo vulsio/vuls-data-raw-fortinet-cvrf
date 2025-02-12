@@ -46,12 +46,6 @@
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiAnalyzer-BigData version 7.4.1 or above Please upgrade to FortiAnalyzer-BigData version 7.2.6 or above Please upgrade to FortiManager version 7.4.1 or above Please upgrade to FortiManager version 7.2.4 or above Please upgrade to FortiManager version 7.0.10 or above\n        ",
-				"title": "Solutions",
-				"type": "General",
-				"ordinal": "5"
 			}
 		]
 	},

@@ -1,5 +1,5 @@
 {
-	"document_title": "Authentication bypass in Node.js websocket module",
+	"document_title": "Authentication bypass in Node.js websocket module and CSF requests",
 	"document_type": "Fortinet PSIRT Advisories",
 	"documentpublisher": {
 		"type": "Vendor",
@@ -19,12 +19,12 @@
 			}
 		},
 		"initial_release_date": "2025-01-14T00:00:00",
-		"current_release_date": "2025-01-15T00:00:00"
+		"current_release_date": "2025-02-11T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS and FortiProxy may allow a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.Please note that reports show this is being exploited in the wild.\n        ",
+				"text": "\n            An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS and FortiProxy may allow a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module or via crafted CSF proxy requests.Please note that reports show this is being exploited in the wild.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -50,21 +50,28 @@
 		]
 	},
 	"document_references": {},
-	"acknowledgments": {},
+	"acknowledgments": {
+		"acknowledgment": [
+			{
+				"description": "Fortinet is pleased to thank Sonny of watchTowr (https://watchtowr.com/) for reporting the CSF related vulnerability under responsible disclosure."
+			}
+		]
+	},
 	"vulnerability": {
 		"ordinal": "1",
-		"title": "Authentication bypass in Node.js websocket module",
+		"title": "Authentication bypass in Node.js websocket module and CSF requests",
 		"references": {
 			"type": "Self",
 			"reference": [
 				{
 					"url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-535",
-					"description": "Authentication bypass in Node.js websocket module"
+					"description": "Authentication bypass in Node.js websocket module and CSF requests"
 				}
 			]
 		},
 		"cve": [
-			"CVE-2024-55591"
+			"CVE-2024-55591",
+			"CVE-2025-24472"
 		],
 		"product_statuses": {
 			"status": {

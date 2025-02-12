@@ -19,12 +19,12 @@
 			}
 		},
 		"initial_release_date": "2024-03-12T00:00:00",
-		"current_release_date": "2024-02-27T00:00:00"
+		"current_release_date": "2025-01-24T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
 			{
-				"text": "\n            An out-of-bounds write vulnerability [CWE-787] and a Stack-based Buffer Overflow [CWE-121] in FortiOS & FortiProxy captive portal may allow an inside attacker who has access to captive portal to execute arbitrary code or commands via specially crafted HTTP requests.## Workaround:Set a non form-based authentication scheme:<br/>config authentication scheme<br/>edit scheme<br/>set method method<br/>next<br/>end<br/>Where <method> can be any of those :ntlm NTLM authentication.basic Basic HTTP authentication.digest Digest HTTP authentication.negotiate Negotiate authentication.fsso Fortinet Single Sign-On (FSSO) authentication.rsso RADIUS Single Sign-On (RSSO) authentication.ssh-publickey Public key based SSH authentication.cert Client certificate authentication.saml SAML authenticationNone of the enabled authentication schemes should be form-based.Please note that only devices with captive portal enabled are affected.\n        ",
+				"text": "\n            An out-of-bounds write vulnerability [CWE-787] and a Stack-based Buffer Overflow [CWE-121] in FortiOS & FortiProxy captive portal may allow an inside attacker who has access to captive portal to execute arbitrary code or commands via specially crafted HTTP requests.Workaround:Set a non form-based authentication scheme:config authentication schemeedit schemeset method methodnextendWhere <method> can be any of those :ntlm NTLM authentication.basic Basic HTTP authentication.digest Digest HTTP authentication.negotiate Negotiate authentication.fsso Fortinet Single Sign-On (FSSO) authentication.rsso RADIUS Single Sign-On (RSSO) authentication.ssh-publickey Public key based SSH authentication.cert Client certificate authentication.saml SAML authenticationNone of the enabled authentication schemes should be form-based.Please note that only devices with captive portal enabled are affected.\n        ",
 				"title": "Summary",
 				"type": "Summary",
 				"ordinal": "1"
@@ -42,16 +42,10 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiProxy version 7.4.0FortiProxy version 7.2.0 through 7.2.6FortiProxy version 7.0.0 through 7.0.12FortiProxy version 2.0.0 through 2.0.13FortiOS version 7.4.0 through 7.4.1FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12FortiOS version 6.4.0 through 6.4.14FortiOS version 6.2.0 through 6.2.15\n        ",
-				"title": "Affected Products",
-				"type": "General",
-				"ordinal": "4"
-			},
-			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.2 or abovePlease upgrade to FortiOS version 7.2.6 or abovePlease upgrade to FortiOS version 7.0.13 or abovePlease upgrade to FortiOS version 6.4.15 or abovePlease upgrade to FortiOS version 6.2.16 or abovePlease upgrade to FortiProxy version 7.4.1 or abovePlease upgrade to FortiProxy version 7.2.7 or abovePlease upgrade to FortiProxy version 7.0.13 or abovePlease upgrade to FortiProxy version 2.0.14 or aboveFortinet in Q3/23 has remediated this issue in FortiSASE version 23.3.b and hence the customers need not perform any action.\n        ",
+				"text": "\n            None\n        ",
 				"title": "Solutions",
 				"type": "General",
-				"ordinal": "5"
+				"ordinal": "4"
 			}
 		]
 	},
@@ -169,7 +163,8 @@
 					"FortiProxy-2.0.3",
 					"FortiProxy-2.0.2",
 					"FortiProxy-2.0.1",
-					"FortiProxy-2.0.0"
+					"FortiProxy-2.0.0",
+					"FortiSASE-23.2.b"
 				]
 			}
 		},
@@ -889,6 +884,20 @@
 							"full_product_name": {
 								"text": "FortiProxy 2.0.0",
 								"product_id": "FortiProxy-2.0.0"
+							}
+						}
+					]
+				},
+				{
+					"name": "FortiSASE",
+					"type": "Product Name",
+					"branch": [
+						{
+							"name": "23.2.b",
+							"type": "Product Version",
+							"full_product_name": {
+								"text": "FortiSASE 23.2.b",
+								"product_id": "FortiSASE-23.2.b"
 							}
 						}
 					]

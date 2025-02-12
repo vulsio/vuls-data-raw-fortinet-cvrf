@@ -42,13 +42,13 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            Vulnerable ProductsNone## Products Confirmed Not VulnerableFortiOS (includes FortiGate & FortiWiFi)FortiAnalyzerFortiManagerFortiAuthenticatorFortiDeceptorFortiMailFortiVoice(includes FortiPhone)FortiRecorderFortiSwitch & FortiSwitchManagerFortiAPFortiAP-W2FortiAP-SFortiAP-UFortiAP-CFortiADCFortiADCManagerFortiClientEMSFortiClient (All versions)FortiSandboxFortiProxyFortiWebFortiWLMFortiWLCFortiToken & FortiToken MobileFortiNDRFortiDDoSFortiDDoS-FFortiConnectFortiExtenderFortiConverterFortiLANCloudFortiToken CloudFortiPolicyFortiEDRFortiSASEFortiPortalFortiWebCloudFortiSIEMFortiCASBFortiAnalyzer CloudFortiManager CloudFortiSwitch CloudFortiExtender CloudFortiCWPFortiClient CloudFortiPhishFortiIsolatorFortiAIOpsFortiPentestFortiSOARFortiSandbox Cloud## Products still under investigationFortiCloudFortiInsight## Product potentialy impactedFortiAnalyzer-BigData version 7.0.1 through 7.0.4\n        ",
+				"text": "\n            Vulnerable ProductsNoneProducts Confirmed Not VulnerableFortiOS (includes FortiGate & FortiWiFi)FortiAnalyzerFortiManagerFortiAuthenticatorFortiDeceptorFortiMailFortiVoice(includes FortiPhone)FortiRecorderFortiSwitch & FortiSwitchManagerFortiAPFortiAP-W2FortiAP-SFortiAP-UFortiAP-CFortiADCFortiADCManagerFortiClientEMSFortiClient (All versions)FortiSandboxFortiProxyFortiWebFortiWLMFortiWLCFortiToken & FortiToken MobileFortiNDRFortiDDoSFortiDDoS-FFortiConnectFortiExtenderFortiConverterFortiLANCloudFortiToken CloudFortiPolicyFortiEDRFortiSASEFortiPortalFortiWebCloudFortiSIEMFortiCASBFortiAnalyzer CloudFortiManager CloudFortiSwitch CloudFortiExtender CloudFortiCWPFortiClient CloudFortiPhishFortiIsolatorFortiAIOpsFortiPentestFortiSOARFortiSandbox CloudProducts still under investigationFortiCloudFortiInsightProduct potentialy impactedFortiAnalyzer-BigData version 7.0.1 through 7.0.4\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            For full details of protections and detections for the IoCs related to this vulnerability, please see our outbreak alert :https://www.fortiguard.com/outbreak-alert## IPS Signature protection (FortiOS)https://www.fortiguard.com/encyclopedia/ips/52245Please upgrade to FortiAnalyzer-BigData version 7.2.0 or abovePlease upgrade to FortiAnalyzer-BigData version 7.0.5 or above\n        ",
+				"text": "\n            For full details of protections and detections for the IoCs related to this vulnerability, please see our outbreak alert :https://www.fortiguard.com/outbreak-alertIPS Signature protection (FortiOS)https://www.fortiguard.com/encyclopedia/ips/52245Please upgrade to FortiAnalyzer-BigData version 7.2.0 or abovePlease upgrade to FortiAnalyzer-BigData version 7.0.5 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

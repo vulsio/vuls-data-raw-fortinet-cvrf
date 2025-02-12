@@ -19,7 +19,7 @@
 			}
 		},
 		"initial_release_date": "2025-02-11T00:00:00",
-		"current_release_date": "2025-02-11T00:00:00"
+		"current_release_date": "2025-02-12T00:00:00"
 	},
 	"documentnotes": {
 		"note": [
@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.2 or abovePlease upgrade to FortiOS version 7.2.7 or abovePlease upgrade to FortiPAM version 1.2.0 or abovePlease upgrade to FortiSwitchManager version 7.2.3 or abovePlease upgrade to FortiSwitchManager version 7.0.3 or abovePlease upgrade to FortiProxy version 7.4.1 or abovePlease upgrade to FortiProxy version 7.2.8 or above\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.2 or abovePlease upgrade to FortiOS version 7.2.7 or abovePlease upgrade to FortiOS version 7.0.14 or abovePlease upgrade to FortiPAM version 1.2.0 or abovePlease upgrade to FortiSwitchManager version 7.2.3 or abovePlease upgrade to FortiSwitchManager version 7.0.3 or abovePlease upgrade to FortiProxy version 7.4.1 or abovePlease upgrade to FortiProxy version 7.2.8 or abovePlease upgrade to FortiProxy version 7.0.15 or above\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"

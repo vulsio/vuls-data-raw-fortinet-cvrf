@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiOS version 7.4.0FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12\n        ",
+				"text": "\n            FortiOS 7.6 all versions are not affectedFortiOS version 7.4.0FortiOS version 7.2.0 through 7.2.5FortiOS version 7.0.0 through 7.0.12FortiOS 6.4 all versions are not affected\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

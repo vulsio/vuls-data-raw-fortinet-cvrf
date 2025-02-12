@@ -42,7 +42,7 @@
 				"ordinal": "3"
 			},
 			{
-				"text": "\n            FortiProxy version 7.0.0 through 7.0.1FortiProxy 2.0 all versionsFortiProxy 1.2 all versionsFortiProxy 1.1 all versionsFortiOS version 7.0.0 through 7.0.3FortiOS version 6.4.0 through 6.4.9FortiOS version 6.2.2 through 6.2.16FortiOS version 6.0.7 through 6.0.18\n        ",
+				"text": "\n            FortiProxy 7.6 all versions are not affectedFortiProxy 7.4 all versions are not affectedFortiProxy 7.2 all versions are not affectedFortiProxy version 7.0.0 through 7.0.1FortiProxy 2.0 all versionsFortiProxy 1.2 all versionsFortiProxy 1.1 all versionsFortiOS 7.6 all versions are not affectedFortiOS 7.4 all versions are not affectedFortiOS 7.2 all versions are not affectedFortiOS version 7.0.0 through 7.0.3FortiOS version 6.4.0 through 6.4.9FortiOS version 6.2.2 through 6.2.16FortiOS version 6.0.7 through 6.0.18\n        ",
 				"title": "Affected Products",
 				"type": "General",
 				"ordinal": "4"

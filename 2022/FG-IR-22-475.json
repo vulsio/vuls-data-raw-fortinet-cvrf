@@ -48,7 +48,7 @@
 				"ordinal": "4"
 			},
 			{
-				"text": "\n            Please upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.4 or abovePlease upgrade to FortiOS version 7.0.11 or abovePlease upgrade to FortiOS version 6.4.12 or abovePlease upgrade to FortiOS version 6.2.14 or abovePlease upgrade to upcoming FortiOS version 6.0.17 or abovePlease upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or above##Workaround:Disable \"Host Check\", \"Restrict to Specific OS Versions\" and \"MAC address host checking\" in sslvpn portal configuration. For example for \"full-access\" sslvpn portal:<br/>config vpn ssl web portal<br/>edit \"full-access\"<br/>set os-check disable<br/>set host-check none<br/>set mac-addr-check disable<br/>end<br/>\n        ",
+				"text": "\n            Please upgrade to FortiOS version 7.4.0 or abovePlease upgrade to FortiOS version 7.2.4 or abovePlease upgrade to FortiOS version 7.0.11 or abovePlease upgrade to FortiOS version 6.4.12 or abovePlease upgrade to FortiOS version 6.2.14 or abovePlease upgrade to upcoming FortiOS version 6.0.17 or abovePlease upgrade to FortiProxy version 7.2.2 or abovePlease upgrade to FortiProxy version 7.0.8 or aboveWorkaround:Disable \"Host Check\", \"Restrict to Specific OS Versions\" and \"MAC address host checking\" in sslvpn portal configuration. For example for \"full-access\" sslvpn portal:config vpn ssl web portaledit \"full-access\"set os-check disableset host-check noneset mac-addr-check disableend\n        ",
 				"title": "Solutions",
 				"type": "General",
 				"ordinal": "5"
